@@ -1,0 +1,187 @@
+	    @media (min-width: 1025px)  {         
+        #container {
+            position: absolute;
+            left: 22%;
+	    width: 66%;
+            top: 3%;
+        }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {          
+        #container {
+            position: absolute;
+            left: 20%;
+ 	    width: 66%;
+            top: 2%;
+        }
+    }
+    @media (max-width:768px)  {           /* Device = Tablets, Ipads (portrait) */
+        #container {
+            position: absolute;
+            left: 2%;
+            width: 94%;
+        }
+    }
+
+    html {
+        font-family: "Lucida Sans", sans-serif;
+      } 
+    td {
+        text-align: left;
+        padding-left: 7px;
+        padding-bottom: 4px;
+        vertical-align: top;
+    }
+    tr:nth-child(even) {
+        background-color: #cccccc;
+    }
+    tr:hover {
+        background-color: #999999;
+    }
+    highlight1:before { 
+      content:  var(--off-highlight1, "\00a0"); 
+    }
+    highlight2:before {
+        content: var(--off-highlight2, "-");
+    }
+    #container p {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+    }
+    #container strong {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    #container rubrique {
+        font-size: 12px;
+        line-height: 14px;
+        color: rgb(156, 26, 101);
+        text-align: left;
+    }
+    #container rubpad {
+        font-size: 12px;
+        padding-left: 100px;
+        color: rgb(156, 26, 101);
+    }
+    greStar:before {
+        font-size: 20px;
+        content: '\00a0\2217\0a0';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    greStarNoSpace:before {
+        font-size: 20px;
+        content: '\2217';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    greDagger:before {
+        font-size: 20px;
+        content: '\2020\00a0\00a0';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    #container a {
+        text-decoration: none;
+    }
+    #container rougeliturgique {
+       color: rgb(156, 26, 101);
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .img12 {
+        max-width: 92%;
+        height: auto;
+     }
+    .img11 {
+        max-width: 85%;
+        height: auto;
+     }
+     .img10 {
+        max-width: 77%;
+        height: auto;
+     }
+     .img09 {
+        max-width: 69%;
+        height: auto;
+     }
+    @media (min-width:769px)  { 
+     .img08 {
+        max-width: 62%;
+        height: auto;
+     }
+    }
+    @media (max-width:768px)  {           /* Device = Tablets, Ipads (portrait) */
+     .img08 {
+        max-width: 100%;
+        height: auto;
+     }
+    }
+
+    .smallimg {
+        max-width: 75%;
+        height: auto;
+     }
+    .tinyimg {
+        max-width: 60%;
+        height: auto;
+     }
+    img.bottom {
+        vertical-align: bottom;
+    }
+    vers:before {
+        font-size: 20px;
+        content: '\2123 .';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    resp:before {
+        font-size: 20px;
+        content: '\211F . ';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    downarrow:before {
+        font-size: 20px;
+        content: '\00A0\00A0\00A0\21D3\00A0\00A0\00A0';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    uparrow:before {
+        font-size: 20px;
+        content: '\00A0\00A0\00A0\21D1\00A0\00A0\00A0';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    accent {
+        font-weight: bold;
+    }
+    prepa {
+        font-style: italic ;
+    }
+    @media only screen and (min-width: 1025px) { /* The element will be hidden if the screen is 1024px wide or more */
+        br.psalm {
+            display: none;
+        }
+      }
+
+:root {
+  --ion-color-pascha: #fbff00;
+  --ion-color-pascha-rgb: 251,255,0;
+  --ion-color-pascha-contrast: #000000;
+  --ion-color-pascha-contrast-rgb: 0,0,0;
+  --ion-color-pascha-shade: #dde000;
+  --ion-color-pascha-tint: #fbff1a;
+}
+
+.ion-color-pascha {
+  --ion-color-base: var(--ion-color-pascha);
+  --ion-color-base-rgb: var(--ion-color-pascha-rgb);
+  --ion-color-contrast: var(--ion-color-pascha-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-pascha-contrast-rgb);
+  --ion-color-shade: var(--ion-color-pascha-shade);
+  --ion-color-tint: var(--ion-color-pascha-tint);
+}
+
