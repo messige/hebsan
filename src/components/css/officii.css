@@ -1,4 +1,4 @@
-	    @media (min-width: 1025px)  {         
+    @media (min-width: 1025px)  {         
         #container {
             position: absolute;
             left: 22%;
@@ -31,11 +31,22 @@
         padding-bottom: 4px;
         vertical-align: top;
     }
-    tr:nth-child(even) {
-        background-color: #cccccc;
+     
+    @media screen and (prefers-color-scheme: light) {
+        tr:nth-child(even) {
+          background-color: #F2F2F2
+        }
+        tr:hover {
+          background-color: #999999;
+       }
     }
-    tr:hover {
-        background-color: #999999;
+    @media screen and (prefers-color-scheme: dark ){
+        tr:nth-child(even) {
+          background-color: #4b4b4b;
+        }
+        tr:hover {
+          background-color: #888888;
+       }
     }
     highlight1:before { 
       content:  var(--off-highlight1, "\00a0"); 
