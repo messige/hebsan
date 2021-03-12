@@ -27,7 +27,7 @@
 <tr><td><rubrique>12</rubrique></td>
 <td>In manu poténti et bráchi<highlight2><accent>o</accent></highlight2> ex<accent>cél</accent>so <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
-<td>Qui divísit Rubrum mare in di<highlight2><accent>vi</accent></highlight2>si<accent>ó</accent>nes <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Qui divísit mare Rubrum in di<highlight2><accent>vi</accent></highlight2>si<accent>ó</accent>nes <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>14</rubrique></td>
 <td>Et edúxit Israel per  <highlight1><accent>mé</accent></highlight1>dium  <accent>e</accent>ius <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>15</rubrique></td>

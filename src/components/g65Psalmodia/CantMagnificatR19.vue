@@ -19,7 +19,7 @@
 <tr><td><rubrique>8</rubrique></td>
 <td>Esuriéntes im<highlight2><accent>plé</accent></highlight2>vit  <accent>bo</accent>nis <greStar /><br class="psalm" />et dívites di<highlight2><accent>mí</accent></highlight2>sit i<accent>ná</accent>nes.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Suscépit Israel pu<highlight2><accent>é</accent></highlight2>rum  <accent>su</accent>um <greStar /><br class="psalm" />recordátus miseri<highlight2><accent>cór</accent></highlight2>diæ  <accent>su</accent>æ.</td></tr>
+<td>Suscépit Israel <highlight1><accent>pú</accent></highlight1>erum  <accent>su</accent>um <greStar /><br class="psalm" />recordátus miseri<highlight2><accent>cór</accent></highlight2>diæ  <accent>su</accent>æ.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
 <td>Sicut locútus est ad  <highlight1><accent>pa</accent></highlight1>tres  <accent>nos</accent>tros <greStar /><br class="psalm" />Abraham et sémini  <highlight1><accent>e</accent></highlight1>ius in  <accent>sǽ</accent>cula.</td></tr>
 <tr><td><rubrique>11</rubrique></td>

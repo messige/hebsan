@@ -19,7 +19,7 @@
 <tr><td><rubrique>8</rubrique></td>
 <td>Esuriéntes im<highlight2><prepa>plé</prepa></highlight2><prepa>vit</prepa>  <accent>bo</accent>nis <greStar /><br class="psalm" />et dívites di<highlight2><prepa>mí</prepa></highlight2><prepa>sit</prepa>  <prepa>i</prepa><accent>ná</accent>nes.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Suscépit Israel pu<highlight2><prepa>é</prepa></highlight2><prepa>rum</prepa>  <accent>su</accent>um <greStar /><br class="psalm" />recordátus miseri<highlight2><prepa>cór</prepa></highlight2><prepa>di</prepa><prepa>æ</prepa>  <accent>su</accent>æ.</td></tr>
+<td>Suscépit Israel pú<highlight2><prepa>e</prepa></highlight2><prepa>rum</prepa>  <accent>su</accent>um <greStar /><br class="psalm" />recordátus miseri<highlight2><prepa>cór</prepa></highlight2><prepa>di</prepa><prepa>æ</prepa>  <accent>su</accent>æ.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
 <td>Sicut locútus est ad  <highlight1><prepa>pa</prepa></highlight1><prepa>tres</prepa>  <accent>nos</accent>tros <greStar /><br class="psalm" />Abraham et sémini  <highlight1><prepa>e</prepa></highlight1><prepa>ius</prepa>  <prepa>in</prepa>  <accent>sǽ</accent>cula.</td></tr>
 <tr><td><rubrique>11</rubrique></td>

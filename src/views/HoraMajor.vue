@@ -262,13 +262,13 @@
               <template  v-else-if="office == 2">                                                               <!-- Le Mercredi Saint aux Vêpres  -->
                 <p><br />
                   <img src="../../public/assets/images/g50Antiphona/ANTOmniaQuaecumque.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus32Fg.jpg" /><br />
+                  <img src="../../public/assets/images/g70Tonus/Tonus31Fg.jpg" /><br />
                   <Ps421 /><br />                                                                                            
                   <img src="../../public/assets/images/g50Antiphona/ANTOmniaQuaecumque.jpg" />
                 </p>                 
                 <p>
                   <img src="../../public/assets/images/g50Antiphona/ANTQuoniamInAeternum.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus32Fg.jpg" /><br />
+                  <img src="../../public/assets/images/g70Tonus/Tonus31Fg.jpg" /><br />
                   <Ps422 /><br />                                                                                           
                   <img src="../../public/assets/images/g50Antiphona/ANTQuoniamInAeternum.jpg" />
                 </p>
