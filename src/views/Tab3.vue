@@ -22,7 +22,7 @@
        <p><strong>PRIVACY POLICY of The App Hebsan</strong></p>
        <p><strong>About This Policy</strong></p>
          <p>This privacy policy describes the privacy practices of the apps published by L'Académie de Chant grégorien, which includes a link to this policy.</p>
-         <p>Personal Information Collection</p>
+         <p><strong>Personal Information Collection</strong></p>
          <p>Apps published by L'Académie de Chant grégorien will not collect any personal information.<br />
         L'Académie de Chant grégorien will never implement a sign  feature nor access to things such as your location, contacts, calendars, microphone, camera or photos.<br />
         This App is not collecting and using your data, including information like your location, browsing history, and contacts.</p>  
@@ -35,10 +35,11 @@
         and we will delete any information already received in a secure manner.</p>
         <p><strong>Other Privacy Related Issues</strong></p>
         <p>Apps published by L'Académie de Chant grégorien may contain links to other sites or applications which are owned or run by 3rd parties.<br />
-        The App Tank Group will not be responsible for those linked sites or application.</p>
+        L'Académie de Chant grégorien will not be responsible for those linked sites or application.</p>
         <p><strong>Changes on Privacy Policy</strong></p>
-        <p>If we change or update the privacy policy to allow L'Académie de Chant grégorien to use or share previously collected personal information in a different way,<br />
-        we will update the Policy on this web page. We encourage to periodically visit this page for the latest privacy practices.</p>
+        <p>If we change or update the privacy policy to allow L'Académie de Chant grégorien to use or share previously collected personal information in a different way,
+        we will update the Policy on this web page.<br /> 
+        We encourage to periodically visit this page for the latest privacy practices.</p>
          <p><strong>POWERED BY</strong></p>
          <p>L'Académie de Chant grégorien<br />
          https://gregorien.be</p>

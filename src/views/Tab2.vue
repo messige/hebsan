@@ -49,7 +49,7 @@
                     </tr> 
                     <tr>
                         <td><rubrique>Sun. 4/04/2021</rubrique></td>
-                        <td><rubrique>Resurectio Domini</rubrique></td>
+                        <td><rubrique>Resurrectio Domini</rubrique></td>
                     </tr> 
                 </table>  
             </center>                      
