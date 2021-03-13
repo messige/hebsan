@@ -2,7 +2,7 @@
     <ion-page>
         <ion-content>
           <div id="container">
-              <p><strong>Hebdomada Sancta</strong></p>
+              <p><strong>Hebdomada Sancta </strong></p>
             <p><ion-button color="medium" router-link="/officeList/9">Domenica in Palmis - La Veille</ion-button></p>
             <p><ion-button color="medium" router-link="/officeList/1">Domenica in Palmis</ion-button></p>
             <p><ion-button color="medium" router-link="/officeList/2">Feria II - Lundi  Saint</ion-button></p>
@@ -17,7 +17,7 @@
   </ion-page>
 </template>
 
-<script lang="ts">
+<script lang="ts"> 
 import { IonPage , IonContent , IonButton } from '@ionic/vue';
 
 

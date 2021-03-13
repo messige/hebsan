@@ -7,7 +7,7 @@
         </ion-header>
         <ion-content>
 
-          <div id="container">
+          <div id="container"> 
             <p> <strong>Hebdomada Sancta - Ad horas Majores et Minores</strong></p>
                   <p>
         Les Heures  de la Semaine Sainte<br />
