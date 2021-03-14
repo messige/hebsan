@@ -92,7 +92,7 @@
   </ion-page>
 </template>
 
-<script lang="ts">
+<script lang="ts"> 
     import { IonPage, IonContent , IonButton } from '@ionic/vue';
     import { useRoute }         from 'vue-router';    
     import Ps004                from '@/components/g65Psalmodia/Ps004R03.vue';
