@@ -70,6 +70,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'HoraMajor',
     component: () => import('@/views/HoraMajor.vue') ,
     props: true,
+  } ,
+  {
+    path: '/toni',
+    name: 'Toni',
+    component: () => import('@/views/Toni.vue') ,
   } ,   
 ]
 

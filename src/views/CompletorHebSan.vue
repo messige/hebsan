@@ -1,20 +1,58 @@
 <template>
-    <ion-page>
-        <ion-content :fullscreen="true">
-            <ion-header collapse="condense">
-                <ion-toolbar>
-                    <ion-title size="large">Ad Completorium</ion-title>
-                </ion-toolbar>
-            </ion-header>
-            <div id="container">
-              <strong>{{feastTitle}}</strong>
-              <p>&nbsp;</p>
-    <p><strong>Ad Completorium</strong></p>
-    <br />
+  <ion-page>
+    <ion-content :fullscreen="true">
+      <ion-header collapse="condense">
+        <ion-toolbar>
+          <ion-title size="large">{{FeastTitle}}</ion-title> 
+        </ion-toolbar>
+      </ion-header>            
+      <div id="container">
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <strong>{{feastTitle}}</strong><br />
+              <strong>{{feastTitleFr}}</strong>
+            </ion-col>
+            <ion-col>
+              <ion-button color="tertiary" router-link="/" >Back to Home</ion-button>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <strong>Ad Completorium</strong>
+            </ion-col>
+            <ion-col>
+              <template  v-if="feast == 1"> 
+                <ion-button color="tertiary" router-link="/officeList/1">Back to Dom.</ion-button>  
+              </template>          
+              <template  v-else-if="feast == 2">
+               <ion-button color="tertiary" router-link="/officeList/2">Back to Feria II</ion-button>  
+              </template>
+              <template  v-else-if="feast == 3">
+                <ion-button color="tertiary" router-link="/officeList/3">Back to Feria III</ion-button>  
+              </template>
+              <template  v-else-if="feast == 4">
+                <ion-button color="tertiary" router-link="/officeList/4">Back to Feria IV</ion-button>  
+              </template>
+              <template  v-else-if="feast == 8"> 
+                <ion-button color="tertiary" router-link="/officeList/8">Back to Dom.</ion-button>           
+              </template>  
+              <template v-else-if="feast == 9">
+                <ion-button color="tertiary" router-link="/officeList/9">Back to Sabb.</ion-button>  
+              </template>                        
+            </ion-col>
+          </ion-row>          
+        </ion-grid>
+
     <div class="content">
         <p><img src   = "../../public/assets/images/g95InOrdineOfficii/IubeDomne.jpg" /></p>
         <p><img src   = "../../public/assets/images/g75Lectio/FratresSobrii.jpg" /></p>
-        <p><img src   = "../../public/assets/images/g95InOrdineOfficii/AdiutoriumNostrum.jpg" /></p>
+        <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorQuad1.jpg" /><br />
+        <resp>Dómine ad adiuvándum me festína.</resp><br />
+        Glória Patri, et Fílio et Spirítui Sancto.<br />
+        Sicut erat in princípio,  et nunc, et semper<br />
+        et in sǽcula sæculórum. Amen.<br />
+        <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorQuad2.jpg" />
     </div>
     <p></p>
     <div align="left">
@@ -69,21 +107,21 @@
     <p><img src="../../public/assets/images/g50Antiphona/ant_ave_regina_caelorum_simplex.jpg" /></p>
     <p>&nbsp;</p>
             <template  v-if="feast == 1"> 
-              <p><ion-button color="light" router-link="/officeList/1">Domenica in Palmis - index</ion-button></p>
+              <p><ion-button color="tertiary" router-link="/officeList/1">Domenica in Palmis - index</ion-button></p>
             </template>          
             <template  v-else-if="feast == 2">
-              <p><ion-button color="light" router-link="/officeList/2">Feria II - index</ion-button></p>
+              <p><ion-button color="tertiary" router-link="/officeList/2">Feria II - index</ion-button></p>
             </template>
             <template  v-else-if="feast == 3">
-              <p><ion-button color="light" router-link="/officeList/3">Feria III - index</ion-button></p>
+              <p><ion-button color="tertiary" router-link="/officeList/3">Feria III - index</ion-button></p>
             </template>
             <template  v-else-if="feast == 4">
-              <p><ion-button color="light" router-link="/officeList/4">Feria IV - index</ion-button></p>
+              <p><ion-button color="tertiary" router-link="/officeList/4">Feria IV - index</ion-button></p>
             </template>
             <template  v-else-if="feast == 9"> 
-              <p><ion-button color="light" router-link="/officeList/9">Domenica in Palmis (Sabbato) - index</ion-button></p>
+              <p><ion-button color="tertiary" router-link="/officeList/9">Domenica in Palmis (Sabbato) - index</ion-button></p>
             </template>                            
-          <p><ion-button color="light" router-link="/">Hebdomada Sancta - index</ion-button></p>
+          <p><ion-button color="tertiary" router-link="/">Hebdomada Sancta - index</ion-button></p>
           <p>&nbsp;</p>
           <p>&nbsp;</p>              
       </div>  
@@ -168,9 +206,10 @@
           ] ; 
 
           const feastCurrent = arrayFeasts [+feast-1] ;
-          const feastTitle = feastCurrent?.title + " - " + feastCurrent?.titleFr ;
+          const feastTitle = feastCurrent?.title ;
+          const feastTitleFr = feastCurrent?.titleFr ;
           const feastAntiphon = '<img src="../../public/assets/images/g50Antiphona/' + feastCurrent?.antiphon + '.jpg" />';
-          return  { feast , feastTitle , feastAntiphon } ;
+          return  { feast , feastTitle , feastTitleFr , feastAntiphon } ;
         }
 
     })

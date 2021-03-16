@@ -12,6 +12,7 @@
             <p><ion-button color="dark" router-link="/officeList/6">Feria VI In Parasceve - Vendredi Saint</ion-button></p>
             <p><ion-button color="dark" router-link="/officeList/7">Sabbato Sancto - Samedi Saint</ion-button></p>
             <p><ion-button color="warning" router-link="/officeList/8">Resurrectio Domini - Dimanche de Pâques</ion-button></p>
+            <p><ion-button color="tertiary" router-link="/toni">Toni Communes - Tons communs</ion-button></p>
           </div>
       </ion-content>
   </ion-page>
