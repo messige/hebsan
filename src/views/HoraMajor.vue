@@ -53,17 +53,33 @@
         </ion-grid>
 
         <div class="content">
-          <template  v-if="feast == 8">                                                            <!-- Le Dimanche de Pâques aux Vêpres  -->
+          <template v-if="(feast == 1 && office == 1) || feast == 2 || feast == 3 || feast == 4 || ( feast == 8 && office == 1 ) ">
+            <p> 
+              <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorQuad1.jpg" /><br />
+              <resp>Dómine ad adiuvándum me festína.</resp><br />
+              Glória Patri, et Fílio et Spirítui Sancto.<br />
+              Sicut erat in princípio,  et nunc, et semper<br />
+              et in sǽcula sæculórum. Amen.<br />
+              <template v-if="feast == 8">
+                <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorPascha2.jpg" />
+              </template>
+              <template  v-else>    
+                <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorQuad2.jpg" />
+              </template>
+            </p>
+            </template>
+          <template  v-else-if="(feast == 1 && office == 2 )|| feast == 9 ">                      <!-- Le Dimanche des Rameaux et la veille aux Vêpres  -->
+            <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumSolemnQuad.jpg" />
+          </template>
+          <template  v-else-if="feast == 8 && office == 2 ">                                      <!-- Le Dimanche de Pâques aux Vêpres  -->
             <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumSolemn.jpg" />
           </template>
-          <template v-else>
-          <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumSolemnQuad.jpg" />
-          </template>
+
           <p>
             <rubrique>Antiphona</rubrique><br />
             <template v-if="feast == 1">
               <template v-if="office == 1"> 
-                 <p>                                                                                          <!-- Le Dimanche des Rameaux aux Laudes -->
+                 <p>                                                                                     <!-- Le Dimanche des Rameaux aux Laudes -->
                   <img src="../../public/assets/images/g50Antiphona/AntDomDeusAuxiliatorNeu.png" /><br /> 
                   <img src="../../public/assets/images/g50Antiphona/AntDomDeusAuxiliator.jpg" /><br />             
                   <img src="../../public/assets/images/g70Tonus/Tonus02Fd2.jpg" />
