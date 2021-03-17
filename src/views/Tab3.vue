@@ -9,7 +9,8 @@
 
           <div id="container"> 
             <p> <strong>Hebdomada Sancta - Ad horas Majores et Minores</strong></p>
-                  <p>
+                  <p>Last update: 17/03/2021</p>
+            <p>
         Les Heures  de la Semaine Sainte<br />
         telles que chantées à l'abbaye de Fontfroide<br />par le Choeur grégorien de Paris.<br />
      </p>
