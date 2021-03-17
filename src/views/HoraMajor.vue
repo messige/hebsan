@@ -437,10 +437,10 @@
             <template v-else-if="feast == 8">
               <template v-if="office == 1">                                                                    <!-- Le Dimanche de Pâques aux Laudes --> 
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.png" /><br />
+                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
                   <Ps811 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.png" />
+                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.jpg" />
                 </p>
                 <p>
                   <img src="../../public/assets/images/g50Antiphona/ANTEtEcceTerraemotus.jpg" /><br />
@@ -469,10 +469,10 @@
               </template>
               <template  v-else-if="office == 2">                                                               <!-- Le Dimanche de Pâques aux Vêpres  -->
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.png" /><br />
+                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus08Fc.jpg" /><br />
                   <Ps821 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.png" />
+                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.jpg" />
                 </p>              
                 <p>
                   <img src="../../public/assets/images/g50Antiphona/ANTEtEcceTerraemotus.jpg" /><br />
