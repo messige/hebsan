@@ -5,12 +5,13 @@
         <ion-header>
           <ion-toolbar>
             <ion-buttons>
-              <ion-back-button default-href="/"></ion-back-button>
+              <ion-back-button default-href="/" text="Back"></ion-back-button>
             </ion-buttons>
             &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br />&nbsp;&nbsp;&nbsp;{{OfficeTitle}}</strong>
           </ion-toolbar>
         </ion-header>      
-          <div class="content">  
+          <div class="content"> 
+            <br /> 
             <template v-if="(feast == 1 && office == 1) || feast == 2 || feast == 3 || feast == 4 || ( feast == 8 && office == 1 ) ">
             <p> 
               <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorQuad1.jpg" /><br />
@@ -38,39 +39,34 @@
             <template v-if="feast == 1">
               <template v-if="office == 1"> 
                  <p>                                                                                     <!-- Le Dimanche des Rameaux aux Laudes -->
-                  <img src="../../public/assets/images/g50Antiphona/AntDomDeusAuxiliatorNeu.png" /><br /> 
                   <img src="../../public/assets/images/g50Antiphona/AntDomDeusAuxiliator.jpg" /><br />             
                   <img src="../../public/assets/images/g70Tonus/Tonus02Fd2.jpg" />
                   <Ps111 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntDomDeusAuxiliator.jpg" />   
                 </p>
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntCircumdantesCircumdederuntNeu.png" /><br /> 
                   <img src="../../public/assets/images/g50Antiphona/AntCircumdantesCircumdederunt.jpg" /><br />     
                   <img src="../../public/assets/images/g70Tonus/Tonus01Fa2.jpg" />
                   <Ps112 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntCircumdantesCircumdederunt.jpg" /> 
                 </p>
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntIudicaCausamNeu.png" /><br /> 
                   <img src="../../public/assets/images/g50Antiphona/AntIudicaCausam.jpg" /><br />                  
                   <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" />
                   <Ps113 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntIudicaCausam.jpg" />   
                 </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntCumAngelisEtPuerisNeu.png" /><br />  
+                <p> 
                   <img src="../../public/assets/images/g50Antiphona/AntCumAngelisEtPueris.jpg" /><br />   
                   <img src="../../public/assets/images/g70Tonus/Tonus07SFa.jpg" />
                   <Ps114 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntCumAngelisEtPueris.jpg" />   
                 </p>
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntConfundanturQuiMeNeu.png" /><br />  
                   <img src="../../public/assets/images/g50Antiphona/AntConfundanturQuiMe.jpg" /><br /> 
                   <img src="../../public/assets/images/g70Tonus/Tonus09Fa.jpg" />
                   <Ps115 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntConfundanturQuiMe.jpg" />>
+                  <img src="../../public/assets/images/g50Antiphona/AntConfundanturQuiMe.jpg" />
                 </p>                  
               </template>
               <template  v-else-if="office == 2">                                        <!-- Le Dimanche des Rameaux aux Vêpres -->
@@ -104,10 +100,10 @@
             <template v-else-if="feast == 2">
               <template v-if="office == 1">                                                                 <!-- Le Lundi Saint aux Laudes -->
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTFaciemMeam.png" /><br />
+                  <img src="../../public/assets/images/g50Antiphona/AntFaciemMeam.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus09Fa.jpg" /><br />
                   <Ps211 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/ANTFaciemMeam.png" /> 
+                  <img src="../../public/assets/images/g50Antiphona/AntFaciemMeam.jpg" /> 
                 </p>
                 <p>
                   <img src="../../public/assets/images/g50Antiphona/AntFramea2.jpg" /><br />
@@ -122,10 +118,10 @@
                   <img src="../../public/assets/images/g50Antiphona/AntAppenderunt.jpg" /> 
                 </p>
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntInundaveruntAquae.png" /><br />
+                  <img src="../../public/assets/images/g50Antiphona/AntInundaveruntAquae.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
                   <Ps214 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntInundaveruntAquae.png" /> 
+                  <img src="../../public/assets/images/g50Antiphona/AntInundaveruntAquae.jpg" /> 
                 </p>
                 <p>
                   <img src="../../public/assets/images/g50Antiphona/AntLabiaInsurgentibus.jpg" /><br />
@@ -455,21 +451,18 @@
             <template v-else-if="feast == 9">
               <template  v-if="office == 2">                                                                  <!-- La veille des Rameaux aux Vêpres  -->
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntRegnumTuumNeu.png" /><br /> 
                   <img src="../../public/assets/images/g50Antiphona/AntRegnumTuum.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus08Fc.jpg" /> 
                   <Ps921 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntRegnumTuum.jpg" /> 
                 </p>
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntLaudaboDeumMeumNeu.png" /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntLaudaboDeumMeum.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus12Fe2.jpg" /> 
                   <Ps922 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntLaudaboDeumMeum.jpg" />
                 </p>
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntDeoNostroIucundaNeu.png" /><br /> 
                   <img src="../../public/assets/images/g50Antiphona/AntDeoNostroIucunda.jpg" /><br />              
                   <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" />
                   <Ps923 /><br />
@@ -607,7 +600,6 @@
             <template v-if="feast == 1">
               <template v-if="office == 1">                                                       <!-- Le Dimanche des Rameaux aux Laudes -->
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntTurbaMultaNeu.png" /><br /> 
                   <img src="../../public/assets/images/g50Antiphona/AntTurbaMulta.jpg" /><br />               
                   <img src="../../public/assets/images/g70Tonus/Tonus41Fe.jpg" />
                   <Cant11 /><br />
@@ -626,10 +618,10 @@
             <template v-else-if="feast == 2">
               <template v-if="office == 1">
                  <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntClarificaMe.png" /><br />
+                  <img src="../../public/assets/images/g50Antiphona/AntClarificaMe.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus01Ff.jpg" /><br />
                   <Cant21 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntClarificaMe.png" /> 
+                  <img src="../../public/assets/images/g50Antiphona/AntClarificaMe.jpg" /> 
                  </p>
               </template>
               <template  v-else-if="office == 2">                                                     <!-- Le Lundi Saint aux Vêpres -->
@@ -738,7 +730,6 @@
             <template v-else-if="feast == 9">                                                           <!-- La veille des Rameaux -->
               <template v-if="office == 2">
                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntPaterIusteMundusNeu.png" /><br /> 
                   <img src="../../public/assets/images/g50Antiphona/AntPaterIusteMundus.jpg" /><br />                 
                   <img src="../../public/assets/images/g70Tonus/Tonus41Fe.jpg" />
                   <Cant92 /><br />
@@ -847,6 +838,8 @@
                 <ion-button color="tertiary" router-link="/officeList/8">Back to Dom.</ion-button>           
               </template>                         
             <p><ion-button color="tertiary" router-link="/">Back to home</ion-button></p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>              
           <p>&nbsp;</p>
           <p>&nbsp;</p>         
         </div> 

@@ -91,7 +91,9 @@
               </template>  
           <p><ion-button color="tertiary" router-link="/">Back to home</ion-button></p>
           <p>&nbsp;</p>
-          <p>&nbsp;</p>                                
+          <p>&nbsp;</p>              
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>                                 
             </div>
         </div>  
     </ion-content>

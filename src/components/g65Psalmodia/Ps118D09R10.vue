@@ -11,7 +11,7 @@
 <tr><td><rubrique>4</rubrique></td>
 <td><highlight1><prepa>Bo</prepa></highlight1><prepa>nus</prepa>  <accent>es</accent> tu <greStar /><br class="psalm" />et in bonitáte tua doce me iustifica<highlight2><prepa>ti</prepa></highlight2><prepa>ó</prepa><prepa>nes</prepa>  <accent>tu</accent>as.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Multiplicáta est super me iníquitas  <highlight1><prepa>su</prepa></highlight1><prepa>per</prepa><accent>bó</accent>rum <greStar /><br class="psalm" />ego autem in toto corde meo scrutábor  <highlight1><prepa>man</prepa></highlight1><prepa>dá</prepa><prepa>ta</prepa>  <accent>tu</accent>a.</td></tr>
+<td>Multiplicáta est super me iníquitas  <highlight1><prepa>su</prepa></highlight1><prepa>per</prepa><accent>bó</accent>rum <greStar /><br />ego autem in toto corde meo scrutábor  <highlight1><prepa>man</prepa></highlight1><prepa>dá</prepa><prepa>ta</prepa>  <accent>tu</accent>a.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Coagulátum est sicut lac  <highlight1><prepa>cor</prepa></highlight1>  <prepa>e</prepa><accent>ó</accent>rum <greStar /><br class="psalm" />ego vero legem tu<highlight2><prepa>am</prepa></highlight2>  <prepa>me</prepa><prepa>di</prepa><accent>tá</accent>tus sum.</td></tr>
 <tr><td><rubrique>7</rubrique></td>

@@ -15,7 +15,7 @@
 <td><highlight1><prepa>Bo</prepa></highlight1><prepa>nus</prepa>  <accent>es</accent> tu <greStar /><br class="psalm" />
     et in bonitáte tua doce me iustificatiónes tuas.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Multiplicáta est super me iníquitas  <highlight1><prepa>su</prepa></highlight1><prepa>per</prepa><accent>bó</accent>rum <greStar /><br class="psalm" />
+<td>Multiplicáta est super me iníquitas  <highlight1><prepa>su</prepa></highlight1><prepa>per</prepa><accent>bó</accent>rum <greStar /><br />
     ego autem in toto corde meo scrutábor mandáta tua.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Coagulátum est sicut lac  <highlight1><prepa>cor</prepa></highlight1>  <prepa>e</prepa><accent>ó</accent>rum <greStar /><br class="psalm" />

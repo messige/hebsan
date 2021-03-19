@@ -5,7 +5,7 @@
         <ion-header no-border >
           <ion-toolbar>
             <ion-buttons>
-              <ion-back-button default-href="/"></ion-back-button>
+              <ion-back-button default-href="/" text="Back"></ion-back-button>
             </ion-buttons>
             &nbsp;&nbsp;&nbsp;<strong>{{FeastCurrent.title}}<br />&nbsp;&nbsp;&nbsp;{{FeastCurrent.titleFr}}</strong>
           </ion-toolbar>

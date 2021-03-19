@@ -27,7 +27,7 @@
 <tr><td><rubrique>12</rubrique></td>
 <td>Custódit Dóminus omnes dili<highlight2><accent>gén</accent></highlight2>tes se <greStar /><br class="psalm" />et omnes peccató<highlight2><prepa>res</prepa></highlight2>  <prepa>dis</prepa><accent>pér</accent>det.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
-<td>Laudatiónem Dómini loquétur os  <highlight1><accent>me</accent></highlight1>um <greStar /><br class="psalm" />et benedícat omnis caro nómini sancto eius<br class="psalm" />in sǽculum et in sǽ<highlight2><prepa>cu</prepa></highlight2><prepa>lum</prepa>  <accent>sǽ</accent>culi.</td></tr>
+<td>Laudatiónem Dómini loquétur os  <highlight1><accent>me</accent></highlight1>um <greStar /><br />et benedícat omnis caro nómini sancto eius<br class="psalm" />in sǽculum et in sǽ<highlight2><prepa>cu</prepa></highlight2><prepa>lum</prepa>  <accent>sǽ</accent>culi.</td></tr>
 <tr><td><rubrique>14</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>15</rubrique></td>

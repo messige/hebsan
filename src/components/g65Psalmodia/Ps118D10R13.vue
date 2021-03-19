@@ -3,7 +3,7 @@
         <rubrique>Ps.118-10</rubrique><br class="psalm" />
 <table id="psalm118-10">
 <tr><td><rubrique>1</rubrique></td>
-<td>Manus tuæ fecérunt me et  <highlight1><prepa>plas</prepa></highlight1><prepa>ma</prepa><accent>vé</accent>runt me <greStar /><br class="psalm" />
+<td>Manus tuæ fecérunt me et  <highlight1><prepa>plas</prepa></highlight1><prepa>ma</prepa><accent>vé</accent>runt me <greStar /><br />
     da mihi intelléctum et discam mandáta tua.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Qui timent te vidébunt me et  <highlight1><prepa>læ</prepa></highlight1><prepa>ta</prepa><accent>bún</accent>tur <greStar /><br class="psalm" />
@@ -18,7 +18,7 @@
 <td>Véniant mihi miseratiónes tu<highlight2><prepa>æ</prepa></highlight2>  <prepa>et</prepa>  <accent>vi</accent>vam <greStar /><br class="psalm" />
     quia lex tua meditátio mea est.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>Confundántur supérbi quia iniúste iniquitátem fe<highlight2><prepa>cé</prepa></highlight2><prepa>runt</prepa>  <accent>in</accent> me <greStar /><br class="psalm" />
+<td>Confundántur supérbi quia iniúste iniquitátem fe<highlight2><prepa>cé</prepa></highlight2><prepa>runt</prepa>  <accent>in</accent> me <greStar /><br />
     ego autem exercébor in mandátis tuis.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
 <td>Convertántur mi<highlight2><prepa>hi</prepa></highlight2>  <prepa>ti</prepa><accent>mén</accent>tes te <greStar /><br class="psalm" />

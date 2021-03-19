@@ -5,7 +5,7 @@
 <tr><td><rubrique>1</rubrique></td>
 <td>Pórtio  <highlight1><prepa>me</prepa></highlight1><prepa>a</prepa>  <accent>Dó</accent>mine <greStar /><br class="psalm" />dixi custodí<highlight2><prepa>re</prepa></highlight2>  <prepa>le</prepa><prepa>gem</prepa>  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
-<td>Deprecátus sum fáciem tuam in toto  <highlight1><prepa>cor</prepa></highlight1><prepa>de</prepa>  <accent>me</accent>o <greStar /><br class="psalm" />miserére mei secúndum e<highlight2><prepa>ló</prepa></highlight2><prepa>qui</prepa><prepa>um</prepa>  <accent>tu</accent>um.</td></tr>
+<td>Deprecátus sum fáciem tuam in toto  <highlight1><prepa>cor</prepa></highlight1><prepa>de</prepa>  <accent>me</accent>o <greStar /><br />miserére mei secúndum e<highlight2><prepa>ló</prepa></highlight2><prepa>qui</prepa><prepa>um</prepa>  <accent>tu</accent>um.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
 <td>Cogitávi  <highlight1><prepa>vi</prepa></highlight1><prepa>as</prepa>  <accent>me</accent>as <greStar /><br class="psalm" />et convérti pedes meos in testi<highlight2><prepa>mó</prepa></highlight2><prepa>ni</prepa><prepa>a</prepa>  <accent>tu</accent>a.</td></tr>
 <tr><td><rubrique>4</rubrique></td>

@@ -21,7 +21,7 @@
 <td>Aufer a me oppróbrium  <highlight1><accent>et</accent></highlight1> con<accent>témp</accent>tum <greStar /><br class="psalm" />
     quia testimónia tua  <highlight1><prepa>ex</prepa></highlight1><prepa>qui</prepa><accent>sí</accent>vi.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Étenim sedérunt príncipes et advérsum me  <highlight1><accent>lo</accent></highlight1>que<accent>bán</accent>tur <greStarNoSpace /><br class="psalm" />
+<td>Étenim sedérunt príncipes et advérsum me  <highlight1><accent>lo</accent></highlight1>que<accent>bán</accent>tur <greStarNoSpace /><br />
     servus autem tuus exercebátur in iustificatió<highlight2><prepa>ni</prepa></highlight2><prepa>bus</prepa>  <accent>tu</accent>is.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Nam et testimónia tua medi<highlight2><accent>tá</accent></highlight2>tio  <accent>me</accent>a est <greStar /><br class="psalm" />

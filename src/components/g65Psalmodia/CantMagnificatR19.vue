@@ -7,7 +7,7 @@
 <tr><td><rubrique>2</rubrique></td>
 <td>Et exsultávit  <highlight1><accent>spí</accent></highlight1>ritus  <accent>me</accent>us <greStar /><br class="psalm" />in Deo salu<highlight2><accent>tá</accent></highlight2>ri  <accent>me</accent>o.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
-<td>Quia respéxit humilitátem an<highlight2><accent>cíl</accent></highlight2>læ  <accent>su</accent>æ <greStar /><br class="psalm" />ecce enim ex hoc beátam me dicent omnes gene<highlight2><accent>ra</accent></highlight2>ti<accent>ó</accent>nes.</td></tr>
+<td>Quia respéxit humilitátem an<highlight2><accent>cíl</accent></highlight2>læ  <accent>su</accent>æ <greStar /><br />ecce enim ex hoc beátam me dicent omnes gene<highlight2><accent>ra</accent></highlight2>ti<accent>ó</accent>nes.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
 <td>Quia fecit mihi  <highlight1><accent>ma</accent></highlight1>gna qui  <accent>po</accent>tens est <greStar /><br class="psalm" />et sanctum  <highlight1><accent>no</accent></highlight1>men  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>5</rubrique></td>

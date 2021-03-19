@@ -5,7 +5,7 @@
 <tr><td><rubrique>1</rubrique></td>
 <td>Pórtio  <highlight1><prepa>me</prepa></highlight1><prepa>a</prepa>  <accent>Dó</accent>mine <greStar />dixi custodíre legem tuam.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
-<td>Deprecátus sum fáciem tuam in toto  <highlight1><prepa>cor</prepa></highlight1><prepa>de</prepa>  <accent>me</accent>o <greStar /><br class="psalm" />
+<td>Deprecátus sum fáciem tuam in toto  <highlight1><prepa>cor</prepa></highlight1><prepa>de</prepa>  <accent>me</accent>o <greStar /><br />
     miserére mei secúndum elóquium tuum.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
 <td>Cogitávi  <highlight1><prepa>vi</prepa></highlight1><prepa>as</prepa>  <accent>me</accent>as <greStar /><br class="psalm" />

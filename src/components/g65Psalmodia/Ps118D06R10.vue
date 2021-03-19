@@ -3,11 +3,11 @@
         <rubrique>Ps.118-6</rubrique><br class="psalm" />
 <table id="psalm118-6">
 <tr><td><rubrique>1</rubrique></td>
-<td>Et véniat super me misericórdia  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />salutáre tuum secúndum e<highlight2><prepa>ló</prepa></highlight2><prepa>qui</prepa><prepa>um</prepa>  <accent>tu</accent>um.</td></tr>
+<td>Et véniat super me misericórdia  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>,  <accent>Dó</accent>mine <greStar /><br />salutáre tuum secúndum e<highlight2><prepa>ló</prepa></highlight2><prepa>qui</prepa><prepa>um</prepa>  <accent>tu</accent>um.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Et respondébo exprobrántibus  <highlight1><prepa>mi</prepa></highlight1><prepa>hi</prepa>  <accent>ver</accent>bum <greStar /><br class="psalm" />quia sperávi in ser<highlight2><prepa>mó</prepa></highlight2><prepa>ni</prepa><prepa>bus</prepa>  <accent>tu</accent>is.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
-<td>Et ne áuferas de ore meo verbum veritátis  <highlight1><prepa>us</prepa></highlight1><prepa>que</prepa><accent>quá</accent>que <greStar /><br class="psalm" />quia in iudíciis tuis  <highlight1><prepa>su</prepa></highlight1><prepa>per</prepa><prepa>spe</prepa><accent>rá</accent>vi.</td></tr>
+<td>Et ne áuferas de ore meo verbum veritátis  <highlight1><prepa>us</prepa></highlight1><prepa>que</prepa><accent>quá</accent>que <greStar /><br />quia in iudíciis tuis  <highlight1><prepa>su</prepa></highlight1><prepa>per</prepa><prepa>spe</prepa><accent>rá</accent>vi.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
 <td>Et custódiam legem  <highlight1><prepa>tu</prepa></highlight1><prepa>am</prepa>  <accent>sem</accent>per <greStar /><br class="psalm" />in sǽculum et in  <highlight1><prepa>sǽ</prepa></highlight1><prepa>cu</prepa><prepa>lum</prepa>  <accent>sǽ</accent>culi.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
