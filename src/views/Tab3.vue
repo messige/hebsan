@@ -8,8 +8,8 @@
     <ion-content>
 
     <div id="container"> 
-      <p> <strong>Hebdomada Sancta - Ad horas Majores et Minores</strong></p>
-      <p>Last update: 17/03/2021</p>
+      <p> <strong>Hebdomada Sancta<br />Ad horas Majores et Minores</strong></p>
+      <p>Last update: 18/03/2021</p>
       <p><strong>Description - fr</strong></p>
       <p>
         Les Heures  de la Semaine Sainte<br />
@@ -77,27 +77,6 @@
         components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
     }
 </script>
-<style scoped>
-#container {
-  position: absolute;
-  left: 10%;
-  right: 0;
-  top: 2%;
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
-  margin: 20;
-}
-
-#container a {
-  text-decoration: none;
-}
+<style>
+@import '../components/css/officii.css';
 </style>

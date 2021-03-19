@@ -1,31 +1,15 @@
-<template>
+ <template>
   <ion-page>
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">{{feastTitle }}</ion-title> 
-        </ion-toolbar>
-      </ion-header>            
       <div id="container">
-        <ion-grid>
-          <ion-row>
-            <ion-col>
-              <strong>{{feastTitle}}</strong><br />
-              <strong>{{feastTitleFr}}</strong>
-            </ion-col>
-            <ion-col>
-              <ion-button color="tertiary" router-link="/" >Back to Home</ion-button>
-            </ion-col>
-          </ion-row>
-          <ion-row>
-            <ion-col>
-              <strong>Ad Completorium</strong>
-            </ion-col>
-            <ion-col>
-                <ion-button color="tertiary" router-link="/officeList/8">Back to Dom.</ion-button>               
-            </ion-col>
-          </ion-row>          
-        </ion-grid>
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons>
+              <ion-back-button default-href="/"></ion-back-button>
+            </ion-buttons>
+            &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br />&nbsp;&nbsp;&nbsp;Ad Completorium</strong>
+          </ion-toolbar>
+        </ion-header>  
 
         <div class="content">
             <p><img src   = "../../public/assets/images/g95InOrdineOfficii/IubeDomne.jpg" /></p>
@@ -97,7 +81,7 @@
 </template>
 
 <script lang="ts">
-    import { IonPage, IonContent , IonButton } from '@ionic/vue';
+    import { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } from '@ionic/vue';
     import { useRoute }         from 'vue-router';    
     import Ps004                from '@/components/g65Psalmodia/Ps004R03.vue';
     import Ps090                from '@/components/g65Psalmodia/Ps090R03.vue';
@@ -109,7 +93,7 @@
     export default ( {
         name: 'Completor',
         components: { Ps004 , Ps090 , Ps133 , Confitebor , Capitulum , Oratio , DominusVobiscum , 
-        IonPage , IonContent , IonButton } ,
+        IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } ,
         setup() {
           const route     = useRoute();
           const { feast } = route.params;

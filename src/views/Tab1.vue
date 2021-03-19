@@ -2,16 +2,18 @@
     <ion-page>
         <ion-content>
           <div id="container">
-              <p><strong>Hebdomada Sancta </strong></p>
-            <p><ion-button color="medium" router-link="/officeList/9">Domenica in Palmis - La Veille</ion-button></p>
-            <p><ion-button color="medium" router-link="/officeList/1">Domenica in Palmis</ion-button></p>
-            <p><ion-button color="medium" router-link="/officeList/2">Feria II - Lundi  Saint</ion-button></p>
-            <p><ion-button color="medium" router-link="/officeList/3">Feria III -Mardi Saint</ion-button></p>
-            <p><ion-button color="medium" router-link="/officeList/4">Feria IV - Mercredi Saint</ion-button></p>
-            <p><ion-button color="dark" router-link="/officeList/5">Feria V In Coena Domini - Jeudi Saint</ion-button></p>
-            <p><ion-button color="dark" router-link="/officeList/6">Feria VI In Parasceve - Vendredi Saint</ion-button></p>
-            <p><ion-button color="dark" router-link="/officeList/7">Sabbato Sancto - Samedi Saint</ion-button></p>
-            <p><ion-button color="warning" router-link="/officeList/8">Resurrectio Domini - Dimanche de Pâques</ion-button></p>
+            <p><strong>Hebdomada Sancta </strong></p>
+             <ion-list> 
+              <ion-item><ion-router-link href="/officeList/9">Domenica in Palmis - La Veille   &nbsp; =></ion-router-link></ion-item> 
+              <ion-item><ion-router-link href="/officeList/1">Domenica in Palmis  &nbsp; =></ion-router-link></ion-item> 
+              <ion-item><ion-router-link href="/officeList/2">Feria II - Lundi  Saint  &nbsp; =></ion-router-link></ion-item> 
+              <ion-item><ion-router-link href="/officeList/3">Feria III -Mardi Saint  &nbsp; =></ion-router-link></ion-item> 
+              <ion-item><ion-router-link href="/officeList/4">Feria IV - Mercredi Saint  &nbsp; =></ion-router-link></ion-item> 
+              <ion-item><ion-router-link href="/officeList/5">Feria V In Coena Domini - Jeudi Saint  &nbsp; =></ion-router-link></ion-item> 
+              <ion-item><ion-router-link href="/officeList/6">Feria VI In Parasceve - Vendredi Saint  &nbsp; =></ion-router-link></ion-item> 
+              <ion-item><ion-router-link href="/officeList/7">Sabbato Sancto - Samedi Saint  &nbsp; =></ion-router-link></ion-item> 
+              <ion-item><ion-router-link href="/officeList/8">Resurrectio Domini - Dimanche de Pâques  &nbsp; =></ion-router-link></ion-item> 
+            </ion-list>     
             <p><ion-button color="tertiary" router-link="/toni">Toni Communes - Tons communs</ion-button></p>
           </div>
       </ion-content>
@@ -28,27 +30,6 @@ export default  {
 }
 
 </script>
-<style scoped>
-#container {
-  position: absolute;
-  left: 10%;
-  right: 0;
-  top: 2%;
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
-  margin: 20;
-}
-
-#container a {
-  text-decoration: none;
-}
+<style>
+@import '../components/css/officii.css';
 </style>

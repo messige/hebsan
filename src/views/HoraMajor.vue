@@ -1,59 +1,17 @@
 <template>
   <ion-page>
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">{{feastTitle }}</ion-title> 
-        </ion-toolbar>
-      </ion-header>
       <div id="container">
-        <ion-grid>
-          <ion-row>
-            <ion-col>
-              <strong>{{FeastTitle }}</strong>              <strong>{{feastTitle}}</strong><br />
-              <strong>{{feastTitleFr}}</strong>            </ion-col>
-            <ion-col>
-              <ion-button color="tertiary" router-link="/" >Back to Home</ion-button>
-            </ion-col>
-          </ion-row>
-          <ion-row>
-            <ion-col>
-              <strong> {{OfficeTitle}}</strong>
-            </ion-col>
-            <ion-col>
-              <template v-if="feast == 9">
-                <ion-button color="tertiary" router-link="/officeList/9">Back to Sabb.</ion-button>  
-              </template>
-              <template  v-else-if="feast == 1"> 
-                <ion-button color="tertiary" router-link="/officeList/1">Back to Dom.</ion-button>  
-              </template>          
-              <template  v-else-if="feast == 2">
-               <ion-button color="tertiary" router-link="/officeList/2">Back to Feria II</ion-button>  
-              </template>
-              <template  v-else-if="feast == 3">
-                <ion-button color="tertiary" router-link="/officeList/3">Back to Feria III</ion-button>  
-              </template>
-              <template  v-else-if="feast == 4">
-                <ion-button color="tertiary" router-link="/officeList/4">Back to Feria IV</ion-button>  
-              </template>            
-              <template  v-else-if="feast == 5"> 
-                <ion-button color="tertiary" router-link="/officeList/5">Back to Feria V</ion-button>               
-              </template>
-              <template  v-else-if="feast == 6"> 
-               <ion-button color="tertiary" router-link="/officeList/6">Back to Feria VI</ion-button>              
-              </template>
-              <template  v-else-if="feast == 7"> 
-                <ion-button color="tertiary" router-link="/officeList/7">Back to Sabb.</ion-button>             
-              </template>
-              <template  v-else-if="feast == 8"> 
-                <ion-button color="tertiary" router-link="/officeList/8">Back to Dom.</ion-button>           
-              </template>           
-            </ion-col>
-          </ion-row>          
-        </ion-grid>
-
-        <div class="content">
-          <template v-if="(feast == 1 && office == 1) || feast == 2 || feast == 3 || feast == 4 || ( feast == 8 && office == 1 ) ">
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons>
+              <ion-back-button default-href="/"></ion-back-button>
+            </ion-buttons>
+            &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br />&nbsp;&nbsp;&nbsp;{{OfficeTitle}}</strong>
+          </ion-toolbar>
+        </ion-header>      
+          <div class="content">  
+            <template v-if="(feast == 1 && office == 1) || feast == 2 || feast == 3 || feast == 4 || ( feast == 8 && office == 1 ) ">
             <p> 
               <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorQuad1.jpg" /><br />
               <resp>Dómine ad adiuvándum me festína.</resp><br />
@@ -898,7 +856,7 @@
 </template>
 
 <script lang="ts">
-    import { IonPage , IonContent , IonButton } from '@ionic/vue';
+    import { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } from '@ionic/vue';
     import { useRoute }      from 'vue-router'; 
 
     import Ps111             from '@/components/g65Psalmodia/Ps050R02.vue';        // 1st feast 1st office 1st psalm - Dimanche
@@ -1004,7 +962,7 @@
 
     import DominusVobiscum   from '@/components/g95InOrdineOfficii/DominusVobiscum.vue';
     export default ( {
-        name:      'HoraMinor',
+        name:      'HoraMajor',
         components: { Ps111 , Ps112 , Ps113 , Ps114 , Ps115 , Cant11 ,    // 1st feast 1st office - Dimanche des Rameaux
                       Ps121 , Ps122 , Ps123 , Ps124 , Cant12 ,            // 1st feast 2nd office
                       Ps211 , Ps212 , Ps213 , Ps214 , Ps215 , Cant21 ,    // 2nd feast 1st office - Lundi Saint
@@ -1024,7 +982,7 @@
 
                       Oratio1 , Oratio2 , Oratio3 , Oratio4 , Oratio5 , Oratio6 , Oratio7 , Oratio8 , Oratio9 ,
                       DominusVobiscum , 
-                      IonPage , IonContent , IonButton  } ,
+                      IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } ,
         // props : ["feastOffice"] ,
         setup() {
           const route    = useRoute () ;

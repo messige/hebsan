@@ -1,39 +1,15 @@
-<template>
+ <template>
   <ion-page>
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">{{feastTitle }}</ion-title>
-        </ion-toolbar>
-      </ion-header>
       <div id="container">
-        <ion-grid>
-          <ion-row>
-            <ion-col>
-              <strong>{{feastTitle}}</strong><br />
-              <strong>{{feastTitleFr}}</strong>
-            </ion-col>
-            <ion-col>
-              <ion-button color="tertiary" router-link="/" >Back to Home</ion-button>
-            </ion-col>
-          </ion-row>
-          <ion-row>
-            <ion-col>
-              <strong> {{OfficeTitle}}</strong>
-            </ion-col>
-            <ion-col>
-              <template  v-if="feast == 5"> 
-                <ion-button color="tertiary" router-link="/officeList/5">Back to Feria V</ion-button>               
-              </template>
-              <template  v-else-if="feast == 6"> 
-               <ion-button color="tertiary" router-link="/officeList/6">Back to Feria VI</ion-button>              
-              </template>
-              <template  v-else-if="feast == 7"> 
-                <ion-button color="tertiary" router-link="/officeList/7">Back to Sabb.</ion-button>             
-              </template>     
-            </ion-col>
-          </ion-row>          
-        </ion-grid>
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons>
+              <ion-back-button default-href="/"></ion-back-button>
+            </ion-buttons>
+            &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br />&nbsp;&nbsp;&nbsp;{{OfficeTitle}}</strong>
+          </ion-toolbar>
+        </ion-header>  
         <div class="content">
                 <p><img src="../../public/assets/images/g70Tonus/Tonus13Fc.jpg" /></p>
                 <p>
@@ -123,7 +99,7 @@
 </template>
 
 <script lang="ts">
-    import { IonPage , IonContent , IonButton } from '@ionic/vue';
+    import { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } from '@ionic/vue';
     import { useRoute }         from 'vue-router';  
     import Ps118D01             from '@/components/g65Psalmodia/Ps118D01R13.vue';
     import Ps118D02             from '@/components/g65Psalmodia/Ps118D02R13.vue';
@@ -158,7 +134,7 @@
                       Ps118D13 , Ps118D14 , Ps118D15 , Ps118D16 ,
                       Ps118D17 , Ps118D18 , Ps118D19 , 
                       Ps118D20 , Ps118D21 , Ps118D22 , 
-                      IonPage , IonContent , IonButton } ,
+                      IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } ,
         // props : ["feastOffice"] ,
         setup() {
           const route    = useRoute () ;

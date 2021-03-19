@@ -1,134 +1,131 @@
 <template>
   <ion-page>
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">{{feastTitle }}</ion-title> 
-        </ion-toolbar>
-      </ion-header>
       <div id="container">
-        <ion-grid>
-          <ion-row>
-            <ion-col>
-              <strong>{{FeastCurrent.title}} - {{FeastCurrent.titleFr}}</strong>
-            </ion-col>
-            <ion-col>
-              <ion-button color="tertiary" router-link="/" >Back to Home</ion-button>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
+        <ion-header no-border >
+          <ion-toolbar>
+            <ion-buttons>
+              <ion-back-button default-href="/"></ion-back-button>
+            </ion-buttons>
+            &nbsp;&nbsp;&nbsp;<strong>{{FeastCurrent.title}}<br />&nbsp;&nbsp;&nbsp;{{FeastCurrent.titleFr}}</strong>
+          </ion-toolbar>
+        </ion-header>
+    
         <div class="content">
+           <ion-list> 
             <template  v-if="!(feast == 9)">
               <template  v-if="feast == 1">
-                <p><ion-button color="medium" router-link="/horaMajor/1/1">Ad Laudes</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/1/1">Ad Laudes &nbsp; =></ion-router-link></ion-item>                   
               </template>
               <template  v-if="feast == 2">
-                <p><ion-button color="medium" router-link="/horaMajor/2/1">Ad Laudes</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/2/1">Ad Laudes &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 3">
-                <p><ion-button color="medium" router-link="/horaMajor/3/1">Ad Laudes</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/3/1">Ad Laudes &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 4">
-                <p><ion-button color="medium" router-link="/horaMajor/4/1">Ad Laudes</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/4/1">Ad Laudes &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 5">
-                <p><ion-button color="medium" router-link="/horaMajor/5/1">Ad Laudes</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/5/1">Ad Laudes &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 6">
-                <p><ion-button color="medium" router-link="/horaMajor/6/1">Ad Laudes</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/6/1">Ad Laudes &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 7">
-                <p><ion-button color="medium" router-link="/horaMajor/7/1">Ad Laudes</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/7/1">Ad Laudes &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 8">
-                <p><ion-button color="warning" router-link="/horaMajor/8/1">Ad Laudes</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/8/1">Ad Laudes &nbsp; =></ion-router-link></ion-item>   
               </template>                                                                                                                              
             </template>
             <template  v-if="feast < 8">
               <template  v-if="feast == 1">
-                <p><ion-button color="medium" router-link="/horaMinor/1/3"> Ad Tertiam</ion-button></p>
-                <p><ion-button color="medium" router-link="/horaMinor/1/6"> Ad Sextam</ion-button></p>
-                <p><ion-button color="medium" router-link="/horaMinor/1/9"> Ad Nonam</ion-button></p>
+                <ion-item><ion-router-link href="/horaMinor/1/3">Ad Tertiam &nbsp; =></ion-router-link></ion-item>   
+                <ion-item><ion-router-link href="/horaMinor/1/6">Ad Sextam &nbsp; =></ion-router-link></ion-item>      
+                <ion-item><ion-router-link href="/horaMinor/1/9"> Ad Nonam &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 2">
-                <p><ion-button color="medium" router-link="/horaMinor/2/3">Ad Tertiam</ion-button></p>
-                <p><ion-button color="medium" router-link="/horaMinor/2/6"> Ad Sextam</ion-button></p>
-                <p><ion-button color="medium" router-link="/horaMinor/2/9"> Ad Nonam</ion-button></p>
+                <ion-item><ion-router-link href="/horaMinor/2/3">Ad Tertiam &nbsp; =></ion-router-link></ion-item>   
+                <ion-item><ion-router-link href="/horaMinor/2/6"> Ad Sextam &nbsp; =></ion-router-link></ion-item>      
+                <ion-item><ion-router-link href="/horaMinor/2/9"> Ad Nonam &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 3">
-                <p><ion-button color="medium" router-link="/horaMinor/3/3">Ad Tertiam</ion-button></p>
-                <p><ion-button color="medium" router-link="/horaMinor/3/6"> Ad Sextam</ion-button></p>
-                <p><ion-button color="medium" router-link="/horaMinor/3/9"> Ad Nonam</ion-button></p>
+                <ion-item><ion-router-link href="/horaMinor/3/3">Ad Tertiam &nbsp; =></ion-router-link></ion-item>   
+                <ion-item><ion-router-link href="/horaMinor/3/6"> Ad Sextam &nbsp; =></ion-router-link></ion-item>      
+                <ion-item><ion-router-link href="/horaMinor/3/9"> Ad Nonam &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 4">
-                <p><ion-button color="medium" router-link="/horaMinor/4/3">Ad Tertiam</ion-button></p>
-                <p><ion-button color="medium" router-link="/horaMinor/4/6"> Ad Sextam</ion-button></p>
-                <p><ion-button color="medium" router-link="/horaMinor/4/9"> Ad Nonam</ion-button></p>
+                <ion-item><ion-router-link href="/horaMinor/4/3">Ad Tertiam &nbsp; =></ion-router-link></ion-item>   
+                <ion-item><ion-router-link href="/horaMinor/4/6"> Ad Sextam &nbsp; =></ion-router-link></ion-item>     
+                <ion-item><ion-router-link href="/horaMinor/4/9"> Ad Nonam &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 5">
-                <p><ion-button color="medium" router-link="/horaMinorTriduum/5/3">Ad Tertiam</ion-button></p>
-                <p><ion-button color="medium" router-link="/HoraMinorTriduum/5/6"> Ad Sextam</ion-button></p>
-                <p><ion-button color="medium" router-link="/HoraMinorTriduum/5/9"> Ad Nonam</ion-button></p>
+                <ion-item><ion-router-link href="/horaMinorTriduum/5/3">Ad Tertiam &nbsp; =></ion-router-link></ion-item>   
+                <ion-item><ion-router-link href="/HoraMinorTriduum/5/6"> Ad Sextam &nbsp; =></ion-router-link></ion-item>     
+                <ion-item><ion-router-link href="/HoraMinorTriduum/5/9"> Ad Nonam &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 6">
-                <p><ion-button color="medium" router-link="/HoraMinorTriduum/6/3">Ad Tertiam</ion-button></p>
-                <p><ion-button color="medium" router-link="/HoraMinorTriduum/6/6"> Ad Sextam</ion-button></p>
-                <p><ion-button color="medium" router-link="/HoraMinorTriduum/6/9"> Ad Nonam</ion-button></p>
+                <ion-item><ion-router-link href="/HoraMinorTriduum/6/3">Ad Tertiam &nbsp; =></ion-router-link></ion-item>   
+                <ion-item><ion-router-link href="/HoraMinorTriduum/6/6"> Ad Sextam &nbsp; =></ion-router-link></ion-item>     
+                <ion-item><ion-router-link href="/HoraMinorTriduum/6/9"> Ad Nonam &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 7">
-                <p><ion-button color="medium" router-link="/HoraMinorTriduum/7/3">Ad Tertiam</ion-button></p>
-                <p><ion-button color="medium" router-link="/HoraMinorTriduum/7/6"> Ad Sextam</ion-button></p>
-                <p><ion-button color="medium" router-link="/HoraMinorTriduum/7/9"> Ad Nonam</ion-button></p>
+                <ion-item><ion-router-link href="/HoraMinorTriduum/7/3">Ad Tertiam &nbsp; =></ion-router-link></ion-item>   
+                <ion-item><ion-router-link href="/HoraMinorTriduum/7/6"> Ad Sextam &nbsp; =></ion-router-link></ion-item>      
+                <ion-item><ion-router-link href="/HoraMinorTriduum/7/9"> Ad Nonam &nbsp; =></ion-router-link></ion-item>   
               </template>
             </template>
             <template  v-if="feast == 9 || feast == 1 ||feast == 2 || feast == 3 || feast == 4 || feast == 8">
               <template  v-if="feast == 1">
-                <p><ion-button color="medium" router-link="/horaMajor/1/2">Ad Vesperas</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/1/2">Ad Vesperas &nbsp; =></ion-router-link></ion-item>   
               </template>                  
               </template>
               <template  v-if="feast == 2">
-                <p><ion-button color="medium" router-link="/horaMajor/2/2">Ad Vesperas</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/2/2">Ad Vesperas &nbsp; =></ion-router-link></ion-item>   
               </template>  
               <template  v-if="feast == 3">
-                <p><ion-button color="medium" router-link="/horaMajor/3/2">Ad Vesperas</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/3/2">Ad Vesperas &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 4">
-                <p><ion-button color="medium" router-link="/horaMajor/4/2">Ad Vesperas</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/4/2">Ad Vesperas &nbsp; =></ion-router-link></ion-item>   
               </template> 
               <template  v-if="feast == 8">
-                <p><ion-button color="warning" router-link="/horaMajor/8/2">Ad Vesperas</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/8/2">Ad Vesperas &nbsp; =></ion-router-link></ion-item>   
               </template>  
               <template  v-if="feast == 9">
-                <p><ion-button color="medium" router-link="/horaMajor/9/2">Ad Vesperas</ion-button></p>
+                <ion-item><ion-router-link href="/horaMajor/9/2">Ad Vesperas &nbsp; =></ion-router-link></ion-item>   
               </template>                                                                            
-            <template  v-if="feast == 9 || feast == 1 ||feast == 2 || feast == 3 || feast == 4">
+            <template  v-if="feast == 9 || feast == 1 || feast == 2 || feast == 3 || feast == 4">
               <template  v-if="feast == 9">
-                <p><ion-button color="medium" router-link="/completorHebSan/9">Ad Completorium</ion-button></p>
+                <ion-item><ion-router-link href="/completorHebSan/9">Ad Completorium &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 1">
-                <p><ion-button color="medium" router-link="/completorHebSan/1">Ad Completorium</ion-button></p>
+                <ion-item><ion-router-link href="/completorHebSan/1">Ad Completorium &nbsp; =></ion-router-link></ion-item>    
               </template>
               <template  v-if="feast == 2">
-                <p><ion-button color="medium" router-link="/completorHebSan/2">Ad Completorium</ion-button></p>
+                <ion-item><ion-router-link href="/completorHebSan/2">Ad Completorium &nbsp; =></ion-router-link></ion-item>     
               </template>
               <template  v-if="feast == 3">
-                <p><ion-button color="medium" router-link="/completorHebSan/3">Ad Completorium</ion-button></p>
+                <ion-item><ion-router-link href="/completorHebSan/3">Ad Completorium &nbsp; =></ion-router-link></ion-item>   
               </template>
               <template  v-if="feast == 4">
-                <p><ion-button color="medium" router-link="/completorHebSan/4">Ad Completorium</ion-button></p>
+                <ion-item><ion-router-link href="/completorHebSan/4">Ad Completorium &nbsp; =></ion-router-link></ion-item>    
               </template>                                                                                          
             </template>
             <template  v-else-if="feast == 5 || feast == 6"> 
               <template  v-if="feast == 5">
-                <p><ion-button color="medium" router-link="/CompletorTriduum/0">Ad Completorium</ion-button></p>
+                <ion-item><ion-router-link href="/CompletorTriduum/0">Ad Completorium &nbsp; =></ion-router-link></ion-item>   
               </template>                  
               <template  v-if="feast == 6">
-                <p><ion-button color="medium" router-link="/CompletorTriduum/1">Ad Completorium</ion-button></p>
+                <ion-item><ion-router-link href="/CompletorTriduum/1">Ad Completorium &nbsp; =></ion-router-link></ion-item> 
               </template>   
             </template>
               <template  v-else-if="feast == 8">
-                <p><ion-button color="warning" router-link="/CompletorPascha/1">Ad Completorium</ion-button></p>
-            </template>   
+                <ion-item><ion-router-link href="/CompletorPascha/1">Ad Completorium &nbsp; =></ion-router-link></ion-item> 
+            </template>  
+          </ion-list>     
+           <p><ion-button color="tertiary" router-link="/toni">Toni Communes - Tons communs</ion-button></p> 
             <p>&nbsp;</p><p>&nbsp;</p>                
           </div>
         </div>
@@ -136,38 +133,17 @@
     </ion-page>
 </template>
 
-<style scoped>
-#container {
-  position: absolute;
-  left: 10%;
-  right: 0;
-  top: 2%;
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
-  margin: 20;
-}
-
-#container a {
-  text-decoration: none;
-}
+<style>
+@import '../components/css/officii.css';
 </style>
 
 <script lang="ts">
 
-    import { IonPage , IonContent , IonButton } from '@ionic/vue';
+    import { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } from '@ionic/vue';
     import { useRoute } from 'vue-router';
     export default ( {
         name: 'OfficeList',
-        components: { IonPage , IonContent , IonButton },
+        components: { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar },
 
         setup() {
           const route     = useRoute();
