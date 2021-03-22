@@ -15,17 +15,23 @@
 <tr><td><rubrique>6</rubrique></td>
 <td>Odísti omnes qui operántur iniqui<highlight2><accent>tá</accent></highlight2>tem <greStar /><br class="psalm" />perdes omnes qui loquúntur  <highlight1><prepa>men</prepa></highlight1><accent>dá</accent>cium.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Virum sánguinum et dolósum abominábitur  <highlight1><accent>Dó</accent></highlight1>minus <greStar /><br class="psalm" />ego autem in multitúdine misericórdi<highlight2><prepa>æ</prepa></highlight2>  <accent>tu</accent>æ.</td></tr>
+<td>Virum sánguinum et dolósum abominábitur  <highlight1><accent>Dó</accent></highlight1>minus <greStar /><br />
+ego autem in multitúdine misericórdi<highlight2><prepa>æ</prepa></highlight2>  <accent>tu</accent>æ.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Introíbo in domum  <highlight1><accent>tu</accent></highlight1>am <greStar /><br class="psalm" />adorábo ad templum sanctum tuum in timó<highlight2><prepa>re</prepa></highlight2>  <accent>tu</accent>o.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Dómine, deduc me in iustítia  <highlight1><accent>tu</accent></highlight1>a <greStar /><br class="psalm" />propter inimícos meos dírige in conspéctu meo vi<highlight2><prepa>am</prepa></highlight2>  <accent>tu</accent>am.</td></tr>
+<td>Dómine, deduc me in iustítia  <highlight1><accent>tu</accent></highlight1>a <greStar /><br />
+propter inimícos meos dírige in conspéctu meo vi<highlight2><prepa>am</prepa></highlight2>  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
 <td>Quóniam non est in ore eórum  <highlight1><accent>vé</accent></highlight1>ritas <greStar /><br class="psalm" />cor eó<highlight2><prepa>rum</prepa></highlight2>  <accent>va</accent>num est.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
-<td>Sepúlchrum patens est guttur eó<highlight2><prepa>rum</prepa></highlight2> <greDagger /><br class="psalm" />linguis suis dolóse a<highlight2><accent>gé</accent></highlight2>bant <greStar /><br class="psalm" />iúdica il<highlight2><prepa>los</prepa></highlight2>  <accent>De</accent>us.</td></tr>
+<td>Sepúlchrum patens est guttur eó<highlight2><prepa>rum</prepa></highlight2> <greDagger /><br class="psalm" />
+linguis suis dolóse a<highlight2><accent>gé</accent></highlight2>bant <greStar /><br />
+iúdica il<highlight2><prepa>los</prepa></highlight2>  <accent>De</accent>us.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
-<td>Décidant a cogitatiónibus su<highlight2><prepa>is</prepa></highlight2> <greDagger /><br class="psalm" />secúndum multitúdinem impietátum eórum expélle  <highlight1><accent>e</accent></highlight1>os <greStar /><br />quóniam irritavérunt  <highlight1><prepa>te</prepa></highlight1>,  <accent>Dó</accent>mine.</td></tr>
+<td>Décidant a cogitatiónibus su<highlight2><prepa>is</prepa></highlight2> <greDagger /><br />
+secúndum multitúdinem impietátum eórum expélle  <highlight1><accent>e</accent></highlight1>os <greStar /><br />
+quóniam irritavérunt  <highlight1><prepa>te</prepa></highlight1>,  <accent>Dó</accent>mine.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
 <td>Et læténtur omnes qui sperant  <highlight1><accent>in</accent></highlight1> te <greStar /><br class="psalm" />in ætérnum exsultábunt et habitábis  <highlight1><prepa>in</prepa></highlight1>  <accent>e</accent>is.</td></tr>
 <tr><td><rubrique>14</rubrique></td>

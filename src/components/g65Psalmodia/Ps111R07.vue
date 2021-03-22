@@ -17,9 +17,13 @@
 <tr><td><rubrique>7</rubrique></td>
 <td>Parátum cor eius speráre in Dó<highlight2><prepa>mi</prepa></highlight2><prepa>no</prepa> <greDagger /><br />confirmátum  <highlight1><prepa>est</prepa></highlight1>  <prepa>cor</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />non commovébitur donec despíciat inimícos  <highlight1><accent>su</accent></highlight1>os.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
-<td>Dispérsit dedit paupé<highlight2><prepa>ri</prepa></highlight2><prepa>bus</prepa> <greDagger /><br class="psalm" />iustítia eius manet in sǽ<highlight2><prepa>cu</prepa></highlight2><prepa>lum</prepa>  <accent>sǽ</accent>culi <greStar /><br class="psalm" />cornu eius exaltábitur in  <highlight1><accent>gló</accent></highlight1>ria.</td></tr>
+<td>Dispérsit dedit paupé<highlight2><prepa>ri</prepa></highlight2><prepa>bus</prepa> <greDagger /><br class="psalm" />
+iustítia eius manet in sǽ<highlight2><prepa>cu</prepa></highlight2><prepa>lum</prepa>  <accent>sǽ</accent>culi <greStar /><br />
+cornu eius exaltábitur in  <highlight1><accent>gló</accent></highlight1>ria.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Peccátor vidébit et irascé<highlight2><prepa>tur</prepa></highlight2> <greDagger /><br class="psalm" />déntibus suis fremet  <highlight1><prepa>et</prepa></highlight1>  <prepa>ta</prepa><accent>bés</accent>cet <greStar /><br class="psalm" />desidérium peccatórum per<highlight2><accent>í</accent></highlight2>bit.</td></tr>
+<td>Peccátor vidébit et irascé<highlight2><prepa>tur</prepa></highlight2> <greDagger /><br class="psalm" />
+déntibus suis fremet  <highlight1><prepa>et</prepa></highlight1>  <prepa>ta</prepa><accent>bés</accent>cet <greStar /><br />
+desidérium peccatórum per<highlight2><accent>í</accent></highlight2>bit.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spirítui  <highlight1><accent>Sanc</accent></highlight1>to.</td></tr>
 <tr><td><rubrique>11</rubrique></td>

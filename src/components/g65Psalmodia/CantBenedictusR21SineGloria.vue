@@ -19,13 +19,15 @@
 <tr><td><rubrique>8</rubrique></td>
 <td>In sanctitáte et iustíti<highlight2><prepa>a</prepa></highlight2>  <prepa>co</prepa><prepa>ram</prepa>  <accent>ip</accent>so <greStar /><br class="psalm" />ómnibus di<highlight2><prepa>é</prepa></highlight2><prepa>bus</prepa>  <accent>nos</accent>tris.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Et tu puer prophéta altís<highlight2><prepa>si</prepa></highlight2><prepa>mi</prepa>  <prepa>vo</prepa><accent>cá</accent>beris <greStar /><br class="psalm" />præíbis enim ante fáciem Dómini paráre  <highlight1><prepa>vi</prepa></highlight1><prepa>as</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Et tu puer prophéta altís<highlight2><prepa>si</prepa></highlight2><prepa>mi</prepa>  <prepa>vo</prepa><accent>cá</accent>beris <greStar /><br />
+præíbis enim ante fáciem Dómini paráre  <highlight1><prepa>vi</prepa></highlight1><prepa>as</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
 <td>Ad dandam sciéntiam salú<highlight2><prepa>tis</prepa></highlight2>  <prepa>ple</prepa><prepa>bi</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />in remissiónem peccató<highlight2><prepa>rum</prepa></highlight2>  <prepa>e</prepa><accent>ó</accent>rum.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Per víscera misericórdi<highlight2><prepa>æ</prepa></highlight2>  <prepa>De</prepa><prepa>i</prepa>  <accent>nos</accent>tri <greStar /><br class="psalm" />in quibus visitávit nos óri<highlight2><prepa>ens</prepa></highlight2>  <prepa>ex</prepa>  <accent>al</accent>to.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
-<td>Illumináre his qui in ténebris et in um<highlight2><prepa>bra</prepa></highlight2>  <prepa>mor</prepa><prepa>tis</prepa>  <accent>se</accent>dent <greStar /><br class="psalm" />ad dirigéndos pedes nostros in  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>pa</accent>cis.</td></tr>
+<td>Illumináre his qui in ténebris et in um<highlight2><prepa>bra</prepa></highlight2>  <prepa>mor</prepa><prepa>tis</prepa>  <accent>se</accent>dent <greStar /><br />
+ad dirigéndos pedes nostros in  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>pa</accent>cis.</td></tr>
 </table>
     </div>
 </template>

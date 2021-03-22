@@ -2,16 +2,15 @@
   <ion-page>
     <ion-content :fullscreen="true">
       <div id="container">
-        <ion-header no-border >
-          <ion-toolbar>
-            <ion-buttons>
-              <ion-back-button default-href="/"></ion-back-button>
-            </ion-buttons>
+        <ion-header>
+        <ion-tab-bar>
+          <ion-tab-button><ion-back-button text="Back" default-href="/"></ion-back-button></ion-tab-button> 
+                 
+        </ion-tab-bar>
             &nbsp;&nbsp;&nbsp;<strong>Toni Communes</strong>
-          </ion-toolbar>
         </ion-header>
         <div class="content">
-          <br/>
+          <br/><br/>
           <strong>I. In principio Horarum</strong><br /><br />
           <p><img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumQuad.jpg" /></p>
           <br />
@@ -23,12 +22,11 @@
           <br />
           <strong>III. Tonus Orationis Simplex:<br />Ad Horas Minores et Completorium</strong><br /><br />
           <p><img src="../../public/assets/images/g80Oratio/TonusOraSimplex.jpg" /></p>
-          <ion-toolbar>
-            <ion-buttons>
-              <ion-back-button default-href="/"></ion-back-button>
-            </ion-buttons>
-          </ion-toolbar>                 
-            <p>&nbsp;</p><p>&nbsp;</p>                
+          <p>&nbsp;</p>
+          <ion-tab-bar>
+            <ion-tab-button><ion-back-button text="Back" default-href="/"></ion-back-button></ion-tab-button> 
+          </ion-tab-bar> 
+          <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>  
           </div>
         </div>
       </ion-content>
@@ -37,13 +35,22 @@
 
 <script lang="ts">
 
-    import { IonPage , IonContent , IonButtons , IonBackButton , IonToolbar } from '@ionic/vue';
+    import { IonPage , IonContent , IonBackButton } from '@ionic/vue';
     export default {
       name: 'Toni',
-      components: { IonPage , IonContent , IonButtons , IonBackButton , IonToolbar },
+      components: { IonPage , IonContent , IonBackButton },
     }
 </script>
-
+<style scoped>
+    @media (min-width: 1025px)  {         
+        #container {
+            position: absolute;
+            left: 15%;
+            right: 40%;
+            top: 2%;
+        }
+    }
+</style>
 <style>
 @import '../components/css/officii.css';
 </style>

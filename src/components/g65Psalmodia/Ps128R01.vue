@@ -9,13 +9,15 @@
 <tr><td><rubrique>3</rubrique></td>
 <td>Supra dorsum meum fabricavérunt pecca<highlight2><accent>tó</accent></highlight2>res <greStar /><br class="psalm" />prolongavérunt iniquitá<highlight2><prepa>tem</prepa></highlight2>  <accent>su</accent>am.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Dóminus iustus concídit cervíces pecca<highlight2><accent>tó</accent></highlight2>rum <greStar /><br class="psalm" />confundántur et convertántur retrórsum omnes qui odé<highlight2><prepa>runt</prepa></highlight2>  <accent>Si</accent>on.</td></tr>
+<td>Dóminus iustus concídit cervíces pecca<highlight2><accent>tó</accent></highlight2>rum <greStar /><br />
+confundántur et convertántur retrórsum omnes qui odé<highlight2><prepa>runt</prepa></highlight2>  <accent>Si</accent>on.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
 <td>Fíant sicut foenum tec<highlight2><accent>tó</accent></highlight2>rum <greStar /><br class="psalm" />quod priúsquam evellátur,  <highlight1><prepa>e</prepa></highlight1><accent>xá</accent>ruit.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>De quo non implévit manum suam qui  <highlight1><accent>me</accent></highlight1>tit <greStar /><br class="psalm" />et sinum suum qui manípu<highlight2><prepa>los</prepa></highlight2>  <accent>cól</accent>ligit.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Et non dixérunt qui præterí<highlight2><prepa>bant</prepa></highlight2> : <greDagger /><br class="psalm" />benedíctio Dómini  <highlight1><accent>su</accent></highlight1>per vos <greStar /><br class="psalm" />benedíximus vobis in nómi<highlight2><prepa>ne</prepa></highlight2>  <accent>Dó</accent>mini.</td></tr>
+<td>Et non dixérunt qui præterí<highlight2><prepa>bant</prepa></highlight2> : <greDagger /><br class="psalm" />
+benedíctio Dómini  <highlight1><accent>su</accent></highlight1>per vos <greStar /><br />benedíximus vobis in nómi<highlight2><prepa>ne</prepa></highlight2>  <accent>Dó</accent>mini.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirítu<highlight2><prepa>i</prepa></highlight2>  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>9</rubrique></td>

@@ -19,13 +19,15 @@
 <tr><td><rubrique>8</rubrique></td>
 <td>In sanctitáte et iustítia coram  <highlight1><accent>ip</accent></highlight1>so <greStar /><br class="psalm" />ómnibus di<highlight2><prepa>é</prepa></highlight2><prepa>bus</prepa>  <accent>nos</accent>tris.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Et tu puer prophéta altíssimi vo<highlight2><accent>cá</accent></highlight2>beris <greStar /><br class="psalm" />præíbis enim ante fáciem Dómini paráre  <highlight1><prepa>vi</prepa></highlight1><prepa>as</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Et tu puer prophéta altíssimi vo<highlight2><accent>cá</accent></highlight2>beris <greStar /><br />
+præíbis enim ante fáciem Dómini paráre  <highlight1><prepa>vi</prepa></highlight1><prepa>as</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
 <td>Ad dandam sciéntiam salútis plebi  <highlight1><accent>e</accent></highlight1>ius <greStar /><br class="psalm" />in remissiónem peccató<highlight2><prepa>rum</prepa></highlight2>  <prepa>e</prepa><accent>ó</accent>rum.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Per víscera misericórdiæ Dei  <highlight1><accent>nos</accent></highlight1>tri <greStar /><br class="psalm" />in quibus visitávit nos óri<highlight2><prepa>ens</prepa></highlight2>  <prepa>ex</prepa>  <accent>al</accent>to.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
-<td>Illumináre his qui in ténebris et in umbra mortis  <highlight1><accent>se</accent></highlight1>dent <greStar /><br class="psalm" />ad dirigéndos pedes nostros in  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>pa</accent>cis.</td></tr>
+<td>Illumináre his qui in ténebris et in umbra mortis  <highlight1><accent>se</accent></highlight1>dent <greStar /><br />
+ad dirigéndos pedes nostros in  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>pa</accent>cis.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>14</rubrique></td>

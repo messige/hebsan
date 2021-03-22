@@ -9,9 +9,11 @@
 <tr><td><rubrique>3</rubrique></td>
 <td>Ámplius lava me ab iniqui<highlight2><prepa>tá</prepa></highlight2><prepa>te</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />et a peccá<highlight2><prepa>to</prepa></highlight2>  <prepa>me</prepa><prepa>o</prepa>  <accent>mun</accent>da me.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Quóniam iniquitátem meam e<highlight2><prepa>go</prepa></highlight2>  <prepa>co</prepa><accent>gnós</accent>co <greStar /><br class="psalm" />et peccátum meum con<highlight2><prepa>tra</prepa></highlight2>  <prepa>me</prepa>  <prepa>est</prepa>  <accent>sem</accent>per.</td></tr>
+<td>Quóniam iniquitátem meam e<highlight2><prepa>go</prepa></highlight2>  <prepa>co</prepa><accent>gnós</accent>co <greStar /><br />
+et peccátum meum con<highlight2><prepa>tra</prepa></highlight2>  <prepa>me</prepa>  <prepa>est</prepa>  <accent>sem</accent>per.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Tibi soli peccávi et malum co<highlight2><prepa>ram</prepa></highlight2>  <prepa>te</prepa>  <accent>fe</accent>ci <greStar /><br class="psalm" />ut iustificéris in sermónibus tuis et vincas  <highlight1><prepa>cum</prepa></highlight1>  <prepa>iu</prepa><prepa>di</prepa><accent>cá</accent>ris.</td></tr>
+<td>Tibi soli peccávi et malum co<highlight2><prepa>ram</prepa></highlight2>  <prepa>te</prepa>  <accent>fe</accent>ci <greStar /><br />
+ut iustificéris in sermónibus tuis et vincas  <highlight1><prepa>cum</prepa></highlight1>  <prepa>iu</prepa><prepa>di</prepa><accent>cá</accent>ris.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Ecce enim in iniquitáti<highlight2><prepa>bus</prepa></highlight2>  <prepa>con</prepa><accent>cép</accent>tus sum <greStar /><br class="psalm" />et in peccátis concépit  <highlight1><prepa>me</prepa></highlight1>  <prepa>ma</prepa><prepa>ter</prepa>  <accent>me</accent>a.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
@@ -31,13 +33,15 @@
 <tr><td><rubrique>14</rubrique></td>
 <td>Docébo iníquos  <highlight1><prepa>vi</prepa></highlight1><prepa>as</prepa>  <accent>tu</accent>as <greStar /><br class="psalm" />et ímpii ad  <highlight1><prepa>te</prepa></highlight1>  <prepa>con</prepa><prepa>ver</prepa><accent>tén</accent>tur.</td></tr>
 <tr><td><rubrique>15</rubrique></td>
-<td>Líbera me de sanguínibus, Deus, Deus sa<highlight2><prepa>lú</prepa></highlight2><prepa>tis</prepa>  <accent>me</accent>æ <greStar /><br class="psalm" />et exsultábit lingua mea ius<highlight2><prepa>tí</prepa></highlight2><prepa>ti</prepa><prepa>am</prepa>  <accent>tu</accent>am.</td></tr>
+<td>Líbera me de sanguínibus, Deus, Deus sa<highlight2><prepa>lú</prepa></highlight2><prepa>tis</prepa>  <accent>me</accent>æ <greStar /><br />
+et exsultábit lingua mea ius<highlight2><prepa>tí</prepa></highlight2><prepa>ti</prepa><prepa>am</prepa>  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>16</rubrique></td>
 <td>Dómine, lábia me<highlight2><prepa>a</prepa></highlight2>  <prepa>a</prepa><accent>pé</accent>ries <greStar /><br class="psalm" />et os meum annuntiá<highlight2><prepa>bit</prepa></highlight2>  <prepa>lau</prepa><prepa>dem</prepa>  <accent>tu</accent>am</td></tr>
 <tr><td><rubrique>17</rubrique></td>
 <td>Quóniam si voluísses sacrifícium, de<highlight2><prepa>dís</prepa></highlight2><prepa>sem</prepa>  <accent>ú</accent>tique <greStar /><br class="psalm" />holocáustis  <highlight1><prepa>non</prepa></highlight1>  <prepa>de</prepa><prepa>lec</prepa><accent>tá</accent>beris.</td></tr>
 <tr><td><rubrique>18</rubrique></td>
-<td>Sacrifícium Deo spíritus con<highlight2><prepa>tri</prepa></highlight2><prepa>bu</prepa><accent>lá</accent>tus <greStar /><br class="psalm" />cor contrítum et humiliátum De<highlight2><prepa>us</prepa></highlight2>  <prepa>non</prepa>  <prepa>des</prepa><accent>pí</accent>cies.</td></tr>
+<td>Sacrifícium Deo spíritus con<highlight2><prepa>tri</prepa></highlight2><prepa>bu</prepa><accent>lá</accent>tus <greStar /><br />
+cor contrítum et humiliátum De<highlight2><prepa>us</prepa></highlight2>  <prepa>non</prepa>  <prepa>des</prepa><accent>pí</accent>cies.</td></tr>
 <tr><td><rubrique>19</rubrique></td>
 <td>Benígne fac, Dómine, in bona voluntáte  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>  <accent>Si</accent>on <greStar /><br class="psalm" />ut ædificéntur  <highlight1><prepa>mu</prepa></highlight1><prepa>ri</prepa>  <prepa>Ie</prepa><accent>rú</accent>salem.</td></tr>
 <tr><td><rubrique>20</rubrique></td>

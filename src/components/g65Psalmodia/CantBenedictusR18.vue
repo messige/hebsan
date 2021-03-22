@@ -19,13 +19,15 @@
 <tr><td><rubrique>8</rubrique></td>
 <td>In sanctitáte et iustítia  <highlight1><accent>co</accent></highlight1>ram  <accent>ip</accent>so <greStar /><br class="psalm" />ómnibus di<highlight2><prepa>é</prepa></highlight2><prepa>bus</prepa>  <accent>nos</accent>tris.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Et tu puer prophéta altíssi<highlight2><accent>mi</accent></highlight2> vo<accent>cá</accent>beris <greStar /><br class="psalm" />præíbis enim ante fáciem Dómini paráre  <highlight1><prepa>vi</prepa></highlight1><prepa>as</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Et tu puer prophéta altíssi<highlight2><accent>mi</accent></highlight2> vo<accent>cá</accent>beris <greStar /><br />
+præíbis enim ante fáciem Dómini paráre  <highlight1><prepa>vi</prepa></highlight1><prepa>as</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
 <td>Ad dandam sciéntiam salútis  <highlight1><accent>ple</accent></highlight1>bi  <accent>e</accent>ius <greStar /><br class="psalm" />in remissiónem peccató<highlight2><prepa>rum</prepa></highlight2>  <prepa>e</prepa><accent>ó</accent>rum.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Per víscera misericórdiæ  <highlight1><accent>De</accent></highlight1>i  <accent>nos</accent>tri <greStar /><br class="psalm" />in quibus visitávit nos óri<highlight2><prepa>ens</prepa></highlight2>  <prepa>ex</prepa>  <accent>al</accent>to.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
-<td>Illumináre his qui in ténebris et in umbra  <highlight1><accent>mor</accent></highlight1>tis  <accent>se</accent>dent <greStar /><br class="psalm" />ad dirigéndos pedes nostros in  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>pa</accent>cis.</td></tr>
+<td>Illumináre his qui in ténebris et in umbra  <highlight1><accent>mor</accent></highlight1>tis  <accent>se</accent>dent <greStar /><br />
+ad dirigéndos pedes nostros in  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>pa</accent>cis.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
 <td>Glória  <highlight1><accent>Pa</accent></highlight1>tri et  <accent>Fí</accent>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>14</rubrique></td>

@@ -9,7 +9,8 @@
 <tr><td><rubrique>3</rubrique></td>
 <td>Laudáte eum  <highlight1><prepa>sol</prepa></highlight1>  <prepa>et</prepa>  <accent>lu</accent>na <greStar /><br class="psalm" />laudáte eum omnes  <highlight1><prepa>stel</prepa></highlight1><prepa>læ</prepa>  <prepa>et</prepa>  <accent>lu</accent>men.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Laudáte eum cæ<highlight2><prepa>li</prepa></highlight2>  <prepa>cæ</prepa><accent>ló</accent>rum <greStar /><br class="psalm" />et aquæ omnes quæ super cælum sunt lau<highlight2><prepa>dent</prepa></highlight2>  <prepa>no</prepa><prepa>men</prepa>  <accent>Dó</accent>mini.</td></tr>
+<td>Laudáte eum cæ<highlight2><prepa>li</prepa></highlight2>  <prepa>cæ</prepa><accent>ló</accent>rum <greStar /><br />
+et aquæ omnes quæ super cælum sunt lau<highlight2><prepa>dent</prepa></highlight2>  <prepa>no</prepa><prepa>men</prepa>  <accent>Dó</accent>mini.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
 <td>Quia ipse di<highlight2><prepa>xit</prepa></highlight2>  <prepa>et</prepa>  <accent>fac</accent>ta sunt <greStar /><br class="psalm" />ipse mandá<highlight2><prepa>vit</prepa></highlight2>  <prepa>et</prepa>  <prepa>cre</prepa><accent>á</accent>ta sunt.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
@@ -25,7 +26,9 @@
 <tr><td><rubrique>11</rubrique></td>
 <td>Reges terræ et  <highlight1><prepa>om</prepa></highlight1><prepa>nes</prepa>  <accent>pó</accent>puli <greStar /><br class="psalm" />príncipes et omnes  <highlight1><prepa>iú</prepa></highlight1><prepa>di</prepa><prepa>ces</prepa>  <accent>ter</accent>ræ.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
-<td>Iúvenes et vír<highlight2><prepa>gi</prepa></highlight2><prepa>nes</prepa> <greDagger /><br />senes cum iunióribus laudent  <highlight1><prepa>no</prepa></highlight1><prepa>men</prepa>  <accent>Dó</accent>mini <greStar /><br class="psalm" />quia exaltátum est nomen  <highlight1><prepa>e</prepa></highlight1><prepa>ius</prepa>  <prepa>so</prepa><accent>lí</accent>us.</td></tr>
+<td>Iúvenes et vír<highlight2><prepa>gi</prepa></highlight2><prepa>nes</prepa> <greDagger /><br class="psalm" />
+senes cum iunióribus laudent  <highlight1><prepa>no</prepa></highlight1><prepa>men</prepa>  <accent>Dó</accent>mini <greStar /><br />
+quia exaltátum est nomen  <highlight1><prepa>e</prepa></highlight1><prepa>ius</prepa>  <prepa>so</prepa><accent>lí</accent>us.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
 <td>Conféssio eius super cæ<highlight2><prepa>lum</prepa></highlight2>  <prepa>et</prepa>  <accent>ter</accent>ram <greStar /><br class="psalm" />et exaltávit cornu  <highlight1><prepa>pó</prepa></highlight1><prepa>pu</prepa><prepa>li</prepa>  <accent>su</accent>i.</td></tr>
 <tr><td><rubrique>14</rubrique></td>

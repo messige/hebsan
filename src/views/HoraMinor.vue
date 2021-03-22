@@ -3,12 +3,40 @@
     <ion-content :fullscreen="true">
       <div id="container">
         <ion-header>
-          <ion-toolbar>
-            <ion-buttons>
-              <ion-back-button default-href="/" text="Back"></ion-back-button>
-            </ion-buttons>
-            &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br />&nbsp;&nbsp;&nbsp;{{OfficeTitle}}</strong>
-          </ion-toolbar>
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
+            <template v-if="feast == 9">
+              <ion-button fill="clear" strong router-link="/officeList/9">Back to Sabb.</ion-button>  
+            </template>
+            <template  v-else-if="feast == 1"> 
+              <ion-button fill="clear" strong router-link="/officeList/1">Back to Dom.</ion-button>  
+            </template>          
+            <template  v-else-if="feast == 2">
+              <ion-button fill="clear" strong router-link="/officeList/2">Back to Feria II</ion-button>  
+            </template>
+            <template  v-else-if="feast == 3">
+              <ion-button fill="clear" strong router-link="/officeList/3">Back to Feria III</ion-button>  
+            </template>
+            <template  v-else-if="feast == 4">
+              <ion-button fill="clear" strong router-link="/officeList/4">Back to Feria IV</ion-button>  
+            </template>            
+            <template  v-else-if="feast == 5"> 
+              <ion-button fill="clear" strong router-link="/officeList/5">Back to Feria V</ion-button>               
+            </template>
+            <template  v-else-if="feast == 6"> 
+              <ion-button fill="clear" strong router-link="/officeList/6">Back to Feria VI</ion-button>              
+            </template>
+            <template  v-else-if="feast == 7"> 
+              <ion-button fill="clear" strong router-link="/officeList/7">Back to Sabb.</ion-button>             
+            </template>
+            <template  v-else-if="feast == 8"> 
+              <ion-button fill="clear" strong router-link="/officeList/8">Back to Dom.</ion-button>           
+            </template>                         
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>
+        <strong>{{feastTitle}}<br class="psalm" />&nbsp;&nbsp;&nbsp;{{OfficeTitle}}</strong>
         </ion-header>  
         <div class="content">
           <p> 
@@ -224,19 +252,39 @@
           
           <p><img src="../../public/assets/images/g95InOrdineOfficii/benedicamus_domino_quad.jpg" /></p>
           <p>&nbsp;</p>
-              <template  v-if="feast == 1"> 
-                <ion-button color="tertiary" router-link="/officeList/1">Back to Dom.</ion-button>  
-              </template>          
-              <template  v-else-if="feast == 2">
-               <ion-button color="tertiary" router-link="/officeList/2">Back to Feria II</ion-button>  
-              </template>
-              <template  v-else-if="feast == 3">
-                <ion-button color="tertiary" router-link="/officeList/3">Back to Feria III</ion-button>  
-              </template>
-              <template  v-else-if="feast == 4">
-                <ion-button color="tertiary" router-link="/officeList/4">Back to Feria IV</ion-button>  
-              </template>              
-            <p><ion-button color="tertiary" router-link="/">Back to home</ion-button></p>
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
+            <template v-if="feast == 9">
+              <ion-button fill="clear" strong router-link="/officeList/9">Back to Sabb.</ion-button>  
+            </template>
+            <template  v-else-if="feast == 1"> 
+              <ion-button fill="clear" strong router-link="/officeList/1">Back to Dom.</ion-button>  
+            </template>          
+            <template  v-else-if="feast == 2">
+              <ion-button fill="clear" strong router-link="/officeList/2">Back to Feria II</ion-button>  
+            </template>
+            <template  v-else-if="feast == 3">
+              <ion-button fill="clear" strong router-link="/officeList/3">Back to Feria III</ion-button>  
+            </template>
+            <template  v-else-if="feast == 4">
+              <ion-button fill="clear" strong router-link="/officeList/4">Back to Feria IV</ion-button>  
+            </template>            
+            <template  v-else-if="feast == 5"> 
+              <ion-button fill="clear" strong router-link="/officeList/5">Back to Feria V</ion-button>               
+            </template>
+            <template  v-else-if="feast == 6"> 
+              <ion-button fill="clear" strong router-link="/officeList/6">Back to Feria VI</ion-button>              
+            </template>
+            <template  v-else-if="feast == 7"> 
+              <ion-button fill="clear" strong router-link="/officeList/7">Back to Sabb.</ion-button>             
+            </template>
+            <template  v-else-if="feast == 8"> 
+              <ion-button fill="clear" strong router-link="/officeList/8">Back to Dom.</ion-button>           
+            </template>                         
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>
           <p>&nbsp;</p>
           <p>&nbsp;</p>              
           <p>&nbsp;</p>
@@ -248,7 +296,7 @@
 </template>
 
 <script lang="ts">
-    import { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } from '@ionic/vue';
+    import { IonPage , IonContent , IonButton , IonBackButton } from '@ionic/vue';
     import { useRoute }         from 'vue-router';  
     import Ps118D01             from '@/components/g65Psalmodia/Ps118D01R18.vue';
     import Ps118D02             from '@/components/g65Psalmodia/Ps118D02R18.vue';
@@ -303,7 +351,7 @@
                       Capitulum23 , Capitulum26 , Capitulum29 ,
                       Oratio1 , Oratio2 , Oratio3 , Oratio4 ,
                       DominusVobiscum , 
-                      IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } ,
+                      IonPage , IonContent , IonButton , IonBackButton } ,
         // props : ["feastOffice"] ,
         setup() {
           const route    = useRoute () ;

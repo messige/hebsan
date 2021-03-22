@@ -3,15 +3,18 @@
     <ion-content :fullscreen="true">
       <div id="container">
         <ion-header>
-          <ion-toolbar>
-            <ion-buttons>
-              <ion-back-button default-href="/" text="Back"></ion-back-button>
-            </ion-buttons>
-            &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br />&nbsp;&nbsp;&nbsp;Ad Completorium</strong>
-          </ion-toolbar>
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
+           <ion-button fill="clear" strong router-link="/officeList/8">Back to Dom.</ion-button>  
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>
+            &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br class="psalm" />&nbsp;&nbsp;&nbsp;Ad Completorium</strong>
         </ion-header>  
 
         <div class="content">
+          <br />
             <p><img src   = "../../public/assets/images/g95InOrdineOfficii/IubeDomne.jpg" /></p>
             <p><img src   = "../../public/assets/images/g75Lectio/FratresSobrii.jpg" /></p>
             <p><img src   = "../../public/assets/images/g95InOrdineOfficii/AdiutoriumNostrum.jpg" /></p>
@@ -69,9 +72,13 @@
           <p><img src="../../public/assets/images/g50Antiphona/AntReginaCaeliSimplex.jpg" /></p>
 
           <p>&nbsp;</p>
-              <ion-button color="tertiary" router-link="/" >Back to Home</ion-button>
-              <br />
-              <ion-button color="tertiary" router-link="/officeList/8">Back to Dom.</ion-button>      
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
+           <ion-button fill="clear" strong router-link="/officeList/8">Back to Dom.</ion-button>  
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>               
           <p>&nbsp;</p>
           <p>&nbsp;</p>              
           <p>&nbsp;</p>
@@ -83,7 +90,7 @@
 </template>
 
 <script lang="ts">
-    import { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } from '@ionic/vue';
+    import { IonPage , IonContent , IonButton , IonBackButton } from '@ionic/vue';
     import { useRoute }         from 'vue-router';    
     import Ps004                from '@/components/g65Psalmodia/Ps004R03.vue';
     import Ps090                from '@/components/g65Psalmodia/Ps090R03.vue';
@@ -95,7 +102,7 @@
     export default ( {
         name: 'Completor',
         components: { Ps004 , Ps090 , Ps133 , Confitebor , Capitulum , Oratio , DominusVobiscum , 
-        IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } ,
+        IonPage , IonContent , IonButton , IonBackButton } ,
         setup() {
           const route     = useRoute();
           const { feast } = route.params;

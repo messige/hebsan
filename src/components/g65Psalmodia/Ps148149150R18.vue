@@ -9,7 +9,8 @@
 <tr><td><rubrique>3</rubrique></td>
 <td>Laudáte eum  <highlight1><accent>sol</accent></highlight1> et  <accent>lu</accent>na <greStar /><br class="psalm" />laudáte eum omnes stel<highlight2><prepa>læ</prepa></highlight2>  <prepa>et</prepa>  <accent>lu</accent>men.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Laudáte eum  <highlight1><accent>cæ</accent></highlight1>li cæ<accent>ló</accent>rum <greStar /><br class="psalm" />et aquæ omnes quæ super cælum sunt laudent  <highlight1><prepa>no</prepa></highlight1><prepa>men</prepa>  <accent>Dó</accent>mini.</td></tr>
+<td>Laudáte eum  <highlight1><accent>cæ</accent></highlight1>li cæ<accent>ló</accent>rum <greStar /><br />
+et aquæ omnes quæ super cælum sunt laudent  <highlight1><prepa>no</prepa></highlight1><prepa>men</prepa>  <accent>Dó</accent>mini.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
 <td>Quia ipse  <highlight1><accent>di</accent></highlight1>xit et  <accent>fac</accent>ta sunt <greStar /><br class="psalm" />ipse mandávit  <highlight1><prepa>et</prepa></highlight1>  <prepa>cre</prepa><accent>á</accent>ta sunt.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
@@ -25,7 +26,9 @@
 <tr><td><rubrique>11</rubrique></td>
 <td>Reges terræ et  <highlight1><accent>om</accent></highlight1>nes  <accent>pó</accent>puli <greStar /><br class="psalm" />príncipes et omnes iú<highlight2><prepa>di</prepa></highlight2><prepa>ces</prepa>  <accent>ter</accent>ræ.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
-<td>Iúvenes et vír<highlight2><prepa>gi</prepa></highlight2><prepa>nes</prepa> <greDagger /><br />senes cum iunióribus laudent  <highlight1><accent>no</accent></highlight1>men  <accent>Dó</accent>mini <greStar /><br class="psalm" />quia exaltátum est nomen e<highlight2><prepa>ius</prepa></highlight2>  <prepa>so</prepa><accent>lí</accent>us.</td></tr>
+<td>Iúvenes et vír<highlight2><prepa>gi</prepa></highlight2><prepa>nes</prepa> <greDagger /><br class="psalm" />
+senes cum iunióribus laudent  <highlight1><accent>no</accent></highlight1>men  <accent>Dó</accent>mini <greStar /><br />
+quia exaltátum est nomen e<highlight2><prepa>ius</prepa></highlight2>  <prepa>so</prepa><accent>lí</accent>us.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
 <td>Conféssio eius super  <highlight1><accent>cæ</accent></highlight1>lum et  <accent>ter</accent>ram <greStar /><br class="psalm" />et exaltávit cornu pó<highlight2><prepa>pu</prepa></highlight2><prepa>li</prepa>  <accent>su</accent>i.</td></tr>
 <tr><td><rubrique>14</rubrique></td>
@@ -64,13 +67,15 @@
 <tr><td><rubrique>1</rubrique></td>
 <td>Laudáte Dóminum in  <highlight1><accent>sanc</accent></highlight1>tis  <accent>e</accent>ius <greStar /><br class="psalm" />laudáte eum in firmaménto vir<highlight2><prepa>tú</prepa></highlight2><prepa>tis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
-<td>Laudáte eum in vir<highlight2><accent>tú</accent></highlight2>tibus  <accent>e</accent>ius <greStar /><br class="psalm" />laudáte eum secúndum multitúdinem magnitú<highlight2><prepa>di</prepa></highlight2><prepa>nis</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Laudáte eum in vir<highlight2><accent>tú</accent></highlight2>tibus  <accent>e</accent>ius <greStar /><br />
+laudáte eum secúndum multitúdinem magnitú<highlight2><prepa>di</prepa></highlight2><prepa>nis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
 <td>Laudáte eum in  <highlight1><accent>so</accent></highlight1>no  <accent>tu</accent>bæ <greStar /><br class="psalm" />laudáte eum in psaltéri<highlight2><prepa>o</prepa></highlight2>  <prepa>et</prepa>  <accent>cí</accent>thara.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
 <td>Laudáte eum in týmpa<highlight2><accent>no</accent></highlight2> et  <accent>cho</accent>ro <greStar /><br class="psalm" />laudáte eum in cor<highlight2><prepa>dis</prepa></highlight2>  <prepa>et</prepa>  <accent>ór</accent>gano</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Laudáte eum in cýmbalis benesonán<highlight2><prepa>ti</prepa></highlight2><prepa>bus</prepa> <greDagger /><br />laudáte eum in cýmbalis iubi<highlight2><accent>la</accent></highlight2>ti<accent>ó</accent>nis <greStar /><br class="psalm" />omnis spíritus  <highlight1><prepa>lau</prepa></highlight1><prepa>det</prepa>  <accent>Dó</accent>minum.</td></tr>
+<td>Laudáte eum in cýmbalis benesonán<highlight2><prepa>ti</prepa></highlight2><prepa>bus</prepa> <greDagger /><br />
+laudáte eum in cýmbalis iubi<highlight2><accent>la</accent></highlight2>ti<accent>ó</accent>nis <greStar /><br class="psalm" />omnis spíritus  <highlight1><prepa>lau</prepa></highlight1><prepa>det</prepa>  <accent>Dó</accent>minum.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Glória  <highlight1><accent>Pa</accent></highlight1>tri et  <accent>Fí</accent>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>7</rubrique></td>

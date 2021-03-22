@@ -3,14 +3,31 @@
     <ion-content :fullscreen="true">
       <div id="container">
         <ion-header>
-          <ion-toolbar>
-            <ion-buttons>
-              <ion-back-button default-href="/" text="Back"></ion-back-button>
-            </ion-buttons>
-            &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br />&nbsp;&nbsp;&nbsp;Ad Completorium</strong>
-          </ion-toolbar>
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
+            <template v-if="feast == 9">
+              <ion-button fill="clear" strong router-link="/officeList/9">Back to Sabb.</ion-button>  
+            </template>
+            <template  v-else-if="feast == 1"> 
+              <ion-button fill="clear" strong router-link="/officeList/1">Back to Dom.</ion-button>  
+            </template>          
+            <template  v-else-if="feast == 2">
+              <ion-button fill="clear" strong router-link="/officeList/2">Back to Feria II</ion-button>  
+            </template>
+            <template  v-else-if="feast == 3">
+              <ion-button fill="clear" strong router-link="/officeList/3">Back to Feria III</ion-button>  
+            </template>
+            <template  v-else-if="feast == 4">
+              <ion-button fill="clear" strong router-link="/officeList/4">Back to Feria IV</ion-button>  
+            </template>            
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>
+        &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br class="psalm" />&nbsp;&nbsp;&nbsp;Ad Completorium</strong>
         </ion-header>  
     <div class="content">
+        <br />
         <p><img src   = "../../public/assets/images/g95InOrdineOfficii/IubeDomne.jpg" /></p>
         <p><img src   = "../../public/assets/images/g75Lectio/FratresSobrii.jpg" /></p>
         <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorQuad1.jpg" /><br />
@@ -70,24 +87,29 @@
     
     <p><img src="../../public/assets/images/g95InOrdineOfficii/benedicamus_domino_quad.jpg" /></p>
     
-    <p><img src="../../public/assets/images/g50Antiphona/ant_ave_regina_caelorum_simplex.jpg" /></p>
+    <p><img src="../../public/assets/images/g50Antiphona/ANTAveReginaSimplex.jpg" /></p>
     <p>&nbsp;</p>
-            <template  v-if="feast == 1"> 
-              <p><ion-button color="tertiary" router-link="/officeList/1">Domenica in Palmis - index</ion-button></p>
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
+            <template v-if="feast == 9">
+              <ion-button fill="clear" strong router-link="/officeList/9">Back to Sabb.</ion-button>  
+            </template>
+            <template  v-else-if="feast == 1"> 
+              <ion-button fill="clear" strong router-link="/officeList/1">Back to Dom.</ion-button>  
             </template>          
             <template  v-else-if="feast == 2">
-              <p><ion-button color="tertiary" router-link="/officeList/2">Feria II - index</ion-button></p>
+              <ion-button fill="clear" strong router-link="/officeList/2">Back to Feria II</ion-button>  
             </template>
             <template  v-else-if="feast == 3">
-              <p><ion-button color="tertiary" router-link="/officeList/3">Feria III - index</ion-button></p>
+              <ion-button fill="clear" strong router-link="/officeList/3">Back to Feria III</ion-button>  
             </template>
             <template  v-else-if="feast == 4">
-              <p><ion-button color="tertiary" router-link="/officeList/4">Feria IV - index</ion-button></p>
-            </template>
-            <template  v-else-if="feast == 9"> 
-              <p><ion-button color="tertiary" router-link="/officeList/9">Domenica in Palmis (Sabbato) - index</ion-button></p>
-            </template>                            
-          <p><ion-button color="tertiary" router-link="/">Hebdomada Sancta - index</ion-button></p>
+              <ion-button fill="clear" strong router-link="/officeList/4">Back to Feria IV</ion-button>  
+            </template>            
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>
           <p>&nbsp;</p>
           <p>&nbsp;</p>              
           <p>&nbsp;</p>
@@ -99,7 +121,7 @@
 </template>
 
 <script lang="ts"> 
-    import { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } from '@ionic/vue';
+    import { IonPage , IonContent , IonButton , IonBackButton } from '@ionic/vue';
     import { useRoute }         from 'vue-router';    
     import Ps004                from '@/components/g65Psalmodia/Ps004R03.vue';
     import Ps090                from '@/components/g65Psalmodia/Ps090R03.vue';
@@ -112,7 +134,7 @@
         name: 'Completor',
         components: { Ps004 , Ps090 , Ps133 , 
                       Confitebor , Capitulum , Oratio , DominusVobiscum , 
-                     IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } ,
+                     IonPage , IonContent , IonButton , IonBackButton } ,
         setup() {
           const route     = useRoute();
           const feast    = route.params.feast;

@@ -3,15 +3,23 @@
     <ion-content :fullscreen="true">
       <div id="container">
         <ion-header>
-          <ion-toolbar>
-            <ion-buttons>
-              <ion-back-button default-href="/" text="Back"></ion-back-button>
-            </ion-buttons>
-            &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br />&nbsp;&nbsp;&nbsp;Ad Completorium</strong>
-          </ion-toolbar>
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
+            <template  v-if="feast == 0"> 
+              <ion-button fill="clear" strong router-link="/officeList/5">Back to Feria V</ion-button>  
+            </template>
+            <template  v-else-if="feast == 1"> 
+              <ion-button fill="clear" strong router-link="/officeList/6">Back to Feria VI</ion-button>  
+            </template>          
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>
+        &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br class="psalm" />&nbsp;&nbsp;&nbsp;Ad Completorium</strong>
         </ion-header>  
 
         <div class="content">
+          <br />
         <p><Confitebor /></p>
 
     <p><img src="../../public/assets/images/g70Tonus/Tonus13Fc.jpg" /></p>
@@ -39,13 +47,18 @@
         <p><PerDominum /></p>
 
         <p>&nbsp;</p>
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
             <template  v-if="feast == 0"> 
-              <p><ion-button color="tertiary" router-link="/officeList/5">Feria 5 - In Coena Domini - index</ion-button></p>             
+              <ion-button fill="clear" strong router-link="/officeList/5">Back to Feria V</ion-button>  
             </template>
             <template  v-else-if="feast == 1"> 
-              <p><ion-button color="tertiary" router-link="/officeList/6">Feria 6 - In Parasceve - index</ion-button></p>              
-            </template>
-          <p><ion-button color="tertiary" router-link="/">Hebdomada Sancta - index</ion-button></p>
+              <ion-button fill="clear" strong router-link="/officeList/6">Back to Feria VI</ion-button>  
+            </template>          
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>
           <p>&nbsp;</p>
           <p>&nbsp;</p>              
           <p>&nbsp;</p>
@@ -57,7 +70,7 @@
 </template>
 
 <script lang="ts">
-    import { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } from '@ionic/vue';
+    import { IonPage , IonContent , IonButton , IonBackButton } from '@ionic/vue';
     import { useRoute }             from 'vue-router';    
     import Ps004                    from '@/components/g65Psalmodia/Ps004R13SineGloria.vue';
     import Ps090                    from '@/components/g65Psalmodia/Ps090R13SineGloria.vue';
@@ -69,7 +82,7 @@
     export default ( {
         name: 'Completor',
         components: { Ps004 , Ps090 , Ps133 , NuncDimittis , Confitebor , Oratio , PerDominum , 
-        IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } ,
+        IonPage , IonContent , IonButton , IonBackButton } ,
         setup() {
           const route     = useRoute();
           const { feast } = route.params;

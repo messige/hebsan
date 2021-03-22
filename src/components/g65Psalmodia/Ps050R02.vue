@@ -12,10 +12,10 @@
 <td>Ámplius lava me ab iniquitáte  <highlight1><accent>me</accent></highlight1>a <greStar /><br class="psalm" />
     et a peccáto me<highlight2><prepa>o</prepa></highlight2>  <accent>mun</accent>da me.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Quóniam iniquitátem meam ego co<highlight2><accent>gnós</accent></highlight2>co <greStar /><br class="psalm" />
+<td>Quóniam iniquitátem meam ego co<highlight2><accent>gnós</accent></highlight2>co <greStar /><br />
     et peccátum meum contra me  <highlight1><prepa>est</prepa></highlight1>  <accent>sem</accent>per.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Tibi soli peccávi et malum coram te  <highlight1><accent>fe</accent></highlight1>ci <greStar /><br class="psalm" />
+<td>Tibi soli peccávi et malum coram te  <highlight1><accent>fe</accent></highlight1>ci <greStar /><br />
     ut iustificéris in sermónibus tuis et vincas cum iu<highlight2><prepa>di</prepa></highlight2><accent>cá</accent>ris.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Ecce enim in iniquitátibus con<highlight2><accent>cép</accent></highlight2>tus sum <greStar /><br class="psalm" />
@@ -45,7 +45,7 @@
 <td>Docébo iníquos vias  <highlight1><accent>tu</accent></highlight1>as <greStar /><br class="psalm" />
     et ímpii ad te con<highlight2><prepa>ver</prepa></highlight2><accent>tén</accent>tur.</td></tr>
 <tr><td><rubrique>15</rubrique></td>
-<td>Líbera me de sanguínibus, Deus, Deus salútis  <highlight1><accent>me</accent></highlight1>æ <greStarNoSpace /><br class="psalm" />
+<td>Líbera me de sanguínibus, Deus, Deus salútis  <highlight1><accent>me</accent></highlight1>æ <greStarNoSpace /><br />
     et exsultábit lingua mea iustíti<highlight2><prepa>am</prepa></highlight2>  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>16</rubrique></td>
 <td>Dómine, lábia mea a<highlight2><accent>pé</accent></highlight2>ries <greStar /><br class="psalm" />
@@ -54,7 +54,7 @@
 <td>Quóniam si voluísses sacrifícium, dedíssem  <highlight1><accent>ú</accent></highlight1>tique <greStarNoSpace /><br class="psalm" />
     holocáustis non de<highlight2><prepa>lec</prepa></highlight2><accent>tá</accent>beris.</td></tr>
 <tr><td><rubrique>18</rubrique></td>
-<td>Sacrifícium Deo spíritus contribu<highlight2><accent>lá</accent></highlight2>tus <greStar /><br class="psalm" />
+<td>Sacrifícium Deo spíritus contribu<highlight2><accent>lá</accent></highlight2>tus <greStar /><br />
     cor contrítum et humiliátum Deus non  <highlight1><prepa>des</prepa></highlight1><accent>pí</accent>cies.</td></tr>
 <tr><td><rubrique>19</rubrique></td>
 <td>Benígne fac, Dómine, in bona voluntáte tua  <highlight1><accent>Si</accent></highlight1>on <greStarNoSpace /><br class="psalm" />

@@ -9,13 +9,16 @@
 <tr><td><rubrique>3</rubrique></td>
 <td>Verba oris eius iníqui<highlight2><prepa>tas</prepa></highlight2>  <prepa>et</prepa>  <accent>do</accent>lus <greStar /><br class="psalm" />nóluit intellígere  <highlight1><prepa>ut</prepa></highlight1>  <prepa>be</prepa><prepa>ne</prepa>  <accent>á</accent>geret.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Iniquitátem meditátus est in cubíli su<highlight2><prepa>o</prepa></highlight2> <greDagger /><br class="psalm" />ástitit omni vi<highlight2><prepa>æ</prepa></highlight2>  <prepa>non</prepa>  <accent>bo</accent>næ <greStar /><br class="psalm" />malítiam au<highlight2><prepa>tem</prepa></highlight2>  <prepa>non</prepa>  <prepa>o</prepa><accent>dí</accent>vit.</td></tr>
+<td>Iniquitátem meditátus est in cubíli su<highlight2><prepa>o</prepa></highlight2> <greDagger /><br class="psalm" />
+ástitit omni vi<highlight2><prepa>æ</prepa></highlight2>  <prepa>non</prepa>  <accent>bo</accent>næ <greStar /><br />
+malítiam au<highlight2><prepa>tem</prepa></highlight2>  <prepa>non</prepa>  <prepa>o</prepa><accent>dí</accent>vit.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
 <td>Dómine, in cælo misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />et véritas tua  <highlight1><prepa>us</prepa></highlight1><prepa>que</prepa>  <prepa>ad</prepa>  <accent>nu</accent>bes.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Iustítia tua sicut  <highlight1><prepa>mon</prepa></highlight1><prepa>tes</prepa>  <accent>De</accent>i <greStar /><br class="psalm" />iudícia tua  <highlight1><prepa>a</prepa></highlight1><prepa>býs</prepa><prepa>sus</prepa>  <accent>mul</accent>ta.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Hómines et iuménta sal<highlight2><prepa>vá</prepa></highlight2><prepa>bis</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />quemádmodum multiplicásti misericórdi<highlight2><prepa>am</prepa></highlight2>  <prepa>tu</prepa><prepa>am</prepa>  <accent>De</accent>us.</td></tr>
+<td>Hómines et iuménta sal<highlight2><prepa>vá</prepa></highlight2><prepa>bis</prepa>,  <accent>Dó</accent>mine <greStar /><br />
+quemádmodum multiplicásti misericórdi<highlight2><prepa>am</prepa></highlight2>  <prepa>tu</prepa><prepa>am</prepa>  <accent>De</accent>us.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Fílii  <highlight1><prepa>au</prepa></highlight1><prepa>tem</prepa>  <accent>hó</accent>minum <greStar /><br class="psalm" />in tégmine alárum tu<highlight2><prepa>á</prepa></highlight2><prepa>rum</prepa>  <prepa>spe</prepa><accent>rá</accent>bunt.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
@@ -23,7 +26,8 @@
 <tr><td><rubrique>10</rubrique></td>
 <td>Quóniam apud te  <highlight1><prepa>est</prepa></highlight1>  <prepa>fons</prepa>  <accent>vi</accent>tæ <greStar /><br class="psalm" />et in lúmine tuo vi<highlight2><prepa>dé</prepa></highlight2><prepa>bi</prepa><prepa>mus</prepa>  <accent>lu</accent>men.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
-<td>Præténde misericórdiam tuam sci<highlight2><prepa>én</prepa></highlight2><prepa>ti</prepa><accent>bus</accent> te <greStar /><br class="psalm" />et iustítiam tuam his qui  <highlight1><prepa>rec</prepa></highlight1><prepa>to</prepa>  <prepa>sunt</prepa>  <accent>cor</accent>de.</td></tr>
+<td>Præténde misericórdiam tuam sci<highlight2><prepa>én</prepa></highlight2><prepa>ti</prepa><accent>bus</accent> te <greStar /><br />
+et iustítiam tuam his qui  <highlight1><prepa>rec</prepa></highlight1><prepa>to</prepa>  <prepa>sunt</prepa>  <accent>cor</accent>de.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
 <td>Non véniat mihi  <highlight1><prepa>pes</prepa></highlight1>  <prepa>su</prepa><accent>pér</accent>biæ <greStar /><br class="psalm" />et manus peccatóris  <highlight1><prepa>non</prepa></highlight1>  <prepa>mó</prepa><prepa>ve</prepa><accent>at</accent> me.</td></tr>
 <tr><td><rubrique>13</rubrique></td>

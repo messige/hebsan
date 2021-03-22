@@ -6,7 +6,7 @@
 <td>Qui hábitat in adiutório al<highlight2><accent>tís</accent></highlight2>simi <greStar /><br class="psalm" />
 in protectióne Dei cæli  <highlight1><prepa>com</prepa></highlight1><prepa>mo</prepa><accent>rá</accent>bitur.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
-<td>Dicet Dómino : suscéptor meus es tu et refúgium  <highlight1><accent>me</accent></highlight1>um <greStar /><br class="psalm" />
+<td>Dicet Dómino : suscéptor meus es tu et refúgium  <highlight1><accent>me</accent></highlight1>um <greStar /><br />
 Deus meus sperá<highlight2><prepa>bo</prepa></highlight2>  <prepa>in</prepa>  <accent>e</accent>um.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
 <td>Quóniam ipse liberábit me de láqueo ve<highlight2><accent>nán</accent></highlight2>tium <greStar /><br class="psalm" />
@@ -16,11 +16,12 @@ et a  <highlight1><prepa>ver</prepa></highlight1><prepa>bo</prepa>  <accent>ás<
 <tr><td><rubrique>5</rubrique></td>
 <td>Scuto circúmdabit te véritas  <highlight1><accent>e</accent></highlight1>ius <greStar /> non timébis a timó<highlight2><prepa>re</prepa></highlight2>  <prepa>noc</prepa><accent>túr</accent>no.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>A sagítta volánte in di<highlight2><prepa>e</prepa></highlight2> <greDagger /> a negótio perambulánte in  <highlight1><accent>té</accent></highlight1>nebris <greStar /><br class="psalm" />
+<td>A sagítta volánte in di<highlight2><prepa>e</prepa></highlight2> <greDagger /><br class="psalm" /> 
+a negótio perambulánte in  <highlight1><accent>té</accent></highlight1>nebris <greStar /><br />
 ab incúrsu et dæmónio me<highlight2><prepa>ri</prepa></highlight2><prepa>di</prepa><accent>á</accent>no.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
 <td>Cadent a látere tuo mil<highlight2><prepa>le</prepa></highlight2> <greDagger /><br class="psalm" />
-et decem mília a dextris  <highlight1><accent>tu</accent></highlight1>is <greStar /><br class="psalm" />
+et decem mília a dextris  <highlight1><accent>tu</accent></highlight1>is <greStar /><br />
 ad te autem non ap<highlight2><prepa>pro</prepa></highlight2><prepa>pin</prepa><accent>quá</accent>bit.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Verúmtamen óculis tuis conside<highlight2><accent>rá</accent></highlight2>bis <greStar /><br class="psalm" />
@@ -39,10 +40,11 @@ et flagéllum non appropinquábit taberná<highlight2><prepa>cu</prepa></highlig
 <td>Super áspidem et basilíscum ambu<highlight2><accent>lá</accent></highlight2>bis <greStar /><br class="psalm" />
 et conculcábis leónem  <highlight1><prepa>et</prepa></highlight1>  <prepa>dra</prepa><accent>có</accent>nem.</td></tr>
 <tr><td><rubrique>14</rubrique></td>
-<td>Quóniam in me sperávit, liberábo  <highlight1><accent>e</accent></highlight1>um <greStar />><br class="psalm" />
+<td>Quóniam in me sperávit, liberábo  <highlight1><accent>e</accent></highlight1>um <greStar /><br />
 prótegam eum quóniam cognóvit  <highlight1><prepa>no</prepa></highlight1><prepa>men</prepa>  <accent>me</accent>um.</td></tr>
 <tr><td><rubrique>15</rubrique></td>
-<td>Clamábit ad me et exáudiam e<highlight2><prepa>um</prepa></highlight2> <greDagger />  cum ipso sum in tribulati<highlight2><accent>ó</accent></highlight2>ne <greStar /><br class="psalm" />
+<td>Clamábit ad me et exáudiam e<highlight2><prepa>um</prepa></highlight2> <greDagger /><br class="psalm" />
+ cum ipso sum in tribulati<highlight2><accent>ó</accent></highlight2>ne <greStar /><br />
 erípiam eum et glorifi<highlight2><prepa>cá</prepa></highlight2><prepa>bo</prepa>  <accent>e</accent>um.</td></tr>
 <tr><td><rubrique>16</rubrique></td>
 <td>Longitúdine diérum replébo  <highlight1><accent>e</accent></highlight1>um <uparrow /> et osténdam illi salu<highlight2><prepa>tá</prepa></highlight2><prepa>re</prepa>  <accent>me</accent>um.</td></tr>

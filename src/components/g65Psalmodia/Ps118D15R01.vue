@@ -10,7 +10,7 @@
 <tr><td><rubrique>3</rubrique></td>
 <td>Declináte a me ma<highlight2><accent>lí</accent></highlight2>gni <greStar />et scrutábor mandáta De<highlight2><prepa>i</prepa></highlight2>  <accent>me</accent>i.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Súscipe me secúndum elóquium tuum et  <highlight1><accent>vi</accent></highlight1>vam <greStar /><br class="psalm" />
+<td>Súscipe me secúndum elóquium tuum et  <highlight1><accent>vi</accent></highlight1>vam <greStar /><br />
     et non confúndas me ab exspectatió<highlight2><prepa>ne</prepa></highlight2>  <accent>me</accent>a.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
 <td>Ádiuva me et salvus  <highlight1><accent>e</accent></highlight1>ro <greStar /><br class="psalm" />

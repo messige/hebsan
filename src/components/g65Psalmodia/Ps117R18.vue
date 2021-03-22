@@ -37,7 +37,7 @@ et in nómine Dómini quia ultus  <highlight1><prepa>sum</prepa></highlight1>  <
 et in nómine Dómini quia ultus  <highlight1><prepa>sum</prepa></highlight1>  <prepa>in</prepa>  <accent>e</accent>os.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
 <td>Circumdedérunt me sicut a<highlight2><prepa>pes</prepa></highlight2> <greDagger /><br class="psalm" />
-    et exarsérunt sicut  <highlight1><accent>i</accent></highlight1>gnis in  <accent>spi</accent>nis <greStar /><br class="psalm" />
+    et exarsérunt sicut  <highlight1><accent>i</accent></highlight1>gnis in  <accent>spi</accent>nis <greStar /><br />
     et in nómine Dómini quia ultus  <highlight1><prepa>sum</prepa></highlight1>  <prepa>in</prepa>  <accent>e</accent>os.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
 <td>Impúlsus evérsus  <highlight1><accent>sum</accent></highlight1> ut  <accent>cá</accent>derem <greStar /><br class="psalm" />
@@ -60,7 +60,7 @@ et in nómine Dómini quia ultus  <highlight1><prepa>sum</prepa></highlight1>  <
     et morti non  <highlight1><prepa>trá</prepa></highlight1><prepa>di</prepa><accent>dit</accent> me.</td></tr>
 <tr><td><rubrique>19</rubrique></td>
 <td>Aperíte mihi portas iustí<highlight2><prepa>ti</prepa></highlight2><prepa>æ</prepa> <greDagger /><br class="psalm" />
-    ingréssus in eas confi<highlight2><accent>té</accent></highlight2>bor  <accent>Dó</accent>mino <greStar /><br class="psalm" />
+    ingréssus in eas confi<highlight2><accent>té</accent></highlight2>bor  <accent>Dó</accent>mino <greStar /><br />
     hæc porta Dómini, iusti intrá<highlight2><prepa>bunt</prepa></highlight2>  <prepa>in</prepa>  <accent>e</accent>am.</td></tr>
 <tr><td><rubrique>20</rubrique></td>
 <td>Confitébor tibi quóniam  <highlight1><accent>ex</accent></highlight1>au<accent>dí</accent>sti me <greStar /><br class="psalm" />

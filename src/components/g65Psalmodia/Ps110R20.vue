@@ -9,7 +9,7 @@
 <tr><td><rubrique>3</rubrique></td>
 <td>Conféssio et magnificéntia  <highlight1><accent>o</accent></highlight1>pus  <accent>e</accent>ius <greStar /><br class="psalm" />et iustítia eius manet in sǽcu<highlight2><prepa>lum</prepa></highlight2>  <accent>sǽ</accent>culi.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Memóriam fecit mirabílium suó<highlight2><prepa>rum</prepa></highlight2> <greDagger /><br class="psalm" />miséricors et mise<highlight2><accent>rá</accent></highlight2>tor  <accent>Dó</accent>minus <greStar /><br class="psalm" />escam dedit timén<highlight2><prepa>ti</prepa></highlight2><accent>bus</accent> se.</td></tr>
+<td>Memóriam fecit mirabílium suó<highlight2><prepa>rum</prepa></highlight2> <greDagger /><br />miséricors et mise<highlight2><accent>rá</accent></highlight2>tor  <accent>Dó</accent>minus <greStar /><br class="psalm" />escam dedit timén<highlight2><prepa>ti</prepa></highlight2><accent>bus</accent> se.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
 <td>Memor erit in sǽculum testa<highlight2><accent>mén</accent></highlight2>ti  <accent>su</accent>i <greStar /><br class="psalm" />virtútem óperum suórum annuntiábit pópu<highlight2><prepa>lo</prepa></highlight2>  <accent>su</accent>o.</td></tr>
 <tr><td><rubrique>6</rubrique></td>

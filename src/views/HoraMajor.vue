@@ -3,12 +3,40 @@
     <ion-content :fullscreen="true">
       <div id="container">
         <ion-header>
-          <ion-toolbar>
-            <ion-buttons>
-              <ion-back-button default-href="/" text="Back"></ion-back-button>
-            </ion-buttons>
-            &nbsp;&nbsp;&nbsp;<strong>{{feastTitle}}<br />&nbsp;&nbsp;&nbsp;{{OfficeTitle}}</strong>
-          </ion-toolbar>
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
+            <template v-if="feast == 9">
+              <ion-button fill="clear" strong router-link="/officeList/9">Back to Sabb.</ion-button>  
+            </template>
+            <template  v-else-if="feast == 1"> 
+              <ion-button fill="clear" strong router-link="/officeList/1">Back to Dom.</ion-button>  
+            </template>          
+            <template  v-else-if="feast == 2">
+              <ion-button fill="clear" strong router-link="/officeList/2">Back to Feria II</ion-button>  
+            </template>
+            <template  v-else-if="feast == 3">
+              <ion-button fill="clear" strong router-link="/officeList/3">Back to Feria III</ion-button>  
+            </template>
+            <template  v-else-if="feast == 4">
+              <ion-button fill="clear" strong router-link="/officeList/4">Back to Feria IV</ion-button>  
+            </template>            
+            <template  v-else-if="feast == 5"> 
+              <ion-button fill="clear" strong router-link="/officeList/5">Back to Feria V</ion-button>               
+            </template>
+            <template  v-else-if="feast == 6"> 
+              <ion-button fill="clear" strong router-link="/officeList/6">Back to Feria VI</ion-button>              
+            </template>
+            <template  v-else-if="feast == 7"> 
+              <ion-button fill="clear" strong router-link="/officeList/7">Back to Sabb.</ion-button>             
+            </template>
+            <template  v-else-if="feast == 8"> 
+              <ion-button fill="clear" strong router-link="/officeList/8">Back to Dom.</ion-button>           
+            </template>                         
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>
+        <strong>{{feastTitle}}<br class="psalm" />&nbsp;&nbsp;&nbsp;{{OfficeTitle}}</strong>
         </ion-header>      
           <div class="content"> 
             <br /> 
@@ -132,32 +160,24 @@
               </template>
               <template  v-else-if="office == 2">                                                             <!-- Le Lundi Saint aux Vêpres -->
                 <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <img src="../../public/assets/images/g50Antiphona/AntNosQuiVivimusNeu.png" /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntNosQuiVivimus.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus19.jpg" /><br />
                   <Ps221 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntNosQuiVivimus.jpg"  />
                 </p>  
                 <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <img src="../../public/assets/images/g50Antiphona/AntInclinavitDomNeu.png" /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntInclinavitDom.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus01Fg2.jpg" /><br />
                   <Ps222 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntInclinavitDom.jpg" />
                 </p> 
                 <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <img src="../../public/assets/images/g50Antiphona/AntCredidiPropterNeu.png" /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntCredidiPropter.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus08Fa.jpg" /><br />
                   <Ps223 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntCredidiPropter.jpg" />
                 </p>                 
                 <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <img src="../../public/assets/images/g50Antiphona/AntSaepeExpungaveruntNeu.png" /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntSaepeExpungaverunt.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus02Fd.jpg" /><br />
                   <Ps224 /><br />
@@ -626,11 +646,7 @@
               </template>
               <template  v-else-if="office == 2">                                                     <!-- Le Lundi Saint aux Vêpres -->
                  <p>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <img src="../../public/assets/images/g50Antiphona/AntNonHaberesNeu1.png" /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntNonHaberes1.jpg" /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntNonHaberesNeu2.png" /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntNonHaberes2.jpg" /><br />
+                  <img src="../../public/assets/images/g50Antiphona/AntNonHaberes.jpg" /><br />
                   <img src="../../public/assets/images/g70Tonus/Tonus10Fb.jpg" /><br />
                   <Cant22 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntNonHaberes.jpg" />
@@ -810,34 +826,39 @@
             <p><img src="../../public/assets/images/g95InOrdineOfficii/BenedicamusDominoPascha.jpg" /></p>
           </template>
           <p>&nbsp;</p>
-              <template v-if="feast == 9">
-                <ion-button color="tertiary" router-link="/officeList/9">Back to Sabb.</ion-button>  
-              </template>
-              <template  v-else-if="feast == 1"> 
-                <ion-button color="tertiary" router-link="/officeList/1">Back to Dom.</ion-button>  
-              </template>          
-              <template  v-else-if="feast == 2">
-               <ion-button color="tertiary" router-link="/officeList/2">Back to Feria II</ion-button>  
-              </template>
-              <template  v-else-if="feast == 3">
-                <ion-button color="tertiary" router-link="/officeList/3">Back to Feria III</ion-button>  
-              </template>
-              <template  v-else-if="feast == 4">
-                <ion-button color="tertiary" router-link="/officeList/4">Back to Feria IV</ion-button>  
-              </template>            
-              <template  v-else-if="feast == 5"> 
-                <ion-button color="tertiary" router-link="/officeList/5">Back to Feria V</ion-button>               
-              </template>
-              <template  v-else-if="feast == 6"> 
-               <ion-button color="tertiary" router-link="/officeList/6">Back to Feria VI</ion-button>              
-              </template>
-              <template  v-else-if="feast == 7"> 
-                <ion-button color="tertiary" router-link="/officeList/7">Back to Sabb.</ion-button>             
-              </template>
-              <template  v-else-if="feast == 8"> 
-                <ion-button color="tertiary" router-link="/officeList/8">Back to Dom.</ion-button>           
-              </template>                         
-            <p><ion-button color="tertiary" router-link="/">Back to home</ion-button></p>
+        <ion-tab-bar>
+          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
+          <ion-tab-button> 
+            <template v-if="feast == 9">
+              <ion-button fill="clear" strong router-link="/officeList/9">Back to Sabb.</ion-button>  
+            </template>
+            <template  v-else-if="feast == 1"> 
+              <ion-button fill="clear" strong router-link="/officeList/1">Back to Dom.</ion-button>  
+            </template>          
+            <template  v-else-if="feast == 2">
+              <ion-button fill="clear" strong router-link="/officeList/2">Back to Feria II</ion-button>  
+            </template>
+            <template  v-else-if="feast == 3">
+              <ion-button fill="clear" strong router-link="/officeList/3">Back to Feria III</ion-button>  
+            </template>
+            <template  v-else-if="feast == 4">
+              <ion-button fill="clear" strong router-link="/officeList/4">Back to Feria IV</ion-button>  
+            </template>            
+            <template  v-else-if="feast == 5"> 
+              <ion-button fill="clear" strong router-link="/officeList/5">Back to Feria V</ion-button>               
+            </template>
+            <template  v-else-if="feast == 6"> 
+              <ion-button fill="clear" strong router-link="/officeList/6">Back to Feria VI</ion-button>              
+            </template>
+            <template  v-else-if="feast == 7"> 
+              <ion-button fill="clear" strong router-link="/officeList/7">Back to Sabb.</ion-button>             
+            </template>
+            <template  v-else-if="feast == 8"> 
+              <ion-button fill="clear" strong router-link="/officeList/8">Back to Dom.</ion-button>           
+            </template>                         
+          </ion-tab-button>
+          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
+        </ion-tab-bar>
           <p>&nbsp;</p>
           <p>&nbsp;</p>              
           <p>&nbsp;</p>
@@ -849,7 +870,7 @@
 </template>
 
 <script lang="ts">
-    import { IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } from '@ionic/vue';
+    import { IonPage , IonContent , IonButton , IonBackButton } from '@ionic/vue';
     import { useRoute }      from 'vue-router'; 
 
     import Ps111             from '@/components/g65Psalmodia/Ps050R02.vue';        // 1st feast 1st office 1st psalm - Dimanche
@@ -975,7 +996,7 @@
 
                       Oratio1 , Oratio2 , Oratio3 , Oratio4 , Oratio5 , Oratio6 , Oratio7 , Oratio8 , Oratio9 ,
                       DominusVobiscum , 
-                      IonPage , IonContent , IonButtons , IonButton , IonBackButton , IonToolbar } ,
+                      IonPage , IonContent , IonButton , IonBackButton } ,
         // props : ["feastOffice"] ,
         setup() {
           const route    = useRoute () ;

@@ -7,11 +7,12 @@
 <tr><td><rubrique>2</rubrique></td>
 <td>Donec ponam ini<highlight2><accent>mí</accent></highlight2>cos  <accent>tu</accent>os <greStar /><br class="psalm" />scabéllum  <highlight1><accent>pe</accent></highlight1>dum tu<accent>ó</accent>rum.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
-<td>Virgam virtútis tuæ emíttet Dómi<highlight2><accent>nus</accent></highlight2> ex  <accent>Si</accent>on <greStar /><br class="psalm" />domináre in médio inimi<highlight2><accent>có</accent></highlight2>rum tu<accent>ó</accent>rum.</td></tr>
+<td>Virgam virtútis tuæ emíttet Dómi<highlight2><accent>nus</accent></highlight2> ex  <accent>Si</accent>on <greStar /><br />domináre in médio inimi<highlight2><accent>có</accent></highlight2>rum tu<accent>ó</accent>rum.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Tecum princípium in die virtútis tuæ<br class="psalm" />in splendóri<highlight2><accent>bus</accent></highlight2> sanc<accent>tó</accent>rum <greStar /><br class="psalm" />ex útero ante lucíferum  <highlight1><accent>gé</accent></highlight1>nu<accent>i</accent> te.</td></tr>
+<td>Tecum princípium in die virtútis tuæ<br class="psalm" />
+in splendóri<highlight2><accent>bus</accent></highlight2> sanc<accent>tó</accent>rum <greStar /><br />ex útero ante lucíferum  <highlight1><accent>gé</accent></highlight1>nu<accent>i</accent> te.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Iurávit Dóminus et non pæni<highlight2><accent>té</accent></highlight2>bit  <accent>e</accent>um <greStar /><br class="psalm" />tu es sacérdos in ætérnum<br class="psalm" />secúndum órdi<highlight2><accent>nem</accent></highlight2> Mel<accent>chí</accent>sedech.</td></tr>
+<td>Iurávit Dóminus et non pæni<highlight2><accent>té</accent></highlight2>bit  <accent>e</accent>um <greStar /><br />tu es sacérdos in ætérnum<br class="psalm" />secúndum órdi<highlight2><accent>nem</accent></highlight2> Mel<accent>chí</accent>sedech.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Dóminus a  <highlight1><accent>dex</accent></highlight1>tris  <accent>tu</accent>is <greStar /><br class="psalm" />confrégit in die iræ  <highlight1><accent>su</accent></highlight1>æ  <accent>re</accent>ges.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
