@@ -11,7 +11,8 @@
 <tr><td><rubrique>4</rubrique></td>
 <td>Excélsus super omnes  <highlight1><accent>gen</accent></highlight1>tes  <accent>Dó</accent>minus <greStar /><br class="psalm" />et super cælos  <highlight1><accent>gló</accent></highlight1>ria  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Quis sicut Dóminus Deus noster qui in  <highlight1><accent>al</accent></highlight1>tis  <accent>há</accent>bitat <greStar /><br class="psalm" />et humília réspicit in cælo  <highlight1><accent>et</accent></highlight1> in  <accent>ter</accent>ra.</td></tr>
+<td>Quis sicut Dóminus Deus noster qui in  <highlight1><accent>al</accent></highlight1>tis  <accent>há</accent>bitat <greStar /><br />
+et humília réspicit in cælo  <highlight1><accent>et</accent></highlight1> in  <accent>ter</accent>ra.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Súscitans a  <highlight1><accent>ter</accent></highlight1>ra  <accent>í</accent>nopem <greStar /><br class="psalm" />et de stércore  <highlight1><accent>é</accent></highlight1>rigens  <accent>páu</accent>perem.</td></tr>
 <tr><td><rubrique>7</rubrique></td>

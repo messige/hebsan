@@ -9,9 +9,11 @@
 <tr><td><rubrique>3</rubrique></td>
 <td>Ámplius lava me ab iniqui<highlight2><accent>tá</accent></highlight2>te  <accent>me</accent>a <greStar /><br class="psalm" />et a peccáto  <highlight1><accent>me</accent></highlight1>o  <accent>mun</accent>da me.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Quóniam iniquitátem meam  <highlight1><accent>e</accent></highlight1>go co<accent>gnós</accent>co <greStar /><br class="psalm" />et peccátum meum contra  <highlight1><accent>me</accent></highlight1> est  <accent>sem</accent>per.</td></tr>
+<td>Quóniam iniquitátem meam  <highlight1><accent>e</accent></highlight1>go co<accent>gnós</accent>co <greStar /><br />
+et peccátum meum contra  <highlight1><accent>me</accent></highlight1> est  <accent>sem</accent>per.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Tibi soli peccávi et malum  <highlight1><accent>co</accent></highlight1>ram te  <accent>fe</accent>ci <greStar /><br class="psalm" />ut iustificéris in sermónibus tuis et vincas cum  <highlight1><accent>iu</accent></highlight1>di<accent>cá</accent>ris.</td></tr>
+<td>Tibi soli peccávi et malum  <highlight1><accent>co</accent></highlight1>ram te  <accent>fe</accent>ci <greStar /><br />
+ut iustificéris in sermónibus tuis et vincas cum  <highlight1><accent>iu</accent></highlight1>di<accent>cá</accent>ris.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Ecce enim in iniquitáti<highlight2><accent>bus</accent></highlight2> con<accent>cép</accent>tus sum <greStar /><br class="psalm" />et in peccátis concépit me  <highlight1><accent>ma</accent></highlight1>ter  <accent>me</accent>a.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
@@ -31,13 +33,15 @@
 <tr><td><rubrique>14</rubrique></td>
 <td>Docébo iníquos  <highlight1><accent>vi</accent></highlight1>as  <accent>tu</accent>as <greStar /><br class="psalm" />et ímpii ad te  <highlight1><accent>con</accent></highlight1>ver<accent>tén</accent>tur.</td></tr>
 <tr><td><rubrique>15</rubrique></td>
-<td>Líbera me de sanguínibus, Deus, Deus sa<highlight2><accent>lú</accent></highlight2>tis  <accent>me</accent>æ <greStar /><br class="psalm" />et exsultábit lingua mea ius<highlight2><accent>tí</accent></highlight2>tiam  <accent>tu</accent>am.</td></tr>
+<td>Líbera me de sanguínibus, Deus, Deus sa<highlight2><accent>lú</accent></highlight2>tis  <accent>me</accent>æ <greStar /><br />
+et exsultábit lingua mea ius<highlight2><accent>tí</accent></highlight2>tiam  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>16</rubrique></td>
 <td>Dómine, lábia  <highlight1><accent>me</accent></highlight1>a a<accent>pé</accent>ries <greStar /><br class="psalm" />et os meum annuntiábit  <highlight1><accent>lau</accent></highlight1>dem  <accent>tu</accent>am</td></tr>
 <tr><td><rubrique>17</rubrique></td>
 <td>Quóniam si voluísses sacrifícium, de<highlight2><accent>dís</accent></highlight2>sem  <accent>ú</accent>tique <greStar /><br class="psalm" />holocáustis non  <highlight1><accent>de</accent></highlight1>lec<accent>tá</accent>beris.</td></tr>
 <tr><td><rubrique>18</rubrique></td>
-<td>Sacrifícium Deo spíritus con<highlight2><accent>tri</accent></highlight2>bu<accent>lá</accent>tus <greStar /><br class="psalm" />cor contrítum et humiliátum Deus  <highlight1><accent>non</accent></highlight1> des<accent>pí</accent>cies.</td></tr>
+<td>Sacrifícium Deo spíritus con<highlight2><accent>tri</accent></highlight2>bu<accent>lá</accent>tus <greStar /><br />
+cor contrítum et humiliátum Deus  <highlight1><accent>non</accent></highlight1> des<accent>pí</accent>cies.</td></tr>
 <tr><td><rubrique>19</rubrique></td>
 <td>Benígne fac, Dómine, in bona voluntáte  <highlight1><accent>tu</accent></highlight1>a  <accent>Si</accent>on <greStar /><br class="psalm" />ut ædificéntur  <highlight1><accent>mu</accent></highlight1>ri Ie<accent>rú</accent>salem.</td></tr>
 <tr><td><rubrique>20</rubrique></td>

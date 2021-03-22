@@ -5,7 +5,7 @@
 <tr><td><rubrique>1</rubrique></td>
 <td>Laudáte Dóminum in sanctis  <highlight1><accent>e</accent></highlight1>ius <greStar /><br class="psalm" />laudáte eum in firmaménto vir<highlight2><prepa>tú</prepa></highlight2><prepa>tis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
-<td>Laudáte eum in virtútibus  <highlight1><accent>e</accent></highlight1>ius <greStar /><br class="psalm" />laudáte eum secúndum multitúdinem magnitú<highlight2><prepa>di</prepa></highlight2><prepa>nis</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Laudáte eum in virtútibus  <highlight1><accent>e</accent></highlight1>ius <greStar /><br />laudáte eum secúndum multitúdinem magnitú<highlight2><prepa>di</prepa></highlight2><prepa>nis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
 <td>Laudáte eum in sono  <highlight1><accent>tu</accent></highlight1>bæ <greStar /><br class="psalm" />laudáte eum in psaltéri<highlight2><prepa>o</prepa></highlight2>  <prepa>et</prepa>  <accent>cí</accent>thara.</td></tr>
 <tr><td><rubrique>4</rubrique></td>

@@ -11,7 +11,8 @@
 <tr><td><rubrique>4</rubrique></td>
 <td>Si dédero somnum óculis  <highlight1><accent>me</accent></highlight1>is <greStar /><br class="psalm" />et pálpebris meis dormi<highlight2><accent>ta</accent></highlight2>ti<accent>ó</accent>nem.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Et réquiem tempóribus meis donec invéniam locum  <highlight1><accent>Dó</accent></highlight1>mino <greStar /><br class="psalm" />tabernáculum  <highlight1><accent>De</accent></highlight1>o  <accent>Ia</accent>cob.</td></tr>
+<td>Et réquiem tempóribus meis donec invéniam locum  <highlight1><accent>Dó</accent></highlight1>mino <greStar /><br />
+tabernáculum  <highlight1><accent>De</accent></highlight1>o  <accent>Ia</accent>cob.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Ecce audívimus eam in  <highlight1><accent>É</accent></highlight1>phrata <greStar /><br class="psalm" />invénimus eam in  <highlight1><accent>cam</accent></highlight1>pis  <accent>sil</accent>væ.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
@@ -23,7 +24,8 @@
 <tr><td><rubrique>10</rubrique></td>
 <td>Propter David servum  <highlight1><accent>tu</accent></highlight1>um <greStar /><br class="psalm" />non avértas fáciem  <highlight1><accent>Chris</accent></highlight1>ti  <accent>tu</accent>i.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
-<td>Iurávit Dóminus David veritátem et non frustrábitur  <highlight1><accent>e</accent></highlight1>am <greStar /><br class="psalm" />de fructu ventris tui ponam super  <highlight1><accent>se</accent></highlight1>dem  <accent>tu</accent>am.</td></tr>
+<td>Iurávit Dóminus David veritátem et non frustrábitur  <highlight1><accent>e</accent></highlight1>am <greStar /><br />
+de fructu ventris tui ponam super  <highlight1><accent>se</accent></highlight1>dem  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
 <td>Si custodíerint fílii tui testaméntum  <highlight1><accent>me</accent></highlight1>um <greStar /><br class="psalm" />et testimónia mea hæc quæ do<highlight2><accent>cé</accent></highlight2>bo  <accent>e</accent>os.</td></tr>
 <tr><td><rubrique>13</rubrique></td>

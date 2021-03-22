@@ -25,7 +25,9 @@
 <tr><td><rubrique>11</rubrique></td>
 <td>Pro iniquitáte vidi tentória  <highlight1><accent>Æ</accent></highlight1>thi<accent>ó</accent>piæ <greStar /><br class="psalm" />turbabúntur pelles  <highlight1><prepa>ter</prepa></highlight1><prepa>ræ</prepa>  <accent>Má</accent>dian.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
-<td>Numquid in flumínibus irátus es, Dó<highlight2><prepa>mi</prepa></highlight2><prepa>ne</prepa> ? <greDagger /><br class="psalm" />aut in flumínibus  <highlight1><accent>fu</accent></highlight1>ror  <accent>tu</accent>us ? <greStar /><br class="psalm" />vel in mari indigná<highlight2><prepa>ti</prepa></highlight2><prepa>o</prepa>  <accent>tu</accent>a ?</td></tr>
+<td>Numquid in flumínibus irátus es, Dó<highlight2><prepa>mi</prepa></highlight2><prepa>ne</prepa> ? <greDagger /><br class="psalm" />
+aut in flumínibus  <highlight1><accent>fu</accent></highlight1>ror  <accent>tu</accent>us ? <greStar /><br />
+vel in mari indigná<highlight2><prepa>ti</prepa></highlight2><prepa>o</prepa>  <accent>tu</accent>a ?</td></tr>
 <tr><td><rubrique>13</rubrique></td>
 <td>Quia ascéndes super  <highlight1><accent>e</accent></highlight1>quos  <accent>tu</accent>os <greStar /><br class="psalm" />et quadrígæ tu<highlight2><prepa>æ</prepa></highlight2>  <prepa>sal</prepa><accent>vá</accent>tio.</td></tr>
 <tr><td><rubrique>14</rubrique></td>
@@ -35,7 +37,9 @@
 <tr><td><rubrique>16</rubrique></td>
 <td>Dedit abýssus  <highlight1><accent>vo</accent></highlight1>cem  <accent>su</accent>am <greStar /><br class="psalm" />altitúdo manus su<highlight2><prepa>as</prepa></highlight2>  <prepa>le</prepa><accent>vá</accent>vit.</td></tr>
 <tr><td><rubrique>17</rubrique></td>
-<td>Sol et luna stetérunt in habitáculo su<highlight2><prepa>o</prepa></highlight2> <greDagger /><br class="psalm" />in luce sagit<highlight2><accent>tá</accent></highlight2>rum tu<accent>á</accent>rum <greStar /><br class="psalm" />ibunt in splendóre fulgurántis  <highlight1><prepa>has</prepa></highlight1><prepa>tæ</prepa>  <accent>tu</accent>æ.</td></tr>
+<td>Sol et luna stetérunt in habitáculo su<highlight2><prepa>o</prepa></highlight2> <greDagger /><br class="psalm" />
+in luce sagit<highlight2><accent>tá</accent></highlight2>rum tu<accent>á</accent>rum <greStar /><br />
+ibunt in splendóre fulgurántis  <highlight1><prepa>has</prepa></highlight1><prepa>tæ</prepa>  <accent>tu</accent>æ.</td></tr>
 <tr><td><rubrique>18</rubrique></td>
 <td>In frémitu concul<highlight2><accent>cá</accent></highlight2>bis  <accent>ter</accent>ram <greStar /><br class="psalm" />in furóre obstupefá<highlight2><prepa>ci</prepa></highlight2><prepa>es</prepa>  <accent>gen</accent>tes.</td></tr>
 <tr><td><rubrique>19</rubrique></td>
@@ -43,7 +47,9 @@
 <tr><td><rubrique>20</rubrique></td>
 <td>Percussísti caput de  <highlight1><accent>do</accent></highlight1>mo  <accent>ím</accent>pii <greStar /><br class="psalm" />denudásti fundaméntum us<highlight2><prepa>que</prepa></highlight2>  <prepa>ad</prepa>  <accent>col</accent>lum.</td></tr>
 <tr><td><rubrique>21</rubrique></td>
-<td>Maledixísti sceptris e<highlight2><prepa>ius</prepa></highlight2> <greDagger /><br class="psalm" />cápiti bella<highlight2><accent>tó</accent></highlight2>rum  <accent>e</accent>ius <greStar /><br class="psalm" />veniéntibus ut turbo ad  <highlight1><prepa>dis</prepa></highlight1><prepa>per</prepa><accent>gén</accent>dum me.</td></tr>
+<td>Maledixísti sceptris e<highlight2><prepa>ius</prepa></highlight2> <greDagger /><br class="psalm" />
+cápiti bella<highlight2><accent>tó</accent></highlight2>rum  <accent>e</accent>ius <greStar /><br />
+veniéntibus ut turbo ad  <highlight1><prepa>dis</prepa></highlight1><prepa>per</prepa><accent>gén</accent>dum me.</td></tr>
 <tr><td><rubrique>22</rubrique></td>
 <td>Exsultáti<highlight2><accent>o</accent></highlight2> e<accent>ó</accent>rum <greStar /><br class="psalm" />sicut eius qui dévorat páuperem  <highlight1><prepa>in</prepa></highlight1>  <prepa>abs</prepa><accent>cón</accent>dito.</td></tr>
 <tr><td><rubrique>23</rubrique></td>

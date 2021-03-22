@@ -10,9 +10,12 @@
 <tr><td><rubrique>3</rubrique></td>
 <td>Scitóte quóniam Dóminus  <highlight1><accent>ip</accent></highlight1>se est  <accent>De</accent>us <greStar /><br class="psalm" />ipse fecit nos  <highlight1><accent>et</accent></highlight1> non  <accent>ip</accent>si nos.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Pópulus eius et oves páscuæ e<highlight2><prepa>ius</prepa></highlight2> <greDagger /><br class="psalm" />introíte portas eius in con<highlight2><accent>fes</accent></highlight2>si<accent>ó</accent>ne <greStar /><br class="psalm" />átria eius in hymnis : confi<highlight2><accent>té</accent></highlight2>mini  <accent>il</accent>li.</td></tr>
+<td>Pópulus eius et oves páscuæ e<highlight2><prepa>ius</prepa></highlight2> <greDagger /><br class="psalm" />
+introíte portas eius in con<highlight2><accent>fes</accent></highlight2>si<accent>ó</accent>ne <greStar /><br />
+átria eius in hymnis : confi<highlight2><accent>té</accent></highlight2>mini  <accent>il</accent>li.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Laudáte nomen eius : quóniam suávis Dó<highlight2><prepa>mi</prepa></highlight2><prepa>nus</prepa> <greDagger /><br />in ætérnum miseri<highlight2><accent>cór</accent></highlight2>dia  <accent>e</accent>ius <greStar /><br class="psalm" />et usque in generatiónem et generatiónem  <highlight1><accent>vé</accent></highlight1>ritas  <accent>e</accent>ius.</td></tr>
+<td>Laudáte nomen eius : quóniam suávis Dó<highlight2><prepa>mi</prepa></highlight2><prepa>nus</prepa> <greDagger /><br class="psalm" />
+in ætérnum miseri<highlight2><accent>cór</accent></highlight2>dia  <accent>e</accent>ius <greStar /><br />et usque in generatiónem et generatiónem  <highlight1><accent>vé</accent></highlight1>ritas  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Glória  <highlight1><accent>Pa</accent></highlight1>tri et  <accent>Fí</accent>lio <greStar /><br class="psalm" />et Spi<highlight2><accent>rí</accent></highlight2>tui  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>7</rubrique></td>

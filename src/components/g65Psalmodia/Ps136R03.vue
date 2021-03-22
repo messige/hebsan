@@ -23,7 +23,8 @@
 <tr><td><rubrique>10</rubrique></td>
 <td>Qui dicunt : exinaníte, exina<highlight2><accent>ní</accent></highlight2>te <greStar /><br class="psalm" />usque ad fundamén<highlight2><prepa>tum</prepa></highlight2>  <prepa>in</prepa>  <accent>e</accent>a.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
-<td>Fília Babylónis  <highlight1><accent>mí</accent></highlight1>sera <greStar /><br class="psalm" />beátus qui retríbuet tibi retributiónem tuam quam retribu<highlight2><prepa>í</prepa></highlight2><prepa>sti</prepa>  <accent>no</accent>bis.</td></tr>
+<td>Fília Babylónis  <highlight1><accent>mí</accent></highlight1>sera <greStar /><br />
+beátus qui retríbuet tibi retributiónem tuam quam retribu<highlight2><prepa>í</prepa></highlight2><prepa>sti</prepa>  <accent>no</accent>bis.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
 <td>Beátus qui te<highlight2><accent>né</accent></highlight2>bit <greStar /><br class="psalm" />et allídet párvulos tu<highlight2><prepa>os</prepa></highlight2>  <prepa>ad</prepa>  <accent>pe</accent>tram.</td></tr>
 <tr><td><rubrique>13</rubrique></td>

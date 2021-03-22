@@ -11,11 +11,13 @@
 <tr><td><rubrique>4</rubrique></td>
 <td>Quia delectásti me, Dómine, in fac<highlight2><prepa>tú</prepa></highlight2><prepa>ra</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />et in opéribus mánuum tuá<highlight2><prepa>rum</prepa></highlight2>  <prepa>ex</prepa><prepa>sul</prepa><accent>tá</accent>bo.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Quam magníficáta sunt ópera  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>  <accent>Dó</accent>mine <greStar /><br class="psalm" />nimis profúndæ factæ sunt cogita<highlight2><prepa>ti</prepa></highlight2><prepa>ó</prepa><prepa>nes</prepa>  <accent>tu</accent>æ.</td></tr>
+<td>Quam magníficáta sunt ópera  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>  <accent>Dó</accent>mine <greStar /><br />
+nimis profúndæ factæ sunt cogita<highlight2><prepa>ti</prepa></highlight2><prepa>ó</prepa><prepa>nes</prepa>  <accent>tu</accent>æ.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Vir insípiens  <highlight1><prepa>non</prepa></highlight1>  <prepa>co</prepa><accent>gnós</accent>cet <greStar /><br class="psalm" />et stultus non  <highlight1><prepa>in</prepa></highlight1><prepa>tél</prepa><prepa>li</prepa><accent>get</accent> hæc.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Cum exórti fúerint peccatóres  <highlight1><prepa>si</prepa></highlight1><prepa>cut</prepa>  <accent>foe</accent>num <greStar /><br class="psalm" />et apparúerint omnes qui operántur  <highlight1><prepa>i</prepa></highlight1><prepa>ni</prepa><prepa>qui</prepa><accent>tá</accent>tem.</td></tr>
+<td>Cum exórti fúerint peccatóres  <highlight1><prepa>si</prepa></highlight1><prepa>cut</prepa>  <accent>foe</accent>num <greStar /><br />
+et apparúerint omnes qui operántur  <highlight1><prepa>i</prepa></highlight1><prepa>ni</prepa><prepa>qui</prepa><accent>tá</accent>tem.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Ut intéreant in sǽ<highlight2><prepa>cu</prepa></highlight2><prepa>lum</prepa>  <accent>sǽ</accent>culi <greStar /><br class="psalm" />tu autem Altíssimus in  <highlight1><prepa>æ</prepa></highlight1><prepa>tér</prepa><prepa>num</prepa>,  <accent>Dó</accent>mine.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
@@ -23,7 +25,8 @@
 <tr><td><rubrique>10</rubrique></td>
 <td>Et exaltábitur sicut unicórnis  <highlight1><prepa>cor</prepa></highlight1><prepa>nu</prepa>  <accent>me</accent>um <greStar /><br class="psalm" />et senéctus mea in miseri<highlight2><prepa>cór</prepa></highlight2><prepa>di</prepa><prepa>a</prepa>  <accent>ú</accent>beri.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
-<td>Et despéxit óculus meus ini<highlight2><prepa>mí</prepa></highlight2><prepa>cos</prepa>  <accent>me</accent>os <greStar /><br class="psalm" />et in insurgéntibus in me malignántibus áudi<highlight2><prepa>et</prepa></highlight2>  <prepa>au</prepa><prepa>ris</prepa>  <accent>me</accent>a.</td></tr>
+<td>Et despéxit óculus meus ini<highlight2><prepa>mí</prepa></highlight2><prepa>cos</prepa>  <accent>me</accent>os <greStar /><br />
+et in insurgéntibus in me malignántibus áudi<highlight2><prepa>et</prepa></highlight2>  <prepa>au</prepa><prepa>ris</prepa>  <accent>me</accent>a.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
 <td>Iustus ut pal<highlight2><prepa>ma</prepa></highlight2>  <prepa>flo</prepa><accent>ré</accent>bit <greStar /><br class="psalm" />sicut cedrus Líbani  <highlight1><prepa>mul</prepa></highlight1><prepa>ti</prepa><prepa>pli</prepa><accent>cá</accent>bitur.</td></tr>
 <tr><td><rubrique>13</rubrique></td>

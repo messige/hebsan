@@ -13,13 +13,16 @@
 <tr><td><rubrique>5</rubrique></td>
 <td>Quia ego cognóvi quod  <highlight1><accent>ma</accent></highlight1>gnus est  <accent>Dó</accent>minus <greStar /><br class="psalm" />et Deus noster præ óm<highlight2><prepa>ni</prepa></highlight2><prepa>bus</prepa>  <accent>di</accent>is.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>Ómnia quæcúmque vóluit, Dóminus fecit in cælo  <highlight1><accent>et</accent></highlight1> in  <accent>ter</accent>ra <greStar /><br class="psalm" />in mari et in ómni<highlight2><prepa>bus</prepa></highlight2>  <prepa>a</prepa><accent>býs</accent>sis.</td></tr>
+<td>Ómnia quæcúmque vóluit, Dóminus fecit in cælo  <highlight1><accent>et</accent></highlight1> in  <accent>ter</accent>ra <greStar /><br />
+in mari et in ómni<highlight2><prepa>bus</prepa></highlight2>  <prepa>a</prepa><accent>býs</accent>sis.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
 <td>Edúcens nubes ab ex<highlight2><accent>tré</accent></highlight2>mo  <accent>ter</accent>ræ <greStar /><br class="psalm" />fúlgura in plú<highlight2><prepa>vi</prepa></highlight2><prepa>am</prepa>  <accent>fe</accent>cit.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
-<td>Qui producit ventos de the<highlight2><accent>sáu</accent></highlight2>ris  <accent>su</accent>is <greStar /><br class="psalm" />qui percússit primogénita Ægýpti ab hómine us<highlight2><prepa>que</prepa></highlight2>  <prepa>ad</prepa>  <accent>pe</accent>cus.</td></tr>
+<td>Qui producit ventos de the<highlight2><accent>sáu</accent></highlight2>ris  <accent>su</accent>is <greStar /><br />
+qui percússit primogénita Ægýpti ab hómine us<highlight2><prepa>que</prepa></highlight2>  <prepa>ad</prepa>  <accent>pe</accent>cus.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Et misit signa et prodígia in médio  <highlight1><accent>tu</accent></highlight1>i Æ<accent>gýp</accent>te <greStar /><br class="psalm" />in Pharaónem et in omnes  <highlight1><prepa>ser</prepa></highlight1><prepa>vos</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Et misit signa et prodígia in médio  <highlight1><accent>tu</accent></highlight1>i Æ<accent>gýp</accent>te <greStar /><br />
+in Pharaónem et in omnes  <highlight1><prepa>ser</prepa></highlight1><prepa>vos</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
 <td>Qui percússit  <highlight1><accent>gen</accent></highlight1>tes  <accent>mul</accent>tas <greStar /><br class="psalm" />et occídit  <highlight1><prepa>re</prepa></highlight1><prepa>ges</prepa>  <accent>for</accent>tes.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
@@ -27,7 +30,8 @@
 <tr><td><rubrique>12</rubrique></td>
 <td>Et dedit  <highlight1><accent>ter</accent></highlight1>ram e<accent>ó</accent>rum hæreditátem <greStar /><br class="psalm" />hæreditátem Israel pó<highlight2><prepa>pu</prepa></highlight2><prepa>lo</prepa>  <accent>su</accent>o.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
-<td>Dómine nomen tuum  <highlight1><accent>in</accent></highlight1> æ<accent>tér</accent>num <greStar /><br class="psalm" />Dómine memoriále tuum in generatiónem et gene<highlight2><prepa>ra</prepa></highlight2><prepa>ti</prepa><accent>ó</accent>nem.</td></tr>
+<td>Dómine nomen tuum  <highlight1><accent>in</accent></highlight1> æ<accent>tér</accent>num <greStar /><br />
+Dómine memoriále tuum in generatiónem et gene<highlight2><prepa>ra</prepa></highlight2><prepa>ti</prepa><accent>ó</accent>nem.</td></tr>
 <tr><td><rubrique>14</rubrique></td>
 <td>Quia iudicábit Dóminus  <highlight1><accent>pó</accent></highlight1>pulum  <accent>su</accent>um <greStar /><br class="psalm" />et in servis suis  <highlight1><prepa>de</prepa></highlight1><prepa>pre</prepa><accent>cá</accent>bitur.</td></tr>
 <tr><td><rubrique>15</rubrique></td>

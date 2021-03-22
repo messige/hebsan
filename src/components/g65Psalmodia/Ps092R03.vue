@@ -3,7 +3,8 @@
         <rubrique>Ps.92</rubrique><br class="psalm" />
 <table id="psalm092">
 <tr><td><rubrique>1</rubrique></td>
-<td>Dóminus regnávit decórem in<highlight2><accent>dú</accent></highlight2>tus est <greStar /><br class="psalm" />indútus est Dóminus fortitúdinem  <highlight1><prepa>et</prepa></highlight1>  <prepa>præ</prepa><accent>cín</accent>xit se.</td></tr>
+<td>Dóminus regnávit decórem in<highlight2><accent>dú</accent></highlight2>tus est <greStar /><br />
+indútus est Dóminus fortitúdinem  <highlight1><prepa>et</prepa></highlight1>  <prepa>præ</prepa><accent>cín</accent>xit se.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Étenim firmávit orbem  <highlight1><accent>ter</accent></highlight1>ræ <greStar /><br class="psalm" />qui non  <highlight1><prepa>com</prepa></highlight1><prepa>mo</prepa><accent>vé</accent>bitur.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
@@ -15,7 +16,8 @@
 <tr><td><rubrique>6</rubrique></td>
 <td>Mirábiles elatiónes  <highlight1><accent>ma</accent></highlight1>ris <greStar /><br class="psalm" />mirábilis in  <highlight1><prepa>al</prepa></highlight1><prepa>tis</prepa>  <accent>Dó</accent>minus.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Testimónia tua credibília facta sunt  <highlight1><accent>ni</accent></highlight1>mis <greStar /><br class="psalm" />domum tuam decet sanctitúdo, Dómine, in longitúdi<highlight2><prepa>ne</prepa></highlight2>  <prepa>di</prepa><accent>é</accent>rum.</td></tr>
+<td>Testimónia tua credibília facta sunt  <highlight1><accent>ni</accent></highlight1>mis <greStar /><br />
+domum tuam decet sanctitúdo, Dómine, in longitúdi<highlight2><prepa>ne</prepa></highlight2>  <prepa>di</prepa><accent>é</accent>rum.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar /><br class="psalm" />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>9</rubrique></td>

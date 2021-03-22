@@ -9,7 +9,7 @@
 
     <div id="container"> 
       <p> <strong>Hebdomada Sancta<br />Ad horas Majores et Minores</strong></p>
-      <p>Last update: 19/03/2021</p>
+      <p>Last update: 24/03/2021</p>
       <p><strong>Description - fr</strong></p>
       <p>
         Les Heures  de la Semaine Sainte<br />

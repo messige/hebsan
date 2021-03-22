@@ -7,15 +7,21 @@
 <tr><td><rubrique>2</rubrique></td>
 <td>Magna  <highlight1><accent>ó</accent></highlight1>pera  <accent>Dó</accent>mini <greStar /><br class="psalm" />exquisíta in omnes voluntá<highlight2><prepa>tes</prepa></highlight2>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
-<td>Conféssio et magnificéntia  <highlight1><accent>o</accent></highlight1>pus  <accent>e</accent>ius <greStar /><br class="psalm" />et iustítia eius manet in sǽcu<highlight2><prepa>lum</prepa></highlight2>  <accent>sǽ</accent>culi.</td></tr>
+<td>Conféssio et magnificéntia  <highlight1><accent>o</accent></highlight1>pus  <accent>e</accent>ius <greStar /><br class="psalm" />
+et iustítia eius manet in sǽcu<highlight2><prepa>lum</prepa></highlight2>  <accent>sǽ</accent>culi.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Memóriam fecit mirabílium suó<highlight2><prepa>rum</prepa></highlight2> <greDagger /><br />miséricors et mise<highlight2><accent>rá</accent></highlight2>tor  <accent>Dó</accent>minus <greStar /><br class="psalm" />escam dedit timén<highlight2><prepa>ti</prepa></highlight2><accent>bus</accent> se.</td></tr>
+<td>Memóriam fecit mirabílium suó<highlight2><prepa>rum</prepa></highlight2> <greDagger /><br class="psalm" />
+miséricors et mise<highlight2><accent>rá</accent></highlight2>tor  <accent>Dó</accent>minus <greStar /><br />
+escam dedit timén<highlight2><prepa>ti</prepa></highlight2><accent>bus</accent> se.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Memor erit in sǽculum testa<highlight2><accent>mén</accent></highlight2>ti  <accent>su</accent>i <greStar /><br class="psalm" />virtútem óperum suórum annuntiábit pópu<highlight2><prepa>lo</prepa></highlight2>  <accent>su</accent>o.</td></tr>
+<td>Memor erit in sǽculum testa<highlight2><accent>mén</accent></highlight2>ti  <accent>su</accent>i <greStar /><br />
+virtútem óperum suórum annuntiábit pópu<highlight2><prepa>lo</prepa></highlight2>  <accent>su</accent>o.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Ut det  <highlight1><accent>il</accent></highlight1>lis hæreditátem  <accent>gén</accent>tium <greStar /><br class="psalm" />ópera mánuum eius véritas et  <highlight1><prepa>iu</prepa></highlight1><accent>dí</accent>cium.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Fidélia ómnia mandáta e<highlight2><prepa>ius</prepa></highlight2> <greDagger /><br class="psalm" />confirmáta in  <highlight1><accent>sǽ</accent></highlight1>culum  <accent>sǽ</accent>culi <greStar /><br class="psalm" />facta in veritáte et æ<highlight2><prepa>qui</prepa></highlight2><accent>tá</accent>te.</td></tr>
+<td>Fidélia ómnia mandáta e<highlight2><prepa>ius</prepa></highlight2> <greDagger /><br class="psalm" />
+confirmáta in  <highlight1><accent>sǽ</accent></highlight1>culum  <accent>sǽ</accent>culi <greStar /><br />
+facta in veritáte et æ<highlight2><prepa>qui</prepa></highlight2><accent>tá</accent>te.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Redemptiónem misit  <highlight1><accent>pó</accent></highlight1>pulo  <accent>su</accent>o <greStar /><br class="psalm" />mandávit in ætérnum testamén<highlight2><prepa>tum</prepa></highlight2>  <accent>su</accent>um.</td></tr>
 <tr><td><rubrique>9</rubrique></td>

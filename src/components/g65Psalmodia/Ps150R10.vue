@@ -5,7 +5,8 @@
 <tr><td><rubrique>1</rubrique></td>
 <td>Laudáte Dóminum in  <highlight1><prepa>sanc</prepa></highlight1><prepa>tis</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />laudáte eum in firmaménto  <highlight1><prepa>vir</prepa></highlight1><prepa>tú</prepa><prepa>tis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
-<td>Laudáte eum in virtú<highlight2><prepa>ti</prepa></highlight2><prepa>bus</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />laudáte eum secúndum multitúdinem magni<highlight2><prepa>tú</prepa></highlight2><prepa>di</prepa><prepa>nis</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Laudáte eum in virtú<highlight2><prepa>ti</prepa></highlight2><prepa>bus</prepa>  <accent>e</accent>ius <greStar /><br />
+laudáte eum secúndum multitúdinem magni<highlight2><prepa>tú</prepa></highlight2><prepa>di</prepa><prepa>nis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
 <td>Laudáte eum in  <highlight1><prepa>so</prepa></highlight1><prepa>no</prepa>  <accent>tu</accent>bæ <greStar /><br class="psalm" />laudáte eum in psalté<highlight2><prepa>ri</prepa></highlight2><prepa>o</prepa>  <prepa>et</prepa>  <accent>cí</accent>thara.</td></tr>
 <tr><td><rubrique>4</rubrique></td>

@@ -11,13 +11,15 @@
 <tr><td><rubrique>4</rubrique></td>
 <td>Convérte nos Deus salu<highlight2><accent>tá</accent></highlight2>ris  <accent>nos</accent>ter <greStar /><br class="psalm" />et avérte iram tu<highlight2><prepa>am</prepa></highlight2>  <prepa>a</prepa>  <accent>no</accent>bis.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Numquid in ætérnum iras<highlight2><accent>cé</accent></highlight2>ris  <accent>no</accent>bis ? <greStar /><br class="psalm" />aut exténdes iram tuam a generatióne in gene<highlight2><prepa>ra</prepa></highlight2><prepa>ti</prepa><accent>ó</accent>nem ?</td></tr>
+<td>Numquid in ætérnum iras<highlight2><accent>cé</accent></highlight2>ris  <accent>no</accent>bis ? <greStar /><br />
+aut exténdes iram tuam a generatióne in gene<highlight2><prepa>ra</prepa></highlight2><prepa>ti</prepa><accent>ó</accent>nem ?</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Deus tu convérsus vi<highlight2><accent>vi</accent></highlight2>fi<accent>cá</accent>bis nos <greStar /><br class="psalm" />et plebs tua lætá<highlight2><prepa>bi</prepa></highlight2><prepa>tur</prepa>  <accent>in</accent> te.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
 <td>Osténde nobis, Dómine, miseri<highlight2><accent>cór</accent></highlight2>diam  <accent>tu</accent>am <greStar /><br class="psalm" />et salutáre tu<highlight2><prepa>um</prepa></highlight2>  <prepa>da</prepa>  <accent>no</accent>bis.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
-<td>Áudiam quid loquátur in me,  <highlight1><accent>Dó</accent></highlight1>minus  <accent>De</accent>us <greStar /><br class="psalm" />quóniam loquétur pacem in  <highlight1><prepa>ple</prepa></highlight1><prepa>bem</prepa>  <accent>su</accent>am.</td></tr>
+<td>Áudiam quid loquátur in me,  <highlight1><accent>Dó</accent></highlight1>minus  <accent>De</accent>us <greStar /><br />
+quóniam loquétur pacem in  <highlight1><prepa>ple</prepa></highlight1><prepa>bem</prepa>  <accent>su</accent>am.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Et super  <highlight1><accent>sanc</accent></highlight1>tos  <accent>su</accent>os <greStar /><br class="psalm" />et in eos qui conver<highlight2><prepa>tún</prepa></highlight2><prepa>tur</prepa>  <accent>ad</accent> cor.</td></tr>
 <tr><td><rubrique>10</rubrique></td>

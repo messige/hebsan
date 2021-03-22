@@ -3,7 +3,8 @@
         <rubrique>Ps.146</rubrique><br class="psalm" />
 <table id="psalm146">
 <tr><td><rubrique>1</rubrique></td>
-<td>Laudáte Dóminum quóniam bonum est  <highlight1><accent>psal</accent></highlight1>mus <greStar /><br class="psalm" />Deo nostro sit iucúnda decoráque  <highlight1><prepa>lau</prepa></highlight1><accent>dá</accent>tio.</td></tr>
+<td>Laudáte Dóminum quóniam bonum est  <highlight1><accent>psal</accent></highlight1>mus <greStar /><br />
+Deo nostro sit iucúnda decoráque  <highlight1><prepa>lau</prepa></highlight1><accent>dá</accent>tio.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Ædíficans Ierúsalem  <highlight1><accent>Dó</accent></highlight1>minus <greStar /><br class="psalm" />dispersiónes Israélis con<highlight2><prepa>gre</prepa></highlight2><accent>gá</accent>bit.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
@@ -25,7 +26,8 @@
 <tr><td><rubrique>11</rubrique></td>
 <td>Non in fortitúdine equi voluntátem ha<highlight2><accent>bé</accent></highlight2>bit <greStar /><br class="psalm" />nec in tíbiis viri beneplácitum e<highlight2><prepa>rit</prepa></highlight2>  <accent>e</accent>i.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
-<td>Beneplácitum est Dómino super timéntes  <highlight1><accent>e</accent></highlight1>um <greStar /><br class="psalm" />et in eis qui sperant super misericórdi<highlight2><prepa>a</prepa></highlight2>  <accent>e</accent>ius.</td></tr>
+<td>Beneplácitum est Dómino super timéntes  <highlight1><accent>e</accent></highlight1>um <greStar /><br />
+et in eis qui sperant super misericórdi<highlight2><prepa>a</prepa></highlight2>  <accent>e</accent>ius.</td></tr>
 </table>
     </div>
 </template>

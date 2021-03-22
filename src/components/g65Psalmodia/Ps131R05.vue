@@ -11,7 +11,8 @@
 <tr><td><rubrique>4</rubrique></td>
 <td>Si dédero somnum óculis  <highlight1><accent>me</accent></highlight1>is <greStar /><br class="psalm" />et pálpebris meis dormi<highlight2><prepa>ta</prepa></highlight2><prepa>ti</prepa><prepa>ó</prepa><prepa>nem</prepa>.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Et réquiem tempóribus meis donec invéniam locum  <highlight1><accent>Dó</accent></highlight1>mino <greStar /><br class="psalm" />tabernáculum  <highlight1><prepa>De</prepa></highlight1><prepa>o</prepa>  <prepa>Ia</prepa><prepa>cob</prepa>.</td></tr>
+<td>Et réquiem tempóribus meis donec invéniam locum  <highlight1><accent>Dó</accent></highlight1>mino <greStar /><br />
+tabernáculum  <highlight1><prepa>De</prepa></highlight1><prepa>o</prepa>  <prepa>Ia</prepa><prepa>cob</prepa>.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Ecce audívimus eam in  <highlight1><accent>É</accent></highlight1>phrata <greStar /><br class="psalm" />invénimus eam in  <highlight1><prepa>cam</prepa></highlight1><prepa>pis</prepa>  <prepa>sil</prepa><prepa>væ</prepa>.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
@@ -23,7 +24,8 @@
 <tr><td><rubrique>10</rubrique></td>
 <td>Propter David servum  <highlight1><accent>tu</accent></highlight1>um <greStar /><br class="psalm" />non avértas fáciem  <highlight1><prepa>Chris</prepa></highlight1><prepa>ti</prepa>  <prepa>tu</prepa><prepa>i</prepa>.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
-<td>Iurávit Dóminus David veritátem et non frustrábitur  <highlight1><accent>e</accent></highlight1>am <greStar /><br class="psalm" />de fructu ventris tui ponam super  <highlight1><prepa>se</prepa></highlight1><prepa>dem</prepa>  <prepa>tu</prepa><prepa>am</prepa>.</td></tr>
+<td>Iurávit Dóminus David veritátem et non frustrábitur  <highlight1><accent>e</accent></highlight1>am <greStar /><br />
+de fructu ventris tui ponam super  <highlight1><prepa>se</prepa></highlight1><prepa>dem</prepa>  <prepa>tu</prepa><prepa>am</prepa>.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
 <td>Si custodíerint fílii tui testaméntum  <highlight1><accent>me</accent></highlight1>um <greStar /><br class="psalm" />et testimónia mea hæc quæ do<highlight2><prepa>cé</prepa></highlight2><prepa>bo</prepa>  <prepa>e</prepa><prepa>os</prepa>.</td></tr>
 <tr><td><rubrique>13</rubrique></td>

@@ -21,7 +21,7 @@
 <tr><td><rubrique>9</rubrique></td>
 <td>Non nobis, Dó<highlight2><prepa>mi</prepa></highlight2><prepa>ne</prepa>,  <prepa>non</prepa>  <accent>no</accent>bis <greStar /><br class="psalm" />sed nómini tuo  <highlight1><prepa>da</prepa></highlight1>  <accent>gló</accent>riam.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
-<td>Super misericórdia tua et ve<highlight2><prepa>ri</prepa></highlight2><prepa>tá</prepa><prepa>te</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />nequándo dicant gentes : ubi est Deus  <highlight1><prepa>e</prepa></highlight1><accent>ó</accent>rum ?</td></tr>
+<td>Super misericórdia tua et ve<highlight2><prepa>ri</prepa></highlight2><prepa>tá</prepa><prepa>te</prepa>  <accent>tu</accent>a <greStar /><br />nequándo dicant gentes : ubi est Deus  <highlight1><prepa>e</prepa></highlight1><accent>ó</accent>rum ?</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Deus autem  <highlight1><prepa>nos</prepa></highlight1><prepa>ter</prepa>  <prepa>in</prepa>  <accent>cæ</accent>lo <greStar /><br class="psalm" />ómnia quæcúmque vólu<highlight2><prepa>it</prepa></highlight2>,  <accent>fe</accent>cit.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
@@ -31,7 +31,9 @@
 <tr><td><rubrique>14</rubrique></td>
 <td>Aures ha<highlight2><prepa>bent</prepa></highlight2>  <prepa>et</prepa>  <prepa>non</prepa>  <accent>au</accent>dient <greStar /><br class="psalm" />nares habent et non o<highlight2><prepa>do</prepa></highlight2><accent>rá</accent>bunt.</td></tr>
 <tr><td><rubrique>15</rubrique></td>
-<td>Manus habent et non palpá<highlight2><prepa>bunt</prepa></highlight2> <greDagger /><br class="psalm" />pedes habent et  <highlight1><prepa>non</prepa></highlight1>  <prepa>am</prepa><prepa>bu</prepa><accent>lá</accent>bunt <greStar /><br class="psalm" />non clamábunt in gúttu<highlight2><prepa>re</prepa></highlight2>  <accent>su</accent>o.</td></tr>
+<td>Manus habent et non palpá<highlight2><prepa>bunt</prepa></highlight2> <greDagger /><br class="psalm" />
+pedes habent et  <highlight1><prepa>non</prepa></highlight1>  <prepa>am</prepa><prepa>bu</prepa><accent>lá</accent>bunt <greStar /><br />
+non clamábunt in gúttu<highlight2><prepa>re</prepa></highlight2>  <accent>su</accent>o.</td></tr>
 <tr><td><rubrique>16</rubrique></td>
 <td>Símiles illis fíant qui  <highlight1><prepa>fá</prepa></highlight1><prepa>ci</prepa><prepa>unt</prepa>  <accent>e</accent>a <greStar /><br class="psalm" />et omnes qui confídunt  <highlight1><prepa>in</prepa></highlight1>  <accent>e</accent>is.</td></tr>
 <tr><td><rubrique>17</rubrique></td>

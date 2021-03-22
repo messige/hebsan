@@ -7,7 +7,9 @@
 <tr><td><rubrique>2</rubrique></td>
 <td>Protexísti me a convéntu mali<highlight2><accent>gnán</accent></highlight2>tium <greStar /><br class="psalm" />a multitúdine operántium i<highlight2><prepa>ni</prepa></highlight2><prepa>qui</prepa><accent>tá</accent>tem.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
-<td>Quia exacuérunt ut gládium linguas su<highlight2><prepa>as</prepa></highlight2> <greDagger /><br class="psalm" />intendérunt arcum rem a<highlight2><accent>má</accent></highlight2>ram <greStar /><br class="psalm" />ut sagíttent in occúltis im<highlight2><prepa>ma</prepa></highlight2><prepa>cu</prepa><accent>lá</accent>tum.</td></tr>
+<td>Quia exacuérunt ut gládium linguas su<highlight2><prepa>as</prepa></highlight2> <greDagger /><br class="psalm" />
+intendérunt arcum rem a<highlight2><accent>má</accent></highlight2>ram <greStar /><br class="psalm" />
+ut sagíttent in occúltis im<highlight2><prepa>ma</prepa></highlight2><prepa>cu</prepa><accent>lá</accent>tum.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
 <td>Súbito sagittábunt eum et non ti<highlight2><accent>mé</accent></highlight2>bunt <greStar /><br class="psalm" />firmavérunt sibi ser<highlight2><prepa>mó</prepa></highlight2><prepa>nem</prepa>  <accent>ne</accent>quam.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
@@ -17,7 +19,8 @@
 <tr><td><rubrique>7</rubrique></td>
 <td>Accédet homo ad cor  <highlight1><accent>al</accent></highlight1>tum <greStar /><br class="psalm" />et exaltá<highlight2><prepa>bi</prepa></highlight2><prepa>tur</prepa>  <accent>De</accent>us.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
-<td>Sagíttæ parvulórum factæ sunt plagæ e<highlight2><accent>ó</accent></highlight2>rum <greStar /><br class="psalm" />et infirmátæ sunt contra eos lin<highlight2><prepa>guæ</prepa></highlight2>  <prepa>e</prepa><accent>ó</accent>rum.</td></tr>
+<td>Sagíttæ parvulórum factæ sunt plagæ e<highlight2><accent>ó</accent></highlight2>rum <greStar /><br />
+et infirmátæ sunt contra eos lin<highlight2><prepa>guæ</prepa></highlight2>  <prepa>e</prepa><accent>ó</accent>rum.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Conturbáti sunt omnes qui vidébant  <highlight1><accent>e</accent></highlight1>os <greStar /><br class="psalm" />et tímuit  <highlight1><prepa>om</prepa></highlight1><prepa>nis</prepa>  <accent>ho</accent>mo.</td></tr>
 <tr><td><rubrique>10</rubrique></td>

@@ -27,7 +27,8 @@
 <tr><td><rubrique>12</rubrique></td>
 <td>Confitébor tibi in  <highlight1><accent>pó</accent></highlight1>pulis  <accent>Dó</accent>mine <greStar /><br class="psalm" />et psalmum dicam  <highlight1><accent>ti</accent></highlight1>bi in  <accent>gén</accent>tibus.</td></tr>
 <tr><td><rubrique>13</rubrique></td>
-<td>Quóniam magníficáta est usque ad cælos miseri<highlight2><accent>cór</accent></highlight2>dia  <accent>tu</accent>a <greStar /><br class="psalm" />et usque ad nubes  <highlight1><accent>vé</accent></highlight1>ritas  <accent>tu</accent>a.</td></tr>
+<td>Quóniam magníficáta est usque ad cælos miseri<highlight2><accent>cór</accent></highlight2>dia  <accent>tu</accent>a <greStar /><br />
+et usque ad nubes  <highlight1><accent>vé</accent></highlight1>ritas  <accent>tu</accent>a.</td></tr>
 <tr><td><rubrique>14</rubrique></td>
 <td>Exaltáre super  <highlight1><accent>cæ</accent></highlight1>los  <accent>De</accent>us <greStar /><br class="psalm" />et super omnem terram  <highlight1><accent>gló</accent></highlight1>ria  <accent>tu</accent>a.</td></tr>
 <tr><td><rubrique>15</rubrique></td>

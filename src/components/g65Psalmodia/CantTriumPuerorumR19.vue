@@ -23,7 +23,8 @@
 <tr><td><rubrique>10</rubrique></td>
 <td>Benedícat  <highlight1><accent>ter</accent></highlight1>ra  <accent>Dó</accent>minum <greStar /><br class="psalm" />laudet et superexáltet  <highlight1><accent>e</accent></highlight1>um in  <accent>sǽ</accent>cula.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
-<td>Benedícite, montes et  <highlight1><accent>col</accent></highlight1>les,  <accent>Dó</accent>mino <greStar /><br class="psalm" />benedícite, univérsa germinántia in  <highlight1><accent>ter</accent></highlight1>ra,  <accent>Dó</accent>mino.</td></tr>
+<td>Benedícite, montes et  <highlight1><accent>col</accent></highlight1>les,  <accent>Dó</accent>mino <greStar /><br />
+benedícite, univérsa germinántia in  <highlight1><accent>ter</accent></highlight1>ra,  <accent>Dó</accent>mino.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
 <td>Benedícite,  <highlight1><accent>fon</accent></highlight1>tes,  <accent>Dó</accent>mino <greStar /><br class="psalm" />benedícite, mária et  <highlight1><accent>flú</accent></highlight1>mina,  <accent>Dó</accent>mino.</td></tr>
 <tr><td><rubrique>13</rubrique></td>

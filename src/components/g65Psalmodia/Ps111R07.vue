@@ -11,11 +11,15 @@
 <tr><td><rubrique>4</rubrique></td>
 <td>Exórtum est in ténebris  <highlight1><prepa>lu</prepa></highlight1><prepa>men</prepa>  <accent>rec</accent>tis <greStar /><br class="psalm" />miséricors et miserátor et  <highlight1><accent>ius</accent></highlight1>tus.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Iucúndus homo qui miserétur et cóm<highlight2><prepa>mo</prepa></highlight2><prepa>dat</prepa>  <greDagger /><br />dispónet sermónes suos  <highlight1><prepa>in</prepa></highlight1>  <prepa>iu</prepa><accent>dí</accent>cio <greStar /><br class="psalm" />quia in ætérnum non commo<highlight2><accent>vé</accent></highlight2>bitur.</td></tr>
+<td>Iucúndus homo qui miserétur et cóm<highlight2><prepa>mo</prepa></highlight2><prepa>dat</prepa>  <greDagger /><br class="psalm" />
+dispónet sermónes suos  <highlight1><prepa>in</prepa></highlight1>  <prepa>iu</prepa><accent>dí</accent>cio <greStar /><br />
+quia in ætérnum non commo<highlight2><accent>vé</accent></highlight2>bitur.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>In memória ætérna  <highlight1><prepa>e</prepa></highlight1><prepa>rit</prepa>  <accent>ius</accent>tus <greStar /><br class="psalm" />ab auditióne mala non ti<highlight2><accent>mé</accent></highlight2>bit.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Parátum cor eius speráre in Dó<highlight2><prepa>mi</prepa></highlight2><prepa>no</prepa> <greDagger /><br />confirmátum  <highlight1><prepa>est</prepa></highlight1>  <prepa>cor</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />non commovébitur donec despíciat inimícos  <highlight1><accent>su</accent></highlight1>os.</td></tr>
+<td>Parátum cor eius speráre in Dó<highlight2><prepa>mi</prepa></highlight2><prepa>no</prepa> <greDagger /><br class="psalm" />
+confirmátum  <highlight1><prepa>est</prepa></highlight1>  <prepa>cor</prepa>  <accent>e</accent>ius <greStar /><br />
+non commovébitur donec despíciat inimícos  <highlight1><accent>su</accent></highlight1>os.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Dispérsit dedit paupé<highlight2><prepa>ri</prepa></highlight2><prepa>bus</prepa> <greDagger /><br class="psalm" />
 iustítia eius manet in sǽ<highlight2><prepa>cu</prepa></highlight2><prepa>lum</prepa>  <accent>sǽ</accent>culi <greStar /><br />

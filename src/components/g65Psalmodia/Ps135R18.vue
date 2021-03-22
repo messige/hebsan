@@ -21,7 +21,8 @@
 <tr><td><rubrique>9</rubrique></td>
 <td>Lunam et stellas in potes<highlight2><accent>tá</accent></highlight2>tem  <accent>noc</accent>tis <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>10</rubrique></td>
-<td>Qui percússit Ægýptum cum primogéni<highlight2><accent>tis</accent></highlight2> e<accent>ó</accent>rum <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Qui percússit Ægýptum cum primogéni<highlight2><accent>tis</accent></highlight2> e<accent>ó</accent>rum <greStar /><br />
+quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Qui edúxit Israel de médi<highlight2><accent>o</accent></highlight2> e<accent>ó</accent>rum <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>12</rubrique></td>
@@ -31,7 +32,8 @@
 <tr><td><rubrique>14</rubrique></td>
 <td>Et edúxit Israel per  <highlight1><accent>mé</accent></highlight1>dium  <accent>e</accent>ius <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>15</rubrique></td>
-<td>Et excússit Pharaónem et virtútem eius in  <highlight1><accent>ma</accent></highlight1>ri  <accent>Ru</accent>bro <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
+<td>Et excússit Pharaónem et virtútem eius in  <highlight1><accent>ma</accent></highlight1>ri  <accent>Ru</accent>bro <greStar /><br />
+quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>16</rubrique></td>
 <td>Qui tradúxit pópulum suum  <highlight1><accent>per</accent></highlight1> de<accent>sér</accent>tum <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>17</rubrique></td>
