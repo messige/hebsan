@@ -141,7 +141,7 @@
                 </p>                
                 <p>
                   <img src="../../public/assets/images/g50Antiphona/AntAppenderunt.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus41Fe.jpg" /><br />
+                  <img src="../../public/assets/images/g70Tonus/Tonus42Fe.jpg" /><br />
                   <Ps213 /><br />
                   <img src="../../public/assets/images/g50Antiphona/AntAppenderunt.jpg" /> 
                 </p>
