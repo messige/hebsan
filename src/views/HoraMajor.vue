@@ -1,4 +1,4 @@
-<template>
+x<template>
   <ion-page>
     <ion-content :fullscreen="true">
       <div id="container">
@@ -222,7 +222,7 @@
                                                           
                 <p>
                   <img src="../../public/assets/images/g50Antiphona/AntDeProfundis.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fc2.jpg" /><br />
+                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
                   <Ps321 /><br />                                                                                          
                   <img src="../../public/assets/images/g50Antiphona/AntDeProfundis.jpg" /><br />
                 </p>                 
@@ -396,7 +396,7 @@
                 </p> 
                 <p>
                   <img src="../../public/assets/images/g50Antiphona/ANTAPortaInferi.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus02Fd.jpg" /><br />
+                  <img src="../../public/assets/images/g70Tonus/Tonus02Fd2.jpg" /><br />
                   <Ps714 /><br />                                                                                            
                   <img src="../../public/assets/images/g50Antiphona/ANTAPortaInferi.jpg" />
                 </p> 

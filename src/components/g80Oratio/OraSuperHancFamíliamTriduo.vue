@@ -6,7 +6,7 @@
         </rubrique><br />
         Réspice, quǽsumus, Dómine, super hanc famíliam tuam<br /> 
         pro qua Dóminus noster Iesus Christus non dubitávit mánibus tradi nocéntium, <br />
-        et crucis subíre tormén-tum<br />
+        et crucis subíre torméntum<br />
         <rubrique>Sub silentio</rubrique><br /> 
         Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, <br />
         per ómnia sǽcula sæculórum.   <resp>Amen.</resp>
