@@ -1,5 +1,6 @@
 # hebsan
 # Horae Majores (Ad Laudes et ad Vesperas) 
-# and Horae Minores (Ad Tertiam, ad Sextam et ad Nonam) 
+# Horae Minores (Ad Tertiam, ad Sextam et ad Nonam) 
+# Ad Completorium
 # of the Holy Week 
 # with Gregorian Chants 
