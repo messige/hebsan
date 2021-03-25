@@ -3,7 +3,7 @@
 	"appName": "hebsan",
 	"bundledWebRuntime": false,
 	"npmClient": "npm",
-	"webDir": "hebsan-master/dist",
+	"webDir": "dist",
 	"plugins": {
 		"SplashScreen": {
 			"launchShowDuration": 0
