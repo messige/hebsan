@@ -1,1063 +1,675 @@
-x<template>
-  <ion-page>
-    <ion-content :fullscreen="true">
-      <div id="container">
-        <ion-header>
-        <ion-tab-bar>
-          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
-          <ion-tab-button> 
-            <template v-if="feast == 9">
-              <ion-button fill="clear" strong router-link="/officeList/9">Back to Sabb.</ion-button>  
-            </template>
-            <template  v-else-if="feast == 1"> 
-              <ion-button fill="clear" strong router-link="/officeList/1">Back to Dom.</ion-button>  
-            </template>          
-            <template  v-else-if="feast == 2">
-              <ion-button fill="clear" strong router-link="/officeList/2">Back to Feria II</ion-button>  
-            </template>
-            <template  v-else-if="feast == 3">
-              <ion-button fill="clear" strong router-link="/officeList/3">Back to Feria III</ion-button>  
-            </template>
-            <template  v-else-if="feast == 4">
-              <ion-button fill="clear" strong router-link="/officeList/4">Back to Feria IV</ion-button>  
-            </template>            
-            <template  v-else-if="feast == 5"> 
-              <ion-button fill="clear" strong router-link="/officeList/5">Back to Feria V</ion-button>               
-            </template>
-            <template  v-else-if="feast == 6"> 
-              <ion-button fill="clear" strong router-link="/officeList/6">Back to Feria VI</ion-button>              
-            </template>
-            <template  v-else-if="feast == 7"> 
-              <ion-button fill="clear" strong router-link="/officeList/7">Back to Sabb.</ion-button>             
-            </template>
-            <template  v-else-if="feast == 8"> 
-              <ion-button fill="clear" strong router-link="/officeList/8">Back to Dom.</ion-button>           
-            </template>                         
-          </ion-tab-button>
-          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
-        </ion-tab-bar>
-        <strong>{{feastTitle}}<br class="psalm" />&nbsp;&nbsp;&nbsp;{{OfficeTitle}}</strong>
-        </ion-header>      
-          <div class="content"> 
-            <br /> 
-            <template v-if="(feast == 1 && office == 1) || feast == 2 || feast == 3 || feast == 4 || ( feast == 8 && office == 1 ) ">
-            <p> 
-              <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorQuad1.jpg" /><br />
-              <resp>Dómine ad adiuvándum me festína.</resp><br />
-              Glória Patri, et Fílio et Spirítui Sancto.<br />
-              Sicut erat in princípio,  et nunc, et semper<br />
-              et in sǽcula sæculórum. Amen.<br />
-              <template v-if="feast == 8">
-                <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorPascha2.jpg" />
-              </template>
-              <template  v-else>    
-                <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumMinorQuad2.jpg" />
-              </template>
-            </p>
-            </template>
-          <template  v-else-if="(feast == 1 && office == 2 )|| feast == 9 ">                      <!-- Le Dimanche des Rameaux et la veille aux Vêpres  -->
-            <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumSolemnQuad.jpg" />
-          </template>
-          <template  v-else-if="feast == 8 && office == 2 ">                                      <!-- Le Dimanche de Pâques aux Vêpres  -->
-            <img src="../../public/assets/images/g95InOrdineOfficii/InAdiutoriumSolemn.jpg" />
-          </template>
-
-          <p>
-            <rubrique>Antiphona</rubrique><br />
-            <template v-if="feast == 1">
-              <template v-if="office == 1"> 
-                 <p>                                                                                     <!-- Le Dimanche des Rameaux aux Laudes -->
-                  <img src="../../public/assets/images/g50Antiphona/AntDomDeusAuxiliator.jpg" /><br />             
-                  <img src="../../public/assets/images/g70Tonus/Tonus02Fd2.jpg" />
-                  <Ps111 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntDomDeusAuxiliator.jpg" />   
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntCircumdantesCircumdederunt.jpg" /><br />     
-                  <img src="../../public/assets/images/g70Tonus/Tonus01Fa2.jpg" />
-                  <Ps112 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntCircumdantesCircumdederunt.jpg" /> 
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntIudicaCausam.jpg" /><br />                  
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" />
-                  <Ps113 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntIudicaCausam.jpg" />   
-                </p>
-                <p> 
-                  <img src="../../public/assets/images/g50Antiphona/AntCumAngelisEtPueris.jpg" /><br />   
-                  <img src="../../public/assets/images/g70Tonus/Tonus07SFa.jpg" />
-                  <Ps114 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntCumAngelisEtPueris.jpg" />   
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntConfundanturQuiMe.jpg" /><br /> 
-                  <img src="../../public/assets/images/g70Tonus/Tonus09Fa.jpg" />
-                  <Ps115 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntConfundanturQuiMe.jpg" />
-                </p>                  
-              </template>
-              <template  v-else-if="office == 2">                                        <!-- Le Dimanche des Rameaux aux Vêpres -->
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntDixitDomDom.jpg" /><br /> 
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fc2.jpg" /><br />
-                  <Ps121 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntDixitDomDom.jpg" /> 
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntMagnaOperaDom.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus32Fb.jpg" /><br />
-                  <Ps122 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntMagnaOperaDom.jpg" /> 
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntQuiTimetDom.jpg" /><br /> 
-                  <img src="../../public/assets/images/g70Tonus/Tonus41Fg.jpg" /><br />
-                  <Ps123 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntQuiTimetDom.jpg" /> 
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntSitNomenDom.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fc.jpg" /><br />
-                  <Ps124 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntSitNomenDom.jpg" /> 
-                </p>
-              </template>
-            </template>  
-   
-            <template v-else-if="feast == 2">
-              <template v-if="office == 1">                                                                 <!-- Le Lundi Saint aux Laudes -->
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntFaciemMeam.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus09Fa.jpg" /><br />
-                  <Ps211 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntFaciemMeam.jpg" /> 
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntFramea2.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus02Fd.jpg" /><br />
-                  <Ps212 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntFramea2.jpg" /> 
-                </p>                
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntAppenderunt.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus42Fe.jpg" /><br />
-                  <Ps213 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntAppenderunt.jpg" /> 
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntInundaveruntAquae.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps214 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntInundaveruntAquae.jpg" /> 
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntLabiaInsurgentibus.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps215 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntLabiaInsurgentibus.jpg" />
-                </p>                   
-              </template>
-              <template  v-else-if="office == 2">                                                             <!-- Le Lundi Saint aux Vêpres -->
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntNosQuiVivimus.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus19.jpg" /><br />
-                  <Ps221 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntNosQuiVivimus.jpg"  />
-                </p>  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntInclinavitDom.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01Fg2.jpg" /><br />
-                  <Ps222 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntInclinavitDom.jpg" />
-                </p> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntCredidiPropter.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fa.jpg" /><br />
-                  <Ps223 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntCredidiPropter.jpg" />
-                </p>                 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntSaepeExpungaverunt.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus02Fd.jpg" /><br />
-                  <Ps224 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntSaepeExpungaverunt.jpg" />
-                </p>  
-              </template>              
-            </template>
-            <template v-else-if="feast == 3">
-              <template v-if="office == 1">                                                                       <!-- Le Mardi Saint aux Laudes -->  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntVideDomEtConsidera.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fc2.jpg" /><br />
-                  <Ps311 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntVideDomEtConsidera.jpg" />
-                </p>  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntDiscerneCausam.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fd.jpg" /><br />
-                  <Ps312 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntDiscerneCausam.jpg" />
-                </p> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntDumTribularer.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fa.jpg" /><br />
-                  <Ps313 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntDumTribularer.jpg" />
-                </p> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntDomVim.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus32Fa.jpg" /><br />
-                  <Ps314 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntDomVim.jpg" />
-                </p> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntDixeruntImpii.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps215 /><br />                                                                                           <!-- same as above --> 
-                  <img src="../../public/assets/images/g50Antiphona/AntDixeruntImpii.jpg" />
-                </p> 
-              </template> 
-              <template  v-else-if="office == 2">                                                                       <!-- Le Mardi Saint aux Vêpres -->
-                                                          
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntDeProfundis.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps321 /><br />                                                                                          
-                  <img src="../../public/assets/images/g50Antiphona/AntDeProfundis.jpg" /><br />
-                </p>                 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntSperetIsrael.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus17Fa.jpg" />
-                  <Ps322 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/AntSperetIsrael.jpg" /><br />
-                </p>  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntEtOmnis.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus17Fa.jpg" /><br />
-                  <Ps323 /><br />                                                                                         
-                  <img src="../../public/assets/images/g50Antiphona/AntEtOmnis.jpg" />
-                </p> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntEcceQuam.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01Fa.jpg" /><br />
-                  <Ps324 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/AntEcceQuam.jpg" />
-                </p> 
-              </template>
-            </template>   
-            <template v-else-if="feast == 4">
-              <template v-if="office == 1">                                                                         <!-- Le Mercredi Saint aux Laudes -->        
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntLiberaMe.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps411 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/AntLiberaMe.jpg" />
-                </p> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTContumeliasEtTerrores.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fa.jpg" /><br />
-                  <Ps412 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTContumeliasEtTerrores.jpg" />
-                </p>                 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTIpsiVero.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus02Fd.jpg" /><br />
-                  <Ps413 /><br />                                                                                   
-                  <img src="../../public/assets/images/g50Antiphona/ANTIpsiVero.jpg" />
-                </p>  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTOmnesInimici.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fa.jpg" /><br />
-                  <Ps414 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTOmnesInimici.jpg" />
-                </p>  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAlligaDom.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01Fg2.jpg" /><br />
-                  <Ps415 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTAlligaDom.jpg" />
-                </p>                     
-              </template>
-              <template  v-else-if="office == 2">                                                               <!-- Le Mercredi Saint aux Vêpres  -->
-                <p><br />
-                  <img src="../../public/assets/images/g50Antiphona/ANTOmniaQuaecumque.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus31Fg.jpg" /><br />
-                  <Ps421 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTOmniaQuaecumque.jpg" />
-                </p>                 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTQuoniamInAeternum.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus31Fg.jpg" /><br />
-                  <Ps422 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTQuoniamInAeternum.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTHymnumCantate.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps423 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTHymnumCantate.jpg" />
-                </p>  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTInConspectuAngelorum.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus05Fa.jpg" /><br />
-                  <Ps424 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTInConspectuAngelorum.jpg" />
-                </p>  
-              </template>
-            </template>  
-            <template v-else-if="feast == 5">
-              <template v-if="office == 1">                                                                       <!-- Le Jeundi Saint aux Laudes -->
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTIustificerisDom.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps511 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTIustificerisDom.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTDomTamquam.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus02Fd.jpg" /><br />
-                  <Ps512 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTDomTamquam.jpg" />
-                </p>                                   
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTContritumEst.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps513 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTContritumEst.jpg" />
-                </p>  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTExhortatusEs.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus10Fa.jpg" /><br />
-                  <Ps514 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTExhortatusEs.jpg" />
-                </p>  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTOblatusEst.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus02Fd.jpg" /><br />
-                  <Ps515 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTOblatusEst.jpg" />
-                </p>  
-              </template>
-            </template>
-            <template v-else-if="feast == 6">
-              <template v-if="office == 1">                                                                      <!-- Le Vendredi Saint aux Laudes -->
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTProprioFilio.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fc.jpg" /><br />
-                  <Ps611 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTProprioFilio.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAnxiatusEst.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus41Fe.jpg" /><br />
-                  <Ps612 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTAnxiatusEst.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAitLatro.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01Ff.jpg" /><br />
-                  <Ps613 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTAitLatro.jpg" />
-                </p>                                                
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTDumConturbata.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01Ff.jpg" /><br />
-                  <Ps614 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTDumConturbata.jpg" />
-                </p>               
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTMementoMei.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps615 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTMementoMei.jpg" />
-                </p>                
-              </template>
-            </template>                                       
-            <template v-else-if="feast == 7">
-              <template v-if="office == 1">                                                                     <!-- Le Samedi Saint aux Laudes -->
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTOMors.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus41Fd.jpg" /><br />
-                  <Ps711 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTOMors.jpg" />
-                </p>  
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTPlangentEum.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus09Fa.jpg" /><br />
-                  <Ps712 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTPlangentEum.jpg" />
-                </p> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAttenditeUniversi.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fd.jpg" /><br />
-                  <Ps713 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTAttenditeUniversi.jpg" />
-                </p> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAPortaInferi.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus02Fd2.jpg" /><br />
-                  <Ps714 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTAPortaInferi.jpg" />
-                </p> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTOVosOmnes.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fa.jpg" /><br />
-                  <Ps715 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTOVosOmnes.jpg" />
-                </p> 
-              </template>
-            </template>
-            <template v-else-if="feast == 8">
-              <template v-if="office == 1">                                                                    <!-- Le Dimanche de Pâques aux Laudes --> 
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps811 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTEtEcceTerraemotus.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fa.jpg" />
-                  <Ps812 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTEtEcceTerraemotus.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTEratAutem.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" />
-                  <Ps813 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTEratAutem.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTPraeTimore.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07SFa.jpg" /><br />
-                  <Ps114 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTPraeTimore.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTRespondensAutem.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps215 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTRespondensAutem.jpg" />
-                </p>                  
-              </template>
-              <template  v-else-if="office == 2">                                                               <!-- Le Dimanche de Pâques aux Vêpres  -->
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fc.jpg" /><br />
-                  <Ps821 /><br />                                                                                           
-                  <img src="../../public/assets/images/g50Antiphona/ANTAngelusAutem.jpg" />
-                </p>              
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTEtEcceTerraemotus.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus07Fc.jpg" />
-                  <Ps822 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTEtEcceTerraemotus.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTEratAutem.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fc.jpg" />
-                  <Ps123 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTEratAutem.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTRespondensAutem.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Ps124 /><br />                                                                                            
-                  <img src="../../public/assets/images/g50Antiphona/ANTRespondensAutem.jpg" />
-                </p>  
-              </template>
-            </template>
-            <template v-else-if="feast == 9">
-              <template  v-if="office == 2">                                                                  <!-- La veille des Rameaux aux Vêpres  -->
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntRegnumTuum.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fc.jpg" /> 
-                  <Ps921 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntRegnumTuum.jpg" /> 
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntLaudaboDeumMeum.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus12Fe2.jpg" /> 
-                  <Ps922 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntLaudaboDeumMeum.jpg" />
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntDeoNostroIucunda.jpg" /><br />              
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" />
-                  <Ps923 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntDeoNostroIucunda.jpg" />    
-                </p>
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntLaudaIerusalem.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus17Fa.jpg" />
-                  <Ps924 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntLaudaIerusalem.jpg" />
-                </p>
-              </template>
-            </template>  
-          </p>             
-
-          <p>
-            <template v-if="feast == 1 || feast == 9" >
-                <p><Capitulum13 /></p>
-            </template>
-            <template v-else-if="feast == 2 || feast == 3 || feast == 4">
-              <template v-if="office == 1">
-                <p><Capitulum21 /></p> 
-              </template>
-              <template  v-else-if="office == 2">  
-                <p><Capitulum22 /></p>
-              </template>                
-            </template> 
-            <template v-else-if="feast == 8">
-                <p><Capitulum81 /></p> 
-            </template> 
-           </p>
-
-          <p>
-              <template v-if="feast == 1">
-                <template v-if="office == 1">
-                  <img src="../../public/assets/images/g55Responsum/RepErueAFramea2.jpg" />
-                </template>
-                <template  v-else-if="office == 2">  
-                  <img src="../../public/assets/images/g55Responsum/RepDeOreLeonis2.jpg" />
-                </template>                  
-              </template>
-              <template  v-else-if="feast == 2 || feast == 3 || feast == 4">
-                <template v-if="office == 1">
-                  <img src="../../public/assets/images/g55Responsum/RepErueAFramea3.jpg" />
-                </template>
-                <template  v-else-if="office == 2">  
-                  <img src="../../public/assets/images/g55Responsum/RepDeOreLeonis.jpg" />
-                </template>                             
-              </template>
-              <template  v-else-if="feast == 8">
-                <template v-if="office == 1">
-                  <img src="../../public/assets/images/g55Responsum/RepSurrexitDominusDeSepulchro.jpg" />
-                </template>
-                <template  v-else-if="office == 2">  
-                  <img src="../../public/assets/images/g55Responsum/RepSurrexitDominusVereSolemn.jpg" />
-                </template>                             
-              </template>
-              <template  v-else-if="feast == 9">              
-                <img src="../../public/assets/images/g55Responsum/RepDeOreLeonis2.jpg" />
-              </template>
-          </p>
-
-          <template v-if="feast == 1 || feast == 2 || feast == 3 || feast == 4 || feast == 9">
-            <p>
-              <rubrique>Hymnus</rubrique><br />
-              <template v-if="office == 1">
-                <img src="../../public/assets/images/g60Hymnus/HymCruxFidelis.jpg" /><br />
-                <img src="../../public/assets/images/g60Hymnus/HymCruxFidelis2.jpg" /><br />
-                <img src="../../public/assets/images/g60Hymnus/HymCruxFidelis3.jpg" />
-              </template>
-              <template  v-else-if="office == 2">  
-                 <img src="../../public/assets/images/g60Hymnus/HymVexillaRegis1.jpg" /><br />
-                <img src="../../public/assets/images/g60Hymnus/HymVexillaRegis2.jpg" />
-              </template>
-            </p>
-          </template>
-          <template  v-else-if="feast == 8">
-            <p>
-              <rubrique>Hymnus</rubrique><br />              
-              <template v-if="office == 1">
-                <img src="../../public/assets/images/g60Hymnus/HymAuroraLucisRutilat.jpg" /><br />
-                <img src="../../public/assets/images/g60Hymnus/HymAuroraLucisRutilat2.jpg" />
-              </template>
-              <template  v-else-if="office == 2">  
-                  <img src="../../public/assets/images/g60Hymnus/HymAdCoenamAgni.jpg" /><br />
-                  <img src="../../public/assets/images/g60Hymnus/HymAdCoenamAgni2.jpg" /><br />
-                  <img src="../../public/assets/images/g60Hymnus/HymAdCoenamAgni3.jpg" />
-              </template>
-            </p>
-          </template>
-
-          <template v-if="feast == 1 || feast == 2 || feast == 3 || feast == 4 || feast == 9">
-            <p>
-              <rubrique>Versus</rubrique><br />
-                <template v-if="office == 1">
-                  <img src="../../public/assets/images/g85Versus/VersEripeMeInimicis.jpg" />
-                </template>
-                <template  v-else-if="office == 2">              
-                  <img src="../../public/assets/images/g85Versus/VersEripeMeHomine.jpg" />
-                </template>
-            </p> 
-          </template>
-          <template  v-else-if="feast == 5">   
-            <p>
-              <rubrique>Versus</rubrique><br />
-              <img src="../../public/assets/images/g85Versus/VerHomoPacis.jpg" />
-            </p>
-          </template>          
-          <template  v-else-if="feast == 6">   
-            <p>
-              <rubrique>Versus</rubrique><br />
-              <img src="../../public/assets/images/g85Versus/VerCollocavitIn.jpg" />
-            </p>
-          </template> 
-          <template  v-else-if="feast == 7">   
-            <p>
-              <rubrique>Versus</rubrique><br />
-              <img src="../../public/assets/images/g85Versus/VerCaroMea.jpg" />
-            </p>
-          </template>                 
-          <template  v-else-if="feast == 8">   
-            <p>
-              <rubrique>Versus</rubrique><br />
-              <img src="../../public/assets/images/g85Versus/VersHaecDies.jpg" />
-            </p>
-          </template> 
-
-          <p>
-            <template v-if="office == 1">  
-              <rubrique>Antiphona ad Benedictus</rubrique><br />
-            </template>          
-            <template  v-else-if="office == 2">
-              <rubrique>Antiphona ad Magnificat</rubrique><br />                
-            </template> 
-            <template v-if="feast == 1">
-              <template v-if="office == 1">                                                       <!-- Le Dimanche des Rameaux aux Laudes -->
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntTurbaMulta.jpg" /><br />               
-                  <img src="../../public/assets/images/g70Tonus/Tonus41Fe.jpg" />
-                  <Cant11 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntTurbaMulta.jpg" /> 
-                </p>
-              </template>
-              <template  v-else-if="office == 2">                                                 <!-- Le Dimanche des Rameaux aux Vêpres -->
-                 <p>
-                   <img src="../../public/assets/images/g50Antiphona/AntScriptumEstEnim.jpg" /><br /> 
-                  <img src="../../public/assets/images/g70Tonus/Tonus08SFa.jpg" /><br /> 
-                  <Cant12 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntScriptumEstEnim.jpg" /> 
-                 </p>
-              </template>
-            </template>       
-            <template v-else-if="feast == 2">
-              <template v-if="office == 1">
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntClarificaMe.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01Ff.jpg" /><br />
-                  <Cant21 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntClarificaMe.jpg" /> 
-                 </p>
-              </template>
-              <template  v-else-if="office == 2">                                                     <!-- Le Lundi Saint aux Vêpres -->
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntNonHaberes.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus10Fb.jpg" /><br />
-                  <Cant22 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntNonHaberes.jpg" />
-                 </p>
-              </template>
-            </template>
-            <template v-else-if="feast == 3">
-              <template v-if="office == 1">                                                           <!-- Le mardi Saint aux Laudes -->
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntAnteDiemPaschae.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01Ff.jpg" /><br />
-                  <Cant11 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntAnteDiemPaschae.jpg" />
-                 </p>                                                                          
-              </template>
-              <template  v-else-if="office ==2">                                                      <!-- Le Mardi Saint aux Vêpres -->
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntPotestatemHabeo2.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus10Fb.jpg" /><br />
-                  <Cant32 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntPotestatemHabeo2.jpg" />
-                 </p>   
-              </template>
-            </template>   
-            <template v-else-if="feast == 4">
-              <template v-if="office == 1">                                                           <!-- Le Mercredi Saint aux Laudes -->
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTSimonDormis.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08Fg.jpg" /><br />
-                  <Cant41 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/ANTSimonDormis.jpg" />
-                 </p>                
-              </template>
-              <template  v-else-if="office == 2">                                                     <!-- Le Mercredi Saint aux Vêpres -->
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTAncillaDixit.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01Fg.jpg" /><br />
-                  <Cant42 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/ANTAncillaDixit.jpg" />
-                 </p> 
-              </template>
-            </template>    
-            <template v-else-if="feast == 5">                                                         <!-- Le Jeudi Saint aux Laudes -->
-              <template v-if="office == 1">   
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTTraditorAutem.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01SFg.jpg" /><br />
-                  <Cant51 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/ANTTraditorAutem.jpg" />
-                 </p> 
-                <p>Christus factus pro nobis obediens usque ad mortem.</p>    
-              </template>
-            </template>
-            <template v-else-if="feast == 6">                                                          <!-- Le Vendredi Saint aux Laudes -->
-              <template v-if="office == 1">   
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTPosueruntSuper.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01SFg.jpg" /><br />
-                  <Cant51 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/ANTPosueruntSuper.jpg" />
-                 </p> 
-                 <p>Christus factus pro nobis obédiens usque ad mortem,<br />
-                    mortem autem crucis.</p>    
-              </template>             
-            </template>
-            <template v-else-if="feast == 7">                                                          <!-- Le Samedi Saint aux Laudes -->
-              <template v-if="office == 1">   
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTMulieresSedentes.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus01SFg.jpg" /><br />
-                  <Cant51 /><br />                                                                             <!-- Same as above -->
-                  <img src="../../public/assets/images/g50Antiphona/ANTMulieresSedentes.jpg" />
-                 </p> 
-                 <p>Christus factus pro nobis obédiens usque ad mortem,<br />
-                    mortem autem crucis.Propter quod et Deus exaltávit illum<br />
-                    et dedit illi nomen, quod est super omne nomen.</p>                   
-              </template>
-            </template>
-            <template v-else-if="feast == 8">                                                           <!-- Le Dimanche de Pâques aux Laudes -->
-              <template v-if="office == 1">   
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTEtValdeMane.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus08SFg.jpg" /><br />
-                  <Cant81 /><br />                                                                             <!-- Same as above -->
-                  <img src="../../public/assets/images/g50Antiphona/ANTEtValdeMane.jpg" />
-                 </p> 
-              </template>
-              <template  v-else-if="office == 2">                                                        <!-- Le Dimanche de Pâques aux Vêpres -->
-                 <p>
-                  <img src="../../public/assets/images/g50Antiphona/ANTEtRespicientes.jpg" /><br />
-                  <img src="../../public/assets/images/g70Tonus/Tonus31Fa.jpg" /><br />
-                  <Cant82 /><br />                                                                             
-                  <img src="../../public/assets/images/g50Antiphona/ANTEtRespicientes.jpg" />
-                 </p>
-              </template>
-            </template>     
-            <template v-else-if="feast == 9">                                                           <!-- La veille des Rameaux -->
-              <template v-if="office == 2">
-                <p>
-                  <img src="../../public/assets/images/g50Antiphona/AntPaterIusteMundus.jpg" /><br />                 
-                  <img src="../../public/assets/images/g70Tonus/Tonus41Fe.jpg" />
-                  <Cant92 /><br />
-                  <img src="../../public/assets/images/g50Antiphona/AntPaterIusteMundus.jpg" />   
-                </p>                 
-              </template>
-            </template>            
-          </p>
-          <template  v-if="feast == 1 || feast == 2 || feast == 3 || feast == 4 || feast == 8 || feast == 9" >  
-            <p><img src="../../public/assets/images/g95InOrdineOfficii/KyrieSimplex.jpg" /></p>
-          </template>
-          <template  v-if="feast == 5 || feast == 6 || feast == 7"> 
-              Pater Noster sub silentio- « à voix basse »
-          </template>
-          <template   v-else-if="feast == 1 || feast == 2 || feast == 3 || feast == 4 || feast == 8 || feast == 9" >  
-            <p><img src="../../public/assets/images/g95InOrdineOfficii/PaterNosterOfficii.jpg" /></p>
-          </template>
-          <template  v-if="feast == 1 || feast == 2 || feast == 3 || feast == 4 || feast == 8 || feast == 9" >           
-              <p><DominusVobiscum /></p>
-          </template>
-          <p>
-                                                                                                                 
-              <template v-if="feast == 1 || feast == 9">                                                              <!-- Oratio -->
-                <p><Oratio1 /></p>
-              </template>
-              <template  v-else-if="feast == 2">
-                <template v-if="office == 1">   
-                  <p><Oratio2 /></p>
-                </template>
-                <template  v-else-if="office ==2"> 
-                  <p><Oratio5 /></p>
-                </template>                       
-              </template>
-              <template  v-else-if="feast == 3">            
-                <template v-if="office == 1">   
-                  <p><Oratio3 /></p>
-                </template>
-                <template  v-else-if="office ==2"> 
-                  <p><Oratio6 /></p>
-                </template>  
-              </template>
-              <template  v-else-if="feast == 4">            
-                <template v-if="office == 1">   
-                  <p><Oratio4 /></p>
-                </template>
-                <template  v-else-if="office ==2"> 
-                  <p><Oratio7 /></p>
-                </template>
-              </template>
-              <template v-else-if="feast == 5 || feast == 6 || feast == 7" > 
-                <p>
-                  <Oratio9 />
-                </p>
-              </template>                
-              <template v-else-if="feast == 8">
-                <p><Oratio8 /></p>
-              </template>
-          </p>
-          <template  v-if="feast == 1 || feast == 2 || feast == 3 || feast == 4 || feast == 8 || feast == 9" >           
-              <p><DominusVobiscum /></p>
-          </template>
-           
-          <template v-if="feast == 9">
-             <p><img src="../../public/assets/images/g95InOrdineOfficii/BenedicamusDominoPrimVesperis.jpg" /></p>
-          </template>
-          <template  v-else-if="feast == 1"> 
-            <template v-if="office == 1">   
-              <p><img src="../../public/assets/images/g95InOrdineOfficii/BenedicamusDominoAdLaudes.jpg" /></p>
-            </template>         
-            <template  v-else-if="office ==2"> 
-              <p><img src="../../public/assets/images/g95InOrdineOfficii/BenedicamusDominoSecVesperis.jpg" /></p>
-            </template>
-          </template>          
-          <template  v-else-if="feast == 2 || feast == 3 || feast == 4">
-            <p><img src="../../public/assets/images/g95InOrdineOfficii/BenedicamusDominoAdvQuadVigil.jpg" /></p>
-          </template>
-          <template  v-else-if="feast == 8"> 
-            <p><img src="../../public/assets/images/g95InOrdineOfficii/BenedicamusDominoPascha.jpg" /></p>
-          </template>
-          <p>&nbsp;</p>
-        <ion-tab-bar>
-          <ion-tab-button><ion-button fill="clear" strong router-link="/">Back to home</ion-button></ion-tab-button> 
-          <ion-tab-button> 
-            <template v-if="feast == 9">
-              <ion-button fill="clear" strong router-link="/officeList/9">Back to Sabb.</ion-button>  
-            </template>
-            <template  v-else-if="feast == 1"> 
-              <ion-button fill="clear" strong router-link="/officeList/1">Back to Dom.</ion-button>  
-            </template>          
-            <template  v-else-if="feast == 2">
-              <ion-button fill="clear" strong router-link="/officeList/2">Back to Feria II</ion-button>  
-            </template>
-            <template  v-else-if="feast == 3">
-              <ion-button fill="clear" strong router-link="/officeList/3">Back to Feria III</ion-button>  
-            </template>
-            <template  v-else-if="feast == 4">
-              <ion-button fill="clear" strong router-link="/officeList/4">Back to Feria IV</ion-button>  
-            </template>            
-            <template  v-else-if="feast == 5"> 
-              <ion-button fill="clear" strong router-link="/officeList/5">Back to Feria V</ion-button>               
-            </template>
-            <template  v-else-if="feast == 6"> 
-              <ion-button fill="clear" strong router-link="/officeList/6">Back to Feria VI</ion-button>              
-            </template>
-            <template  v-else-if="feast == 7"> 
-              <ion-button fill="clear" strong router-link="/officeList/7">Back to Sabb.</ion-button>             
-            </template>
-            <template  v-else-if="feast == 8"> 
-              <ion-button fill="clear" strong router-link="/officeList/8">Back to Dom.</ion-button>           
-            </template>                         
-          </ion-tab-button>
-          <ion-tab-button><ion-back-button default-href="/"></ion-back-button></ion-tab-button>  
-        </ion-tab-bar>
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>              
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>         
-        </div> 
-      </div>
-    </ion-content>
-  </ion-page>
+<template>
+<ion-page>
+  <ion-content id="container">
+    <ion-header class="ion-no-border">
+      <ion-toolbar>
+        <ion-button color="primary" shape="round" router-link="/tabs/tab3"><ion-icon :icon="home" /></ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <ion-button color="primary" shape="round" router-link="/tabs/tab3"><ion-icon :icon="arrowBackSharp" /></ion-button>
+      </ion-toolbar>
+      <br />
+      <p class="ion-padding-horizontal"><strong>{{feastCurrent?.title}} - {{feastCurrent?.titleFr}}</strong>
+      <br class="psalm" />&nbsp;-&nbsp;<strong>{{OfficeTitle}}</strong></p>
+      <br />
+    </ion-header> 
+    <component :is="officeInAdiutorium"/>
+    <p>
+      <rubrique>Antiphonae</rubrique><br />
+      <template v-for="(thisAnt, antID) in officeAnt" :key="antID">
+        <ImageDisplay :imgSource = "thisAnt.ant" />
+        <ImageDisplay :imgSource = "thisAnt.ton" />
+        <component    :is        = "thisAnt.psalm"/>
+        <ImageDisplay :imgSource = "thisAnt.ant" /><br />
+      </template>
+    </p>  
+    <p><component :is="officeCapitulum"/></p>  
+    <template v-if="officeRespons != null">
+      <p> <rubrique>Responsum</rubrique><br />
+      <ImageDisplay :imgSource = "officeRespons" /></p>
+    </template>
+    <p><component :is="officeHymnus"/></p>
+    <p>  
+      <rubrique>Versus</rubrique><br />
+      <ImageDisplay :imgSource = "officeVersus" />
+    </p> 
+    <p>
+      <rubrique>{{officeCantRubr}}</rubrique><br />
+      <ImageDisplay :imgSource = "officeCant.ant" /> <br />
+      <ImageDisplay :imgSource = "officeCant.ton" /> <br />
+      <component :is="officeCant.Cant"/>
+      <ImageDisplay :imgSource = "officeCant.ant" /> <br />
+    </p>
+    <p><ImageDisplay :imgSource = "officeKyrie" /></p>
+    <p><component :is="officeOraFinal.Pater"/></p>
+    <p><component :is="officeOraFinal.DomVobis"/></p>
+    <p><component :is="officeOratio"/></p>
+    <p><component :is="officeOraFinal.DomVobis"/></p>
+    <ImageDisplay :imgSource = "officeBenedicamusDom" />    
+    <p>&nbsp;</p>
+    <ion-footer class="ion-no-border">
+      <ion-toolbar>
+        <ion-button color="primary" shape="round" router-link="/tabs/tab3"><ion-icon :icon="home" /></ion-button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <ion-button color="primary" shape="round" router-link="/tabs/tab3"><ion-icon :icon="arrowBackSharp" /></ion-button>
+      </ion-toolbar>
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>      
+    </ion-footer>        
+  </ion-content>
+</ion-page>
 </template>
 
 <script lang="ts">
-    import { IonPage , IonContent , IonButton , IonBackButton } from '@ionic/vue';
-    import { useRoute }      from 'vue-router'; 
-
-    import Ps111             from '@/components/g65Psalmodia/Ps050R02.vue';        // 1st feast 1st office 1st psalm - Dimanche
-    import Ps112             from '@/components/g65Psalmodia/Ps117R18.vue';
-    import Ps113             from '@/components/g65Psalmodia/Ps062R03.vue';
-    import Ps114             from '@/components/g65Psalmodia/CantTriumPuerorumR19.vue';
-    import Ps115             from '@/components/g65Psalmodia/Ps148149150R10.vue';
-    import Cant11            from '@/components/g65Psalmodia/CantBenedictusR08.vue';  
-
-    import Ps121             from '@/components/g65Psalmodia/Ps109R19.vue';       // 1st feast 2nd office 1st psalm
-    import Ps122             from '@/components/g65Psalmodia/Ps110R20.vue'; 
-    import Ps123             from '@/components/g65Psalmodia/Ps111R07.vue'; 
-    import Ps124             from '@/components/g65Psalmodia/Ps112R19.vue';
-    import Cant12            from '@/components/g65Psalmodia/CantMagnificatR03.vue';
-
-    import Ps211             from '@/components/g65Psalmodia/Ps050R10.vue';       // 2nd feast 1st office 1st psalm - Lundi
-    import Ps212             from '@/components/g65Psalmodia/Ps005R02.vue'; 
-    import Ps213             from '@/components/g65Psalmodia/Ps035R08.vue';  
-    import Ps214             from '@/components/g65Psalmodia/CantIsaie12R03.vue'; 
-    import Ps215             from '@/components/g65Psalmodia/Ps148149150R03.vue';  
-    import Cant21            from '@/components/g65Psalmodia/CantBenedictusR18.vue'; 
-
-    import Ps221             from '@/components/g65Psalmodia/Ps113R14.vue';       // 2nd feast 2nd office 1st psalm
-    import Ps222             from '@/components/g65Psalmodia/Ps114R18.vue';
-    import Ps223             from '@/components/g65Psalmodia/Ps115116R03.vue'; 
-    import Ps224             from '@/components/g65Psalmodia/Ps128R01.vue'; 
-    import Cant22            from '@/components/g65Psalmodia/CantMagnificatR07.vue';
-
-    import Ps311             from '@/components/g65Psalmodia/Ps050R19.vue';       // 3rd feast 1st office 1st psalm - Mardi
-    import Ps312             from '@/components/g65Psalmodia/Ps042R19.vue';
-    import Ps313             from '@/components/g65Psalmodia/Ps056R19.vue';
-    import Ps314             from '@/components/g65Psalmodia/CantIsaie38R20.vue';
-
-    import Ps321             from '@/components/g65Psalmodia/Ps129R03.vue';    // 3nd feast 2nd office 1st psalm
-    import Ps322             from '@/components/g65Psalmodia/Ps130R04.vue'; 
-    import Ps323             from '@/components/g65Psalmodia/Ps131R04.vue'; 
-    import Ps324             from '@/components/g65Psalmodia/Ps132R18.vue';
-    import Cant32            from '@/components/g65Psalmodia/CantMagnificatR07.vue';
-
-    import Ps411             from '@/components/g65Psalmodia/Ps050R03.vue';    // 4th feast 1st office 1st psalm - Mercredi
-    import Ps412             from '@/components/g65Psalmodia/Ps063R03.vue'; 
-    import Ps413             from '@/components/g65Psalmodia/Ps064R01.vue';
-    import Ps414             from '@/components/g65Psalmodia/Cant1Sam02R19.vue';   
-    import Ps415             from '@/components/g65Psalmodia/Ps148149150R18.vue';  
-    import Cant41            from '@/components/g65Psalmodia/CantBenedictusR03.vue'; 
-
-    import Ps421             from '@/components/g65Psalmodia/Ps134R18.vue';    // 4th feast 2st office 1st psalm
-    import Ps422             from '@/components/g65Psalmodia/Ps135R18.vue';
-    import Ps423             from '@/components/g65Psalmodia/Ps136R03.vue'; 
-    import Ps424             from '@/components/g65Psalmodia/Ps137R04.vue';  
-    import Cant42            from '@/components/g65Psalmodia/CantMagnificatR18.vue'; 
-
-    import Ps511             from '@/components/g65Psalmodia/Ps050R03SineGloria.vue';    // 5th feast 1st office 1st psalm - jeudi
-    import Ps512             from '@/components/g65Psalmodia/Ps089R01SineGloria.vue';
-    import Ps513             from '@/components/g65Psalmodia/Ps035R03SineGloria.vue';
-    import Ps514             from '@/components/g65Psalmodia/CantEx15R10SineGloria.vue';
-    import Ps515             from '@/components/g65Psalmodia/Ps146R01SineGloria.vue';
-    import Cant51            from '@/components/g65Psalmodia/CantBenedictusR21SineGloria.vue'; 
-
-    import Ps611             from '@/components/g65Psalmodia/Ps050R19SineGloria.vue';    // 6th feast 1st office 1st psalm - vendredi
-    import Ps612             from '@/components/g65Psalmodia/Ps142R08SineGloria.vue';
-    import Ps613             from '@/components/g65Psalmodia/Ps084R18SineGloria.vue';
-    import Ps614             from '@/components/g65Psalmodia/Cant1Hab03R18SineGloria.vue';
-    import Ps615             from '@/components/g65Psalmodia/Ps147R03SineGloria.vue';
-        // Benedcitus same as Cant51
-
-    import Ps711             from '@/components/g65Psalmodia/Ps050R11SineGloria.vue';    // 7th feast 1st office 1st psalm - samedi
-    import Ps712             from '@/components/g65Psalmodia/Ps091R10SineGloria.vue';
-    import Ps713             from '@/components/g65Psalmodia/Ps063R19SineGloria.vue';
-    import Ps714             from '@/components/g65Psalmodia/CantIsaie38R01SineGloria.vue';
-    import Ps715             from '@/components/g65Psalmodia/Ps150R03SineGloria.vue';     // Benedictus same as 5th feast
-
-    import Ps811             from '@/components/g65Psalmodia/Ps092R03.vue';               // 8th feast 1st office 1st psalm - dimanche de Pâques
-    import Ps812             from '@/components/g65Psalmodia/Ps099R19.vue';
-    import Ps813             from '@/components/g65Psalmodia/Ps062R03.vue';
-    import Cant81            from '@/components/g65Psalmodia/CantBenedictusR21.vue'; 
-
-    import Ps821             from '@/components/g65Psalmodia/Ps109R03.vue'; 
-    import Ps822             from '@/components/g65Psalmodia/Ps110R19.vue';
-    import Cant82            from '@/components/g65Psalmodia/CantMagnificatR19.vue'; 
-
-    import Ps921             from '@/components/g65Psalmodia/Ps144R03.vue';               // 9th feast 2nd office 1st psalm - La veille des Rameaux
-    import Ps922             from '@/components/g65Psalmodia/Ps145R09.vue';
-    import Ps923             from '@/components/g65Psalmodia/Ps146R03.vue';
-    import Ps924             from '@/components/g65Psalmodia/Ps147R04.vue';
-    import Cant92            from '@/components/g65Psalmodia/CantMagnificatR23.vue';
-
-    import Capitulum13       from '@/components/g75Lectio/CapPhilCh02V05.vue';
-    import Capitulum21       from '@/components/g75Lectio/CapIerCh11V19.vue';
-    import Capitulum22       from '@/components/g75Lectio/CapIerCh11V20.vue';
-    import Capitulum81       from '@/components/g75Lectio/CapCor1Ch05V07.vue';
-
-
-    import Oratio1           from '@/components/g80Oratio/OraQuiHumanoGeneri.vue';
-    import Oratio2           from '@/components/g80Oratio/OraUtQuiInTot.vue';
-    import Oratio3           from '@/components/g80Oratio/OraDaNobisIta.vue';
-    import Oratio4           from '@/components/g80Oratio/OraUtQuiNostris.vue';
-    import Oratio5           from '@/components/g80Oratio/OraAdBeneficiaRecolenda.vue';
-    import Oratio6           from '@/components/g80Oratio/OraTuaNosMisericordia.vue';
-    import Oratio7           from '@/components/g80Oratio/OraSuperHancFamíliam.vue';
-    import Oratio8           from '@/components/g80Oratio/OraQuiHodiernaDie.vue';
-    import Oratio9           from '@/components/g80Oratio/OraSuperHancFamíliamTriduo.vue';
-
-    import DominusVobiscum   from '@/components/g95InOrdineOfficii/DominusVobiscum.vue';
-    export default ( {
-        name:      'HoraMajor',
-        components: { Ps111 , Ps112 , Ps113 , Ps114 , Ps115 , Cant11 ,    // 1st feast 1st office - Dimanche des Rameaux
-                      Ps121 , Ps122 , Ps123 , Ps124 , Cant12 ,            // 1st feast 2nd office
-                      Ps211 , Ps212 , Ps213 , Ps214 , Ps215 , Cant21 ,    // 2nd feast 1st office - Lundi Saint
-                      Ps221 , Ps222 , Ps223 , Ps224 , Cant22 ,            // 2nd feast 2nd office
-                      Ps311 , Ps312 , Ps313 , Ps314 ,                     // 3rd feast 1st office - Mardi Saint
-                      Ps321 , Ps322 , Ps323 , Ps324 , Cant32 ,            // 3rd feast 2ndt office
-                      Ps411 , Ps412 , Ps413 , Ps414 , Ps415 , Cant41 ,    // 4th feast 1st office - Mercredi Saint
-                      Ps421 , Ps422 , Ps423 , Ps424 , Cant42 ,            // 4th feast 2ndt office
-                      Ps511 , Ps512 , Ps513 , Ps514 , Ps515 , Cant51 ,    // 5th feast 1st office - Jeudi Saint
-                      Ps611 , Ps612 , Ps613 , Ps614 , Ps615 ,             // 6th feast 1st office - Vendredi Saint
-                      Ps711 , Ps712 , Ps713 , Ps714 , Ps715 ,             // 7th feast 1st office - Samedi Saint
-                      Ps811 , Ps812 , Ps813 , Cant81 ,                    // 8th feast 1st office - Dimanche de Pâques
-                      Ps821 , Ps822 , Cant82 ,                            // 8th feast 2nd office
-                      Ps921 , Ps922 , Ps923 , Ps924 , Cant92 ,            // 9th feast 2nd office - La veille des Rameaux
-
-                      Capitulum13 , Capitulum21 , Capitulum22 , Capitulum81 ,
-
-                      Oratio1 , Oratio2 , Oratio3 , Oratio4 , Oratio5 , Oratio6 , Oratio7 , Oratio8 , Oratio9 ,
-                      DominusVobiscum , 
-                      IonPage , IonContent , IonButton , IonBackButton } ,
-        // props : ["feastOffice"] ,
-        setup() {
-          const route    = useRoute () ;
-          const feast    = route.params.feast;
-          const office   = route.params.office;
-          const arrayFeasts = [
-            {
-              title     : 'Domenica in Palmis', 
-              titleFr   : 'Dimanche des Rameaux' ,
-            } ,
-            {
-              title     : 'Hebdomada Sancta Feria 2' , 
-              titleFr   : 'Lundi saint' ,       
-            } ,
-            {
-              title     : 'Hebdomada Sancta Feria 3',
-              titleFr   : 'Mardi saint' ,
-            } ,
-            {
-              title     : 'Hebdomada Sancta Feria 4',
-              titleFr   : 'Mercredi saint' ,
-            } ,
-            {
-              title     : 'Hebdomada Sancta Feria 5 - In Coena Domini',
-              titleFr   : 'Jeudi saint' ,
-            } ,
-            {
-              title     : 'Hebdomada Sancta Feria 6 - In Parasceve',
-              titleFr   : 'Vendredi saint' ,
-            } ,
-            {
-              title     : 'Sabbato Sancto',
-              titleFr   : 'Samedi saint' ,
-            } ,
-            {
-              title     : 'Resurrectio Domini',
-              titleFr   : 'Dimanche de Pâques' ,
-            } ,
-            {
-              title     : 'Domenica in Palmis', 
-              titleFr   : 'Dimanche des Rameaux - la veille' ,
-            } , 
-          ] ;  
-          const feastCurrent    = arrayFeasts [+feast-1] ; // Feast is 1 OR 2 while index in table is 0 OR  1
-          const feastTitle      = feastCurrent?.title ;
-          const feastTitleFr    = feastCurrent?.titleFr ;
-          const arrayOffices  = [
-            {
-              title   : 'Ad Laudes', 
-            } ,
-            {
-              title   : 'Ad Vesperas',
-            } ,
-          ] ; 
-          const OfficeCurrent = arrayOffices [+office-1] ;   // office is 1 OR 2 while index in table is 0 OR 1 OR 2
-          const OfficeTitle   = OfficeCurrent?.title ;  
-          return  { feast, office , feastTitle , feastTitleFr , OfficeTitle } ;
-        }
-
-    })
-
+  import { IonPage , IonContent , IonButton , IonIcon } from '@ionic/vue';
+  import { useRoute }               from 'vue-router';
+  import { defineAsyncComponent }   from 'vue';
+  import { home , arrowBackSharp }  from 'ionicons/icons';
+  import { ref }                    from 'vue';
+  import ImageDisplay               from '@/components/ImageDisplay.vue';
+  import { defineComponent }        from 'vue';
+  
+  export default defineComponent ( {
+    name:      'HoraMajor',
+    components: { ImageDisplay , IonPage , IonContent , IonButton , IonIcon } ,
+    setup() {
+      let route    = useRoute () ;
+      let feast    = route.params.feast;
+      let office   = route.params.office;
+      let arrayFeasts = ref ( [
+        { title   : 'Domenica in Palmis', 
+          titleFr : 'Dimanche des Rameaux' ,
+          arrayOfffice1 : [                                                                     // Ad Laudes
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntDomDeusAuxiliator.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus02Fd2.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps050R02.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntCircumdantesCircumdederunt.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus01Fa2.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps117R18.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntIudicaCausam.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps062R03.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntCumAngelisEtPueris.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus07SFa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantTriumPuerorumR19.vue' ) ) } ,
+            { antID : 5 , 
+              ant   : require ( "../assets/g50Antiphona/AntConfundanturQuiMe.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus09Fa.jpg" )  ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps148149150R10.vue') ) } ] ,
+          arrayOfffice2 : [ 
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntDixitDomDom.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus07Fc2.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps109R19.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntMagnaOperaDom.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus32Fb.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps110R20.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntQuiTimetDom.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus41Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps111R07.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntSitNomenDom.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus07Fc.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps112R19.vue') ) } ] ,
+          arrayCant : [
+            { ant   : require ( "../assets/g50Antiphona/AntTurbaMulta.jpg" ) ,        // ant. Ad Benedictus Ad Laudes
+              ton   : require ( "../assets/g70Tonus/Tonus41Fe.jpg" ) , 
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantBenedictusR08.vue' ) ) } , 
+            { ant   : require ( "../assets/g50Antiphona/AntScriptumEstEnim.jpg" ) ,   // ant. Ad Magnificat Ad Vesperas
+              ton   : require ( "../assets/g70Tonus/Tonus08SFa.jpg" ) , 
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantMagnificatR03.vue' ) ) } ] },    
+        { title     : 'Hebdomada Sancta Feria II' , 
+          titleFr   : 'Lundi Saint' , 
+          arrayOfffice1 : [                                                                       // Ad Laudes
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntFaciemMeam.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus09Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps050R10.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntFramea2.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus02Fd.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps005R02.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntAppenderunt.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus42Fe.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps035R08.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntInundaveruntAquae.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantIsaie12R03.vue' ) ) } ,
+            { antID : 5 , 
+              ant   : require ( "../assets/g50Antiphona/AntLabiaInsurgentibus.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" )  ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps148149150R03.vue' ) ) } ] ,
+          arrayOfffice2 : [                                                                 // Ad Vesperas
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntNosQuiVivimus.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus19.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps113R14.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntInclinavitDom.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus01Fg2.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps114R18.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntCredidiPropter.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps115-116R03.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntSaepeExpungaverunt.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus02Fd.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps128R01.vue' ) ) } ] ,
+          arrayCant : [
+            { ant   : require ( "../assets/g50Antiphona/AntClarificaMe.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus01Ff.jpg" ) , 
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantBenedictusR18.vue' ) ) } , 
+            { ant   : require ( "../assets/g50Antiphona/AntNonHaberes.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus10Fb.jpg" ) , 
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantMagnificatR07.vue' ) ) } ] },            
+        { title     : 'Hebdomada Sancta Feria III',
+          titleFr   : 'Mardi Saint' ,
+          arrayOfffice1 : [                                                             // Ad Laudes
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntVideDomEtConsidera.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus07Fc2.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps050R19.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntDiscerneCausam.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus07Fd.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps042R19.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntDumTribularer.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus07Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps056R19.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntDomVim.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus32Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantTriumPuerorumR19.vue' ) ) } ,
+            { antID : 5 , 
+              ant   : require ( "../assets/g50Antiphona/AntDixeruntImpii.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" )  ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps148149150R10.vue' ) ) } ] ,
+          arrayOfffice2 : [ 
+            { antID : 1 ,
+              ant   : require ( "../assets/g50Antiphona/AntDeProfundis.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps129R03.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntSperetIsrael.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus17Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps130R04.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntEtOmnis.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus17Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps131R04.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntEcceQuam.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus01Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps132R18.vue' ) ) } ] ,
+          arrayCant : [
+            { ant   : require ( "../assets/g50Antiphona/AntAnteDiemPaschae.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus01Ff.jpg" ) ,                            
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantBenedictusR08.vue' ) ) } ,      /* same as Feast 1 */
+            { ant   : require ( "../assets/g50Antiphona/AntPotestatemHabeo2.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus10Fb.jpg" ) , 
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantMagnificatR07.vue' ) ) } ] },  
+        { title     : 'Hebdomada Sancta Feria IV',
+          titleFr   : 'Mercredi Saint' ,
+          arrayOfffice1 : [                                                             // Ad Laudes
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntLiberaMe.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps050R03.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntContumeliasEtTerrores.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps063R03.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntIpsiVero.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus02Fd.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps064R01.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntOmnesInimici.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus07Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Cant1Sam02R19.vue' ) ) } ,
+            { antID : 5 , 
+              ant   : require ( "../assets/g50Antiphona/AntAlligaDom.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus01Fg2.jpg" )  ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps148149150R18.vue' ) ) } ] ,
+          arrayOfffice2 : [ 
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntOmniaQuaecumque.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus31Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps134R18.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntQuoniamInAeternum.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus31Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps135R18.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntHymnumCantate.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps136R03.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntInConspectuAngelorum.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus05Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps137R04.vue' ) ) } ] ,
+          arrayCant : [
+            { ant   : require ( "../assets/g50Antiphona/AntSimonDormis.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) , 
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantBenedictusR03.vue' ) ) } , 
+            { ant   : require ( "../assets/g50Antiphona/AntAncillaDixit.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus01Fg.jpg" ) , 
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantMagnificatR18.vue' ) ) } ] },   
+        { title     : 'Hebdomada Sancta Feria V - In Coena Domini',
+          titleFr   : 'Jeudi Saint' ,
+          arrayOfffice1 : [                                                             // Ad Laudes
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntIustificerisDom.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps050R03SineGloria.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntDomTamquam.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus02Fd.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps089R01SineGloria.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntContritumEst.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps035R03SineGloria.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntExhortatusEs.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus10Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantEx15R10SineGloria.vue' ) ) } ,
+            { antID : 5 , 
+              ant   : require ( "../assets/g50Antiphona/AntOblatusEst.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus02Fd.jpg" )  ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps146R01SineGloria.vue' ) ) } ] ,
+          arrayOfffice2 : [ { antID : 1 , ant : null , ton : null , psalm : null } ] ,
+          arrayCant : [
+            { ant   : require ( "../assets/g50Antiphona/AntTraditorAutem.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus01SFg.jpg" )  ,
+              Cant : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantBenedictusR21SineGloria.vue' ) ) } , 
+            { ant : null , ton : null , Cant  : null } ] },
+        { title     : 'Hebdomada Sancta Feria VI - In Parasceve',
+          titleFr   : 'Vendredi Saint' ,
+          arrayOfffice1 : [                                                             // Ad Laudes
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntProprioFilio.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus07Fc.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps050R19SineGloria.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntAnxiatusEst.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus41Fe.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps142R08SineGloria.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntAitLatro.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus01Ff.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps084R18SineGloria.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntDumConturbata.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus01Ff.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Cant1Hab03R18SineGloria.vue' ) ) } ,
+            { antID : 5 , 
+              ant   : require ( "../assets/g50Antiphona/AntMementoMei.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" )  ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps147R03SineGloria.vue' ) ) } ] ,
+          arrayOfffice2 : [ { antID : 1 , ant : null , ton : null , psalm : null } ] ,
+          arrayCant : [
+            { ant   : require ( "../assets/g50Antiphona/AntPosueruntSuper.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus01SFg.jpg" )  ,
+              Cant : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantBenedictusR21SineGloria.vue' ) ) } ,    // // Benedcitus same as Cant51 
+            { ant : null , ton : null , Cant  : null } ] },
+          
+        { title     : 'Sabbato Sancto',
+          titleFr   : 'Samedi Saint' ,
+          arrayOfffice1 : [                                                             // Ad Laudes
+            { antID : 1 ,
+              ant   : require ( "../assets/g50Antiphona/AntOMors.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus41Fd.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps050R11SineGloria.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntPlangentEum.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus09Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps091R10SineGloria.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntAttenditeUniversi.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus07Fd.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps063R19SineGloria.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntAPortaInferi.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus02Fd2.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantIsaie38R01SineGloria.vue' ) ) } ,
+            { antID : 5 , 
+              ant   : require ( "../assets/g50Antiphona/AntOVosOmnes.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fa.jpg" )  ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps150R03SineGloria.vue' ) ) } ] ,
+          arrayOfffice2 : [ { antID : 1 , ant : null , ton : null , psalm : null } ] ,
+          arrayCant : [
+            { ant   : require ( "../assets/g50Antiphona/AntMulieresSedentes.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus01SFg.jpg" )  ,
+              Cant : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantBenedictusR21SineGloria.vue' ) ) } ,      // Benedictus same as 5th feast                                                                    // Benedictus same as 5th feast 
+            { ant : null , ton : null , Cant  : null } ] },
+        { title   : 'Resurrectio Domini',
+          titleFr : 'Dimanche de Pâques' ,
+          arrayOfffice1 : [                                                             // Ad Laudes
+            { antID : 1 , 
+              ant   : require ( "../assets/g50Antiphona/AntAngelusAutem.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps092R03.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntEtEcceTerraemotus.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus07Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps099R19.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntEratAutem.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps062R03.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntPraeTimore.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus07SFa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantTriumPuerorumR19.vue' ) ) } ,
+            { antID : 5 , 
+              ant   : require ( "../assets/g50Antiphona/AntRespondensAutem.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" )  ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps148149150R03.vue' ) ) } ] ,
+          arrayOfffice2 : [ 
+            { antID : 1 ,
+              ant   : require ( "../assets/g50Antiphona/AntAngelusAutem.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus08Fc.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps109R03.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntEtEcceTerraemotus.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus07Fc.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps110R19.vue' ) ) } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntEratAutem.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fc.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps111R07.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntRespondensAutem.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps112R19.vue' ) ) } ] ,
+          arrayCant : [
+            { ant   : require ( "../assets/g50Antiphona/AntEtValdeMane.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08SFg.jpg" ) , 
+              Cant  :   defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantBenedictusR21.vue' ) ) } , 
+            { ant   : require ( "../assets/g50Antiphona/AntEtRespicientes.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus31Fa.jpg" ) , 
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantMagnificatR19.vue' ) ) } ] },
+        { title   : 'Domenica in Palmis', 
+          titleFr : 'Dimanche des Rameaux - la veille' ,
+          arrayOfffice1 : [                                                             // Ad Laudes
+            { antID : 1 , ant   : null , ton   : null , psalm : null } ] ,
+          arrayOfffice2 : [ 
+            { antID : 1 ,
+              ant   : require ( "../assets/g50Antiphona/AntRegnumTuum.jpg" ) ,  
+              ton   : require ( "../assets/g70Tonus/Tonus08Fc.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps144R03.vue' ) ) } ,
+            { antID : 2 , 
+              ant   : require ( "../assets/g50Antiphona/AntLaudaboDeumMeum.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus12Fe2.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps145R09.vue' ) ) , } ,
+            { antID : 3 , 
+              ant   : require ( "../assets/g50Antiphona/AntDeoNostroIucunda.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps146R03.vue' ) ) } ,
+            { antID : 4 , 
+              ant   : require ( "../assets/g50Antiphona/AntLaudaIerusalem.jpg" )  ,
+              ton   : require ( "../assets/g70Tonus/Tonus17Fa.jpg" ) ,
+              psalm : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/Ps147R04.vue' ) ) } ] ,
+          arrayCant : [
+            { ant   : null , ton : null , Cant : null } , 
+            { ant   : require ( "../assets/g50Antiphona/AntPaterIusteMundus.jpg" ) ,
+              ton   : require ( "../assets/g70Tonus/Tonus41Fe.jpg" ) , 
+              Cant  : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g65Psalmodia/CantMagnificatR23.vue' ) ) } ] } ] ) ;
+      let feastNum        = +feast ;
+      let officeNum       = +office ; 
+      let feastCurrent    = arrayFeasts.value [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
+      let officeAnt       = feastCurrent?.arrayOfffice1 ;
+      if ( officeNum == 2 ) { officeAnt  = feastCurrent?.arrayOfffice2 }
+      let officeCant      = feastCurrent?.arrayCant[0] ;
+      if ( officeNum == 2 ) { officeCant      = feastCurrent?.arrayCant[1] ; }
+      let arrayInAdiutorium  = [
+        null ,
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g95InOrdineOfficii/InAdiutoriumMinorQuad.vue' ) ) , // Feriale Quadragesimae
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g95InOrdineOfficii/InAdiutoriumSolemn.vue' ) ) , // Vesperae Festivo Quadragesimae
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g95InOrdineOfficii/InAdiutoriumMinorPascha.vue' ) ) , //Laudes Tempus paschali
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g95InOrdineOfficii/InAdiutoriumSolemn.vue' ) )  // Vesperae Tempus paschali
+      ] ; 
+      let i = 0 ; 
+      if ( ( feastNum == 1 && officeNum == 1 ) || feastNum == 2 || feastNum == 3 || feastNum == 4 ) { i = 1 ; }   /* Aux Laudes et aux Vêpres de la féérie  */
+      if ( ( feastNum == 1 && officeNum == 2 ) || feastNum == 9 ) {  i = 2 ; }    /* Le Dimanche des Rameaux et la veille aux Vêpres  */
+      else if ( feastNum == 8 && officeNum == 1 )  { i = 3 ; }                    /* Le Dimanche de Pâques aux Vêpres  */
+      else if ( feastNum == 8 && officeNum == 2 )  { i = 4 ; }                    /* Le Dimanche de Pâques aux Vêpres  */
+      let officeInAdiutorium  = arrayInAdiutorium [i] ; 
+      let arrayOffices  = [
+        { title   : 'Ad Laudes'} ,
+        { title   : 'Ad Vesperas' } 
+      ] ; 
+      let OfficeCurrent       = arrayOffices [+office-1] ;   
+      let OfficeTitle         = OfficeCurrent?.title ;
+      let arrayCapitulum  = [
+        null ,
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g75Lectio/CapPhilCh02V05.vue' ) ) ,     // Dom. in Palmis
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g75Lectio/CapIerCh11V19.vue' ) ) ,      // Ad Laudes Quadragesimae
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g75Lectio/CapIerCh11V20.vue' ) ) ,      // Ad Vesperas Quadragesimae
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g75Lectio/CapCor1Ch05V07.vue' ) ) ] ;   // Dom. Resurrectio 
+      i = 0 ;  
+      if ( feastNum ==  1 || feastNum == 9 ) { i = 1 ; }     
+      else if ( feastNum > 1  && feastNum < 5 ) 
+        if ( officeNum == 1 ) { i = 2 ; }
+        else if ( officeNum == 2 ) { i = 3 ; }  
+      else if ( feastNum == 8 ) { i = 4 ; }  
+      let officeCapitulum      = arrayCapitulum [i] ;
+      let arrayRespons  = [
+        null,
+        require ( "../assets/g55Responsum/RepErueAFramea2.jpg" ) ,            // Ad Laudes Domenicae in Palmis
+        require ("../assets/g55Responsum/RepDeOreLeonis2.jpg" ) ,             // Ad Vesperas Domenicae in Palmis
+        require ( "../assets/g55Responsum/RepErueAFramea3.jpg" ) ,            // Ad Laudes Hebdomada Sancta
+        require ( "../assets/g55Responsum/RepDeOreLeonis3.jpg" ) ,            // Ad Vesperas Hebdomada Sancta
+        require ( "../assets/g55Responsum/RepSurrexitDomDeSepulchro.jpg" ) ,  // Ad Laudes Dom. Resurrectio
+        require ( "../assets/g55Responsum/RepSurrexitDomVereSolemn.jpg" )     // Ad Vesperase Dom. Resurrectio
+      ] ;
+      i = 0 ; 
+      if ( feastNum == 1 || feastNum == 9 ) {
+        if ( officeNum == 1 ) { i = 1 ; }
+        else if ( officeNum == 2 ) { i = 2 ; }   }      
+      else if ( feastNum == 2 || feastNum == 3 || feastNum == 4 ) {
+        if ( officeNum == 1 )       { i = 3 ; } 
+        else if ( officeNum == 2 )  { { i = 4 ; } } }
+      else if ( feastNum == 8 ) {
+        if ( officeNum == 1 )       { i = 5 ; } 
+        else if ( officeNum == 2 )  { i = 6 ; } }
+      let officeRespons      = arrayRespons [i] ;
+      let arrayHymnus  = [
+        null ,
+        defineAsyncComponent(() => 
+          import ( '@/components/g60Hymnus/HymCruxFidelis.vue' ) ) ,      // Ad Laudes Hebdomada Sancta                          
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g60Hymnus/HymVexillaRegis.vue' ) ) ,     // Ad Vesperas Hebdomada Sancta
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g60Hymnus/HymAuroraLucis.vue' ) ) ,      // Ad Laudes Dom. Resurrectio
+        defineAsyncComponent(() =>                            
+          import ( '@/components/g60Hymnus/HymAdCoenamAgni.vue' ) ) ] ;   // Ad Vesperase Dom. Resurrectio 
+      i = 0 ;      
+      if ( feastNum < 5 || feastNum == 9 ) {
+        if ( officeNum == 1 ) { i = 1 ; }
+        else if ( officeNum == 2 ) { i = 2 ; }   }    
+      else if (feastNum == 8 ) {
+        if ( officeNum == 1 ) { i = 3 ; }
+        else if ( officeNum == 2 ) { i = 4 ; }  
+      } 
+      let officeHymnus  = arrayHymnus [i] ;
+      let arrayVersus   = [
+        require ( "../assets/g85Versus/VersEripeMeInimicis.jpg" ) ,       // Ad Laudes Hebdomada Sancta
+        require ("../assets/g85Versus/VersEripeMeHomine.jpg" ) ,          // Ad Vesperas Hebdomada Sancta
+        require ( "../assets/g85Versus/VerHomoPacis.jpg" ) ,              // Feria V
+        require ( "../assets/g85Versus/VerCollocavitIn.jpg" ) ,           // Feria VI
+        require ( "../assets/g85Versus/VerCaroMea.jpg" ) ,                // Feria VII
+        require ( "../assets/g85Versus/VersHaecDies.jpg" )                //  Dom. Resurrectio
+      ] ;
+      i = 0 ; 
+      if ( feastNum < 5 || feastNum == 9 ) {
+        if ( officeNum == 2 )   { i = 1 ; } }
+      else if ( feastNum > 4 ) { i = feastNum - 3  ; } 
+      let officeVersus      = arrayVersus [i] ;
+      let officeCantRubr    = null ;
+      if ( officeNum == 1 ) {
+        officeCantRubr      = "Antiphona ad Benedictus" ;
+      } else if ( officeNum == 2 ) {
+        officeCantRubr      = "Antiphona ad Magnificat" ;            
+      }
+      let arrayOratio  = [
+        null ,
+        defineAsyncComponent(() => 
+          import ( '@/components/g80Oratio/OraQuiHumanoGeneri.vue' ) ) ,      // Dom. in Palmis                          
+        defineAsyncComponent(() =>                            
+            import ( '@/components/g80Oratio/OraUtQuiInTot.vue' ) ) ,          // Feria II Ad Laudes  
+        defineAsyncComponent(() =>                            
+            import ( '@/components/g80Oratio/OraDaNobisIta.vue' ) ) ,          // Feria III  Ad Laudes
+        defineAsyncComponent(() =>                            
+            import ( '@/components/g80Oratio/OraQuiProNobisFilium.vue' ) ) ,         // Feria IV Ad Laudes
+        defineAsyncComponent(() =>                            
+            import ( '@/components/g80Oratio/OraAdBeneficiaRecolenda.vue' ) ) , // Feria II Ad Vesperas
+        defineAsyncComponent(() =>                            
+            import ( '@/components/g80Oratio/OraTuaNosMisericordia.vue' ) ) ,   // Feria III Ad Vesperas
+        defineAsyncComponent(() =>                            
+            import ( '@/components/g80Oratio/OraSuperHancFamiliam.vue' ) ) ,    // Feria IV Ad Vesperas
+        defineAsyncComponent(() =>                            
+            import ( '@/components/g80Oratio/OraSuperHancFamiliamTriduo.vue' ) ) , // Ad Laudes Feria V & Feria VI
+        defineAsyncComponent(() =>                            
+            import ( '@/components/g80Oratio/OraQuiHodiernaDie.vue' ) )  ] ;       // Dom. Resurrectio   
+      i = 0 ; 
+      if ( feastNum == 1 || feastNum == 9 ) {  i = 1 ; }  
+      else if ( feastNum  < 5 ) {
+        if ( officeNum == 1 ) { i = feastNum ; }
+        else if ( officeNum == 2 ) { i = feastNum + 3 ; } }    
+      else if ( ( feastNum == 5 || feastNum == 6 ) && officeNum == 1 ) {  i = 8 ; }               
+      else if (feastNum == 8 ) { i = 9 ; }
+      let officeOratio      = arrayOratio [i] ;
+      let arrayKyrie  = [ null ,
+                          require ( "../assets/g95InOrdineOfficii/KyrieSimplex.jpg" ) ] ; 
+      i = 0 ;
+      if ( feastNum < 5  || feastNum > 7 )  { i = 1 ; }
+      let officeKyrie  = arrayKyrie [i] ;
+      let arrayOraFinal  = [
+        { Pater     : defineAsyncComponent(() =>                            
+                      import ( '@/components/g95InOrdineOfficii/PaterNosterHorMajor.vue' ) )  , // Pater de l'Office
+          DomVobis  : defineAsyncComponent(() =>                            
+                      import ( '@/components/g95InOrdineOfficii/DominusVobiscum.vue' ) )  } ,
+        { Pater     : defineAsyncComponent ( () =>                            
+                      import ( '@/components/g95InOrdineOfficii/PaterNosterSilentio.vue' ) )  ,
+          DomVobis  : null  } ] ;
+      i = 0 ; 
+      if ( feastNum >  4 && officeNum < 8  ) { i = 1 ; }   /* Aux Laudes et aux Vêpres du Triduum  */
+      let officeOraFinal  = arrayOraFinal[i] ;     
+      let arrayBenedicamusDom  = [
+        null ,
+        require ( "../assets/g95InOrdineOfficii/BenedicamusDominoAdvQuadVigil.jpg" ) ,
+        require ( "../assets/g95InOrdineOfficii/BenedicamusDominoPrimVesperis.jpg" ) ,
+        require ( "../assets/g95InOrdineOfficii/BenedicamusDominoAdLaudes.jpg" ) ,
+        require ( "../assets/g95InOrdineOfficii/BenedicamusDominoSecVesperis.jpg" ) ,        
+        require ( "../assets/g95InOrdineOfficii/BenedicamusDominoPascha.jpg" ) ] ; 
+      i = 0 ;
+      if ( feastNum == 2 || feastNum == 3 || feastNum == 4 ) { i = 1 ; }    /* Aux Laudes et aux Vêpres de la féérie  */
+      else if (feastNum == 9 ) { i = 2 ; }             /* La veille des Rameaux  aux Vêpres  */
+      else if ( feastNum == 1 ) { 
+        if (officeNum == 1 ) { i = 3 ; }          /* Le Dimanche des Rameaux aux Laudes  */
+        else if (officeNum == 2 ) { i = 4 ; }     /* Le Dimanche des Rameaux aux Vêpres  */
+      } else if (feastNum == 8 ) { i = 5 ; }      /* Le Dimanche de Pâques */
+      let officeBenedicamusDom  = arrayBenedicamusDom [i] ; 
+      return  { feastCurrent , officeAnt , feast, office , 
+                OfficeTitle , officeInAdiutorium , officeCapitulum , officeRespons , 
+                officeVersus , officeHymnus , officeCantRubr , officeCant , officeOratio , 
+                officeKyrie , officeOraFinal , officeBenedicamusDom , home , arrowBackSharp } 
+    }
+  })
 </script>
 
 <style>
