@@ -1,0 +1,74 @@
+[
+    {
+        "pkeyPiece": "8671",
+        "calendarFeast": "Pentecostes",
+        "officeYear": null,
+        "typeOfficeSortBy": "40",
+        "officePieceOrder": "1",
+        "typeOfficeName": "Missa",
+        "typeName": "Introitus",
+        "titleName": "Spiritus Domini replevit...et hoc quod continet",
+        "textFullText": "Spiritus Domini replevit orbem terrarum, alleluia :<br \/>\r\net hoc quod continet omnia,<br \/>\r\nscientiam habet vocis.",
+        "textFR": "L'Esprit du Seigneur a rempli l'univers, all\u00e9luia,<br \/>\r\net lui qui contient toutes choses,<br \/>\r\na la science de la Parole."
+    },
+    {
+        "pkeyPiece": "3242",
+        "calendarFeast": "Pentecostes",
+        "officeYear": null,
+        "typeOfficeSortBy": "40",
+        "officePieceOrder": "2",
+        "typeOfficeName": "Missa",
+        "typeName": "Versus alleluiaticus",
+        "titleName": "Emitte Spiritum tuum et creabuntur",
+        "textFullText": "Emitte Spiritum tuum,<br \/>\r\net creabuntur et renovabis faciem terrae.",
+        "textFR": "Envoyez votre Esprit, et ils seront cr\u00e9\u00e9s,<br \/>\r\net vous renouvellerez la face de la terre."
+    },
+    {
+        "pkeyPiece": "9445",
+        "calendarFeast": "Pentecostes",
+        "officeYear": null,
+        "typeOfficeSortBy": "40",
+        "officePieceOrder": "3",
+        "typeOfficeName": "Missa",
+        "typeName": "Versus alleluiaticus",
+        "titleName": "Veni Sancte Spiritus reple",
+        "textFullText": "Veni, Sancte Spiritus,<br \/>\r\nreple tuorum corda fidelium,<br \/>\r\net tui amoris in eis ignem accende.",
+        "textFR": "Viens, Esprit Saint,<br \/>\r\nremplis les coeurs de tes fid\u00e8les<br \/>\r\net allume en eux le feu de ton amour."
+    },
+    {
+        "pkeyPiece": "9444",
+        "calendarFeast": "Pentecostes",
+        "officeYear": null,
+        "typeOfficeSortBy": "40",
+        "officePieceOrder": "4",
+        "typeOfficeName": "Missa",
+        "typeName": "Sequentia",
+        "titleName": "Veni Sancte Spiritus et emitte",
+        "textFullText": "Veni, Sancte Spiritus,<br \/>\r\net emitte caelitus<br \/>\r\nlucis tuae radium.",
+        "textFR": "Viens, Esprit Saint,<br \/>\r\net du haut du ciel envoie<br \/>\r\nun rayon de ta lumi\u00e8re."
+    },
+    {
+        "pkeyPiece": "1580",
+        "calendarFeast": "Pentecostes",
+        "officeYear": null,
+        "typeOfficeSortBy": "40",
+        "officePieceOrder": "5",
+        "typeOfficeName": "Missa",
+        "typeName": "Offertorium",
+        "titleName": "Confirma hoc Deus",
+        "textFullText": "Confirma hoc, Deus,<br \/>\r\nquod <span class=\"fc\">operatus es<\/span> in nobis.",
+        "textFR": "Affermissez, Dieu,<br \/>\r\nce que vous avez op\u00e9r\u00e9 en nous."
+    },
+    {
+        "pkeyPiece": "3665",
+        "calendarFeast": "Pentecostes",
+        "officeYear": null,
+        "typeOfficeSortBy": "40",
+        "officePieceOrder": "6",
+        "typeOfficeName": "Missa",
+        "typeName": "Communio",
+        "titleName": "Factus est repente de caelo",
+        "textFullText": "<span class=\"fc\">Factus est<\/span> repente de caelo sonus<br \/>\r\nadvenientis spiritus vehementis.",
+        "textFR": "Il se fit tout \u00e0 coup, venant du ciel, un bruit<br \/>\r\ncomme d'un souffle imp\u00e9tueux qui survient."
+    }
+]
