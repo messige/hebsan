@@ -6,6 +6,7 @@
     </ion-header>
     <Calendarium />
     <Calendarium :startyear= "civilYearPlus1" :startmonth= "firstMonth" :startday= "firstDay" />
+    <Calendarium :startyear= "civilYearPlus2" :startmonth= "firstMonth" :startday= "firstDay" />
 </ion-content>
 </ion-page>
 </template>
@@ -22,9 +23,10 @@
     setup () {
       let today           = new Date ( ) ;                //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
       let civilYearPlus1  = getYear ( today ) + 1 ;
+      let civilYearPlus2  = civilYearPlus1 + 1 ;
       let firstMonth      = 0 ;
       let firstDay        = 2 ;
-      return {  civilYearPlus1 , firstMonth , firstDay } ;
+      return {  civilYearPlus1 , civilYearPlus2 , firstMonth , firstDay } ;
     } 
   } )
 </script>
