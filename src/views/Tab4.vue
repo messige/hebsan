@@ -5,7 +5,7 @@
       <p><strong>About</strong></p>
     </ion-header>
       <p> <strong>Domenicae et Hebdomada Sancta</strong></p>
-      <p>Last update: 01/07/2021</p>
+      <p>Last update: 04  /07/2021</p>
       <p><strong>Description - fr</strong></p>
       <p>
         Les textes des chants du Propre grégorien des dimanches<br />
