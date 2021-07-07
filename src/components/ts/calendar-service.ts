@@ -5,9 +5,10 @@ import getDay       from 'date-fns/getDay' ;
 import addWeeks     from 'date-fns/addWeeks' ;
 import nextSunday   from 'date-fns/nextSunday' ;  
 import compareDesc  from 'date-fns/compareDesc' ;
-import { defineAsyncComponent } from 'vue';
-                                                                //  Use // eslint-disable-next-line to ignore the next line.  
-export default function ( thisDay: Date ): Record<string, unknown> { 
+
+                                                                //  Use // eslint-disable-next-line to ignore the next line. 
+// eslint-disable-next-line 
+export default function ( thisDay: Date ) { 
                                                      //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
       thisDay             = addDays  (  thisDay , -1 ) ;     // we keep the feast until the next day. Anyway problem with date() when on the day of the feast
       const civilYear     = getYear ( thisDay ) ;
@@ -19,14 +20,13 @@ export default function ( thisDay: Date ): Record<string, unknown> {
       let i               = 0 ;
       let j               = 0 ;
       let feastIndex      = "" ;
-      let feastText       = "" ;
       let indexPerAnnum   = 0 ;
-      //let thisFeast       = "" ;
       let originalString  = "" ;   
       let incrementDate   = new Date (civilYear , 0 , 1 ) ; 
       let arrayFeasts     = [] ;
       const calendarArray = [ { calendarFeast:"" , calendarDate: new Date ( civilYear -1 , 11, 31  ) , calendarABC: "" } ] ;
-      const calendarFrom  = [ { thisFeast:"" , thisFeastIndex: "" , thisDateFormat: "" , thisAnnoABC: "" , thisAnnoABCDisplay:"" , thisFeastText: "" } ] ;
+      const calendarFrom  = [ { thisFeast:"" , thisFeastIndex: "" , thisDateFormat: "" , thisAnnoABC: "" , thisAnnoABCDisplay:"" } ] ;
+      const calendarSelect  = { thisFeast:"" , thisFeastIndex: "" , thisDateFormat: "" , thisAnnoABC: "" } ;
       class CalendarItem {
         calendarFeast:  string ;
         calendarDate:   Date ;
@@ -38,7 +38,7 @@ export default function ( thisDay: Date ): Record<string, unknown> {
         const pushItem = function ( obj: {calendarFeast:  string , calendarDate: Date , calendarABC: string } ) { 
           calendarArray.push (obj) }
         const dateFormat = function ( obj: {calendarFeast:  string , calendarDate: Date , calendarABC: string } ) { 
-        const daysFR         = [ "Dimanche", "Lundi\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0", "Mardi\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0", "Mercredi\u00A0\u00A0", "Jeudi\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0", "Vendredi", "Samedi\u00A0\u00A0\u00A0\u00A0" ] ;
+          const daysFR         = [ "Dimanche", "Lundi\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0", "Mardi\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0", "Mercredi\u00A0\u00A0", "Jeudi\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0", "Vendredi", "Samedi\u00A0\u00A0\u00A0\u00A0" ] ;
           return  daysFR [ obj.calendarDate.getDay () ] + " " + format ( obj.calendarDate , 'dd/MM/yyyy' )  } 
         const removeSpaces = function ( myString:  string ): string {     
         const existSpace = myString.includes( " " ) ;  // The includes() method determines whether a string contains the specified characters.
@@ -164,9 +164,7 @@ export default function ( thisDay: Date ): Record<string, unknown> {
           for (j = 1 ; j < calendarArraySorted.length ; j++ ) { 
             if ( compareDesc ( thisDay ,calendarArraySorted[j].calendarDate ) > -1 )  {
               originalString = calendarArraySorted[j].calendarFeast ;
-              feastIndex  = removeSpaces ( originalString ) ;
-              feastText       = defineAsyncComponent ( () =>                            
-              import ( '@/components/g400AdMissam/' + feastIndex + '.vue' ) ) ;                 
+              feastIndex  = removeSpaces ( originalString ) ;     
               if ( calendarArraySorted[j].calendarABC == AnnoABCPrev ) {
                 AnnoABCDisplay  = "" ;
               } else {
@@ -176,10 +174,15 @@ export default function ( thisDay: Date ): Record<string, unknown> {
                                       thisFeastIndex: feastIndex , 
                                       thisDateFormat: dateFormat ( calendarArraySorted[j] ) , 
                                       thisAnnoABC: calendarArraySorted[j].calendarABC ,
-                                      thisAnnoABCDisplay :  AnnoABCDisplay  ,
-                                      thisFeastText: feastText }  
+                                      thisAnnoABCDisplay :  AnnoABCDisplay } 
+                if ( k == 0 ) {
+                  calendarSelect.thisFeast       = calendarArraySorted[j].calendarFeast ;
+                  calendarSelect.thisFeastIndex  = feastIndex ;
+                  calendarSelect.thisDateFormat  = dateFormat ( calendarArraySorted[j] ) ;
+                  calendarSelect.thisAnnoABC     = calendarArraySorted[j].calendarABC 
+                }
                 k ++ ;
             }
           }
-      return { calendarFrom }
-    }
+        return { calendarSelect , calendarFrom }
+    } 

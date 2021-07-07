@@ -41,7 +41,7 @@
     let feastDate     = route.params.feastDate ; 
     let feastAnnoABC  = route.params.feastAnnoABC ;  
     let feastText     = defineAsyncComponent ( () =>                            
-                        import ( '@/components/g400AdMissam/' + feastIndex + '.vue' ) )  ;     
+                        import ( '@/components/g400AdMissam/fr/' + feastIndex + '.vue' ) )  ;     
     return { feastText , feast , feastDate , feastAnnoABC } ;
         }
     } )

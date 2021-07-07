@@ -4,6 +4,25 @@
     <ion-header class="ion-no-border">
       <p><strong>About</strong></p>
     </ion-header>
+
+   <ion-list>
+    <ion-radio-group value="translation">
+      <ion-list-header>
+        <ion-label>Translation of the Latin texts will be in</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Français (fr)</ion-label>
+        <ion-radio slot="start" value="fr"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Deutsch (de)</ion-label>
+        <ion-radio slot="start" value="de"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list> 
+
+
+
       <p> <strong>Domenicae et Hebdomada Sancta</strong></p>
       <p>Last update: 04  /07/2021</p>
       <p><strong>Description - fr</strong></p>
@@ -72,13 +91,29 @@
 </template>
 
 <script lang="ts">
-    import { IonPage, IonHeader, IonContent } from '@ionic/vue';
+ import { 
+  IonItem, 
+  IonLabel, 
+  IonList, 
+  IonListHeader,
+  IonRadio, 
+  IonRadioGroup
+} from '@ionic/vue'; 
+import { defineComponent } from 'vue';
 
-    export default {
-        name: 'Tab4',
-        components: { IonHeader, IonContent, IonPage }
-    }
+export default defineComponent({
+  name: 'Tab4',
+   components: { 
+    IonItem, 
+    IonLabel, 
+    IonList, 
+    IonListHeader,
+    IonRadio, 
+    IonRadioGroup
+  } 
+});
 </script>
+
 <style>
 @import '../components/css/officii.css';
 </style>

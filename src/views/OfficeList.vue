@@ -3,35 +3,47 @@
   <ion-content id="container">
     <ion-header class="ion-no-border">
       <ion-toolbar>
-        <ion-button shape="round" size="small"><ion-back-button default-href="/tabs/tab2"></ion-back-button></ion-button>
+        <ion-button shape="round" size="small"><ion-back-button default-href="/tabs/tab3"></ion-back-button></ion-button>
       </ion-toolbar>        
     <br />
     <p class="ion-padding-horizontal"><strong>{{feastCurrent?.title}} - {{feastCurrent?.titleFr}}</strong></p>
   </ion-header>
   <br />
-    <template v-for="(thisOffice , index) in arrayFeastOfficesCurrent" :key="index">
+     <template v-for="(thisOffice , index) in arrayFeastOfficesCurrent" :key="index">
       <template v-if="index < nbrOffice">
-        <template v-if="thisOffice.link == 'HoraMajor'">
+       <template v-if="thisOffice.link == 'HoraMajor'">
           <router-link :to="{ name: 'HoraMajor' , 
                         params: { office: thisOffice.office , feast: feast }}">
                         {{thisOffice.title}}
-          </router-link>
+          </router-link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <router-link :to="{ name: 'HoraMajorTR' , 
+                        params: { office: thisOffice.office , feast: feast , language: 'DE' }}">
+                        DE
+          </router-link>    
         </template>
         <template v-else-if="thisOffice.link == 'HoraMinor'">
           <router-link :to="{ name: 'HoraMinor' , 
                         params: { office: thisOffice.office , feast: feast }}">
                         {{thisOffice.title}}
+          </router-link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                
+          <router-link :to="{ name: 'HoraMinorTR' , 
+                        params: { office: thisOffice.office , feast: feast , language: 'DE' }}">
+                        DE       
           </router-link>
-        </template>
+        </template> 
         <template v-else-if="thisOffice.link == 'Completorium'">
           <router-link :to="{ name: 'Completorium' , 
                         params: { feast: feast }}">
                         {{thisOffice.title}}
-          </router-link>
-        </template>                     
+          </router-link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <router-link :to="{ name: 'CompletoriumTR' , 
+                        params: { feast: feast , language: 'DE' }}">
+                        DE
+          </router-link> 
+        </template>                    
         <br /><br />
       </template>
-    </template>  
+    </template> 
     <p><ion-button fill="clear" strong router-link="/toni">Toni Communes - Tons communs</ion-button></p>
     <p>&nbsp;</p><p>&nbsp;</p>                
   </ion-content>

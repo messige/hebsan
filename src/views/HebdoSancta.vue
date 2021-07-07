@@ -2,8 +2,8 @@
     <template v-for="(thisFeast, feastID) in arrayFeasts" :key="feastID">
         <router-link :to="{ name: 'OfficeList', 
             params: { feast: thisFeast.feastID }}">
-            {{thisFeast.title}} - {{thisFeast.titleFr}} - {{thisFeast.feastID}}
-        </router-link>
+            {{thisFeast.title}} - {{thisFeast.titleFr}}
+        </router-link> 
         <br /> <br /> 
     </template>      
     <p><strong>

@@ -18,10 +18,6 @@
   export default defineComponent ( {
     name: 'Tab3',
     components: { IonPage , IonContent , HebdoSancta } ,
-    setup () {
-      const today = new Date ( ) ;                //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
-      return {  today } ;
-    } 
   } )
 </script>
 
