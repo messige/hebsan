@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 174 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 345 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -54,4 +54,4 @@ tous les jours de ma vie.</ion-text></ion-col> </ion-row></ion-grid>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 174 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 345 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

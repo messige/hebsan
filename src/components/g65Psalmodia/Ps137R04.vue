@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.137</rubrique><br class="psalm" />
 <table id="psalm137">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Confitébor tibi, Dómine, in toto corde  <highlight1><accent>me</accent></highlight1>o <greStar /><br class="psalm" />quóniam audísti verba  <highlight1><accent>o</accent></highlight1>ris  <accent>me</accent>i.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>In conspéctu angelórum psallam  <highlight1><accent>ti</accent></highlight1>bi <greStar /><br />
@@ -26,7 +26,7 @@ et salvum me fecit  <highlight1><accent>déx</accent></highlight1>tera  <accent>
 <td>Dóminus retríbuet pro  <highlight1><prepa>me</prepa></highlight1> <greDagger /><br class="psalm" />
 Dómine, misericórdia tua in  <highlight1><accent>sǽ</accent></highlight1>culum <greStar /><br />
 ópera mánuum tuárum  <highlight1><accent>ne</accent></highlight1> des<accent>pí</accent>cias.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar /><br class="psalm" />et Spi<highlight2><accent>rí</accent></highlight2>tui  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />et in sǽcula sæcu<highlight2><accent>ló</accent></highlight2>rum.  <accent>A</accent>men.</td></tr>

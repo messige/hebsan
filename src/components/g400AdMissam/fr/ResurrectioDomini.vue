@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 162 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 321 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -75,4 +75,4 @@ de sincérité et de vérité.</ion-text></ion-col> </ion-row></ion-grid>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 162 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 321 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

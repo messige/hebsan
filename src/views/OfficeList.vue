@@ -54,7 +54,6 @@
   import { IonPage , IonContent , IonButton , IonBackButton } from '@ionic/vue';
     import { useRoute }         from 'vue-router';
     import { defineComponent }  from 'vue';
-    import { ref }              from 'vue';
     import {arrowBackSharp }    from 'ionicons/icons';
     export default defineComponent ( {
       name: 'Tab3',
@@ -62,7 +61,7 @@
       setup() {
         const route      = useRoute ( ) ;
         const feast      = route.params.feast ;
-        let arrayFeasts = ref ( [
+        let arrayFeasts =  [
           {   title   : 'Domenica in Palmis', 
               titleFr : 'Dimanche des Rameaux' ,
               arrayFeastOffices: [1, 1, 1, 1, 1, 1] } ,  
@@ -89,11 +88,11 @@
               arrayFeastOffices: [1, 0, 0, 0, 1, 1] } , 
           {   title   : 'Domenica in Palmis',
               titleFr : 'Dimanche des Rameaux - la veille' ,
-              arrayFeastOffices: [0, 0, 0, 0, 1, 1] } ] ) ; 
-        let feastNum        = +feast ;
-        let feastCurrent    = arrayFeasts.value [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
-        let feastOffices    = feastCurrent?.arrayFeastOffices ;
-        let arrayFeastOffices  = [
+              arrayFeastOffices: [0, 0, 0, 0, 1, 1] } ]  ; 
+        const feastNum        = +feast ;
+        const feastCurrent    = arrayFeasts [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
+        const feastOffices    = feastCurrent?.arrayFeastOffices ;
+        const arrayFeastOffices  = [
           { office:1 , title :'Ad laudes' ,    link: 'HoraMajor'} ,
           { office:3 , title :'Ad tertiam' ,   link: 'HoraMinor' } ,
           { office:6 , title :'Ad Sextam' ,    link: 'HoraMinor'} ,
@@ -118,7 +117,3 @@
       }
     })
 </script>
-
-<style>
-@import '../components/css/officii.css';
-</style>

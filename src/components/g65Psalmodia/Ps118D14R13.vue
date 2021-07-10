@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-14</rubrique><br class="psalm" />
 <table id="psalm118-14">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Lucérna pédibus meis  <highlight1><prepa>ver</prepa></highlight1><prepa>bum</prepa>  <accent>tu</accent>um <greStar /><br class="psalm" />
     et lumen sémitis meis</td></tr>
 <tr><td><rubrique>2</rubrique></td>

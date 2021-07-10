@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 136 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 269 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -50,4 +50,4 @@ car le royaume des cieux est à eux.</ion-text></ion-col> </ion-row></ion-grid> 
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 136 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 269 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

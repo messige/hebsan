@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-9</rubrique>
 <table id="psalm118-9">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Bonitátem fecísti cum servo  <highlight1><prepa>tu</prepa></highlight1><prepa>o</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />
     secúndum verbum tuum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -28,7 +28,7 @@
 </table>
         <rubrique>Ps.118-10</rubrique>
 <table id="psalm118-10">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Manus tuæ fecérunt me et  <highlight1><prepa>plas</prepa></highlight1><prepa>ma</prepa><accent>vé</accent>runt me <greStar /><br />
     da mihi intelléctum et discam mandáta tua.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -55,7 +55,7 @@
 </table>
         <rubrique>Ps.118-11</rubrique>
 <table id="psalm118-11">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Defécit in salutáre tuum á<highlight2><prepa>ni</prepa></highlight2><prepa>ma</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />
     et in verbum tuum supersperávi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -82,7 +82,7 @@
 </table>
         <rubrique>Ps.118-12</rubrique>
 <table id="psalm118-12">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>In æ<highlight2><prepa>tér</prepa></highlight2><prepa>num</prepa>,  <accent>Dó</accent>mine <greStar />verbum tuum pérmanet in cælo.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>In generatiónem et generatiónem vé<highlight2><prepa>ri</prepa></highlight2><prepa>tas</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />
@@ -108,7 +108,7 @@
 </table>
         <rubrique>Ps.118-14</rubrique>
 <table id="psalm118-14">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Lucérna pédibus meis  <highlight1><prepa>ver</prepa></highlight1><prepa>bum</prepa>  <accent>tu</accent>um <greStar /><br class="psalm" />
     et lumen sémitis meis</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -134,7 +134,7 @@
 </table>
         <rubrique>Ps.118-15</rubrique>
 <table id="psalm118-15">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Iníquos ó<highlight2><prepa>di</prepa></highlight2><prepa>o</prepa>  <accent>há</accent>bui <greStar />et legem tuam diléxi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Adiútor et suscéptor  <highlight1><prepa>me</prepa></highlight1><prepa>us</prepa>  <accent>es</accent> tu <greStar />in verbum tuum supersperávi.</td></tr>
@@ -158,7 +158,7 @@
 </table>
         <rubrique>Ps.118-16</rubrique>
 <table id="psalm118-16">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Feci iudícium  <highlight1><prepa>et</prepa></highlight1>  <prepa>ius</prepa><accent>tí</accent>tiam <greStar /><br class="psalm" />
     non tradas me calumniántibus me.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

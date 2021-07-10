@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 121 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 239 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -109,4 +109,4 @@ et à qui frappe on ouvrira.</ion-text></ion-col> </ion-row></ion-grid></templat
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 121 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 239 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

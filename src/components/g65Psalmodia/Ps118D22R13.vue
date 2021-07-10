@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-22</rubrique><br class="psalm" />
 <table id="psalm118-22">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Appropínquet deprecátio mea in conspéctu  <highlight1><prepa>tu</prepa></highlight1><prepa>o</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />
     iuxta elóquium tuum da mihi intelléctum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

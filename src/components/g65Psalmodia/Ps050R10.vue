@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.50</rubrique><br class="psalm" />
 <table id="psalm050">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Miserére  <highlight1><prepa>me</prepa></highlight1><prepa>i</prepa>,  <accent>De</accent>us <greStar /><br class="psalm" />secúndum magnam miseri<highlight2><prepa>cór</prepa></highlight2><prepa>di</prepa><prepa>am</prepa>  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Et secúndum multitúdinem miseratió<highlight2><prepa>num</prepa></highlight2>  <prepa>tu</prepa><accent>á</accent>rum <greStar /><br class="psalm" />dele ini<highlight2><prepa>qui</prepa></highlight2><prepa>tá</prepa><prepa>tem</prepa>  <accent>me</accent>am.</td></tr>
@@ -22,7 +22,7 @@ ut iustificéris in sermónibus tuis et vincas  <highlight1><prepa>cum</prepa></
 <td>Aspérges me hysópo  <highlight1><prepa>et</prepa></highlight1>  <prepa>mun</prepa><accent>dá</accent>bor <greStar /><br class="psalm" />lavábis me et super ni<highlight2><prepa>vem</prepa></highlight2>  <prepa>de</prepa><prepa>al</prepa><accent>bá</accent>bor.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Audítui meo dabis gáudium  <highlight1><prepa>et</prepa></highlight1>  <prepa>læ</prepa><accent>tí</accent>tiam <greStar /><br class="psalm" />et exsultábunt ossa  <highlight1><prepa>hu</prepa></highlight1><prepa>mi</prepa><prepa>li</prepa><accent>á</accent>ta.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Avérte fáciem tuam a pec<highlight2><prepa>cá</prepa></highlight2><prepa>tis</prepa>  <accent>me</accent>is <greStar /><br class="psalm" />et omnes iniquitá<highlight2><prepa>tes</prepa></highlight2>  <prepa>me</prepa><prepa>as</prepa>  <accent>de</accent>le.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Cor mundum crea  <highlight1><prepa>in</prepa></highlight1>  <prepa>me</prepa>  <accent>De</accent>us <greStar /><br class="psalm" />et spíritum rectum ínnova in vis<highlight2><prepa>cé</prepa></highlight2><prepa>ri</prepa><prepa>bus</prepa>  <accent>me</accent>is.</td></tr>

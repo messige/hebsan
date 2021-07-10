@@ -72,7 +72,6 @@
     import { IonPage , IonContent , IonButton , IonIcon , IonBackButton } from '@ionic/vue';
     import { useRoute }             from 'vue-router';
     import { defineAsyncComponent } from 'vue';
-    import { ref }                  from 'vue';
     import ImageDisplay             from '@/components/ImageDisplay.vue';
     import { defineComponent }      from 'vue';
     import { home , arrowBackSharp }  from 'ionicons/icons';
@@ -88,11 +87,11 @@
         components: {   Confitebor , Capitulum , NuncDimittisSineGloria , Oratio , DominusVobiscum , PerDominum ,
                         ImageDisplay ,IonPage , IonContent , IonButton , IonIcon , IonBackButton } ,
         setup ( ) {
-            let route         = useRoute ( ) ;
+            const route       = useRoute ( ) ;
             const feast       = route.params.feast ;
             const objLanguage = new String(route.params.language);
             const lowerLang   = objLanguage.toLowerCase( ) ;            
-            let arrayFeasts   = ref ( [
+            let arrayFeasts   = [
                 {   title   : 'Domenica in Palmis', 
                     titleFr : 'Dimanche des Rameaux' } ,
                 {   title   : 'Hebdomada Sancta Feria II' , 
@@ -110,10 +109,10 @@
                 {   title   : 'Resurrectio Domini',
                     titleFr : 'Dimanche de Pâques' } ,
                 {   title   : 'Domenica in Palmis',
-                    titleFr : 'Dimanche des Rameaux - la veille' } ] ) ; 
-            let feastNum        = +feast ;
+                    titleFr : 'Dimanche des Rameaux - la veille' } ] ; 
+            const feastNum        = +feast ;
             let i               = 0 ;
-            let feastCurrent    = arrayFeasts.value [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
+            let feastCurrent    = arrayFeasts [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
             const  objTranslations  = {
                 ps004           :   defineAsyncComponent(() =>                            
                                         import('@/components/g65Psalmodia/' + lowerLang  + '/Ps004.vue') ) ,  
@@ -171,7 +170,3 @@
         }
     } )
 </script>
-
-<style>
-  @import '../components/css/officii.css' ;
-</style>

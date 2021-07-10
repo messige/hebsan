@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.113</rubrique><br class="psalm" />
 <table id="psalm113">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>In éxitu Isra<highlight2><prepa>el</prepa></highlight2>  <prepa>de</prepa>  <prepa>Æ</prepa><accent>gýp</accent>to <greStar /><br class="psalm" />domus Iacob de pópu<highlight2><prepa>lo</prepa></highlight2>  <accent>bár</accent>baro.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Facta est Iudǽa sanctifi<highlight2><prepa>cá</prepa></highlight2><prepa>ti</prepa><prepa>o</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />Israel potés<highlight2><prepa>tas</prepa></highlight2>  <accent>e</accent>ius.</td></tr>
@@ -20,7 +20,7 @@
 <td>Qui convértit petram in  <highlight1><prepa>sta</prepa></highlight1><prepa>gna</prepa>  <prepa>a</prepa><accent>quá</accent>rum <greStar /><br class="psalm" />et rupem in fontes  <highlight1><prepa>a</prepa></highlight1><accent>quá</accent>rum.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Non nobis, Dó<highlight2><prepa>mi</prepa></highlight2><prepa>ne</prepa>,  <prepa>non</prepa>  <accent>no</accent>bis <greStar /><br class="psalm" />sed nómini tuo  <highlight1><prepa>da</prepa></highlight1>  <accent>gló</accent>riam.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Super misericórdia tua et ve<highlight2><prepa>ri</prepa></highlight2><prepa>tá</prepa><prepa>te</prepa>  <accent>tu</accent>a <greStar /><br />nequándo dicant gentes : ubi est Deus  <highlight1><prepa>e</prepa></highlight1><accent>ó</accent>rum ?</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Deus autem  <highlight1><prepa>nos</prepa></highlight1><prepa>ter</prepa>  <prepa>in</prepa>  <accent>cæ</accent>lo <greStar /><br class="psalm" />ómnia quæcúmque vólu<highlight2><prepa>it</prepa></highlight2>,  <accent>fe</accent>cit.</td></tr>

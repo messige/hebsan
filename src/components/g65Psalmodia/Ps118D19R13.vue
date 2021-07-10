@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-19</rubrique><br class="psalm" />
 <table id="psalm118-19">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Clamávi in toto corde meo, exáu<highlight2><prepa>di</prepa></highlight2>  <prepa>me</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />
     iustificatiónes tuas requíram.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

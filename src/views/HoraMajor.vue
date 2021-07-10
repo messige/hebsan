@@ -61,7 +61,6 @@
   import { useRoute }               from 'vue-router';
   import { defineAsyncComponent }   from 'vue';
   import { home , arrowBackSharp }  from 'ionicons/icons';
-  import { ref }                    from 'vue';
   import ImageDisplay               from '@/components/ImageDisplay.vue';
   import { defineComponent }        from 'vue';
   
@@ -69,10 +68,10 @@
     name:      'HoraMajor',
     components: { ImageDisplay , IonPage , IonContent , IonButton , IonIcon } ,
     setup() {
-      let route    = useRoute () ;
-      let feast    = route.params.feast;
-      let office   = route.params.office;
-      let arrayFeasts = ref ( [
+      const route    = useRoute () ;
+      const feast    = route.params.feast;
+      const office   = route.params.office;
+      const arrayFeasts = [
         { title   : 'Domenica in Palmis', 
           titleFr : 'Dimanche des Rameaux' ,
           arrayOfffice1 : [                                                                     // Ad Laudes
@@ -499,15 +498,15 @@
             { ant   : require ( "../assets/g50Antiphona/AntPaterIusteMundus.jpg" ) ,
               ton   : require ( "../assets/g70Tonus/Tonus41Fe.jpg" ) , 
               Cant  : defineAsyncComponent ( () =>                            
-                      import ( '@/components/g65Psalmodia/CantMagnificatR23.vue' ) ) } ] } ] ) ;
-      let feastNum        = +feast ;
-      let officeNum       = +office ; 
-      let feastCurrent    = arrayFeasts.value [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
+                      import ( '@/components/g65Psalmodia/CantMagnificatR23.vue' ) ) } ] } ] ;
+      const feastNum        = +feast ;
+      const officeNum       = +office ; 
+      const feastCurrent    = arrayFeasts [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
       let officeAnt       = feastCurrent?.arrayOfffice1 ;
       if ( officeNum == 2 ) { officeAnt  = feastCurrent?.arrayOfffice2 }
       let officeCant      = feastCurrent?.arrayCant[0] ;
       if ( officeNum == 2 ) { officeCant      = feastCurrent?.arrayCant[1] ; }
-      let arrayInAdiutorium  = [
+      const arrayInAdiutorium  = [
         null ,
         defineAsyncComponent(() =>                            
           import ( '@/components/g95InOrdineOfficii/InAdiutoriumMinorQuad.vue' ) ) , // Feriale Quadragesimae
@@ -524,13 +523,13 @@
       else if ( feastNum == 8 && officeNum == 1 )  { i = 3 ; }                    /* Le Dimanche de Pâques aux Vêpres  */
       else if ( feastNum == 8 && officeNum == 2 )  { i = 4 ; }                    /* Le Dimanche de Pâques aux Vêpres  */
       let officeInAdiutorium  = arrayInAdiutorium [i] ; 
-      let arrayOffices  = [
+      const arrayOffices  = [
         { title   : 'Ad Laudes'} ,
         { title   : 'Ad Vesperas' } 
       ] ; 
-      let OfficeCurrent       = arrayOffices [+office-1] ;   
-      let OfficeTitle         = OfficeCurrent?.title ;
-      let arrayCapitulum  = [
+      const OfficeCurrent       = arrayOffices [+office-1] ;   
+      const OfficeTitle         = OfficeCurrent?.title ;
+      const arrayCapitulum  = [
         null ,
         defineAsyncComponent(() =>                            
           import ( '@/components/g75Lectio/CapPhilCh02V05.vue' ) ) ,     // Dom. in Palmis
@@ -547,7 +546,7 @@
         else if ( officeNum == 2 ) { i = 3 ; }  
       else if ( feastNum == 8 ) { i = 4 ; }  
       let officeCapitulum      = arrayCapitulum [i] ;
-      let arrayRespons  = [
+      const arrayRespons  = [
         null,
         require ( "../assets/g55Responsum/RepErueAFramea2.jpg" ) ,            // Ad Laudes Domenicae in Palmis
         require ("../assets/g55Responsum/RepDeOreLeonis2.jpg" ) ,             // Ad Vesperas Domenicae in Palmis
@@ -567,7 +566,7 @@
         if ( officeNum == 1 )       { i = 5 ; } 
         else if ( officeNum == 2 )  { i = 6 ; } }
       let officeRespons      = arrayRespons [i] ;
-      let arrayHymnus  = [
+      const arrayHymnus  = [
         null ,
         defineAsyncComponent(() => 
           import ( '@/components/g60Hymnus/HymCruxFidelis.vue' ) ) ,      // Ad Laudes Hebdomada Sancta                          
@@ -586,7 +585,7 @@
         else if ( officeNum == 2 ) { i = 4 ; }  
       } 
       let officeHymnus  = arrayHymnus [i] ;
-      let arrayVersus   = [
+      const arrayVersus   = [
         require ( "../assets/g85Versus/VersEripeMeInimicis.jpg" ) ,       // Ad Laudes Hebdomada Sancta
         require ("../assets/g85Versus/VersEripeMeHomine.jpg" ) ,          // Ad Vesperas Hebdomada Sancta
         require ( "../assets/g85Versus/VerHomoPacis.jpg" ) ,              // Feria V
@@ -605,7 +604,7 @@
       } else if ( officeNum == 2 ) {
         officeCantRubr      = "Antiphona ad Magnificat" ;            
       }
-      let arrayOratio  = [
+      const arrayOratio  = [
         null ,
         defineAsyncComponent(() => 
           import ( '@/components/g80Oratio/OraQuiHumanoGeneri.vue' ) ) ,      // Dom. in Palmis                          
@@ -633,12 +632,12 @@
       else if ( ( feastNum == 5 || feastNum == 6 ) && officeNum == 1 ) {  i = 8 ; }               
       else if (feastNum == 8 ) { i = 9 ; }
       let officeOratio      = arrayOratio [i] ;
-      let arrayKyrie  = [ null ,
+      const arrayKyrie  = [ null ,
                           require ( "../assets/g95InOrdineOfficii/KyrieSimplex.jpg" ) ] ; 
       i = 0 ;
       if ( feastNum < 5  || feastNum > 7 )  { i = 1 ; }
       let officeKyrie  = arrayKyrie [i] ;
-      let arrayOraFinal  = [
+      const arrayOraFinal  = [
         { Pater     : defineAsyncComponent(() =>                            
                       import ( '@/components/g95InOrdineOfficii/PaterNosterHorMajor.vue' ) )  , // Pater de l'Office
           DomVobis  : defineAsyncComponent(() =>                            
@@ -649,7 +648,7 @@
       i = 0 ; 
       if ( feastNum >  4 && officeNum < 8  ) { i = 1 ; }   /* Aux Laudes et aux Vêpres du Triduum  */
       let officeOraFinal  = arrayOraFinal[i] ;     
-      let arrayBenedicamusDom  = [
+      const arrayBenedicamusDom  = [
         null ,
         require ( "../assets/g95InOrdineOfficii/BenedicamusDominoAdvQuadVigil.jpg" ) ,
         require ( "../assets/g95InOrdineOfficii/BenedicamusDominoPrimVesperis.jpg" ) ,
@@ -671,7 +670,3 @@
     }
   })
 </script>
-
-<style>
-@import '../components/css/officii.css';
-</style>

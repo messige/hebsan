@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-19</rubrique><br class="psalm" />
 <table id="psalm118-19">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Clamávi in toto corde meo, exáu<highlight2><prepa>di</prepa></highlight2>  <prepa>me</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />iustificatiónes  <highlight1><prepa>tu</prepa></highlight1><prepa>as</prepa>  <prepa>re</prepa><accent>quí</accent>ram.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Clamávi te,  <highlight1><prepa>sal</prepa></highlight1><prepa>vum</prepa>  <accent>me</accent> fac <greStar /><br class="psalm" />ut custódiam  <highlight1><prepa>man</prepa></highlight1><prepa>dá</prepa><prepa>ta</prepa>  <accent>tu</accent>a.</td></tr>
@@ -20,7 +20,7 @@
 <td>Inítio cognóvi de testimó<highlight2><prepa>ni</prepa></highlight2><prepa>is</prepa>  <accent>tu</accent>is <greStar /><br class="psalm" />quia in ætérnum  <highlight1><prepa>fun</prepa></highlight1><prepa>dá</prepa><prepa>sti</prepa>  <accent>e</accent>a.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spi<highlight2><prepa>rí</prepa></highlight2><prepa>tu</prepa><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><prepa>nunc</prepa></highlight1>  <prepa>et</prepa>  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæ<highlight2><prepa>cu</prepa></highlight2><prepa>ló</prepa><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
     </div>

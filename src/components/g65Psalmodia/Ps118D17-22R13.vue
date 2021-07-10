@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-17</rubrique>
 <table id="psalm118-17">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Mirabília testimó<highlight2><prepa>ni</prepa></highlight2><prepa>a</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />
     ídeo scrutáta est ea ánima mea.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -29,7 +29,7 @@
 </table>
         <rubrique>Ps.118-18</rubrique>
 <table id="psalm118-18">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Ius<highlight2><prepa>tus</prepa></highlight2>  <prepa>es</prepa>,  <accent>Dó</accent>mine <greStar />et rectum iudícium tuum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Mandásti iustítiam testimó<highlight2><prepa>ni</prepa></highlight2><prepa>a</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />
@@ -54,7 +54,7 @@
 </table>
         <rubrique>Ps.118-19</rubrique>
 <table id="psalm118-19">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Clamávi in toto corde meo, exáu<highlight2><prepa>di</prepa></highlight2>  <prepa>me</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />
     iustificatiónes tuas requíram.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -77,7 +77,7 @@
 </table>
         <rubrique>Ps.118-20</rubrique>
 <table id="psalm118-20">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Vide humilitátem meam et  <highlight1><prepa>é</prepa></highlight1><prepa>ri</prepa><accent>pe</accent> me <greStar /><br class="psalm" />
     quia legem tuam non sum oblítus.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -104,7 +104,7 @@
 </table>
         <rubrique>Ps.118-21</rubrique>
 <table id="psalm118-21">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Príncipes persecúti  <highlight1><prepa>sunt</prepa></highlight1>  <prepa>me</prepa>  <accent>gra</accent>tis <greStar /><br class="psalm" />
     et a verbis tuis formidávit cor meum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -130,7 +130,7 @@
 </table>
         <rubrique>Ps.118-22</rubrique>
 <table id="psalm118-22">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Appropínquet deprecátio mea in conspéctu  <highlight1><prepa>tu</prepa></highlight1><prepa>o</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />
     iuxta elóquium tuum da mihi intelléctum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

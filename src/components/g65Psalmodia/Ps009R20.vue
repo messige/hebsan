@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps009</rubrique><br class="psalm" />
 <table id="psalm009">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Confitébor tibi, Dómine, in toto  <highlight1><accent>cor</accent></highlight1>de  <accent>me</accent>o <greStar /><br class="psalm" />narrábo ómnia mirabíli<highlight2><prepa>a</prepa></highlight2>  <accent>tu</accent>a.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Lætábor et exsul<highlight2><accent>tá</accent></highlight2>bo  <accent>in</accent> te <greStar /><br class="psalm" />psallam nómini tuo,  <highlight1><prepa>Al</prepa></highlight1><accent>tís</accent>sime.</td></tr>
@@ -20,7 +20,7 @@
 <td>Parávit in iudício  <highlight1><accent>thro</accent></highlight1>num  <accent>su</accent>um <greStar /><br class="psalm" />et ipse iudicábit orbem terræ in æquitáte, iudicábit pópulos in  <highlight1><prepa>ius</prepa></highlight1><accent>tí</accent>tia.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Et factus est Dóminus re<highlight2><accent>fú</accent></highlight2>gium  <accent>páu</accent>peri <greStar /><br class="psalm" />adiútor in opportunitátibus in tribula<highlight2><prepa>ti</prepa></highlight2><accent>ó</accent>ne.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Et sperent in te qui novérunt  <highlight1><accent>no</accent></highlight1>men  <accent>tu</accent>um <greStar /><br class="psalm" />quóniam non dereliquísti quæréntes  <highlight1><prepa>te</prepa></highlight1>,  <accent>Dó</accent>mine.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Psállite Dómino qui hábi<highlight2><accent>tat</accent></highlight2> in  <accent>Si</accent>on <greStar /><br class="psalm" />annuntiáte inter gentes stúdi<highlight2><prepa>a</prepa></highlight2>  <accent>e</accent>ius.</td></tr>

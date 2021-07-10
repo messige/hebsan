@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.91</rubrique><br class="psalm" />
 <table id="psalm050">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Bonum est confi<highlight2><prepa>té</prepa></highlight2><prepa>ri</prepa>  <accent>Dó</accent>mino <greStar /><br class="psalm" />et psállere nómini  <highlight1><prepa>tu</prepa></highlight1><prepa>o</prepa>  <prepa>Al</prepa><accent>tís</accent>sime.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Ad annuntiándum mane misericór<highlight2><prepa>di</prepa></highlight2><prepa>am</prepa>  <accent>tu</accent>am <greStar /><br class="psalm" />et veritátem  <highlight1><prepa>tu</prepa></highlight1><prepa>am</prepa>  <prepa>per</prepa>  <accent>noc</accent>tem.</td></tr>
@@ -22,7 +22,7 @@ et apparúerint omnes qui operántur  <highlight1><prepa>i</prepa></highlight1><
 <td>Ut intéreant in sǽ<highlight2><prepa>cu</prepa></highlight2><prepa>lum</prepa>  <accent>sǽ</accent>culi <greStar /><br class="psalm" />tu autem Altíssimus in  <highlight1><prepa>æ</prepa></highlight1><prepa>tér</prepa><prepa>num</prepa>,  <accent>Dó</accent>mine.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Quóniam ecce inimíci tui, Dó<highlight2><prepa>mi</prepa></highlight2><prepa>ne</prepa> <greDagger /><br />quóniam ecce inimíci tu<highlight2><prepa>i</prepa></highlight2>  <prepa>pe</prepa><accent>rí</accent>bunt <greStar /><br class="psalm" />et dispergéntur omnes qui operántur  <highlight1><prepa>i</prepa></highlight1><prepa>ni</prepa><prepa>qui</prepa><accent>tá</accent>tem.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Et exaltábitur sicut unicórnis  <highlight1><prepa>cor</prepa></highlight1><prepa>nu</prepa>  <accent>me</accent>um <greStar /><br class="psalm" />et senéctus mea in miseri<highlight2><prepa>cór</prepa></highlight2><prepa>di</prepa><prepa>a</prepa>  <accent>ú</accent>beri.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Et despéxit óculus meus ini<highlight2><prepa>mí</prepa></highlight2><prepa>cos</prepa>  <accent>me</accent>os <greStar /><br />

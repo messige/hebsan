@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.144</rubrique><br class="psalm" />
 <table id="psalm144">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Confiteántur tibi, Dómine, ómnia ópera  <highlight1><accent>tu</accent></highlight1>a <greStar /><br class="psalm" />et sancti tui bene<highlight2><prepa>dí</prepa></highlight2><prepa>cant</prepa>  <accent>ti</accent>bi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Glóriam regni tui  <highlight1><accent>di</accent></highlight1>cent <greStar /><br class="psalm" />et poténtiam tu<highlight2><prepa>am</prepa></highlight2>  <prepa>lo</prepa><accent>quén</accent>tur.</td></tr>
@@ -20,7 +20,7 @@
 <td>Áperis tu manum  <highlight1><accent>tu</accent></highlight1>am <greStar /><br class="psalm" />et imples omne ánimal bene<highlight2><prepa>dic</prepa></highlight2><prepa>ti</prepa><accent>ó</accent>ne.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Iustus Dóminus in ómnibus viis  <highlight1><accent>su</accent></highlight1>is <greStar /><br class="psalm" />et sanctus in ómnibus opé<highlight2><prepa>ri</prepa></highlight2><prepa>bus</prepa>  <accent>su</accent>is.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Prope est Dóminus ómnibus invocántibus  <highlight1><accent>e</accent></highlight1>um <greStar /><br class="psalm" />ómnibus invocántibus eum in  <highlight1><prepa>ve</prepa></highlight1><prepa>ri</prepa><accent>tá</accent>te.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Voluntátem timéntium se fá<highlight2><prepa>ci</prepa></highlight2><prepa>et</prepa> <greDagger /><br class="psalm" />et deprecatiónem eórum e<highlight2><accent>xáu</accent></highlight2>diet <greStar /><br class="psalm" />et salvos fá<highlight2><prepa>ci</prepa></highlight2><prepa>et</prepa>  <accent>e</accent>os.</td></tr>

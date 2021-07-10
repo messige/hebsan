@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 38 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 73 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -60,4 +60,4 @@ qui m’a comblé de biens.</ion-text></ion-col> </ion-row></ion-grid> <b>Cantat
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 38 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 73 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

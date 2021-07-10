@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 37 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 71 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -53,4 +53,4 @@ je psalmodierai pour votre nom, Très-Haut.</ion-text></ion-col> </ion-row></ion
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 37 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 71 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 137 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 271 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -110,4 +110,4 @@ ne sera pas un étranger.</ion-text></ion-col> </ion-row></ion-grid>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 137 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 271 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

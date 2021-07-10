@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.109</rubrique><br class="psalm" />
 <table id="psalm109">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Dixit Dóminus  <highlight1><accent>Dó</accent></highlight1>mino  <accent>me</accent>o : <greStar /><br class="psalm" />sede a  <highlight1><accent>dex</accent></highlight1>tris  <accent>me</accent>is.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Donec ponam ini<highlight2><accent>mí</accent></highlight2>cos  <accent>tu</accent>os <greStar /><br class="psalm" />scabéllum  <highlight1><accent>pe</accent></highlight1>dum tu<accent>ó</accent>rum.</td></tr>
@@ -21,7 +21,7 @@ in splendóri<highlight2><accent>bus</accent></highlight2> sanc<accent>tó</acce
 <td>De torrénte in  <highlight1><accent>vi</accent></highlight1>a  <accent>bi</accent>bet <greStar /><br class="psalm" />proptérea exal<highlight2><accent>tá</accent></highlight2>bit  <accent>ca</accent>put.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória  <highlight1><accent>Pa</accent></highlight1>tri et  <accent>Fí</accent>lio <greStar />et Spi<highlight2><accent>rí</accent></highlight2>tui  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><accent>nunc</accent></highlight1> et  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæcu<highlight2><accent>ló</accent></highlight2>rum.  <accent>A</accent>men.</td></tr>
 </table>
     </div>

@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-21</rubrique><br class="psalm" />
 <table id="psalm118-21">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Príncipes persecúti  <highlight1><prepa>sunt</prepa></highlight1>  <prepa>me</prepa>  <accent>gra</accent>tis <greStar /><br class="psalm" />
     et a verbis tuis formidávit cor meum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

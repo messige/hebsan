@@ -2,7 +2,7 @@
     <div>
         <rubrique>Magnificat</rubrique><br class="psalm" />
 <table id="magnificat">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Magníficat <greStar />ánima  <highlight1><prepa>me</prepa></highlight1><prepa>a</prepa>  <accent>Dó</accent>minum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Et exsultávit  <highlight1><prepa>spí</prepa></highlight1><prepa>ri</prepa><prepa>tus</prepa>  <accent>me</accent>us <greStar />in Deo salu<highlight2><prepa>tá</prepa></highlight2><prepa>ri</prepa>  <accent>me</accent>o.</td></tr>
@@ -27,7 +27,7 @@ et dívites dimí<highlight2><prepa>sit</prepa></highlight2>  <prepa>i</prepa><a
 <tr><td><rubrique>9</rubrique></td>
 <td>Suscépit Israel  <highlight1><prepa>pú</prepa></highlight1><prepa>e</prepa><prepa>rum</prepa>  <accent>su</accent>um <greStar /><br class="psalm" />
 recordátus misericór<highlight2><prepa>di</prepa></highlight2><prepa>æ</prepa>  <accent>su</accent>æ.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut locútus est  <highlight1><prepa>ad</prepa></highlight1>  <prepa>pa</prepa><prepa>tres</prepa>  <accent>nos</accent>tros <greStar /><br class="psalm" />
 Abraham et sémini e<highlight2><prepa>ius</prepa></highlight2>  <prepa>in</prepa>  <accent>sǽ</accent>cula.</td></tr>
 <tr><td><rubrique>11</rubrique></td>

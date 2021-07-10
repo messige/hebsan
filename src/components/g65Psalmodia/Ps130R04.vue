@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.130</rubrique><br class="psalm" />
 <table id="psalm130">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Dómine, non est exaltátum cor  <highlight1><accent>me</accent></highlight1>um <greStar /><br class="psalm" />neque eláti sunt  <highlight1><accent>ó</accent></highlight1>culi  <accent>me</accent>i.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Neque ambulávi in  <highlight1><accent>ma</accent></highlight1>gnis <greStar /><br class="psalm" />neque in mira<highlight2><accent>bí</accent></highlight2>libus  <accent>su</accent>per me.</td></tr>

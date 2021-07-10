@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.136</rubrique><br class="psalm" />
 <table id="psalm136">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Super flúmina Babylónis, illic sédimus et  <highlight1><accent>flé</accent></highlight1>vimus <greStar /><br class="psalm" />cum recorda<highlight2><prepa>ré</prepa></highlight2><prepa>mur</prepa>  <accent>Si</accent>on.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>In salícibus in médio  <highlight1><accent>e</accent></highlight1>ius <greStar /><br class="psalm" />suspéndimus ór<highlight2><prepa>ga</prepa></highlight2><prepa>na</prepa>  <accent>nos</accent>tra.</td></tr>
@@ -20,7 +20,7 @@
 <td>Si non proposúero Ie<highlight2><accent>rú</accent></highlight2>salem <greStar /><br class="psalm" />in princípio lætí<highlight2><prepa>ti</prepa></highlight2><prepa>æ</prepa>  <accent>me</accent>æ.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Memor esto, Dómine, filiórum  <highlight1><accent>E</accent></highlight1>dom <greStar /><br class="psalm" />in di<highlight2><prepa>e</prepa></highlight2>  <prepa>Ie</prepa><accent>rú</accent>salem</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Qui dicunt : exinaníte, exina<highlight2><accent>ní</accent></highlight2>te <greStar /><br class="psalm" />usque ad fundamén<highlight2><prepa>tum</prepa></highlight2>  <prepa>in</prepa>  <accent>e</accent>a.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Fília Babylónis  <highlight1><accent>mí</accent></highlight1>sera <greStar /><br />

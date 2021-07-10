@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.135</rubrique><br class="psalm" />
 <table id="psalm135">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Confitémini Dómino  <highlight1><accent>quó</accent></highlight1>niam  <accent>bo</accent>nus <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Confitémini  <highlight1><accent>De</accent></highlight1>o de<accent>ó</accent>rum <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
@@ -20,7 +20,7 @@
 <td>Solem in potes<highlight2><accent>tá</accent></highlight2>tem di<accent>é</accent>i <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Lunam et stellas in potes<highlight2><accent>tá</accent></highlight2>tem  <accent>noc</accent>tis <greStar /><br class="psalm" />quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Qui percússit Ægýptum cum primogéni<highlight2><accent>tis</accent></highlight2> e<accent>ó</accent>rum <greStar /><br />
 quóniam in ætérnum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>11</rubrique></td>

@@ -18,7 +18,7 @@
   export default defineComponent ( {
     name: 'Tab3',
     setup() {
-      let arrayFeasts = [
+      const arrayFeasts = [
         {   feastID : '9' ,
             title   : 'Domenica in Palmis',
             titleFr : 'Dimanche des Rameaux - la veille' } ,
@@ -50,6 +50,3 @@
     }
   } )
 </script>
-<style>
-@import '../components/css/officii.css';
-</style>

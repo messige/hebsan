@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.35</rubrique><br class="psalm" />
 <table id="psalm050">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Dixit iniustus ut delínquat in semet<highlight2><accent>í</accent></highlight2>pso <greStar /><br class="psalm" />non est timor Dei ante ó<highlight2><prepa>cu</prepa></highlight2><prepa>los</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Quóniam dolóse egit in conspéctu  <highlight1><accent>e</accent></highlight1>ius <greStar /><br class="psalm" />ut inveniátur iníquitas e<highlight2><prepa>ius</prepa></highlight2>  <prepa>ad</prepa>  <accent>ó</accent>dium.</td></tr>
@@ -23,7 +23,7 @@ quemádmodum multiplicásti misericórdiam  <highlight1><prepa>tu</prepa></highl
 <td>Fílii autem  <highlight1><accent>hó</accent></highlight1>minum <greStar /><br class="psalm" />in tégmine alárum tuá<highlight2><prepa>rum</prepa></highlight2>  <prepa>spe</prepa><accent>rá</accent>bunt.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Inebriabúntur ab ubertáte domus  <highlight1><accent>tu</accent></highlight1>æ <greStar /><br class="psalm" />et torrénte voluptátis tuæ po<highlight2><prepa>tá</prepa></highlight2><prepa>bis</prepa>  <accent>e</accent>os.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Quóniam apud te est fons  <highlight1><accent>vi</accent></highlight1>tæ <greStar /><br class="psalm" />et in lúmine tuo vidé<highlight2><prepa>bi</prepa></highlight2><prepa>mus</prepa>  <accent>lu</accent>men.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Præténde misericórdiam tuam sciénti<highlight2><accent>bus</accent></highlight2> te <greStar /><br />et iustítiam tuam his qui rec<highlight2><prepa>to</prepa></highlight2>  <prepa>sunt</prepa>  <accent>cor</accent>de.</td></tr>

@@ -2,8 +2,8 @@
     <div>
         <rubrique>Ps.99</rubrique><br class="psalm" />
 <table id="psalm099">
-<tr><td><rubrique>1</rubrique></td></tr>
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td></tr>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Iubiláte Deo  <highlight1><accent>om</accent></highlight1>nis  <accent>ter</accent>ra <greStar /><br class="psalm" />servíte Dómino  <highlight1><accent>in</accent></highlight1> læ<accent>tí</accent>tia.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Introíte in con<highlight2><accent>spéc</accent></highlight2>tu  <accent>e</accent>ius <greStar /><br class="psalm" />in exsul<highlight2><accent>ta</accent></highlight2>ti<accent>ó</accent>ne.</td></tr>

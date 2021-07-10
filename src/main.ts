@@ -2,6 +2,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
 
+import { stateSymbol, createState } from './store/store';
+
 import { IonicVue } from '@ionic/vue';
 
 /* Core CSS required for Ionic components to work properly */
@@ -32,7 +34,7 @@ defineCustomElements(window);
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
-  
+app.provide(stateSymbol, createState()); 
 router.isReady().then(() => {
   app.mount('#app');
 });

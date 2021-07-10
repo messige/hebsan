@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.4</rubrique><br class="psalm" />
 <table id="psalm004">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Cum invocárem exaudívit me Deus iustí<highlight2><prepa>ti</prepa></highlight2><prepa>æ</prepa>  <accent>me</accent>æ <greStar /><br class="psalm" />in tribulatióne dilatásti mihi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Mise<highlight2><prepa>ré</prepa></highlight2><prepa>re</prepa>  <accent>me</accent>i <greStar /><br class="psalm" />et exáudi oratiónem meam.</td></tr>
@@ -24,7 +24,7 @@ et sperá<highlight2><prepa>te</prepa></highlight2>  <prepa>in</prepa>  <accent>
 <td>A fructu fruménti, vini et ó<highlight2><prepa>le</prepa></highlight2><prepa>i</prepa>  <accent>su</accent>i <greStar /><br class="psalm" />multiplicáti sunt.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>In pace  <highlight1><prepa>in</prepa></highlight1>  <prepa>i</prepa><accent>díp</accent>sum <greStar /><br class="psalm" />dórmiam et requiéscam.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Quóniam tu, Dómine, singulá<highlight2><prepa>ri</prepa></highlight2><prepa>ter</prepa>  <accent>in</accent> spe <greStar /><br class="psalm" />constituísti me.</td></tr>
 </table>
     </div>

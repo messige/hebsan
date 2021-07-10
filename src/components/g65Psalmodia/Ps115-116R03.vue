@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.115</rubrique>
 <table id="psalm115">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Crédidi propter quod lo<highlight2><accent>cú</accent></highlight2>tus sum <greStar /><br class="psalm" />ego autem humiliá<highlight2><prepa>tus</prepa></highlight2>  <prepa>sum</prepa>  <accent>ni</accent>mis.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Ego dixi in excéssu  <highlight1><accent>me</accent></highlight1>o <greStar /><br class="psalm" />omnis  <highlight1><prepa>ho</prepa></highlight1><prepa>mo</prepa>  <accent>men</accent>dax.</td></tr>
@@ -24,7 +24,7 @@ in átriis domus Dómini in médio tu<highlight2><prepa>i</prepa></highlight2>  
 
 <rubrique>Ps.116 (statim)</rubrique>
 <table id="psalm116">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Laudáte Dóminum omnes  <highlight1><accent>gen</accent></highlight1>tes <greStar /><br class="psalm" />laudáte eum  <highlight1><prepa>om</prepa></highlight1><prepa>nes</prepa>  <accent>pó</accent>puli.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Quóniam confirmáta est super nos misericórdia  <highlight1><accent>e</accent></highlight1>ius <greStar /><br />

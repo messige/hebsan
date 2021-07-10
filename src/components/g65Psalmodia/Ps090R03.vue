@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.90</rubrique><br class="psalm" />
 <table id="psalm090">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Qui hábitat in adiutório al<highlight2><accent>tís</accent></highlight2>simi <greStar /><br class="psalm" />
 in protectióne Dei cæli  <highlight1><prepa>com</prepa></highlight1><prepa>mo</prepa><accent>rá</accent>bitur.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -29,7 +29,7 @@ et retributiónem peccató<highlight2><prepa>rum</prepa></highlight2>  <prepa>vi
 <tr><td><rubrique>9</rubrique></td>
 <td>Quóniam tu es, Dómine, spes  <highlight1><accent>me</accent></highlight1>a <greStar /><br class="psalm" />
 Altíssimum posuísti refú<highlight2><prepa>gi</prepa></highlight2><prepa>um</prepa>  <accent>tu</accent>um</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Non accédet ad te  <highlight1><accent>ma</accent></highlight1>lum <greStar /><br class="psalm" />
 et flagéllum non appropinquábit taberná<highlight2><prepa>cu</prepa></highlight2><prepa>lo</prepa>  <accent>tu</accent>o.</td></tr>
 <tr><td><rubrique>11</rubrique></td>

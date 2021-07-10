@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 169 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 335 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -85,4 +85,4 @@ mais de les garder du Mauvais.</ion-text></ion-col> </ion-row></ion-grid>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 169 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 335 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

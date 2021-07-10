@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-12</rubrique><br class="psalm" />
 <table id="psalm118-12">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>In æ<highlight2><prepa>tér</prepa></highlight2><prepa>num</prepa>,  <accent>Dó</accent>mine <greStar />verbum tuum pérmanet in cælo.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>In generatiónem et generatiónem vé<highlight2><prepa>ri</prepa></highlight2><prepa>tas</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />

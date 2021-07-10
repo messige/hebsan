@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 88 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 173 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -74,4 +74,4 @@ et le Sauveur du monde.</ion-text></ion-col> </ion-row></ion-grid>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 88 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 173 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 173 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 343 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -100,4 +100,4 @@ dit le Seigneur.</ion-text></ion-col> </ion-row></ion-grid></template>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 173 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 343 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

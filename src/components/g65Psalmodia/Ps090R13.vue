@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.90</rubrique><br class="psalm" />
 <table id="psalm090">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Qui hábitat in adiutóri<highlight2><prepa>o</prepa></highlight2>  <prepa>al</prepa><accent>tís</accent>simi <greStar /><br class="psalm" />in protectióne Dei cæli commorábitur.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Dicet Dómino : suscéptor meus es tu et refú<highlight2><prepa>gi</prepa></highlight2><prepa>um</prepa>  <accent>me</accent>um <greStar /><br />
@@ -25,7 +25,7 @@ ad te autem non appropinquábit.</td></tr>
 <td>Verúmtamen óculis tuis con<highlight2><prepa>si</prepa></highlight2><prepa>de</prepa><accent>rá</accent>bis <greStar /><br class="psalm" />et retributiónem peccatórum vidébis.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Quóniam tu es, Dómi<highlight2><prepa>ne</prepa></highlight2>,  <prepa>spes</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />Altíssimum posuísti refúgium tuum</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Non accédet  <highlight1><prepa>ad</prepa></highlight1>  <prepa>te</prepa>  <accent>ma</accent>lum <greStar /><br class="psalm" />et flagéllum non appropinquábit tabernáculo tuo.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Quóniam ángelis suis man<highlight2><prepa>dá</prepa></highlight2><prepa>bit</prepa>  <accent>de</accent> te <greStar /><br class="psalm" />ut custódiant te in ómnibus viis tuis.</td></tr>

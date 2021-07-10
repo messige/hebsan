@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-20</rubrique><br class="psalm" />
 <table id="psalm118-20">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Vide humilitátem meam et éri<highlight2><accent>pe</accent></highlight2> me <greStar /><br class="psalm" />
     quia legem tuam non  <highlight1><prepa>sum</prepa></highlight1>  <prepa>o</prepa><accent>blí</accent>tus.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -28,7 +28,7 @@
     in ætérnum ómnia iudícia iustí<highlight2><prepa>ti</prepa></highlight2><prepa>æ</prepa>  <accent>tu</accent>æ.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>

@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 166 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 329 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -72,4 +72,4 @@ celui-là porte un fruit abondant.</ion-text></ion-col> </ion-row></ion-grid></t
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 166 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 329 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

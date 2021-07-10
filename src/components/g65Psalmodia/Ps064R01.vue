@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.64</rubrique><br class="psalm" />
 <table id="psalm064">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Te decet hymnus Deus in  <highlight1><accent>Si</accent></highlight1>on <greStar /><br class="psalm" />et tibi reddétur votum in  <highlight1><prepa>Ie</prepa></highlight1><accent>rú</accent>salem.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Exáudi oratiónem  <highlight1><accent>me</accent></highlight1>am <greStar /><br class="psalm" />ad te omnis ca<highlight2><prepa>ro</prepa></highlight2>  <accent>vé</accent>niet.</td></tr>
@@ -22,7 +22,7 @@ qui contúrbas profúndum maris, sonum flúctu<highlight2><prepa>um</prepa></hig
 éxitus matutíni et véspere de<highlight2><prepa>lec</prepa></highlight2><accent>tá</accent>bis.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Visitásti terram et inebriásti  <highlight1><accent>e</accent></highlight1>am <greStar /><br class="psalm" />multiplicásti locupletá<highlight2><prepa>re</prepa></highlight2>  <accent>e</accent>am.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Flumen Dei replétum est a<highlight2><prepa>quis</prepa></highlight2> <greDagger /><br class="psalm" />
 parásti cibum il<highlight2><accent>ló</accent></highlight2>rum <greStar /><br />
 quóniam ita est præparáti<highlight2><prepa>o</prepa></highlight2>  <accent>e</accent>ius.</td></tr>

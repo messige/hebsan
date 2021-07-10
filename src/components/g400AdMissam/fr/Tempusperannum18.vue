@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 122 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 241 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <template v-if="annoABC == 'A'"><rubrique>Introitus</rubrique><br /><br />
@@ -251,4 +251,4 @@ et toute saveur de douceur.</ion-text></ion-col> </ion-row></ion-grid>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 122 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 241 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

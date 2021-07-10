@@ -21,16 +21,12 @@
     name: 'Tab2',
     components: { IonPage , IonContent , Calendarium } ,
     setup () {
-      let today           = new Date ( ) ;                //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
-      let civilYearPlus1  = getYear ( today ) + 1 ;
-      let civilYearPlus2  = civilYearPlus1 + 1 ;
-      let firstMonth      = 0 ;
-      let firstDay        = 2 ;
+      const today           = new Date ( ) ;                //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
+      const civilYearPlus1  = getYear ( today ) + 1 ;
+      const civilYearPlus2  = civilYearPlus1 + 1 ;
+      const firstMonth      = 0 ;
+      const firstDay        = 2 ;
       return {  civilYearPlus1 , civilYearPlus2 , firstMonth , firstDay } ;
     } 
   } )
 </script>
-   
-<style>
-@import '../components/css/officii.css';
-</style>

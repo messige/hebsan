@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-6</rubrique><br class="psalm" />
 <table id="psalm118-6">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Et véniat super me misericórdia  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />
     salutáre tuum secúndum elóquium tuum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

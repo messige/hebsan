@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 140 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 277 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -72,4 +72,4 @@ et cela vous arrivera.</ion-text></ion-col> </ion-row></ion-grid></template>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 140 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 277 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

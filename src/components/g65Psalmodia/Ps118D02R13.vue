@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-2</rubrique><br class="psalm" />
 <table id="psalm118-2">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>In quo córrigit adolescéntior  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>su</accent>am ? <greStar /><br class="psalm" />
     in custodiéndo sermónes tuos.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

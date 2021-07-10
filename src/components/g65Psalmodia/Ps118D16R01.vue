@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-16</rubrique><br class="psalm" />
 <table id="psalm118-16">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Feci iudícium et ius<highlight2><accent>tí</accent></highlight2>tiam <greStar /><br class="psalm" />
     non tradas me calumnián<highlight2><prepa>ti</prepa></highlight2><accent>bus</accent> me.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -26,7 +26,7 @@
     omnem viam iníquam ódi<highlight2><prepa>o</prepa></highlight2>  <accent>há</accent>bui.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirítu<highlight2><prepa>i</prepa></highlight2>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæculó<highlight2><prepa>rum</prepa></highlight2>.  <accent>A</accent>men.</td></tr>
 </table>

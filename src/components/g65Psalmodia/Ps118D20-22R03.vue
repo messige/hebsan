@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-20</rubrique>
 <table id="psalm118-20">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Vide humilitátem meam et éri<highlight2><accent>pe</accent></highlight2> me <greStar /><br class="psalm" />
     quia legem tuam non  <highlight1><prepa>sum</prepa></highlight1>  <prepa>o</prepa><accent>blí</accent>tus.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -28,13 +28,13 @@
     in ætérnum ómnia iudícia iustí<highlight2><prepa>ti</prepa></highlight2><prepa>æ</prepa>  <accent>tu</accent>æ.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
         <rubrique>Ps.118-21</rubrique>
 <table id="psalm118-21">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Príncipes persecúti sunt me  <highlight1><accent>gra</accent></highlight1>tis <greStar /><br class="psalm" />
     et a verbis tuis formidá<highlight2><prepa>vit</prepa></highlight2>  <prepa>cor</prepa>  <accent>me</accent>um.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -60,13 +60,13 @@
     quia omnes viæ meæ in con<highlight2><prepa>spéc</prepa></highlight2><prepa>tu</prepa>  <accent>tu</accent>o.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
         <rubrique>Ps.118-22</rubrique>
 <table id="psalm118-22">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Appropínquet deprecátio mea in conspéctu tuo,  <highlight1><accent>Dó</accent></highlight1>mine <greStarNoSpace /><br class="psalm" />
     iuxta elóquium tuum da mihi  <highlight1><prepa>in</prepa></highlight1><prepa>tel</prepa><accent>léc</accent>tum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -91,7 +91,7 @@
 quære servum tuum quia mandáta tua non  <highlight1><prepa>sum</prepa></highlight1>  <prepa>o</prepa><accent>blí</accent>tus.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>

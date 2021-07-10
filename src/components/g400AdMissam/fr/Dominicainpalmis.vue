@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 160 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 317 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Antiphona</rubrique><br /><br />
@@ -147,4 +147,4 @@ que votre volonté soit faite.</ion-text></ion-col> </ion-row></ion-grid>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 160 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 317 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

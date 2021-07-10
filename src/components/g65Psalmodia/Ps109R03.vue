@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.109</rubrique><br class="psalm" />
 <table id="psalm109">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Dixit Dóminus Dómino  <highlight1><accent>me</accent></highlight1>o : <greStar /><br class="psalm" />sede a  <highlight1><prepa>dex</prepa></highlight1><prepa>tris</prepa>  <accent>me</accent>is.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Donec ponam inimícos  <highlight1><accent>tu</accent></highlight1>os <greStar /><br class="psalm" />scabéllum pe<highlight2><prepa>dum</prepa></highlight2>  <prepa>tu</prepa><accent>ó</accent>rum.</td></tr>
@@ -20,7 +20,7 @@
 <td>De torrénte in via  <highlight1><accent>bi</accent></highlight1>bet <greStar /><br class="psalm" />proptérea exal<highlight2><prepa>tá</prepa></highlight2><prepa>bit</prepa>  <accent>ca</accent>put.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />et in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
     </div>

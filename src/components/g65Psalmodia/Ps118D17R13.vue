@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-17</rubrique><br class="psalm" />
 <table id="psalm118-17">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Mirabília testimó<highlight2><prepa>ni</prepa></highlight2><prepa>a</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />
     ídeo scrutáta est ea ánima mea.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

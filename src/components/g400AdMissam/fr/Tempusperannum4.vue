@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 152 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 301 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -71,4 +71,4 @@ car je vous ai invoqué.</ion-text></ion-col> </ion-row></ion-grid></template>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 152 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 301 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.129</rubrique><br class="psalm" />
 <table id="psalm129">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>De profúndis clamávi ad te  <highlight1><accent>Dó</accent></highlight1>mine <greStar /><br class="psalm" />Dómine, exáudi  <highlight1><prepa>vo</prepa></highlight1><prepa>cem</prepa>  <accent>me</accent>am.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Fíant aures tuæ inten<highlight2><accent>dén</accent></highlight2>tes <greStar /><br class="psalm" />in vocem deprecati<highlight2><prepa>ó</prepa></highlight2><prepa>nis</prepa>  <accent>me</accent>æ.</td></tr>
@@ -20,7 +20,7 @@
 <td>Et ipse rédimet  <highlight1><accent>Is</accent></highlight1>rael <greStar /><br class="psalm" />ex ómnibus iniquitá<highlight2><prepa>ti</prepa></highlight2><prepa>bus</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />et in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
     </div>

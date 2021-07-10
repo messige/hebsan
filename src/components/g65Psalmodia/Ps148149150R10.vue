@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.148</rubrique><br class="psalm" />
 <table id="psalm148">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Laudáte Dómi<highlight2><prepa>num</prepa></highlight2>  <prepa>de</prepa>  <accent>cæ</accent>lis <greStar /><br class="psalm" />laudáte e<highlight2><prepa>um</prepa></highlight2>  <prepa>in</prepa>  <prepa>ex</prepa><accent>cél</accent>sis.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Laudáte eum omnes án<highlight2><prepa>ge</prepa></highlight2><prepa>li</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />laudáte eum omnes  <highlight1><prepa>vir</prepa></highlight1><prepa>tú</prepa><prepa>tes</prepa>  <accent>e</accent>ius.</td></tr>
@@ -21,7 +21,7 @@ et aquæ omnes<br class="psalm" />quæ super cælum sunt lau<highlight2><prepa>d
 <td>Ignis, grando, nix, glácies, spíritus  <highlight1><prepa>pro</prepa></highlight1><prepa>cel</prepa><accent>lá</accent>rum <greStar /><br class="psalm" />quæ fáci<highlight2><prepa>unt</prepa></highlight2>  <prepa>ver</prepa><prepa>bum</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Montes et  <highlight1><prepa>om</prepa></highlight1><prepa>nes</prepa>  <accent>col</accent>les <greStar /><br class="psalm" />ligna fructífera  <highlight1><prepa>et</prepa></highlight1>  <prepa>om</prepa><prepa>nes</prepa>  <accent>ce</accent>dri.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Béstiæ et uni<highlight2><prepa>vér</prepa></highlight2><prepa>sa</prepa>  <accent>pé</accent>cora <greStar /><br class="psalm" />serpéntes et vó<highlight2><prepa>lu</prepa></highlight2><prepa>cres</prepa>  <prepa>pen</prepa><accent>ná</accent>tæ.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Reges terræ et  <highlight1><prepa>om</prepa></highlight1><prepa>nes</prepa>  <accent>pó</accent>puli <greStar /><br class="psalm" />príncipes et omnes  <highlight1><prepa>iú</prepa></highlight1><prepa>di</prepa><prepa>ces</prepa>  <accent>ter</accent>ræ.</td></tr>
@@ -36,7 +36,7 @@ quia exaltátum est nomen  <highlight1><prepa>e</prepa></highlight1><prepa>ius</
 </table>
         <rubrique>Ps.149</rubrique><br class="psalm" />
 <table id="psalm149">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Cantáte Dómino cán<highlight2><prepa>ti</prepa></highlight2><prepa>cum</prepa>  <accent>no</accent>vum <greStar /><br class="psalm" />laus eius in ecclé<highlight2><prepa>si</prepa></highlight2><prepa>a</prepa>  <prepa>sanc</prepa><accent>tó</accent>rum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Lætétur Israel in eo qui  <highlight1><prepa>fe</prepa></highlight1><prepa>cit</prepa>  <accent>e</accent>um <greStar /><br class="psalm" />et fílii Sion exúltent  <highlight1><prepa>in</prepa></highlight1>  <prepa>re</prepa><prepa>ge</prepa>  <accent>su</accent>o.</td></tr>
@@ -57,7 +57,7 @@ quia exaltátum est nomen  <highlight1><prepa>e</prepa></highlight1><prepa>ius</
 </table>
         <rubrique>Ps.150</rubrique><br class="psalm" />
 <table id="psalm150">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Laudáte Dóminum in  <highlight1><prepa>sanc</prepa></highlight1><prepa>tis</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />laudáte eum in firmaménto  <highlight1><prepa>vir</prepa></highlight1><prepa>tú</prepa><prepa>tis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Laudáte eum in virtú<highlight2><prepa>ti</prepa></highlight2><prepa>bus</prepa>  <accent>e</accent>ius <greStar /><br />

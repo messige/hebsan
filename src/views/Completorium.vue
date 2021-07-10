@@ -26,7 +26,7 @@
     <p><ImageDisplay    :imgSource  = "officeTempusLiturgicus1.ton" /></p>
     <p><component       :is         = "officeTempusLiturgicus1.ps004"/></p>
     <p><component       :is         = "officeTempusLiturgicus1.ps090"/></p>
-    <p><component       :is         = "officeTempusLiturgicus1.ps133"/></p>        
+    <p><component       :is         = "officeTempusLiturgicus1.ps133"/></p> 
     <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
         <p><ImageDisplay :imgSource = "officeTempusLiturgicus2.ant" /></p>
         <p><rubrique>Hymnus</rubrique></p>
@@ -73,7 +73,6 @@
     import { IonPage , IonContent , IonButton , IonIcon , IonBackButton } from '@ionic/vue';
     import { useRoute }             from 'vue-router';
     import { defineAsyncComponent } from 'vue';
-    import { ref }                  from 'vue';
     import ImageDisplay             from '@/components/ImageDisplay.vue';
     import { defineComponent }      from 'vue';
     import { home , arrowBackSharp }  from 'ionicons/icons';
@@ -89,9 +88,9 @@
         components: {   Confitebor , Capitulum , NuncDimittisSineGloria , Oratio , DominusVobiscum , PerDominum ,
                         ImageDisplay ,IonPage , IonContent , IonButton , IonIcon , IonBackButton } ,
         setup ( ) {
-            let route       = useRoute ( ) ;
-            let feast       = route.params.feast ;
-            let arrayFeasts = ref ( [
+            const route       = useRoute ( ) ;
+            const feast       = route.params.feast ;
+            const arrayFeasts = [
                 {   title   : 'Domenica in Palmis', 
                     titleFr : 'Dimanche des Rameaux' } ,
                 {   title   : 'Hebdomada Sancta Feria II' , 
@@ -109,11 +108,11 @@
                 {   title   : 'Resurrectio Domini',
                     titleFr : 'Dimanche de Pâques' } ,
                 {   title   : 'Domenica in Palmis',
-                    titleFr : 'Dimanche des Rameaux - la veille' } ] ) ; 
-            let feastNum        = +feast ;
+                    titleFr : 'Dimanche des Rameaux - la veille' } ] ; 
+            const feastNum        = +feast ;
             let i               = 0 ;
-            let feastCurrent    = arrayFeasts.value [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
-            let arrayTemporumLiturgicorum1  = [
+            const feastCurrent    = arrayFeasts [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
+            const arrayTemporumLiturgicorum1  = [
             {   tempus:         "triduum" ,
                 iube:           null ,                                                  // Triduum
                 fratres:        null ,
@@ -138,7 +137,6 @@
                                     import('@/components/g65Psalmodia/Ps133R03.vue') ) ,             
                 aveRegina:      require ( "../assets/g50Antiphona/AntAveReginaSimplex.jpg" ) ,
                 benedicamus:    require ( "../assets/g95InOrdineOfficii/BenedicamusDomSimplex.jpg" ) } ] ; 
-            i                   = 0 ;
             if (  feastNum < 5  || feastNum > 7 ) { i = 1 ; }     /* not in Triduum  */     
             let officeTempusLiturgicus1      = arrayTemporumLiturgicorum1 [i] ;
             let arrayTemporumLiturgicorum2   = [
@@ -175,7 +173,3 @@
         }
     } )
 </script>
-
-<style>
-  @import '../components/css/officii.css' ;
-</style>

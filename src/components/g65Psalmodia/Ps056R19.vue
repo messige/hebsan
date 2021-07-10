@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.56</rubrique><br class="psalm" />
 <table id="psalm056">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Miserére mei Deus, mise<highlight2><accent>ré</accent></highlight2>re  <accent>me</accent>i <greStar /><br class="psalm" />quóniam in te confídit  <highlight1><accent>á</accent></highlight1>nima  <accent>me</accent>a.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Et in umbra alárum tu<highlight2><accent>á</accent></highlight2>rum spe<accent>rá</accent>bo <greStar /><br class="psalm" />donec tránse<highlight2><accent>at</accent></highlight2> i<accent>ní</accent>quitas.</td></tr>
@@ -20,7 +20,7 @@
 <td>Láqueum paravérunt  <highlight1><accent>pé</accent></highlight1>dibus  <accent>me</accent>is <greStar /><br class="psalm" />et incurvavérunt  <highlight1><accent>á</accent></highlight1>nimam  <accent>me</accent>am.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Fodérunt ante fáciem  <highlight1><accent>me</accent></highlight1>am  <accent>fó</accent>veam <greStar /><br class="psalm" />et inci<highlight2><accent>dé</accent></highlight2>runt in  <accent>e</accent>am.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Parátum cor meum, Deus, pa<highlight2><accent>rá</accent></highlight2>tum cor  <accent>me</accent>um <greStar /><br class="psalm" />cantábo et  <highlight1><accent>psal</accent></highlight1>mum  <accent>di</accent>cam.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Exsúrge glória mea, exsúrge psaltéri<highlight2><accent>um</accent></highlight2> et  <accent>cí</accent>thara <greStar /><br class="psalm" />ex<highlight2><accent>súr</accent></highlight2>gam di<accent>lú</accent>culo.</td></tr>

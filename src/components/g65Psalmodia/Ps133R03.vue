@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.133</rubrique><br class="psalm" />
 <table id="psalm133">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Ecce nunc benedícite  <highlight1><accent>Dó</accent></highlight1>minum <greStar /> omnes  <highlight1><prepa>ser</prepa></highlight1><prepa>vi</prepa>  <accent>Dó</accent>mini.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Qui statis in domo  <highlight1><accent>Dó</accent></highlight1>mini <greStar /> in átriis domus  <highlight1><prepa>De</prepa></highlight1><prepa>i</prepa>  <accent>nos</accent>tri.</td></tr>

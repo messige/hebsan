@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 151 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 299 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <template v-if="annoABC == 'A'"><rubrique>Introitus</rubrique><br /><br />
@@ -101,4 +101,4 @@ la joie du Seigneur est notre rempart.</ion-text></ion-col> </ion-row></ion-grid
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 151 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 299 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

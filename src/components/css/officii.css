@@ -23,16 +23,6 @@
         }
     }
 
-    html {
-        font-family: "Lucida Sans", sans-serif;
-      } 
-    td {
-        text-align: left;
-        padding-left: 7px;
-        padding-bottom: 4px;
-        vertical-align: top;
-    }
-     
     @media screen and (prefers-color-scheme: light) {
         tr:nth-child(even) {
           background-color: #F2F2F2
@@ -49,6 +39,10 @@
           background-color: #888888;
        }
     }
+    th, td {
+        padding: 2px;
+        vertical-align:top;  
+    }  
     highlight1:before { 
       content:  var(--off-highlight1, "\00a0"); 
     }
@@ -94,22 +88,6 @@
         max-width: 100%;
         height: auto;
     }
-    .img12 {
-        max-width: 92%;
-        height: auto;
-     }
-    .img11 {
-        max-width: 85%;
-        height: auto;
-     }
-     .img10 {
-        max-width: 77%;
-        height: auto;
-     }
-     .img09 {
-        max-width: 69%;
-        height: auto;
-     }
     @media (min-width:769px)  { 
      .img08 {
         max-width: 62%;
@@ -122,15 +100,6 @@
         height: auto;
      }
     }
-
-    .smallimg {
-        max-width: 75%;
-        height: auto;
-     }
-    .tinyimg {
-        max-width: 60%;
-        height: auto;
-     }
     img.bottom {
         vertical-align: bottom;
     }
@@ -168,5 +137,4 @@
         br.psalm {
             display: none;
         }
-      }
-
+    }

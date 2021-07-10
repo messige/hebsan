@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 139 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 275 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -80,4 +80,4 @@ au bord d’une eau revigorante il m’a fait parvenir.</ion-text></ion-col> </i
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 139 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 275 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

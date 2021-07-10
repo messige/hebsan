@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 172 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 341 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -238,4 +238,4 @@ en mémoire de moi.</ion-text></ion-col> </ion-row></ion-grid></template>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 172 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 341 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

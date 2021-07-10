@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.4</rubrique><br class="psalm" />
 <table id="psalm004">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Cum invocárem exaudívit me Deus iustítiæ  <highlight1><accent>me</accent></highlight1>æ <greStar /><br class="psalm" />
 in tribulatióne dila<highlight2><prepa>tá</prepa></highlight2><prepa>sti</prepa>  <accent>mi</accent>hi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -28,7 +28,7 @@ dedísti lætítiam in  <highlight1><prepa>cor</prepa></highlight1><prepa>de</pr
 <td>A fructu fruménti, vini et ólei  <highlight1><accent>su</accent></highlight1>i <greStar /> mul<highlight2><prepa>ti</prepa></highlight2><prepa>pli</prepa><accent>cá</accent>ti sunt.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>In pace in i<highlight2><accent>díp</accent></highlight2>sum <greStar /> dórmiam et  <highlight1><prepa>re</prepa></highlight1><prepa>qui</prepa><accent>és</accent>cam.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Quóniam tu, Dómine, singuláriter  <highlight1><accent>in</accent></highlight1> spe <uparrow /><br class="psalm" /> cons<highlight2><prepa>ti</prepa></highlight2><prepa>tu</prepa><accent>í</accent>sti me.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar /> et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>

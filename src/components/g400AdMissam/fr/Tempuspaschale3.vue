@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 164 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 325 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -65,4 +65,4 @@ Seigneur, tu connais tout:<br />
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 164 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 325 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

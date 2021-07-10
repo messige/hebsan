@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 171 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 339 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <template v-if="annoABC == 'A'"><rubrique>Introitus</rubrique><br /><br />
@@ -100,4 +100,4 @@ car il a exercé envers nous sa miséricorde.</ion-text></ion-col> </ion-row></i
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 171 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 339 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

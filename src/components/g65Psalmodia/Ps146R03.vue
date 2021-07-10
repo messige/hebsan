@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.146</rubrique><br class="psalm" />
 <table id="psalm146">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Laudáte Dóminum quóniam bonum est  <highlight1><accent>psal</accent></highlight1>mus <greStar /><br />
 Deo nostro sit iucúnda decorá<highlight2><prepa>que</prepa></highlight2>  <prepa>lau</prepa><accent>dá</accent>tio.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -21,7 +21,7 @@ Deo nostro sit iucúnda decorá<highlight2><prepa>que</prepa></highlight2>  <pre
 <td>Qui óperit cælum  <highlight1><accent>nú</accent></highlight1>bibus <greStar /><br class="psalm" />et parat  <highlight1><prepa>ter</prepa></highlight1><prepa>ræ</prepa>  <accent>plú</accent>viam.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Qui producit in móntibus  <highlight1><accent>foe</accent></highlight1>num <greStar /><br class="psalm" />et herbam servi<highlight2><prepa>tú</prepa></highlight2><prepa>ti</prepa>  <accent>hó</accent>minum.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Qui dat iuméntis escam ip<highlight2><accent>só</accent></highlight2>rum <greStar /><br class="psalm" />et pullis corvórum invocán<highlight2><prepa>ti</prepa></highlight2><prepa>bus</prepa>  <accent>e</accent>um.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Non in fortitúdine equi voluntátem ha<highlight2><accent>bé</accent></highlight2>bit <greStar /><br class="psalm" />nec in tíbiis viri beneplácitum  <highlight1><prepa>e</prepa></highlight1><prepa>rit</prepa>  <accent>e</accent>i.</td></tr>

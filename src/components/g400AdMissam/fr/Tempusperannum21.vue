@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 126 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 249 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -84,4 +84,4 @@ demeure en moi, et moi en lui.</ion-text></ion-col> </ion-row></ion-grid> Dicit 
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 126 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 249 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

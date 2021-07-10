@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 123 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 243 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -78,4 +78,4 @@ en vérité, je vous le dis, il l’établira sur tous ses biens.</ion-text></io
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 123 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 243 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

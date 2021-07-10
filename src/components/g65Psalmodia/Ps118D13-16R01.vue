@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-13</rubrique>
 <table id="psalm118-13">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Quómodo diléxi legem tuam,  <highlight1><accent>Dó</accent></highlight1>mine <greStar /><br class="psalm" />
     tota die meditáti<highlight2><prepa>o</prepa></highlight2>  <accent>me</accent>a est.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -27,13 +27,13 @@
     proptérea odívi omnem viam ini<highlight2><prepa>qui</prepa></highlight2><accent>tá</accent>tis.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirítu<highlight2><prepa>i</prepa></highlight2>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæculó<highlight2><prepa>rum</prepa></highlight2>.  <accent>A</accent>men.</td></tr>
 </table>
         <rubrique>Ps.118-14</rubrique>
 <table id="psalm118-14">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Lucérna pédibus meis verbum  <highlight1><accent>tu</accent></highlight1>um <greStar /><br class="psalm" />
     et lumen sémi<highlight2><prepa>tis</prepa></highlight2>  <accent>me</accent>is</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -58,13 +58,13 @@
     propter retribu<highlight2><prepa>ti</prepa></highlight2><accent>ó</accent>nem.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirítu<highlight2><prepa>i</prepa></highlight2>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæculó<highlight2><prepa>rum</prepa></highlight2>.  <accent>A</accent>men.</td></tr>
 </table>
         <rubrique>Ps.118-15</rubrique>
 <table id="psalm118-15">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Iníquos ódio  <highlight1><accent>há</accent></highlight1>bui <greStar />et legem tuam  <highlight1><prepa>di</prepa></highlight1><accent>lé</accent>xi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Adiútor et suscéptor meus  <highlight1><accent>es</accent></highlight1> tu <greStar /><br class="psalm" />
@@ -88,13 +88,13 @@
     a iudíciis enim tu<highlight2><prepa>is</prepa></highlight2>  <accent>tí</accent>mui.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirítu<highlight2><prepa>i</prepa></highlight2>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæculó<highlight2><prepa>rum</prepa></highlight2>.  <accent>A</accent>men.</td></tr>
 </table>
         <rubrique>Ps.118-16</rubrique>
 <table id="psalm118-16">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Feci iudícium et ius<highlight2><accent>tí</accent></highlight2>tiam <greStar /><br class="psalm" />
     non tradas me calumnián<highlight2><prepa>ti</prepa></highlight2><accent>bus</accent> me.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -118,7 +118,7 @@
     omnem viam iníquam ódi<highlight2><prepa>o</prepa></highlight2>  <accent>há</accent>bui.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirítu<highlight2><prepa>i</prepa></highlight2>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæculó<highlight2><prepa>rum</prepa></highlight2>.  <accent>A</accent>men.</td></tr>
 </table>

@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-2</rubrique><br class="psalm" />
 <table id="psalm118-2">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>In quo córrigit adolescéntior  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>su</accent>am ? <greStar />in custodiéndo  <prepa>ser</prepa><prepa>mó</prepa><prepa>nes</prepa>  <accent>tu</accent>os.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>In toto corde meo  <highlight1><prepa>ex</prepa></highlight1><prepa>qui</prepa><accent>sí</accent>vi te <greStar />ne repéllas me a  <prepa>man</prepa><prepa>dá</prepa><prepa>tis</prepa>  <accent>tu</accent>is.</td></tr>
@@ -20,7 +20,7 @@
 <td>In iustificatiónibus tuis  <highlight1><prepa>me</prepa></highlight1><prepa>di</prepa><accent>tá</accent>bor <greStar />non oblivíscar  <prepa>ser</prepa><prepa>mó</prepa><prepa>nes</prepa>  <accent>tu</accent>os.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spi<prepa>rí</prepa><prepa>tu</prepa><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><prepa>nunc</prepa></highlight1>  <prepa>et</prepa>  <accent>sem</accent>per <greStar />et in sǽcula sæ<prepa>cu</prepa><prepa>ló</prepa><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
     </div>

@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-3</rubrique><br class="psalm" />
 <table id="psalm118-3">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Retríbue servo tuo, vi<highlight2><prepa>ví</prepa></highlight2><prepa>fi</prepa><accent>ca</accent> me <greStar /><br class="psalm" />
     et custódiam sermónes tuos.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

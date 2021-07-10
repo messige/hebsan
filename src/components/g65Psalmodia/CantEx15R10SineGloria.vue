@@ -2,7 +2,7 @@
     <div>
         <rubrique>Liber Exodus - Ex 15</rubrique><br class="psalm" />
 <table id="cantEz">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Cantémus Dómino glorióse enim ma<highlight2><prepa>gni</prepa></highlight2><prepa>fi</prepa><accent>cá</accent>tus est <greStar /><br class="psalm" />equum et ascensórem de<highlight2><prepa>ié</prepa></highlight2><prepa>cit</prepa>  <prepa>in</prepa>  <accent>ma</accent>re.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Fortitúdo mea et laus  <highlight1><prepa>me</prepa></highlight1><prepa>a</prepa>  <accent>Dó</accent>minus <greStar /><br class="psalm" />et factus est mi<highlight2><prepa>hi</prepa></highlight2>  <prepa>in</prepa>  <prepa>sa</prepa><accent>lú</accent>tem.</td></tr>
@@ -27,7 +27,7 @@ et in spíritu furóris tui congre<highlight2><prepa>gá</prepa></highlight2><pr
 <td>Stetit  <highlight1><prepa>un</prepa></highlight1><prepa>da</prepa>  <accent>flu</accent>ens <greStar /><br class="psalm" />congregátæ sunt abýssi in  <highlight1><prepa>mé</prepa></highlight1><prepa>di</prepa><prepa>o</prepa>  <accent>ma</accent>ri.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Dixit inimícus : pérsequar et  <highlight1><prepa>com</prepa></highlight1><prepa>pre</prepa><accent>hén</accent>dam <greStar /><br class="psalm" />dívidam spólia, implébitur  <highlight1><prepa>á</prepa></highlight1><prepa>ni</prepa><prepa>ma</prepa>  <accent>me</accent>a.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Evaginábo glá<highlight2><prepa>di</prepa></highlight2><prepa>um</prepa>  <accent>me</accent>um <greStar /><br class="psalm" />interfíciet e<highlight2><prepa>os</prepa></highlight2>  <prepa>ma</prepa><prepa>nus</prepa>  <accent>me</accent>a.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Flavit spíritus tuus et opéruit  <highlight1><prepa>e</prepa></highlight1><prepa>os</prepa>  <accent>ma</accent>re <greStar /><br />

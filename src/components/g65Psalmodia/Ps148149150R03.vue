@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.148</rubrique><br class="psalm" />
 <table id="psalm148">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Laudáte Dóminum de  <highlight1><accent>cæ</accent></highlight1>lis <greStar /><br class="psalm" />laudáte eum  <highlight1><prepa>in</prepa></highlight1>  <prepa>ex</prepa><accent>cél</accent>sis.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Laudáte eum omnes ángeli  <highlight1><accent>e</accent></highlight1>ius <greStar /><br class="psalm" />laudáte eum omnes vir<highlight2><prepa>tú</prepa></highlight2><prepa>tes</prepa>  <accent>e</accent>ius.</td></tr>
@@ -21,7 +21,7 @@ et aquæ omnes quæ super cælum sunt laudent  <highlight1><prepa>no</prepa></hi
 <td>Ignis, grando, nix, glácies, spíritus procel<highlight2><accent>lá</accent></highlight2>rum <greStar /><br class="psalm" />quæ fáciunt  <highlight1><prepa>ver</prepa></highlight1><prepa>bum</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Montes et omnes  <highlight1><accent>col</accent></highlight1>les <greStar /><br class="psalm" />ligna fructífera et  <highlight1><prepa>om</prepa></highlight1><prepa>nes</prepa>  <accent>ce</accent>dri.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Béstiæ et univérsa  <highlight1><accent>pé</accent></highlight1>cora <greStar /><br class="psalm" />serpéntes et vólu<highlight2><prepa>cres</prepa></highlight2>  <prepa>pen</prepa><accent>ná</accent>tæ.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Reges terræ et omnes  <highlight1><accent>pó</accent></highlight1>puli <greStar /><br class="psalm" />príncipes et omnes iú<highlight2><prepa>di</prepa></highlight2><prepa>ces</prepa>  <accent>ter</accent>ræ.</td></tr>
@@ -36,7 +36,7 @@ quia exaltátum est nomen e<highlight2><prepa>ius</prepa></highlight2>  <prepa>s
 </table>
         <rubrique>Ps.149</rubrique><br class="psalm" />
 <table id="psalm149">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Cantáte Dómino cánticum  <highlight1><accent>no</accent></highlight1>vum <greStar /><br class="psalm" />laus eius in ecclési<highlight2><prepa>a</prepa></highlight2>  <prepa>sanc</prepa><accent>tó</accent>rum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Lætétur Israel in eo qui fecit  <highlight1><accent>e</accent></highlight1>um <greStar /><br class="psalm" />et fílii Sion exúltent in  <highlight1><prepa>re</prepa></highlight1><prepa>ge</prepa>  <accent>su</accent>o.</td></tr>
@@ -57,7 +57,7 @@ quia exaltátum est nomen e<highlight2><prepa>ius</prepa></highlight2>  <prepa>s
 </table>
         <rubrique>Ps.150</rubrique><br class="psalm" />
 <table id="psalm150">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Laudáte Dóminum in sanctis  <highlight1><accent>e</accent></highlight1>ius <greStar /><br class="psalm" />laudáte eum in firmaménto vir<highlight2><prepa>tú</prepa></highlight2><prepa>tis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Laudáte eum in virtútibus  <highlight1><accent>e</accent></highlight1>ius <greStar /><br />laudáte eum secúndum multitúdinem magnitú<highlight2><prepa>di</prepa></highlight2><prepa>nis</prepa>  <accent>e</accent>ius.</td></tr>

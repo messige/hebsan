@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.145</rubrique><br class="psalm" />
 <table id="psalm145">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Lauda ánima mea Dó<highlight2><prepa>mi</prepa></highlight2><prepa>num</prepa> <greDagger /><br class="psalm" />laudábo Dóminum in  <highlight1><prepa>vi</prepa></highlight1><prepa>ta</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />psallam Deo meo quám<highlight2><prepa>di</prepa></highlight2><prepa>u</prepa>  <accent>fú</accent>ero.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Nolíte confídere  <highlight1><prepa>in</prepa></highlight1>  <prepa>prin</prepa><accent>cí</accent>pibus <greStar /><br class="psalm" />in fíliis hóminum in quibus  <highlight1><prepa>non</prepa></highlight1>  <prepa>est</prepa>  <accent>sa</accent>lus.</td></tr>
@@ -20,7 +20,7 @@
 <td>Dóminus custódit ád<highlight2><prepa>ve</prepa></highlight2><prepa>nas</prepa> <greDagger /><br class="psalm" />pupíllum et vídu<highlight2><prepa>am</prepa></highlight2>  <prepa>sus</prepa><accent>cí</accent>piet <greStar /><br class="psalm" />et vias peccató<highlight2><prepa>rum</prepa></highlight2>  <prepa>dis</prepa><accent>pér</accent>det.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Regnábit Dóminus in sǽcula, Deus  <highlight1><prepa>tu</prepa></highlight1><prepa>us</prepa>  <accent>Si</accent>on <greStar /><br class="psalm" />in generatiónem et gene<highlight2><prepa>ra</prepa></highlight2><prepa>ti</prepa><accent>ó</accent>nem.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><prepa>nunc</prepa></highlight1>  <prepa>et</prepa>  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>

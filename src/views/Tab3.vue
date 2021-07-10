@@ -4,7 +4,6 @@
           <div id="container">
             <p><strong>Hebdomada Sancta </strong></p>         
             <HebdoSancta />
-            <!-- - {{today}} -->
           </div>
       </ion-content>
   </ion-page>
@@ -20,7 +19,3 @@
     components: { IonPage , IonContent , HebdoSancta } ,
   } )
 </script>
-
-<style>
-@import '../components/css/officii.css';
-</style>

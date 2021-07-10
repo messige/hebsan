@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 150 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 297 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -78,4 +78,4 @@ Ce fut le premier miracle que Jésus fit devant ses disciples.</ion-text></ion-c
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 150 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 297 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

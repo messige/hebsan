@@ -2,7 +2,7 @@
     <div>
         <rubrique>Benedicitus</rubrique><br class="psalm" />
 <table id="CantBenedictus">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Benedíctus Dóminus  <highlight1><prepa>De</prepa></highlight1><prepa>us</prepa>  <accent>Is</accent>rael <greStar /><br class="psalm" />quia visitávit et fecit redemptió<highlight2><prepa>nem</prepa></highlight2>  <prepa>ple</prepa><prepa>bis</prepa>  <accent>su</accent>æ.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Et eréxit cornu sa<highlight2><prepa>lú</prepa></highlight2><prepa>tis</prepa>  <accent>no</accent>bis <greStar /><br class="psalm" />in domo David  <highlight1><prepa>pú</prepa></highlight1><prepa>e</prepa><prepa>ri</prepa>  <accent>su</accent>i.</td></tr>
@@ -21,7 +21,7 @@
 <tr><td><rubrique>9</rubrique></td>
 <td>Et tu puer prophéta altíssi<highlight2><prepa>mi</prepa></highlight2>  <prepa>vo</prepa><accent>cá</accent>beris <greStar /><br />
 præíbis enim ante fáciem Dómini pará<highlight2><prepa>re</prepa></highlight2>  <prepa>vi</prepa><prepa>as</prepa>  <accent>e</accent>ius.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Ad dandam sciéntiam salútis  <highlight1><prepa>ple</prepa></highlight1><prepa>bi</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />in remissiónem pecca<highlight2><prepa>tó</prepa></highlight2><prepa>rum</prepa>  <prepa>e</prepa><accent>ó</accent>rum.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Per víscera misericórdiæ  <highlight1><prepa>De</prepa></highlight1><prepa>i</prepa>  <accent>nos</accent>tri <greStar /><br class="psalm" />in quibus visitávit nos ó<highlight2><prepa>ri</prepa></highlight2><prepa>ens</prepa>  <prepa>ex</prepa>  <accent>al</accent>to.</td></tr>

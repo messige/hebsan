@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 159 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 315 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -104,4 +104,4 @@ désormais ne pèche plus.<br />
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 159 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 315 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

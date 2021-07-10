@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.147</rubrique><br class="psalm" />
 <table id="psalm147">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Lauda Ierúsalem  <highlight1><accent>Dó</accent></highlight1>minum <greStar /><br class="psalm" />lauda Deum  <highlight1><prepa>tu</prepa></highlight1><prepa>um</prepa>  <accent>Si</accent>on.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Quóniam confortávit seras portárum tu<highlight2><accent>á</accent></highlight2>rum <greStar /><br class="psalm" />benedíxit fíliis  <highlight1><prepa>tu</prepa></highlight1><prepa>is</prepa>  <accent>in</accent> te.</td></tr>

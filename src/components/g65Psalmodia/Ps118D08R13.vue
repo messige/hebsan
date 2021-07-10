@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-8</rubrique><br class="psalm" />
 <table id="psalm118-8">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Pórtio  <highlight1><prepa>me</prepa></highlight1><prepa>a</prepa>  <accent>Dó</accent>mine <greStar />dixi custodíre legem tuam.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Deprecátus sum fáciem tuam in toto  <highlight1><prepa>cor</prepa></highlight1><prepa>de</prepa>  <accent>me</accent>o <greStar /><br />

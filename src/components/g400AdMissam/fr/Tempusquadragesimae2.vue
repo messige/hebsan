@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 156 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 309 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -73,4 +73,4 @@ jusqu'à ce que le Fils de l'homme ressuscite d'entre les morts.</ion-text></ion
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 156 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 309 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

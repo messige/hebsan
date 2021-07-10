@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 157 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 311 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -109,4 +109,4 @@ dans les siècles des siècles ils vous loueront.</ion-text></ion-col> </ion-row
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 157 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 311 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

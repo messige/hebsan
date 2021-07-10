@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 168 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 333 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -72,4 +72,4 @@ qui est monté au-dessus des cieux des cieux, à l’Orient !</ion-text></ion-co
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 168 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 333 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

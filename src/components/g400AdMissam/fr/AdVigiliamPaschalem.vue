@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 161 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 319 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Canticus</rubrique><br /><br />
@@ -119,4 +119,4 @@ Alleluia alleluia alleluia.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 161 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 319 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

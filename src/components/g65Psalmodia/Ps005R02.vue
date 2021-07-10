@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.5</rubrique><br class="psalm" />
 <table id="psalm005">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Verba mea áuribus pércipe  <highlight1><accent>Dó</accent></highlight1>mine <greStar /><br class="psalm" />intéllige clamó<highlight2><prepa>rem</prepa></highlight2>  <accent>me</accent>um.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Inténde voci oratiónis  <highlight1><accent>me</accent></highlight1>æ <greStar /><br class="psalm" />rex meus et De<highlight2><prepa>us</prepa></highlight2>  <accent>me</accent>us.</td></tr>
@@ -22,7 +22,7 @@ ego autem in multitúdine misericórdi<highlight2><prepa>æ</prepa></highlight2>
 <tr><td><rubrique>9</rubrique></td>
 <td>Dómine, deduc me in iustítia  <highlight1><accent>tu</accent></highlight1>a <greStar /><br />
 propter inimícos meos dírige in conspéctu meo vi<highlight2><prepa>am</prepa></highlight2>  <accent>tu</accent>am.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Quóniam non est in ore eórum  <highlight1><accent>vé</accent></highlight1>ritas <greStar /><br class="psalm" />cor eó<highlight2><prepa>rum</prepa></highlight2>  <accent>va</accent>num est.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Sepúlchrum patens est guttur eó<highlight2><prepa>rum</prepa></highlight2> <greDagger /><br class="psalm" />

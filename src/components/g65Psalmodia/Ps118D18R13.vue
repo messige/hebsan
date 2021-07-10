@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-18</rubrique><br class="psalm" />
 <table id="psalm118-18">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Ius<highlight2><prepa>tus</prepa></highlight2>  <prepa>es</prepa>,  <accent>Dó</accent>mine <greStar />et rectum iudícium tuum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Mandásti iustítiam testimó<highlight2><prepa>ni</prepa></highlight2><prepa>a</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />

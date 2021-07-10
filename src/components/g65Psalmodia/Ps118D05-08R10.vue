@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-5</rubrique>
 <table id="psalm118-5">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Legem pone mihi, Dómine, viam iustificatió<highlight2><prepa>num</prepa></highlight2>  <prepa>tu</prepa><accent>á</accent>rum <greStar /><br class="psalm" />et exquí<highlight2><prepa>ram</prepa></highlight2>  <prepa>e</prepa><prepa>am</prepa>  <accent>sem</accent>per.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Da mihi intelléctum et scrutábor  <highlight1><prepa>le</prepa></highlight1><prepa>gem</prepa>  <accent>tu</accent>am <greStar /><br class="psalm" />et custódiam illam in to<highlight2><prepa>to</prepa></highlight2>  <prepa>cor</prepa><prepa>de</prepa>  <accent>me</accent>o.</td></tr>
@@ -20,12 +20,12 @@
 <td>Ecce concupívi man<highlight2><prepa>dá</prepa></highlight2><prepa>ta</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />in æquitáte tua  <highlight1><prepa>vi</prepa></highlight1><prepa>ví</prepa><prepa>fi</prepa><accent>ca</accent> me.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spi<highlight2><prepa>rí</prepa></highlight2><prepa>tu</prepa><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><prepa>nunc</prepa></highlight1>  <prepa>et</prepa>  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæ<highlight2><prepa>cu</prepa></highlight2><prepa>ló</prepa><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
        <rubrique>Ps.118-6</rubrique>
 <table id="psalm118-6">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Et véniat super me misericórdia  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>,  <accent>Dó</accent>mine <greStar /><br />salutáre tuum secúndum e<highlight2><prepa>ló</prepa></highlight2><prepa>qui</prepa><prepa>um</prepa>  <accent>tu</accent>um.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Et respondébo exprobrántibus  <highlight1><prepa>mi</prepa></highlight1><prepa>hi</prepa>  <accent>ver</accent>bum <greStar /><br class="psalm" />quia sperávi in ser<highlight2><prepa>mó</prepa></highlight2><prepa>ni</prepa><prepa>bus</prepa>  <accent>tu</accent>is.</td></tr>
@@ -43,12 +43,12 @@
 <td>Et levávi manus meas ad mandáta tua  <highlight1><prepa>quæ</prepa></highlight1>  <prepa>di</prepa><accent>lé</accent>xi <greStar /><br class="psalm" />et exercébar in iustificati<highlight2><prepa>ó</prepa></highlight2><prepa>ni</prepa><prepa>bus</prepa>  <accent>tu</accent>is.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spi<highlight2><prepa>rí</prepa></highlight2><prepa>tu</prepa><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><prepa>nunc</prepa></highlight1>  <prepa>et</prepa>  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæ<highlight2><prepa>cu</prepa></highlight2><prepa>ló</prepa><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
         <rubrique>Ps.118-7</rubrique>
 <table id="psalm118-7">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Memor esto verbi tui  <highlight1><prepa>ser</prepa></highlight1><prepa>vo</prepa>  <accent>tu</accent>o <greStar /><br class="psalm" />in quo mi<highlight2><prepa>hi</prepa></highlight2>  <prepa>spem</prepa>  <prepa>de</prepa><accent>dí</accent>sti.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Hæc me consoláta est in humili<highlight2><prepa>tá</prepa></highlight2><prepa>te</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />quia elóquium tuum  <highlight1><prepa>vi</prepa></highlight1><prepa>vi</prepa><prepa>fi</prepa><accent>cá</accent>vit me.</td></tr>
@@ -66,12 +66,12 @@
 <td>Hæc fac<highlight2><prepa>ta</prepa></highlight2>  <prepa>est</prepa>  <accent>mi</accent>hi <greStar /><br class="psalm" />quia iustificatiónes tu<highlight2><prepa>as</prepa></highlight2>  <prepa>ex</prepa><prepa>qui</prepa><accent>sí</accent>vi.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spi<highlight2><prepa>rí</prepa></highlight2><prepa>tu</prepa><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><prepa>nunc</prepa></highlight1>  <prepa>et</prepa>  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæ<highlight2><prepa>cu</prepa></highlight2><prepa>ló</prepa><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
         <rubrique>Ps.118-8</rubrique>
 <table id="psalm118-8">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Pórtio  <highlight1><prepa>me</prepa></highlight1><prepa>a</prepa>  <accent>Dó</accent>mine <greStar /><br class="psalm" />dixi custodí<highlight2><prepa>re</prepa></highlight2>  <prepa>le</prepa><prepa>gem</prepa>  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Deprecátus sum fáciem tuam in toto  <highlight1><prepa>cor</prepa></highlight1><prepa>de</prepa>  <accent>me</accent>o <greStar /><br />miserére mei secúndum e<highlight2><prepa>ló</prepa></highlight2><prepa>qui</prepa><prepa>um</prepa>  <accent>tu</accent>um.</td></tr>
@@ -89,7 +89,7 @@
 <td>Misericórdia tua, Dómine, ple<highlight2><prepa>na</prepa></highlight2>  <prepa>est</prepa>  <accent>ter</accent>ra <greStar /><br class="psalm" />iustificatió<highlight2><prepa>nes</prepa></highlight2>  <prepa>tu</prepa><prepa>as</prepa>  <accent>do</accent>ce me.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spi<highlight2><prepa>rí</prepa></highlight2><prepa>tu</prepa><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><prepa>nunc</prepa></highlight1>  <prepa>et</prepa>  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæ<highlight2><prepa>cu</prepa></highlight2><prepa>ló</prepa><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
     </div>

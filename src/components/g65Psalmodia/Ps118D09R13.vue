@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-9</rubrique><br class="psalm" />
 <table id="psalm118-9">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Bonitátem fecísti cum servo  <highlight1><prepa>tu</prepa></highlight1><prepa>o</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />
     secúndum verbum tuum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

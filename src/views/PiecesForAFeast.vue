@@ -12,7 +12,12 @@
       <br class="psalm" />&nbsp;-&nbsp;<strong>{{feast}} - Anno {{feastAnnoABC}}</strong></p>
       <br />
     </ion-header> 
-     <component :is = "feastText" :annoABC = "feastAnnoABC" />
+    <template v-if="state.language == 'fr'">
+      <component :is = "feastTextFR" :annoABC = "feastAnnoABC" />
+    </template> 
+    <template   v-else-if="state.language == 'de'">
+      <component :is = "feastTextDE" :annoABC = "feastAnnoABC" />
+    </template>
     <p>&nbsp;</p>
   <ion-footer class="ion-no-border">
       <ion-toolbar>
@@ -27,26 +32,26 @@
 </template>
 
 <script lang="ts"> 
-  import { IonPage , IonContent , IonButton , IonIcon , IonBackButton } from '@ionic/vue';
-  import { defineComponent }      from 'vue';
-  import { defineAsyncComponent } from 'vue';  
-  import { useRoute }             from 'vue-router';
+  import { IonPage , IonContent , IonButton , IonIcon , IonBackButton } from '@ionic/vue' ;
+  import { defineComponent }      from 'vue' ;
+  import { defineAsyncComponent } from 'vue' ;  
+  import { useRoute }             from 'vue-router' ;
+  import { useState }             from '../store/store';
   export default defineComponent ( {
     name: 'PiecesForAFeast',
     components: { IonPage , IonContent , IonButton , IonIcon , IonBackButton } ,
     setup ( ) {
-    let route         = useRoute ( ) ;
-    let feastIndex    = route.params.feastIndex ;
-    let feast         = route.params.feast ;
-    let feastDate     = route.params.feastDate ; 
-    let feastAnnoABC  = route.params.feastAnnoABC ;  
-    let feastText     = defineAsyncComponent ( () =>                            
+    const route         = useRoute ( ) ;
+    const feastIndex    = route.params.feastIndex ;
+    const feast         = route.params.feast ;
+    const feastDate     = route.params.feastDate ; 
+    const feastAnnoABC  = route.params.feastAnnoABC ; 
+    const state = useState() ;
+    const feastTextFR     = defineAsyncComponent ( () =>                            
                         import ( '@/components/g400AdMissam/fr/' + feastIndex + '.vue' ) )  ;     
-    return { feastText , feast , feastDate , feastAnnoABC } ;
+    const feastTextDE     = defineAsyncComponent ( () =>                            
+                        import ( '@/components/g400AdMissam/de/' + feastIndex + '.vue' ) )  ; 
+    return { feastTextFR , feastTextDE , feast , feastDate , feastAnnoABC , state } ;
         }
     } )
 </script>
-   
-<style>
-@import '../components/css/officii.css';
-</style>

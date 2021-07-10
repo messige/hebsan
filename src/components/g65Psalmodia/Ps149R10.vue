@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.149</rubrique><br class="psalm" />
 <table id="psalm149">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Cantáte Dómino cán<highlight2><prepa>ti</prepa></highlight2><prepa>cum</prepa>  <accent>no</accent>vum <greStar /><br class="psalm" />laus eius in ecclé<highlight2><prepa>si</prepa></highlight2><prepa>a</prepa>  <prepa>sanc</prepa><accent>tó</accent>rum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Lætétur Israel in eo qui  <highlight1><prepa>fe</prepa></highlight1><prepa>cit</prepa>  <accent>e</accent>um <greStar /><br class="psalm" />et fílii Sion exúltent  <highlight1><prepa>in</prepa></highlight1>  <prepa>re</prepa><prepa>ge</prepa>  <accent>su</accent>o.</td></tr>

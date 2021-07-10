@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 95 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 187 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -68,4 +68,4 @@ ils ne furent pas trompés par rapport à leur désir.</ion-text></ion-col> </io
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 95 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 187 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

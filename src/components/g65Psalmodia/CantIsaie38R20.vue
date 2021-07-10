@@ -2,7 +2,7 @@
     <div>
         <rubrique>Canticum Isaiæ Prophetæ - Is 38</rubrique><br class="psalm" />
 <table id="CantIsaie38">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Ego dixi : in dimídio di<highlight2><accent>é</accent></highlight2>rum me<accent>ó</accent>rum <greStar /><br class="psalm" />vadam ad por<highlight2><prepa>tas</prepa></highlight2>  <accent>ín</accent>feri.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Quæsívi resíduum an<highlight2><accent>nó</accent></highlight2>rum me<accent>ó</accent>rum <greStar /><br />
@@ -26,7 +26,7 @@ meditábor ut  <highlight1><prepa>co</prepa></highlight1><accent>lúm</accent>ba
 <tr><td><rubrique>9</rubrique></td>
 <td>Dómine vim pátior res<highlight2><accent>pón</accent></highlight2>de  <accent>pro</accent> me <greStar /><br />
 quid dicam aut quid respondébit mihi cum ip<highlight2><prepa>se</prepa></highlight2>  <accent>fé</accent>cerit ?</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Recogitábo tibi omnes  <highlight1><accent>an</accent></highlight1>nos  <accent>me</accent>os <greStar /><br class="psalm" />in amaritúdine áni<highlight2><prepa>mæ</prepa></highlight2>  <accent>me</accent>æ.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Dómine, sic vívitur et in tálibus vita spíritus me<highlight2><prepa>i</prepa></highlight2> <greDagger /><br />corrípies me et vi<highlight2><accent>vi</accent></highlight2>fi<accent>cá</accent>bis me <greStar /><br class="psalm" />ecce in pace amaritúdo mea a<highlight2><prepa>ma</prepa></highlight2><accent>rís</accent>sima.</td></tr>

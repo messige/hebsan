@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 170 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 337 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -97,4 +97,4 @@ et annoncèrent les merveilles de Dieu, alléluia.</ion-text></ion-col> </ion-ro
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 170 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 337 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

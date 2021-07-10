@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-22</rubrique><br class="psalm" />
 <table id="psalm118-22">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Appropínquet deprecátio mea in conspéctu tuo,  <highlight1><accent>Dó</accent></highlight1>mine <greStarNoSpace /><br class="psalm" />
     iuxta elóquium tuum da mihi  <highlight1><prepa>in</prepa></highlight1><prepa>tel</prepa><accent>léc</accent>tum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -27,7 +27,7 @@
 quære servum tuum quia mandáta tua non  <highlight1><prepa>sum</prepa></highlight1>  <prepa>o</prepa><accent>blí</accent>tus.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>

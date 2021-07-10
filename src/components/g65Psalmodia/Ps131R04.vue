@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.131</rubrique><br class="psalm" />
 <table id="psalm131">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Meménto, Dómine,  <highlight1><accent>Da</accent></highlight1>vid <greStar /><br class="psalm" />et omnis mansue<highlight2><accent>tú</accent></highlight2>dinis  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Sicut iurávit  <highlight1><accent>Dó</accent></highlight1>mino <greStar /><br class="psalm" />votum vovit  <highlight1><accent>De</accent></highlight1>o  <accent>Ia</accent>cob.</td></tr>
@@ -21,7 +21,7 @@ tabernáculum  <highlight1><accent>De</accent></highlight1>o  <accent>Ia</accent
 <td>Surge, Dómine, in réquiem  <highlight1><accent>tu</accent></highlight1>am <greStar /><br class="psalm" />tu et arca sanctificati<highlight2><accent>ó</accent></highlight2>nis  <accent>tu</accent>æ.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Sacerdótes tui induántur ius<highlight2><accent>tí</accent></highlight2>tiam <greStar /><br class="psalm" />et sancti  <highlight1><accent>tu</accent></highlight1>i ex<accent>súl</accent>tent.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Propter David servum  <highlight1><accent>tu</accent></highlight1>um <greStar /><br class="psalm" />non avértas fáciem  <highlight1><accent>Chris</accent></highlight1>ti  <accent>tu</accent>i.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Iurávit Dóminus David veritátem et non frustrábitur  <highlight1><accent>e</accent></highlight1>am <greStar /><br />

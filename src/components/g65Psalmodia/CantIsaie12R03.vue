@@ -2,7 +2,7 @@
     <div>
         <rubrique>Canticum Isaiæ Prophetæ - Is 12</rubrique><br class="psalm" />
 <table id="CantIsaie">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Confitébor tibi Dómine quóniam irátus es  <highlight1><accent>mi</accent></highlight1>hi <greStar /><br />
 convérsus est furor tuus et conso<highlight2><prepa>lá</prepa></highlight2><prepa>tus</prepa>  <accent>es</accent> me.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

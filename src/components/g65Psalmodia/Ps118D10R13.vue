@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-10</rubrique><br class="psalm" />
 <table id="psalm118-10">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Manus tuæ fecérunt me et  <highlight1><prepa>plas</prepa></highlight1><prepa>ma</prepa><accent>vé</accent>runt me <greStar /><br />
     da mihi intelléctum et discam mandáta tua.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

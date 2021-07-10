@@ -41,7 +41,3 @@
       components: { IonPage , IonContent , IonButton , IonBackButton } ,
     }
 </script>
-
-<style>
-@import '../components/css/officii.css';
-</style>

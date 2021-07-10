@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 133 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 263 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -73,4 +73,4 @@ Et en effet, ma méditation, c’est vos révélations.</ion-text></ion-col> </i
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 133 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 263 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

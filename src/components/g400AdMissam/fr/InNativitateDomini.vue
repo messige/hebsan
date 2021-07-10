@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 146 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 289 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubriqueLarge><b>Missa nox</b></rubriqueLarge><br ><rubrique>Introitus</rubrique><br /><br />
@@ -99,4 +99,4 @@ Viderunt omnes fines terrae salutare Dei nostri.<ion-grid> <ion-row><ion-col>&nb
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 146 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 289 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

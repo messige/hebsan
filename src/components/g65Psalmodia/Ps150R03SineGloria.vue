@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.150</rubrique><br class="psalm" />
 <table id="psalm150">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Laudáte Dóminum in sanctis  <highlight1><accent>e</accent></highlight1>ius <greStar /><br class="psalm" />laudáte eum in firmaménto vir<highlight2><prepa>tú</prepa></highlight2><prepa>tis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Laudáte eum in virtútibus  <highlight1><accent>e</accent></highlight1>ius <greStar /><br />laudáte eum secúndum multitúdinem magnitú<highlight2><prepa>di</prepa></highlight2><prepa>nis</prepa>  <accent>e</accent>ius.</td></tr>

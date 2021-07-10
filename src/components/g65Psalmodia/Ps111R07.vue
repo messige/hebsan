@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.111</rubrique><br class="psalm" />
 <table id="psalm111">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Beátus vir qui  <highlight1><prepa>ti</prepa></highlight1><prepa>met</prepa>  <accent>Dó</accent>minum <greStar /><br class="psalm" />in mandátis eius volet  <highlight1><accent>ni</accent></highlight1>mis.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Potens in terra erit  <highlight1><prepa>se</prepa></highlight1><prepa>men</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />generátio rectórum benedi<highlight2><accent>cé</accent></highlight2>tur.</td></tr>
@@ -28,7 +28,7 @@ cornu eius exaltábitur in  <highlight1><accent>gló</accent></highlight1>ria.</
 <td>Peccátor vidébit et irascé<highlight2><prepa>tur</prepa></highlight2> <greDagger /><br class="psalm" />
 déntibus suis fremet  <highlight1><prepa>et</prepa></highlight1>  <prepa>ta</prepa><accent>bés</accent>cet <greStar /><br />
 desidérium peccatórum per<highlight2><accent>í</accent></highlight2>bit.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spirítui  <highlight1><accent>Sanc</accent></highlight1>to.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><prepa>nunc</prepa></highlight1>  <prepa>et</prepa>  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæculórum.  <highlight1><accent>A</accent></highlight1>men.</td></tr>

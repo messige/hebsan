@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-4</rubrique><br class="psalm" />
 <table id="psalm118-4">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Adhǽsit paviménto  <highlight1><accent>á</accent></highlight1>nima  <accent>me</accent>a <greStar /><br class="psalm" />
     vivífica me secúndum  <highlight1><prepa>ver</prepa></highlight1><prepa>bum</prepa>  <accent>tu</accent>um.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -26,7 +26,7 @@
     cum dilatá<highlight2><prepa>sti</prepa></highlight2>  <prepa>cor</prepa>  <accent>me</accent>um.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória  <highlight1><accent>Pa</accent></highlight1>tri et  <accent>Fí</accent>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><accent>nunc</accent></highlight1> et  <accent>sem</accent>per <greStar /><br class="psalm" />
     t in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>

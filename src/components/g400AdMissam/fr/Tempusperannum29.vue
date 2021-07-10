@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 134 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 265 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -57,4 +57,4 @@ qu’il est admirable votre nom, sur la terre entière !</ion-text></ion-col> </
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 134 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 265 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

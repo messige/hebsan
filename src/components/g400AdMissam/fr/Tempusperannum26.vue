@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 131 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 259 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <template v-if="annoABC == 'A'"><rubrique>Introitus</rubrique><br /><br />
@@ -121,4 +121,4 @@ c’est elle qui m’a consolé dans ma médiocrité.</ion-text></ion-col> </ion
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 131 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 259 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

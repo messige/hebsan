@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-16</rubrique><br class="psalm" />
 <table id="psalm118-16">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Feci iudícium  <highlight1><prepa>et</prepa></highlight1>  <prepa>ius</prepa><accent>tí</accent>tiam <greStar /><br class="psalm" />
     non tradas me calumniántibus me.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 155 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 307 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -99,4 +99,4 @@ d’un bouclier t’enveloppera sa vérité.</ion-text></ion-col> </ion-row></io
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 155 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 307 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

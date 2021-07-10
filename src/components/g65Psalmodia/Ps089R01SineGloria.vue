@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.89</rubrique><br class="psalm" />
 <table id="psalm050">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Dómine, refúgium factus es  <highlight1><accent>no</accent></highlight1>bis <greStar /><br class="psalm" />a generatióne in genera<highlight2><prepa>ti</prepa></highlight2><accent>ó</accent>nem.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Priúsquam montes fíerent aut formarétur terra et  <highlight1><accent>or</accent></highlight1>bis <greStar /><br />
@@ -24,7 +24,7 @@ véspere decidat, indúret et  <highlight1><prepa>a</prepa></highlight1><accent>
 sǽculum nostrum in illuminatióne vul<highlight2><prepa>tus</prepa></highlight2>  <accent>tu</accent>i.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Quóniam omnes dies nostri defe<highlight2><accent>cé</accent></highlight2>runt <greStar /><br class="psalm" />et in ira tua  <highlight1><prepa>de</prepa></highlight1><accent>fé</accent>cimus.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Anni nostri sicut aránea medita<highlight2><accent>bún</accent></highlight2>tur <greStar /><br />
 dies annórum nostrórum in ipsis, septuagín<highlight2><prepa>ta</prepa></highlight2>  <accent>an</accent>ni.</td></tr>
 <tr><td><rubrique>11</rubrique></td>

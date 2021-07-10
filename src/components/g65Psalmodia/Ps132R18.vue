@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.132</rubrique><br class="psalm" />
 <table id="psalm132">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Ecce quam bonum et  <highlight1><accent>quam</accent></highlight1> iu<accent>cún</accent>dum <greStar /><br class="psalm" />habitáre fra<highlight2><prepa>tres</prepa></highlight2>  <prepa>in</prepa>  <accent>u</accent>num.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Sicut ungu<highlight2><accent>én</accent></highlight2>tum in  <accent>cá</accent>pite <greStar /><br class="psalm" />quod descéndit in barbam,  <highlight1><prepa>bar</prepa></highlight1><prepa>bam</prepa>  <accent>Á</accent>aron.</td></tr>

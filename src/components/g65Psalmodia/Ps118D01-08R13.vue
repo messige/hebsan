@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-1</rubrique>
 <table id="psalm118-1">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Beáti immaculá<highlight2><prepa>ti</prepa></highlight2>  <prepa>in</prepa>  <accent>vi</accent>a <greStar />qui ámbulant in lege Dómini.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Beáti qui scrutántur testimó<highlight2><prepa>ni</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />
@@ -26,7 +26,7 @@
 </table>
         <rubrique>Ps.118-2</rubrique>
 <table id="psalm118-2">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>In quo córrigit adolescéntior  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>su</accent>am ? <greStar /><br class="psalm" />
     in custodiéndo sermónes tuos.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -49,7 +49,7 @@
 </table>
         <rubrique>Ps.118-3</rubrique>
 <table id="psalm118-3">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Retríbue servo tuo, vi<highlight2><prepa>ví</prepa></highlight2><prepa>fi</prepa><accent>ca</accent> me <greStar /><br class="psalm" />
     et custódiam sermónes tuos.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -76,7 +76,7 @@
 </table>
         <rubrique>Ps.118-4</rubrique>
 <table id="psalm118-4">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Adhǽsit paviménto á<highlight2><prepa>ni</prepa></highlight2><prepa>ma</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />
     vivífica me secúndum verbum tuum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -101,7 +101,7 @@
 </table>
         <rubrique>Ps.118-5</rubrique>
 <table id="psalm118-5">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Legem pone mihi, Dómine, viam iustificatió<highlight2><prepa>num</prepa></highlight2>  <prepa>tu</prepa><accent>á</accent>rum <greStar /><br class="psalm" />
     et exquíram eam semper.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -125,7 +125,7 @@
 </table>
         <rubrique>Ps.118-6</rubrique>
 <table id="psalm118-6">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Et véniat super me misericórdia  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />
     salutáre tuum secúndum elóquium tuum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -150,7 +150,7 @@
 </table>
         <rubrique>Ps.118-7</rubrique>
 <table id="psalm118-7">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Memor esto verbi tui  <highlight1><prepa>ser</prepa></highlight1><prepa>vo</prepa>  <accent>tu</accent>o <greStar />in quo mihi spem dedísti.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Hæc me consoláta est in humili<highlight2><prepa>tá</prepa></highlight2><prepa>te</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />
@@ -175,7 +175,7 @@
 </table>
         <rubrique>Ps.118-8</rubrique>
 <table id="psalm118-8">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Pórtio  <highlight1><prepa>me</prepa></highlight1><prepa>a</prepa>  <accent>Dó</accent>mine <greStar />dixi custodíre legem tuam.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Deprecátus sum fáciem tuam in toto  <highlight1><prepa>cor</prepa></highlight1><prepa>de</prepa>  <accent>me</accent>o <greStar /><br />

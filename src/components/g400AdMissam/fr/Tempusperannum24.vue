@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 129 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 255 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -184,4 +184,4 @@ pour un seul pécheur qui fait pénitence.</ion-text></ion-col> </ion-row></ion-
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 129 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 255 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

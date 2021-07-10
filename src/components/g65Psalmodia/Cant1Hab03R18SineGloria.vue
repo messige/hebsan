@@ -2,7 +2,7 @@
     <div>
         <rubrique>Canticum habacuc (Hab.3,2-19)</rubrique><br class="psalm" />
 <table id="1Sam2">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Dómine, audívi auditi<highlight2><accent>ó</accent></highlight2>nem  <accent>tu</accent>am <greStar /><highlight1><prepa>et</prepa></highlight1>  <accent>tí</accent>mui.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Dómine  <highlight1><accent>o</accent></highlight1>pus  <accent>tu</accent>um <greStar /><br class="psalm" />in médio annórum viví<highlight2><prepa>fi</prepa></highlight2><prepa>ca</prepa>  <accent>il</accent>lud.</td></tr>
@@ -20,7 +20,7 @@
 <td>Et egrediétur diábolus ante  <highlight1><accent>pe</accent></highlight1>des  <accent>e</accent>ius <greStar /><br class="psalm" />stetit et men<highlight2><prepa>sus</prepa></highlight2>  <prepa>est</prepa>  <accent>ter</accent>ram.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Aspéxit et dis<highlight2><accent>sól</accent></highlight2>vit  <accent>gen</accent>tes <greStar /><br class="psalm" />et contríti sunt  <highlight1><prepa>mon</prepa></highlight1><prepa>tes</prepa>  <accent>sǽ</accent>culi.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Incurváti sunt  <highlight1><accent>col</accent></highlight1>les  <accent>mun</accent>di <greStar /><br class="psalm" />ab itinéribus æterni<highlight2><prepa>tá</prepa></highlight2><prepa>tis</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Pro iniquitáte vidi tentória  <highlight1><accent>Æ</accent></highlight1>thi<accent>ó</accent>piæ <greStar /><br class="psalm" />turbabúntur pelles  <highlight1><prepa>ter</prepa></highlight1><prepa>ræ</prepa>  <accent>Má</accent>dian.</td></tr>

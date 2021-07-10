@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 138 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 273 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -70,4 +70,4 @@ vous me comblerez de joie avec votre visage.</ion-text></ion-col> </ion-row></io
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 138 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 273 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

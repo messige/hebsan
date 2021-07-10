@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 163 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 323 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -48,4 +48,4 @@ et ne sois plus incrédule, mais croyant.</ion-text></ion-col> </ion-row></ion-g
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 163 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 323 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

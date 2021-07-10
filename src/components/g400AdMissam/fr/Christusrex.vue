@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 141 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 279 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -64,4 +64,4 @@ le Seigneur bénira son peuple dans la paix.</ion-text></ion-col> </ion-row></io
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 141 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 279 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

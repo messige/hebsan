@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-15</rubrique><br class="psalm" />
 <table id="psalm118-15">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Iníquos ó<highlight2><prepa>di</prepa></highlight2><prepa>o</prepa>  <accent>há</accent>bui <greStar />et legem tuam diléxi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Adiútor et suscéptor  <highlight1><prepa>me</prepa></highlight1><prepa>us</prepa>  <accent>es</accent> tu <greStar />in verbum tuum supersperávi.</td></tr>

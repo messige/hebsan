@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.142</rubrique><br class="psalm" />
 <table id="psalm142">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Dómine, exáudi oratiónem me<highlight2><prepa>am</prepa></highlight2> <greDagger /><br />
 áuribus pércipe obsecratiónem meam in veri<highlight2><prepa>tá</prepa></highlight2><prepa>te</prepa>  <accent>tu</accent>a <greStar /><br class="psalm" />
 exáudi me in  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>  <prepa>ius</prepa><accent>tí</accent>tia.</td></tr>
@@ -27,7 +27,7 @@ in factis mánuum tuá<highlight2><prepa>rum</prepa></highlight2>  <prepa>me</pr
 <td>Non avértas fáciem  <highlight1><prepa>tu</prepa></highlight1><prepa>am</prepa>  <accent>a</accent> me <greStar /><br class="psalm" />et símilis ero descendén<highlight2><prepa>ti</prepa></highlight2><prepa>bus</prepa>  <prepa>in</prepa>  <accent>la</accent>cum.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Audítam fac mihi mane misericór<highlight2><prepa>di</prepa></highlight2><prepa>am</prepa>  <accent>tu</accent>am <greStar /><br class="psalm" />quia  <highlight1><prepa>in</prepa></highlight1>  <prepa>te</prepa>  <prepa>spe</prepa><accent>rá</accent>vi.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Notam fac mihi viam  <highlight1><prepa>in</prepa></highlight1>  <prepa>qua</prepa>  <accent>ám</accent>bulem <greStar /><br class="psalm" />quia ad te levávi  <highlight1><prepa>á</prepa></highlight1><prepa>ni</prepa><prepa>mam</prepa>  <accent>me</accent>am.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Éripe me de inimícis meis, Dómine,ad  <highlight1><prepa>te</prepa></highlight1>  <prepa>con</prepa><accent>fú</accent>gi <greStar /><br />

@@ -2,7 +2,7 @@
     <div>
         <rubrique>Canticum trium puerorum - Dn 3, 57-88 et 56</rubrique><br class="psalm" />
 <table id="CantTriumPuerorum">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Benedícite, ómnia ópera  <highlight1><accent>Dó</accent></highlight1>mini,  <accent>Dó</accent>mino <greStar /><br class="psalm" />laudáte et superexaltáte  <highlight1><accent>e</accent></highlight1>um in  <accent>sǽ</accent>cula.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Benedícite, ángeli  <highlight1><accent>Dó</accent></highlight1>mini,  <accent>Dó</accent>mino <greStar /><br class="psalm" />benedícite,  <highlight1><accent>cæ</accent></highlight1>li  <accent>Dó</accent>mino.</td></tr>
@@ -20,7 +20,7 @@
 <td>Benedícite, glácies et  <highlight1><accent>ni</accent></highlight1>ves,  <accent>Dó</accent>mino <greStar /><br class="psalm" />benedícite, noctes et  <highlight1><accent>di</accent></highlight1>es,  <accent>Dó</accent>mino.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Benedícite, lux et  <highlight1><accent>té</accent></highlight1>nebræ,  <accent>Dó</accent>mino <greStar /><br class="psalm" />benedícite, fúlgura et  <highlight1><accent>nu</accent></highlight1>bes,  <accent>Dó</accent>mino.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Benedícat  <highlight1><accent>ter</accent></highlight1>ra  <accent>Dó</accent>minum <greStar /><br class="psalm" />laudet et superexáltet  <highlight1><accent>e</accent></highlight1>um in  <accent>sǽ</accent>cula.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Benedícite, montes et  <highlight1><accent>col</accent></highlight1>les,  <accent>Dó</accent>mino <greStar /><br />

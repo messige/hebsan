@@ -2,7 +2,7 @@
     <div>
         <rubrique>Nunc dimittis</rubrique><br class="psalm" />
 <table id="NuncDimitis">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Nunc dimíttis servum  <highlight1><prepa>tu</prepa></highlight1><prepa>um</prepa>,  <accent>Dó</accent>mine, <greStar />secúndum verbum tuum in pace.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Quia vidérunt ó<highlight2><prepa>cu</prepa></highlight2><prepa>li</prepa>  <accent>me</accent>i <greStar />salutáre tuum.</td></tr>

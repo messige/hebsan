@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.63</rubrique><br class="psalm" />
 <table id="psalm063">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Exáudi, Deus, oratiónem  <highlight1><accent>me</accent></highlight1>am cum  <accent>dé</accent>precor <greStar /><br class="psalm" />a timóre inimíci éripe  <highlight1><accent>á</accent></highlight1>nimam  <accent>me</accent>am.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Protexísti me a convéntu  <highlight1><accent>ma</accent></highlight1>li<accent>gnán</accent>tium <greStar /><br class="psalm" />a multitúdine operántium i<highlight2><accent>ni</accent></highlight2>qui<accent>tá</accent>tem.</td></tr>
@@ -23,7 +23,7 @@ ut sagíttent in occúltis im<highlight2><accent>ma</accent></highlight2>cu<acce
 et infirmátæ sunt contra eos  <highlight1><accent>lin</accent></highlight1>guæ e<accent>ó</accent>rum.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Conturbáti sunt omnes qui vi<highlight2><accent>dé</accent></highlight2>bant  <accent>e</accent>os <greStar /><br class="psalm" />et tímuit  <highlight1><accent>om</accent></highlight1>nis  <accent>ho</accent>mo.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Et annuntiavérunt  <highlight1><accent>ó</accent></highlight1>pera  <accent>De</accent>i <greStar /><br class="psalm" />et facta eius in<highlight2><accent>tel</accent></highlight2>le<accent>xé</accent>runt.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Lætábitur iustus in Dómino et spe<highlight2><accent>rá</accent></highlight2>bit in  <accent>e</accent>o <greStar /><br class="psalm" />et laudabúntur omnes  <highlight1><accent>rec</accent></highlight1>ti  <accent>cor</accent>de.</td></tr>

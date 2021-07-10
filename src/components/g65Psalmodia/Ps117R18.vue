@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.117</rubrique><br class="psalm" />
 <table id="psalm117">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Confitémini Dómino  <highlight1><accent>quó</accent></highlight1>niam  <accent>bo</accent>nus <greStar /><br class="psalm" />
     quóniam in sǽculum misericór<highlight2><prepa>di</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -29,7 +29,7 @@
 <tr><td><rubrique>9</rubrique></td>
 <td>Bonum est spe<highlight2><accent>rá</accent></highlight2>re in  <accent>Dó</accent>mino <greStar /><br class="psalm" />
     quam speráre  <highlight1><prepa>in</prepa></highlight1>  <prepa>prin</prepa><accent>cí</accent>pibus.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Omnes gentes cir<highlight2><accent>cu</accent></highlight2>i<accent>é</accent>runt me <greStar /><br class="psalm" />
 et in nómine Dómini quia ultus  <highlight1><prepa>sum</prepa></highlight1>  <prepa>in</prepa>  <accent>e</accent>os.</td></tr>
 <tr><td><rubrique>11</rubrique></td>

@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-5</rubrique><br class="psalm" />
 <table id="psalm118-5">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Legem pone mihi, Dómine, viam iustificatió<highlight2><prepa>num</prepa></highlight2>  <prepa>tu</prepa><accent>á</accent>rum <greStar /><br class="psalm" />
     et exquíram eam semper.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

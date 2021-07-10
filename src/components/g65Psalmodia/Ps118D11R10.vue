@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-11</rubrique><br class="psalm" />
 <table id="psalm118-11">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Defécit in salutáre tuum á<highlight2><prepa>ni</prepa></highlight2><prepa>ma</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />et in verbum tuum  <highlight1><prepa>su</prepa></highlight1><prepa>per</prepa><prepa>spe</prepa><accent>rá</accent>vi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Defecérunt óculi mei in eló<highlight2><prepa>qui</prepa></highlight2><prepa>um</prepa>  <accent>tu</accent>um <greStar /><br class="psalm" />dicéntes quando con<highlight2><prepa>so</prepa></highlight2><prepa>lá</prepa><prepa>be</prepa><accent>ris</accent> me ?</td></tr>
@@ -20,7 +20,7 @@
 <td>Secúndum misericórdiam tuam vi<highlight2><prepa>ví</prepa></highlight2><prepa>fi</prepa><accent>ca</accent> me <greStar /><br class="psalm" />et custódiam testimóni<highlight2><prepa>a</prepa></highlight2>  <prepa>o</prepa><prepa>ris</prepa>  <accent>tu</accent>i.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Pa<highlight2><prepa>tri</prepa></highlight2>  <prepa>et</prepa>  <accent>Fí</accent>lio <greStar />et Spi<highlight2><prepa>rí</prepa></highlight2><prepa>tu</prepa><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><prepa>nunc</prepa></highlight1>  <prepa>et</prepa>  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæ<highlight2><prepa>cu</prepa></highlight2><prepa>ló</prepa><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>
     </div>

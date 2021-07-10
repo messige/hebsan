@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 147 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 291 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -74,4 +74,4 @@ Ne saviez-vous pas qu’il me faut être aux affaires de mon Père ?</ion-text><
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 147 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 291 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

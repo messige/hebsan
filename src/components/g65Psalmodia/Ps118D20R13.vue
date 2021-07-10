@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-20</rubrique><br class="psalm" />
 <table id="psalm118-20">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Vide humilitátem meam et  <highlight1><prepa>é</prepa></highlight1><prepa>ri</prepa><accent>pe</accent> me <greStar /><br class="psalm" />
     quia legem tuam non sum oblítus.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

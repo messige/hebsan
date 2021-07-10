@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-4</rubrique><br class="psalm" />
 <table id="psalm118-4">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Adhǽsit paviménto á<highlight2><prepa>ni</prepa></highlight2><prepa>ma</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />
     vivífica me secúndum verbum tuum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

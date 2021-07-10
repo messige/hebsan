@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-15</rubrique><br class="psalm" />
 <table id="psalm118-15">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Iníquos ódio  <highlight1><accent>há</accent></highlight1>bui <greStar />et legem tuam  <highlight1><prepa>di</prepa></highlight1><accent>lé</accent>xi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Adiútor et suscéptor meus  <highlight1><accent>es</accent></highlight1> tu <greStar /><br class="psalm" />
@@ -26,7 +26,7 @@
     a iudíciis enim tu<highlight2><prepa>is</prepa></highlight2>  <accent>tí</accent>mui.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirítu<highlight2><prepa>i</prepa></highlight2>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæculó<highlight2><prepa>rum</prepa></highlight2>.  <accent>A</accent>men.</td></tr>
 </table>

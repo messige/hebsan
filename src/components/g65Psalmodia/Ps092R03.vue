@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.92</rubrique><br class="psalm" />
 <table id="psalm092">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Dóminus regnávit decórem in<highlight2><accent>dú</accent></highlight2>tus est <greStar /><br />
 indútus est Dóminus fortitúdinem  <highlight1><prepa>et</prepa></highlight1>  <prepa>præ</prepa><accent>cín</accent>xit se.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 145 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 287 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -53,4 +53,4 @@ et on lui donnera le nom d'Emmanuel.</ion-text></ion-col> </ion-row></ion-grid>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 145 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 287 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

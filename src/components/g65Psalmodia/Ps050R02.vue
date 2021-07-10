@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.50</rubrique><br class="psalm" />
 <table id="psalm050">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Miserére mei,  <highlight1><accent>De</accent></highlight1>us <greStar /><br class="psalm" />
     secúndum magnam misericórdi<highlight2><prepa>am</prepa></highlight2>  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -29,7 +29,7 @@
 <tr><td><rubrique>9</rubrique></td>
 <td>Audítui meo dabis gáudium et læ<highlight2><accent>tí</accent></highlight2>tiam <greStar /><br class="psalm" />
     et exsultábunt ossa humi<highlight2><prepa>li</prepa></highlight2><accent>á</accent>ta.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Avérte fáciem tuam a peccátis  <highlight1><accent>me</accent></highlight1>is <greStar /><br class="psalm" />
     et omnes iniquitátes me<highlight2><prepa>as</prepa></highlight2>  <accent>de</accent>le.</td></tr>
 <tr><td><rubrique>11</rubrique></td>

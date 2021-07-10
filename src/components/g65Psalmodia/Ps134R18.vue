@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.134</rubrique><br class="psalm" />
 <table id="psalm134">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Laudáte  <highlight1><accent>no</accent></highlight1>men  <accent>Dó</accent>mini <greStar /><br class="psalm" />laudáte  <highlight1><prepa>ser</prepa></highlight1><prepa>vi</prepa>  <accent>Dó</accent>minum.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Qui statis in  <highlight1><accent>do</accent></highlight1>mo  <accent>Dó</accent>mini <greStar /><br class="psalm" />in átriis domus  <highlight1><prepa>De</prepa></highlight1><prepa>i</prepa>  <accent>nos</accent>tri.</td></tr>
@@ -23,7 +23,7 @@ qui percússit primogénita Ægýpti ab hómine us<highlight2><prepa>que</prepa>
 <tr><td><rubrique>9</rubrique></td>
 <td>Et misit signa et prodígia in médio  <highlight1><accent>tu</accent></highlight1>i Æ<accent>gýp</accent>te <greStar /><br />
 in Pharaónem et in omnes  <highlight1><prepa>ser</prepa></highlight1><prepa>vos</prepa>  <accent>e</accent>ius.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Qui percússit  <highlight1><accent>gen</accent></highlight1>tes  <accent>mul</accent>tas <greStar /><br class="psalm" />et occídit  <highlight1><prepa>re</prepa></highlight1><prepa>ges</prepa>  <accent>for</accent>tes.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Sehon regem Amorrhæórum et Og  <highlight1><accent>re</accent></highlight1>gem  <accent>Ba</accent>san <greStar /><br class="psalm" />et ómnia  <highlight1><prepa>re</prepa></highlight1><prepa>gna</prepa>  <accent>Chá</accent>naan.</td></tr>

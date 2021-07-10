@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.35</rubrique><br class="psalm" />
 <table id="psalm35">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Dixit iniustus ut delínquat in  <highlight1><prepa>se</prepa></highlight1><prepa>met</prepa><accent>í</accent>pso <greStar /><br class="psalm" />non est timor Dei ante  <highlight1><prepa>ó</prepa></highlight1><prepa>cu</prepa><prepa>los</prepa>  <accent>e</accent>ius.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Quóniam dolóse egit in con<highlight2><prepa>spéc</prepa></highlight2><prepa>tu</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />ut inveniátur iníquitas  <highlight1><prepa>e</prepa></highlight1><prepa>ius</prepa>  <prepa>ad</prepa>  <accent>ó</accent>dium.</td></tr>
@@ -23,7 +23,7 @@ quemádmodum multiplicásti misericórdi<highlight2><prepa>am</prepa></highlight
 <td>Fílii  <highlight1><prepa>au</prepa></highlight1><prepa>tem</prepa>  <accent>hó</accent>minum <greStar /><br class="psalm" />in tégmine alárum tu<highlight2><prepa>á</prepa></highlight2><prepa>rum</prepa>  <prepa>spe</prepa><accent>rá</accent>bunt.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Inebriabúntur ab ubertáte  <highlight1><prepa>do</prepa></highlight1><prepa>mus</prepa>  <accent>tu</accent>æ <greStar /><br class="psalm" />et torrénte voluptátis tuæ  <highlight1><prepa>po</prepa></highlight1><prepa>tá</prepa><prepa>bis</prepa>  <accent>e</accent>os.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Quóniam apud te  <highlight1><prepa>est</prepa></highlight1>  <prepa>fons</prepa>  <accent>vi</accent>tæ <greStar /><br class="psalm" />et in lúmine tuo vi<highlight2><prepa>dé</prepa></highlight2><prepa>bi</prepa><prepa>mus</prepa>  <accent>lu</accent>men.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Præténde misericórdiam tuam sci<highlight2><prepa>én</prepa></highlight2><prepa>ti</prepa><accent>bus</accent> te <greStar /><br />

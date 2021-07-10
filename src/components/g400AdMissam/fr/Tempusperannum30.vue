@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 135 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 267 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -73,4 +73,4 @@ et dans le nom du Seigneur notre Dieu, nous serons glorifiés.</ion-text></ion-c
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 135 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 267 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

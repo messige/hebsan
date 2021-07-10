@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 128 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 253 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -72,4 +72,4 @@ vous tous qui à l’entour de lui apportez des présents,<br />
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 128 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 253 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

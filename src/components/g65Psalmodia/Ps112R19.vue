@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.112</rubrique><br class="psalm" />
 <table id="psalm112">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Laudáte  <highlight1><accent>pú</accent></highlight1>eri  <accent>Dó</accent>minum <greStar /><br class="psalm" />laudáte  <highlight1><accent>no</accent></highlight1>men  <accent>Dó</accent>mini.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Sit nomen Dómini  <highlight1><accent>be</accent></highlight1>ne<accent>díc</accent>tum <greStar /><br class="psalm" />ex hoc nunc et  <highlight1><accent>us</accent></highlight1>que in  <accent>sǽ</accent>culum .</td></tr>
@@ -21,7 +21,7 @@ et humília réspicit in cælo  <highlight1><accent>et</accent></highlight1> in 
 <td>Qui habitáre facit stéri<highlight2><accent>lem</accent></highlight2> in  <accent>do</accent>mo <greStar /><br class="psalm" />matrem fili<highlight2><accent>ó</accent></highlight2>rum læ<accent>tán</accent>tem.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória  <highlight1><accent>Pa</accent></highlight1>tri et  <accent>Fí</accent>lio <greStar />et Spi<highlight2><accent>rí</accent></highlight2>tui  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><accent>nunc</accent></highlight1> et  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæcu<highlight2><accent>ló</accent></highlight2>rum.  <accent>A</accent>men.</td></tr>
 </table>
     </div>

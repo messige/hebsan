@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 158 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 313 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -107,4 +107,4 @@ il était perdu, et il est retrouvé.</ion-text></ion-col> </ion-row></ion-grid>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 158 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 313 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

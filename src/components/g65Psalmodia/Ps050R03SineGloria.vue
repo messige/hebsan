@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.50</rubrique><br class="psalm" />
 <table id="psalm050">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Miserére mei,  <highlight1><accent>De</accent></highlight1>us <greStar /><br class="psalm" />secúndum magnam misericór<highlight2><prepa>di</prepa></highlight2><prepa>am</prepa>  <accent>tu</accent>am.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Et secúndum multitúdinem miseratiónum tu<highlight2><accent>á</accent></highlight2>rum <greStar /><br class="psalm" />dele iniqui<highlight2><prepa>tá</prepa></highlight2><prepa>tem</prepa>  <accent>me</accent>am.</td></tr>
@@ -22,7 +22,7 @@ ut iustificéris in sermónibus tuis et vincas cum  <highlight1><prepa>iu</prepa
 <td>Aspérges me hysópo et mun<highlight2><accent>dá</accent></highlight2>bor <greStar /><br class="psalm" />lavábis me et super nivem  <highlight1><prepa>de</prepa></highlight1><prepa>al</prepa><accent>bá</accent>bor.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Audítui meo dabis gáudium et læ<highlight2><accent>tí</accent></highlight2>tiam <greStar /><br class="psalm" />et exsultábunt ossa hu<highlight2><prepa>mi</prepa></highlight2><prepa>li</prepa><accent>á</accent>ta.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Avérte fáciem tuam a peccátis  <highlight1><accent>me</accent></highlight1>is <greStar /><br class="psalm" />et omnes iniquitátes  <highlight1><prepa>me</prepa></highlight1><prepa>as</prepa>  <accent>de</accent>le.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Cor mundum crea in me  <highlight1><accent>De</accent></highlight1>us <greStar /><br class="psalm" />et spíritum rectum ínnova in viscé<highlight2><prepa>ri</prepa></highlight2><prepa>bus</prepa>  <accent>me</accent>is.</td></tr>

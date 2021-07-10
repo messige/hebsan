@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-13</rubrique><br class="psalm" />
 <table id="psalm118-13">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Quómodo diléxi legem  <highlight1><prepa>tu</prepa></highlight1><prepa>am</prepa>,  <accent>Dó</accent>mine <greStar /><br class="psalm" />
     tota die meditátio mea est.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

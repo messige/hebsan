@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 124 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 245 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -50,4 +50,4 @@ car il a fait pour moi de grandes choses, celui qui est puissant.</ion-text></io
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 124 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 245 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

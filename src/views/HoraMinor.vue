@@ -56,7 +56,6 @@
   import { useRoute }             from 'vue-router';
   import { defineAsyncComponent } from 'vue';
   import { home , arrowBackSharp }  from 'ionicons/icons';
-  import { ref }                  from 'vue';
   import ImageDisplay             from '@/components/ImageDisplay.vue';
   import { defineComponent }      from 'vue';
   
@@ -64,10 +63,10 @@
     name:      'HoraMinor',
     components: { ImageDisplay , IonPage , IonContent , IonButton , IonIcon , IonBackButton } ,
     setup () {
-      let route    = useRoute () ;
-      let feast    = route.params.feast ;
-      let office   = route.params.office ;
-      let arrayFeasts = ref ( [
+      const route    = useRoute () ;
+      const feast    = route.params.feast ;
+      const office   = route.params.office ;
+      let arrayFeasts = [
         { title   : 'Domenica in Palmis', 
           titleFr : 'Dimanche des Rameaux' ,
           arrayFeastOffices : [
@@ -193,13 +192,13 @@
               antiphona   : null ,
               tonus       : require ( "../assets/g70Tonus/Tonus13Fc.jpg") ,
               psalm       : defineAsyncComponent ( () =>                            
-                            import ( '@/components/g65Psalmodia/Ps118D20-22R03.vue' ) ) } ] } ] ) ;
-      let feastNum        = +feast ;
-      let officeNum       = +office / 3 ; 
-      let feastCurrent    = arrayFeasts.value [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
-      let feastOffice     = feastCurrent?.arrayFeastOffices ;
-      let officeCurrent   = feastOffice [officeNum-1] ;
-      let arrayTemporumLiturgicorum  = [
+                            import ( '@/components/g65Psalmodia/Ps118D20-22R03.vue' ) ) } ] } ] ;
+      const feastNum        = +feast ;
+      const officeNum       = +office / 3 ; 
+      const feastCurrent    = arrayFeasts [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
+      const feastOffice     = feastCurrent?.arrayFeastOffices ;
+      const officeCurrent   = feastOffice [officeNum-1] ;
+      const arrayTemporumLiturgicorum  = [
         { inAdiutorium: null ,
           benedicamus:  null } ,
         { inAdiutorium: defineAsyncComponent(() =>                            
@@ -212,7 +211,7 @@
       if ( feastNum < 5 ) { i = 1 ; }   /* Quadragesimae not in Triduum */
       else if  ( feastNum == 8 ) {  i = 2 ; }    /* No hores minores for Dom. Resurectionis but just in case ...  */
       let officeTemporumLiturgicorum  = arrayTemporumLiturgicorum [i] ; 
-      let arrayOffices  = [
+      const arrayOffices  = [
         { title   : 'Ad tertiam', 
           hymnus  : require ( "../assets/g60Hymnus/HymDeiFide.jpg" ) ,
           respons : require ( "../assets/g55Responsum/RepErueAFramea.jpg" ) ,
@@ -225,7 +224,7 @@
           hymnus  : require ( "../assets/g60Hymnus/HymTernisTerHoris.jpg" ) ,
           respons : require ( "../assets/g55Responsum/RepNePerdas.jpg" ),
           versus  : require ( "../assets/g85Versus/VersEripeMeSimplex.jpg" ) } ] ; 
-      let OfficeCurrent   = arrayOffices [ officeNum - 1 ] ;   // office is 3 OR 6 OR 9 while index in table is 0 OR 1 OR 2
+      const OfficeCurrent   = arrayOffices [ officeNum - 1 ] ;   // office is 3 OR 6 OR 9 while index in table is 0 OR 1 OR 2
       let OfficeTitle     = OfficeCurrent?.title ;
       let officeHymnus    = OfficeCurrent?.hymnus ;
       let officeRespons   = OfficeCurrent?.respons ;
@@ -234,7 +233,7 @@
           officeHymnus    = null ; 
           officeRespons   = null ;
           officeVersus    = null }  
-      let arrayCapitulum  = [
+      const arrayCapitulum  = [
         null ,
         defineAsyncComponent(() =>                            
           import ( '@/components/g75Lectio/CapPhilCh02V05.vue' ) ) ,      // Dom. in Palmis Ad Tertiam
@@ -260,7 +259,7 @@
       else  if ( feastNum > 4  && feastNum < 8 )  { i =  feastNum + 2 }       
       let officeCapitulum      = arrayCapitulum [i] ;
 
-      let arrayOratio  = [
+      const arrayOratio  = [
         null ,
         defineAsyncComponent(() => 
           import ( '@/components/g80Oratio/OraQuiHumanoGeneri.vue' ) ) ,      // Dom. in Palmis                          
@@ -276,11 +275,6 @@
       if ( feastNum  < 5 ) { i = feastNum ; }
       else if (  feastNum > 4  && feastNum < 8 ) {  i = 5 ; }      
       let officeOratio      = arrayOratio [i] ;
-/*       let arrayKyrie  = [ null ,
-                          require ( "../assets/g95InOrdineOfficii/KyrieSimplex.jpg" ) ] ; 
-      i = 0 ;
-      if ( feastNum >4 )  { i = 1 ; }
-      let officeKyrie  = arrayKyrie [i] ; */
       let arrayFinalHora  = [
         { kyrie:    require ( "../assets/g95InOrdineOfficii/KyrieSimplex.jpg" )  , 
           pater:    defineAsyncComponent ( () => 
@@ -301,7 +295,3 @@
     }
   })
 </script>
-
-<style>
-@import '../components/css/officii.css';
-</style>

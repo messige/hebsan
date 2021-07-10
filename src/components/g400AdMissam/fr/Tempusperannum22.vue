@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 127 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 251 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -76,4 +76,4 @@ Dieu, ne m’abandonnez pas.</ion-text></ion-col> </ion-row></ion-grid></templat
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 127 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 251 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

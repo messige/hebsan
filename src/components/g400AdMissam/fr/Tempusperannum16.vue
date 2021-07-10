@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 120 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 237 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -84,4 +84,4 @@ qui ne lui sera pas enlevée, pour l'éternité.</ion-text></ion-col> </ion-row>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 120 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 237 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

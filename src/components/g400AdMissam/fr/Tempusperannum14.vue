@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 118 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 351 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -59,4 +59,4 @@ Gustate et videte, quoniam suavis est Dominus.<ion-grid> <ion-row><ion-col>&nbsp
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 118 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 351 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

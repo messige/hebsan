@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-11</rubrique><br class="psalm" />
 <table id="psalm118-11">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Defécit in salutáre tuum á<highlight2><prepa>ni</prepa></highlight2><prepa>ma</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />
     et in verbum tuum supersperávi.</td></tr>
 <tr><td><rubrique>2</rubrique></td>

@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-1</rubrique><br class="psalm" />
 <table id="psalm118-1">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Beáti immaculá<highlight2><prepa>ti</prepa></highlight2>  <prepa>in</prepa>  <accent>vi</accent>a <greStar />qui ámbulant in lege Dómini.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Beáti qui scrutántur testimó<highlight2><prepa>ni</prepa></highlight2><prepa>a</prepa>  <accent>e</accent>ius <greStar /><br class="psalm" />

@@ -1,8 +1,7 @@
 ﻿<template>
-    <div>
-        <rubrique>Ps.42</rubrique><br class="psalm" />
-<table id="psalm042">
-<tr><td><rubrique>1</rubrique></td>
+    <rubrique>Ps.42</rubrique><br class="psalm" />
+<table>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Iúdica me, Deus, et discérne causam meam de  <highlight1><accent>gen</accent></highlight1>te non  <accent>sanc</accent>ta <greStar /><br class="psalm" />ab hómine iníquo et dolóso  <highlight1><accent>é</accent></highlight1>ru<accent>e</accent> me.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Quia tu es Deus fortitúdo me<highlight2><prepa>a</prepa></highlight2> <greDagger /><br class="psalm" />quare me  <highlight1><accent>re</accent></highlight1>pu<accent>lí</accent>sti ? <greStar /><br class="psalm" />et quare tristis incédo dum afflígit me  <highlight1><accent>i</accent></highlight1>ni<accent>mí</accent>cus ?</td></tr>
@@ -18,7 +17,5 @@
 <td>Glória  <highlight1><accent>Pa</accent></highlight1>tri et  <accent>Fí</accent>lio <greStar />et Spi<highlight2><accent>rí</accent></highlight2>tui  <accent>Sanc</accent>to.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><accent>nunc</accent></highlight1> et  <accent>sem</accent>per <greStar /><br class="psalm" />et in sǽcula sæcu<highlight2><accent>ló</accent></highlight2>rum.  <accent>A</accent>men.</td></tr>
-
 </table>
-    </div>
 </template>

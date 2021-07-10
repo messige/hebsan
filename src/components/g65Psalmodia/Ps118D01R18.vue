@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-1</rubrique><br class="psalm" />
 <table id="psalm118-1">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Beáti immacu<highlight2><accent>lá</accent></highlight2>ti in  <accent>vi</accent>a <greStar />qui ámbulant in  <highlight1><prepa>le</prepa></highlight1><prepa>ge</prepa>  <accent>Dó</accent>mini.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Beáti qui scrutántur testi<highlight2><accent>mó</accent></highlight2>nia  <accent>e</accent>ius <greStar /><br class="psalm" />
@@ -26,7 +26,7 @@ in viis eius am<highlight2><prepa>bu</prepa></highlight2><prepa>la</prepa><accen
     non me derelínquas  <highlight1><prepa>us</prepa></highlight1><prepa>que</prepa><accent>quá</accent>que.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória  <highlight1><accent>Pa</accent></highlight1>tri et  <accent>Fí</accent>lio <greStar />et Spirí<highlight2><prepa>tu</prepa></highlight2><prepa>i</prepa>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et  <highlight1><accent>nunc</accent></highlight1> et  <accent>sem</accent>per <greStar /><br class="psalm" />
     et in sǽcula sæcu<highlight2><prepa>ló</prepa></highlight2><prepa>rum</prepa>.  <accent>A</accent>men.</td></tr>
 </table>

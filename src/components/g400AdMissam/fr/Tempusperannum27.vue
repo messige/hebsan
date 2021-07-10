@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 132 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 261 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 
 <rubrique>Introitus</rubrique><br /><br />
@@ -69,4 +69,4 @@ venez à mon secours, Seigneur mon Dieu.</ion-text></ion-col> </ion-row></ion-gr
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 132 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 261 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

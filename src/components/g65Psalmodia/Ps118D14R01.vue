@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-14</rubrique><br class="psalm" />
 <table id="psalm118-14">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Lucérna pédibus meis verbum  <highlight1><accent>tu</accent></highlight1>um <greStar /><br class="psalm" />
     et lumen sémi<highlight2><prepa>tis</prepa></highlight2>  <accent>me</accent>is</td></tr>
 <tr><td><rubrique>2</rubrique></td>
@@ -27,7 +27,7 @@
     propter retribu<highlight2><prepa>ti</prepa></highlight2><accent>ó</accent>nem.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Glória Patri et  <highlight1><accent>Fí</accent></highlight1>lio <greStar />et Spirítu<highlight2><prepa>i</prepa></highlight2>  <accent>Sanc</accent>to.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Sicut erat in princípio et nunc et  <highlight1><accent>sem</accent></highlight1>per <greStar /><br class="psalm" />
     et in sǽcula sæculó<highlight2><prepa>rum</prepa></highlight2>.  <accent>A</accent>men.</td></tr>
 </table>

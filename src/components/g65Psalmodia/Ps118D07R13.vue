@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.118-7</rubrique><br class="psalm" />
 <table id="psalm118-7">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Memor esto verbi tui  <highlight1><prepa>ser</prepa></highlight1><prepa>vo</prepa>  <accent>tu</accent>o <greStar />in quo mihi spem dedísti.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Hæc me consoláta est in humili<highlight2><prepa>tá</prepa></highlight2><prepa>te</prepa>  <accent>me</accent>a <greStar /><br class="psalm" />

@@ -2,7 +2,7 @@
     <div>
         <rubrique>Canticum Annae (1Reg.2,1-10)</rubrique><br class="psalm" />
 <table id="1Sam2">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Exsultávit cor  <highlight1><accent>me</accent></highlight1>um in  <accent>Dó</accent>mino <greStar /><br class="psalm" />et exaltátum est cornu meum in  <highlight1><accent>De</accent></highlight1>o  <accent>me</accent>o.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Dilatátum est os meum super ini<highlight2><accent>mí</accent></highlight2>cos  <accent>me</accent>os <greStar /><br class="psalm" />quia lætáta sum in salu<highlight2><accent>tá</accent></highlight2>ri  <accent>tu</accent>o.</td></tr>
@@ -24,7 +24,7 @@ et ipsi præparántur cogi<highlight2><accent>ta</accent></highlight2>ti<accent>
 <td>Donec stérilis  <highlight1><accent>pé</accent></highlight1>perit  <accent>plú</accent>rimos <greStar /><br class="psalm" />et quæ multos habébat fílios  <highlight1><accent>in</accent></highlight1>fir<accent>má</accent>ta est.</td></tr>
 <tr><td><rubrique>9</rubrique></td>
 <td>Dóminus mortíficat  <highlight1><accent>et</accent></highlight1> vi<accent>ví</accent>ficat <greStar /><br class="psalm" />dedúcit ad ínferos  <highlight1><accent>et</accent></highlight1> re<accent>dú</accent>cit.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Dóminus páuperem  <highlight1><accent>fa</accent></highlight1>cit et  <accent>di</accent>tat <greStar /><br class="psalm" />humíli<highlight2><accent>at</accent></highlight2> et  <accent>sú</accent>blevat.</td></tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Súscitat de púlve<highlight2><accent>re</accent></highlight2> e<accent>gé</accent>num <greStar /><br class="psalm" />et de stércore  <highlight1><accent>é</accent></highlight1>levat  <accent>páu</accent>perem.</td></tr>

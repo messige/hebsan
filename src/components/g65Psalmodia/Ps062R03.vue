@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.62</rubrique><br class="psalm" />
 <table id="psalm062">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Deus, Deus  <highlight1><accent>me</accent></highlight1>us <greStar /><br class="psalm" />ad te de  <highlight1><prepa>lu</prepa></highlight1><prepa>ce</prepa>  <accent>ví</accent>gilo.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Sitívit in te ánima  <highlight1><accent>me</accent></highlight1>a <greStar /><br class="psalm" />quam multiplíciter tibi  <highlight1><prepa>ca</prepa></highlight1><prepa>ro</prepa>  <accent>me</accent>a.</td></tr>
@@ -28,7 +28,7 @@ me suscépit déx<highlight2><prepa>te</prepa></highlight2><prepa>ra</prepa>  <a
 <td>Ipsi vero in vanum quæsiérunt ánimam me<highlight2><prepa>am</prepa></highlight2> <greDagger /><br class="psalm"/>
 introibunt in inferióra  <highlight1><accent>ter</accent></highlight1>ræ <greStar /><br />
 tradéntur in manus gládii, partes vúl<highlight2><prepa>pi</prepa></highlight2><prepa>um</prepa>  <accent>e</accent>runt.</td></tr>
-<tr><td><rubrique>10</rubrique></td>
+<tr><td><rubrique>10&nbsp;</rubrique></td>
 <td>Rex vero lætábitur in De<highlight2><prepa>o</prepa></highlight2> <greDagger /><br class="psalm" />
 laudabúntur omnes qui iurant in  <highlight1><accent>e</accent></highlight1>o <greStar /><br />
 quia obstrúctum est os loquénti<highlight2><prepa>um</prepa></highlight2>  <prepa>i</prepa><accent>ní</accent>qua.</td></tr>

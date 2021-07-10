@@ -2,7 +2,7 @@
     <div>
         <rubrique>Ps.128</rubrique><br class="psalm" />
 <table id="psalm128">
-<tr><td><rubrique>1</rubrique></td>
+<tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Sæpe expugnavérunt me a iuventúte  <highlight1><accent>me</accent></highlight1>a <greStar /><br class="psalm" />dicat  <highlight1><prepa>nunc</prepa></highlight1>  <accent>Is</accent>rael :</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Sæpe expugnavérunt me a iuventúte  <highlight1><accent>me</accent></highlight1>a <greStar /><br class="psalm" />étenim non potué<highlight2><prepa>runt</prepa></highlight2>  <accent>mi</accent>hi.</td></tr>
