@@ -1,7 +1,8 @@
 {
-  "name": "blank",
+  "name": "hebsan",
   "integrations": {
     "capacitor": {}
   },
-  "type": "vue"
+  "type": "vue",
+  "id": "b07a4f37"
 }

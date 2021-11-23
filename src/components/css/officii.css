@@ -1,0 +1,142 @@
+    @media (min-width: 1025px)  {         
+        #container {
+            position: absolute;
+            left: 15%;
+            right: 20%;
+        }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {          
+        #container {
+            position: absolute;
+            left: 20%;
+            right: 2%;
+ 	        width: 66%;
+        }
+    }
+    @media (max-width:768px)  {           /* Device = Tablets, Ipads (portrait) */
+        #container {
+            position: absolute;
+            left: 1%;
+            right: 1%;
+        }
+    }
+
+    @media screen and (prefers-color-scheme: light) {
+        tr.trad:nth-child(even) {
+          background-color: #F2F2F2 ;
+          color: #5260ff ;                  /*  ion-color-tertiary */
+        }
+        tr:nth-child(even) {
+            background-color: #F2F2F2 ;
+        }        
+        tr:hover {
+          background-color: #999999;
+       }
+    }
+    @media screen and (prefers-color-scheme: dark ){
+        tr:nth-child(even) {
+          background-color: #4b4b4b;
+        }
+        tr:hover {
+          background-color: #888888;
+       }
+    }
+    th, td {
+        padding: 2px;
+        vertical-align:top;  
+    }  
+    highlight1:before { 
+      content:  var(--off-highlight1, "\00a0"); 
+    }
+    highlight2:before {
+        content: var(--off-highlight2, "-");
+    }
+    #container rubrique {
+        font-size: 12px;
+        line-height: 14px;
+        color: rgb(156, 26, 101);
+        text-align: left;
+    }
+    #container rubpad {
+        font-size: 12px;
+        padding-left: 100px;
+        color: rgb(156, 26, 101);
+    }
+    greStar:before {
+        font-size: 20px;
+        content: '\00a0\2217\0a0';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    greStarNoSpace:before {
+        font-size: 20px;
+        content: '\2217';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    greDagger:before {
+        font-size: 20px;
+        content: '\2020\00a0\00a0';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    #container a {
+        text-decoration: none;
+    }
+    #container rougeliturgique {
+       color: rgb(156, 26, 101);
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    @media (min-width:769px)  { 
+     .img08 {
+        max-width: 62%;
+        height: auto;
+     }
+    }
+    @media (max-width:768px)  {           /* Device = Tablets, Ipads (portrait) */
+     .img08 {
+        max-width: 100%;
+        height: auto;
+     }
+    }
+    img.bottom {
+        vertical-align: bottom;
+    }
+    vers:before {
+        font-size: 20px;
+        content: '\2123 .';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    resp:before {
+        font-size: 20px;
+        content: '\211F . ';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    downarrow:before {
+        font-size: 20px;
+        content: '\00A0\00A0\00A0\21D3\00A0\00A0\00A0';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    uparrow:before {
+        font-size: 20px;
+        content: '\00A0\00A0\00A0\21D1\00A0\00A0\00A0';
+        color: rgb(156, 26, 101);
+        font-weight: bold;
+    }
+    accent {
+        font-weight: bold;
+    }
+    prepa {
+        font-style: italic ;
+    }
+    @media only screen and (min-width: 1025px) { /* The element will be hidden if the screen is 1024px wide or more */
+        br.psalm {
+            display: none;
+        }
+    }

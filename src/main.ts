@@ -20,13 +20,17 @@ import '@ionic/vue/css/text-transformation.css';
 import '@ionic/vue/css/flex-utils.css';
 import '@ionic/vue/css/display.css';
 
+import { stateSymbol, createState } from './store/store';
+
 /* Theme variables */
 import './theme/variables.css';
 
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
-  
+
+app.provide(stateSymbol, createState()); 
+
 router.isReady().then(() => {
   app.mount('#app');
 });
