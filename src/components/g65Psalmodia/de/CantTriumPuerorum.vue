@@ -3,11 +3,11 @@
         <rubrique>Canticum trium puerorum - Dn 3, 57-88 et 56</rubrique>
 <table id="CantTriumPuerorum">
 <tr><td><rubrique>1&nbsp;</rubrique></td>
-<td>Benedícite, ómnia ópera  Dómini,  Dómino <greStar /><br class="psalm" />laudáte et superexaltáte  eum in  sǽcula.</td></tr>
+<td>Benedícite, ómnia ópera  Dómini,  Dómino <greStar /><br class="smallScreen" />laudáte et superexaltáte  eum in  sǽcula.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>2</rubrique></td>
-<td>Benedícite, ángeli  Dómini,  Dómino <greStar /><br class="psalm" />benedícite,  cæli  Dómino.</td></tr>
+<td>Benedícite, ángeli  Dómini,  Dómino <greStar /><br class="smallScreen" />benedícite,  cæli  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>3</rubrique></td>
@@ -15,31 +15,31 @@
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Benedícite, sol, et  luna,  Dómino <greStar /><br class="psalm" />benedícite, stellæ  cæli,  Dómino.</td></tr>
+<td>Benedícite, sol, et  luna,  Dómino <greStar /><br class="smallScreen" />benedícite, stellæ  cæli,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Benedícite, omnis imber  et ros,  Dómino <greStar /><br class="psalm" />benedícite, omnes spíritus  Dei,  Dómino.</td></tr>
+<td>Benedícite, omnis imber  et ros,  Dómino <greStar /><br class="smallScreen" />benedícite, omnes spíritus  Dei,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>Benedícite, ignis et  æstus,  Dómino <greStar /><br class="psalm" />benedícite, frigus et  æstus,  Dómino.</td></tr>
+<td>Benedícite, ignis et  æstus,  Dómino <greStar /><br class="smallScreen" />benedícite, frigus et  æstus,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Benedícite, rores et pruína,  Dómino <greStar /><br class="psalm" />benedícite, gelu et  frigus,  Dómino.</td></tr>
+<td>Benedícite, rores et pruína,  Dómino <greStar /><br class="smallScreen" />benedícite, gelu et  frigus,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>8</rubrique></td>
-<td>Benedícite, glácies et  nives,  Dómino <greStar /><br class="psalm" />benedícite, noctes et  dies,  Dómino.</td></tr>
+<td>Benedícite, glácies et  nives,  Dómino <greStar /><br class="smallScreen" />benedícite, noctes et  dies,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Benedícite, lux et  ténebræ,  Dómino <greStar /><br class="psalm" />benedícite, fúlgura et  nubes,  Dómino.</td></tr>
+<td>Benedícite, lux et  ténebræ,  Dómino <greStar /><br class="smallScreen" />benedícite, fúlgura et  nubes,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>10&nbsp;</rubrique></td>
-<td>Benedícat  terra  Dóminum <greStar /><br class="psalm" />laudet et superexáltet  eum in  sǽcula.</td></tr>
+<td>Benedícat  terra  Dóminum <greStar /><br class="smallScreen" />laudet et superexáltet  eum in  sǽcula.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>11</rubrique></td>
@@ -48,7 +48,7 @@ benedícite, univérsa germinántia in  terra,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>12</rubrique></td>
-<td>Benedícite,  fontes,  Dómino <greStar /><br class="psalm" />benedícite, mária et  flúmina,  Dómino.</td></tr>
+<td>Benedícite,  fontes,  Dómino <greStar /><br class="smallScreen" />benedícite, mária et  flúmina,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>13</rubrique></td>
@@ -56,15 +56,15 @@ benedícite, univérsa germinántia in  terra,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>14</rubrique></td>
-<td>Benedícite, omnes béstiæ et  pécora,  Dómino <greStar /><br class="psalm" />benedícite, fílii  hóminum,  Dómino.</td></tr>
+<td>Benedícite, omnes béstiæ et  pécora,  Dómino <greStar /><br class="smallScreen" />benedícite, fílii  hóminum,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>15</rubrique></td>
-<td>Benedícat  Israel  Dóminum <greStar /><br class="psalm" />laudet et superexáltet  eum in  sǽcula.</td></tr>
+<td>Benedícat  Israel  Dóminum <greStar /><br class="smallScreen" />laudet et superexáltet  eum in  sǽcula.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>16</rubrique></td>
-<td>Benedícite, sacerdótes  Dómini,  Dómino <greStar /><br class="psalm" />benedícite, servi  Dómini,  Dómino.</td></tr>
+<td>Benedícite, sacerdótes  Dómini,  Dómino <greStar /><br class="smallScreen" />benedícite, servi  Dómini,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>17</rubrique></td>
@@ -72,7 +72,7 @@ benedícite, univérsa germinántia in  terra,  Dómino.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>18</rubrique></td>
-<td>Benedícite, Ananía, Azaría, Mísael,  Dómino <greStar /><br class="psalm" />laudáte et superexaltáte  eum in  sǽcula.</td></tr>
+<td>Benedícite, Ananía, Azaría, Mísael,  Dómino <greStar /><br class="smallScreen" />laudáte et superexaltáte  eum in  sǽcula.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>German translation</td></tr>
 <tr><td><rubrique>19</rubrique></td>

@@ -9,25 +9,25 @@ indútus est Dóminus fortitúdinem  et  præcínxit se.</td></tr>
 <td>Der HERR ist König, bekleidet mit Hoheit;<greStar /><br />
 der HERR hat sich bekleidet und mit Macht umgürtet.</td></tr>
 <tr><td><rubrique>2</rubrique></td>
-<td>Étenim firmávit orbem  terræ <greStar /><br class="psalm" />qui non  commovébitur.</td></tr>
+<td>Étenim firmávit orbem  terræ <greStar /><br class="smallScreen" />qui non  commovébitur.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
-<td>Ja, der Erdkreis ist fest gegründet,<greStar /><br class="psalm" />nie wird er wanken.</td></tr>
+<td>Ja, der Erdkreis ist fest gegründet,<greStar /><br class="smallScreen" />nie wird er wanken.</td></tr>
 <tr><td><rubrique>3</rubrique></td>
-<td>Paráta sedes tua  ex tunc <greStar /><br class="psalm" />a sǽculo  tu es.</td></tr>
+<td>Paráta sedes tua  ex tunc <greStar /><br class="smallScreen" />a sǽculo  tu es.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
-<td>Dein Thron steht fest von Anbeginn,<greStar /><br class="psalm" />du bist seit Ewigkeit.</td></tr>
+<td>Dein Thron steht fest von Anbeginn,<greStar /><br class="smallScreen" />du bist seit Ewigkeit.</td></tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>Elevavérunt flúmina,  Dómine <greStar /><br class="psalm" />elevavérunt flúmina  vocem  suam.</td></tr>
+<td>Elevavérunt flúmina,  Dómine <greStar /><br class="smallScreen" />elevavérunt flúmina  vocem  suam.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
-<td>Fluten erhoben, HERR,<greStar /><br class="psalm" />Fluten erhoben ihr Tosen, </td></tr>
+<td>Fluten erhoben, HERR,<greStar /><br class="smallScreen" />Fluten erhoben ihr Tosen, </td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Elevavérunt flúmina flúctus  suos <greStar /><br class="psalm" />a vócibus aquárum  multárum.</td></tr>
+<td>Elevavérunt flúmina flúctus  suos <greStar /><br class="smallScreen" />a vócibus aquárum  multárum.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
-<td>Fluten erheben ihr Brausen.<greStar /><br class="psalm" />Mehr als das Tosen vieler Wasser, </td></tr>
+<td>Fluten erheben ihr Brausen.<greStar /><br class="smallScreen" />Mehr als das Tosen vieler Wasser, </td></tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>Mirábiles elatiónes  maris <greStar /><br class="psalm" />mirábilis in  altis  Dóminus.</td></tr>
+<td>Mirábiles elatiónes  maris <greStar /><br class="smallScreen" />mirábilis in  altis  Dóminus.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
-<td>gewaltiger als die Brandung des Meeres<greStar /><br class="psalm" />ist gewaltig der HERR in der Höhe.</td></tr>
+<td>gewaltiger als die Brandung des Meeres<greStar /><br class="smallScreen" />ist gewaltig der HERR in der Höhe.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
 <td>Testimónia tua credibília facta sunt  nimis <greStar /><br />
 domum tuam decet sanctitúdo, Dómine, in longitúdine  diérum.</td></tr>

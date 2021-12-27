@@ -1,0 +1,20 @@
+    export interface Translation {
+        original:   string ;
+        trans:      string ;
+        target:     string ;
+    }
+    const  arrayTranslations: Translation[]   = [
+    {   original :  "massOf" ,
+        trans :     "Messe du " ,
+        target :    "fr" } ,
+    {   original :  "back" ,
+        trans :     "Retour"  ,
+        target :    "fr" } ,
+    {   original :  "massOf" ,
+        trans :     "DE - Messe du " ,
+        target :    "de" } ,
+    {   original :  "back" ,
+        trans :     "DE - Retour"  ,
+        target :    "de" } ]      
+
+export const getTranslation = (num: number) => arrayTranslations [num] ;

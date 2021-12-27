@@ -3,7 +3,7 @@
     <rubrique>Ps.137</rubrique>
 <table id="psalm137">
 <tr><td><rubrique>1&nbsp;</rubrique></td>
-<td>Confitébor tibi, Dómine, in toto corde meo <greStar /><br class="psalm" />quóniam audísti verba oris mei.</td></tr>
+<td>Confitébor tibi, Dómine, in toto corde meo <greStar /><br class="smallScreen" />quóniam audísti verba oris mei.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Je t'acclamerai, Seigneur, de tout mon cœur car tu as entendu les paroles venant de ma bouche</td>
 </tr>
@@ -21,22 +21,22 @@ quóniam magníficásti super omne nomen sanctum tuum.</td></tr>
   parce que tu as fait une promesse magnifique, au-dessus de toutes les gloires de ton nom.</td>
 </tr>
 <tr><td><rubrique>4</rubrique></td>
-<td>In quacúmque die invocávero te exáudi me <greStar /><br class="psalm" />multiplicábis me in ánima mea virtútem.</td></tr>
+<td>In quacúmque die invocávero te exáudi me <greStar /><br class="smallScreen" />multiplicábis me in ánima mea virtútem.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Le jour où je t’ai invoqué, tu m’as exaucé, tu as rendu à mon âme la force et le courage.</td>
 </tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Confiteántur tibi, Dómine, omnes reges terræ <greStar /><br class="psalm" />quia audiérunt ómnia verba oris tui.</td></tr>
+<td>Confiteántur tibi, Dómine, omnes reges terræ <greStar /><br class="smallScreen" />quia audiérunt ómnia verba oris tui.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Tous les rois de la terre te loueront, Seigneur, quand ils auront appris les oracles de ta bouche.</td>
 </tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>Et cantent in viis Dómini <greStar /><br class="psalm" />quóniam magna est glória Dómini.</td></tr>
+<td>Et cantent in viis Dómini <greStar /><br class="smallScreen" />quóniam magna est glória Dómini.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Ils célébreront les voies de le Seigneur, car la gloire de le Seigneur est grande.</td>
 </tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Quóniam excélsus Dóminus et humília réspicit <greStar /><br class="psalm" />et alta a longe cognóscit.</td></tr>
+<td>Quóniam excélsus Dóminus et humília réspicit <greStar /><br class="smallScreen" />et alta a longe cognóscit.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Car le Seigneur est élevé, et il voit les humbles, et il connaît de loin les orgueilleux.</td>
 </tr>
@@ -49,7 +49,7 @@ et salvum me fecit déxtera tua.</td></tr>
   tu étends ta main pour arrêter la colère de mes ennemis, et ta droite ma sauve.</td>
 </tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Dóminus retríbuet pro me <greDagger /><br class="psalm" />
+<td>Dóminus retríbuet pro me <greDagger /><br class="smallScreen" />
 Dómine, misericórdia tua in sǽculum <greStar /><br />
 ópera mánuum tuárum ne despícias.</td></tr>
 <tr class="trad"><td>&nbsp;</td>

@@ -2,7 +2,8 @@
   <ion-item v-if="menuItem" :routerLink="menuItem.href" :detail="false" class="list-item">
     <div :class="!menuItem.read ? 'dot dot-unread' : 'dot'"></div>
     <ion-label class="ion-text-wrap">
-      <h2>{{ menuItem.label }}</h2>
+      <h2>{{ menuItem.label }} <ion-icon :icon="chevronForward"></ion-icon></h2>
+      <ion-note>{{ menuItem.explanation }}</ion-note>
     </ion-label>
   </ion-item>
 </template>
@@ -48,7 +49,7 @@ export default defineComponent({
   width: 95%;
 }
 
-.list-item ion-icon {
+.list-item ion- {
   color: #c9c9ca;
 }
 

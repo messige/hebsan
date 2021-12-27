@@ -1,973 +1,2075 @@
 <template>
-<ion-page>
-  <ion-content id="container">
+  <ion-page>
     <ion-header class="ion-no-border">
       <ion-toolbar>
-        <ion-button
-          @click="$router.push({ name: 'OfficeList', params: { feast: feast }})">
+        <ion-button shape="round" size="small" strong href="/">
+          <ion-icon :icon="home"></ion-icon>
+        </ion-button>
+        &nbsp; &nbsp;
+        <ion-button shape="round" size="small" strong href="/Sancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
-        <ion-title>{{feastCurrent.title}} - {{feastCurrent.titleFr}}
-            <br class="psalm" />&nbsp;-&nbsp;{{OfficeTitle}}</ion-title>  
-      </ion-toolbar> 
+        <br />
+        <br />
+      </ion-toolbar>
+    </ion-header>
+    <ion-content id="container">
+      <p>&nbsp;</p>
       <br />
-    </ion-header>  
-    <component :is="officeInAdiutorium.inAdiutorium" />
-    <ion-grid><ion-row>
-      <ion-col>&nbsp;</ion-col>
-      <ion-col size="11"><ion-text color="tertiary">
-        <component    :is   = "officeInAdiutorium.inAdiutoriumTR" />
-    </ion-text></ion-col></ion-row></ion-grid>
-    <component :is="officeInAdiutoriumFin.inAdiutoriumFin"/>
-        <ion-grid><ion-row>
-        <ion-col>&nbsp;</ion-col>
-        <ion-col size="11"><ion-text color="tertiary">
-          <component    :is  = "officeInAdiutoriumFin.inAdiutoriumFinTR" />
-      </ion-text></ion-col></ion-row></ion-grid>    
-    <p>
+      <ion-title
+        >{{ feastCurrent.title }} - {{ feastCurrent.titleTR }} <br class="smallScreen" />
+        - {{ officeCurrent.officeName }}</ion-title
+      >
+      <br />
+      <component :is="officeInAdiutorium.inAdiutorium" />
+      <ion-grid
+        ><ion-row>
+          <ion-col>&nbsp;</ion-col>
+          <ion-col size="11"
+            ><ion-text color="tertiary">
+              <component
+                :is="officeInAdiutorium.inAdiutoriumTR"
+              /> </ion-text></ion-col></ion-row
+      ></ion-grid>
+      <component :is="officeInAdiutoriumFin.inAdiutoriumFin" />
+      <ion-grid
+        ><ion-row>
+          <ion-col>&nbsp;</ion-col>
+          <ion-col size="11"
+            ><ion-text color="tertiary">
+              <component
+                :is="officeInAdiutoriumFin.inAdiutoriumFinTR"
+              /> </ion-text></ion-col></ion-row
+      ></ion-grid>
       <rubrique>Antiphonae</rubrique><br />
       <template v-for="(thisAnt, antID) in officeAnt" :key="antID">
-        <component    :is   = "thisAnt.ant" />
-        <ion-grid><ion-row>
-        <ion-col>&nbsp;</ion-col>
-        <ion-col size="11"><ion-text color="tertiary">
-          <component    :is   = "thisAnt.antTR" />
-      </ion-text></ion-col></ion-row></ion-grid>
-      <component    :is   = "thisAnt.psalm" /><br />
-      </template></p>
-    <p> <component :is="officeCapitulum.capitulum"/>
-        <ion-grid><ion-row>
-          <ion-col>&nbsp;</ion-col>
-          <ion-col size="11"><ion-text color="tertiary">
-            <component :is="officeCapitulum.capitulumTR"/>
-        </ion-text></ion-col></ion-row></ion-grid>  
-    </p> 
-    <template v-if="officeRespons.respons != null">
-      <p> <rubrique>Responsum</rubrique><br />
-        <component :is="officeRespons.respons"/>
-        <ion-grid><ion-row>
-          <ion-col>&nbsp;</ion-col>
-          <ion-col size="11"><ion-text color="tertiary">
-            <component :is="officeRespons.responsTR"/>
-        </ion-text></ion-col></ion-row></ion-grid>  
-      </p>
-    </template>
-    <template v-if="officeHymnus != null">
-      <p><rubrique>Hymnus</rubrique><br />
-        <component :is="officeHymnus"/>
-        <component :is="officeDoxology"/></p>
-    </template>
-    <p><rubrique>Versus</rubrique><br />
-      <component :is="officeVersus.versus"/>
-        <ion-grid><ion-row>
-          <ion-col>&nbsp;</ion-col>
-          <ion-col size="11"><ion-text color="tertiary">
-            <component :is="officeVersus.versusTR"/>
-        </ion-text></ion-col></ion-row></ion-grid>  
-    </p>
-    <p>
-      <rubrique>{{officeCantRubr}}</rubrique><br />
-      <component    :is   = "officeCant.ant" />
-      <ion-grid><ion-row>
-        <ion-col>&nbsp;</ion-col>
-        <ion-col size="11"><ion-text color="tertiary">
-          <component    :is   = "officeCant.antTR" />
-      </ion-text></ion-col></ion-row></ion-grid>
-      <component :is="officeCant.Cant"/></p>
-    <p><component :is="officeKyrie.kyrieAnt"/>
-      <template v-if="officeKyrie.kyrieAntTR != null">
-        <ion-grid><ion-row>
-          <ion-col>&nbsp;</ion-col>
-          <ion-col size="11"><ion-text color="tertiary">
-            <component    :is   = "officeKyrie.kyrieAntTR" />
-        </ion-text></ion-col></ion-row></ion-grid>
+        <component :is="thisAnt.antLA" />
+        <ion-grid
+          ><ion-row>
+            <ion-col>&nbsp;</ion-col>
+            <ion-col size="11"
+              ><ion-text color="tertiary">
+                <component :is="thisAnt.antTR" /> </ion-text></ion-col></ion-row
+        ></ion-grid>
+        <component :is="thisAnt.psalmTR" /><br />
       </template>
-    </p>
-    <p><component :is="officeOraFinal.Pater"/></p>
-    <p><component :is="officeOraFinal.DomVobis"/></p>
-    <p><component :is="officeOratio.oratio"/>
+      <p>
+        <component :is="officeCapitulum.capitulum" />
+        <ion-grid
+          ><ion-row>
+            <ion-col>&nbsp;</ion-col>
+            <ion-col size="11"
+              ><ion-text color="tertiary">
+                <component
+                  :is="officeCapitulum.capitulumTR"
+                /> </ion-text></ion-col></ion-row
+        ></ion-grid>
+      </p>
+      <template v-if="officeRespons.respons != null">
+        <p>
+          <rubrique>Responsum</rubrique><br />
+          <component :is="officeRespons.respons" />
+          <ion-grid
+            ><ion-row>
+              <ion-col>&nbsp;</ion-col>
+              <ion-col size="11"
+                ><ion-text color="tertiary">
+                  <component
+                    :is="officeRespons.responsTR"
+                  /> </ion-text></ion-col></ion-row
+          ></ion-grid>
+        </p>
+      </template>
+      <template v-if="officeHymnus != null">
+        <p>
+          <rubrique>Hymnus</rubrique><br />
+          <component :is="officeHymnus" />
+          <component :is="officeDoxology" />
+        </p>
+      </template>
+      <p>
+        <rubrique>Versus</rubrique><br />
+        <component :is="officeVersus.versus" />
+        <ion-grid
+          ><ion-row>
+            <ion-col>&nbsp;</ion-col>
+            <ion-col size="11"
+              ><ion-text color="tertiary">
+                <component :is="officeVersus.versusTR" /> </ion-text></ion-col></ion-row
+        ></ion-grid>
+      </p>
+      <p>
+      <rubrique>{{officeCantRubr}}</rubrique><br />
+     <component    :is   ="officeCant.antLA" />
       <ion-grid><ion-row>
         <ion-col>&nbsp;</ion-col>
         <ion-col size="11"><ion-text color="tertiary">
-          <component :is="officeOratio.oratioTR"/>
+          <component    :is   ="officeCant.antTR" />
       </ion-text></ion-col></ion-row></ion-grid>
-    </p>
-    <p><component :is="officeOraFinal.DomVobis"/></p>
-    <component :is="officeBenedicamusDom.benedicamusDom"/>
-      <ion-grid><ion-row>
-        <ion-col>&nbsp;</ion-col>
-        <ion-col size="11"><ion-text color="tertiary">
-          <component :is="officeBenedicamusDom.benedicamusDomTR"/>
-      </ion-text></ion-col></ion-row></ion-grid>       
-    <br />        
-    <ion-footer class="ion-no-border">
-      <ion-toolbar>
-        <ion-button
-          @click="$router.push({ name: 'OfficeList', params: { feast: feast }})">
-          <ion-icon :icon="arrowBackSharp" />
-        </ion-button>
-      </ion-toolbar> 
-      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>      
-    </ion-footer>            
-  </ion-content>
-</ion-page>
+      <component :is="officeCant.cantTR"/> 
+    </p> 
+      <p>
+        <component :is="officeKyrie.kyrieAnt" />
+        <template v-if="officeKyrie.kyrieAntTR != null">
+          <ion-grid
+            ><ion-row>
+              <ion-col>&nbsp;</ion-col>
+              <ion-col size="11"
+                ><ion-text color="tertiary">
+                  <component
+                    :is="officeKyrie.kyrieAntTR"
+                  /> </ion-text></ion-col></ion-row
+          ></ion-grid>
+        </template>
+      </p>
+      <p><component :is="officeOraFinal.Pater" /></p>
+      <p><component :is="officeOraFinal.DomVobis" /></p>
+      <p>
+        <component :is="officeOratio.oratio" />
+        <ion-grid
+          ><ion-row>
+            <ion-col>&nbsp;</ion-col>
+            <ion-col size="11"
+              ><ion-text color="tertiary">
+                <component :is="officeOratio.oratioTR" /> </ion-text></ion-col></ion-row
+        ></ion-grid>
+      </p>
+      <p><component :is="officeOraFinal.DomVobis" /></p>
+      <component :is="officeBenedicamusDom.benedicamusDom" />
+      <ion-grid
+        ><ion-row>
+          <ion-col>&nbsp;</ion-col>
+          <ion-col size="11"
+            ><ion-text color="tertiary">
+              <component
+                :is="officeBenedicamusDom.benedicamusDomTR"
+              /> </ion-text></ion-col></ion-row
+      ></ion-grid>
+      <br />
+    </ion-content>
+  </ion-page>
 </template>
 <script lang="ts">
-  import {  IonPage , IonContent , IonHeader , IonFooter , IonToolbar , IonTitle , IonButton , IonIcon, 
-            IonGrid, IonRow , IonCol , IonText } from '@ionic/vue';
-  import {  useRoute }               from 'vue-router';
-  import {  defineAsyncComponent }   from 'vue';
-  import {  arrowBackSharp }         from 'ionicons/icons';
-  import {  defineComponent }        from 'vue';
-  
-  export default defineComponent ( {
-    name:      'HoraMajorTr',
-    components: { IonPage , IonContent , IonHeader , IonFooter , IonToolbar , IonTitle , IonButton , IonIcon , 
-                  IonGrid , IonRow , IonCol , IonText } ,
-    setup() {
-      const route       = useRoute () ;
-      const feast       = route.params.feast ;
-      const office      = route.params.office ;
-      const objLanguage = new String ( route.params.language ) ;
-      const lowerLang   = objLanguage.toLowerCase ( ) ;          
-      const arrayFeasts = [
-        { title   : 'Domenica in Palmis', 
-          titleFr : 'Dimanche des Rameaux' ,
-          arrayOfffice : [  [                                                                   // Ad Laudes
-            { antID : 1 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDomDeusAuxiliator.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDomDeusAuxiliator.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps050.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntCircumdantesCircumdederunt.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntCircumdantesCircumdederunt.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps117.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntIudicaCausam.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntIudicaCausam.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps062.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntCumAngelisEtPueris.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntCumAngelisEtPueris.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantTriumPuerorum.vue' ) ) } ,
-            { antID : 5 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntConfundanturQuiMe.vue' ) ) ,
-              AntTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntConfundanturQuiMe.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps148149150.vue') ) } ] ,
-           [ 
-            { antID : 1 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDixitDomDom.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDixitDomDom.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps109.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntMagnaOperaDom.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntMagnaOperaDom.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps110.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntQuiTimetDom.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntQuiTimetDom.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps111.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntSitNomenDom.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntSitNomenDom.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps112.vue') ) } ] ] ,
-          arrayCant : [
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntTurbaMulta.vue' ) ) ,   // ant. Ad Benedictus Ad Laudes   
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntTurbaMulta.vue' ) ) ,
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantBenedictus.vue' ) ) } , 
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntScriptumEstEnim.vue' ) ) ,     // ant. Ad Magnificat Ad Vesperas 
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntScriptumEstEnim.vue' ) ) ,
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantMagnificat.vue' ) ) } ] } ,    
-        { title     : 'Hebdomada Sancta Feria II' , 
-          titleFr   : 'Lundi Saint' , 
-          arrayOfffice : [  [                                                                      // Ad Laudes
-            { antID : 1 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntFaciemMeam.vue' ) ) , 
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntFaciemMeam.vue' ) ) , 
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps050.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntFramea2.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntFramea2.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps005.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAppenderunt.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAppenderunt.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps035.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntInundaveruntAquae.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntInundaveruntAquae.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantIsaie12.vue' ) ) } ,
-            { antID : 5 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntLabiaInsurgentibus.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntLabiaInsurgentibus.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps148149150.vue' ) ) } ] ,
-            [                                                                 // Ad Vesperas
-            { antID : 1 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntNosQuiVivimus.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntNosQuiVivimus.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps113.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntInclinavitDom.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntInclinavitDom.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps114.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntCredidiPropter.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntCredidiPropter.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps115-116.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntSaepeExpungaverunt.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntSaepeExpungaverunt.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps128.vue' ) ) } ] ] ,
-          arrayCant : [
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntClarificaMe.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntClarificaMe.vue' ) ) ,
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantBenedictus.vue' ) ) } , 
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntNonHaberes.vue' ) ) ,
-              antTR  : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntNonHaberes.vue' ) ) ,
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantMagnificat.vue' ) ) } ] },            
-        { title     : 'Hebdomada Sancta Feria III',
-          titleFr   : 'Mardi Saint' ,
-          arrayOfffice : [  [                                                           // Ad Laudes
-            { antID : 1 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntVideDomEtConsidera.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntVideDomEtConsidera.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps050.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDiscerneCausam.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDiscerneCausam.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps042.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDumTribularer.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDumTribularer.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps056.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDomVim.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDomVim.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantTriumPuerorum.vue' ) ) } ,
-            { antID : 5 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDixeruntImpii.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDixeruntImpii.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps148149150.vue' ) ) } ] ,
-            [ 
-            { antID : 1 ,
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDeProfundis.vue' ) ) , 
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDeProfundis.vue' ) ) , 
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps129.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntSperetIsrael.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntSperetIsrael.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps130.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntEtOmnis.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntEtOmnis.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps131.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntEcceQuam.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntEcceQuam.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps132.vue' ) ) } ] ] ,
-          arrayCant : [
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAnteDiemPaschae.vue' ) ) ,               
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAnteDiemPaschae.vue' ) ) , 
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantBenedictus.vue' ) ) } ,      /* same as Feast 1 */
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntPotestatemHabeo2.vue' ) ) ,
-              AntTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntPotestatemHabeo2.vue' ) ) ,
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantMagnificat.vue' ) ) } ] },  
-        { title     : 'Hebdomada Sancta Feria IV',
-          titleFr   : 'Mercredi Saint' ,
-          arrayOfffice : [  [                                                            // Ad Laudes
-            { antID : 1 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntLiberaMe.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntLiberaMe.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps050.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntContumeliasEtTerrores.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntContumeliasEtTerrores.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps063.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntIpsiVeroInVanum2.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntIpsiVeroInVanum2.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps064.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntOmnesInimici.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntOmnesInimici.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Cant1Sam02.vue' ) ) } ,
-            { antID : 5 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAlligaDom.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAlligaDom.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps148149150.vue' ) ) } ] ,
-           [ 
-            { antID : 1 ,
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntOmniaQuaecumque.vue' ) ) , 
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntOmniaQuaecumque.vue' ) ) , 
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps134.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntQuoniamInAeternum.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntQuoniamInAeternum.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps135.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntHymnumCantate.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntHymnumCantate.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps136.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntInConspectuAngelorum.vue' ) ) ,              
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntInConspectuAngelorum.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps137.vue' ) ) } ] ] ,
-          arrayCant : [
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntSimonDormis.vue' ) ) ,
-              antTR  : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntSimonDormis.vue' ) ) ,
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantBenedictus.vue' ) ) } , 
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAncillaDixit.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAncillaDixit.vue' ) ) ,
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantMagnificat.vue' ) ) } ] },   
-        { title     : 'Hebdomada Sancta Feria V - In Coena Domini',
-          titleFr   : 'Jeudi Saint' ,
-          arrayOfffice : [  [                                                             // Ad Laudes
-            { antID : 1 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntIustificerisDom.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntIustificerisDom.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps050.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDomTamquam.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDomTamquam.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps089.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntContritumEst.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntContritumEst.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps035.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntExhortatusEs.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntExhortatusEs.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantEx15.vue' ) ) } ,
-            { antID : 5 ,
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntOblatusEst.vue' ) ) ,            
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntOblatusEst.vue' ) ) , 
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps146.vue' ) ) } ] ,
-              [ { antID : 1 , ant : null , ton : null , psalm : null } ] ] ,
-          arrayCant : [
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntTraditorAutem.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntTraditorAutem.vue' ) ) ,
-              Cant : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/CantBenedictus.vue' ) ) } , 
-            { ant : null , ton : null , Cant  : null } ] },
-        { title     : 'Hebdomada Sancta Feria VI - In Parasceve',
-          titleFr   : 'Vendredi Saint' ,
-          arrayOfffice : [  [                                                            // Ad Laudes
-            { antID : 1 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntProprioFilio.vue' ) ) , 
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntProprioFilio.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps050.vue' ) ) } ,
-            { antID : 2 ,
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAnxiatusEst.vue' ) ) ,  
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAnxiatusEst.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps142.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAitLatro.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAitLatro.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps084.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDumConturbata.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDumConturbata.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Cant1Hab03.vue' ) ) } ,
-            { antID : 5 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntMementoMei.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntMementoMei.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps147.vue' ) ) } ] ,
-            [ { antID : 1 , ant : null , ton : null , psalm : null } ] ] ,
-          arrayCant : [
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntPosueruntSuper.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntPosueruntSuper.vue' ) ) ,
-              Cant : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/CantBenedictus.vue' ) ) } ,    // // Benedcitus same as Cant51 
-            { ant : null , ton : null , Cant  : null } ] },
-          
-        { title     : 'Sabbato Sancto',
-          titleFr   : 'Samedi Saint' ,
-          arrayOfffice : [  [                                                            // Ad Laudes
-            { antID : 1 ,
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntOMors.vue' ) ) , 
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntOMors.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps050.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntPlangentEum.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntPlangentEum.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps091.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAttenditeUniversi.vue' ) ) ,
-              AntTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAttenditeUniversi.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps063.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAPortaInferi.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAPortaInferi.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/CantIsaie38.vue' ) ) } ,
-            { antID : 5 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntOVosOmnes.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntOVosOmnes.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps150.vue' ) ) } ] ,
-          [ { antID : 1 , ant : null , ton : null , psalm : null } ] ] ,
-          arrayCant : [
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntMulieresSedentes.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntMulieresSedentes.vue' ) ) ,
-              Cant : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/CantBenedictus.vue' ) ) } ,      // Benedictus same as 5th feast                                                                    // Benedictus same as 5th feast 
-            { ant : null , ton : null , Cant  : null } ] },
-        { title   : 'Resurrectio Domini',
-          titleFr : 'Dimanche de Pâques' ,
-          arrayOfffice : [  [                                                             // Ad Laudes
-            { antID : 1 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAngelusAutem.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAngelusAutem.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps092.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntEtEcceTerraemotus.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntEtEcceTerraemotus.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps099.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntEratAutem.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntEratAutem.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps062.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntPraeTimore.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntPraeTimore.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/CantTriumPuerorum.vue' ) ) } ,
-            { antID : 5 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntRespondensAutem.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntRespondensAutem.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps148149150.vue' ) ) } ] ,
-            [ 
-            { antID : 1 ,
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntAngelusAutem.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntAngelusAutem.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps109.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntEtEcceTerraemotus.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntEtEcceTerraemotus.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps110.vue' ) ) } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntEratAutem.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntEratAutem.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps111.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntRespondensAutem.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntRespondensAutem.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps112.vue' ) ) } ] ] ,
-          arrayCant : [
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntEtValdeMane.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntEtValdeMane.vue' ) ) ,
-              Cant  :   defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/CantBenedictus.vue' ) ) } , 
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntEtRespicientes.vue' ) ) ,
-              antTR  : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntEtRespicientes.vue' ) ) ,
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/CantMagnificat.vue' ) ) } ] },
-        { title   : 'Domenica in Palmis', 
-          titleFr : 'Dimanche des Rameaux - la veille' ,
-          arrayOfffice : [  [                                                             // Ad Laudes
-            { antID : 1 , ant   : null , ton   : null , psalm : null } ] ,
-            [ 
-            { antID : 1 ,
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntRegnumTuum.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntRegnumTuum.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps144.vue' ) ) } ,
-            { antID : 2 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntLaudaboDeum.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntLaudaboDeum.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps145.vue' ) ) , } ,
-            { antID : 3 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntDeoNostro.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntDeoNostro.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps146.vue' ) ) } ,
-            { antID : 4 , 
-              ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntLaudaIerusalem.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntLaudaIerusalem.vue' ) ) ,
-              psalm : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/Ps147.vue' ) ) } ] ] ,
-          arrayCant : [
-            { ant   : null , ton : null , Cant : null } , 
-            { ant   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/AntPaterIuste.vue' ) ) ,
-              antTR   : defineAsyncComponent ( () =>                            
-                        import ( '../components/g50Antiphona/' + lowerLang  + '/AntPaterIuste.vue' ) ) ,
-              Cant  : defineAsyncComponent ( () =>                            
-                      import ( '../components/g65Psalmodia/' + lowerLang    + '/CantMagnificat.vue' ) ) } ] } ] ;
-      const feastNum        = +feast ;
-      const officeNum       = +office ; 
-      const feastCurrent    = arrayFeasts [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
-      const officeAnt         = feastCurrent.arrayOfffice [ officeNum - 1 ] ;
-      const officeCant        = feastCurrent.arrayCant [ officeNum - 1 ] ;
-      const arrayInAdiutorium  = [
-        { inAdiutorium:   null ,
-          inAdiutoriumTR: null } ,
-        { inAdiutorium:   defineAsyncComponent(() =>                            
-            import ( '../components/g95InOrdineOfficii/InAdiutorium.vue' ) ) ,
-          inAdiutoriumTR: defineAsyncComponent(() =>                            
-            import ( '../components/g95InOrdineOfficii/' + lowerLang  + '/InAdiutorium.vue' ) ) }        
-      ] ; 
-      let i = 0 ; 
-      if ( ( feastNum < 5 ) || feastNum > 7 ) { i = 1 ; }   /* Aux Laudes et aux Vêpres de la Semaine Sainte */
-      const officeInAdiutorium    = arrayInAdiutorium [i] ; 
-      const arrayInAdiutoriumFin  = [
-        { inAdiutoriumFin: null ,
-          inAdiutoriumFinTR:  null } ,
-        { inAdiutoriumFin: defineAsyncComponent(() =>                            
-           import ( '../components/g95InOrdineOfficii/LausTibi.vue' ) )  ,
-          inAdiutoriumFinTR:  defineAsyncComponent(() =>                            
-           import ( '../components/g95InOrdineOfficii/' + lowerLang  + '/LausTibi.vue' ) ) } ,
-        { inAdiutoriumFin: defineAsyncComponent(() =>                            
-          import ( '../components/g95InOrdineOfficii/Alleluia.vue' ) ) ,
-          inAdiutoriumFinTR:  null } 
-      ] ; 
-      i = 0 ; 
-      if (  feastNum < 5 || feastNum == 9 )  { i = 1 ; }   /* Aux Laudes et aux Vêpres de la Seamine Sainte */
-      else if ( feastNum == 8 )  { i = 2 ; }                    /* Le Dimanche de Pâques   */
-      const officeInAdiutoriumFin = arrayInAdiutoriumFin [i] ; 
-      const arrayOffices  = [
-        { title   : 'Ad Laudes'} ,
-        { title   : 'Ad Vesperas' } 
-      ] ; 
-      const OfficeCurrent       = arrayOffices [+office-1] ;   
-      const OfficeTitle         = OfficeCurrent.title ;
-      const arrayCapitulum = [
-        { capitulum: null ,
-          capitulumTR: null } ,
-        { capitulum:  defineAsyncComponent(() =>                            
-            import ( '../components/g75Lectio/CapPhilCh02V05.vue' ) ) ,     // Dom. in Palmis
-          capitulumTR: defineAsyncComponent(() =>                            
-            import ( '../components/g75Lectio/' + lowerLang  + '/CapPhilCh02V05.vue' ) ) } ,
-        { capitulum:  defineAsyncComponent(() =>                            
-            import ( '../components/g75Lectio/CapIerCh11V19.vue' ) ) ,      // Ad Laudes Quadragesimae
-          capitulumTR: defineAsyncComponent(() =>                            
-            import ( '../components/g75Lectio/' + lowerLang  + '/CapIerCh11V19.vue' ) ) } ,
-        { capitulum:  defineAsyncComponent(() =>                            
-            import ( '../components/g75Lectio/CapIerCh11V20.vue' ) ) ,      // Ad Vesperas Quadragesimae
-          capitulumTR: defineAsyncComponent(() =>                            
-            import ( '../components/g75Lectio/' + lowerLang  + '/CapIerCh11V20.vue' ) ) } ,
-        { capitulum: defineAsyncComponent(() =>                            
-            import ( '../components/g75Lectio/CapCor1Ch05V07.vue' ) ) ,  // Dom. Resurrectio 
-          capitulumTR: defineAsyncComponent(() =>                            
-            import ( '../components/g75Lectio/' + lowerLang  + '/CapCor1Ch05V07.vue' ) ) }  ] ;
-      i = 0 ;  
-      if ( feastNum ==  1 || feastNum == 9 ) { i = 1 ; }     
-      else if ( feastNum > 1  && feastNum < 5 ) {
-        if ( officeNum == 1 ) { i = 2 ; }
-        else if ( officeNum == 2 ) { i = 3 ; } }
-      else if ( feastNum == 8 ) { i = 4 ; }  
-      const officeCapitulum      = arrayCapitulum [i] ;
-      const arrayRespons  = [
-        { respons: null ,
-          responsTR: null } ,
-        { respons:defineAsyncComponent ( () =>                            
-            import ( '../components/g55Responsum/RepErueAFramea.vue' ) ) ,   
-          responsTR: defineAsyncComponent(() =>                            
-            import ( '../components/g55Responsum/' + lowerLang  + '/RepErueAFramea.vue' ) ) } ,         // Ad Laudes Quadregesimae
-        { respons:defineAsyncComponent ( () =>                            
-            import ( '../components/g00Text/DeOreLeonis.vue' ) ) , 
-          responsTR: defineAsyncComponent(() =>                            
-            import ( '../components/g00Text/' + lowerLang  + '/DeOreLeonis.vue' ) ) } ,           // Ad Vesperas Quadregesimae
-        { respons:defineAsyncComponent ( () =>                            
-            import ( '../components/g55Responsum/RepSurrexitDomDeSepulchro.vue' ) ) , //Resurrectio Domini
-          responsTR:defineAsyncComponent ( () =>                            
-            import ( '../components/g55Responsum/' + lowerLang  + '/RepSurrexitDomDeSepulchro.vue' ) ) }
-      ] ;
-      i = 0 ; 
-      if (  feastNum < 5  || feastNum == 9 )  {                  /* Aux Laudes et aux Vêpres de la Seamine Sainte */
-        if ( officeNum == 1 ) { i = 1 ; }
-        else if ( officeNum == 2 ) { i = 2 ; } }      
-      else if ( feastNum == 8 ) { i = 3 ; } 
-      const officeRespons      = arrayRespons [i] ;
-      const arrayHymnus  = [
-        null ,
-        defineAsyncComponent(() => 
-          import ( '../components/g60Hymnus/' + 'HymCruxFidelisTR.vue' ) ) ,      // Ad Laudes Hebdomada Sancta                          
-        defineAsyncComponent(() =>                            
-          import ( '../components/g60Hymnus/' + 'HymVexillaRegisTR.vue' ) ) ,     // Ad Vesperas Hebdomada Sancta
-        defineAsyncComponent(() =>                            
-          import ( '../components/g60Hymnus/' + 'HymAuroraLucisTR.vue' ) ) ,      // Ad Laudes Dom. Resurrectio
-        defineAsyncComponent(() =>                            
-          import ( '../components/g60Hymnus/' + 'HymAdCoenamAgniTR.vue' ) ) ] ;   // Ad Vesperase Dom. Resurrectio 
-      const arrayDoxology = [
-        null,
-        defineAsyncComponent ( () =>                            
-          import ( '../components/g60Hymnus/' + 'DoxAequaPatri.vue' ) ) ,
-        defineAsyncComponent ( () =>                            
-          import ( '../components/g60Hymnus/' + 'DoxGloriaTibi.vue' ) ) ] ;
-      i = 0 ;      
-      if ( feastNum < 5 || feastNum == 9 ) {
-        if ( officeNum == 1 ) { i = 1 ; }
-        else if ( officeNum == 2 ) { i = 2 ; }   }    
-      else if (feastNum == 8 ) {
-        if ( officeNum == 1 ) { i = 3 ; }
-        else if ( officeNum == 2 ) { i = 4 ; }  
-      } 
-      const officeHymnus  = arrayHymnus [i] ;
-      i = 0 ;      
-      if ( feastNum == 8 ) {
-        i = 2 ; }
-      else if (feastNum < 5 ) {
-        i = 1 ; }
-      const officeDoxology  = arrayDoxology [i] ;
-      const arrayVersus   = [
-        { versus: defineAsyncComponent ( () =>                            
-            import ( '../components/g85Versus/VersEripeMeInimicis.vue') ) ,   // Ad Laudes Hebdomada Sancta
-          versusTR: defineAsyncComponent ( () =>                            
-            import ( '../components/g85Versus/' + lowerLang  + '/VersEripeMeInimicis.vue') ) } ,
-        { versus: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/VersEripeMeHomine.vue') ) ,     // Ad Vesperas Hebdomada Sancta
-          versusTR: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/' + lowerLang  + '/VersEripeMeHomine.vue') ) } ,
-        { versus: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/VerHomoPacis.vue') ) ,          // Feria V
-          versusTR: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/' + lowerLang  + '/VerHomoPacis.vue') ) } , 
-        { versus: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/VerCollocavitIn.vue') ) ,       // Feria VI
-          versusTR: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/' + lowerLang  + '/VerCollocavitIn.vue') ) } , 
-        { versus: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/VerCaroMea.vue') ) ,            // Feria VII
-          versusTR: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/' + lowerLang  + '/VerCaroMea.vue') ) } ,
-        { versus: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/VersHaecDies.vue') )  ,           //  Dom. Resurrectio
-          versusTR: defineAsyncComponent ( () =>                            
-          import ( '../components/g85Versus/' + lowerLang  + '/VersHaecDies.vue') ) }
-      ] ;
-      i = 0 ; 
-      if ( feastNum < 5 || feastNum == 9 ) {
-        if ( officeNum == 2 )   { i = 1 ; } }
-      else if ( feastNum > 4 ) { i = feastNum - 3  ; } 
-      const officeVersus      = arrayVersus [i] ;
-      let officeCantRubr    = null ;
-      if ( officeNum == 1 ) {
-        officeCantRubr      = "Antiphona ad Benedictus" ;
-      } else if ( officeNum == 2 ) {
-        officeCantRubr      = "Antiphona ad Magnificat" ;            
-      }              
-      const arrayOratio  = [
-        { oratio: null ,
-          oratioTR: null } ,
-        { oratio: defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/OraQuiHumanoGeneri.vue' ) ) ,      // Dom. in Palmis  
-          oratioTR:   defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/' + lowerLang  + '/OraQuiHumanoGeneri.vue' ) ) } ,                        
-        { oratio:defineAsyncComponent(() =>                            
-            import ( '../components/g80Oratio/OraUtQuiInTot.vue' ) ) ,          // Feria II Ad Laudes 
-          oratioTR:   defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/' + lowerLang  + '/OraUtQuiInTot.vue' ) ) } ,
-        { oratio:defineAsyncComponent(() =>                            
-            import ( '../components/g80Oratio/OraDaNobisIta.vue' ) ) ,          // Feria III  Ad Laudes
-          oratioTR:   defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/' + lowerLang  + '/OraDaNobisIta.vue' ) ) } ,
-        { oratio:defineAsyncComponent(() =>                            
-            import ( '../components/g80Oratio/OraQuiProNobisFilium.vue' ) ) ,         // Feria IV Ad Laudes
-          oratioTR:   defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/' + lowerLang  + '/OraQuiProNobisFilium.vue' ) ) } ,
-        { oratio:defineAsyncComponent(() =>                            
-            import ( '../components/g80Oratio/OraAdBeneficiaRecolenda.vue' ) ) , // Feria II Ad Vesperas
-          oratioTR:   defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/' + lowerLang  + '/OraAdBeneficiaRecolenda.vue' ) ) } ,
-        { oratio:defineAsyncComponent(() =>                            
-            import ( '../components/g80Oratio/OraTuaNosMisericordia.vue' ) ) ,   // Feria III Ad Vesperas
-          oratioTR:   defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/' + lowerLang  + '/OraTuaNosMisericordia.vue' ) ) } ,
-        { oratio:defineAsyncComponent(() =>                            
-            import ( '../components/g80Oratio/OraSuperHancFamiliam.vue' ) ) ,    // Feria IV Ad Vesperas
-         oratioTR:   defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/' + lowerLang  + '/OraSuperHancFamiliam.vue' ) ) } ,
-        { oratio:defineAsyncComponent(() =>                            
-            import ( '../components/g80Oratio/OraSuperHancFamiliamTriduo.vue' ) ) , // Ad Laudes Feria V & Feria VI
-          oratioTR:   defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/' + lowerLang  + '/OraSuperHancFamiliam.vue' ) ) } ,
-        { oratio:defineAsyncComponent(() =>                            
-            import ( '../components/g80Oratio/OraQuiHodiernaDie.vue' ) ) ,
-          oratioTR:   defineAsyncComponent(() => 
-            import ( '../components/g80Oratio/' + lowerLang  + '/OraQuiHodiernaDie.vue' ) ) } ] ;        
-      i = 0 ; 
-      if ( feastNum == 1 || feastNum == 9 ) {  i = 1 ; }  
-      else if ( feastNum  < 5 ) {
-        if ( officeNum == 1 ) { i = feastNum ; }
-        else if ( officeNum == 2 ) { i = feastNum + 3 ; } }    
-      else if ( ( feastNum == 5 || feastNum == 6 ) && officeNum == 1 ) {  i = 8 ; }               
-      else if (feastNum == 8 ) { i = 9 ; }
-      const officeOratio      = arrayOratio [i] ;
-      const arrayKyrieAnt  = [ 
-        { kyrieAnt: null ,
-          kyrieAntTR: null } ,
-        { kyrieAnt:     defineAsyncComponent ( () => 
-                          import ( '../components/g95InOrdineOfficii/Kyrie.vue' ) ) ,
-          kyrieAntTR:   null } ,
-        { kyrieAnt:    defineAsyncComponent ( () => 
-                          import ( '../components/g50Antiphona/AntChristusFactusEst5.vue' ) ) ,
-          kyrieAntTR:  defineAsyncComponent ( () => 
-                          import ( '../components/g50Antiphona/' + lowerLang  + '/AntChristusFactusEst5.vue' ) ) } ,
-        { kyrieAnt:    defineAsyncComponent ( () => 
-                            import ( '../components/g50Antiphona/AntChristusFactusEst6.vue' ) ) ,
-          kyrieAntTR:  defineAsyncComponent ( () => 
-                            import ( '../components/g50Antiphona/' + lowerLang  + '/AntChristusFactusEst6.vue' ) ) } ,
-        { kyrieAnt:    defineAsyncComponent ( () => 
-                            import ( '../components/g50Antiphona/AntChristusFactusEst7.vue' ) ) ,
-          kyrieAntTR:  defineAsyncComponent ( () => 
-                            import ( '../components/g50Antiphona/' + lowerLang  + '/AntChristusFactusEst7.vue' ) ) } ,
-      ] ; 
-      i = 0 ;
-      if ( feastNum < 5  || feastNum > 7 )  { i = 1 }
-      else if ( feastNum > 4 && feastNum < 8 ) { i = feastNum - 3 } /* Aux Laudes du Triduum  */
-      const officeKyrie  = arrayKyrieAnt [i] ;
-      
-      const arrayOraFinal  = [
-        { Pater     : null  , 
-          DomVobis  : null  } ,
-        { Pater     : defineAsyncComponent(() =>                            
-                      import ( '../components/g95InOrdineOfficii/PaterNoster.vue' ) )  , 
-          DomVobis  : defineAsyncComponent(() =>                            
-                      import ( '../components/g95InOrdineOfficii/DominusVobiscum.vue' ) )  } ,
-        { Pater     : defineAsyncComponent ( () =>                            
-                      import ( '../components/g95InOrdineOfficii/PaterNosterTriduum.vue' ) )  ,
-          DomVobis  : null  } ] ;
-      i = 0 ; 
-      if ( feastNum < 5  || feastNum > 7 ) { i = 1 ; } 
-      if ( feastNum ==  5 || feastNum == 6 ) { i = 2 ; }   /* Aux Laudes du jeudi et du vendredi  */
-      const officeOraFinal  = arrayOraFinal[i] ;     
-      const arrayBenedicamusDom  = [
-        { benedicamusDom:   null ,
-          benedicamusDomTR: null } ,
-        { benedicamusDom: defineAsyncComponent(() =>                            
-            import ( '../components/g95InOrdineOfficii/BenedicamusDom.vue' ) ) ,
-          benedicamusDomTR:defineAsyncComponent(() =>                            
-            import ( '../components/g95InOrdineOfficii/' + lowerLang  + '/BenedicamusDom.vue' ) )}
-      ] ;
-      i = 0 ;
-      if ( ( feastNum < 5 ) || feastNum > 7 ) { i = 1 ; } 
-      const officeBenedicamusDom  = arrayBenedicamusDom [i] ; 
-        return  { feastCurrent , officeAnt , feast, office , 
-                  OfficeTitle , officeInAdiutorium , officeInAdiutoriumFin , 
-                  officeCapitulum , officeRespons , officeVersus , officeHymnus , 
-                  officeDoxology , officeCantRubr , officeCant , officeOratio ,
-                  officeKyrie , officeOraFinal , officeBenedicamusDom , arrowBackSharp } 
+import {
+  IonPage,
+  IonContent,
+  IonHeader,
+  IonToolbar,
+  IonTitle,
+  IonButton,
+  IonIcon,
+  IonGrid,
+  IonRow,
+  IonCol,
+  IonText,
+} from "@ionic/vue";
+import { defineAsyncComponent } from "vue";
+import { getFeast } from "../data/feasts";
+import { getOffice } from "../data/offices";
+import { arrowBackSharp, home } from "ionicons/icons";
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  name: "HoraMajorTr",
+  components: {
+    IonPage,
+    IonContent,
+    IonHeader,
+    IonToolbar,
+    IonTitle,
+    IonButton,
+    IonIcon,
+    IonGrid,
+    IonRow,
+    IonCol,
+    IonText,
+  },
+  props: {
+    feast: { type: Number, required: true },
+    office: { type: Number, required: true },
+    language: { type: String, required: true },
+  },
+  setup(props) {
+    let feastNum = 0;
+    let j = 0;
+    for (j = 0; j < 9; j++) {
+      if (props.feast == j) {
+        feastNum = j;
+      }
     }
-  })
+    const officeNum = +props.office;
+    const objLanguage = new String(props.language);
+    const language = objLanguage.toLowerCase();
+    const feastCurrent = getFeast(feastNum);
+    const officeCurrent = getOffice(officeNum);
+    const arrayInAdiutorium = [
+      { inAdiutorium: null, inAdiutoriumTR: null },
+      {
+        inAdiutorium: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/InAdiutorium.vue")
+        ),
+        inAdiutoriumTR: defineAsyncComponent(
+          () =>
+            import("../components/g95InOrdineOfficii/" + language + "/InAdiutorium.vue")
+        ),
+      },
+    ];
+    let i = 0;
+    if (feastNum < 5 || feastNum > 7) {
+      i = 1;
+    } /* Aux Laudes et aux Vêpres de la Semaine Sainte */
+    const officeInAdiutorium = arrayInAdiutorium[i];
+    const arrayInAdiutoriumFin = [
+      { inAdiutoriumFin: null, inAdiutoriumFinTR: null },
+      {
+        inAdiutoriumFin: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/LausTibi.vue")
+        ),
+        inAdiutoriumFinTR: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/" + language + "/LausTibi.vue")
+        ),
+      },
+      {
+        inAdiutoriumFin: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/Alleluia.vue")
+        ),
+        inAdiutoriumFinTR: null,
+      },
+    ];
+    i = 0;
+    if (feastNum < 5 || feastNum == 9) {
+      i = 1;
+    } /* Aux Laudes et aux Vêpres de la Seamine Sainte */ else if (feastNum == 8) {
+      i = 2;
+    } /* Le Dimanche de Pâques   */
+    const officeInAdiutoriumFin = arrayInAdiutoriumFin[i];
+
+    interface PsCant {
+      psCantID: number;
+      ants: Array<{
+        antID: number;
+        antLA: any;
+        antTR: any;
+        psalmTR: any;
+      }>;
+      cant: {
+        antLA: any;
+        antTR: any;
+        cantTR: any;
+      };
+    }
+    const arrayPsCant: PsCant[] = [
+      {
+        psCantID: 0,                        //if psCantID not found
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/Empty.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/Empty.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Empty.vue")
+            ),
+          },] ,
+          cant: {
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/Empty.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/Empty.vue"
+                )
+            ),
+            cantTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" + props.language + "/Empty.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 2,     //feastID: 0 Domenica in Palmis - la veille  Ad Vesperas officeID = 2
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntRegnumTuum.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntRegnumTuum.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps144.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntLaudaboDeum.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntLaudaboDeum.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps145.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDeoNostro.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntDeoNostro.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps146.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntLaudaIerusalem.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntLaudaIerusalem.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps147.vue")
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntPaterIuste.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntPaterIuste.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantMagnificat.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 11, // Domenica in Palmis Ad Laudes feastID: 1 officeID = 1
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDomDeusAuxiliator.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntDomDeusAuxiliator.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntCircumdantesCircumdederunt.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntCircumdantesCircumdederunt.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps117.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntIudicaCausam.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntIudicaCausam.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps062.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntCumAngelisEtPueris.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntCumAngelisEtPueris.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" +
+                    props.language +
+                    "/CantTriumPuerorum.vue"
+                )
+            ),
+          },
+          {
+            antID: 5,
+            antLA: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntConfundanturQuiMe.vue"
+                )
+            ),
+            antTR: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntConfundanturQuiMe.vue")
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                )
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntTurbaMulta.vue")
+          ), // ant. Ad Benedictus Ad Laudes
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntTurbaMulta.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantBenedictus.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 12, // Domenica in Palmis Ad Vesperas feastID: 1 officeID = 2
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDixitDomDom.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntDixitDomDom.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps109.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntMagnaOperaDom.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntMagnaOperaDom.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps110.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntQuiTimetDom.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntQuiTimetDom.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps111.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntSitNomenDom.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntSitNomenDom.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps112.vue")
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntScriptumEstEnim.vue")
+          ), // ant. Ad Magnificat Ad Vesperas
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntScriptumEstEnim.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantMagnificat.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 21, //Hebdomada Sancta Feria II' ,  feastID: 2 officeID = 1
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntFaciemMeam.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntFaciemMeam.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntFramea2.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import("../components/g50Antiphona/" + props.language + "/AntFramea2.vue")
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps005.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntAppenderunt.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntAppenderunt.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps035.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntInundaveruntAquae.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntInundaveruntAquae.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" + props.language + "/CantIsaie12.vue"
+                )
+            ),
+          },
+          {
+            antID: 5,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntLabiaInsurgentibus.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntLabiaInsurgentibus.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                )
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntClarificaMe.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntClarificaMe.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantBenedictus.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 22, //Hebdomada Sancta Feria II' ,  feastID: 2 officeID = 2
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntNosQuiVivimus.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntNosQuiVivimus.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps113.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntInclinavitDom.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntInclinavitDom.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps114.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntCredidiPropter.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntCredidiPropter.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import("../components/g65Psalmodia/" + props.language + "/Ps115-116.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntSaepeExpungaverunt.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntSaepeExpungaverunt.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps128.vue")
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntNonHaberes.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntNonHaberes.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantMagnificat.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 31, //Hebdomada Sancta Feria III,  feastID:3 officeID = 1
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntVideDomEtConsidera.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntVideDomEtConsidera.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDiscerneCausam.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntDiscerneCausam.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps042.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDumTribularer.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntDumTribularer.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps056.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDomVim.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import("../components/g50Antiphona/" + props.language + "/AntDomVim.vue")
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" +
+                    props.language +
+                    "/CantTriumPuerorum.vue"
+                )
+            ),
+          },
+          {
+            antID: 5,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDixeruntImpii.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntDixeruntImpii.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                )
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntAnteDiemPaschae.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntAnteDiemPaschae.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantBenedictus.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 32, //Hebdomada Sancta Feria III,  feastID:3 officeID = 2
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDeProfundis.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntDeProfundis.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps129.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntSperetIsrael.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntSperetIsrael.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps130.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntEtOmnis.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import("../components/g50Antiphona/" + props.language + "/AntEtOmnis.vue")
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps131.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntEcceQuam.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntEcceQuam.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps132.vue")
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntPotestatemHabeo2.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" +
+                  props.language +
+                  "/AntPotestatemHabeo2.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantMagnificat.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 41, //Hebdomada Sancta Feria IV,  feastID:4 officeID = 1
+        ants: [
+          // Ad Laudes
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntLiberaMe.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntLiberaMe.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntContumeliasEtTerrores.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntContumeliasEtTerrores.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps063.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntIpsiVeroInVanum2.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntIpsiVeroInVanum2.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps064.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntOmnesInimici.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntOmnesInimici.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import("../components/g65Psalmodia/" + props.language + "/Cant1Sam02.vue")
+            ),
+          },
+          {
+            antID: 5,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntAlligaDom.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntAlligaDom.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                )
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntSimonDormis.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntSimonDormis.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantBenedictus.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 42, //Hebdomada Sancta Feria IV,  feastID:4 officeID = 2
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntOmniaQuaecumque.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntOmniaQuaecumque.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps134.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntQuoniamInAeternum.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntQuoniamInAeternum.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps135.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntHymnumCantate.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntHymnumCantate.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps136.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntInConspectuAngelorum.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntInConspectuAngelorum.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps137.vue")
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntAncillaDixit.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntAncillaDixit.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantMagnificat.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 51, //Hebdomada Sancta Feria V - In Coena Domini,  feastID:5 officeID = 1
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntIustificerisDom.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntIustificerisDom.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDomTamquam.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntDomTamquam.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps089.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntContritumEst.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntContritumEst.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps035.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntExhortatusEs.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntExhortatusEs.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import("../components/g65Psalmodia/" + props.language + "/CantEx15.vue")
+            ),
+          },
+          {
+            antID: 5,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntOblatusEst.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntOblatusEst.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps146.vue")
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntTraditorAutem.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntTraditorAutem.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantBenedictus.vue"
+              )
+          ),
+        },
+      },
+      //Hebdomada Sancta Feria V - In Coena Domini,  Non sunt Vesperas
+      {
+        psCantID: 61, //Hebdomada Sancta Feria VI - In Parasceve,  feastID:6 officeID = 1
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntProprioFilio.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntProprioFilio.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntAnxiatusEst.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntAnxiatusEst.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps142.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntAitLatro.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntAitLatro.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps084.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntDumConturbata.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntDumConturbata.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import("../components/g65Psalmodia/" + props.language + "/Cant1Hab03.vue")
+            ),
+          },
+          {
+            antID: 5,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntMementoMei.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntMementoMei.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps147.vue")
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntPosueruntSuper.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntPosueruntSuper.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantBenedictus.vue"
+              )
+          ),
+        }, // Benedcitus same as Cant51
+        //Hebdomada Sancta Feria VI - In Parasceve,  Non sunt Vesperas
+      },
+      {
+        psCantID: 71, //Hebdomada Sancta Feria VII - Sabbato Sancto,  feastID:7 officeID = 1
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntOMors.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import("../components/g50Antiphona/" + props.language + "/AntOMors.vue")
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntPlangentEum.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntPlangentEum.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps091.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntAttenditeUniversi.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntAttenditeUniversi.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps063.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntAPortaInferi.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntAPortaInferi.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" + props.language + "/CantIsaie38.vue"
+                )
+            ),
+          },
+          {
+            antID: 5,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntOVosOmnes.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntOVosOmnes.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps150.vue")
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntMulieresSedentes.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" +
+                  props.language +
+                  "/AntMulieresSedentes.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantBenedictus.vue"
+              )
+          ),
+        }, // Benedictus same as 5th feast
+        //Hebdomada Sancta Feria VII - Sabbato Sancto,  Non sunt Vesperas
+      },
+      {
+        psCantID: 81, //Resurrectio Domini,  feastID:8 officeID = 1
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntAngelusAutem.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntAngelusAutem.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps092.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntEtEcceTerraemotus.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntEtEcceTerraemotus.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps099.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntEratAutem.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntEratAutem.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps062.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntPraeTimore.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntPraeTimore.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" +
+                    props.language +
+                    "/CantTriumPuerorum.vue"
+                )
+            ),
+          },
+          {
+            antID: 5,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntRespondensAutem.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntRespondensAutem.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                )
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntEtValdeMane.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntEtValdeMane.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantBenedictus.vue"
+              )
+          ),
+        },
+      },
+      {
+        psCantID: 82, //Resurrectio Domini,  feastID:8 officeID = 2
+        ants: [
+          {
+            antID: 1,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntAngelusAutem.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntAngelusAutem.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps109.vue")
+            ),
+          },
+          {
+            antID: 2,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntEtEcceTerraemotus.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntEtEcceTerraemotus.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps110.vue")
+            ),
+          },
+          {
+            antID: 3,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntEratAutem.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" + props.language + "/AntEratAutem.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps111.vue")
+            ),
+          },
+          {
+            antID: 4,
+            antLA: defineAsyncComponent(
+              () => import("../components/g50Antiphona/AntRespondensAutem.vue")
+            ),
+            antTR: defineAsyncComponent(
+              () =>
+                import(
+                  "../components/g50Antiphona/" +
+                    props.language +
+                    "/AntRespondensAutem.vue"
+                )
+            ),
+            psalmTR: defineAsyncComponent(
+              () => import("../components/g65Psalmodia/" + props.language + "/Ps112.vue")
+            ),
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/AntEtRespicientes.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g50Antiphona/" + props.language + "/AntEtRespicientes.vue"
+              )
+          ),
+          cantTR: defineAsyncComponent(
+            () =>
+              import(
+                "../components/g65Psalmodia/" + props.language + "/CantMagnificat.vue"
+              )
+          ),
+        },
+      },
+    ];
+    const feastOfficeID = feastNum * 10 + officeNum;
+    function getOfficeAnt ( feastOfficeID: number ) {
+        const myArray = arrayPsCant.find(m => m.psCantID === feastOfficeID);
+        if ( myArray ) {
+            return  myArray }
+        else return arrayPsCant [0]
+    }
+    const officeAntCant = getOfficeAnt( feastOfficeID) ;
+    const officeAnt = officeAntCant.ants;
+    const officeCant = officeAntCant.cant;
+    const arrayCapitulum = [
+      { capitulum: null, capitulumTR: null },
+      {
+        capitulum: defineAsyncComponent(
+          () => import("../components/g75Lectio/CapPhilCh02V05.vue")
+        ), // Dom. in Palmis
+        capitulumTR: defineAsyncComponent(
+          () => import("../components/g75Lectio/" + language + "/CapPhilCh02V05.vue")
+        ),
+      },
+      {
+        capitulum: defineAsyncComponent(
+          () => import("../components/g75Lectio/CapIerCh11V19.vue")
+        ), // Ad Laudes Quadragesimae
+        capitulumTR: defineAsyncComponent(
+          () => import("../components/g75Lectio/" + language + "/CapIerCh11V19.vue")
+        ),
+      },
+      {
+        capitulum: defineAsyncComponent(
+          () => import("../components/g75Lectio/CapIerCh11V20.vue")
+        ), // Ad Vesperas Quadragesimae
+        capitulumTR: defineAsyncComponent(
+          () => import("../components/g75Lectio/" + language + "/CapIerCh11V20.vue")
+        ),
+      },
+      {
+        capitulum: defineAsyncComponent(
+          () => import("../components/g75Lectio/CapCor1Ch05V07.vue")
+        ), // Dom. Resurrectio
+        capitulumTR: defineAsyncComponent(
+          () => import("../components/g75Lectio/" + language + "/CapCor1Ch05V07.vue")
+        ),
+      },
+    ];
+    i = 0;
+    if (feastNum == 1 || feastNum == 0) {
+      i = 1;
+    } else if (feastNum > 1 && feastNum < 5) {
+      if (officeNum == 1) {
+        i = 2;
+      } else if (officeNum == 2) {
+        i = 3;
+      }
+    } else if (feastNum == 8) {
+      i = 4;
+    }
+    const officeCapitulum = arrayCapitulum[i];
+    const arrayRespons = [
+      { respons: null, responsTR: null },
+      {
+        respons: defineAsyncComponent(
+          () => import("../components/g55Responsum/RepErueAFramea.vue")
+        ),
+        responsTR: defineAsyncComponent(
+          () => import("../components/g55Responsum/" + language + "/RepErueAFramea.vue")
+        ),
+      }, // Ad Laudes Quadregesimae
+      {
+        respons: defineAsyncComponent(
+          () => import("../components/g00Text/DeOreLeonis.vue")
+        ),
+        responsTR: defineAsyncComponent(
+          () => import("../components/g00Text/" + language + "/DeOreLeonis.vue")
+        ),
+      }, // Ad Vesperas Quadregesimae
+      {
+        respons: defineAsyncComponent(
+          () => import("../components/g55Responsum/RepSurrexitDomDeSepulchro.vue")
+        ), //Resurrectio Domini
+        responsTR: defineAsyncComponent(
+          () =>
+            import(
+              "../components/g55Responsum/" + language + "/RepSurrexitDomDeSepulchro.vue"
+            )
+        ),
+      },
+    ];
+    i = 0;
+    if (feastNum < 5 || feastNum == 9) {
+      /* Aux Laudes et aux Vêpres de la Seamine Sainte */
+      if (officeNum == 1) {
+        i = 1;
+      } else if (officeNum == 2) {
+        i = 2;
+      }
+    } else if (feastNum == 8) {
+      i = 3;
+    }
+    const officeRespons = arrayRespons[i];
+    const arrayHymnus = [
+      null,
+      defineAsyncComponent(
+        () => import("../components/g60Hymnus/" + "HymCruxFidelisTR.vue")
+      ), // Ad Laudes Hebdomada Sancta
+      defineAsyncComponent(
+        () => import("../components/g60Hymnus/" + "HymVexillaRegisTR.vue")
+      ), // Ad Vesperas Hebdomada Sancta
+      defineAsyncComponent(
+        () => import("../components/g60Hymnus/" + "HymAuroraLucisTR.vue")
+      ), // Ad Laudes Dom. Resurrectio
+      defineAsyncComponent(
+        () => import("../components/g60Hymnus/" + "HymAdCoenamAgniTR.vue")
+      ),
+    ]; // Ad Vesperase Dom. Resurrectio
+    const arrayDoxology = [
+      null,
+      defineAsyncComponent(
+        () => import("../components/g60Hymnus/" + "DoxAequaPatri.vue")
+      ),
+      defineAsyncComponent(
+        () => import("../components/g60Hymnus/" + "DoxGloriaTibi.vue")
+      ),
+    ];
+    i = 0;
+    if (feastNum < 5 ) {
+      if (officeNum == 1) {
+        i = 1;
+      } else if (officeNum == 2) {
+        i = 2;
+      }
+    } else if (feastNum == 8) {
+      if (officeNum == 1) {
+        i = 3;
+      } else if (officeNum == 2) {
+        i = 4;
+      }
+    }
+    const iDisplay = i ;
+    const officeHymnus = arrayHymnus[i];
+    i = 0;
+    if (feastNum == 8) {
+      i = 2;
+    } else if (feastNum < 5) {
+      i = 1;
+    }
+    const officeDoxology = arrayDoxology[i];
+    const arrayVersus = [
+      {
+        versus: defineAsyncComponent(
+          () => import("../components/g85Versus/VersEripeMeInimicis.vue")
+        ), // Ad Laudes Hebdomada Sancta
+        versusTR: defineAsyncComponent(
+          () => import("../components/g85Versus/" + language + "/VersEripeMeInimicis.vue")
+        ),
+      },
+      {
+        versus: defineAsyncComponent(
+          () => import("../components/g85Versus/VersEripeMeHomine.vue")
+        ), // Ad Vesperas Hebdomada Sancta
+        versusTR: defineAsyncComponent(
+          () => import("../components/g85Versus/" + language + "/VersEripeMeHomine.vue")
+        ),
+      },
+      {
+        versus: defineAsyncComponent(
+          () => import("../components/g85Versus/VerHomoPacis.vue")
+        ), // Feria V
+        versusTR: defineAsyncComponent(
+          () => import("../components/g85Versus/" + language + "/VerHomoPacis.vue")
+        ),
+      },
+      {
+        versus: defineAsyncComponent(
+          () => import("../components/g85Versus/VerCollocavitIn.vue")
+        ), // Feria VI
+        versusTR: defineAsyncComponent(
+          () => import("../components/g85Versus/" + language + "/VerCollocavitIn.vue")
+        ),
+      },
+      {
+        versus: defineAsyncComponent(
+          () => import("../components/g85Versus/VerCaroMea.vue")
+        ), // Feria VII
+        versusTR: defineAsyncComponent(
+          () => import("../components/g85Versus/" + language + "/VerCaroMea.vue")
+        ),
+      },
+      {
+        versus: defineAsyncComponent(
+          () => import("../components/g85Versus/VersHaecDies.vue")
+        ), //  Dom. Resurrectio
+        versusTR: defineAsyncComponent(
+          () => import("../components/g85Versus/" + language + "/VersHaecDies.vue")
+        ),
+      },
+    ];
+    i = 0;
+    if (feastNum < 5 || feastNum == 9) {
+      if (officeNum == 2) {
+        i = 1;
+      }
+    } else if (feastNum > 4) {
+      i = feastNum - 3;
+    }
+    const officeVersus = arrayVersus[i];
+    let officeCantRubr = null;
+    if (officeNum == 1) {
+      officeCantRubr = "Antiphona ad Benedictus";
+    } else if (officeNum == 2) {
+      officeCantRubr = "Antiphona ad Magnificat";
+    }
+    const arrayOratio = [
+      { oratio: null, oratioTR: null },
+      {
+        oratio: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraQuiHumanoGeneri.vue")
+        ), // Dom. in Palmis
+        oratioTR: defineAsyncComponent(
+          () => import("../components/g80Oratio/" + language + "/OraQuiHumanoGeneri.vue")
+        ),
+      },
+      {
+        oratio: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraUtQuiInTot.vue")
+        ), // Feria II Ad Laudes
+        oratioTR: defineAsyncComponent(
+          () => import("../components/g80Oratio/" + language + "/OraUtQuiInTot.vue")
+        ),
+      },
+      {
+        oratio: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraDaNobisIta.vue")
+        ), // Feria III  Ad Laudes
+        oratioTR: defineAsyncComponent(
+          () => import("../components/g80Oratio/" + language + "/OraDaNobisIta.vue")
+        ),
+      },
+      {
+        oratio: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraQuiProNobisFilium.vue")
+        ), // Feria IV Ad Laudes
+        oratioTR: defineAsyncComponent(
+          () =>
+            import("../components/g80Oratio/" + language + "/OraQuiProNobisFilium.vue")
+        ),
+      },
+      {
+        oratio: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraAdBeneficiaRecolenda.vue")
+        ), // Feria II Ad Vesperas
+        oratioTR: defineAsyncComponent(
+          () =>
+            import("../components/g80Oratio/" + language + "/OraAdBeneficiaRecolenda.vue")
+        ),
+      },
+      {
+        oratio: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraTuaNosMisericordia.vue")
+        ), // Feria III Ad Vesperas
+        oratioTR: defineAsyncComponent(
+          () =>
+            import("../components/g80Oratio/" + language + "/OraTuaNosMisericordia.vue")
+        ),
+      },
+      {
+        oratio: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraSuperHancFamiliam.vue")
+        ), // Feria IV Ad Vesperas
+        oratioTR: defineAsyncComponent(
+          () =>
+            import("../components/g80Oratio/" + language + "/OraSuperHancFamiliam.vue")
+        ),
+      },
+      {
+        oratio: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraSuperHancFamiliamTriduo.vue")
+        ), // Ad Laudes Feria V & Feria VI
+        oratioTR: defineAsyncComponent(
+          () =>
+            import("../components/g80Oratio/" + language + "/OraSuperHancFamiliam.vue")
+        ),
+      },
+      {
+        oratio: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraQuiHodiernaDie.vue")
+        ),
+        oratioTR: defineAsyncComponent(
+          () => import("../components/g80Oratio/" + language + "/OraQuiHodiernaDie.vue")
+        ),
+      },
+    ];
+    i = 0;
+    if (feastNum == 1 || feastNum == 0) {
+      i = 1;
+    } else if (feastNum < 5) {
+      if (officeNum == 1) {
+        i = feastNum;
+      } else if (officeNum == 2) {
+        i = feastNum + 3;
+      }
+    } else if ((feastNum == 5 || feastNum == 6) && officeNum == 1) {
+      i = 8;
+    } else if (feastNum == 8) {
+      i = 9;
+    }
+    const officeOratio = arrayOratio[i];
+    const arrayKyrieAnt = [
+      { kyrieAnt: null, kyrieAntTR: null },
+      {
+        kyrieAnt: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/Kyrie.vue")
+        ),
+        kyrieAntTR: null,
+      },
+      {
+        kyrieAnt: defineAsyncComponent(
+          () => import("../components/g50Antiphona/AntChristusFactusEst5.vue")
+        ),
+        kyrieAntTR: defineAsyncComponent(
+          () =>
+            import(
+              "../components/g50Antiphona/" + language + "/AntChristusFactusEst5.vue"
+            )
+        ),
+      },
+      {
+        kyrieAnt: defineAsyncComponent(
+          () => import("../components/g50Antiphona/AntChristusFactusEst6.vue")
+        ),
+        kyrieAntTR: defineAsyncComponent(
+          () =>
+            import(
+              "../components/g50Antiphona/" + language + "/AntChristusFactusEst6.vue"
+            )
+        ),
+      },
+      {
+        kyrieAnt: defineAsyncComponent(
+          () => import("../components/g50Antiphona/AntChristusFactusEst7.vue")
+        ),
+        kyrieAntTR: defineAsyncComponent(
+          () =>
+            import(
+              "../components/g50Antiphona/" + language + "/AntChristusFactusEst7.vue"
+            )
+        ),
+      },
+    ];
+    i = 0;
+    if (feastNum < 5 || feastNum > 7) {
+      i = 1;
+    } else if (feastNum > 4 && feastNum < 8) {
+      i = feastNum - 3;
+    } /* Aux Laudes du Triduum  */
+    const officeKyrie = arrayKyrieAnt[i];
+
+    const arrayOraFinal = [
+      { Pater: null, DomVobis: null },
+      {
+        Pater: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/PaterNoster.vue")
+        ),
+        DomVobis: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/DominusVobiscum.vue")
+        ),
+      },
+      {
+        Pater: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/PaterNosterTriduum.vue")
+        ),
+        DomVobis: null,
+      },
+    ];
+    i = 0;
+    if (feastNum < 5 || feastNum > 7) {
+      i = 1;
+    }
+    if (feastNum == 5 || feastNum == 6) {
+      i = 2;
+    } /* Aux Laudes du jeudi et du vendredi  */
+    const officeOraFinal = arrayOraFinal[i];
+    const arrayBenedicamusDom = [
+      { benedicamusDom: null, benedicamusDomTR: null },
+      {
+        benedicamusDom: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/BenedicamusDom.vue")
+        ),
+        benedicamusDomTR: defineAsyncComponent(
+          () =>
+            import("../components/g95InOrdineOfficii/" + language + "/BenedicamusDom.vue")
+        ),
+      },
+    ];
+    i = 0;
+    if (feastNum < 5 || feastNum > 7) {
+      i = 1;
+    }
+    const officeBenedicamusDom = arrayBenedicamusDom[i];
+
+    return {
+      feastCurrent,
+      officeCurrent,
+      officeNum,
+      officeInAdiutorium,
+      officeInAdiutoriumFin,
+      officeAnt,
+      officeCant,
+      officeCapitulum,
+      officeRespons,
+      officeVersus,
+      officeHymnus,
+      officeDoxology,
+      officeCantRubr,
+      officeOratio,
+      officeKyrie,
+      officeOraFinal,
+      officeBenedicamusDom,
+      arrowBackSharp,
+      home,
+      iDisplay
+    };
+  },
+});
 </script>

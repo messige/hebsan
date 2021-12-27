@@ -3,9 +3,9 @@
   <ion-content id="container">
     <ion-header class="ion-no-border">
       <ion-toolbar>
-        <ion-button shape="round" size="small">
-            <ion-back-button default-href="/home"></ion-back-button>
-        </ion-button>
+          <ion-button shape="round" size="small">
+              <ion-back-button text="Back" default-href="/home"></ion-back-button>
+          </ion-button>
         <ion-title>Toni Communes</ion-title>  
       </ion-toolbar>
       <br />
@@ -26,7 +26,7 @@
       <ion-footer class="ion-no-border">
         <ion-toolbar>
           <ion-button shape="round" size="small">
-            <ion-back-button default-href="/home"></ion-back-button>
+              <ion-back-button text="Back" default-href="/home"></ion-back-button>
           </ion-button>
         </ion-toolbar>
         <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>      

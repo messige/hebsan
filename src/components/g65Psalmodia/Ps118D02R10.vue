@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <rubrique>Ps.118-2</rubrique><br class="psalm" />
+        <rubrique>Ps.118-2</rubrique><br class="smallScreen" />
 <table id="psalm118-2">
 <tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>In quo córrigit adolescéntior  <highlight1><prepa>vi</prepa></highlight1><prepa>am</prepa>  <accent>su</accent>am ? <greStar />in custodiéndo  <prepa>ser</prepa><prepa>mó</prepa><prepa>nes</prepa>  <accent>tu</accent>os.</td></tr>

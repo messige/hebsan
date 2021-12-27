@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <rubrique>Ps.118-15</rubrique><br class="psalm" />
+        <rubrique>Ps.118-15</rubrique><br class="smallScreen" />
 <table id="psalm118-15">
 <tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Iníquos ó<highlight2><prepa>di</prepa></highlight2><prepa>o</prepa>  <accent>há</accent>bui <greStar />et legem tuam diléxi.</td></tr>
@@ -12,16 +12,16 @@
 <td>Súscipe me secúndum elóquium tu<highlight2><prepa>um</prepa></highlight2>  <prepa>et</prepa>  <accent>vi</accent>vam <greStar /><br />
     et non confúndas me ab exspectatióne mea.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Ádiuva me et  <highlight1><prepa>sal</prepa></highlight1><prepa>vus</prepa>  <accent>e</accent>ro <greStar /><br class="psalm" />
+<td>Ádiuva me et  <highlight1><prepa>sal</prepa></highlight1><prepa>vus</prepa>  <accent>e</accent>ro <greStar /><br class="smallScreen" />
     et meditábor in iustificatiónibus tuis semper.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>Sprevísti omnes discedéntes a iudí<highlight2><prepa>ci</prepa></highlight2><prepa>is</prepa>  <accent>tu</accent>is <greStar /><br class="psalm" />
+<td>Sprevísti omnes discedéntes a iudí<highlight2><prepa>ci</prepa></highlight2><prepa>is</prepa>  <accent>tu</accent>is <greStar /><br class="smallScreen" />
     quia iniústa cogitátio eórum.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Prævaricántes reputávi omnes pecca<highlight2><prepa>tó</prepa></highlight2><prepa>res</prepa>  <accent>ter</accent>ræ <greStar /><br class="psalm" />
+<td>Prævaricántes reputávi omnes pecca<highlight2><prepa>tó</prepa></highlight2><prepa>res</prepa>  <accent>ter</accent>ræ <greStar /><br class="smallScreen" />
     ídeo diléxi testimónia tua.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
-<td>Confíge timóre tuo  <highlight1><prepa>car</prepa></highlight1><prepa>nes</prepa>  <accent>me</accent>as <greStar /><br class="psalm" />
+<td>Confíge timóre tuo  <highlight1><prepa>car</prepa></highlight1><prepa>nes</prepa>  <accent>me</accent>as <greStar /><br class="smallScreen" />
     a iudíciis enim tuis tímui.</td></tr>
 </table>
     </div>

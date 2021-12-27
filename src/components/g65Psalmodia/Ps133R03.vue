@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <rubrique>Ps.133</rubrique><br class="psalm" />
+        <rubrique>Ps.133</rubrique><br class="smallScreen" />
 <table id="psalm133">
 <tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Ecce nunc benedícite  <highlight1><accent>Dó</accent></highlight1>minum <greStar /> omnes  <highlight1><prepa>ser</prepa></highlight1><prepa>vi</prepa>  <accent>Dó</accent>mini.</td></tr>

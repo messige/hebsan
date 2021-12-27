@@ -3,17 +3,17 @@
     <rubrique>Ps.128</rubrique>
 <table id="psalm128">
 <tr><td><rubrique>1&nbsp;</rubrique></td>
-<td>Sæpe expugnavérunt me a iuventúte mea <greStar /><br class="psalm" />dicat nunc Israel :</td></tr>
+<td>Sæpe expugnavérunt me a iuventúte mea <greStar /><br class="smallScreen" />dicat nunc Israel :</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Ils m’ont cruellement opprimé dès ma jeunesse,qu’Israël le dise.</td>
 </tr>
 <tr><td><rubrique>2</rubrique></td>
-<td>Sæpe expugnavérunt me a iuventúte mea <greStar /><br class="psalm" />étenim non potuérunt mihi.</td></tr>
+<td>Sæpe expugnavérunt me a iuventúte mea <greStar /><br class="smallScreen" />étenim non potuérunt mihi.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Ils m’ont cruellement opprimé dès ma jeunesse, mais ils n’ont pas prévalu contre moi.</td>
 </tr>
 <tr><td><rubrique>3</rubrique></td>
-<td>Supra dorsum meum fabricavérunt peccatóres <greStar /><br class="psalm" />prolongavérunt iniquitátem suam.</td></tr>
+<td>Supra dorsum meum fabricavérunt peccatóres <greStar /><br class="smallScreen" />prolongavérunt iniquitátem suam.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Ils ont labouré mon dos, ils y ont tracé de longs sillons.</td>
 </tr>
@@ -25,17 +25,17 @@ confundántur et convertántur retrórsum omnes qui odérunt Sion.</td></tr>
 Qu’ils soient confondus et qu’ils reculent en arrière, tous ceux qui haïssent Sion.</td>
 </tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Fíant sicut foenum tectórum <greStar /><br class="psalm" />quod priúsquam evellátur, exáruit.</td></tr>
+<td>Fíant sicut foenum tectórum <greStar /><br class="smallScreen" />quod priúsquam evellátur, exáruit.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Qu’ils soient comme l’herbe des toits, qui sèche avant qu’on l’arrache.</td>
 </tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>De quo non implévit manum suam qui metit <greStar /><br class="psalm" />et sinum suum qui manípulos cólligit.</td></tr>
+<td>De quo non implévit manum suam qui metit <greStar /><br class="smallScreen" />et sinum suum qui manípulos cólligit.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Le moissonneur n’en remplit pas sa main, ni celui qui lie les gerbes, son giron ;</td>
 </tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Et non dixérunt qui præteríbant : <greDagger /><br class="psalm" />
+<td>Et non dixérunt qui præteríbant : <greDagger /><br class="smallScreen" />
 benedíctio Dómini super vos <greStar /><br />benedíximus vobis in nómine Dómini.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Et que les passants ne disent pas : Que la bénédiction du Seigneur soit sur vous. Nous vous bénissons au nom de le Seigneur.</td>

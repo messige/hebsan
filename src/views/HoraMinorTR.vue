@@ -1,18 +1,24 @@
 <template>
-<ion-page>
-  <ion-content id="container">
+  <ion-page>
     <ion-header class="ion-no-border">
       <ion-toolbar>
-        <ion-button
-          @click="$router.push({ name: 'OfficeList', params: { feast: feast }})">
+        <ion-button shape="round" size="small" strong href="/">
+          <ion-icon :icon="home"></ion-icon>
+        </ion-button>
+        &nbsp; &nbsp;
+        <ion-button shape="round" size="small" strong href="/Sancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
-        <ion-title>{{feastCurrent.title}} - {{feastCurrent.titleFr}}
-            <br class="psalm" />&nbsp;-&nbsp;{{typeOffice.title}}</ion-title>  
-      </ion-toolbar> 
-      <br />
+        <br />
+        <br />
+      </ion-toolbar>
     </ion-header>
-
+    <ion-content id="container">
+      <p>&nbsp;</p>
+      <br />
+        <ion-title>{{feastCurrent.title}} - {{feastCurrent.titleFr}}
+            <br class="smallScreen" />&nbsp;-&nbsp;{{typeOffice.title}}</ion-title>
+      <br /> 
     <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
       <component    :is="officeTempusLiturgicus1.inAdiutorium"/>
         <ion-grid><ion-row>
@@ -59,7 +65,7 @@
             <component :is="officeCapitulum.capitulumTR"/>
         </ion-text></ion-col></ion-row></ion-grid>  
     </p>
-  <template v-if="feast < 5">      
+  <template v-if="feastNum < 5">      
       <template v-if="typeOffice.respons != null">
         <p><rubrique>Responsum</rubrique><br />
             <component :is="typeOffice.respons"/></p>
@@ -94,22 +100,13 @@
         <ion-col size="11"><ion-text color="tertiary">
           <component :is="officeTempusLiturgicus1.benedicamusTR"/>
       </ion-text></ion-col></ion-row></ion-grid>
-    <br /> 
-    <ion-footer class="ion-no-border">
-      <ion-toolbar>
-        <ion-button
-          @click="$router.push({ name: 'OfficeList', params: { feast: feast }})">
-          <ion-icon :icon="arrowBackSharp" />
-        </ion-button> 
-      </ion-toolbar> 
-      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>      
-    </ion-footer>        
+    <br />         
   </ion-content>
 </ion-page>
 </template>
 
 <script lang="ts">
-  import { IonPage , IonContent , IonHeader , IonFooter , IonToolbar , IonTitle , IonButton , IonIcon } from '@ionic/vue';
+  import { IonPage , IonContent , IonHeader , IonToolbar , IonTitle , IonButton , IonIcon } from '@ionic/vue';
   import { useRoute }             from 'vue-router';
   import { defineAsyncComponent } from 'vue';
   import { home , arrowBackSharp }  from 'ionicons/icons';
@@ -117,7 +114,7 @@
   
   export default defineComponent ( {
     name:      'HoraMinor',
-    components: { IonPage , IonContent , IonHeader , IonFooter , IonToolbar , IonTitle , IonButton , IonIcon } ,
+    components: { IonPage , IonContent , IonHeader , IonToolbar , IonTitle , IonButton , IonIcon } ,
     setup () {
       const route    = useRoute () ;
       const feast    = route.params.feast ;

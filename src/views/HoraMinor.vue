@@ -1,29 +1,36 @@
 <template>
-<ion-page>
-  <ion-content id="container">
+  <ion-page>
     <ion-header class="ion-no-border">
       <ion-toolbar>
-        <ion-button
-          @click="$router.push({ name: 'OfficeList', params: { feast: feast }})">
+        <ion-button shape="round" size="small" strong href="/">
+          <ion-icon :icon="home"></ion-icon>
+        </ion-button>
+        &nbsp; &nbsp;
+        <ion-button shape="round" size="small" strong href="/Sancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
-        <ion-title>{{feastCurrent.title}} - {{feastCurrent.titleFr}}
-            <br class="psalm" />&nbsp;-&nbsp;{{OfficeTitle}}</ion-title>  
-      </ion-toolbar> 
-      <br />
+        <br />
+        <br />
+      </ion-toolbar>
     </ion-header>
-        <template v-if="feast < 5"> 
+    <ion-content id="container">
+      <p>&nbsp;</p>
+      <br />
+        <ion-title>{{feastCurrent.title}} - {{feastCurrent.titleTR}}
+            <br class="smallScreen" />&nbsp;-&nbsp;{{OfficeTitle}}</ion-title>  
+      <br />
+        <template v-if="feastNum < 5"> 
           <component :is="officeTemporumLiturgicorum.inAdiutorium"/>
           <ImageDisplay :imgSource = "officeHymnus" />
           <ImageDisplay :imgSource = "officeCurrent.antiphona" />
         </template> 
         <ImageDisplay :imgSource = "officeCurrent.tonus" />
         <p><component :is="officeCurrent.psalm"/></p>
-        <template v-if="feast < 5">
+        <template v-if="feastNum < 5">
           <ImageDisplay :imgSource = "officeCurrent.antiphona" /> 
         </template>     
           <p><component :is="officeCapitulum"/></p>
-        <template v-if="feast < 5">      
+        <template v-if="feastNum < 5">      
           <template v-if="officeRespons != null">
             <p><rubrique>Responsum</rubrique><br />
             <ImageDisplay :imgSource = "officeRespons" /></p>
@@ -37,16 +44,7 @@
         <p><component :is="officeOratio"/></p>
         <p><component :is="officeFinalHora.vobiscum"/></p>
         <p> <ImageDisplay :imgSource = "officeTemporumLiturgicorum.benedicamus" /></p>
-        <br /> 
-    <ion-footer class="ion-no-border">
-      <ion-toolbar>
-        <ion-button
-          @click="$router.push({ name: 'OfficeList', params: { feast: feast }})">
-          <ion-icon :icon="arrowBackSharp" />
-        </ion-button>
-      </ion-toolbar> 
-      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>      
-    </ion-footer>      
+        <br />     
   </ion-content>
 </ion-page>
 </template>
@@ -58,6 +56,7 @@
   import { home , arrowBackSharp }  from 'ionicons/icons';
   import ImageDisplay             from '../components/ImageDisplay.vue';
   import { defineComponent }      from 'vue';
+  import { getFeast } from "../data/feasts";
   
   export default defineComponent ( {
     name:      'HoraMinor',
@@ -67,9 +66,7 @@
       const feast    = route.params.feast ;
       const office   = route.params.office ;
       const arrayFeasts = [
-        { title   : 'Domenica in Palmis', 
-          titleFr : 'Dimanche des Rameaux' ,
-          arrayFeastOffices : [
+        { arrayFeastOffices : [
             { titleOffice : 'Ad tertiam', 
               antiphona   : require ( "../assets/g50Antiphona/AntPueriVestimenta2.jpg" ) ,
               tonus       : require ( "../assets/g70Tonus/Tonus01Ff.jpg" ) ,
@@ -85,8 +82,7 @@
               tonus       : require ( "../assets/g70Tonus/Tonus09Fb.jpg" ) ,
               psalm       : defineAsyncComponent ( () =>                            
                             import ( '../components/g65Psalmodia/Ps118D09-12R10.vue'  ) ) } ] } ,
-        { title   : 'Hebdomada Sancta Feria II' , 
-          titleFr : 'Lundi Saint' , 
+        { 
           arrayFeastOffices : [
             { titleOffice : 'Ad tertiam', 
               antiphona   : require ( "../assets/g50Antiphona/AntFramea2.jpg" ) ,
@@ -103,8 +99,7 @@
               tonus       : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
               psalm       : defineAsyncComponent ( () =>                            
                             import ( '../components/g65Psalmodia/Ps118D20-22R03.vue' ) ) } ] } ,
-        { title   : 'Hebdomada Sancta Feria III',
-          titleFr : 'Mardi Saint' ,
+        {
           arrayFeastOffices : [
             { titleOffice : 'Ad tertiam', 
               antiphona   : require ( "../assets/g50Antiphona/AntAnteDiemPaschae.jpg" ) ,
@@ -121,8 +116,7 @@
               tonus       : require ( "../assets/g70Tonus/Tonus09Fb.jpg" ) ,
               psalm       : defineAsyncComponent ( () =>                            
                             import ( '../components/g65Psalmodia/Ps118D20-22R03.vue' ) ) } ] } ,
-        { title     : 'Hebdomada Sancta Feria IV',
-          titleFr   : 'Mercredi Saint' ,
+        { 
           arrayFeastOffices : [
             { titleOffice : 'Ad tertiam', 
               antiphona   : require ( "../assets/g50Antiphona/AntIpsiVeroInVanum2.jpg" ) ,
@@ -139,8 +133,7 @@
               tonus       : require ( "../assets/g70Tonus/Tonus08Fg.jpg") ,
               psalm       : defineAsyncComponent ( () =>                            
                             import ( '../components/g65Psalmodia/Ps118D20-22R03.vue' ) ) } ] } ,
-        { title     : 'Hebdomada Sancta Feria V',
-          titleFr   : 'Jeudi Saint' ,
+        { 
           arrayFeastOffices : [
             { titleOffice : 'Ad tertiam', 
               antiphona   : null ,
@@ -157,8 +150,7 @@
               tonus       : require ( "../assets/g70Tonus/Tonus13Fc.jpg") ,
               psalm       : defineAsyncComponent ( () =>                            
                             import ( '../components/g65Psalmodia/Ps118D17-22R13.vue' ) ) } ] } ,
-        { title     : 'Hebdomada Sancta Feria VI',
-          titleFr   : 'Vendredi Saint' ,
+        { 
           arrayFeastOffices : [
             { titleOffice : 'Ad tertiam', 
               antiphona   : null ,
@@ -175,8 +167,7 @@
               tonus       : require ( "../assets/g70Tonus/Tonus13Fc.jpg") ,
               psalm       : defineAsyncComponent ( () =>                            
                             import ( '../components/g65Psalmodia/Ps118D20-22R03.vue' ) ) } ] } ,
-        { title     : 'Hebdomada Sancta Feria VII',
-          titleFr   : 'Samedi Saint' ,
+        { 
           arrayFeastOffices : [
             { titleOffice : 'Ad tertiam', 
               antiphona   : null ,
@@ -195,8 +186,9 @@
                             import ( '../components/g65Psalmodia/Ps118D20-22R03.vue' ) ) } ] } ] ;
       const feastNum        = +feast ;
       const officeNum       = +office / 3 ; 
-      const feastCurrent    = arrayFeasts [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
-      const feastOffice     = feastCurrent.arrayFeastOffices ;
+      const feastCurrentArr = arrayFeasts [feastNum-1] ; // Feast is 1,2,... while index in table is 0,1,...
+      const feastCurrent    = getFeast(feastNum);
+      const feastOffice     = feastCurrentArr.arrayFeastOffices ;
       const officeCurrent   = feastOffice [officeNum-1] ;
       const arrayTemporumLiturgicorum  = [
         { inAdiutorium: null ,

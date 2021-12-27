@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <rubrique>Nunc dimittis</rubrique><br class="psalm" />
+        <rubrique>Nunc dimittis</rubrique><br class="smallScreen" />
 <table id="NuncDimitis">
 <tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Nunc dimíttis servum  <highlight1><prepa>tu</prepa></highlight1><prepa>um</prepa>,  <accent>Dó</accent>mine, <greStar />secúndum verbum tuum in pace.</td></tr>
