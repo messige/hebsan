@@ -47,8 +47,8 @@ export default defineComponent({
   },
   setup(props) {
     const actualDate = new Date(props.startyear, props.startmonth, props.startday); //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
-    const { calendarSelect, calendarFrom, lastDate } = useCalendarService(actualDate);
-    return { calendarSelect, calendarFrom, lastDate };
+    const { calendarFrom } = useCalendarService(actualDate);
+    return { calendarFrom };
   },
 });
 </script>

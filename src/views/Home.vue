@@ -27,23 +27,13 @@
       <div id="container">
         <br />
         <ion-list>
-          <ion-item href="/nextFeast">
-              <ion-label>
-                <h2>
-                  {{ useTranslate("massOf", language.abbrev) }} {{ selectDateFormat }}
-                  <ion-icon :icon="chevronForward"></ion-icon>
-                </h2>
-                <ion-note>{{ selectFeast }}</ion-note>
-              </ion-label>
-          </ion-item>
-          <br />
           <ion-item href="/abcFeasts">
               <ion-label>
                 <h2>
-                  {{ useTranslate("otherSunday", language.abbrev) }}
+                  {{ useTranslate("calendar", language.abbrev) }}
                   <ion-icon :icon="chevronForward"></ion-icon>
                 </h2>
-                <ion-note>{{ useTranslate("calendar", language.abbrev) }}</ion-note>
+                <ion-note>{{ useTranslate("calendarExpla", language.abbrev) }}</ion-note>
               </ion-label>
           </ion-item>
           <br />
@@ -72,28 +62,23 @@
   </ion-page>
 </template>
 <script setup lang="ts">
-import { reactive } from "vue";
-import useCalendarService from "../components/ts/calendarService";
-import useTranslate from "../components/ts/translate";
-import { chevronForward } from "ionicons/icons";
-const today = new Date();
-const { calendarSelect } = useCalendarService(today);
-const selectFeast = calendarSelect.thisFeast;
-const selectDateFormat = calendarSelect.thisDateFormat;
+  import { reactive } from "vue";
+  import useTranslate from "../components/ts/translate";
+  import { chevronForward } from "ionicons/icons";
 const language = reactive({
-  abbrev: "fr",
-});
+    abbrev: "fr",
+  });
 
-//localStorage.removeItem("lang") ;
+  //localStorage.removeItem("lang") ;
 
-function setLang(target: string): void {
-  localStorage.setItem("lang", target);
-  language.abbrev = target;
-}
-const getLanguage = localStorage.getItem("lang");
-if (getLanguage) {
-  language.abbrev = getLanguage;
-} else {
-  localStorage.setItem("lang", "fr");
-}
+  function setLang(target: string): void {
+    localStorage.setItem("lang", target);
+    language.abbrev = target;
+  }
+  const getLanguage = localStorage.getItem("lang");
+  if (getLanguage) {
+    language.abbrev = getLanguage;
+  } else {
+    localStorage.setItem("lang", "fr");
+  }
 </script>

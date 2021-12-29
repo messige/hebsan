@@ -48,13 +48,6 @@ export default function (thisDay: Date) {
       thisAnnoABCDisplay: "",
     },
   ];
-  const calendarSelect = {
-    thisFeast: "",
-    thisFeastIndex: "",
-    thisDateWeekDay: "",
-    thisDateFormat: "",
-    thisAnnoABC: "",
-  };
   class CalendarItem {
     calendarFeast: string;
     calendarDate: Date;
@@ -348,16 +341,9 @@ export default function (thisDay: Date) {
           thisAnnoABC: calendarArraySorted[j].calendarABC,
           thisAnnoABCDisplay: AnnoABCDisplay,
         };
-        if (k == 0) {
-          calendarSelect.thisFeast = calendarArraySorted[j].calendarFeast;
-          calendarSelect.thisFeastIndex = feastIndex;
-          calendarSelect.thisDateWeekDay = dateWeekDay(calendarArraySorted[j]);
-          calendarSelect.thisDateFormat = dateFormat(calendarArraySorted[j]);
-          calendarSelect.thisAnnoABC = calendarArraySorted[j].calendarABC;
-        }
         k++;
       }
     }
   }
-  return { calendarSelect, calendarFrom, lastDate };
+  return { calendarFrom};
 }

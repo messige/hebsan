@@ -2,8 +2,8 @@ export default function (term: string, lang: string) {
   //function translate(term: string, lang: string) {
   const translatioEntries = [
     "massOf",
-    "otherSunday",
     "calendar",
+    "calendarExpla",
     "sancta",
     "sanctaExpla",
     "about",
@@ -32,12 +32,12 @@ export default function (term: string, lang: string) {
       de: "DE -Messe du",
     },
     {
-      fr: "Un autre dimanche ou jour de fête",
-      de: "DE - Un autre dimanche ou jour de fête",
+      fr: "Textes latins et traductions des messes des dimanches et jours de fête",
+      de: "DE - Textes latins et traductions des messes des dimanches et jours de fête",
     },
     {
-      fr: "Calendrier pour les trois prochaines années",
-      de: "DE - Calendrier pour les trois prochaines années",
+      fr: "Calendrier pour les 3 prochaines années",
+      de: "DE - Calendrier pour les 3 prochaines années",
     },
     {
       fr: "Semaine Sainte",

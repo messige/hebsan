@@ -5,11 +5,6 @@ const routes: Array<RouteRecordRaw> = [
   { path: "/", redirect: "/home" },
   { path: "/home", name: "Home", component: Home },
   {
-    path: "/nextFeast",
-    name: "NextFeast",
-    component: () => import("../views//NextFeast.vue"),
-  },
-  {
     path: "/abcFeasts",
     name: "ABCFeasts",
     component: () => import("../views/ABCFeasts.vue"),
