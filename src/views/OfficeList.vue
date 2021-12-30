@@ -3,7 +3,7 @@
     <ion-content id="container">
       <p>&nbsp;</p>
       <br />
-      <ion-title>{{ title }} - {{ titleTR }}</ion-title>
+      <h2>{{ title }} - {{ titleTR }}</h2>
       <ion-list>
         <template v-for="officeItem in OfficeItems" :key="officeItem.id">
           <template v-if="officeItem.feasts[feastID] == 1">
@@ -52,13 +52,13 @@
 </template>
 
 <script lang="ts">
-import { IonPage, IonContent, IonTitle } from "@ionic/vue";
+import { IonPage, IonContent } from "@ionic/vue";
 import { getOffices } from "../data/offices";
 import { chevronForward } from "ionicons/icons";
 import { defineComponent } from "vue";
 export default defineComponent({
   name: "OfficeList",
-  components: { IonPage, IonContent, IonTitle },
+  components: { IonPage, IonContent },
   props: {
     feastID: { type: Number, required: true },
     title: { type: String, required: true },

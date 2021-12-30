@@ -10,7 +10,7 @@
       </ion-toolbar>
     </ion-header>
     <ion-content  id="container">
-        <ion-title>Hebdomada Sancta</ion-title>
+        <h2>Hebdomada Sancta</h2>
         <br />
         <template v-for="(thisFeast, feastID) in arrayFeasts" :key="feastID">
           <router-link

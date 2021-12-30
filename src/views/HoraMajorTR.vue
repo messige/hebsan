@@ -16,10 +16,10 @@
     <ion-content id="container">
       <p>&nbsp;</p>
       <br />
-      <ion-title
-        >{{ feastCurrent.title }} - {{ feastCurrent.titleTR }} <br class="smallScreen" />
-        - {{ officeCurrent.officeName }}</ion-title
-      >
+      <h2>
+        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }} <br class="smallScreen" />
+        - {{ officeCurrent.officeName }}
+      </h2>
       <br />
       <component :is="officeInAdiutorium.inAdiutorium" />
       <ion-grid
@@ -99,15 +99,18 @@
         ></ion-grid>
       </p>
       <p>
-      <rubrique>{{officeCantRubr}}</rubrique><br />
-     <component    :is   ="officeCant.antLA" />
-      <ion-grid><ion-row>
-        <ion-col>&nbsp;</ion-col>
-        <ion-col size="11"><ion-text color="tertiary">
-          <component    :is   ="officeCant.antTR" />
-      </ion-text></ion-col></ion-row></ion-grid>
-      <component :is="officeCant.cantTR"/> 
-    </p> 
+        <rubrique>{{ officeCantRubr }}</rubrique
+        ><br />
+        <component :is="officeCant.antLA" />
+        <ion-grid
+          ><ion-row>
+            <ion-col>&nbsp;</ion-col>
+            <ion-col size="11"
+              ><ion-text color="tertiary">
+                <component :is="officeCant.antTR" /> </ion-text></ion-col></ion-row
+        ></ion-grid>
+        <component :is="officeCant.cantTR" />
+      </p>
       <p>
         <component :is="officeKyrie.kyrieAnt" />
         <template v-if="officeKyrie.kyrieAntTR != null">
@@ -260,7 +263,7 @@ export default defineComponent({
     }
     const arrayPsCant: PsCant[] = [
       {
-        psCantID: 0,                        //if psCantID not found
+        psCantID: 0, //if psCantID not found
         ants: [
           {
             antID: 1,
@@ -268,35 +271,27 @@ export default defineComponent({
               () => import("../components/g50Antiphona/Empty.vue")
             ),
             antTR: defineAsyncComponent(
-              () =>
-                import(
-                  "../components/g50Antiphona/" + props.language + "/Empty.vue"
-                )
+              () => import("../components/g50Antiphona/" + props.language + "/Empty.vue")
             ),
             psalmTR: defineAsyncComponent(
               () => import("../components/g65Psalmodia/" + props.language + "/Empty.vue")
             ),
-          },] ,
-          cant: {
-            antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/Empty.vue")
-            ),
-            antTR: defineAsyncComponent(
-              () =>
-                import(
-                  "../components/g50Antiphona/" + props.language + "/Empty.vue"
-                )
-            ),
-            cantTR: defineAsyncComponent(
-              () =>
-                import(
-                  "../components/g65Psalmodia/" + props.language + "/Empty.vue"
-              )
+          },
+        ],
+        cant: {
+          antLA: defineAsyncComponent(
+            () => import("../components/g50Antiphona/Empty.vue")
+          ),
+          antTR: defineAsyncComponent(
+            () => import("../components/g50Antiphona/" + props.language + "/Empty.vue")
+          ),
+          cantTR: defineAsyncComponent(
+            () => import("../components/g65Psalmodia/" + props.language + "/Empty.vue")
           ),
         },
       },
       {
-        psCantID: 2,     //feastID: 0 Domenica in Palmis - la veille  Ad Vesperas officeID = 2
+        psCantID: 2, //feastID: 0 Domenica in Palmis - la veille  Ad Vesperas officeID = 2
         ants: [
           {
             antID: 1,
@@ -1649,13 +1644,13 @@ export default defineComponent({
       },
     ];
     const feastOfficeID = feastNum * 10 + officeNum;
-    function getOfficeAnt ( feastOfficeID: number ) {
-        const myArray = arrayPsCant.find(m => m.psCantID === feastOfficeID);
-        if ( myArray ) {
-            return  myArray }
-        else return arrayPsCant [0]
+    function getOfficeAnt(feastOfficeID: number) {
+      const myArray = arrayPsCant.find((m) => m.psCantID === feastOfficeID);
+      if (myArray) {
+        return myArray;
+      } else return arrayPsCant[0];
     }
-    const officeAntCant = getOfficeAnt( feastOfficeID) ;
+    const officeAntCant = getOfficeAnt(feastOfficeID);
     const officeAnt = officeAntCant.ants;
     const officeCant = officeAntCant.cant;
     const arrayCapitulum = [
@@ -1773,7 +1768,7 @@ export default defineComponent({
       ),
     ];
     i = 0;
-    if (feastNum < 5 ) {
+    if (feastNum < 5) {
       if (officeNum == 1) {
         i = 1;
       } else if (officeNum == 2) {
@@ -1786,7 +1781,7 @@ export default defineComponent({
         i = 4;
       }
     }
-    const iDisplay = i ;
+    const iDisplay = i;
     const officeHymnus = arrayHymnus[i];
     i = 0;
     if (feastNum == 8) {
@@ -2068,7 +2063,7 @@ export default defineComponent({
       officeBenedicamusDom,
       arrowBackSharp,
       home,
-      iDisplay
+      iDisplay,
     };
   },
 });

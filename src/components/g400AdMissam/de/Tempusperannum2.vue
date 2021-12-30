@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 256 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 242 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 <rubrique>Introitus</rubrique><br /><br />
 Omnis terra adoret te, Deus,<br />
@@ -48,7 +48,7 @@ Und er führte ihn zu Jesus.</ion-text></ion-col> </ion-row></ion-grid></templat
 Dicit Dominus :<br />
 implete hydrias aqua<br />
 et ferte architriclino.<br />
-Cum gustasset architriclinus<br />
+Cum (Dum) gustasset architriclinus<br />
 aquam vinum factam,<br />
 dicit sponso :<br />
 servasti vinum bonum usque adhuc.<br />
@@ -73,4 +73,4 @@ Dieses Zeichen wirkte Jesus als erstes vor seinen Jüngern.</ion-text></ion-col>
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 256 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 242 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

@@ -1,4 +1,4 @@
-<!-- DEBUG-VIEW START 255 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW START 241 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
 <rubrique>Introitus</rubrique><br /><br />
 Omnis terra adoret te, Deus,<br />
@@ -14,7 +14,7 @@ rendez gloire à sa louange !</ion-text></ion-col> </ion-row></ion-grid>
 Misit Dominus verbum suum, et sanavit eos :<br />
 et eripuit eos de interitu eorum.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Le Seigneur a envoyé son Verbe, et il les a guéris :<br />
 et il les a arrachés à leur perdition.</ion-text></ion-col> </ion-row></ion-grid>V./  Confiteantur Domino misericordiae eius:<br />
-et mirabilia eius filiis hominum.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Qu’ils louent le Seigneur pour sa miséricorde et pour ses merveilles en faveur des enfants des hommes. </ion-text></ion-col> </ion-row></ion-grid>	
+et mirabilia eius filiis hominum.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Qu’ils louent le Seigneur pour sa miséricorde<br />et pour ses merveilles, en faveur des enfants des hommes. </ion-text></ion-col> </ion-row></ion-grid>	
 <rubrique>Versus alleluiaticus</rubrique><br /><br />
 Laudate Deum omnes angeli eius :<br />
 laudate eum omnes virtutes eius.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Louez Dieu, tous ses Anges :<br />
@@ -47,7 +47,7 @@ et il l'amena à Jésus.</ion-text></ion-col> </ion-row></ion-grid></template>
 Dicit Dominus :<br />
 implete hydrias aqua<br />
 et ferte architriclino.<br />
-Cum gustasset architriclinus<br />
+Cum (Dum) gustasset architriclinus<br />
 aquam vinum factam,<br />
 dicit sponso :<br />
 servasti vinum bonum usque adhuc.<br />
@@ -72,4 +72,4 @@ Ce fut le premier signe que Jésus fit devant ses disciples.</ion-text></ion-col
   }
 </script>	
 
-<!-- DEBUG-VIEW ENDED 255 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+<!-- DEBUG-VIEW ENDED 241 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->

@@ -3,11 +3,10 @@
     <ion-content id="container">
       <p>&nbsp;</p>
       <br />
-
-      <ion-title
-        >{{ useTranslate("massOf", lang) }} {{ feastDate }}<br class="smallScreen" />
-        {{ feast }} - Anno {{ feastAnnoABC }}</ion-title
-      >
+      <h2>
+        {{ useTranslate("massOf", lang) }} {{ feastDate }}<br class="smallScreen" />
+        {{ feast }} - Anno {{ feastAnnoABC }}
+      </h2>
       <br />
       <component :is="feastTextTR" :annoABC="feastAnnoABC" />
     </ion-content>

@@ -16,10 +16,10 @@
     <ion-content id="container">
       <p>&nbsp;</p>
       <br />
-      <ion-title
+      <h2>
         >{{ feastCurrent.title }} - {{ feastCurrent.titleFr }}
-        <br class="smallScreen" />&nbsp;-&nbsp;Ad Competorium</ion-title
-      >
+        <br class="smallScreen" />&nbsp;-&nbsp;Ad Competorium
+      </h2>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
         <br />
         <component :is="officeTempusLiturgicus1.iube" />

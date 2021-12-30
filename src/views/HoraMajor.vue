@@ -16,10 +16,10 @@
     <ion-content id="container">
       <p>&nbsp;</p>
       <br />
-      <ion-title
-        >{{ feastCurrent.title }} - {{ feastCurrent.titleTR }} <br />
-        - {{ officeCurrent.officeName }}</ion-title
-      >
+      <h2>
+        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }} <br />
+        - {{ officeCurrent.officeName }}
+      </h2>
       <component :is="officeInAdiutorium" />
       <p>
         <rubrique>Antiphonae</rubrique><br />
