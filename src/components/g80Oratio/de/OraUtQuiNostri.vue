@@ -1,6 +1,5 @@
 <template>
-    Praeta, quǽsumus, omnípotens Deus<br /> 
-    ut qui nostri excéssibus incesssánter afflígimur,<br />
-    per  unigéniti Fíilii tui passiónem liberémur.
-<!-- Deutsche Úbersetzung -->
+Gewähre uns, so bitten wir dich, allmächtiger Gott<br />
+damit wir, die wir ständig durch unsere Exzesse bestraft werden<br />
+durch das Leiden deines eingeborenen Sohnes befreit werden.
 </template>

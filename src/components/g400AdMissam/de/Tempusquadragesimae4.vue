@@ -1,87 +1,126 @@
-<!-- DEBUG-VIEW START 258 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
-<rubrique>Introitus</rubrique><br /><br />
-Laetare Ierusalem :<br />
+<!-- - keyCalendar = 59 - keyTitle = 4799 - prev_keyPiece = 5379 - keyType = 1 - officeYear =  - keyText = 5481 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Introitus</rubrique><br /><br />Laetare Ierusalem :<br />
 et conventum facite omnes qui diligitis eam :<br />
 gaudete cum laetitia,<br />
 qui in tristitia fuistis :<br />
 ut exsultetis,<br />
-et satiemini ab uberibus consolationis vestrae.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Freue dich, Stadt Jerusalem!<br />
+et satiemini ab uberibus consolationis vestrae.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Freue dich, Stadt Jerusalem!<br />
 Kommt zusammen, alle, die ihr sie liebt.<br />
 Seid fröhlich, freut euch,<br />
 die ihr traurig wart.<br />
 Freut euch<br />
-und trinkt euch satt an den Brüsten eurer Tröstung.</ion-text></ion-col> </ion-row></ion-grid>Ps. <span class="fc">Laetatus sum</span> in his quae dicta sunt mihi :<br />
-in domum Domini ibimus.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Ich freute mich, als man mir sagte:<br />
-„Zum Haus des Herrn wollen wir pilgern".</ion-text></ion-col> </ion-row></ion-grid>	
-<rubrique>Graduale</rubrique><br /><br />
-<span class="fc">Laetatus sum</span> in his quae dicta sunt mihi :<br />
-in domum Domini ibimus.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Ich freute mich, als man mir sagte:<br />
-„Zum Haus des Herrn wollen wir pilgern".</ion-text></ion-col> </ion-row></ion-grid>V./  Fiat pax in virtute tua :<br />
-et abundantia in turribus tuis.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Friede wohne in deinen Mauern,<br />
-in deinen Häusern Geborgenheit.</ion-text></ion-col> </ion-row></ion-grid>	
-<rubrique>Tractus</rubrique><br /><br />
-Qui confidunt in Domino<br />
+und trinkt euch satt an den Brüsten eurer Tröstung.</ion-text></ion-col></ion-row></ion-grid>
+
+ <!-- textType = P keyText = 5485 -->Ps. <span class="fc">Laetatus sum</span> in his quae dicta sunt mihi :<br />
+in domum Domini ibimus.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Ich freute mich, als man mir sagte:<br />
+„Zum Haus des Herrn wollen wir pilgern".</ion-text></ion-col></ion-row></ion-grid>
+</template>
+<!-- - keyCalendar = 59 - keyTitle = 4803 - prev_keyPiece = 5383 - keyType = 2 - officeYear =  - keyText = 5485 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Graduale</rubrique><br /><br /><span class="fc">Laetatus sum</span> in his quae dicta sunt mihi :<br />
+in domum Domini ibimus.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Ich freute mich, als man mir sagte:<br />
+„Zum Haus des Herrn wollen wir pilgern".</ion-text></ion-col></ion-row></ion-grid>
+
+ <!-- textType = V keyText = 3876 -->V./  Fiat pax in virtute tua :<br />
+et abundantia in turribus tuis.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Friede wohne in deinen Mauern,<br />
+in deinen Häusern Geborgenheit.</ion-text></ion-col></ion-row></ion-grid>
+</template>
+<!-- - keyCalendar = 59 - keyTitle = 6678 - prev_keyPiece = 7487 - keyType = 27 - officeYear =  - keyText = 7624 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Canticus</rubrique><br /><br />Qui confidunt in Domino<br />
 sicut mons Sion<br />
 non commovebitur in aeternum<br />
-qui habitat in Ierusalem.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Die auf den Herrn vertrauen,<br />
+qui habitat in Ierusalem.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Die auf den Herrn vertrauen,<br />
 sind wie der Berg Zion;<br />
 nicht wankt in Ewigkeit,<br />
-der in Jerusalem seinen Wohnsitz hat.</ion-text></ion-col> </ion-row></ion-grid>V./  Montes in circuitu eius :<br />
+der in Jerusalem seinen Wohnsitz hat.</ion-text></ion-col></ion-row></ion-grid>
+
+ <!-- textType = V keyText = 6087 -->V./  Montes in circuitu eius :<br />
 et Dominus in circuitu populi sui,<br />
-ex hoc nunc et usque in saeculum.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Berge umgeben ihn ringsum,<br />
+ex hoc nunc et usque in saeculum.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Berge umgeben ihn ringsum,<br />
 und der Herr ist rings um sein Volk,<br />
-von nun an bis in Ewigkeit.</ion-text></ion-col> </ion-row></ion-grid>	
-<rubrique>Offertorium</rubrique><br /><br />
-Laudate Dominum quia benignus est :<br />
+von nun an bis in Ewigkeit.</ion-text></ion-col></ion-row></ion-grid>
+</template>
+<!-- - keyCalendar = 59 - keyTitle = 4854 - prev_keyPiece = 5449 - keyType = 5 - officeYear =  - keyText = 5546 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Offertorium</rubrique><br /><br />Laudate Dominum quia benignus est :<br />
 psallite nomini eius, quoniam suavis est :<br />
-omnia quaecumque voluit, fecit in caelo et in terra.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Lobt den Herrn, denn er ist gütig.<br />
+omnia quaecumque voluit, fecit in caelo et in terra.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Lobt den Herrn, denn er ist gütig.<br />
 Singt seinem Namen, denn er ist freundlich.<br />
-Alles, was dem Herrn gefällt, vollbringt er im Himmel und auf Erden.</ion-text></ion-col> </ion-row></ion-grid>	
-<rubrique>Offertorium</rubrique><br /><br />
-Illumina oculos meos, nequando obdormiam in morte:<br />
+Alles, was dem Herrn gefällt, vollbringt er im Himmel und auf Erden.</ion-text></ion-col></ion-row></ion-grid>
+
+</template>
+<!-- - keyCalendar = 59 - keyTitle = 4081 - prev_keyPiece = 4563 - keyType = 5 - officeYear =  - keyText = 4683 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Offertorium &nbsp; <i>quando legitur Evangelium de filio prodigo</i></rubrique><br /><br />Illumina oculos meos, nequando obdormiam in morte:<br />
 nequando dicat inimicus meus :<br />
-praevalui adversus eum.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Erleuchte meine Augen,<br />
+praevalui adversus eum.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Erleuchte meine Augen,<br />
 damit ich nicht irgendwann im Tode entschlafe;<br />
 damit mein Feind nicht sagen kann:<br />
-„Ich habe ihn überwältigt“!</ion-text></ion-col> </ion-row></ion-grid>	
-<template v-if="annoABC == 'A'"><rubrique>Communio</rubrique><br /><br />
-Lutum fecit ex sputo Dominus<br />
-et linivit oculos meos;<br />
-et abii, et lavi, et vidi,<br />
-et credidi Deo.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Der Herr machte einen Teig aus Speichel<br />
-und bestrich meine Augen.<br />
-Und ich ging weg, und wusch mich: Und ich sah!<br />
-Und ich glaubte an Gott.</ion-text></ion-col> </ion-row></ion-grid></template>
-	
-<template v-if="annoABC == 'B'"><rubrique>Communio</rubrique><br /><br />
-Ierusalem quae aedificatur ut civitas,<br />
+„Ich habe ihn überwältigt“!</ion-text></ion-col></ion-row></ion-grid>
+
+</template>
+<!-- - keyCalendar = 59 - keyTitle = 4031 - prev_keyPiece = 4512 - keyType = 6 - officeYear =  - keyText = 4623 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Communio</rubrique><br /><br />Ierusalem quae aedificatur ut civitas,<br />
 cuius participatio eius <span class="fc">in idipsum</span> :<br />
 illuc enim ascenderunt tribus, tribus Domini,<br />
-ad confitendum nomini tuo, Domine.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Jerusalem, du starke Stadt,<br />
+ad confitendum nomini tuo, Domine.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Jerusalem, du starke Stadt,<br />
 dicht gebaut und fest gefügt.<br />
 Dorthin ziehen die Stämme hinauf, die Stämme des Herrn,<br />
-deinen Namen zu preisen, Herr.</ion-text></ion-col> </ion-row></ion-grid></template>
-	
-<template v-if="annoABC == 'C'"><rubrique>Communio</rubrique><br /><br />
-Oportet te fili gaudere,<br />
+deinen Namen zu preisen, Herr.</ion-text></ion-col></ion-row></ion-grid>
+
+</template>
+<!-- - keyCalendar = 59 - keyTitle = 6003 - prev_keyPiece = 6712 - keyType = 6 - officeYear = C - keyText = 6841 -->
+ <template v-if=" annoABC == 'C'">
+<rubrique>Communio &nbsp; <i>quando legitur Evangelium de filio prodigo</i></rubrique><br /><br />Oportet te fili gaudere,<br />
 quia frater tuus mortuus fuerat,<br />
 et revixit :<br />
-perierat, et <span class="fc">inventus est</span>.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Du darfst dich freuen, mein Sohn,<br />
+perierat, et <span class="fc">inventus est</span>.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Du darfst dich freuen, mein Sohn,<br />
 denn dein Bruder war tot,<br />
 und lebt wieder;<br />
-er war verloren und wurde wiedergefunden.</ion-text></ion-col> </ion-row></ion-grid></template>
-	
-<br />
-</template>
-<script>
-  export default {
-    props: {
-      annoABC: {
-        type: String,    
-      }
-    }
-  }
-</script>	
+er war verloren und wurde wiedergefunden.</ion-text></ion-col></ion-row></ion-grid>
 
-<!-- DEBUG-VIEW ENDED 258 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+</template>
+<!--  - keyCalendar = 59 - keyTitle = 5008 - prev_keyPiece = 5614 - keyType = 6 - officeYear =  - keyText = 5723 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Communio &nbsp; <i>quando legitur Evangelium de caeco nato</i></rubrique><br /><br />Lutum fecit ex sputo Dominus<br />
+et linivit oculos meos;<br />
+et abii, et lavi, et vidi,<br />
+et credidi Deo.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Der Herr machte einen Teig aus Speichel<br />
+und bestrich meine Augen.<br />
+Und ich ging weg, und wusch mich: Und ich sah!<br />
+Und ich glaubte an Gott.</ion-text></ion-col></ion-row></ion-grid>
+
+</template>
+ <br /></template>
+ <script lang="ts">
+ export default {
+ props: {
+ annoABC: {
+ type: String,
+ }
+ }
+ }
+ </script>

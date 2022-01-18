@@ -23,7 +23,7 @@ introíte portas eius in confessióne <greStar /><br />
 Kommt mit Dank durch seine Tore,<greStar /><br /> 
 mit Lobgesang in seine Höfe! Dankt ihm, </td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Laudáte nomen eius : quóniam suávis Dóminus <greDagger /><br class="smallScreen" />
+<td>Laudáte nomen eius : quóniam suávis est Dóminus <greDagger /><br class="smallScreen" />
 in ætérnum misericórdia  eius <greStar /><br />et usque in generatiónem et generatiónem  véritas  eius.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>preist seinen Namen! Denn der HERR ist gut,<greDagger /><br class="smallScreen" />

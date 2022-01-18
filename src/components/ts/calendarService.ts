@@ -192,6 +192,7 @@ export default function (thisDay: Date) {
     addWeeks(easter, -1),
     annoABC
   );
+  pushItem(calendarObj);
   calendarObj = new CalendarItem(
     "Ad Vigiliam Paschalem   ",
     addDays(easter, -1),

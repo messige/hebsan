@@ -1,6 +1,5 @@
 <template>
-Omnípotens sempitérne De-us,<br />
-da nobis ita Domínicae passiónis sacraménta perágere:<br />
-ut indulgéntiam percípere mereá-mur.<br />
-<!-- Deutsche Úbersetzung -->
+Allmächtiger, ewiger Gott<br />
+gewähre uns, die Sakramente der Passion unseres Herrn so zu vollziehen,<br />
+dass wir Verzeihung zu erlangen verdienen.  
 </template>

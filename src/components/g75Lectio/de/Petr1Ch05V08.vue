@@ -1,10 +1,8 @@
 ﻿<template>
-    Fratres: Sóbrii estóte, et vigiláte:<br />
-    quia adversárius vester diábolus,<br />
-    tamquam leo rúgiens círcuit,<br /> 
-    quaerens quem dévoret:<br /> 
-    cui resístite fortes in fide.<br />
-    Tu, autem Dómine, miserére nobis.<br />
-    <resp>Deo grátias.</resp>
-    <!-- Deutsche Úbersetzung -->
+Brüder, Seid nüchtern, seid wachsam!,<br />
+Euer Widersacher, der Teufel,<br />
+geht wie ein brüllender Löwe umher und sucht,<br />
+wen er verschlingen kann.<br />
+Leistet ihm Widerstand in der Kraft des Glaubens!<br />
+Du aber, Herr, erbarme dich unser.
 </template>

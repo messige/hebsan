@@ -11,7 +11,8 @@
 <tr><td><rubrique>4</rubrique></td>
 <td>Tecum princípium in die virtútis tuæ in splendóribus sanc<highlight2><accent>tó</accent></highlight2>rum <greStar /><br />ex útero ante lucíferum  <highlight1><prepa>gé</prepa></highlight1><prepa>nu</prepa><accent>i</accent> te.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Iurávit Dóminus et non pænitébit  <highlight1><accent>e</accent></highlight1>um <greStar /><br/>tu es sacérdos in ætérnum secúndum órdi<highlight2><prepa>nem</prepa></highlight2>  <prepa>Mel</prepa><accent>chí</accent>sedech.</td></tr>
+<td>Iurávit Dóminus et non pænitébit  <highlight1><accent>e</accent></highlight1>um <greStar /><br/>
+tu es sacérdos in ætérnum secúndum órdi<highlight2><prepa>nem</prepa></highlight2>  <prepa>Mel</prepa><accent>chí</accent>sedech.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
 <td>Dóminus a dextris  <highlight1><accent>tu</accent></highlight1>is <greStar /><br class="smallScreen" />confrégit in die iræ  <highlight1><prepa>su</prepa></highlight1><prepa>æ</prepa>  <accent>re</accent>ges.</td></tr>
 <tr><td><rubrique>7</rubrique></td>

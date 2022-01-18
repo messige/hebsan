@@ -1,42 +1,65 @@
-<!-- DEBUG-VIEW START 267 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
 <template>
-<rubrique>Introitus</rubrique><br /><br />
-Quasi modo geniti infantes, alleluia :<br />
-rationabiles, sine dolo lac concupiscite.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Comme des enfants nouveaux-nés, alléluia,<br />
-en vrais spirituels, soyez avides de lait pur.</ion-text></ion-col> </ion-row></ion-grid>Ps. Exsultate Deo adiutori nostro.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Tressaillez d’allégresse pour Dieu, notre secours.</ion-text></ion-col> </ion-row></ion-grid>	
-<rubrique>Versus alleluiaticus</rubrique><br /><br />
-In die resurrectionis meae,<br />
-dicit Dominus,<br />
-praecedam vos in Galilaeam.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Au jour de la réssurection, dit le Seigneur,<br />
-je vous précéderai en Galilée.</ion-text></ion-col> </ion-row></ion-grid>	
-<rubrique>Versus alleluiaticus</rubrique><br /><br />
-Post dies octo, ianuis clausis,<br />
-stetit Iesus in medio discipulorum suorum,<br />
-et dixit : pax vobis.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Après huit jours, alors que les portes étaient fermées,<br />
-Jésus se tint au milieu de ses disciples<br />
-et il dit : Paix à vous.</ion-text></ion-col> </ion-row></ion-grid>	
-<rubrique>Offertorium</rubrique><br /><br />
-Angelus Domini descendit de caelo,<br />
-et dixit mulieribus :<br />
-quem quaeritis, surrexit, sicut dixit.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">L'ange du Seigneur descendit du ciel<br />
-et dit aux femmes :<br />
-Celui que vous cherchez est réssuscité comme il l'a dit.</ion-text></ion-col> </ion-row></ion-grid>	
-<rubrique>Communio</rubrique><br /><br />
-Mitte manum tuam,<br />
-et cognosce loca clavorum alleluia :<br />
-et noli esse incredulus sed fidelis.<ion-grid> <ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Avance ta main<br />
-et reconnais les places des clous, alléluia,<br />
-et ne sois plus incrédule, mais croyant.</ion-text></ion-col> </ion-row></ion-grid>	
-<br />
-</template>
-<script>
-  export default {
-    props: {
-      annoABC: {
-        type: String,    
-      }
-    }
-  }
-</script>	
+<!-- - keyCalendar = 84 - keyTitle = 6626 - prev_keyPiece = 7425 - keyType = 1 - officeYear =  - keyText = 7556 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Introitus</rubrique><br /><br />Quasi modo geniti infantes, alleluia :<br />
+rationabiles, sine dolo lac concupiscite.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Comme des enfants nouveaux-nés, alléluia,<br />
+en vrais spirituels, soyez avides de lait pur.</ion-text></ion-col></ion-row></ion-grid>
 
-<!-- DEBUG-VIEW ENDED 267 APPPATH/Config/../Views/pages/calendar_piece_vue.php -->
+ <!-- textType = P keyText = 3725 -->Ps. Exsultate Deo adiutori nostro.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Tressaillez d’allégresse pour Dieu, notre secours.</ion-text></ion-col></ion-row></ion-grid>
+</template>
+<!-- - keyCalendar = 84 - keyTitle = 4151 - prev_keyPiece = 4644 - keyType = 3 - officeYear =  - keyText = 4769 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Versus alleluiaticus</rubrique><br /><br />In die resurrectionis meae,<br />
+dicit Dominus,<br />
+praecedam vos in Galilaeam.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Au jour de la réssurection, dit le Seigneur,<br />
+je vous précéderai en Galilée.</ion-text></ion-col></ion-row></ion-grid>
+
+</template>
+<!-- - keyCalendar = 84 - keyTitle = 6331 - prev_keyPiece = 7084 - keyType = 3 - officeYear =  - keyText = 7209 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Versus alleluiaticus</rubrique><br /><br />Post dies octo, ianuis clausis,<br />
+stetit Iesus in medio discipulorum suorum,<br />
+et dixit : pax vobis.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Après huit jours, alors que les portes étaient fermées,<br />
+Jésus se tint au milieu de ses disciples<br />
+et il dit : Paix à vous.</ion-text></ion-col></ion-row></ion-grid>
+
+</template>
+<!-- - keyCalendar = 84 - keyTitle = 509 - prev_keyPiece = 523 - keyType = 5 - officeYear =  - keyText = 558 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Offertorium</rubrique><br /><br />Angelus Domini descendit de caelo,<br />
+et dixit mulieribus :<br />
+quem quaeritis, surrexit, sicut dixit.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">L'ange du Seigneur descendit du ciel<br />
+et dit aux femmes :<br />
+Celui que vous cherchez est réssuscité comme il l'a dit.</ion-text></ion-col></ion-row></ion-grid>
+
+</template>
+<!--  - keyCalendar = 84 - keyTitle = 5306 - prev_keyPiece = 5949 - keyType = 6 - officeYear =  - keyText = 6067 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique>Communio</rubrique><br /><br />Mitte manum tuam,<br />
+et cognosce loca clavorum alleluia :<br />
+et noli esse incredulus sed fidelis.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Avance ta main<br />
+et reconnais les places des clous, alléluia,<br />
+et ne sois plus incrédule, mais croyant.</ion-text></ion-col></ion-row></ion-grid>
+
+</template>
+ <br /></template>
+ <script lang="ts">
+ export default {
+ props: {
+ annoABC: {
+ type: String,
+ }
+ }
+ }
+ </script>

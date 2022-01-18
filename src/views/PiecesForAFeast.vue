@@ -57,7 +57,7 @@ export default defineComponent({
         () => import("@/components/g400AdMissam/de/" + feastIndex + ".vue")
       );
     }
-    return { feastTextTR, feast, feastDate, feastAnnoABC, useTranslate, lang };
+    return { feastTextTR, feast, feastDate, feastAnnoABC, useTranslate, lang, feastIndex };
   },
 });
 </script>

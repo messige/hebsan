@@ -25,7 +25,7 @@ introíte portas eius in confessióne <greStar /><br />
 <td>Nous sommes son peuple et le troupeau de son pâturage. Venez à ses portiques avec des louanges, à ses parvis avec des cantiques.</td>
 </tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Laudáte nomen eius : quóniam suávis Dóminus <greDagger /><br class="smallScreen" />
+<td>Laudáte nomen eius : quóniam suávis est Dóminus <greDagger /><br class="smallScreen" />
 in ætérnum misericórdia eius <greStar /><br />et usque in generatiónem et generatiónem véritas eius.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Célébrez-le, bénissez son nom. Car le Seigneur est bon, sa miséricorde est éternelle, et sa fidélité demeure d’âge en âge.</td>

@@ -1,7 +1,6 @@
 ﻿<template>
-    Vísita, quǽsumus, Dómine, habitatiónem istam,<br />
-    et omnes insídias inimíci ab ea lónge repélle<br />
-    Ángeli tui sancti hábitent in ea, qui nos in pace custódiant<br />
-    et benedíctio tua sit super nos semper.<br />
-<!-- Deutsche Úbersetzung -->
+    Besuche, wir bitten Dich, o Herr, diese Wohnung,<br />
+    und vertreibe alle Hinterhalte des Feindes von ihr.<br />
+    Deine heiligen Engel mögen darin wohnen, die uns in Frieden bewahren,<br />
+    und dein Segen möge immer über uns sein.
 </template>

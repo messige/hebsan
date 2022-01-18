@@ -29,71 +29,71 @@ export default function (term: string, lang: string) {
   const translation = [
     {
       fr: "Messe du ",
-      de: "DE -Messe du",
+      de: "Messe des ",
     },
     {
-      fr: "Textes latins et traductions des messes des dimanches et jours de fête",
-      de: "DE - Textes latins et traductions des messes des dimanches et jours de fête",
+      fr: "Textes latins et traductions des pièces du Propre",
+      de: "Die lateinischen Texte und Übersetzungen der Gesänge des Propriums",
     },
     {
-      fr: "Calendrier pour les 3 prochaines années",
-      de: "DE - Calendrier pour les 3 prochaines années",
+      fr: "Calendrier des dimanches et jours de fête pour les 3 prochaines années",
+      de: "Kalender der Sonn- und Festtage der 3 kommenden Jahre",
     },
     {
       fr: "Semaine Sainte",
-      de: "DE - Semaine Sainte",
+      de: "Karwoche",
     },
     {
-      fr: "Les Grandes et les Petites Heures de la Semaine Sainte",
-      de: "DE - Les Grandes et les Petites Heures de la Semaine Sainte",
+      fr: "Les Grandes et les Petites Heures : partitions et traductions",
+      de: "Die großen und die kleinen Stunden: Notentexte und Übersetzungen",
     },
     {
       fr: "A propos de l'application Hebsan",
-      de: "DE - A propos de l'application Hebsan",
+      de: "Die Applikation Hebsan betreffend",
     },
     {
       fr: "Notes explicatives et politique de confidentialité",
-      de: "DE - Notes explicatives et politique de confidentialité",
+      de: "Erläuterungen und Datenschutzrichtlinie",
     },
     {
       fr: "Tons communs",
-      de: "DE - Tons communs",
+      de: "Allgemeine Töne",
     },
     {
       fr: "Dimanche des Rameaux - la veille",
-      de: "DE - Dimanche des Rameaux - la veille",
+      de: "Palmsonntag - am Vortag",
     },
     {
       fr: "Dimanche des Rameaux",
-      de: "DE - Dimanche des Rameaux",
+      de: "Palmsonntag",
     },
     {
       fr: "Lundi Saint",
-      de: "DE - Lundi Saint",
+      de: "Montag der Karwoche",
     },
     {
       fr: "Mardi Saint",
-      de: "DE - Mardi Saint",
+      de: "Dienstag der Karwoche",
     },
     {
       fr: "Mercredi Saint",
-      de: "DE - Mercredi Saint",
+      de: "Mittwoch der Karwoche",
     },
     {
       fr: "Jeudi Saint",
-      de: "DE - Jeudi Saint",
+      de: "Gründonnerstag",
     },
     {
       fr: "Vendredi Saint",
-      de: "DE - Vendredi Saint",
+      de: "Karfreitag",
     },
     {
       fr: "Samedi Saint",
-      de: "DE - Samedi Saint",
+      de: "Karsamstag",
     },
     {
       fr: "Dimanche de Pâques",
-      de: "DE - Dimanche de Pâques",
+      de: "Ostersonntag",
     },
     {
       fr: "Dimanche",

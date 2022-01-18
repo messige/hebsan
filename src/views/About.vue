@@ -124,6 +124,7 @@
           anything you should address your message to:<br />
           info@hebsan.online
         </p>
+        <p> &nbsp; </p><p> &nbsp; </p>
       </div>
     </ion-content>
   </ion-page>

@@ -11,7 +11,7 @@
     <ion-content>
       <div id="container">
         <ion-title
-          >Calendarium Romanum <br class="smallScreen" />
+          >Calendarium Romanum <br />
           ex Decreto Sacrosancti Oecumenici Concilii <br class="smallScreen" />
           Vaticani II instauratum</ion-title
         ><br />

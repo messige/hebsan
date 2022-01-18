@@ -47,7 +47,7 @@
       </template>
       <p><component :is="officeFinalHora.pater" /></p>
       <p><component :is="officeFinalHora.vobiscum" /></p>
-      <p><component :is="officeOratio" /></p>
+      <p><component :is="officeOratio" /> <component :is="officeOratioConclusio" /></p>
       <p><component :is="officeFinalHora.vobiscum" /></p>
       <p><ImageDisplay :imgSource="officeTemporumLiturgicorum.benedicamus" /></p>
       <br />
@@ -368,25 +368,49 @@ export default defineComponent({
     }
     const officeCapitulum = arrayCapitulum[i];
 
-    const arrayOratio = [
+    const arrayOratioConclusio = [
       null,
-      defineAsyncComponent(
-        () => import("../components/g80Oratio/OraQuiHumanoGeneri.vue")
-      ), // Dom. in Palmis
-      defineAsyncComponent(() => import("../components/g80Oratio/OraUtQuiInTot.vue")), // Feria II
-      defineAsyncComponent(() => import("../components/g80Oratio/OraDaNobisIta.vue")), // Feria III
-      defineAsyncComponent(() => import("../components/g80Oratio/OraUtQuiNostri.vue")), // Feria IV
-      defineAsyncComponent(
-        () => import("../components/g80Oratio/OraSuperHancFamiliamTriduo.vue")
-      ),
-    ]; // Feria V, VI, VII
+      defineAsyncComponent(() => import("@/components/g80Oratio/PerEundemDominum.vue")),
+      defineAsyncComponent(() => import("@/components/g80Oratio/PerDominum.vue")),
+      defineAsyncComponent(() => import("@/components/g80Oratio/QuiTecum.vue")),
+    ];
+    const arrayOratio = [
+      { corpus: null, conclusio: 0 },
+      {
+        corpus: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraQuiHumanoGeneri.vue")  // Dom. in Palmis
+        ), // Dom. in Palmis
+        conclusio: 1,
+      },
+      {
+        corpus: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraUtQuiInTot.vue")), // Feria II
+        conclusio: 3,
+      },
+      {
+        corpus: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraDaNobisIta.vue")), // Feria III
+        conclusio: 1,
+      },
+      {
+        corpus: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraUtQuiNostri.vue")), // Feria IV
+        conclusio: 3,
+      },
+      {
+        corpus: defineAsyncComponent(
+          () => import("../components/g80Oratio/OraSuperHancFamiliamTriduo.vue")), // Feriae V, VI, VII
+        conclusio: 3,
+      },
+    ];
     i = 0;
     if (feastNum < 5) {
       i = feastNum;
     } else if (feastNum > 4 && feastNum < 8) {
       i = 5;
     }
-    const officeOratio = arrayOratio[i];
+    const officeOratio = arrayOratio[i].corpus;
+    const officeOratioConclusio = arrayOratioConclusio[arrayOratio[i].conclusio];
     const arrayFinalHora = [
       {
         kyrie: require("../assets/g95InOrdineOfficii/KyrieSimplex.jpg"),
@@ -423,6 +447,7 @@ export default defineComponent({
       officeVersus,
       officeHymnus,
       officeOratio,
+      officeOratioConclusio,
       officeFinalHora,
       home,
       arrowBackSharp,

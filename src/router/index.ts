@@ -63,7 +63,7 @@ const routes: Array<RouteRecordRaw> = [
     props: true,
   },
   {
-    path: "/piecesForAFeast",
+    path: "/piecesForAFeast/:feastIndex/:feast/:feastDate/:feastAnnoABC",
     name: "PiecesForAFeast",
     component: () => import("../views/PiecesForAFeast.vue"),
     props: true,

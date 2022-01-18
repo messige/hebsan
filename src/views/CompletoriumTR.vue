@@ -17,7 +17,7 @@
       <p>&nbsp;</p>
       <br />
       <h2>
-        >{{ feastCurrent.title }} - {{ feastCurrent.titleFr }}
+        {{ feastCurrent.title }} - {{ feastCurrent.titleFr }}
         <br class="smallScreen" />&nbsp;-&nbsp;Ad Competorium
       </h2>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
@@ -139,7 +139,7 @@
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="officeTempusLiturgicus1.versus" /> </ion-text
+                <component :is="officeTempusLiturgicus1.versusTR" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
       </template>
@@ -232,6 +232,7 @@ export default defineComponent({
     const objLanguage = new String(route.params.language);
     const lowerLang = objLanguage.toLowerCase();
     const arrayFeasts = [
+      { title: "Domenica in Palmis", titleFr: "Dimanche des Rameaux - la veille" },
       { title: "Domenica in Palmis", titleFr: "Dimanche des Rameaux" },
       { title: "Hebdomada Sancta Feria II", titleFr: "Lundi Saint" },
       { title: "Hebdomada Sancta Feria III", titleFr: "Mardi Saint" },
@@ -240,11 +241,10 @@ export default defineComponent({
       { title: "Hebdomada Sancta Feria VI", titleFr: "Vendredi Saint" },
       { title: "Hebdomada Sancta Feria VII", titleFr: "Samedi Saint" },
       { title: "Resurrectio Domini", titleFr: "Dimanche de Pâques" },
-      { title: "Domenica in Palmis", titleFr: "Dimanche des Rameaux - la veille" },
     ];
     const feastNum = +feast;
     let i = 0;
-    const feastCurrent = arrayFeasts[feastNum - 1]; // Feast is 1,2,... while index in table is 0,1,...
+    const feastCurrent = arrayFeasts[feastNum];
     const objTranslations = {
       ps004: defineAsyncComponent(
         () => import("../components/g65Psalmodia/" + lowerLang + "/Ps004.vue")
@@ -443,9 +443,6 @@ export default defineComponent({
       officeLectio = arrayLectio[feastNum - 5].lectio;
     }
     return {
-      i,
-      feast,
-      feastNum,
       feastCurrent,
       officeTempusLiturgicus1,
       officeTempusLiturgicus2,

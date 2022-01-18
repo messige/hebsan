@@ -1,6 +1,5 @@
 <template>
-    Ádiuva nos, Deus salutáris nos-ter<br /> 
-    et ad benefícia recolénda, quibus nos instauráre dignátus es,<br />
-    tríbue venire gaudéntes.
-<!-- Deutsche Úbersetzung -->
+Hilf uns, du Gott, unseres Heiles,<br />
+und um der Segnungen zu gedenken, mit welchen du uns wieder herstellen wolltest,<br />
+lass uns in Freude kommen.
 </template>

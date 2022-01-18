@@ -1,6 +1,5 @@
 <template>
-Da, quaésumus omnípotens De-us:<br />
-ut qui in tot advérsis ex nostra infirmitáte defícimus;<br />
-intercedénte unigéniti Fílii tui passióne respirémus.
-<!-- Deutsche Úbersetzung -->
+Gewähre uns, wir bitten dich, allmächtiger Gott<br />
+damit wir, die wir in so vielen Widrigkeiten wegen unserer Schwäche gescheitert sind,<br />
+lass uns durch das Leiden deines eingeborenen Sohnes erlöst werden.
 </template>
