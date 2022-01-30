@@ -38,7 +38,7 @@ und handle an uns nach der Fülle deiner Barmherzigkeit.</ion-text></ion-col></i
 qui ambulant in lege Domini.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Selig, die untadelig sind auf dem Weg,<br />
 die wandeln im Gesetz des Herrn.</ion-text></ion-col></ion-row></ion-grid>
- <!-- textType = P keyText = 5777 -->Ps. Magnus Dominus et laudabilis nimis,<br />
+ <!-- textType = P keyText = 5777 -->Ps. Magnus Dominus et laudabilis valde (nimis),<br />
 in civitate Dei (nostri), in monte sancto eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Groß ist der Herr und hoch zu loben<br />
 in der Stadt unseres Gottes, auf seinem heiligen Berg.</ion-text></ion-col></ion-row></ion-grid>

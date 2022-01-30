@@ -37,10 +37,6 @@ iubilemus Deo salutari nostro.
 <ion-text color="tertiary">Venez, tressaillons d’allégresse pour le Seigneur :<br />
 jubilons pour Dieu notre sauveur.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = V keyText = 7301 --> Praeoccupemus faciem eius
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary"></ion-text></ion-col></ion-row></ion-grid>
- <!-- textType = V keyText = 4476 --> Hodie si vocem eius audieritis
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Aujourd’hui, si vous entendez sa voix.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 157 - keyTitle = 1200 - prev_keyPiece = 1319 - keyType = 3 - officeYear = B - keyText = 1339 -->
  <template v-if=" annoABC == 'B'">
@@ -65,10 +61,6 @@ iubilemus Deo salutari nostro.
 <ion-text color="tertiary">Venez, tressaillons d’allégresse pour le Seigneur :<br />
 jubilons pour Dieu notre sauveur.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = V keyText = 7301 --> Praeoccupemus faciem eius
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary"></ion-text></ion-col></ion-row></ion-grid>
- <!-- textType = V keyText = 4476 --> Hodie si vocem eius audieritis
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Aujourd’hui, si vous entendez sa voix.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 157 - keyTitle = 4097 - prev_keyPiece = 4580 - keyType = 5 - officeYear =  - keyText = 4701 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">

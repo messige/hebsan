@@ -20,8 +20,33 @@ quem timebo ?
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Le Seigneur est la lumière qui m’inonde, et mon salut,<br />
 qui craindrai-je ?</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 148 - keyTitle = 6506 - prev_keyPiece = 7287 - keyType = 2 - officeYear =  - keyText = 7412 -->
- <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<!-- - keyCalendar = 148 - keyTitle = 6506 - prev_keyPiece = 7287 - keyType = 2 - officeYear = A - keyText = 7412 -->
+ <template v-if=" annoABC == 'A'">
+<rubrique>Graduale</rubrique><br /><br />Protector noster aspice, Deus,<br />
+et respice super servos tuos.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Dieu notre protecteur, jetez un regard :<br />
+et posez le regard sur vos serviteurs.</ion-text></ion-col></ion-row></ion-grid>
+
+ <!-- textType = V keyText = 2602 -->V./  Domine Deus virtutum,<br />
+exaudi preces servorum tuorum.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Seigneur, Dieu des puissances,<br />exaucez les prières de vos serviteurs.</ion-text></ion-col></ion-row></ion-grid>
+</template>
+<!-- - keyCalendar = 148 - keyTitle = 1114 - prev_keyPiece = 1218 - keyType = 2 - officeYear = B - keyText = 1237 -->
+ <template v-if=" annoABC == 'B'">
+<rubrique>Graduale</rubrique><br /><br />Bonum est confiteri Domino.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Il est bon d’acclamer le Seigneur.</ion-text></ion-col></ion-row></ion-grid>
+
+ <!-- textType = C keyText = 3509 --> Et psallere nomini tuo, altissime.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et de psalmodier pour votre nom, Très-Haut.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = V keyText = 137 -->V./  Ad annuntiandum mane misericordiam tuam.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Pour annoncer dès le matin votre miséricorde.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = V keyText = 3553 --> Et veritatem tuam per noctem.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et votre vérité pendant la nuit.</ion-text></ion-col></ion-row></ion-grid>
+</template>
+<!-- - keyCalendar = 148 - keyTitle = 6506 - prev_keyPiece = 7287 - keyType = 2 - officeYear = C - keyText = 7412 -->
+ <template v-if=" annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Protector noster aspice, Deus,<br />
 et respice super servos tuos.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">

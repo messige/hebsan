@@ -96,6 +96,7 @@
       </template>
       <p><component :is="officeFinalHora.pater" /></p>
       <p><component :is="officeFinalHora.vobiscum" /></p>
+      <rubrique>Oratio</rubrique><br /><br />
       <component :is="officeOratio.oratio" />
       <ion-grid
         ><ion-row>

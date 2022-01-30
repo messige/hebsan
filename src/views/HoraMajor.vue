@@ -53,7 +53,14 @@
       <p><ImageDisplay :imgSource="officeKyrie" /></p>
       <p><component :is="officeOraFinal.Pater" /></p>
       <p><component :is="officeOraFinal.DomVobis" /></p>
-      <p><component :is="officeOratio" /> <component :is="officeOratioConclusio" /></p>
+      <p>
+        <br />
+        <rubrique>Oratio <i>{{temporumLiturgicorum1.rubriqueOratio}}</i></rubrique><br /><br />
+        {{temporumLiturgicorum1.incipitOratio}}
+        <template v-if="temporumLiturgicorum1.incipitOratio"><br /></template>
+        <component :is="officeOratio" /><br /> 
+        <component :is="officeOratioConclusio" />
+      </p>
       <p><component :is="officeOraFinal.DomVobis" /></p>
       <ImageDisplay :imgSource="officeBenedicamusDom" />
       <br />
@@ -100,6 +107,7 @@ export default defineComponent({
   },
   setup(props) {
     let feastNum = 0;
+    let i = 0;
     let j = 0;
     for (j = 0; j < 9; j++) {
       if (props.feast == j) {
@@ -115,6 +123,24 @@ export default defineComponent({
     const feastOfficeCurrent = feastOffices(feastNum);
     const officeAnt = feastOfficeCurrent.arrayOfffice[officeNum - 1];
     const officeCant = feastOfficeCurrent.arrayCant[officeNum - 1];
+
+    const arrayTemporumLiturgicorum1 = [
+      {
+        tempus: "non est triduum",
+        rubriqueOratio: " - Tonus solemnis",
+        incipitOratio: "Orémus."
+      },
+      {
+        tempus: "triduum",
+        rubriqueOratio: "dicitur gravi et recta voce et ultima syllaba deprimitur per tonum in fine.",
+        incipitOratio: null
+      },
+    ];
+    i = 1;
+    if (feastNum < 5 || feastNum > 7) {
+      i = 0;
+    } /* not in Triduum  */
+    const temporumLiturgicorum1 = arrayTemporumLiturgicorum1[i];
     const arrayInAdiutorium = [
       null,
       defineAsyncComponent(
@@ -130,7 +156,7 @@ export default defineComponent({
         () => import("@/components/g95InOrdineOfficii/img/InAdiutoriumSolemn.vue")
       ), // Vesperae Tempus paschali
     ];
-    let i = 0;
+    i = 0;
     if (
       (feastNum == 1 && officeNum == 1) ||
       feastNum == 2 ||
@@ -279,7 +305,7 @@ export default defineComponent({
       },
       {
         corpus: defineAsyncComponent(
-          () => import("@/components/g80Oratio/OraQuiProNobisFilium.vue")
+          () => import("@/components/g80Oratio/OraUtQuiNostri.vue")
         ), // Feria IV Ad Laudes
         conclusio: 1,
       },
@@ -399,6 +425,7 @@ export default defineComponent({
       officeNum,
       officeCurrent,
       feastOfficeCurrent,
+      temporumLiturgicorum1,
       officeAnt,
       officeInAdiutorium,
       officeCapitulum,

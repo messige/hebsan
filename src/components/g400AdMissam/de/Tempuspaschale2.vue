@@ -9,6 +9,8 @@ Voll EInsicht,  ohne Hinterlist, verlangt nach der Milch.</ion-text></ion-col></
 
  <!-- textType = P keyText = 3725 -->Ps. Exsultate Deo adiutori nostro.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Jubelt Gott zu, er ist unsere Hilfe.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = P keyText = 5331 --> iubilate Deo Iacob.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Jauchzt dem Gott Jakobs zu!</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 84 - keyTitle = 4151 - prev_keyPiece = 4644 - keyType = 3 - officeYear =  - keyText = 4769 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">

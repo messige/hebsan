@@ -17,7 +17,7 @@
       <p>&nbsp;</p>
       <br />
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleFr }}
+        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }}
         <br class="smallScreen" />&nbsp;-&nbsp;Ad Competorium
       </h2>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
@@ -40,23 +40,23 @@
                 <component :is="officeTempusLiturgicus1.fratresTR" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
-        <component :is="arrayOrdine[1].ordine" />
+        <component :is="arrayOrdine[0].ordine" />
         <ion-grid
           ><ion-row>
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="arrayOrdine[1].ordineTR" /> </ion-text
+                <component :is="arrayOrdine[0].ordineTR" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
       </template>
-      <component :is="arrayOrdine[0].ordine" />
+      <component :is="arrayOrdine[1].ordine" />
       <ion-grid
         ><ion-row>
           <ion-col>&nbsp;</ion-col>
           <ion-col size="11"
             ><ion-text color="tertiary">
-              <component :is="arrayOrdine[0].ordineTR" /> </ion-text
+              <component :is="arrayOrdine[1].ordineTR" /> </ion-text
           ></ion-col> </ion-row
       ></ion-grid>
       <component :is="arrayOrdine[2].ordine" />
@@ -200,6 +200,7 @@ import { useRoute } from "vue-router";
 import { defineAsyncComponent } from "vue";
 import { defineComponent } from "vue";
 import { home, arrowBackSharp } from "ionicons/icons";
+import { getFeast } from "../data/feasts";
 import Capitulum from "../components/g75Lectio/CapIerCh14V09.vue";
 import NuncDimittisSineGloria from "../components/g65Psalmodia/NuncDimittisR13SineGloria.vue";
 import Oratio from "../components/g80Oratio/OraHabitationemIstam.vue";
@@ -231,20 +232,9 @@ export default defineComponent({
     const feast = route.params.feast;
     const objLanguage = new String(route.params.language);
     const lowerLang = objLanguage.toLowerCase();
-    const arrayFeasts = [
-      { title: "Domenica in Palmis", titleFr: "Dimanche des Rameaux - la veille" },
-      { title: "Domenica in Palmis", titleFr: "Dimanche des Rameaux" },
-      { title: "Hebdomada Sancta Feria II", titleFr: "Lundi Saint" },
-      { title: "Hebdomada Sancta Feria III", titleFr: "Mardi Saint" },
-      { title: "Hebdomada Sancta Feria IV", titleFr: "Mercredi Saint" },
-      { title: "Hebdomada Sancta Feria V", titleFr: "jeudi Saint" },
-      { title: "Hebdomada Sancta Feria VI", titleFr: "Vendredi Saint" },
-      { title: "Hebdomada Sancta Feria VII", titleFr: "Samedi Saint" },
-      { title: "Resurrectio Domini", titleFr: "Dimanche de Pâques" },
-    ];
     const feastNum = +feast;
     let i = 0;
-    const feastCurrent = arrayFeasts[feastNum];
+    const feastCurrent = getFeast(feastNum);
     const objTranslations = {
       ps004: defineAsyncComponent(
         () => import("../components/g65Psalmodia/" + lowerLang + "/Ps004.vue")
@@ -273,6 +263,15 @@ export default defineComponent({
         ordineTR: defineAsyncComponent(
           () =>
             import("../components/g95InOrdineOfficii/" + lowerLang + "/Confitebor.vue")
+        ),
+      },
+      {
+        ordine: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/MisereaturNostri.vue")
+        ),
+        ordineTR: defineAsyncComponent(
+          () =>
+            import("../components/g95InOrdineOfficii/" + lowerLang + "/MisereaturNostri.vue")
         ),
       },
       {

@@ -2,8 +2,8 @@
 <!-- - keyCalendar = 152 - keyTitle = 2494 - prev_keyPiece = 2783 - keyType = 1 - officeYear =  - keyText = 2835 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Dum clamarem ad Dominum,<br />
-exaudivit vocem meam ab his<br />
-qui appropinquant mihi.
+exaudivit vocem meam<br />
+ab his qui appropinquant mihi.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Tandis que je lançais mon cri vers le Seigneur,<br />
  il a exaucé ma voix pour me délivrer<br />
@@ -21,7 +21,7 @@ et ipse te enutriet.
 et c’est lui qui te nourrira.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = P keyText = 3628 -->Ps. Exaudi, Deus, orationem meam,<br />
 et ne despexeris deprecationem meam:<br />
-intende in me et exaudi me.
+intende mihi (in me) et exaudi me.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Exaucez, mon Dieu, ma prière ;<br />
 et ne dédaignez pas ma supplication :<br />
 entendez-moi, et exaucez-moi !</ion-text></ion-col></ion-row></ion-grid>
@@ -75,10 +75,6 @@ et tibi reddetur votum in Ierusalem.
 <ion-text color="tertiary">A vous revient l’hymne de louange, Dieu, en Sion :<br />
 et à vous il sera rendu hommage en Jérusalem.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = V keyText = 8084 --> Replebitur in bonis domus tuae; <br />
-sanctum est templum tuum, <br />
-mirabile in aequitate.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary"></ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 152 - keyTitle = 162 - prev_keyPiece = 165 - keyType = 5 - officeYear =  - keyText = 186 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
@@ -108,7 +104,7 @@ in saeculum saeculi laudabunt te.
 <ion-text color="tertiary">Le passereau se trouve une maison :<br />
 et la tourterelle un nid où déposer ses petits :<br />
 pour moi, j’ai vos autels, ô Seigneur des armées, <br />mon Roi et mon Dieu. <br />
-heureux ceux qui habitent en votre maison,<br />
+Heureux ceux qui habitent en votre maison,<br />
 dans les siècles des siècles ils vous loueront.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>

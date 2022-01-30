@@ -9,6 +9,8 @@ en vrais spirituels, soyez avides de lait pur.</ion-text></ion-col></ion-row></i
 
  <!-- textType = P keyText = 3725 -->Ps. Exsultate Deo adiutori nostro.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Tressaillez d’allégresse pour Dieu, notre secours.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = P keyText = 5331 --> iubilate Deo Iacob.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Jubilez pour le Dieu de Jacob.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 84 - keyTitle = 4151 - prev_keyPiece = 4644 - keyType = 3 - officeYear =  - keyText = 4769 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">

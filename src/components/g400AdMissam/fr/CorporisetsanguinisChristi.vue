@@ -18,7 +18,7 @@ le psaltérion harmonieux avec la cithare !</ion-text></ion-col></ion-row></ion-
  <!-- textType = P keyText = 3152 -->Ps. Ego enim sum Dominus Deus tuus,<br />
 qui eduxi te de terra Aegypti :<br />
 dilata os tuum, et implebo illud.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">En effet, c’est moi qui je suis le Seigneur ton Dieu,<br />
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">En effet, c’est moi qui suis le Seigneur ton Dieu,<br />
 qui t’ai fait sortir de la terre d’Égypte :<br />
 ouvre grand la bouche, et je la remplirai.</ion-text></ion-col></ion-row></ion-grid>
 </template>
@@ -68,7 +68,7 @@ car il dépasse tes louanges<br />
 tu ne peux trop le louer.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = S keyText = 5592 --> Laudis thema specialis<br />
 panis vivus et vitalis<br />
-hodie proponitur
+hodie proponitur.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Le pain vivant, le pain de vie,<br />
 il est aujourd'hui proposé<br />
 comme objet de te louanges.</ion-text></ion-col></ion-row></ion-grid>
@@ -263,16 +263,14 @@ demeure en moi, et moi en lui.</ion-text></ion-col></ion-row></ion-grid>
 <rubrique>Communio</rubrique><br /><br />Hoc corpus,<br />
 quod pro vobis tradetur:<br />
 hic calix novi testamenti est in meo sanguine, dicit Dominus:<br />
-hoc facite,<br />
-quotiescumque sumitis,<br />
+hoc facite,quotiescumque sumitis,<br />
 in meam commemorationem.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Ceci est mon corps,<br />
 qui sera livré pour vous :<br />
 ceci est le calice de la nouvelle alliance en mon sang,<br />
 dit le Seigneur.<br />
-faites ceci<br />
-chaque fois que vous en prenez,<br />
+faites ceci chaque fois que vous en prenez,<br />
 en mémoire de moi.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>

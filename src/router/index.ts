@@ -44,13 +44,15 @@ const routes: Array<RouteRecordRaw> = [
     props: true,
   },
   {
-    path: "/Completorium/:feast",
+    // path: "/Completorium/:feast",
+    path: "/Completorium",
     name: "Completorium",
     component: () => import("../views/Completorium.vue"),
     props: true,
   },
   {
-    path: "/CompletoriumTR/:feast/:office/:language",
+     //path: "/CompletoriumTR/:feast/:office/:language",
+    path: "/CompletoriumTR",
     name: "CompletoriumTR",
     component: () => import("../views/CompletoriumTR.vue"),
     props: true,
@@ -63,7 +65,8 @@ const routes: Array<RouteRecordRaw> = [
     props: true,
   },
   {
-    path: "/piecesForAFeast/:feastIndex/:feast/:feastDate/:feastAnnoABC",
+    // path: "/piecesForAFeast/:feastIndex/:feast/:feastDate/:feastAnnoABC",
+    path: "/piecesForAFeast",
     name: "PiecesForAFeast",
     component: () => import("../views/PiecesForAFeast.vue"),
     props: true,

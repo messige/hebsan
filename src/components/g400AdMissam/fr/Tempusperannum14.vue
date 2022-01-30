@@ -13,7 +13,7 @@ ita et laus tua in fines terrae.
 telle aussi votre louange jusqu’aux confins de la terre.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 5413 --> Iustitia plena est dextera tua.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Votre droite est remplie de justice.</ion-text></ion-col></ion-row></ion-grid>
- <!-- textType = P keyText = 5777 -->Ps. Magnus Dominus et laudabilis nimis,<br />
+ <!-- textType = P keyText = 5777 -->Ps. Magnus Dominus et laudabilis valde (nimis),<br />
 in civitate Dei (nostri), in monte sancto eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Grand est le Seigneur, et digne de louange infiniment,<br />
 dans la cité de (notre) Dieu, sur sa montagne sainte.</ion-text></ion-col></ion-row></ion-grid>
@@ -47,7 +47,7 @@ et moi je vous soulagerai.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 151 - keyTitle = 5059 - prev_keyPiece = 5670 - keyType = 3 - officeYear = C - keyText = 5777 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Versus alleluiaticus</rubrique><br /><br />Magnus Dominus et laudabilis nimis,<br />
+<rubrique>Versus alleluiaticus</rubrique><br /><br />Magnus Dominus et laudabilis valde (nimis),<br />
 in civitate Dei (nostri), in monte sancto eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Grand est le Seigneur, et digne de louange infiniment,<br />
@@ -58,11 +58,11 @@ dans la cité de (notre) Dieu, sur sa montagne sainte.</ion-text></ion-col></ion
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Populum humilem salvum facies, Domine,<br />
 et oculos superborum humiliabis :<br />
-quoniam quis Deus praeter te, Domine.
+quoniam quis Deus praeter te, Domine ?
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Vous sauverez le peuple humble, Seigneur,<br />
 et les regards des orgueilleux, vous les abaisserez :<br />
-car qui est Dieu, à part vous, Seigneur ?.</ion-text></ion-col></ion-row></ion-grid>
+car qui est Dieu, à part vous, Seigneur ?</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
 <!--  - keyCalendar = 151 - keyTitle = 3633 - prev_keyPiece = 4070 - keyType = 6 - officeYear =  - keyText = 4203 -->

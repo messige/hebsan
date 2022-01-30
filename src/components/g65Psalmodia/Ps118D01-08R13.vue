@@ -118,7 +118,7 @@
 <tr><td><rubrique>6</rubrique></td>
 <td>Státue servo tuo eló<highlight2><prepa>qui</prepa></highlight2><prepa>um</prepa>  <accent>tu</accent>um <greStar />in timóre tuo.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>ámputa oppróbrium meum quod  <highlight1><prepa>sus</prepa></highlight1><prepa>pi</prepa><accent>cá</accent>tus sum <greStar /><br class="smallScreen" />
+<td>Ámputa oppróbrium mputa oppróbrium meum quod  <highlight1><prepa>sus</prepa></highlight1><prepa>pi</prepa><accent>cá</accent>tus sum <greStar /><br class="smallScreen" />
     quia iudícia tua iucúnda.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Ecce concupívi man<highlight2><prepa>dá</prepa></highlight2><prepa>ta</prepa>  <accent>tu</accent>a <greStar />in æquitáte tua vivífica me.</td></tr>

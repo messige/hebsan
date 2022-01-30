@@ -27,7 +27,7 @@
 <tr  class="trad"><td>&nbsp;</td>
 <td>Erfülle deinen Spruch an deinem Knecht,<greStar /><br class="smallScreen" />dass man dich fürchte!</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>ámputa oppróbrium meum quod  suspicátus sum <greStar /><br class="smallScreen" />quia iudícia  tua  iucúnda.</td></tr>
+<td>Ámputa oppróbrium meum quod  suspicátus sum <greStar /><br class="smallScreen" />quia iudícia  tua  iucúnda.</td></tr>
 <tr  class="trad"><td>&nbsp;</td>
 <td>Wende ab von mir die Schande, vor der ich erschrecke!<greStar /><br class="smallScreen" />Denn gut sind deine Entscheide.</td></tr>
 <tr><td><rubrique>8</rubrique></td>

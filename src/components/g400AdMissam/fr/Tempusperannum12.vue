@@ -11,7 +11,7 @@ et rege eos usque in saeculum.
 et le protecteur des délivrances de son Christ :<br />
 sauvez votre peuple, Seigneur,<br />
 et bénissez votre héritage,<br />
-et dirigez-les, jusques en l’éternité.</ion-text></ion-col></ion-row></ion-grid>
+et dirigez-les à jamais.</ion-text></ion-col></ion-row></ion-grid>
 
  <!-- textType = P keyText = 183 -->Ps. Ad te, Domine, clamabo,<br />
 Deus meus, ne sileas a me :<br />

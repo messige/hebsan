@@ -19,14 +19,12 @@ die ihn hassen, fliehen vor seinem Angesicht.</ion-text></ion-col></ion-row></io
 <rubrique>Graduale</rubrique><br /><br />In Deo speravit cor meum,<br />
 et <span class="fc">adiutus sum</span> :<br />
 et refloruit caro mea :<br />
-et ex voluntate mea :<br />
-confitebor illi.
+et ex voluntate mea confitebor illi.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Auf Gott hoffte mein Herz,<br />
 und er hat mir geholfen,<br />
 und wieder aufgeblüht ist mein Fleisch;<br />
-und durch meinen Willen:<br />
-ich will ihn preisen.</ion-text></ion-col></ion-row></ion-grid>
+und durch meinen Willen, ich will ihn preisen.</ion-text></ion-col></ion-row></ion-grid>
 
  <!-- textType = V keyText = 185 -->V./  Ad te, Domine, clamavi:<br />
 Deus meus, ne sileas:<br />

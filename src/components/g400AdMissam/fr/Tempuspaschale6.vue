@@ -11,10 +11,10 @@ et qu’on l’entende, alléluia !<br />
 annoncez-la jusqu’à l’extrémité de la terre :<br />
 le Seigneur a libéré son peuple.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = P keyText = 5333 -->Ps. Iubilate Deo omnis terra, alleluia :<br />
+ <!-- textType = P keyText = 10855 -->Ps. Iubilate Deo omnis terra,<br />
 psalmum dicite nomini eius,<br />
 date gloriam laudi eius.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Jubilez pour Dieu, toute de la terre, alléluia :<br />
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Jubilez pour Dieu, toute de la terre,<br />
 dites un psaume à l’honneur de son nom,<br />
 rendez gloire à sa louange !</ion-text></ion-col></ion-row></ion-grid>
 </template>
@@ -76,10 +76,10 @@ nous qu'il a rachetés par son sang.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 117 - keyTitle = 7776 - prev_keyPiece = 8692 - keyType = 3 - officeYear = C - keyText = 8908 -->
  <template v-if=" annoABC == 'C'">
-<rubrique>Versus alleluiaticus</rubrique><br /><br />Spiritus Sanctus docebit vos, alleluia :<br />
+<rubrique>Versus alleluiaticus</rubrique><br /><br />Spiritus Sanctus docebit vos :<br />
 quaecumque dixero vobis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">L'Esprit Saint vous enseignera, alléluia :<br />
+<ion-text color="tertiary">L'Esprit Saint vous enseignera<br />
 tout ce que je vous aurai dit.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
@@ -126,10 +126,10 @@ et que votre fruit demeure.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!--  - keyCalendar = 117 - keyTitle = 7776 - prev_keyPiece = 8693 - keyType = 6 - officeYear = C - keyText = 8908 -->
  <template v-if=" annoABC == 'C'">
-<rubrique>Communio</rubrique><br /><br />Spiritus Sanctus docebit vos, alleluia :<br />
+<rubrique>Communio</rubrique><br /><br />Spiritus Sanctus docebit vos :<br />
 quaecumque dixero vobis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">L'Esprit Saint vous enseignera, alléluia :<br />
+<ion-text color="tertiary">L'Esprit Saint vous enseignera<br />
 tout ce que je vous aurai dit.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>

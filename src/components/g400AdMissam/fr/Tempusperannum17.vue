@@ -17,14 +17,12 @@ et qu’ils fuient devant sa face, ceux qui le haïssent.</ion-text></ion-col></
 <rubrique>Graduale</rubrique><br /><br />In Deo speravit cor meum,<br />
 et <span class="fc">adiutus sum</span> :<br />
 et refloruit caro mea :<br />
-et ex voluntate mea :<br />
-confitebor illi.
+et ex voluntate mea confitebor illi.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">C'est en Dieu que mon cœur a mis son espérance,<br />
 et j’ai été secouru :<br />
 et ma chair a refleuri :<br />
-et de tout mon vouloir,<br />
-je l’acclamrai.</ion-text></ion-col></ion-row></ion-grid>
+aussi le louerai-je de tout mon cœur.</ion-text></ion-col></ion-row></ion-grid>
 
  <!-- textType = V keyText = 185 -->V./  Ad te, Domine, clamavi:<br />
 Deus meus, ne sileas:<br />

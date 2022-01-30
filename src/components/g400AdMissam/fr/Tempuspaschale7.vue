@@ -8,7 +8,7 @@ quaesivi vultum tuum,<br />
 vultum tuum Domine requiram :<br />
 ne avertas faciem tuam a me.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Exaucez, Seigneur, ma voix<br />
+<ion-text color="tertiary">Exaucez ma voix, Seigneur<br />
 qui a lancé vers vous son appel, alléluia :<br />
 mon cœur vous a dit :<br />
 j'ai cherché votre visage ;<br />

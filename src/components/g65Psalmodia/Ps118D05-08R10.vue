@@ -15,7 +15,7 @@
 <tr><td><rubrique>6</rubrique></td>
 <td>Státue servo tuo eló<highlight2><prepa>qui</prepa></highlight2><prepa>um</prepa>  <accent>tu</accent>um <greStar /><br class="smallScreen" />in  <highlight1><prepa>ti</prepa></highlight1><prepa>mó</prepa><prepa>re</prepa>  <accent>tu</accent>o.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>ámputa oppróbrium meum quod  <highlight1><prepa>sus</prepa></highlight1><prepa>pi</prepa><accent>cá</accent>tus sum <greStar /><br class="smallScreen" />quia iudícia  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>  <prepa>iu</prepa><accent>cún</accent>da.</td></tr>
+<td>Ámputa oppróbrium meum quod  <highlight1><prepa>sus</prepa></highlight1><prepa>pi</prepa><accent>cá</accent>tus sum <greStar /><br class="smallScreen" />quia iudícia  <highlight1><prepa>tu</prepa></highlight1><prepa>a</prepa>  <prepa>iu</prepa><accent>cún</accent>da.</td></tr>
 <tr><td><rubrique>8</rubrique></td>
 <td>Ecce concupívi man<highlight2><prepa>dá</prepa></highlight2><prepa>ta</prepa>  <accent>tu</accent>a <greStar /><br class="smallScreen" />in æquitáte tua  <highlight1><prepa>vi</prepa></highlight1><prepa>ví</prepa><prepa>fi</prepa><accent>ca</accent> me.</td></tr>
 <tr><td><rubrique>9</rubrique></td>

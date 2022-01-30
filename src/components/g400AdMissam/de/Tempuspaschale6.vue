@@ -11,10 +11,10 @@ damit man es hört, Halleluja.<br />
 Ruft es hinaus bis ans Ende der Erde:<br />
 Der Herr hat sein Volk erlöst.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = P keyText = 5333 -->Ps. Iubilate Deo omnis terra, alleluia :<br />
+ <!-- textType = P keyText = 10855 -->Ps. Iubilate Deo omnis terra,<br />
 psalmum dicite nomini eius,<br />
 date gloriam laudi eius.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Jauchzet Gott zu, alle Lande, Halleluja,<br />
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Jauchzet Gott zu, alle Lande,<br />
 spielt zum Ruhm seines Namens,<br />
 verherrlicht ihn mit Lobpreis.</ion-text></ion-col></ion-row></ion-grid>
 </template>
@@ -77,10 +77,10 @@ die er durch sein Blut erlöst hat.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 117 - keyTitle = 7776 - prev_keyPiece = 8692 - keyType = 3 - officeYear = C - keyText = 8908 -->
  <template v-if=" annoABC == 'C'">
-<rubrique>Versus alleluiaticus</rubrique><br /><br />Spiritus Sanctus docebit vos, alleluia :<br />
+<rubrique>Versus alleluiaticus</rubrique><br /><br />Spiritus Sanctus docebit vos :<br />
 quaecumque dixero vobis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Der Heilige Geist wird euch lehren, Halleluja,<br />
+<ion-text color="tertiary">Der Heilige Geist wird euch lehren,<br />
 was immer ich euch gesagt habe.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
@@ -127,10 +127,10 @@ und damit eure Frucht bleibt.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!--  - keyCalendar = 117 - keyTitle = 7776 - prev_keyPiece = 8693 - keyType = 6 - officeYear = C - keyText = 8908 -->
  <template v-if=" annoABC == 'C'">
-<rubrique>Communio</rubrique><br /><br />Spiritus Sanctus docebit vos, alleluia :<br />
+<rubrique>Communio</rubrique><br /><br />Spiritus Sanctus docebit vos :<br />
 quaecumque dixero vobis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Der Heilige Geist wird euch lehren, Halleluja,<br />
+<ion-text color="tertiary">Der Heilige Geist wird euch lehren,<br />
 was immer ich euch gesagt habe.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>

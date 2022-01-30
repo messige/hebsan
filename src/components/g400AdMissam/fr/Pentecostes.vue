@@ -16,8 +16,7 @@ et qu’ils fuient devant sa face, ceux qui le haïssent.</ion-text></ion-col></
 </template>
 <!-- - keyCalendar = 133 - keyTitle = 2899 - prev_keyPiece = 3242 - keyType = 3 - officeYear =  - keyText = 3287 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Versus alleluiaticus</rubrique><br /><br />Emitte Spiritum tuum,<br />
-et creabuntur et renovabis faciem terrae.
+<rubrique>Versus alleluiaticus</rubrique><br /><br />Emitte Spiritum tuum, et creabuntur<br /> et renovabis faciem terrae.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Envoyez votre Esprit, et ils seront créés,<br />
 et vous renouvellerez la face de la terre.</ion-text></ion-col></ion-row></ion-grid>
@@ -107,10 +106,10 @@ quod <span class="fc">operatus es</span> in nobis.
 <ion-text color="tertiary">Affermissez, Dieu,<br />
 ce que vous avez opéré en nous.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = C keyText = 9288 --> Tibi offerent reges munera.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Des rois vous offriront des présents.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 37 --> A templo sancto tuo quod est in Ierusalem.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Depuis votre temple saint qui est à Jérusalem</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 9288 --> Tibi offerent reges munera.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Des rois vous offriront des présents.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!--  - keyCalendar = 133 - keyTitle = 3275 - prev_keyPiece = 3665 - keyType = 6 - officeYear =  - keyText = 3821 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
@@ -125,7 +124,7 @@ et <span class="fc">repleti sunt</span> omnes <span class="fc">Spiritu Sancto</s
 loquentes magnalia Dei.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">là où ils demeuraient, alléluia :<br />
 alors ils furent tous remplis de l'Esprit Saint<br />
-et annoncèrent les merveilles de Dieu, alléluia.</ion-text></ion-col></ion-row></ion-grid>
+et annoncèrent les merveilles de Dieu.</ion-text></ion-col></ion-row></ion-grid>
 </template>
  <br /></template>
  <script lang="ts">

@@ -58,6 +58,15 @@
         </p>
         <p><DominusVobiscum /></p>
         <p><Oratio /></p>
+
+      <p>
+        <br />
+        <rubrique>Oratio - <i>Tonus simplex</i></rubrique><br /><br />
+        Orémus.<br />
+        <Oratio /><br /> 
+        <OratioConclusio /></p>
+
+
         <p><DominusVobiscum /></p>
       </template>
       <template v-else>
@@ -68,7 +77,7 @@
         <rubrique>Aliquantulum altius</rubrique>
         <p><Oratio /></p>
         <rubrique>Et sub silentio concluditur.</rubrique>
-        <p><PerDominum /></p>
+        <p><OratioConclusio /></p>
       </template>
       <p><ImageDisplay :imgSource="officeTempusLiturgicus1.benedicamus" /></p>
       <p><ImageDisplay :imgSource="officeTempusLiturgicus1.aveRegina" /></p>
@@ -98,7 +107,7 @@ import Capitulum from "../components/g75Lectio/CapIerCh14V09.vue";
 import NuncDimittisSineGloria from "../components/g65Psalmodia/NuncDimittisR13SineGloria.vue";
 import Oratio from "../components/g80Oratio/OraHabitationemIstam.vue";
 import DominusVobiscum from "../components/g95InOrdineOfficii/DominusVobiscum.vue";
-import PerDominum from "../components/g80Oratio/PerDominum.vue";
+import OratioConclusio from "../components/g80Oratio/PerDominum.vue";
 
 export default defineComponent({
   name: "Completorium",
@@ -108,7 +117,7 @@ export default defineComponent({
     NuncDimittisSineGloria,
     Oratio,
     DominusVobiscum,
-    PerDominum,
+    OratioConclusio,
     ImageDisplay,
     IonPage,
     IonContent,
@@ -211,7 +220,6 @@ export default defineComponent({
       officeLectio = arrayLectio[feastNum - 5].lectio;
     }
     return {
-      feast,
       feastCurrent,
       officeTempusLiturgicus1,
       officeTempusLiturgicus2,

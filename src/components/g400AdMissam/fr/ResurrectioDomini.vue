@@ -66,11 +66,11 @@ Le Maître de la vie mourut :<br />
  vivant, il règne.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 2278 --> Dic nobis, Maria.<br />
 Quid vidisti in via?
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">'Dis-nous, Marie Madeleine,<br />
-qu'as-tu vu en chemin ? '</ion-text></ion-col></ion-row></ion-grid>
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Dis-nous, Marie Madeleine,<br />
+qu'as-tu vu en chemin ?</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 8634 --> Sepulchrum Christi viventis<br />
 et gloriam vidi resurgentis.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">' J'ai vu le sépulcre du Christ vivant,<br />
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">J'ai vu le sépulcre du Christ vivant,<br />
 j'ai vu la gloire du Ressuscité.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 535 --> Angelicos testes<br />
 sudarium et vestes.
@@ -79,7 +79,7 @@ le suaire et les vêtements.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 9097 --> Surrexit Christus spes mea;<br />
 praecedet suos in Galilaeam.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Le Christ, mon espérance, est ressuscité,<br />
-il vous précédera en Galilée. '</ion-text></ion-col></ion-row></ion-grid>
+il vous précédera en Galilée.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 8556 --> Scimus Christum surrexisse a mortis vere.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Nous le savons : le Christ est vraiment ressuscité des morts.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 9424 --> Tu nobis victor rex miserere.

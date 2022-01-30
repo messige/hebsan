@@ -37,7 +37,7 @@ et traitez-nous selon l’abondance de votre miséricorde.</ion-text></ion-col><
  <!-- textType = P keyText = 925 -->Ps. Beati immaculati in via :<br />
 qui ambulant in lege Domini.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Heureux ceux qui sont irréprochables dans leur voie<br />et qui marchent selon la loi du Seigneur.</ion-text></ion-col></ion-row></ion-grid>
- <!-- textType = P keyText = 5777 -->Ps. Magnus Dominus et laudabilis nimis,<br />
+ <!-- textType = P keyText = 5777 -->Ps. Magnus Dominus et laudabilis valde (nimis),<br />
 in civitate Dei (nostri), in monte sancto eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Grand est le Seigneur, et digne de louange infiniment,<br />
 dans la cité de (notre) Dieu, sur sa montagne sainte.</ion-text></ion-col></ion-row></ion-grid>

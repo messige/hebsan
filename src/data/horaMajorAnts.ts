@@ -10,10 +10,10 @@
         ton: string ; 
         cant: string ; } [] ; }
   const arrayFeasts: OfficeAnt [] = [
-    { arrayOfffice : [  [                                                              // Ad Laudes
+    { arrayOfffice : [  [                                                       // in Palmis Sabb.
         { antID : 1 , ant   : " " , ton   : " " , psalm : " " } ] ,
-      [ 
-        { antID : 1 ,
+      [
+        { antID : 1 ,                                                           // Ad vesperas
           ant   : require ( "../assets/g50Antiphona/AntRegnumTuum.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus08Fc.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -39,8 +39,8 @@
           ton   : require ( "../assets/g70Tonus/Tonus41Fe.jpg" ) , 
           cant  : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantMagnificatR23.vue' ) ) } ] } ,      
-      { arrayOfffice : [  [                                                                     // Ad Laudes
-        { antID : 1 , 
+      { arrayOfffice : [  [                                                       // in Palmis
+        { antID : 1 ,                                                             // Ad Laudes
           ant   : require ( "../assets/g50Antiphona/AntDomDeusAuxiliator.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus02Fd2.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -66,7 +66,7 @@
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps148149150R10.vue') ) } ] ,
         [ 
-        { antID : 1 , 
+        { antID : 1 ,                                                           // Ad vesperas
           ant   : require ( "../assets/g50Antiphona/AntDixitDomDom.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus07Fc2.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -95,19 +95,19 @@
           ton   : require ( "../assets/g70Tonus/Tonus08SFa.jpg" ) , 
           cant  : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantMagnificatR03.vue' ) ) } ] } ,   
-      { arrayOfffice : [  [                                                       // Ad Laudes
-        { antID : 1 , 
+      { arrayOfffice : [  [                                                          // Feria II
+        { antID : 1 ,                                                                // Ad Laudes
           ant   : require ( "../assets/g50Antiphona/AntFaciemMeam.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus09Fa.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps050R10.vue' ) ) } ,
         { antID : 2 , 
-          ant   : require ( "../assets/g50Antiphona/AntFramea2.jpg" ) ,
+          ant   : require ( "../assets/g50Antiphona/AntFrameaSuscitare.jpg" ) ,
           ton   : require ( "../assets/g70Tonus/Tonus02Fd.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps005R02.vue' ) ) } ,
         { antID : 3 , 
-          ant   : require ( "../assets/g50Antiphona/AntAppenderunt.jpg" ) ,
+          ant   : require ( "../assets/g50Antiphona/AntAppenderuntMercedem.jpg" ) ,
           ton   : require ( "../assets/g70Tonus/Tonus42Fe.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps035R08.vue' ) ) } ,
@@ -121,8 +121,8 @@
           ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" )  ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps148149150R03.vue' ) ) } ] ,
-      [                                                                 // Ad Vesperas
-        { antID : 1 , 
+      [
+        { antID : 1 ,                                                           // Ad Vesperas
           ant   : require ( "../assets/g50Antiphona/AntNosQuiVivimus.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus19.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -151,8 +151,8 @@
           ton   : require ( "../assets/g70Tonus/Tonus10Fb.jpg" ) , 
           cant  : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantMagnificatR07.vue' ) ) } ] } ,            
-      { arrayOfffice : [  [                                                            // Ad Laudes
-        { antID : 1 , 
+      { arrayOfffice : [  [                                                         // Feria III
+        { antID : 1 ,                                                               // Ad Laudes
           ant   : require ( "../assets/g50Antiphona/AntVideDomEtConsidera.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus07Fc2.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -178,7 +178,7 @@
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps148149150R10.vue' ) ) } ] ,
       [ 
-        { antID : 1 ,
+        { antID : 1 ,                                                                 // Ad Vesperas
           ant   : require ( "../assets/g50Antiphona/AntDeProfundis.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -199,7 +199,7 @@
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps132R18.vue' ) ) } ] ] ,
         arrayCant : [
-        { ant   : require ( "../assets/g50Antiphona/AntAnteDiemPaschae.jpg" ) ,
+        { ant   : require ( "../assets/g50Antiphona/AntAnteDiem.jpg" ) ,
           ton   : require ( "../assets/g70Tonus/Tonus01Ff.jpg" ) ,                            
           cant  : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantBenedictusR08.vue' ) ) } ,      /* same as Feast 1 */
@@ -207,9 +207,9 @@
           ton   : require ( "../assets/g70Tonus/Tonus10Fb.jpg" ) , 
           cant  : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantMagnificatR07.vue' ) ) } ] } , 
-      { arrayOfffice : [  [                                                             // Ad Laudes
-        { antID : 1 , 
-          ant   : require ( "../assets/g50Antiphona/AntLiberaMe.jpg" ) ,  
+      { arrayOfffice : [  [                                                         // Feria IV
+        { antID : 1 ,                                                               // Ad Laudes
+          ant   : require ( "../assets/g50Antiphona/ANTLiberaMeDeSanguinibus.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps050R03.vue' ) ) } ,
@@ -234,7 +234,7 @@
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps148149150R18.vue' ) ) } ] ,
       [ 
-        { antID : 1 , 
+        { antID : 1 ,                                                                 // Ad Vesperas
           ant   : require ( "../assets/g50Antiphona/AntOmniaQuaecumque.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus31Fg.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -263,8 +263,8 @@
           ton   : require ( "../assets/g70Tonus/Tonus01Fg.jpg" ) , 
           cant  : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantMagnificatR18.vue' ) ) } ] },   
-      { arrayOfffice : [  [                                                               // Ad Laudes
-        { antID : 1 , 
+      { arrayOfffice : [  [                                                         // Feria V
+        { antID : 1 ,                                                               // Ad Laudes
           ant   : require ( "../assets/g50Antiphona/AntIustificerisDom.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -289,15 +289,15 @@
           ton   : require ( "../assets/g70Tonus/Tonus02Fd.jpg" )  ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps146R01SineGloria.vue' ) ) } ] ,
-      [ { antID : 1 , ant : " " , ton : " " , psalm : " " } ] ] ,
+      [ { antID : 1 , ant : " " , ton : " " , psalm : " " } ] ] ,           // Ad Vesperas
       arrayCant : [
         { ant   : require ( "../assets/g50Antiphona/AntTraditorAutem.jpg" )  ,
           ton   : require ( "../assets/g70Tonus/Tonus01SFg.jpg" )  ,
           cant : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantBenedictusR21SineGloria.vue' ) ) } , 
         { ant : " " , ton : " " , cant  : " " } ] } , 
-      { arrayOfffice : [  [                                                            // Ad Laudes
-        { antID : 1 , 
+      { arrayOfffice : [  [                                                         // Feria VI
+        { antID : 1 ,                                                               // Ad Laudes
           ant   : require ( "../assets/g50Antiphona/AntProprioFilio.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus07Fc.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -322,7 +322,7 @@
           ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" )  ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps147R03SineGloria.vue' ) ) } ] ,
-      [ { antID : 1 , ant : " " , ton : " " , psalm : " " } ] ] ,
+      [ { antID : 1 , ant : " " , ton : " " , psalm : " " } ] ] ,                  // Ad Vesperas
       arrayCant : [
         { ant   : require ( "../assets/g50Antiphona/AntPosueruntSuper.jpg" )  ,
           ton   : require ( "../assets/g70Tonus/Tonus01SFg.jpg" )  ,
@@ -330,8 +330,8 @@
                   import ( '../components/g65Psalmodia/CantBenedictusR21SineGloria.vue' ) ) } ,    // // Benedcitus same as Cant51 
         { ant : " " , ton : " " , cant  : " " } ] },
       
-        { arrayOfffice : [  [                                                                // Ad Laudes
-        { antID : 1 ,
+        { arrayOfffice : [  [                                                       // Feria VII
+        { antID : 1 ,                                                               // Ad Laudes
           ant   : require ( "../assets/g50Antiphona/AntOMors.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus41Fd.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -356,15 +356,15 @@
           ton   : require ( "../assets/g70Tonus/Tonus08Fa.jpg" )  ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps150R03SineGloria.vue' ) ) } ] ,
-       [ { antID : 1 , ant : " ", ton : " " , psalm : " "  } ] ] ,
+       [ { antID : 1 , ant : " ", ton : " " , psalm : " "  } ] ] ,            // Ad Vesperas
        arrayCant : [
         { ant   : require ( "../assets/g50Antiphona/AntMulieresSedentes.jpg" )  ,
           ton   : require ( "../assets/g70Tonus/Tonus01SFg.jpg" )  ,
           cant : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantBenedictusR21SineGloria.vue' ) ) } ,      // Benedictus same as 5th feast                                                                    // Benedictus same as 5th feast 
         { ant : " " , ton : " " , cant  : " " } ] },
-    { arrayOfffice : [  [                                                               // Ad Laudes
-        { antID : 1 , 
+    { arrayOfffice : [  [                                                         // Resur.
+        { antID : 1 ,                                                             // Ad Laudes
           ant   : require ( "../assets/g50Antiphona/AntAngelusAutem.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
@@ -386,11 +386,11 @@
                   import ( '../components/g65Psalmodia/CantTriumPuerorumR19.vue' ) ) } ,
         { antID : 5 , 
           ant   : require ( "../assets/g50Antiphona/AntRespondensAutem.jpg" )  ,
-          ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" )  ,
+          ton   : require ( "../assets/g70Tonus/Tonus08Fe.jpg" )  ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps148149150R03.vue' ) ) } ] ,
       [ 
-        { antID : 1 ,
+        { antID : 1 ,                                                              // Ad Vesperas
           ant   : require ( "../assets/g50Antiphona/AntAngelusAutem.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus08Fc.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            

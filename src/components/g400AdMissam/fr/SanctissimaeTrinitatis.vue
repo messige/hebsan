@@ -24,12 +24,10 @@ per inhabitantem Spiritum eius in nobis,
 <ion-text color="tertiary">L'amour de Dieu a été répandu dans nos coeurs, alléluia :<br />
 par son Esprit qui habite en nous.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = P keyText = 2596 -->Ps. Domine Deus salutis meae,<br />
-in die clamavi et nocte coram te :<br />
-intret oratio mea in conspectu tuo, Domine.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Seigneur Dieu de mon salut :<br />
-le jour et la nuit j’ai crié devant vous :<br />
-que mon oraison soit introduite en votre présence, Seigneur.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = P keyText = 1106 -->Ps. Benedic anima mea Domino :<br />
+et omnia quae intra me sunt, nomini santo eius.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Bénis, mon âme, le Seigneur :<br />
+et tout ce qui est en moi, son saint nom.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 172 - keyTitle = 1084 - prev_keyPiece = 1176 - keyType = 2 - officeYear =  - keyText = 1204 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">

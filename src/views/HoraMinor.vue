@@ -47,7 +47,14 @@
       </template>
       <p><component :is="officeFinalHora.pater" /></p>
       <p><component :is="officeFinalHora.vobiscum" /></p>
-      <p><component :is="officeOratio" /> <component :is="officeOratioConclusio" /></p>
+      <p>
+        <br />
+        <rubrique>Oratio <i>{{temporumLiturgicorum1.rubriqueOratio}}</i></rubrique><br /><br />
+        {{temporumLiturgicorum1.incipitOratio}}
+        <template v-if="temporumLiturgicorum1.incipitOratio"><br /></template>
+        <component :is="officeOratio" /><br /> 
+        <component :is="officeOratioConclusio" />
+      </p>
       <p><component :is="officeFinalHora.vobiscum" /></p>
       <p><ImageDisplay :imgSource="officeTemporumLiturgicorum.benedicamus" /></p>
       <br />
@@ -90,9 +97,10 @@ export default defineComponent({
     const route = useRoute();
     const feast = route.params.feast;
     const office = route.params.office;
+    let i = 0;
     const arrayFeasts = [
       {
-        arrayFeastOffices: [
+        arrayFeastOffices: [                            // in Palmis
           {
             titleOffice: "Ad tertiam",
             antiphona: require("../assets/g50Antiphona/AntPueriVestimenta2.jpg"),
@@ -104,7 +112,7 @@ export default defineComponent({
           {
             titleOffice: "Ad sextam",
             antiphona: require("../assets/g50Antiphona/AntTibiRevelavi.jpg"),
-            tonus: require("../assets/g70Tonus/Tonus09Fb.jpg"),
+            tonus: require("../assets/g70Tonus/Tonus10Fb.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D05-08R10.vue")
             ),
@@ -120,10 +128,10 @@ export default defineComponent({
         ],
       },
       {
-        arrayFeastOffices: [
+        arrayFeastOffices: [                            // Feria II
           {
             titleOffice: "Ad tertiam",
-            antiphona: require("../assets/g50Antiphona/AntFramea2.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntFrameaSuscitare.jpg"),
             tonus: require("../assets/g70Tonus/Tonus02Fd.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D13-16R01.vue")
@@ -131,7 +139,7 @@ export default defineComponent({
           },
           {
             titleOffice: "Ad sextam",
-            antiphona: require("../assets/g50Antiphona/AntAppenderunt.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntAppenderuntMercedem.jpg"),
             tonus: require("../assets/g70Tonus/Tonus41Fe.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D17-19R08.vue")
@@ -148,10 +156,10 @@ export default defineComponent({
         ],
       },
       {
-        arrayFeastOffices: [
+        arrayFeastOffices: [                            // Feria III
           {
             titleOffice: "Ad tertiam",
-            antiphona: require("../assets/g50Antiphona/AntAnteDiemPaschae.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntAnteDiem.jpg"),
             tonus: require("../assets/g70Tonus/Tonus01Ff.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D13-16R01.vue")
@@ -176,7 +184,7 @@ export default defineComponent({
         ],
       },
       {
-        arrayFeastOffices: [
+        arrayFeastOffices: [                            // Feria IV
           {
             titleOffice: "Ad tertiam",
             antiphona: require("../assets/g50Antiphona/AntIpsiVeroInVanum2.jpg"),
@@ -187,7 +195,7 @@ export default defineComponent({
           },
           {
             titleOffice: "Ad sextam",
-            antiphona: require("../assets/g50Antiphona/AntAppenderunt.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntAppenderuntMercedem.jpg"),
             tonus: require("../assets/g70Tonus/Tonus41Fe.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D17-19R08.vue")
@@ -195,7 +203,7 @@ export default defineComponent({
           },
           {
             titleOffice: "Ad nonam",
-            antiphona: require("../assets/g50Antiphona/AntLiberaMe.jpg"),
+            antiphona: require("../assets/g50Antiphona/ANTLiberaMeDeSanguinibus.jpg"),
             tonus: require("../assets/g70Tonus/Tonus08Fg.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D20-22R03.vue")
@@ -204,7 +212,7 @@ export default defineComponent({
         ],
       },
       {
-        arrayFeastOffices: [
+        arrayFeastOffices: [                            // Feria V
           {
             titleOffice: "Ad tertiam",
             antiphona: null,
@@ -232,7 +240,7 @@ export default defineComponent({
         ],
       },
       {
-        arrayFeastOffices: [
+        arrayFeastOffices: [                            // Feria VI
           {
             titleOffice: "Ad tertiam",
             antiphona: null,
@@ -260,7 +268,7 @@ export default defineComponent({
         ],
       },
       {
-        arrayFeastOffices: [
+        arrayFeastOffices: [                            // Feria VII
           {
             titleOffice: "Ad tertiam",
             antiphona: null,
@@ -294,6 +302,23 @@ export default defineComponent({
     const feastCurrent = getFeast(feastNum);
     const feastOffice = feastCurrentArr.arrayFeastOffices;
     const officeCurrent = feastOffice[officeNum - 1];
+    const arrayTemporumLiturgicorum1 = [
+      {
+        tempus: "non est triduum",
+        rubriqueOratio: " - Tonus simplex",
+        incipitOratio: "Orémus."
+      },
+      {
+        tempus: "triduum",
+        rubriqueOratio: "dicitur gravi et recta voce et ultima syllaba deprimitur per tonum in fine.",
+        incipitOratio: null
+      },
+    ];
+    i = 1;
+    if (feastNum < 5 || feastNum > 7) {
+      i = 0;
+    } /* not in Triduum  */
+    const temporumLiturgicorum1 = arrayTemporumLiturgicorum1[i];
     const arrayTemporumLiturgicorum = [
       { inAdiutorium: null, benedicamus: null },
       {
@@ -309,7 +334,7 @@ export default defineComponent({
         benedicamus: require("../assets/g95InOrdineOfficii/BenedicamusDominoPascha.jpg"),
       },
     ]; //Tempus paschali
-    let i = 0;
+    i = 0;
     if (feastNum < 5) {
       i = 1;
     } /* Quadragesimae not in Triduum */ else if (feastNum == 8) {
@@ -441,6 +466,7 @@ export default defineComponent({
       office,
       OfficeTitle,
       officeTemporumLiturgicorum,
+      temporumLiturgicorum1,
       officeCurrent,
       officeCapitulum,
       officeRespons,

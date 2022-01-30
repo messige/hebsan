@@ -46,12 +46,10 @@ du hast mich gerettet von denen, die niedersteigen zur Grube.</ion-text></ion-co
 </template>
 <!-- - keyCalendar = 150 - keyTitle = 1293 - prev_keyPiece = 1415 - keyType = 3 - officeYear = A - keyText = 1447 -->
  <template v-if=" annoABC == 'A'">
-<rubrique>Versus alleluiaticus</rubrique><br /><br />Christus resurgens<br />
-ex mortuis iam non moritur,<br />
+<rubrique>Versus alleluiaticus</rubrique><br /><br />Christus resurgens ex mortuis, iam non moritur,<br />
 mors illi ultra non dominabitur.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Christus, auferstanden<br />
-von den Toten, stirbt nicht mehr;<br />
+<ion-text color="tertiary">Christus, auferstanden von den Toten, stirbt nicht mehr;<br />
 der Tod hat keine Macht mehr über ihn.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
@@ -83,12 +81,10 @@ die auf dich vertrauen, Herr.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 150 - keyTitle = 1293 - prev_keyPiece = 1416 - keyType = 6 - officeYear = A - keyText = 1447 -->
  <template v-if=" annoABC == 'A'">
-<rubrique>Communio</rubrique><br /><br />Christus resurgens<br />
-ex mortuis iam non moritur,<br />
+<rubrique>Communio</rubrique><br /><br />Christus resurgens ex mortuis, iam non moritur,<br />
 mors illi ultra non dominabitur.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Christus, auferstanden<br />
-von den Toten, stirbt nicht mehr;<br />
+<ion-text color="tertiary">Christus, auferstanden von den Toten, stirbt nicht mehr;<br />
 der Tod hat keine Macht mehr über ihn.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>

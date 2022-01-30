@@ -16,11 +16,10 @@ die ihn hassen, fliehen vor seinem Angesicht.</ion-text></ion-col></ion-row></io
 </template>
 <!-- - keyCalendar = 133 - keyTitle = 2899 - prev_keyPiece = 3242 - keyType = 3 - officeYear =  - keyText = 3287 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Versus alleluiaticus</rubrique><br /><br />Emitte Spiritum tuum,<br />
-et creabuntur et renovabis faciem terrae.
+<rubrique>Versus alleluiaticus</rubrique><br /><br />Emitte Spiritum tuum, et creabuntur<br /> et renovabis faciem terrae.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Sende deinen Atem aus<br />
-und sie werden erschaffen:  Du erneuerst das Antlitz der Erde.</ion-text></ion-col></ion-row></ion-grid>
+<ion-text color="tertiary">Sende deinen Atem aus 
+und sie werden erschaffen:<br />Du erneuerst das Antlitz der Erde.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
 <!-- - keyCalendar = 133 - keyTitle = 8434 - prev_keyPiece = 9445 - keyType = 3 - officeYear =  - keyText = 9674 -->
@@ -107,10 +106,10 @@ quod <span class="fc">operatus es</span> in nobis.
 <ion-text color="tertiary">Stärke das, Gott,<br />
 was du in uns gewirkt [vollbracht] hast.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = C keyText = 9288 --> Tibi offerent reges munera.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Dir mögen die Könige Gaben darbringen.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 37 --> A templo sancto tuo quod est in Ierusalem.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Von deinem heiligen Tempel aus, hoch über Jerusalem.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 9288 --> Tibi offerent reges munera.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Dir mögen die Könige Gaben darbringen.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!--  - keyCalendar = 133 - keyTitle = 3275 - prev_keyPiece = 3665 - keyType = 6 - officeYear =  - keyText = 3821 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">

@@ -33,7 +33,7 @@
 <td>Accomplis envers ton serviteur ta promesse, que tu as faite à ceux qui te craignent.</td>
 </tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>ámputa oppróbrium meum quod suspicátus sum <greStar /><br class="smallScreen" />quia iudícia tua iucúnda.</td></tr>
+<td>Ámputa oppróbrium meum quod suspicátus sum <greStar /><br class="smallScreen" />quia iudícia tua iucúnda.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
 <td>Ecarte de moi l’opprobre que je redoute, car tes préceptes sont bons.</td>
 </tr>

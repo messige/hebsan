@@ -37,8 +37,6 @@ in domum Domini ibimus.
 <ion-text color="tertiary">Ich freute mich, als man mir sagte:<br />
 „Zum Haus des Herrn wollen wir pilgern".</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = V keyText = 8940 --> Stantes erant pedes nostri in atriis tuis Ierusalem
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Es standen unsere Füße in deinen Hallen, Jerusalem</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 6 - keyTitle = 2010 - prev_keyPiece = 2222 - keyType = 5 - officeYear =  - keyText = 2262 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">

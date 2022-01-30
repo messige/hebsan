@@ -13,7 +13,7 @@ ita et laus tua in fines terrae.
 so reicht dein Ruhm bis an die Enden der Erde.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 5413 --> Iustitia plena est dextera tua.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Von Gerechtigkeit erfüllt ist deine Rechte.</ion-text></ion-col></ion-row></ion-grid>
- <!-- textType = P keyText = 5777 -->Ps. Magnus Dominus et laudabilis nimis,<br />
+ <!-- textType = P keyText = 5777 -->Ps. Magnus Dominus et laudabilis valde (nimis),<br />
 in civitate Dei (nostri), in monte sancto eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Groß ist der Herr und hoch zu loben<br />
 in der Stadt unseres Gottes, auf seinem heiligen Berg.</ion-text></ion-col></ion-row></ion-grid>
@@ -48,7 +48,7 @@ Ich werde euch erquicken.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 151 - keyTitle = 5059 - prev_keyPiece = 5670 - keyType = 3 - officeYear = C - keyText = 5777 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Versus alleluiaticus</rubrique><br /><br />Magnus Dominus et laudabilis nimis,<br />
+<rubrique>Versus alleluiaticus</rubrique><br /><br />Magnus Dominus et laudabilis valde (nimis),<br />
 in civitate Dei (nostri), in monte sancto eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Groß ist der Herr und hoch zu loben<br />
@@ -59,7 +59,7 @@ in der Stadt unseres Gottes, auf seinem heiligen Berg.</ion-text></ion-col></ion
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Populum humilem salvum facies, Domine,<br />
 et oculos superborum humiliabis :<br />
-quoniam quis Deus praeter te, Domine.
+quoniam quis Deus praeter te, Domine ?
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Du wirst heil machen ein niedriges Volk, Herr,<br />
 und die Augen der Stolzen erniedrigen.<br />

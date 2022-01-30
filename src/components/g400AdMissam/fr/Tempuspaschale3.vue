@@ -2,11 +2,11 @@
 <!-- - keyCalendar = 91 - keyTitle = 4642 - prev_keyPiece = 5186 - keyType = 1 - officeYear =  - keyText = 5333 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Iubilate Deo omnis terra, alleluia :<br />
-psalmum dicite nomini eius,<br />
+psalmum dicite nomini eius, alleluia <br />
 date gloriam laudi eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Jubilez pour Dieu, toute de la terre, alléluia :<br />
-dites un psaume à l’honneur de son nom,<br />
+dites un psaume à l’honneur de son nom, alléluia<br />
 rendez gloire à sa louange !</ion-text></ion-col></ion-row></ion-grid>
 
  <!-- textType = P keyText = 2318 -->Ps. Dicite Deo,<br />
@@ -28,10 +28,11 @@ dans l’abondance de votre puissance (vos ennemis seront réduits à mentir con
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Oportebat pati Christum<br />
 et resurgere a mortuis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary"></ion-text></ion-col></ion-row></ion-grid>
+<ion-text color="tertiary">Il fallait que le Christ souffrît 
+et ressuscitât d’entre les morts.</ion-text></ion-col></ion-row></ion-grid>
 
  <!-- textType = C keyText = 3480 --> Et ita intrare in gloriam suam.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et entrer ainsi dans sa gloire.</ion-text></ion-col></ion-row></ion-grid>
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">et entrât ainsi dans sa gloire.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 91 - keyTitle = 4835 - prev_keyPiece = 5425 - keyType = 5 - officeYear =  - keyText = 5522 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
@@ -55,10 +56,10 @@ il est apparu à Pierre.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 91 - keyTitle = 1179 - prev_keyPiece = 1294 - keyType = 6 - officeYear = B - keyText = 1312 -->
  <template v-if=" annoABC == 'B'">
-<rubrique>Communio</rubrique><br /><br />Cantate Domino, (et) benedicite nomen eius :<br />
+<rubrique>Communio</rubrique><br /><br />Cantate Domino, alleluia :<br />Cantate Domino,  benedicite nomen eius :<br />
 bene nuntiate de die in diem salutare eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Chantez au Seigneur, (et) bénissez son nom :<br />
+<ion-text color="tertiary">Chantez au Seigneur, alléluia :<br />Chantez au Seigneur, bénissez son nom :<br />
 annoncez bien de jour en jour son salut.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>

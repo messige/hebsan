@@ -43,12 +43,6 @@ aedificabo Ecclesiam meam.
 und auf diesen Felsen<br />
 werde ich meine Kirche bauen.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = V keyText = 1006 --> Beatus es Simon Petre,<br />
-quia caro et sanguis non revelavit tibi,<br />
-sed Pater meus, qui est in caelis(, dicit Dominus).
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Selig bist du, Simon Petrus;<br />
-denn nicht Fleisch und Blut hat dir das geoffenbart,<br />
-sondern mein Vater im Himmel, spricht der Herr!</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 158 - keyTitle = 7766 - prev_keyPiece = 8680 - keyType = 3 - officeYear = B - keyText = 8898 -->
  <template v-if=" annoABC == 'B'">

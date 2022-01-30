@@ -96,7 +96,7 @@ in saeculum saeculi laudabunt te.
 <ion-text color="tertiary">Le passereau se trouve une maison :<br />
 et la tourterelle un nid où déposer ses petits :<br />
 pour moi, j’ai vos autels, ô Seigneur des armées, <br />mon Roi et mon Dieu. <br />
-heureux ceux qui habitent en votre maison,<br />
+Heureux ceux qui habitent en votre maison,<br />
 dans les siècles des siècles ils vous loueront.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>

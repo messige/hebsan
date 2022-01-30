@@ -68,7 +68,7 @@ denn kein Lob ist groß genug für ihn,<br />
 und dein Lob reicht niemals aus.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = S keyText = 5592 --> Laudis thema specialis<br />
 panis vivus et vitalis<br />
-hodie proponitur
+hodie proponitur.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Besonderes Lob kündet dieses Lied;<br />
 lebendiges und Leben gebendes<br />
 Brot wird heute gereicht.</ion-text></ion-col></ion-row></ion-grid>
@@ -263,15 +263,13 @@ der bleibt in mir und ich in ihm.</ion-text></ion-col></ion-row></ion-grid>
 <rubrique>Communio</rubrique><br /><br />Hoc corpus,<br />
 quod pro vobis tradetur:<br />
 hic calix novi testamenti est in meo sanguine, dicit Dominus:<br />
-hoc facite,<br />
-quotiescumque sumitis,<br />
+hoc facite,quotiescumque sumitis,<br />
 in meam commemorationem.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Das ist der Leib,<br />
 der für euch hingegeben wird,<br />
 dies ist der Kelch des neuen Bundes in meinem Blut, spricht der Herr.<br />
-Tut dies,<br />
-sooft ihr davon nehmt,<br />
+Tut dies, sooft ihr davon nehmt,<br />
 zu meinem Gedächtnis!</ion-text></ion-col></ion-row></ion-grid>
 
 </template>

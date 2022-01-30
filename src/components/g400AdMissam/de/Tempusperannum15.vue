@@ -2,8 +2,8 @@
 <!-- - keyCalendar = 152 - keyTitle = 2494 - prev_keyPiece = 2783 - keyType = 1 - officeYear =  - keyText = 2835 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Dum clamarem ad Dominum,<br />
-exaudivit vocem meam ab his<br />
-qui appropinquant mihi.
+exaudivit vocem meam<br />
+ab his qui appropinquant mihi.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Als ich zum Herrn schrie,<br />
 hörte er meine Stimme, vor denen,<br />
@@ -20,7 +20,7 @@ et ipse te enutriet.
 und er selbst wird für dich sorgen.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = P keyText = 3628 -->Ps. Exaudi, Deus, orationem meam,<br />
 et ne despexeris deprecationem meam:<br />
-intende in me et exaudi me.
+intende mihi (in me) et exaudi me.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vernimm, o Gott, mein Gebet,<br />
 und verachte nicht mein Flehen,<br />
 hab acht auf mich, und erhöre mich.</ion-text></ion-col></ion-row></ion-grid>
@@ -74,12 +74,6 @@ et tibi reddetur votum in Ierusalem.
 <ion-text color="tertiary">Dir gebührt ein Loblied, Gott, auf dem Zion,<br />
 und dir bringe man Gelübde in Jerusalem.</ion-text></ion-col></ion-row></ion-grid>
 
- <!-- textType = V keyText = 8084 --> Replebitur in bonis domus tuae; <br />
-sanctum est templum tuum, <br />
-mirabile in aequitate.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Erfüllt werden wir sein von deines Hauses Gütern. <br />
-Heilig ist dein Tempel, <br />
-wunderbar in Gerechtigkeit.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 152 - keyTitle = 162 - prev_keyPiece = 165 - keyType = 5 - officeYear =  - keyText = 186 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">

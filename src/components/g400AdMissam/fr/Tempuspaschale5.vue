@@ -25,8 +25,7 @@ la droite du Seigneur m’a exalté.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyCalendar = 94 - keyTitle = 1293 - prev_keyPiece = 1415 - keyType = 3 - officeYear =  - keyText = 1447 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Versus alleluiaticus</rubrique><br /><br />Christus resurgens<br />
-ex mortuis iam non moritur,<br />
+<rubrique>Versus alleluiaticus</rubrique><br /><br />Christus resurgens ex mortuis, iam non moritur,<br />
 mors illi ultra non dominabitur.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Ressuscité d'entre les morts,<br />

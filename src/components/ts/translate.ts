@@ -45,7 +45,7 @@ export default function (term: string, lang: string) {
     },
     {
       fr: "Les Grandes et les Petites Heures : partitions et traductions",
-      de: "Die großen und die kleinen Stunden: Notentexte und Übersetzungen",
+      de: "Die großen und die kleinen Stundengebete: Notentexte und Übersetzungen",
     },
     {
       fr: "A propos de l'application Hebsan",
