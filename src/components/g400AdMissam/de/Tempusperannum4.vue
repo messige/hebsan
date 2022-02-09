@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 140 - keyTitle = 4813 - prev_keyPiece = 5399 - keyType = 1 - officeYear =  - keyText = 5495 -->
+<!-- - keyCalendar = 140 - keyPiece = 5399 - keyText = 5495 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Laetetur cor quaerentium Dominum :<br />
 quaerite Dominum, et confirmamini :<br />
@@ -16,7 +16,7 @@ annuntiate inter gentes opera eius.
 Ruft seinen Namen an!<br />
 Macht unter den Völkern seine Taten bekannt!</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 140 - keyTitle = 6844 - prev_keyPiece = 7667 - keyType = 2 - officeYear =  - keyText = 7858 -->
+<!-- - keyPiece = 7667 - keyText = 7858 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Quis sicut Dominus Deus noster,<br />
 qui in altis habitat :<br />
@@ -31,7 +31,7 @@ et de stercore erigens pauperem.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Der den Armen von der Erde aufrichtet,<br />
 und den Elenden erhebt, der im Mist liegt.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 140 - keyTitle = 232 - prev_keyPiece = 244 - keyType = 3 - officeYear =  - keyText = 271 -->
+<!-- - keyPiece = 244 - keyText = 271 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Adorabo ad templum sanctum tuum :<br />
 et confitebor nomini tuo.
@@ -40,7 +40,7 @@ et confitebor nomini tuo.
 und deinen Namen preisen.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 140 - keyTitle = 1114 - prev_keyPiece = 1219 - keyType = 5 - officeYear =  - keyText = 1237 -->
+<!-- - keyPiece = 1219 - keyText = 1237 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Bonum est confiteri Domino.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
@@ -49,7 +49,7 @@ und deinen Namen preisen.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 3509 --> Et psallere nomini tuo, altissime.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Und deinem Namen zu lobsingen, du Höchster.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 140 - keyTitle = 841 - prev_keyPiece = 892 - keyType = 6 - officeYear = A - keyText = 934 -->
+<!-- - keyPiece = 892 - keyText = 934 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Beati mundo corde, quoniam ipsi Deum videbunt:<br />
 Beati pacifici,  quoniam filii Dei vocabuntur:<br />
@@ -59,7 +59,7 @@ quoniam ipsorum est regnum caelorum.
 <ion-text color="tertiary">Selig, die ein reines Herz haben, denn sie werden Gott sehen.<br>Selig, die Friedfertigen, denn sie werden Söhne Gottes genannt werden.<br>Selig, die Verfolgung leiden um der Gerechtigkeit willen,<br>denn ihrer ist das Himmelreich.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 140 - keyTitle = 4078 - prev_keyPiece = 4560 - keyType = 6 - officeYear = C - keyText = 4679 -->
+<!-- - keyPiece = 4560 - keyText = 4679 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Illumina faciem tuam super servum tuum,<br />
 et salvum me fac in tua misericordia :<br />

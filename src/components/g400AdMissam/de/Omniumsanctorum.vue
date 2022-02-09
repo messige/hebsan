@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 218 - keyTitle = 3456 - prev_keyPiece = 3868 - keyType = 1 - officeYear =  - keyText = 4036 -->
+<!-- - keyCalendar = 218 - keyPiece = 3868 - keyText = 4036 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Gaudeamus omnes in Domino,<br />
 diem festum celebrantes sub honore Sanctorum omnium :<br />
@@ -16,7 +16,7 @@ rectos decet collaudatio.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Jubelt, ihr Gerechten, im Herrn.<br />
 Für die Redlichen ziemt sich der Lobpreis.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 218 - keyTitle = 8123 - prev_keyPiece = 9090 - keyType = 2 - officeYear =  - keyText = 9296 -->
+<!-- - keyPiece = 9090 - keyText = 9296 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Timete Dominum omnes sancti eius,<br />
 quoniam nihil deest timentibus eum.
@@ -27,7 +27,7 @@ denn es gibt keinen Mangel für die, die ihn fürchten.</ion-text></ion-col></io
  <!-- textType = V keyText = 5068 -->V./  Inquirentes autem Dominum non deficient omni bono.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Die aber den Herrn suchen, an keinem Guten wird es ihnen fehlen.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 218 - keyTitle = 8466 - prev_keyPiece = 9479 - keyType = 3 - officeYear =  - keyText = 9710 -->
+<!-- - keyPiece = 9479 - keyText = 9710 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Venite ad me,<br />
 omnes qui laboratis,<br />
@@ -40,7 +40,7 @@ und schwere Lasten zu tragen habt.<br />
 Ich werde euch erquicken.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 218 - keyTitle = 4715 - prev_keyPiece = 5271 - keyType = 5 - officeYear =  - keyText = 5417 -->
+<!-- - keyPiece = 5271 - keyText = 5417 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Iustorum animae in manu Dei sunt:<br />
 et non tanget illos tormentum malitiae.
@@ -53,7 +53,7 @@ illi autem sunt in pace.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">In den Augen der Toren sind sie gestorben,<br />
 sie aber sind in Frieden.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!--  - keyCalendar = 218 - keyTitle = 841 - prev_keyPiece = 892 - keyType = 6 - officeYear =  - keyText = 934 -->
+<!-- - keyPiece = 892 - keyText = 934 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Beati mundo corde, quoniam ipsi Deum videbunt:<br />
 Beati pacifici,  quoniam filii Dei vocabuntur:<br />

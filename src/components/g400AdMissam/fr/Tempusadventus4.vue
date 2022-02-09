@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 14 - keyTitle = 7146 - prev_keyPiece = 7999 - keyType = 1 - officeYear =  - keyText = 8224 -->
+<!-- - keyCalendar = 14 - keyPiece = 7999 - keyText = 8224 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Rorate caeli desuper,<br />
 et nubes pluant Iustum;<br />
@@ -16,7 +16,7 @@ et opera manuum eius annuntiat firmamentum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Les cieux racontent la gloire de Dieu,<br />
 et le firmament  annonce  l’œuvre  de ses mains.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 14 - keyTitle = 6481 - prev_keyPiece = 7256 - keyType = 2 - officeYear =  - keyText = 7382 -->
+<!-- - keyPiece = 7256 - keyText = 7382 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Prope est Dominus omnibus invocantibus eum :<br />
 omnibus qui invocant eum in veritate.
@@ -29,7 +29,7 @@ et benedicat omnis caro nomen sanctum eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Ma bouche dira la louange du Seigneur ;<br />
 et que toute chair bénisse son saint nom.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 14 - keyTitle = 8421 - prev_keyPiece = 9428 - keyType = 3 - officeYear =  - keyText = 9660 -->
+<!-- - keyPiece = 9428 - keyText = 9660 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Veni, Domine, et noli tardare :<br />
 relaxa facinora plebis tuae.
@@ -38,7 +38,7 @@ relaxa facinora plebis tuae.
 absolvez de ses méfaits votre peuple.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 14 - keyTitle = 755 - prev_keyPiece = 796 - keyType = 5 - officeYear =  - keyText = 839 -->
+<!-- - keyPiece = 796 - keyText = 839 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Ave Maria, gratia plena,<br />
 Dominus tecum;<br />
@@ -51,7 +51,7 @@ vous êtes bénie entre les femmes,<br />
 et le fruit de vos entrailles est béni.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 14 - keyTitle = 2736 - prev_keyPiece = 3059 - keyType = 6 - officeYear =  - keyText = 3099 -->
+<!-- - keyPiece = 3059 - keyText = 3099 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Ecce virgo concipiet<br />
 et pariet filium et vocabitur nomen eius Emmanuel.

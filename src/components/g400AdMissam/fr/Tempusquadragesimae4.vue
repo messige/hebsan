@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 59 - keyTitle = 4799 - prev_keyPiece = 5379 - keyType = 1 - officeYear =  - keyText = 5481 -->
+<!-- - keyCalendar = 59 - keyPiece = 5379 - keyText = 5481 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Laetare Ierusalem :<br />
 et conventum facite omnes qui diligitis eam :<br />
@@ -20,7 +20,7 @@ in domum Domini ibimus.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Je me suis réjoui de ces paroles qui m’ont été dites :<br />
 Nous irons dans la maison du Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 59 - keyTitle = 4803 - prev_keyPiece = 5383 - keyType = 2 - officeYear =  - keyText = 5485 -->
+<!-- - keyPiece = 5383 - keyText = 5485 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br /><span class="fc">Laetatus sum</span> in his quae dicta sunt mihi :<br />
 in domum Domini ibimus.
@@ -33,7 +33,7 @@ et abundantia in turribus tuis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Que la paix règne sur tes remparts:<br />
 et l’abondance en tes tours.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 59 - keyTitle = 6678 - prev_keyPiece = 7487 - keyType = 27 - officeYear =  - keyText = 7624 -->
+<!-- - keyPiece = 7487 - keyText = 7624 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Canticus</rubrique><br /><br />Qui confidunt in Domino<br />
 sicut mons Sion<br />
@@ -52,7 +52,7 @@ ex hoc nunc et usque in saeculum.
 et le Seigneur est tout autour de son peuple,<br />
 dès maintenant, et pour toujours.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 59 - keyTitle = 4854 - prev_keyPiece = 5449 - keyType = 5 - officeYear =  - keyText = 5546 -->
+<!-- - keyPiece = 5449 - keyText = 5546 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Laudate Dominum quia benignus est :<br />
 psallite nomini eius, quoniam suavis est :<br />
@@ -63,9 +63,10 @@ psalmodiez pour son nom, car il est doux :<br />
 tout ce qu’il a voulu, il l’a fait, au ciel et sur la terre.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 59 - keyTitle = 4081 - prev_keyPiece = 4563 - keyType = 5 - officeYear =  - keyText = 4683 -->
+<!-- - keyPiece = 4563 - keyText = 4683 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Offertorium &nbsp; <i>quando legitur Evangelium de filio prodigo</i></rubrique><br /><br />Illumina oculos meos, nequando obdormiam in morte:<br />
+<rubrique><i>quando legitur Evangelium de filio prodigo</i><br />
+Offertorium</rubrique><br /><br />Illumina oculos meos, nequando obdormiam in morte:<br />
 nequando dicat inimicus meus :<br />
 praevalui adversus eum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
@@ -75,7 +76,7 @@ que mon ennemi ne vienne un jour à dire :<br />
 J’ai prévalu sur lui.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 59 - keyTitle = 4031 - prev_keyPiece = 4512 - keyType = 6 - officeYear =  - keyText = 4623 -->
+<!-- - keyPiece = 4512 - keyText = 4623 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Ierusalem quae aedificatur ut civitas,<br />
 cuius participatio eius <span class="fc">in idipsum</span> :<br />
@@ -88,9 +89,10 @@ en effet, c’est là que sont montées les tribus, les tribus du Seigneur,<br /
 pour acclamer le nom du Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 59 - keyTitle = 6003 - prev_keyPiece = 6712 - keyType = 6 - officeYear = C - keyText = 6841 -->
+<!-- - keyPiece = 6712 - keyText = 6841 -->
  <template v-if=" annoABC == 'C'">
-<rubrique>Communio &nbsp; <i>quando legitur Evangelium de filio prodigo</i></rubrique><br /><br />Oportet te fili gaudere,<br />
+<rubrique><i>quando legitur Evangelium de filio prodigo</i><br />
+Communio</rubrique><br /><br />Oportet te fili gaudere,<br />
 quia frater tuus mortuus fuerat,<br />
 et revixit :<br />
 perierat, et <span class="fc">inventus est</span>.
@@ -101,9 +103,10 @@ et il est revenu à la vie :<br />
 il était perdu, et il est retrouvé.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 59 - keyTitle = 5008 - prev_keyPiece = 5614 - keyType = 6 - officeYear =  - keyText = 5723 -->
+<!-- - keyPiece = 5614 - keyText = 5723 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Communio &nbsp; <i>quando legitur Evangelium de caeco nato</i></rubrique><br /><br />Lutum fecit ex sputo Dominus<br />
+<rubrique><i>quando legitur Evangelium de caeco nato</i><br />
+Communio</rubrique><br /><br />Lutum fecit ex sputo Dominus<br />
 et linivit oculos meos;<br />
 et abii, et lavi, et vidi,<br />
 et credidi Deo.

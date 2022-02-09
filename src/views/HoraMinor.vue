@@ -103,7 +103,7 @@ export default defineComponent({
         arrayFeastOffices: [                            // in Palmis
           {
             titleOffice: "Ad tertiam",
-            antiphona: require("../assets/g50Antiphona/AntPueriVestimenta2.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntPueriVestimenta.jpg"),
             tonus: require("../assets/g70Tonus/Tonus01Ff.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D01-04R18.vue")
@@ -119,8 +119,8 @@ export default defineComponent({
           },
           {
             titleOffice: "Ad nonam",
-            antiphona: require("../assets/g50Antiphona/AntInvocabo2.jpg"),
-            tonus: require("../assets/g70Tonus/Tonus09Fb.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntInvocaboNomen.jpg"),
+            tonus: require("../assets/g70Tonus/Tonus10Fb.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D09-12R10.vue")
             ),
@@ -147,7 +147,7 @@ export default defineComponent({
           },
           {
             titleOffice: "Ad nonam",
-            antiphona: require("../assets/g50Antiphona/AntLabiaInsurgentibus.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntLabiaInsurgentium.jpg"),
             tonus: require("../assets/g70Tonus/Tonus08Fg.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D20-22R03.vue")
@@ -167,7 +167,7 @@ export default defineComponent({
           },
           {
             titleOffice: "Ad sextam",
-            antiphona: require("../assets/g50Antiphona/AntPotestatemHabeo2.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntPotestatemHabeo.jpg"),
             tonus: require("../assets/g70Tonus/Tonus09Fb.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D17-19R08.vue")
@@ -175,7 +175,7 @@ export default defineComponent({
           },
           {
             titleOffice: "Ad nonam",
-            antiphona: require("../assets/g50Antiphona/AntPotestatemHabeo2.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntPotestatemHabeo.jpg"),
             tonus: require("../assets/g70Tonus/Tonus09Fb.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D20-22R03.vue")
@@ -187,7 +187,7 @@ export default defineComponent({
         arrayFeastOffices: [                            // Feria IV
           {
             titleOffice: "Ad tertiam",
-            antiphona: require("../assets/g50Antiphona/AntIpsiVeroInVanum2.jpg"),
+            antiphona: require("../assets/g50Antiphona/AntIpsiVero.jpg"),
             tonus: require("../assets/g70Tonus/Tonus02Fd.jpg"),
             psalm: defineAsyncComponent(
               () => import("../components/g65Psalmodia/Ps118D13-16R01.vue")

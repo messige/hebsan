@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 173 - keyTitle = 2086 - prev_keyPiece = 2312 - keyType = 1 - officeYear =  - keyText = 2361 -->
+<!-- - keyCalendar = 173 - keyPiece = 2312 - keyText = 2361 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Dignus est Agnus qui <span class="fc">occisus est</span>,<br />
 accipere virtutem, et divinitatem,<br />
@@ -16,7 +16,7 @@ et iustitiam tuam filio regis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Gott, gib dein Gericht dem König,<br />
 dem Königssohn gib dein gerechtes Walten.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 173 - keyTitle = 2252 - prev_keyPiece = 2498 - keyType = 2 - officeYear =  - keyText = 2552 -->
+<!-- - keyPiece = 2498 - keyText = 2552 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Dominabitur a mari usque ad mare,<br />
 et a flumine usque ad terminos orbis terrarum.
@@ -29,7 +29,7 @@ omnes gentes servient ei.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Und anbeten werden ihn alle Könige der Erde,<br />
 alle Völker werden ihm dienen.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 173 - keyTitle = 6381 - prev_keyPiece = 7144 - keyType = 3 - officeYear =  - keyText = 7263 -->
+<!-- - keyPiece = 7144 - keyText = 7263 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Potestas eius, potestas aeterna,<br />
 quae non auferetur:<br />
@@ -40,7 +40,7 @@ die unvergänglich ist.<br />
 Und sein Reich ist eines, das nicht untergeht.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 173 - keyTitle = 6364 - prev_keyPiece = 7121 - keyType = 5 - officeYear =  - keyText = 7242 -->
+<!-- - keyPiece = 7121 - keyText = 7242 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Postula a me dicit Dominus<br />
 et dabo tibi gentes hereditatem tuam,<br />
@@ -51,7 +51,7 @@ und ich gebe dir die Völker zum Erbe,<br />
 die Enden der Erde zu deinem Eigentum.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 173 - keyTitle = 451 - prev_keyPiece = 462 - keyType = 6 - officeYear = A - keyText = 495 -->
+<!-- - keyPiece = 462 - keyText = 495 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Amen dico vobis :<br />
 quod uni ex minimis meis fecistis,<br />
@@ -68,7 +68,7 @@ nehmt das Reich in Besitz, das euch bereitet ist<br />
 seit Anfang der Welt!</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 173 - keyTitle = 7510 - prev_keyPiece = 8398 - keyType = 6 - officeYear = C - keyText = 8604 -->
+<!-- - keyPiece = 8398 - keyText = 8604 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Sedebit Dominus rex in aeternum :<br />
 Dominus benedicet populo suo in pace.

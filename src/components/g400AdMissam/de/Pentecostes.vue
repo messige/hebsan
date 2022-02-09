@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 133 - keyTitle = 7762 - prev_keyPiece = 8671 - keyType = 1 - officeYear =  - keyText = 8893 -->
+<!-- - keyCalendar = 133 - keyPiece = 8671 - keyText = 8893 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Spiritus Domini replevit orbem terrarum, alleluia :<br />
 et hoc quod continet omnia,<br />
@@ -14,7 +14,7 @@ et fugiant, qui oderunt eum a facie eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Gott steht auf, seine Feinde zerstieben;<br />
 die ihn hassen, fliehen vor seinem Angesicht.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 133 - keyTitle = 2899 - prev_keyPiece = 3242 - keyType = 3 - officeYear =  - keyText = 3287 -->
+<!-- - keyPiece = 3242 - keyText = 3287 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Emitte Spiritum tuum, et creabuntur<br /> et renovabis faciem terrae.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
@@ -22,7 +22,7 @@ die ihn hassen, fliehen vor seinem Angesicht.</ion-text></ion-col></ion-row></io
 und sie werden erschaffen:<br />Du erneuerst das Antlitz der Erde.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 133 - keyTitle = 8434 - prev_keyPiece = 9445 - keyType = 3 - officeYear =  - keyText = 9674 -->
+<!-- - keyPiece = 9445 - keyText = 9674 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Veni, Sancte Spiritus,<br />
 reple tuorum corda fidelium,<br />
@@ -33,7 +33,7 @@ erfülle die Herzen deiner Gläubigen<br />
 und entzünde in ihnen das Feuer deiner Liebe!</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 133 - keyTitle = 8433 - prev_keyPiece = 9444 - keyType = 14 - officeYear =  - keyText = 9673 -->
+<!-- - keyPiece = 9444 - keyText = 9673 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Sequentia</rubrique><br /><br />Veni, Sancte Spiritus,<br />
 et emitte caelitus<br />
@@ -98,7 +98,7 @@ da perenne gaudium.
 gib Vollendung des Heiles,<br />
 gib ewige Freude.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 133 - keyTitle = 1440 - prev_keyPiece = 1580 - keyType = 5 - officeYear =  - keyText = 1611 -->
+<!-- - keyPiece = 1580 - keyText = 1611 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Confirma hoc, Deus,<br />
 quod <span class="fc">operatus es</span> in nobis.
@@ -111,7 +111,7 @@ was du in uns gewirkt [vollbracht] hast.</ion-text></ion-col></ion-row></ion-gri
  <!-- textType = C keyText = 9288 --> Tibi offerent reges munera.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Dir mögen die Könige Gaben darbringen.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!--  - keyCalendar = 133 - keyTitle = 3275 - prev_keyPiece = 3665 - keyType = 6 - officeYear =  - keyText = 3821 -->
+<!-- - keyPiece = 3665 - keyText = 3821 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br /><span class="fc">Factus est</span> repente de caelo sonus<br />
 advenientis spiritus vehementis.

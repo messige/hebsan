@@ -46,7 +46,11 @@ export default defineComponent({
     startday: { type: Number, default: getDate(new Date()) },
   },
   setup(props) {
-    const actualDate = new Date(props.startyear, props.startmonth, props.startday); //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
+    const actualDate = new Date(
+      props.startyear,
+      props.startmonth,
+      props.startday
+    ); //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
     const { calendarFrom } = useCalendarService(actualDate);
     return { calendarFrom };
   },

@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 607 - keyTitle = 5014 - prev_keyPiece = 5621 - keyType = 1 - officeYear =  - keyText = 5729 -->
+<!-- - keyCalendar = 607 - keyPiece = 5621 - keyText = 5729 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Lux fulgebit hodie super nos :<br />
 quia <span class="fc">natus est</span> nobis Dominus :<br />
@@ -22,7 +22,7 @@ Er hat sich mit Schmuck bekleidet;<br />
 der Herr hat sich bekleidet mit Macht,<br />
 er hat sich damit umgürtet.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 607 - keyTitle = 7215 - prev_keyPiece = 8078 - keyType = 1 - officeYear =  - keyText = 8299 -->
+<!-- - keyPiece = 8078 - keyText = 8299 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Salve sancta parens<br />
 enixa puerpera regem<br />
@@ -53,7 +53,7 @@ et adora eum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Denn er selbst ist der Herr<br />
 und du sollst ihn anbeten.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 607 - keyTitle = 2077 - prev_keyPiece = 2298 - keyType = 2 - officeYear =  - keyText = 2351 -->
+<!-- - keyPiece = 2298 - keyText = 2351 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br /><span class="fc">Diffusa est</span> gratia in labiis tuis :<br />
 propterea benedixit te Deus in aeternum.
@@ -66,7 +66,7 @@ et deducet te mirabiliter dextera tua.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Um der Wahrheit willen, und der Sanftmut und Gerechtigkeit.<br />
 Und führen wird dich wunderbar deine Rechte.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 607 - keyTitle = 5380 - prev_keyPiece = 6029 - keyType = 3 - officeYear =  - keyText = 6148 -->
+<!-- - keyPiece = 6029 - keyText = 6148 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Multifarie olim Deus loquens patribus in prophetis,<br />
 novissime diebus istis <span class="fc">locutus est</span>  nobis in Filio suo.
@@ -75,7 +75,7 @@ novissime diebus istis <span class="fc">locutus est</span>  nobis in Filio suo.
 in diesen letzten Tagen hat er zu uns gesprochen durch den Sohn.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 607 - keyTitle = 6342 - prev_keyPiece = 7095 - keyType = 3 - officeYear =  - keyText = 7219 -->
+<!-- - keyPiece = 7095 - keyText = 7219 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Post partum, Virgo, inviolata permansisti :<br />
 Dei Genitrix, intercede pro nobis.
@@ -84,7 +84,7 @@ Dei Genitrix, intercede pro nobis.
 Gottes Gebärerin, tritt für uns ein.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 607 - keyTitle = 3309 - prev_keyPiece = 3702 - keyType = 5 - officeYear =  - keyText = 3860 -->
+<!-- - keyPiece = 3702 - keyText = 3860 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Felix namque es, sacra Virgo,<br />
 et omni laude dignissima,<br />
@@ -97,7 +97,7 @@ denn aus dir ging hervor die Sonne der Gerechtigkeit,<br />
 Christus, unser Gott.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 607 - keyTitle = 3180 - prev_keyPiece = 3553 - keyType = 6 - officeYear =  - keyText = 3713 -->
+<!-- - keyPiece = 3553 - keyText = 3713 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Exsulta filia Sion,<br />
 lauda filia Ierusalem :<br />

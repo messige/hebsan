@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 168 - keyTitle = 5439 - prev_keyPiece = 6097 - keyType = 1 - officeYear =  - keyText = 6218 -->
+<!-- - keyCalendar = 168 - keyPiece = 6097 - keyText = 6218 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Ne derelinquas me, Domine, Deus meus,<br />
 ne discedas a me :<br />
@@ -16,7 +16,7 @@ neque in ira tua corripias me.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Herr, strafe mich nicht in deinem Zorn,<br />
 züchtige mich nicht in deinem Grimm!</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 168 - keyTitle = 7966 - prev_keyPiece = 8912 - keyType = 2 - officeYear =  - keyText = 9121 -->
+<!-- - keyPiece = 8912 - keyText = 9121 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Suscepimus, Deus,<br />
 misericordiam tuam in medio templi tui.
@@ -35,7 +35,7 @@ in monte sancto eius.
 so haben wir es gesehen in der Stadt des Herrn unsres Gottes,<br />
 auf seinem heiligen Berg.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 168 - keyTitle = 8503 - prev_keyPiece = 9528 - keyType = 3 - officeYear = B - keyText = 9751 -->
+<!-- - keyPiece = 9528 - keyText = 9751 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Verbo Domini caeli <span class="fc">firmati sunt</span><br />
 et spiritu oris eius omnis virtus eorum.
@@ -44,7 +44,7 @@ et spiritu oris eius omnis virtus eorum.
 ihr ganzes Heer durch den Hauch seines Mundes.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 168 - keyTitle = 5806 - prev_keyPiece = 6496 - keyType = 3 - officeYear = C - keyText = 6625 -->
+<!-- - keyPiece = 6496 - keyText = 6625 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />O quam bonus et suavis est, Domine,<br />
 Spiritus tuus in nobis!
@@ -53,7 +53,7 @@ Spiritus tuus in nobis!
 ist dein Geist in uns.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 168 - keyTitle = 999 - prev_keyPiece = 1077 - keyType = 5 - officeYear =  - keyText = 1105 -->
+<!-- - keyPiece = 1077 - keyText = 1105 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Benedic anima mea Domino,<br />
 et noli oblivisci omnes retributiones eius :<br />
@@ -64,7 +64,7 @@ und vergiss nicht, was er dir Gutes getan hat;<br />
 und wie dem Adler wird dir die Jugend erneuert.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 168 - keyTitle = 5621 - prev_keyPiece = 6294 - keyType = 6 - officeYear =  - keyText = 10845 -->
+<!-- - keyPiece = 6294 - keyText = 10845 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Notas mihi fecisti vias vitae:<br />
 adimplebis me laetitia cum vultu tuo, Domine.

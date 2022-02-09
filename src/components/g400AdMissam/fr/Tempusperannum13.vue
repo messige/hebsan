@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 150 - keyTitle = 5924 - prev_keyPiece = 6627 - keyType = 1 - officeYear =  - keyText = 6750 -->
+<!-- - keyCalendar = 150 - keyPiece = 6627 - keyText = 6750 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Omnes gentes plaudite manibus :<br />
 iubilate Deo in voce exsultationis.
@@ -12,7 +12,7 @@ rex magnus super omnem terram.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Car le Seigneur est très haut, redoutable :<br />
 grand Roi sur toute la terre.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 150 - keyTitle = 8485 - prev_keyPiece = 9506 - keyType = 2 - officeYear = C - keyText = 9731 -->
+<!-- - keyPiece = 9506 - keyText = 9731 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Venite filii, audite me :<br />
 timorem Domini docebo vos.
@@ -25,7 +25,7 @@ et facies vestrae non confundentur.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Allez à lui et vous rayonnerez :<br />
 et votre visage n’aura pas de confusion.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 150 - keyTitle = 3088 - prev_keyPiece = 3447 - keyType = 2 - officeYear = B - keyText = 3607 -->
+<!-- - keyPiece = 3447 - keyText = 3607 -->
  <template v-if=" annoABC == 'B'">
 <rubrique>Graduale</rubrique><br /><br />Exaltabo te Domine,<br />
 quoniam suscepisti me,<br />
@@ -44,7 +44,7 @@ et vous m’avez guéri :<br />
 Seigneur, vous avez fait sortir mon âme du séjour des morts,<br />
 vous m’avez sauvé de ceux qui descendent dans l’abîme.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 150 - keyTitle = 1293 - prev_keyPiece = 1415 - keyType = 3 - officeYear = A - keyText = 1447 -->
+<!-- - keyPiece = 1415 - keyText = 1447 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Christus resurgens ex mortuis, iam non moritur,<br />
 mors illi ultra non dominabitur.
@@ -54,7 +54,7 @@ le Christ ne meurt plus :<br />
 la mort n'aura désormais plus d'empire sur lui.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 150 - keyTitle = 5924 - prev_keyPiece = 6628 - keyType = 3 - officeYear = C - keyText = 6750 -->
+<!-- - keyPiece = 6628 - keyText = 6750 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Omnes gentes plaudite manibus :<br />
 iubilate Deo in voce exsultationis.
@@ -63,7 +63,7 @@ iubilate Deo in voce exsultationis.
 jubilez pour Dieu en un chant d’allégresse !</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 150 - keyTitle = 7650 - prev_keyPiece = 8542 - keyType = 5 - officeYear =  - keyText = 8760 -->
+<!-- - keyPiece = 8542 - keyText = 8760 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Sicut in holocausto arietum et taurorum,<br />
 et sicut in milibus agnorum pinguium :<br />
@@ -75,7 +75,7 @@ confidentibus in te, Domine.
 <ion-text color="tertiary">Comme un holocauste de béliers et de taureaux,<br />et de milliers d’agneaux gras,<br />ainsi recevez notre sacrifice que nous vous présentons aujourd’hui,<br />et qu’il vous soit agréable ;<br />car ceux qui mettent en vous leur confiance<br /> ne seront pas confondus. </ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 150 - keyTitle = 1293 - prev_keyPiece = 1416 - keyType = 6 - officeYear = A - keyText = 1447 -->
+<!-- - keyPiece = 1416 - keyText = 1447 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Christus resurgens ex mortuis, iam non moritur,<br />
 mors illi ultra non dominabitur.
@@ -85,7 +85,7 @@ le Christ ne meurt plus :<br />
 la mort n'aura désormais plus d'empire sur lui.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 150 - keyTitle = 4327 - prev_keyPiece = 4840 - keyType = 6 - officeYear = C - keyText = 4972 -->
+<!-- - keyPiece = 4840 - keyText = 4972 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Inclina aurem tuam, accelera,<br />
 ut eruas nos.

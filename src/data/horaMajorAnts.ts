@@ -117,7 +117,7 @@
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantIsaie12R03.vue' ) ) } ,
         { antID : 5 , 
-          ant   : require ( "../assets/g50Antiphona/AntLabiaInsurgentibus.jpg" )  ,
+          ant   : require ( "../assets/g50Antiphona/AntLabiaInsurgentium.jpg" )  ,
           ton   : require ( "../assets/g70Tonus/Tonus08Fg.jpg" )  ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps148149150R03.vue' ) ) } ] ,
@@ -153,7 +153,7 @@
                   import ( '../components/g65Psalmodia/CantMagnificatR07.vue' ) ) } ] } ,            
       { arrayOfffice : [  [                                                         // Feria III
         { antID : 1 ,                                                               // Ad Laudes
-          ant   : require ( "../assets/g50Antiphona/AntVideDomEtConsidera.jpg" ) ,  
+          ant   : require ( "../assets/g50Antiphona/AntVideDom.jpg" ) ,  
           ton   : require ( "../assets/g70Tonus/Tonus07Fc2.jpg" ) ,
           psalm : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/Ps050R19.vue' ) ) } ,
@@ -203,7 +203,7 @@
           ton   : require ( "../assets/g70Tonus/Tonus01Ff.jpg" ) ,                            
           cant  : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantBenedictusR08.vue' ) ) } ,      /* same as Feast 1 */
-        { ant   : require ( "../assets/g50Antiphona/AntPotestatemHabeo2.jpg" ) ,
+        { ant   : require ( "../assets/g50Antiphona/AntPotestatemHabeo.jpg" ) ,
           ton   : require ( "../assets/g70Tonus/Tonus10Fb.jpg" ) , 
           cant  : defineAsyncComponent ( () =>                            
                   import ( '../components/g65Psalmodia/CantMagnificatR07.vue' ) ) } ] } , 

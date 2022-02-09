@@ -289,19 +289,19 @@ export default function (thisDay: Date) {
     calendarObj = new CalendarItem("Omnium sanctorum", sanctorum, annoABC);
     pushItem(calendarObj);
   }
-  const presentatio = new Date(civilYear, 1, 2); // fêtes de précepte
+  const praesentatio = new Date(civilYear, 1, 2); // fêtes de précepte
   const iosephSponsus = new Date(civilYear, 2, 19);
   const petriPauli = new Date(civilYear, 5, 29);
   const bmConceptio = new Date(civilYear, 11, 8);
   if (
-    getDay(presentatio) == 0 ||
+    getDay(praesentatio) == 0 ||
     getDay(iosephSponsus) == 0 ||
     getDay(petriPauli) == 0 ||
     getDay(bmConceptio) == 0
   ) {
     for (const thisItem2 of calendarArray) {
-      if (compareDesc(thisItem2.calendarDate, presentatio) == 0) {
-        thisItem2.calendarFeast = "Presentatio Domini";
+      if (compareDesc(thisItem2.calendarDate, praesentatio) == 0) {
+        thisItem2.calendarFeast = "Praesentatio Domini";
       }
       if (compareDesc(thisItem2.calendarDate, iosephSponsus) == 0) {
         thisItem2.calendarFeast = "Ioseph sponsus";

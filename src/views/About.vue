@@ -13,7 +13,7 @@
     <ion-content>
       <div id="container">
         <p><strong>Dominicae et Hebdomada Sancta</strong></p>
-        <p>Last update: 30/01/2022</p>
+        <p>Last update: 10/02/2022</p>
         <p><strong>Description - fr</strong></p>
         <p>
           Les textes des chants du Propre grégorien des dimanches,<br />
@@ -23,16 +23,15 @@
           grégorien de Paris.
         </p>
         <p>
-          Neumes des antiennes des Petites heures : Giedrius Gapsys.<br />
-          Autres neumes : Antiphonale Symopticum
-          http://gregorianik.uni-regensburg.de/an/<br />
+          Neumes : Antiphonale Symopticum http://gregorianik.uni-regensburg.de/an/<br />
           Application développée par Gerald Messiaen.<br />
           Merci d'adresser vos remarques à<br />
           hebsan@gregorien.be
         </p>
         <p>
           Traduction des textes en français : traducteur anonyme (collaborateur
-          de l'abbaye du Barroux).<br />
+          de l'abbaye du Barroux) et Abbaye du Barroux. Pour celles-ci :<br />
+          ©Éditions Sainte-Madeleine, 2021 Tous droits réservés.<br />
           Traduction des psaumes en français : traduction du chanoine Augustin
           Crampon (XIXe siècle),<br />
           disponible sur Wikisource<br />
@@ -47,8 +46,7 @@ Die Texte der Gesänge des gregorianischen Propriums [Eigengesänge] der Sonntag
 sowie ihre Übersetzungen ins Französische und Deutsche.<br />
 Die Notentexte der Stundengebete der Karwoche<br />
 wie sie in der Abtei von Fontfroide gesungen werden vom „Choeur grégorien de Paris“.<br />
-Neumen der Antiphonen der Kleinen Stundengebete: Giedrius Gapsys.<br />
-Andere Neumen: Antiphonale Symopticum http://gregorianik.uni-regensburg.de/an/.<br />
+Neumen: Antiphonale Symopticum http://gregorianik.uni-regensburg.de/an/.<br />
 Anwendung [App] entwickelt von Gerald Messiaen.<br />
 Bitte senden Sie Ihre Anmerkungen an.<br />
 hebsan@gregorien.be<br />

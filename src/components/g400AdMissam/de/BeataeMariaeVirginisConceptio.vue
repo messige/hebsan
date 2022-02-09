@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 222 - keyTitle = 3468 - prev_keyPiece = 3880 - keyType = 1 - officeYear =  - keyText = 4043 -->
+<!-- - keyCalendar = 222 - keyPiece = 3880 - keyText = 4043 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Gaudens gaudebo in Domino,<br />
 et exsultabit anima mea in Deo meo :<br />
@@ -20,7 +20,7 @@ nec delectasti inimicos meos super me.
 denn du nahmst mich auf<br />
 und ließest meine Feinde nicht frohlocken über mich.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 222 - keyTitle = 1047 - prev_keyPiece = 1135 - keyType = 2 - officeYear =  - keyText = 1160 -->
+<!-- - keyPiece = 1135 - keyText = 1160 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Benedicta es tu, Virgo Maria,<br />
 a Domino Deo excelso,<br />
@@ -37,7 +37,7 @@ tu honorificentia populi nostri
 du die Freude Israels,<br />
 du bist der Stolz unseres Volkes.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 222 - keyTitle = 8142 - prev_keyPiece = 9116 - keyType = 3 - officeYear =  - keyText = 9323 -->
+<!-- - keyPiece = 9116 - keyText = 9323 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Tota pulchra es, Maria:<br />
 et macula originalis non est in te.
@@ -46,7 +46,7 @@ et macula originalis non est in te.
 und der Makel des Anfangs [Erbsünde] ist nicht an dir!</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 222 - keyTitle = 754 - prev_keyPiece = 792 - keyType = 5 - officeYear =  - keyText = 838 -->
+<!-- - keyPiece = 792 - keyText = 838 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Ave Maria, gratia plena,<br />
 Dominus tecum;<br />
@@ -57,7 +57,7 @@ der Herr ist mit Dir.<br />
 Du bist gepriesen unter den Frauen.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 222 - keyTitle = 3561 - prev_keyPiece = 3992 - keyType = 6 - officeYear =  - keyText = 4128 -->
+<!-- - keyPiece = 3992 - keyText = 4128 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Gloriosa dicta sunt de te, Maria,<br />
 quia fecit magna qui potens est.

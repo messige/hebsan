@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 31 - keyTitle = 2600 - prev_keyPiece = 2897 - keyType = 1 - officeYear =  - keyText = 2945 -->
+<!-- - keyCalendar = 31 - keyPiece = 2897 - keyText = 2945 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Ecce advenit dominator Dominus<br />
 et regnum in manu eius<br />
@@ -22,7 +22,7 @@ omnes gentes servient ei.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et tous les rois de la terre l’adoreront :<br />
 toutes les nations le serviront.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 31 - keyTitle = 5918 - prev_keyPiece = 6619 - keyType = 2 - officeYear =  - keyText = 6744 -->
+<!-- - keyPiece = 6619 - keyText = 6744 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Omnes de Saba venient,<br />
 aurum et thus deferentes,<br />
@@ -37,7 +37,7 @@ quia gloria Domini super te <span class="fc">orta est</span>.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Debout, Jérusalem ! Resplendis,<br />
 car la gloire du Seigneur s'est levée sur toi.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 31 - keyTitle = 8619 - prev_keyPiece = 9660 - keyType = 3 - officeYear =  - keyText = 9885 -->
+<!-- - keyPiece = 9660 - keyText = 9885 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Vidimus stellam eius in Oriente,<br />
 et venimus cum muneribus<br />
@@ -48,7 +48,7 @@ et nous sommes venus, avec des présents,<br />
 pour adorer le Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 31 - keyTitle = 6983 - prev_keyPiece = 7818 - keyType = 5 - officeYear =  - keyText = 8044 -->
+<!-- - keyPiece = 7818 - keyText = 8044 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Reges Tharsis et insulae munera offerent<br />
 reges Arabum et Saba dona adducent.
@@ -61,7 +61,7 @@ omnes gentes servient ei.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et tous les rois de la terre l’adoreront :<br />
 toutes les nations le serviront.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!--  - keyCalendar = 31 - keyTitle = 8619 - prev_keyPiece = 9661 - keyType = 6 - officeYear =  - keyText = 9885 -->
+<!-- - keyPiece = 9661 - keyText = 9885 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Vidimus stellam eius in Oriente,<br />
 et venimus cum muneribus<br />

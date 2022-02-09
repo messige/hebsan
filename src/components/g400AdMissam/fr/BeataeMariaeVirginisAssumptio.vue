@@ -1,22 +1,5 @@
 <template>
-<!-- - keyCalendar = 210 - keyTitle = 3460 - prev_keyPiece = 3873 - keyType = 1 - officeYear =  - keyText = 4034 -->
- <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Introitus</rubrique><br /><br />Gaudeamus omnes in Domino,<br />
-diem festum celebrantes sub honore Mariae Virginis :<br />
-de cuius assumptione gaudent angeli,<br />
-et collaudant Filium Dei.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Réjouissons-nous tous dans le Seigneur,<br />
-en célébrant ce jour de fête en l'honneur de la Vierge Marie ;<br />
-son Assomption cause la joie des anges,<br />
-ensemble ils louent le Fils de Dieu.</ion-text></ion-col></ion-row></ion-grid>
-
- <!-- textType = P keyText = 3355 -->Ps. Eructavit cor meum verbum bonum :<br />
-dico ego opera mea regi.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Mon cœur a fait jaillir la bonne parole :<br />
-je dédie mes œuvres au Roi.</ion-text></ion-col></ion-row></ion-grid>
-</template>
-<!-- - keyCalendar = 210 - keyTitle = 7671 - prev_keyPiece = 8564 - keyType = 1 - officeYear =  - keyText = 8786 -->
+<!-- - keyCalendar = 210 - keyPiece = 8564 - keyText = 8786 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Signum magnum apparuit in caelo.<br />
 mulier amicta sole<br />
@@ -33,7 +16,25 @@ quia mirabilia fecit.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Chantez au Seigneur un cantique nouveau :<br />
 car il a fait des merveilles.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 210 - keyTitle = 692 - prev_keyPiece = 727 - keyType = 2 - officeYear =  - keyText = 769 -->
+<!-- - keyPiece = 3873 - keyText = 4034 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique><i>Ad libitum :</i><br />
+Introitus</rubrique><br /><br />Gaudeamus omnes in Domino,<br />
+diem festum celebrantes sub honore Mariae Virginis :<br />
+de cuius assumptione gaudent angeli,<br />
+et collaudant Filium Dei.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Réjouissons-nous tous dans le Seigneur,<br />
+en célébrant ce jour de fête en l'honneur de la Vierge Marie ;<br />
+son Assomption cause la joie des anges,<br />
+ensemble ils louent le Fils de Dieu.</ion-text></ion-col></ion-row></ion-grid>
+
+ <!-- textType = P keyText = 3355 -->Ps. Eructavit cor meum verbum bonum :<br />
+dico ego opera mea regi.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Mon cœur a fait jaillir la bonne parole :<br />
+je dédie mes œuvres au Roi.</ion-text></ion-col></ion-row></ion-grid>
+</template>
+<!-- - keyPiece = 727 - keyText = 769 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Audi filia et vide<br />
 et inclina aurem tuam.
@@ -48,16 +49,16 @@ intende, prospere procede, et regna.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Dans votre éclat et votre beauté,<br />
 avancez, marchez au succès et régnez.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 210 - keyTitle = 655 - prev_keyPiece = 690 - keyType = 3 - officeYear =  - keyText = 726 -->
+<!-- - keyPiece = 690 - keyText = 726 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br /><span class="fc">Assumpta est</span> Maria in caelum,<br />
 gaudet exercitus angelorum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Marie a été enlevée au ciel,
-L'armée des anges se réjouit.</ion-text></ion-col></ion-row></ion-grid>
+<ion-text color="tertiary">Marie a été enlevée au ciel,<br />
+l'armée des anges se réjouit.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 210 - keyTitle = 654 - prev_keyPiece = 688 - keyType = 5 - officeYear =  - keyText = 725 -->
+<!-- - keyPiece = 688 - keyText = 725 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br /><span class="fc">Assumpta est</span> Maria in caelum,<br />
 gaudent angeli, laudantes (collaudantes) benedicunt Dominum.
@@ -66,7 +67,7 @@ gaudent angeli, laudantes (collaudantes) benedicunt Dominum.
 les anges se réjouissent, ils louent et glorifient le Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 210 - keyTitle = 822 - prev_keyPiece = 871 - keyType = 6 - officeYear =  - keyText = 914 -->
+<!-- - keyPiece = 871 - keyText = 914 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Beatam me dicent omnes generationes :<br />
 quia fecit mihi magna qui potens est.

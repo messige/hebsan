@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 163 - keyTitle = 4224 - prev_keyPiece = 4724 - keyType = 1 - officeYear = A - keyText = 4855 -->
+<!-- - keyCalendar = 163 - keyPiece = 4724 - keyText = 4855 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Introitus</rubrique><br /><br />In nomine Domini omne genu flectatur,<br />
 caelestium, terrestrium et infernorum :<br />
@@ -18,7 +18,7 @@ et clamor meus ad te (per)veniat.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Seigneur, exaucez ma prière,<br />
 et que mon cri (par)vienne jusqu’à vous.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 163 - keyTitle = 5951 - prev_keyPiece = 6657 - keyType = 1 - officeYear = C - keyText = 6784 -->
+<!-- - keyPiece = 6657 - keyText = 6784 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Omnia quae fecisti nobis, Domine,<br />
 in vero iudicio fecisti,<br />
@@ -42,7 +42,7 @@ in civitate Dei (nostri), in monte sancto eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Grand est le Seigneur, et digne de louange infiniment,<br />
 dans la cité de (notre) Dieu, sur sa montagne sainte.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 163 - keyTitle = 1281 - prev_keyPiece = 1402 - keyType = 2 - officeYear = A - keyText = 1435 -->
+<!-- - keyPiece = 1402 - keyText = 1435 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Graduale</rubrique><br /><br />Christus <span class="fc">factus est</span> pro nobis<br />
 oboediens usque ad mortem,<br />
@@ -59,7 +59,7 @@ quod est super omne nomen.
 et lui a donné le nom<br />
 qui est au-dessus de tout nom.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 163 - keyTitle = 5898 - prev_keyPiece = 6597 - keyType = 2 - officeYear = C - keyText = 6722 -->
+<!-- - keyPiece = 6597 - keyText = 6722 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Oculi omnium in te sperant, Domine :<br />
 et tu das illis escam in tempore opportuno.
@@ -72,7 +72,7 @@ et imples omne animal benedictione.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vous ouvrez vous-même la main :<br />
 et vous comblez tout vivant de bénédiction.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 163 - keyTitle = 6103 - prev_keyPiece = 6835 - keyType = 3 - officeYear =  - keyText = 6952 -->
+<!-- - keyPiece = 6835 - keyText = 6952 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Paratum cor meum, Deus, paratum cor meum :<br />
 cantabo, et psallam tibi, gloria mea.
@@ -81,7 +81,7 @@ cantabo, et psallam tibi, gloria mea.
 je chanterai et psalmodierai pour vous, ma gloire.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 163 - keyTitle = 7896 - prev_keyPiece = 8829 - keyType = 5 - officeYear =  - keyText = 9041 -->
+<!-- - keyPiece = 8829 - keyText = 9041 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Super flumina Babylonis,<br />
 illic sedimus et flevimus :<br />
@@ -92,7 +92,7 @@ là-bas, nous nous sommes assis, et nous avons pleuré,<br />
 tandis que nous nous souvenions de toi, Sion.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 163 - keyTitle = 5179 - prev_keyPiece = 5806 - keyType = 6 - officeYear =  - keyText = 5916 -->
+<!-- - keyPiece = 5806 - keyText = 5916 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Memento verbi tui servo tuo, Domine,<br />
 in quo mihi spem dedisti :<br />

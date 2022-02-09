@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 81 - keyTitle = 7077 - prev_keyPiece = 7924 - keyType = 1 - officeYear =  - keyText = 8147 -->
+<!-- - keyCalendar = 81 - keyPiece = 7924 - keyText = 8147 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Resurrexi, et adhuc tecum sum, alleluia :<br />
 posuisti super me manum tuam, alleluia :<br />
@@ -18,7 +18,7 @@ und du kennst mich.<br />
 Du kennst mein Sitzen<br />
 und mein Aufstehen.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 81 - keyTitle = 3653 - prev_keyPiece = 4092 - keyType = 2 - officeYear =  - keyText = 4221 -->
+<!-- - keyPiece = 4092 - keyText = 4221 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Haec dies quam fecit Dominus<br />
 exsultemus et laetemur in ea.
@@ -31,7 +31,7 @@ quoniam in saeculum misericordia eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Danket dem Herrn, denn er ist gütig,<br />
 denn seine Huld währt ewig.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 81 - keyTitle = 6113 - prev_keyPiece = 6848 - keyType = 3 - officeYear =  - keyText = 6964 -->
+<!-- - keyPiece = 6848 - keyText = 6964 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Pascha nostrum <span class="fc">immolatus est</span> Christus, alleluia :<br />
 itaque epulemur in azimis<br />
@@ -42,7 +42,7 @@ Lasst uns also Festmahl halten mit den ungesäuerten Broten<br />
 der Reinheit und Wahrheit.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 81 - keyTitle = 8538 - prev_keyPiece = 9570 - keyType = 14 - officeYear =  - keyText = 9793 -->
+<!-- - keyPiece = 9570 - keyText = 9793 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Sequentia</rubrique><br /><br />Victimae paschali laudes<br />
 immolent Christiani.
@@ -85,7 +85,7 @@ er geht euch voran nach Galiläa.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 9424 --> Tu nobis victor rex miserere.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Du Sieger, König, erbarme dich.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 81 - keyTitle = 8065 - prev_keyPiece = 9028 - keyType = 5 - officeYear =  - keyText = 9232 -->
+<!-- - keyPiece = 9028 - keyText = 9232 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Terra tremuit, et quievit,<br />
 dum resurgeret in iudicio Deus.
@@ -94,7 +94,7 @@ dum resurgeret in iudicio Deus.
 als Gott zum Gericht aufstand.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 81 - keyTitle = 6113 - prev_keyPiece = 6849 - keyType = 6 - officeYear =  - keyText = 6964 -->
+<!-- - keyPiece = 6849 - keyText = 6964 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Pascha nostrum <span class="fc">immolatus est</span> Christus, alleluia :<br />
 itaque epulemur in azimis<br />

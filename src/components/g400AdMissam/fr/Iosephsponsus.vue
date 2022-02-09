@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 201 - keyTitle = 4735 - prev_keyPiece = 5302 - keyType = 1 - officeYear =  - keyText = 5438 -->
+<!-- - keyCalendar = 201 - keyPiece = 5302 - keyText = 5438 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Iustus ut palma florebit,<br />
 sicut cedrus Libani multiplicabitur.
@@ -14,7 +14,7 @@ dans les parvis de la maison de notre Dieu.</ion-text></ion-col></ion-row></ion-
  <!-- textType = P keyText = 3509 -->Ps. Et psallere nomini tuo, altissime.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et de psalmodier pour votre nom, Très-Haut.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 201 - keyTitle = 2343 - prev_keyPiece = 2611 - keyType = 2 - officeYear =  - keyText = 2669 -->
+<!-- - keyPiece = 2611 - keyText = 2669 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Domine, praevenisti eum <br />
 in benedictionibus dulcedinis :<br />
@@ -29,7 +29,7 @@ et tribuisti ei longitudinem dierum <br>in saeculum saeculi.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Il a demandé la vie :<br />
 et vous lui avez accordé une longue suite de jours pour les siècles des siècles.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 201 - keyTitle = 990 - prev_keyPiece = 1065 - keyType = 4 - officeYear =  - keyText = 1095 -->
+<!-- - keyPiece = 1065 - keyText = 1095 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Tractus - canticus</rubrique><br /><br />Beatus vir qui timet Dominum,<br />
 in mandatis eius volet nimis.
@@ -42,7 +42,7 @@ et iustitia eius manet in saeculum saeculi.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">La gloire et les richesses sont dans sa maison :<br />
 et sa justice demeure pour les siècles des siècles.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 201 - keyTitle = 8519 - prev_keyPiece = 9549 - keyType = 5 - officeYear =  - keyText = 9768 -->
+<!-- - keyPiece = 9549 - keyText = 9768 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Veritas mea et misericordia mea cum ipso :<br />
 et in nomine meo exaltabitur cornu eius.
@@ -51,7 +51,7 @@ et in nomine meo exaltabitur cornu eius.
 et en mon nom s’élèvera son front.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 201 - keyTitle = 4519 - prev_keyPiece = 5047 - keyType = 6 - officeYear =  - keyText = 5193 -->
+<!-- - keyPiece = 5047 - keyText = 5193 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Ioseph fili David noli timere<br />
 accipere Mariam coniugem tuam :<br />
@@ -62,7 +62,7 @@ de prendre chez toi Marie pour épouse :<br />
 en effet ce qui est né en elle vient de l’Esprit-Saint.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 201 - keyTitle = 3331 - prev_keyPiece = 3727 - keyType = 6 - officeYear =  - keyText = 3889 -->
+<!-- - keyPiece = 3727 - keyText = 3889 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Fili, quid fecisti nobis sic?<br />
 Ego et pater tuus dolentes quaerebamus te.<br />

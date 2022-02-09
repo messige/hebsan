@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 166 - keyTitle = 2768 - prev_keyPiece = 3095 - keyType = 1 - officeYear =  - keyText = 3136 -->
+<!-- - keyCalendar = 166 - keyPiece = 3095 - keyText = 3136 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Ego clamavi, quoniam exaudisti me, Deus :<br />
 inclina aurem tuam, et exaudi verba mea :<br />
@@ -16,7 +16,7 @@ intende deprecationem meam.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Höre, Herr, die gerechte Sache,<br />
 achte auf mein Flehen!</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 166 - keyTitle = 7220 - prev_keyPiece = 8083 - keyType = 2 - officeYear =  - keyText = 8304 -->
+<!-- - keyPiece = 8083 - keyText = 8304 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Salvum fac populum tuum, Domine :<br />
 et benedic hereditati tuae.
@@ -31,7 +31,7 @@ et ero similis descendentibus in lacum.
 mein Gott, wende dich nicht schweigend ab von mir,<br />
 sonst werde ich denen gleich, die niedersteigen zur Grube.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 166 - keyTitle = 4835 - prev_keyPiece = 5424 - keyType = 3 - officeYear =  - keyText = 5522 -->
+<!-- - keyPiece = 5424 - keyText = 5522 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Lauda anima mea Dominum:<br />
 laudabo Dominum in vita mea :<br />
@@ -42,7 +42,7 @@ Ich will den Herrn loben, solange ich lebe,<br />
 und meinem Gott lobsingen, solange ich bin.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 166 - keyTitle = 5163 - prev_keyPiece = 5787 - keyType = 5 - officeYear =  - keyText = 5896 -->
+<!-- - keyPiece = 5787 - keyText = 5896 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Meditabor in mandatis tuis<br />
 quae dilexi valde :<br />
@@ -55,7 +55,7 @@ Ich erhebe meine Hände zu deinen Geboten,<br />
 die ich liebe.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 166 - keyTitle = 2292 - prev_keyPiece = 2549 - keyType = 6 - officeYear =  - keyText = 2608 -->
+<!-- - keyPiece = 2549 - keyText = 2608 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Domine Dominus noster,<br />
 quam admirabile est nomen tuum in universa terra.

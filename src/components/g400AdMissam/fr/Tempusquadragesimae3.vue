@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 52 - keyTitle = 5897 - prev_keyPiece = 6596 - keyType = 1 - officeYear =  - keyText = 6720 -->
+<!-- - keyCalendar = 52 - keyPiece = 6596 - keyText = 6720 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Oculi mei semper ad Dominum,<br />
 quia ipse evellet de laqueo pedes meos :<br />
@@ -18,9 +18,10 @@ non erubescam.
 Mon Dieu, en vous je me confie ;<br />
 que je n’aie pas à rougir !</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 52 - keyTitle = 2562 - prev_keyPiece = 2856 - keyType = 1 - officeYear =  - keyText = 2905 -->
+<!-- - keyPiece = 2856 - keyText = 2905 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Introitus &nbsp; <i>Vel :</i></rubrique><br /><br />Dum sanctificatus fuero in vobis,<br />
+<rubrique><i>Vel :</i><br />
+Introitus</rubrique><br /><br />Dum sanctificatus fuero in vobis,<br />
 congregabo vos de universis terris :<br />
 et effundam super vos aquam mundam,<br />
 et mundabimini ab omnibus inquinamentis vestris :<br />
@@ -37,7 +38,7 @@ et je vous donnerai un esprit nouveau.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = P keyText = 8624 -->Ps. Semper laus eius in ore meo.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Toujours sa louange sera dans ma bouche.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 52 - keyTitle = 3219 - prev_keyPiece = 3606 - keyType = 2 - officeYear =  - keyText = 3756 -->
+<!-- - keyPiece = 3606 - keyText = 3756 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Exsurge Domine,<br />
 non praevaleat homo :<br />
@@ -52,7 +53,7 @@ que les nations soient jugées en votre présence.</ion-text></ion-col></ion-row
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Quand mon ennemi sera renvoyé sur ses pas :<br />
 ils chancelleront et périront devant votre face.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 52 - keyTitle = 166 - prev_keyPiece = 170 - keyType = 4 - officeYear =  - keyText = 190 -->
+<!-- - keyPiece = 170 - keyText = 190 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Tractus - canticus</rubrique><br /><br />Ad te levavi oculos meos,<br />
 qui habitas in caelis.
@@ -73,7 +74,7 @@ jusqu’à ce qu’il ait pitié de nous.</ion-text></ion-col></ion-row></ion-gr
  <!-- textType = V keyText = 6010 -->V./  Miserere nobis, Domine, miserere nobis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Ayez pitié de nous, Seigneur, ayez pitié de nous.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 52 - keyTitle = 4713 - prev_keyPiece = 5267 - keyType = 5 - officeYear =  - keyText = 5415 -->
+<!-- - keyPiece = 5267 - keyText = 5415 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Iustitiae Domini rectae, laetificantes corda,<br />
 et dulciora super mel et favum :<br />
@@ -84,7 +85,7 @@ et ils sont plus doux que le miel et qu’un rayon de miel :<br />
 aussi votre serviteur les gardera-t-il.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 52 - keyTitle = 6122 - prev_keyPiece = 6860 - keyType = 6 - officeYear =  - keyText = 6971 -->
+<!-- - keyPiece = 6860 - keyText = 6971 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Passer invenit sibi domum, et turtur nidum,<br />
 ubi reponat pullos suos :<br />
@@ -100,9 +101,10 @@ Heureux ceux qui habitent en votre maison,<br />
 dans les siècles des siècles ils vous loueront.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 52 - keyTitle = 6669 - prev_keyPiece = 7475 - keyType = 6 - officeYear =  - keyText = 7612 -->
+<!-- - keyPiece = 7475 - keyText = 7612 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Communio &nbsp; <i>quando legitur Evangelium de Samaritana</i></rubrique><br /><br />Qui biberit aquam,<br />
+<rubrique><i>quando legitur Evangelium de Samaritana</i><br />
+Communio</rubrique><br /><br />Qui biberit aquam,<br />
 quam ego do, dicit Dominus Samaritanae,<br />
 fiet in eo fons aquae<br />
 salientis in vitam aeternam.

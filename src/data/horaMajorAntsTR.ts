@@ -136,9 +136,9 @@
                     import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps050.vue' ) ) } ,
           { antID : 2 , 
             ant   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/AntFramea2.vue' ) ) ,
+                      import ( '../components/g50Antiphona/AntFrameaSuscitare.vue' ) ) ,
             antTR   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntFramea2.vue' ) ) ,
+                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntFrameaSuscitare.vue' ) ) ,
             psalmTR : defineAsyncComponent ( () =>                            
                     import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps005.vue' ) ) } ,
           { antID : 3 , 
@@ -157,9 +157,9 @@
                     import ( '../components/g65Psalmodia/' + lowerLang  + '/CantIsaie12.vue' ) ) } ,
           { antID : 5 , 
             ant   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/AntLabiaInsurgentibus.vue' ) ) ,
+                      import ( '../components/g50Antiphona/AntLabiaInsurgentium.vue' ) ) ,
             antTR   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntLabiaInsurgentibus.vue' ) ) ,
+                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntLabiaInsurgentium.vue' ) ) ,
             psalmTR : defineAsyncComponent ( () =>                            
                     import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps148149150.vue' ) ) } ] ,
           [                                                                 // Ad Vesperas
@@ -207,9 +207,9 @@
       { arrayPsalmody : [  [                                                           // Ad Laudes
           { antID : 1 , 
             ant   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/AntVideDomEtConsidera.vue' ) ) ,
+                      import ( '../components/g50Antiphona/AntVideDom.vue' ) ) ,
             antTR   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntVideDomEtConsidera.vue' ) ) ,
+                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntVideDom.vue' ) ) ,
             psalmTR : defineAsyncComponent ( () =>                            
                     import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps050.vue' ) ) } ,
           { antID : 2 , 
@@ -277,9 +277,9 @@
             cant  : defineAsyncComponent ( () =>                            
                     import ( '../components/g65Psalmodia/' + lowerLang  + '/CantBenedictus.vue' ) ) } ,      /* same as Feast 1 */
           { ant   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/AntPotestatemHabeo2.vue' ) ) ,
+                      import ( '../components/g50Antiphona/AntPotestatemHabeo.vue' ) ) ,
             antTR   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntPotestatemHabeo2.vue' ) ) ,
+                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntPotestatemHabeo.vue' ) ) ,
             cant  : defineAsyncComponent ( () =>                            
                     import ( '../components/g65Psalmodia/' + lowerLang  + '/CantMagnificat.vue' ) ) } ] },  
       { arrayPsalmody : [  [                                                            // Ad Laudes
@@ -299,9 +299,9 @@
                     import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps063.vue' ) ) } ,
           { antID : 3 , 
             ant   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/AntIpsiVeroInVanum2.vue' ) ) ,
+                      import ( '../components/g50Antiphona/AntIpsiVero.vue' ) ) ,
             antTR   : defineAsyncComponent ( () =>                            
-                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntIpsiVeroInVanum2.vue' ) ) ,
+                      import ( '../components/g50Antiphona/' + lowerLang  + '/AntIpsiVero.vue' ) ) ,
             psalmTR : defineAsyncComponent ( () =>                            
                     import ( '../components/g65Psalmodia/' + lowerLang  + '/Ps064.vue' ) ) } ,
           { antID : 4 , 

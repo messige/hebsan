@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 159 - keyTitle = 5256 - prev_keyPiece = 5894 - keyType = 1 - officeYear =  - keyText = 6004 -->
+<!-- - keyCalendar = 159 - keyPiece = 5894 - keyText = 6004 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Miserere mihi Domine,<br />
 quoniam ad te clamavi tota die :<br />
@@ -20,7 +20,7 @@ quoniam inops, et pauper sum ego.
 und erhöre mich,<br />
 denn ich bin elend und arm.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 159 - keyTitle = 8121 - prev_keyPiece = 9086 - keyType = 2 - officeYear =  - keyText = 9295 -->
+<!-- - keyPiece = 9086 - keyText = 9295 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Timebunt gentes nomen tuum, Domine :<br />
 et omnes reges terrae gloriam tuam.
@@ -33,7 +33,7 @@ et videbitur in maiestate sua.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Denn der Herr hat Zion aufgebaut<br />
 und er wird erscheinen in seiner Herrlichkeit.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 159 - keyTitle = 1176 - prev_keyPiece = 1290 - keyType = 3 - officeYear =  - keyText = 1309 -->
+<!-- - keyPiece = 1290 - keyText = 1309 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Cantate Domino canticum novum :<br />
 quia mirabilia fecit Dominus.
@@ -42,7 +42,7 @@ quia mirabilia fecit Dominus.
 denn Wunderbares hat der Herr getan.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 159 - keyTitle = 2312 - prev_keyPiece = 2575 - keyType = 5 - officeYear =  - keyText = 2632 -->
+<!-- - keyPiece = 2575 - keyText = 2632 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Domine, in auxilium meum respice :<br />
 confundantur et revereantur,<br />
@@ -53,7 +53,7 @@ Zuschanden sollen werden und beschämt werden,<br />
 die mir nach der Seele trachten, um sie zu entreißen.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 159 - keyTitle = 6774 - prev_keyPiece = 7594 - keyType = 6 - officeYear = A - keyText = 7750 -->
+<!-- - keyPiece = 7594 - keyText = 7750 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Qui vult venire post me,<br />
 abneget semetipsum<br />
@@ -66,7 +66,7 @@ und nehme sein Kreuz auf sich<br />
 und folge mir nach!</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 159 - keyTitle = 2320 - prev_keyPiece = 2586 - keyType = 6 - officeYear = C - keyText = 2641 -->
+<!-- - keyPiece = 2586 - keyText = 2641 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Domine, memorabor iustitiae tuae solius :<br />
 Deus, docuisti me a iuventute mea,<br />

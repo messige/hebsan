@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 139 - keyTitle = 2438 - prev_keyPiece = 2725 - keyType = 1 - officeYear = B - keyText = 2773 -->
+<!-- - keyCalendar = 139 - keyPiece = 2725 - keyText = 2773 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B'">
 <rubrique>Introitus</rubrique><br /><br />Dominus secus mare Galilaeae<br />
 vidit duos fratres, Petrum et Andream,<br />
@@ -18,7 +18,7 @@ et opera manuum eius annuntiat firmamentum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Les cieux racontent la gloire de Dieu,<br />
 et le firmament  annonce  l’œuvre  de ses mains.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 139 - keyTitle = 237 - prev_keyPiece = 252 - keyType = 1 - officeYear = C - keyText = 277 -->
+<!-- - keyPiece = 252 - keyText = 277 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Adorate Deum omnes angeli eius :<br />
 audivit, et <span class="fc">laetata est</span> Sion :<br />
@@ -33,7 +33,7 @@ laetentur insulae multae.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Le Seigneur a établi son règne, que la terre tressaille d’allégresse :<br />
 que toutes les îles se réjouissent.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 139 - keyTitle = 8121 - prev_keyPiece = 9086 - keyType = 2 - officeYear =  - keyText = 9295 -->
+<!-- - keyPiece = 9086 - keyText = 9295 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Timebunt gentes nomen tuum, Domine :<br />
 et omnes reges terrae gloriam tuam.
@@ -46,7 +46,7 @@ et videbitur in maiestate sua.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Car le Seigneur a édifié Sion,<br />
 et il y paraîtra dans sa majesté.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 139 - keyTitle = 2437 - prev_keyPiece = 2724 - keyType = 3 - officeYear =  - keyText = 2772 -->
+<!-- - keyPiece = 2724 - keyText = 2772 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Dominus regnavit, exsultet terra :<br />
 laetentur insulae multae.
@@ -55,7 +55,7 @@ laetentur insulae multae.
 que toutes les îles se réjouissent.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 139 - keyTitle = 2019 - prev_keyPiece = 2233 - keyType = 5 - officeYear =  - keyText = 2274 -->
+<!-- - keyPiece = 2233 - keyText = 2274 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Dextera Domini fecit virtutem,<br />
 dextera Domini exaltavit me.
@@ -68,7 +68,7 @@ et narrabo opera Domini.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Je ne mourrai pas, mais je vivrai<br />
 et je raconterai les œuvres du Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 139 - keyTitle = 8493 - prev_keyPiece = 9516 - keyType = 6 - officeYear = B - keyText = 9739 -->
+<!-- - keyPiece = 9516 - keyText = 9739 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B'">
 <rubrique>Communio</rubrique><br /><br />Venite post me :<br />
 faciam vos piscatores hominum :<br />
@@ -81,7 +81,7 @@ et eux, laissant là leurs filets et leur barque,<br />
 suivirent le Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 139 - keyTitle = 1403 - prev_keyPiece = 1540 - keyType = 6 - officeYear = C - keyText = 1566 -->
+<!-- - keyPiece = 1540 - keyText = 1566 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Comedite pinguia,<br />
 et bibite mulsum,<br />

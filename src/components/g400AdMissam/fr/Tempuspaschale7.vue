@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 126 - keyTitle = 3113 - prev_keyPiece = 3476 - keyType = 1 - officeYear =  - keyText = 3636 -->
+<!-- - keyCalendar = 126 - keyPiece = 3476 - keyText = 3636 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Exaudi, Domine, vocem meam,<br />
 qua clamavi ad te, alleluia :<br />
@@ -20,7 +20,7 @@ quem timebo ?
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Le Seigneur est la lumière qui m’inonde, et mon salut,<br />
 qui craindrai-je ?</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 126 - keyTitle = 6996 - prev_keyPiece = 7833 - keyType = 3 - officeYear =  - keyText = 8058 -->
+<!-- - keyPiece = 7833 - keyText = 8058 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Regnavit Dominus super omnes gentes :<br />
 Deus sedet super sedem sanctam suam.
@@ -29,7 +29,7 @@ Deus sedet super sedem sanctam suam.
 Dieu siège sur son trône sacré.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 126 - keyTitle = 5583 - prev_keyPiece = 6249 - keyType = 3 - officeYear = C - keyText = 6385 -->
+<!-- - keyPiece = 6249 - keyText = 6385 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Non vos relinquam orphanos,<br />
 vado et veniam (venio) ad vos,<br />
@@ -40,7 +40,7 @@ je m'en vais, et je viendrai (viens) vers vous,<br />
 et votre coeur sera dans la joie.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 126 - keyTitle = 3156 - prev_keyPiece = 3526 - keyType = 3 - officeYear = A - keyText = 3684 -->
+<!-- - keyPiece = 3526 - keyText = 3684 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Exivi a Patre,<br />
 et veni in mundum<br />
@@ -52,7 +52,7 @@ et je suis venu dans le monde : en retour, je quitte le monde<br />
 et je vais au Père.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 126 - keyTitle = 634 - prev_keyPiece = 659 - keyType = 5 - officeYear =  - keyText = 703 -->
+<!-- - keyPiece = 659 - keyText = 703 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Ascendit Deus in iubilatione,<br />
 (et) Dominus in voce tubae.
@@ -61,7 +61,7 @@ et je vais au Père.</ion-text></ion-col></ion-row></ion-grid>
 (et) le Seigneur, au son de la trompette.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 126 - keyTitle = 8717 - prev_keyPiece = 9767 - keyType = 5 - officeYear =  - keyText = 9995 -->
+<!-- - keyPiece = 9767 - keyText = 9995 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Viri Galilaei,<br />
 quid admiramini aspicientes in caelum?
@@ -76,7 +76,7 @@ viendra comme cela</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 7606 --> Quemadmodum vidistis eum ascendentem in caelum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Comme vous avez vu Jésus monter au ciel.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!--  - keyCalendar = 126 - keyTitle = 6140 - prev_keyPiece = 6879 - keyType = 6 - officeYear =  - keyText = 6989 -->
+<!-- - keyPiece = 6879 - keyText = 6989 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Pater cum essem cum eis,<br />
 ego servabam eos,<br />

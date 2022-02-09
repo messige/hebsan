@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 151 - keyTitle = 7966 - prev_keyPiece = 8911 - keyType = 1 - officeYear =  - keyText = 9121 -->
+<!-- - keyCalendar = 151 - keyPiece = 8911 - keyText = 9121 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Suscepimus, Deus,<br />
 misericordiam tuam in medio templi tui.
@@ -18,7 +18,7 @@ in civitate Dei (nostri), in monte sancto eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Grand est le Seigneur, et digne de louange infiniment,<br />
 dans la cité de (notre) Dieu, sur sa montagne sainte.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 151 - keyTitle = 2976 - prev_keyPiece = 3327 - keyType = 2 - officeYear =  - keyText = 3376 -->
+<!-- - keyPiece = 3327 - keyText = 3376 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Esto mihi in Deum protectorem,<br />
 et in locum refugii,<br />
@@ -33,7 +33,7 @@ Domine, non confundar in aeternum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Dieu, en vous j’ai mis mon espérance :<br />
 Seigneur, je ne serai pas confondu à jamais.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 151 - keyTitle = 8466 - prev_keyPiece = 9479 - keyType = 3 - officeYear = A - keyText = 9710 -->
+<!-- - keyPiece = 9479 - keyText = 9710 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Venite ad me,<br />
 omnes qui laboratis,<br />
@@ -45,7 +45,7 @@ et ployez sous le fardeau,<br />
 et moi je vous soulagerai.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 151 - keyTitle = 5059 - prev_keyPiece = 5670 - keyType = 3 - officeYear = C - keyText = 5777 -->
+<!-- - keyPiece = 5670 - keyText = 5777 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Magnus Dominus et laudabilis valde (nimis),<br />
 in civitate Dei (nostri), in monte sancto eius.
@@ -54,7 +54,7 @@ in civitate Dei (nostri), in monte sancto eius.
 dans la cité de (notre) Dieu, sur sa montagne sainte.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 151 - keyTitle = 6308 - prev_keyPiece = 7060 - keyType = 5 - officeYear =  - keyText = 7181 -->
+<!-- - keyPiece = 7060 - keyText = 7181 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Populum humilem salvum facies, Domine,<br />
 et oculos superborum humiliabis :<br />
@@ -65,7 +65,7 @@ et les regards des orgueilleux, vous les abaisserez :<br />
 car qui est Dieu, à part vous, Seigneur ?</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 151 - keyTitle = 3633 - prev_keyPiece = 4070 - keyType = 6 - officeYear =  - keyText = 4203 -->
+<!-- - keyPiece = 4070 - keyText = 4203 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Gustate et videte, quoniam suavis est Dominus.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">

@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 94 - keyTitle = 1175 - prev_keyPiece = 1289 - keyType = 1 - officeYear =  - keyText = 1304 -->
+<!-- - keyCalendar = 94 - keyPiece = 1289 - keyText = 1304 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Cantate Domino canticum novum, alleluia :<br />
 quia mirabilia fecit Dominus, alleluia :<br />
@@ -14,7 +14,7 @@ et brachium sanctum eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Seine Rechte hat ihm den Sieg verschafft<br />
 und sein heiliger Arm.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 94 - keyTitle = 2018 - prev_keyPiece = 2231 - keyType = 3 - officeYear =  - keyText = 2273 -->
+<!-- - keyPiece = 2231 - keyText = 2273 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Dextera Dei fecit virtutem :<br />
 dextera Domini exaltavit me.
@@ -23,7 +23,7 @@ dextera Domini exaltavit me.
 Die Rechte des Herrn hat mich erhöht.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 94 - keyTitle = 1293 - prev_keyPiece = 1415 - keyType = 3 - officeYear =  - keyText = 1447 -->
+<!-- - keyPiece = 1415 - keyText = 1447 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Christus resurgens ex mortuis, iam non moritur,<br />
 mors illi ultra non dominabitur.
@@ -32,7 +32,7 @@ mors illi ultra non dominabitur.
 der Tod hat keine Macht mehr über ihn.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 94 - keyTitle = 4645 - prev_keyPiece = 5190 - keyType = 5 - officeYear =  - keyText = 5337 -->
+<!-- - keyPiece = 5190 - keyText = 5337 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Iubilate Deo universa terra :<br />
 psalmum dicite nomini eius :<br />
@@ -47,7 +47,7 @@ Kommt, und hört und ich will euch erzählen<br />
 wie viel der Herr meinem Leben Gutes getan hat!</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 94 - keyTitle = 8008 - prev_keyPiece = 8962 - keyType = 6 - officeYear = A - keyText = 9171 -->
+<!-- - keyPiece = 8962 - keyText = 9171 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Tanto tempore vobiscum sum,<br />
 et non cognovistis me?<br />
@@ -64,7 +64,7 @@ Glaubst du nicht, dass ich im Vater bin,<br />
 und der Vater in mir ist?</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 94 - keyTitle = 2818 - prev_keyPiece = 3152 - keyType = 6 - officeYear = C - keyText = 3195 -->
+<!-- - keyPiece = 3152 - keyText = 3195 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Ego sum vitis vera et vos palmites,<br />
 qui manet in me et ego in eo,<br />

@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 161 - keyTitle = 1824 - prev_keyPiece = 2015 - keyType = 1 - officeYear =  - keyText = 2047 -->
+<!-- - keyCalendar = 161 - keyPiece = 2015 - keyText = 2047 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Da pacem, Domine, sustinentibus te,<br />
 ut prophetae tui fideles inveniantur:<br />
@@ -16,7 +16,7 @@ in domum Domini ibimus.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Ich freute mich, als man mir sagte:<br />
 „Zum Haus des Herrn wollen wir pilgern".</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 161 - keyTitle = 4803 - prev_keyPiece = 5383 - keyType = 2 - officeYear =  - keyText = 5485 -->
+<!-- - keyPiece = 5383 - keyText = 5485 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br /><span class="fc">Laetatus sum</span> in his quae dicta sunt mihi :<br />
 in domum Domini ibimus.
@@ -29,7 +29,7 @@ et abundantia in turribus tuis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Friede wohne in deinen Mauern,<br />
 in deinen Häusern Geborgenheit.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 161 - keyTitle = 8121 - prev_keyPiece = 9087 - keyType = 3 - officeYear =  - keyText = 9295 -->
+<!-- - keyPiece = 9087 - keyText = 9295 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Timebunt gentes nomen tuum, Domine :<br />
 et omnes reges terrae gloriam tuam.
@@ -38,7 +38,7 @@ et omnes reges terrae gloriam tuam.
 und alle Könige der Erde deine Herrlichkeit.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 161 - keyTitle = 7315 - prev_keyPiece = 8191 - keyType = 5 - officeYear = B - keyText = 8405 -->
+<!-- - keyPiece = 8191 - keyText = 8405 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B'">
 <rubrique>Offertorium</rubrique><br /><br />Sanctificavit Moyses altare Domino,<br />
 offerens super illud holocausta,<br />
@@ -55,7 +55,7 @@ zum Wohlgeruch für Gott, den Herrn,<br />
  vor dem Angesicht der Kinder Israels.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 161 - keyTitle = 6430 - prev_keyPiece = 7196 - keyType = 5 - officeYear = C - keyText = 7318 -->
+<!-- - keyPiece = 7196 - keyText = 7318 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br /><span class="fc">Precatus est</span> Moyses in conspectu Domini Dei sui,<br />
 et dixit :<br />
@@ -76,7 +76,7 @@ quam dixit facere populo suo.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Und besänftigt wurde der Herr, weg [abzusehen] von dem Unheil,<br />
 das er seinem Volk anzutun gedroht hatte.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 161 - keyTitle = 8134 - prev_keyPiece = 9104 - keyType = 6 - officeYear = A - keyText = 9311 -->
+<!-- - keyPiece = 9104 - keyText = 9311 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Tollite hostias et introite in atria eius :<br />
 adorate Dominum in aula sancta eius.
@@ -85,7 +85,7 @@ adorate Dominum in aula sancta eius.
 Betet den Herrn an in seiner heiligen Halle.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 161 - keyTitle = 6774 - prev_keyPiece = 7594 - keyType = 6 - officeYear = B - keyText = 7750 -->
+<!-- - keyPiece = 7594 - keyText = 7750 -->
  <template v-if=" annoABC == 'B'">
 <rubrique>Communio</rubrique><br /><br />Qui vult venire post me,<br />
 abneget semetipsum<br />
@@ -98,7 +98,7 @@ und nehme sein Kreuz auf sich<br />
 und folge mir nach!</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 161 - keyTitle = 2061 - prev_keyPiece = 2280 - keyType = 6 - officeYear = C - keyText = 2330 -->
+<!-- - keyPiece = 2280 - keyText = 2330 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Dico vobis: Gaudium est angelis Dei<br />
 super uno peccatore paenitentiam agente.

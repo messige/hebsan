@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 172 - keyTitle = 1055 - prev_keyPiece = 1144 - keyType = 1 - officeYear = B - keyText = 1168 -->
+<!-- - keyCalendar = 172 - keyPiece = 1144 - keyText = 1168 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B'">
 <rubrique>Introitus</rubrique><br /><br />Benedicta sit sancta Trinitas,<br />
 atque indivisa Unitas,<br />
@@ -16,7 +16,7 @@ quam admirabile est nomen tuum in universa terra.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Seigneur, notre Seigneur,<br />
 qu’il est admirable votre nom, sur la terre entière !</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 172 - keyTitle = 1193 - prev_keyPiece = 1310 - keyType = 1 - officeYear = C - keyText = 1331 -->
+<!-- - keyPiece = 1310 - keyText = 1331 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Caritas Dei <span class="fc">diffusa est</span> in cordibus nostris, alleluia :<br />
 per inhabitantem Spiritum eius in nobis,
@@ -29,7 +29,7 @@ et omnia quae intra me sunt, nomini santo eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Bénis, mon âme, le Seigneur :<br />
 et tout ce qui est en moi, son saint nom.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 172 - keyTitle = 1084 - prev_keyPiece = 1176 - keyType = 2 - officeYear =  - keyText = 1204 -->
+<!-- - keyPiece = 1176 - keyText = 1204 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br /><span class="fc">Benedictus es</span>, Domine,<br />
 qui intueris abyssos,<br />
@@ -46,9 +46,10 @@ et laudabilis in saecula.
 dans le firmament du ciel :<br />
 et digne de louange pour les siècles.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 172 - keyTitle = 1087 - prev_keyPiece = 1181 - keyType = 13 - officeYear =  - keyText = 1199 -->
+<!-- - keyPiece = 1181 - keyText = 1199 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Hymnus</rubrique><br /><br /><span class="fc">Benedictus es</span>, Domine,<br />
+<rubrique><i>Pro GR. cantari potest hymnus sequens :</i><br />
+Hymnus</rubrique><br /><br /><span class="fc">Benedictus es</span>, Domine,<br />
 Deus Patrum nostrorum,<br />
 et laudabilis et gloriosus in saecula.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
@@ -56,8 +57,42 @@ et laudabilis et gloriosus in saecula.
 Dieu de nos pères :<br />
 et digne de louange, et glorieux pour les siècles.</ion-text></ion-col></ion-row></ion-grid>
 
+ <!-- textType = C keyText = 10856 --> Et benedictum nomen gloriae tuae, quod est sanctum,<br />
+et laudabile et gloriosum in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et le nom de votre gloire, qui est saint, est béni.<br />Et digne de louange et de gloire dans les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 10858 --> <span class="fc">Benedictus es</span> in templo sancto gloriae tuae,<br />
+et laudabilis et gloriosus in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vous êtes béni dans le temple saint de votre gloire<br />et digne de louange et de gloire pour les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 10857 --> <span class="fc">Benedictus es</span> super thronum sanctum regni tui,<br />
+et laudabilis et gloriosus in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vous êtes béni sur le trône saint de votre royaume<br />et digne de louange et de gloire pour les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 10859 --> <span class="fc">Benedictus es</span>  super sceptrum divinitatis tuae,<br />
+et laudabilis et gloriosus in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vous êtes béni sur le sceptre de votre divinité<br />et digne de louange et de gloire pour les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 10860 --> <span class="fc">Benedictus es</span>, qui sedes super Cherubim, intuens abyssos,<br />
+et laudabilis et gloriosus in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vous êtes béni, vous qui, étant assis sur les Chérubins, voyez le fond des abîmes,<br />et digne de louange et de gloire pour les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 10861 --> <span class="fc">Benedictus es</span>, qui ambulas super pennas ventorum<br />et super undas maris,<br />
+et laudabilis et gloriosus in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vous êtes béni, vous qui marchez sur les ailes des vents,<br />et sur les flots de la mer,<br />et digne de louange et de gloire pour les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 10862 --> Benedicant te omnes Angeli et Sancti tui.<br />Et laudent te et glorificent in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Que tous les Anges et les Saints vous bénissent.<br />Qu’ils vous louent et vous glorifient dans les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 10863 --> Benedicant te caeli, terra, mare, et omnia quae in eis sunt.<br />Et laudent te et gloríficent in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Que les cieux, la terre et la mer, et tout ce qu’ils renferment, vous bénissent.<br /> Qu’ils vous louent et vous glorifient dans les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 10864 --> Gloria Patri, et Filio, et Spiritui Sancto,<br />
+et laudabili et glorioso in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Gloire au Père, et au Fils, et au Saint-Esprit.<br />Et à celui qui est digne de louange et de gloire dans les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 10865 --> Sicut erat in princípio, et nunc, et semper <br />et in saecula sæculorum. Amen.<br />
+Et laudabili et glorioso in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Comme il était au commencement, et maintenant et toujours,<br />et dans les siècles des siècles. Amen.<br />Et à celui qui est digne de louange et de gloire dans les siècles.</ion-text></ion-col></ion-row></ion-grid>
+ <!-- textType = C keyText = 1199 --> <span class="fc">Benedictus es</span>, Domine,<br />
+Deus Patrum nostrorum,<br />
+et laudabilis et gloriosus in saecula.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Béni êtes-vous, Seigneur,<br />
+Dieu de nos pères :<br />
+et digne de louange, et glorieux pour les siècles.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 172 - keyTitle = 1087 - prev_keyPiece = 1180 - keyType = 3 - officeYear =  - keyText = 1199 -->
+<!-- - keyPiece = 1180 - keyText = 1199 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br /><span class="fc">Benedictus es</span>, Domine,<br />
 Deus Patrum nostrorum,<br />
@@ -68,7 +103,7 @@ Dieu de nos pères :<br />
 et digne de louange, et glorieux pour les siècles.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 172 - keyTitle = 1094 - prev_keyPiece = 1194 - keyType = 5 - officeYear =  - keyText = 1213 -->
+<!-- - keyPiece = 1194 - keyText = 1213 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br /><span class="fc">Benedictus sit</span> Deus Pater,<br />
 unigenitusque Dei Filius,<br />
@@ -78,7 +113,7 @@ quia fecit nobiscum misericordiam suam.
 <ion-text color="tertiary">Béni soit Dieu le Père,<br />et le Fils unique de Dieu, ainsi que le Saint-Esprit :<br />car il a exercé envers nous sa miséricorde.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 172 - keyTitle = 1028 - prev_keyPiece = 1113 - keyType = 6 - officeYear = A - keyText = 1138 -->
+<!-- - keyPiece = 1113 - keyText = 1138 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Benedicimus Deum caeli,<br />
 et coram omnibus viventibus confitebimur ei :<br />
@@ -89,7 +124,7 @@ et devant tous les vivants nous l'acclamerons,<br />
 car il a exercé envers nous sa miséricorde.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 172 - keyTitle = 1836 - prev_keyPiece = 2028 - keyType = 6 - officeYear = B - keyText = 2062 -->
+<!-- - keyPiece = 2028 - keyText = 2062 -->
  <template v-if=" annoABC == 'B'">
 <rubrique>Communio</rubrique><br /><br /><span class="fc">Data est</span> mihi omnis potestas in caelo et in terra, alleluia :<br />
 euntes, docete omnes gentes,<br />
@@ -100,7 +135,7 @@ Allez, enseignez toutes les nations,<br />
 les baptisant au nom du Père, et du Fils, et du Saint-Esprit.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 172 - keyTitle = 1028 - prev_keyPiece = 1113 - keyType = 6 - officeYear = C - keyText = 1138 -->
+<!-- - keyPiece = 1113 - keyText = 1138 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Benedicimus Deum caeli,<br />
 et coram omnibus viventibus confitebimur ei :<br />

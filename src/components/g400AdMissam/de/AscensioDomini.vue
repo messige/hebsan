@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 123 - keyTitle = 8717 - prev_keyPiece = 9765 - keyType = 1 - officeYear =  - keyText = 9995 -->
+<!-- - keyCalendar = 123 - keyPiece = 9765 - keyText = 9995 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Viri Galilaei,<br />
 quid admiramini aspicientes in caelum?
@@ -16,7 +16,7 @@ iubilate Deo in voce exsultationis.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Ihr Völker alle, klatscht in die Hände!<br />
 Jubelt zu Gott mit der Stimme des Frohlockens!</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 123 - keyTitle = 634 - prev_keyPiece = 658 - keyType = 3 - officeYear =  - keyText = 703 -->
+<!-- - keyPiece = 658 - keyText = 703 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Ascendit Deus in iubilatione,<br />
 (et) Dominus in voce tubae.
@@ -25,7 +25,7 @@ Jubelt zu Gott mit der Stimme des Frohlockens!</ion-text></ion-col></ion-row></i
 (und) der Herr beim Schall der Posaune.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 123 - keyTitle = 2419 - prev_keyPiece = 2703 - keyType = 3 - officeYear =  - keyText = 2752 -->
+<!-- - keyPiece = 2703 - keyText = 2752 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Dominus in Sina in sancto,<br />
 ascendens in altum,<br />
@@ -36,9 +36,19 @@ Er ist zur Höhe aufgestiegen,<br />
 hat die Gefangenschaft gefangen weggeführt.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 123 - keyTitle = 8717 - prev_keyPiece = 9767 - keyType = 5 - officeYear =  - keyText = 9995 -->
+<!-- - keyPiece = 659 - keyText = 703 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Offertorium</rubrique><br /><br />Viri Galilaei,<br />
+<rubrique>Offertorium</rubrique><br /><br />Ascendit Deus in iubilatione,<br />
+(et) Dominus in voce tubae.
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
+<ion-text color="tertiary">Gott steigt auf unter Jubel,<br />
+(und) der Herr beim Schall der Posaune.</ion-text></ion-col></ion-row></ion-grid>
+
+</template>
+<!-- - keyPiece = 9767 - keyText = 9995 -->
+ <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
+<rubrique><i>Ad libitum :</i><br />
+Offertorium</rubrique><br /><br />Viri Galilaei,<br />
 quid admiramini aspicientes in caelum?
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Ihr Männer von Galilaea,<br />
@@ -51,16 +61,7 @@ so wird er wiederkommen.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 7606 --> Quemadmodum vidistis eum ascendentem in caelum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">So, wie ihr ihn in den Himmel aufsteigen gesehen habt.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 123 - keyTitle = 634 - prev_keyPiece = 659 - keyType = 5 - officeYear =  - keyText = 703 -->
- <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Offertorium</rubrique><br /><br />Ascendit Deus in iubilatione,<br />
-(et) Dominus in voce tubae.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Gott steigt auf unter Jubel,<br />
-(und) der Herr beim Schall der Posaune.</ion-text></ion-col></ion-row></ion-grid>
-
-</template>
-<!-- - keyCalendar = 123 - keyTitle = 1836 - prev_keyPiece = 2028 - keyType = 6 - officeYear = A - keyText = 2062 -->
+<!-- - keyPiece = 2028 - keyText = 2062 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br /><span class="fc">Data est</span> mihi omnis potestas in caelo et in terra, alleluia :<br />
 euntes, docete omnes gentes,<br />
@@ -71,7 +72,7 @@ Geht, lehrt alle Völker,<br />
 tauft sie im Namen des Vaters und des Sohnes und des Heiligen Geistes.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 123 - keyTitle = 7667 - prev_keyPiece = 8560 - keyType = 6 - officeYear = B - keyText = 8782 -->
+<!-- - keyPiece = 8560 - keyText = 8782 -->
  <template v-if=" annoABC == 'B'">
 <rubrique>Communio</rubrique><br /><br />Signa eos qui in me credunt,<br />
 haec sequentur:<br />
@@ -86,7 +87,7 @@ Kranken werden sie die Hände auflegen,<br />
 und diese werden sich wohl befinden.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 123 - keyTitle = 6527 - prev_keyPiece = 7311 - keyType = 6 - officeYear = C - keyText = 7437 -->
+<!-- - keyPiece = 7311 - keyText = 7437 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Psallite Domino,<br />
 qui ascendit super caelos caelorum ad Orientem.

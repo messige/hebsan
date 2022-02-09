@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 73 - keyTitle = 3944 - prev_keyPiece = 4421 - keyType = 9 - officeYear =  - keyText = 4529 -->
+<!-- - keyCalendar = 73 - keyPiece = 4421 - keyText = 4529 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Antiphona</rubrique><br /><br />Hosanna Filio David;<br />
 benedictus qui venit in nomine Domini.<br />Rex Israel: Hosanna in excelsis.
@@ -9,7 +9,7 @@ béni soit celui qui vient au nom du Seigneur.<br />Roi d'Israël :
 hosanna au plus haut des cieux.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 73 - keyTitle = 6548 - prev_keyPiece = 7339 - keyType = 9 - officeYear =  - keyText = 7459 -->
+<!-- - keyPiece = 7339 - keyText = 7459 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Antiphona</rubrique><br /><br />Pueri Hebraeorum,<br />
 tollentes(portantes) ramos olivarum,<br />
@@ -24,7 +24,7 @@ en criant et en disant :<br />
 Hosanna au plus haut des cieux.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 73 - keyTitle = 6549 - prev_keyPiece = 7340 - keyType = 9 - officeYear =  - keyText = 7460 -->
+<!-- - keyPiece = 7340 - keyText = 7460 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Antiphona</rubrique><br /><br />Pueri Hebraeorum vestimenta prosternebant in via,<br />
 et clamabant dicentes :<br />
@@ -37,7 +37,7 @@ et ils s'écriaient en disant :<br />
 béni soit celui qui vient au nom du Seigneur ! »</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 73 - keyTitle = 3533 - prev_keyPiece = 3962 - keyType = 13 - officeYear =  - keyText = 4099 -->
+<!-- - keyPiece = 3962 - keyText = 4099 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Hymnus</rubrique><br /><br />Gloria, laus et honor tibi sit, rex Christe, redemptor :<br />
 cui puerile decus prompsit Hosanna pium.
@@ -78,7 +78,7 @@ que vous plaise notre dévotion ;<br />
 bon Roi, Roi clément,<br />
 à qui plaît tout ce qui est bon.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 73 - keyTitle = 4377 - prev_keyPiece = 4891 - keyType = 10 - officeYear =  - keyText = 5031 -->
+<!-- - keyPiece = 4891 - keyText = 5031 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Responsorium</rubrique><br /><br />Ingrediente Domino in sanctam civitatem,<br />
 Hebraeorum pueri resurrectionem vitae pronuntiantes,<br />
@@ -97,7 +97,7 @@ exierunt obviam ei.
 que Jésus venait à Jérusalem,<br />
 ils sortirent à sa rencontre.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 73 - keyTitle = 1955 - prev_keyPiece = 2161 - keyType = 4 - officeYear =  - keyText = 2196 -->
+<!-- - keyPiece = 2161 - keyText = 2196 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Tractus - canticus</rubrique><br /><br />Deus, Deus meus, respice in me,<br />
 quare dereliquisti.
@@ -166,7 +166,7 @@ et les cieux annonceront sa justice.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = V keyText = 7180 -->V./  Populo qui nascetur, quem fecit Dominus.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Au peuple qui va naître, celui qu’a fait le Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 73 - keyTitle = 1281 - prev_keyPiece = 1402 - keyType = 2 - officeYear =  - keyText = 1435 -->
+<!-- - keyPiece = 1402 - keyText = 1435 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Christus <span class="fc">factus est</span> pro nobis<br />
 oboediens usque ad mortem,<br />
@@ -183,7 +183,7 @@ quod est super omne nomen.
 et lui a donné le nom<br />
 qui est au-dessus de tout nom.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 73 - keyTitle = 4116 - prev_keyPiece = 4600 - keyType = 5 - officeYear =  - keyText = 4722 -->
+<!-- - keyPiece = 4600 - keyText = 4722 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Improperium exspectavit cor meum :<br />
 et miseriam :<br />
@@ -204,7 +204,7 @@ et in siti mea potaverunt me aceto.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et ils m’ont donné du fiel pour nourriture :<br />
 et dans ma soif, ils m’ont fait boire du vinaigre.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!--  - keyCalendar = 73 - keyTitle = 6165 - prev_keyPiece = 6907 - keyType = 6 - officeYear =  - keyText = 7014 -->
+<!-- - keyPiece = 6907 - keyText = 7014 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Pater, si non potest hic calix transire,<br />
 nisi bibam illum,<br />

@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 158 - keyTitle = 4332 - prev_keyPiece = 4845 - keyType = 1 - officeYear =  - keyText = 4976 -->
+<!-- - keyCalendar = 158 - keyPiece = 4845 - keyText = 4976 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Inclina, Domine, aurem tuam ad me,<br />
 et exaudi me :<br />
@@ -20,7 +20,7 @@ quoniam ad te, Domine, animam meam levavi.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Erfreue die Seele deines Knechtes;<br />
 denn zu dir, Herr, erhob ich meine Seele!</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 158 - keyTitle = 1114 - prev_keyPiece = 1218 - keyType = 2 - officeYear =  - keyText = 1237 -->
+<!-- - keyPiece = 1218 - keyText = 1237 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Bonum est confiteri Domino.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
@@ -33,7 +33,7 @@ denn zu dir, Herr, erhob ich meine Seele!</ion-text></ion-col></ion-row></ion-gr
  <!-- textType = V keyText = 3553 --> Et veritatem tuam per noctem.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Und deine Wahrheit in der Nacht.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 158 - keyTitle = 8213 - prev_keyPiece = 9198 - keyType = 3 - officeYear = A - keyText = 9406 -->
+<!-- - keyPiece = 9198 - keyText = 9406 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Tu es Petrus,<br />
 et super hanc petram<br />
@@ -44,7 +44,7 @@ und auf diesen Felsen<br />
 werde ich meine Kirche bauen.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 158 - keyTitle = 7766 - prev_keyPiece = 8680 - keyType = 3 - officeYear = B - keyText = 8898 -->
+<!-- - keyPiece = 8680 - keyText = 8898 -->
  <template v-if=" annoABC == 'B'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Spiritus est qui vivificat :<br />
 caro autem non prodest quidquam.
@@ -53,7 +53,7 @@ caro autem non prodest quidquam.
 doch das Fleisch nützt nichts.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 158 - keyTitle = 6891 - prev_keyPiece = 7716 - keyType = 3 - officeYear = C - keyText = 7923 -->
+<!-- - keyPiece = 7716 - keyText = 7923 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Quoniam Deus magnus Dominus,<br />
 et rex magnus super omnes deos.
@@ -62,7 +62,7 @@ et rex magnus super omnes deos.
 und ein großer König über alle Götter.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 158 - keyTitle = 3175 - prev_keyPiece = 3547 - keyType = 5 - officeYear =  - keyText = 3707 -->
+<!-- - keyPiece = 3547 - keyText = 3707 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Exspectans exspectavi Dominum,<br />
 et respexit me :<br />
@@ -77,7 +77,7 @@ hymnum Deo nostro.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Und er legte mir in meinen Mund ein neues Lied,<br />
 einen Lobgesang für unseren Gott.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 158 - keyTitle = 1844 - prev_keyPiece = 2037 - keyType = 6 - officeYear =  - keyText = 2072 -->
+<!-- - keyPiece = 2037 - keyText = 2072 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />De fructu operum tuorum, Domine, satiabitur terra :<br />
 ut educas panem de terra,<br />
@@ -92,9 +92,10 @@ und damit sein Angesicht glänzend werde vom Öl,<br />
 und Brot das Herz des Menschen stärke.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 158 - keyTitle = 6714 - prev_keyPiece = 7525 - keyType = 6 - officeYear =  - keyText = 7672 -->
+<!-- - keyPiece = 7525 - keyText = 7672 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Communio</rubrique><br /><br />Qui manducat carnem meam,<br />
+<rubrique><i>Ad libitum :</i><br />
+Communio</rubrique><br /><br />Qui manducat carnem meam,<br />
 et bibit sanguinem meum,<br />
 in me manet, et ego in eo.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">

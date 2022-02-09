@@ -1,22 +1,21 @@
 <template>
-<!-- - keyCalendar = 157 - keyTitle = 6505 - prev_keyPiece = 7286 - keyType = 1 - officeYear =  - keyText = 7411 -->
+<!-- - keyCalendar = 157 - keyPiece = 7286 - keyText = 7411 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Protector noster aspice, Deus,<br />
 et respice in faciem Christi tui:<br />
 quia melior est dies una in atriis tuis<br />
 super milia.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Dieu notre protecteur, jetez un regard :<br />
-et posez le regard sur la face de votre Christ :<br />
-car meilleur est un seul jour en vos parvis,<br />
-plus que des milliers d’autres.</ion-text></ion-col></ion-row></ion-grid>
+<ion-text color="tertiary">Dieu notre protecteur, regardez-nous ;<br />jetez les yeux sur la face de votre Christ :<br />
+mieux vaut un seul jour dans vos 
+parvis<br />plutôt que des milliers.</ion-text></ion-col></ion-row></ion-grid>
 
  <!-- textType = P keyText = 7519 -->Ps. Quam dilecta tabernacula tua,<br />
 Domine, virtutum!<br />
 concupiscit et deficit anima mea in atria Domini.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Qu’ils sont aimés, vos tabernacles, Seigneur des puissances ! Mon âme est éprise, et languit pour les parvis du Seigneur.</ion-text></ion-col></ion-row></ion-grid>
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Qu’ils sont aimés, vos tabernacles,<br />Seigneur des puissances !<br />Mon âme est éprise, et languit pour les parvis du Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 157 - keyTitle = 1113 - prev_keyPiece = 1217 - keyType = 2 - officeYear =  - keyText = 1236 -->
+<!-- - keyPiece = 1217 - keyText = 1236 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Bonum est confidere in Domino,<br />
 quam confidere in homine.
@@ -29,7 +28,7 @@ quam sperare in principibus.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Il est bon de mettre son espérance dans le Seigneur,<br />
 plutôt que de mettre son espérance dans les princes.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 157 - keyTitle = 8484 - prev_keyPiece = 9502 - keyType = 3 - officeYear = A - keyText = 9730 -->
+<!-- - keyPiece = 9502 - keyText = 9730 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Venite, exsultemus Domino :<br />
 iubilemus Deo salutari nostro.
@@ -38,7 +37,7 @@ iubilemus Deo salutari nostro.
 jubilons pour Dieu notre sauveur.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 157 - keyTitle = 1200 - prev_keyPiece = 1319 - keyType = 3 - officeYear = B - keyText = 1339 -->
+<!-- - keyPiece = 1319 - keyText = 1339 -->
  <template v-if=" annoABC == 'B'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Caro mea vere est cibus,<br />
 et sanguis meus vere est potus.
@@ -53,7 +52,7 @@ in me manet, et ego in eo.
 et boit mon sang<br />
 demeure en moi, et moi en lui.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 157 - keyTitle = 8484 - prev_keyPiece = 9502 - keyType = 3 - officeYear = C - keyText = 9730 -->
+<!-- - keyPiece = 9502 - keyText = 9730 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Venite, exsultemus Domino :<br />
 iubilemus Deo salutari nostro.
@@ -62,7 +61,7 @@ iubilemus Deo salutari nostro.
 jubilons pour Dieu notre sauveur.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 157 - keyTitle = 4097 - prev_keyPiece = 4580 - keyType = 5 - officeYear =  - keyText = 4701 -->
+<!-- - keyPiece = 4580 - keyText = 4701 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Immittet angelus Domini<br />
 in circuitu timentium eum,<br />
@@ -77,7 +76,7 @@ goûtez et voyez<br />
 combien le Seigneur est doux.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 157 - keyTitle = 2450 - prev_keyPiece = 2737 - keyType = 6 - officeYear = A - keyText = 2785 -->
+<!-- - keyPiece = 2737 - keyText = 2785 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Domus mea, domus orationis vocabitur, <br>dicit Dominus :<br />
 in ea omnis, qui petit, accipit :<br />
@@ -85,10 +84,10 @@ et qui quaerit, invenit, <br>et pulsanti aperietur.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Ma maison sera appelée maison de prière, dit le Seigneur :<br />
 en elle, quiconque demande reçoit,<br />
-et qui cherche trouve, et à qui frappe, on ouvrira.</ion-text></ion-col></ion-row></ion-grid>
+et qui cherche trouve,  et à celui qui frappe, on ouvrira.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 157 - keyTitle = 6714 - prev_keyPiece = 7525 - keyType = 6 - officeYear = B - keyText = 7672 -->
+<!-- - keyPiece = 7525 - keyText = 7672 -->
  <template v-if=" annoABC == 'B'">
 <rubrique>Communio</rubrique><br /><br />Qui manducat carnem meam,<br />
 et bibit sanguinem meum,<br />
@@ -101,7 +100,7 @@ demeure en moi, et moi en lui.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 2303 --> Dicit Dominus.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Dit le Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!--  - keyCalendar = 157 - keyTitle = 6445 - prev_keyPiece = 7214 - keyType = 6 - officeYear = C - keyText = 7334 -->
+<!-- - keyPiece = 7214 - keyText = 7334 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Primum quaerite regnum Dei,<br />
 et omnia adicientur vobis,<br />

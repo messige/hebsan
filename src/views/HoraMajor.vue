@@ -206,7 +206,7 @@ export default defineComponent({
       require("../assets/g55Responsum/RepDeOreLeonis2.jpg"), // Ad Vesperas Domenicae in Palmis
       require("../assets/g55Responsum/RepErueAFramea3.jpg"), // Ad Laudes Hebdomada Sancta
       require("../assets/g55Responsum/RepDeOreLeonis3.jpg"), // Ad Vesperas Hebdomada Sancta
-      require("../assets/g55Responsum/RepSurrexitDomDeSepulchro.jpg"), // Ad Laudes Dom. Resurrectio
+      require("../assets/g55Responsum/RepSurrexitDom.jpg"), // Ad Laudes Dom. Resurrectio
       require("../assets/g55Responsum/RepSurrexitDomVereSolemn.jpg"), // Ad Vesperase Dom. Resurrectio
     ];
     i = 0;

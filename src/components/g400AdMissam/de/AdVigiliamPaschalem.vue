@@ -1,7 +1,8 @@
 <template>
-<!-- - keyCalendar = 80 - keyTitle = 4646 - prev_keyPiece = 5191 - keyType = 27 - officeYear =  - keyText = 5338 -->
+<!-- - keyCalendar = 80 - keyPiece = 5191 - keyText = 5338 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Canticus &nbsp; <i>Post I Lectionem</i></rubrique><br /><br />Iubilate Domino omnis terra :<br />
+<rubrique><i>Post I Lectionem</i><br />
+Canticus</rubrique><br /><br />Iubilate Domino omnis terra :<br />
 servite Domino in laetitia.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Jauchzt vor dem Herrn, alle Lande,<br />
@@ -20,9 +21,10 @@ und nicht wir selbst.<br />
 Wir sind sein Volk,<br />
 die Herde seiner Weide.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 6678 - prev_keyPiece = 7487 - keyType = 27 - officeYear =  - keyText = 7624 -->
+<!-- - keyPiece = 7487 - keyText = 7624 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Canticus &nbsp; <i>Post II Lectionem</i></rubrique><br /><br />Qui confidunt in Domino<br />
+<rubrique><i>Post II Lectionem</i><br />
+Canticus</rubrique><br /><br />Qui confidunt in Domino<br />
 sicut mons Sion<br />
 non commovebitur in aeternum<br />
 qui habitat in Ierusalem.
@@ -39,9 +41,10 @@ ex hoc nunc et usque in saeculum.
 und der Herr ist rings um sein Volk,<br />
 von nun an bis in Ewigkeit.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 1182 - prev_keyPiece = 1298 - keyType = 27 - officeYear =  - keyText = 1320 -->
+<!-- - keyPiece = 1298 - keyText = 1320 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Canticus &nbsp; <i>Post III Lectionem</i></rubrique><br /><br />Cantemus Domino :<br />
+<rubrique><i>Post III Lectionem</i><br />
+Canticus</rubrique><br /><br />Cantemus Domino :<br />
 gloriose enim <span class="fc">honorificatus est</span>,<br />
 equum et ascensorem proiecit in mare.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
@@ -60,9 +63,10 @@ der Gott meines Vaters, ihn will ich rühmen.</ion-text></ion-col></ion-row></io
  <!-- textType = V keyText = 2730 -->V./  Dominus conterens bella: Dominus nomen est illi.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Der Herr ist ein Krieger, Herr [Jahwe] ist sein Name.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 4853 - prev_keyPiece = 5447 - keyType = 27 - officeYear =  - keyText = 5545 -->
+<!-- - keyPiece = 5447 - keyText = 5545 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Canticus &nbsp; <i>Post IV Lectionem</i></rubrique><br /><br />Laudate Dominum, omnes gentes.
+<rubrique><i>Post IV Lectionem</i><br />
+Canticus</rubrique><br /><br />Laudate Dominum, omnes gentes.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Lobt den Herrn, alle Völker!</ion-text></ion-col></ion-row></ion-grid>
 
@@ -73,9 +77,10 @@ et veritas Domini manet in aeternum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Denn seine Barmherzigkeit ist mächtig über uns,<br />
 und die Wahrheit des Herrn währt in Ewigkeit.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 8647 - prev_keyPiece = 9692 - keyType = 27 - officeYear =  - keyText = 9919 -->
+<!-- - keyPiece = 9692 - keyText = 9919 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Canticus &nbsp; <i>Post V Lectionem</i></rubrique><br /><br />Vinea <span class="fc">facta est</span> dilecto<br />
+<rubrique><i>Post V Lectionem</i><br />
+Canticus</rubrique><br /><br />Vinea <span class="fc">facta est</span> dilecto<br />
 in cornu,in loco uberi.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Einen Weinberg hatte mein Geliebter<br />auf der Höhe,
@@ -92,9 +97,10 @@ vinea enim Domini Sabaoth, domus Israel est.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Und er hob eine Kelter in ihm aus:<br />
 Der Weinberg des Herrn der Heere ist das Haus Israel.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 675 - prev_keyPiece = 708 - keyType = 27 - officeYear =  - keyText = 750 -->
+<!-- - keyPiece = 708 - keyText = 750 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Canticus &nbsp; <i>Post Vi Lectionem</i></rubrique><br /><br />Attende caelum, et loquar :<br />
+<rubrique><i>Post Vi Lectionem</i><br />
+Canticus</rubrique><br /><br />Attende caelum, et loquar :<br />
 et audiat terra verba ex ore meo.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Hört zu, ihr Himmel, ich will reden,<br />
@@ -121,9 +127,10 @@ iustus et sanctus Dominus
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Er ist ein Gott der Treue und ohne Fehl,<br />
 gerecht und heilig ist der Herr.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 7638 - prev_keyPiece = 8530 - keyType = 27 - officeYear =  - keyText = 8748 -->
+<!-- - keyPiece = 8530 - keyText = 8748 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
-<rubrique>Canticus &nbsp; <i>Post VII Lectionem</i></rubrique><br /><br />Sicut cervus desiderat ad fontes aquarum :<br />
+<rubrique><i>Post VII Lectionem</i><br />
+Canticus</rubrique><br /><br />Sicut cervus desiderat ad fontes aquarum :<br />
 ita desiderat anima mea ad te, Deus.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Wie der Hirsch lechzt nach den Quellen des Wassers,<br />
@@ -142,7 +149,7 @@ ubi est Deus tuus ?
 denn man sagt zu mir den ganzen Tag:<br />
 «Wo ist nun dein Gott?»</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 1459 - prev_keyPiece = 1612 - keyType = 3 - officeYear =  - keyText = 1630 -->
+<!-- - keyPiece = 1612 - keyText = 1630 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Confitemini Domino, quoniam bonus :<br />
 quoniam in saeculum misericordia eius.
@@ -151,7 +158,7 @@ quoniam in saeculum misericordia eius.
 denn seine Huld währt ewig.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 8600 - prev_keyPiece = 9638 - keyType = 9 - officeYear =  - keyText = 9862 -->
+<!-- - keyPiece = 9638 - keyText = 9862 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Antiphona</rubrique><br /><br />Vidi aquam egredientem de templo<br />
 a latere dextro, alleluia :<br />
@@ -164,7 +171,7 @@ Und alle, zu denen dieses Wasser gelangte -<br />
 heil wurden sie und sprechen: Halleluja, Halleluja.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 2019 - prev_keyPiece = 2233 - keyType = 5 - officeYear =  - keyText = 2274 -->
+<!-- - keyPiece = 2233 - keyText = 2274 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Dextera Domini fecit virtutem,<br />
 dextera Domini exaltavit me.
@@ -177,7 +184,7 @@ et narrabo opera Domini.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Ich werde nicht sterben, sondern leben,<br />
 und die Werke des Herrn erzählen!</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 80 - keyTitle = 6113 - prev_keyPiece = 6849 - keyType = 6 - officeYear =  - keyText = 6964 -->
+<!-- - keyPiece = 6849 - keyText = 6964 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Pascha nostrum <span class="fc">immolatus est</span> Christus, alleluia :<br />
 itaque epulemur in azimis<br />
@@ -188,7 +195,7 @@ Lasst uns also Festmahl halten mit den ungesäuerten Broten<br />
 der Reinheit und Wahrheit.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 80 - keyTitle = 393 - prev_keyPiece = 406 - keyType = 9 - officeYear =  - keyText = 394 -->
+<!-- - keyPiece = 406 - keyText = 394 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Antiphona</rubrique><br /><br />Alleluia alleluia alleluia.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">

@@ -30,9 +30,9 @@
           :startyear="civilYearPlus3"
           :startmonth="firstMonth"
           :startday="firstDay"
-        />
+        />                
+        <br />&nbsp;<br />&nbsp;<br /><br />&nbsp;<br />
       </div>
-      <br /><br /><br />
     </ion-content>
   </ion-page>
 </template>

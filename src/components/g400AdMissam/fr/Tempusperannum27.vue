@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 164 - keyTitle = 4324 - prev_keyPiece = 4837 - keyType = 1 - officeYear =  - keyText = 4970 -->
+<!-- - keyCalendar = 164 - keyPiece = 4837 - keyText = 4970 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />In voluntate tua, Domine, universa sunt posita,<br />
 et non est qui possit resistere voluntati tuae:<br />
@@ -17,7 +17,7 @@ le Seigneur de toutes choses, c’est vous.</ion-text></ion-col></ion-row></ion-
 qui ambulant in lege Domini.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Heureux ceux qui sont irréprochables dans leur voie<br />et qui marchent selon la loi du Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 164 - keyTitle = 2355 - prev_keyPiece = 2628 - keyType = 2 - officeYear =  - keyText = 2683 -->
+<!-- - keyPiece = 2628 - keyText = 2683 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Domine, refugium <span class="fc">factus es</span> nobis<br />
 a generatione et progenie.
@@ -30,14 +30,14 @@ aut formaretur terra et orbis :<br />
 a saeculo, et usque in saeculum tu es, Deus.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Avant que les montagnes existassent,<br />que la terre et le monde fussent formés,<br />de toute éternité vous êtes, Dieu.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 164 - keyTitle = 4172 - prev_keyPiece = 4665 - keyType = 3 - officeYear =  - keyText = 4792 -->
+<!-- - keyPiece = 4665 - keyText = 4792 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />In exitu Israel de Aegypto domus Iacob de populo barbaro.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
 <ion-text color="tertiary">Au sortir d’Israël hors d’Égypte, de la maison de Jacob, hors du peuple barbare.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 164 - keyTitle = 8670 - prev_keyPiece = 9715 - keyType = 5 - officeYear =  - keyText = 9943 -->
+<!-- - keyPiece = 9715 - keyText = 9943 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Vir erat in terra nomine Iob,<br />
 simplex et rectus, ac timens Deum :<br />
@@ -56,7 +56,7 @@ et il détruisit tout ce qui le faisait vivre, et ses fils :<br />
 il frappa aussi sa chair d’un grave ulcère.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 164 - keyTitle = 4267 - prev_keyPiece = 4776 - keyType = 6 - officeYear =  - keyText = 4905 -->
+<!-- - keyPiece = 4776 - keyText = 4905 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />In salutari tuo anima mea,<br />
 et in verbum tuum speravi :<br />

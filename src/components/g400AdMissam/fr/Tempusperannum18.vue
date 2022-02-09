@@ -1,6 +1,6 @@
 <template>
-<!-- - keyCalendar = 543 - keyTitle = 7709 - prev_keyPiece = 8610 - keyType = 1 - officeYear = A - keyText = 8833 -->
- <template v-if=" annoABC == 'A' ||  annoABC == 'A'">
+<!-- - keyCalendar = 543 - keyPiece = 8610 - keyText = 8833 -->
+ <template v-if=" annoABC == 'A'">
 <rubrique>Introitus</rubrique><br /><br />Sitientes venite ad aquas, dicit Dominus :<br />
 et qui non habetis pretium, venite,<br />
 et bibite cum laetitia.
@@ -14,20 +14,7 @@ inclinate aurem vestram in verba oris mei.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Soyez attentifs, mon peuple, à ma loi :<br />
 prêtez l’oreille aux paroles de ma bouche.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 155 - keyTitle = 5898 - prev_keyPiece = 6597 - keyType = 2 - officeYear = A - keyText = 6722 -->
- <template v-if=" annoABC == 'A'">
-<rubrique>Graduale</rubrique><br /><br />Oculi omnium in te sperant, Domine :<br />
-et tu das illis escam in tempore opportuno.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Les yeux de tous mettent en vous leur espérance, Seigneur :<br />
-et vous, vous leur donnez leur nourriture au temps opportun.</ion-text></ion-col></ion-row></ion-grid>
-
- <!-- textType = V keyText = 627 -->V./  Aperis tu manum tuam:<br />
-et imples omne animal benedictione.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vous ouvrez vous-même la main :<br />
-et vous comblez tout vivant de bénédiction.</ion-text></ion-col></ion-row></ion-grid>
-</template>
-<!-- - keyCalendar = 155 - keyTitle = 1965 - prev_keyPiece = 2171 - keyType = 1 - officeYear = C - keyText = 2209 -->
+<!-- - keyPiece = 2171 - keyText = 2209 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Deus in adiutorium meum intende:<br />
 Domine ad adiuvandum me festina.
@@ -44,7 +31,7 @@ qui volunt mihi mala.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Qu’ils soient renvoyés sur leurs pas, et qu’ils soient rouges de honte,<br />
 ceux qui me veulent du mal.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 155 - keyTitle = 5898 - prev_keyPiece = 6597 - keyType = 2 - officeYear = A - keyText = 6722 -->
+<!-- - keyPiece = 6597 - keyText = 6722 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Graduale</rubrique><br /><br />Oculi omnium in te sperant, Domine :<br />
 et tu das illis escam in tempore opportuno.
@@ -57,7 +44,7 @@ et imples omne animal benedictione.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vous ouvrez vous-même la main :<br />
 et vous comblez tout vivant de bénédiction.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 543 - keyTitle = 1004 - prev_keyPiece = 1086 - keyType = 2 - officeYear = C - keyText = 1112 -->
+<!-- - keyPiece = 1086 - keyText = 1112 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Benedicam Dominum in omni tempore.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
@@ -70,24 +57,7 @@ audiant mansueti et laetentur.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">C’est dans le Seigneur que sera glorifiée mon âme :<br />
 que les humbles m’entendent et qu’ils se réjouissent.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 155 - keyTitle = 7315 - prev_keyPiece = 8191 - keyType = 5 - officeYear = C - keyText = 8405 -->
- <template v-if=" annoABC == 'C'">
-<rubrique>Offertorium</rubrique><br /><br />Sanctificavit Moyses altare Domino,<br />
-offerens super illud holocausta,<br />
-et immolans victimas :<br />
-fecit sacrificium vespertinum<br />
-in odorem suavitatis Domino Deo,<br />
-in conspectu filiorum Israel.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Moïse consacra un autel au Seigneur,<br />
-y offrant des holocaustes<br />
-et y immolant des victimes :<br />
-il fit le sacrifice du soir<br />
-avec un parfum suave, en l'honneur du Seigneur Dieu,<br />
-en présence les fils d'Israël.</ion-text></ion-col></ion-row></ion-grid>
-
-</template>
-<!-- - keyCalendar = 155 - keyTitle = 2283 - prev_keyPiece = 2535 - keyType = 3 - officeYear =  - keyText = 2595 -->
+<!-- - keyPiece = 2535 - keyText = 2595 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Domine Deus salutis meae,<br />
 in die clamavi, et nocte coram te.
@@ -96,7 +66,7 @@ in die clamavi, et nocte coram te.
 le jour et la nuit j’ai crié devant vous.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 155 - keyTitle = 6430 - prev_keyPiece = 7196 - keyType = 5 - officeYear = B - keyText = 7318 -->
+<!-- - keyPiece = 7196 - keyText = 7318 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B'">
 <rubrique>Offertorium</rubrique><br /><br /><span class="fc">Precatus est</span> Moyses in conspectu Domini Dei sui,<br />
 et dixit :<br />
@@ -116,7 +86,7 @@ souvenez-vous d’Abraham, d’Isaac et de Jacob,<br />
 quam dixit facere populo suo.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et le Seigneur se laissa fléchir, renonçant au châtiment<br />dont il avait menacé son peuple.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 155 - keyTitle = 7315 - prev_keyPiece = 8191 - keyType = 5 - officeYear = C - keyText = 8405 -->
+<!-- - keyPiece = 8191 - keyText = 8405 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Sanctificavit Moyses altare Domino,<br />
 offerens super illud holocausta,<br />
@@ -133,7 +103,7 @@ avec un parfum suave, en l'honneur du Seigneur Dieu,<br />
 en présence les fils d'Israël.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 155 - keyTitle = 6077 - prev_keyPiece = 6805 - keyType = 6 - officeYear =  - keyText = 6924 -->
+<!-- - keyPiece = 6805 - keyText = 6924 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Panem de caelo dedisti nobis, Domine,<br />
 habentem omne delectamentum,<br />

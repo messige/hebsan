@@ -226,11 +226,11 @@ export default defineComponent({
       {
         psID: 19, // Domenica in Palmis Ad Nonam feastID: 1 officeID = 9,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntInvocabo2.vue")
+            () => import("../components/g50Antiphona/" + "AntInvocaboNomen.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
-              import("../components/g50Antiphona/" + props.language + "/AntInvocabo2.vue")
+              import("../components/g50Antiphona/" + props.language + "/AntInvocaboNomen.vue")
           ),
           psalm1TR: defineAsyncComponent(
             () =>
@@ -241,11 +241,11 @@ export default defineComponent({
       {
         psID: 23, // Feraia II Ad tertiam feastID: 2 officeID = 3
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntFramea2.vue")
+            () => import("../components/g50Antiphona/" + "AntFrameaSuscitare.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
-              import("../components/g50Antiphona/" + props.language + "/AntFramea2.vue")
+              import("../components/g50Antiphona/" + props.language + "/AntFrameaSuscitare.vue")
           ),
           psalm1TR: defineAsyncComponent(
             () =>
@@ -273,14 +273,14 @@ export default defineComponent({
       {
         psID: 29, //Feria II Ad Nonam feastID: 2 officeID = 9,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntLabiaInsurgentibus.vue")
+            () => import("../components/g50Antiphona/" + "AntLabiaInsurgentium.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
               import(
                 "../components/g50Antiphona/" +
                   props.language +
-                  "/AntLabiaInsurgentibus.vue"
+                  "/AntLabiaInsurgentium.vue"
               )
           ),
           psalm1TR: defineAsyncComponent(
@@ -309,14 +309,14 @@ export default defineComponent({
       {
         psID: 36, // Feria III Ad Sexam feastID: 3 officeID = 6,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntPotestatemHabeo2.vue")
+            () => import("../components/g50Antiphona/" + "AntPotestatemHabeo.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
               import(
                 "../components/g50Antiphona/" +
                   props.language +
-                  "/AntPotestatemHabeo2.vue"
+                  "/AntPotestatemHabeo.vue"
               )
           ),
           psalm1TR: defineAsyncComponent(
@@ -328,14 +328,14 @@ export default defineComponent({
       {
         psID: 39, //Feria III Ad Nonam feastID: 3 officeID = 9,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntPotestatemHabeo2.vue")
+            () => import("../components/g50Antiphona/" + "AntPotestatemHabeo.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
               import(
                 "../components/g50Antiphona/" +
                   props.language +
-                  "/AntPotestatemHabeo2.vue"
+                  "/AntPotestatemHabeo.vue"
               )
           ),
           psalm1TR: defineAsyncComponent(
@@ -347,14 +347,14 @@ export default defineComponent({
       {
         psID: 43, // Feria IV Ad tertiam feastID: 4 officeID = 3
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntIpsiVeroInVanum2.vue")
+            () => import("../components/g50Antiphona/" + "AntIpsiVero.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
               import(
                 "../components/g50Antiphona/" +
                   props.language +
-                  "/AntIpsiVeroInVanum2.vue"
+                  "/AntIpsiVero.vue"
               )
           ),
           psalm1TR: defineAsyncComponent(

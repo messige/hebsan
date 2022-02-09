@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 143 - keyTitle = 2976 - prev_keyPiece = 3326 - keyType = 1 - officeYear =  - keyText = 3376 -->
+<!-- - keyCalendar = 143 - keyPiece = 3326 - keyText = 3376 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Esto mihi in Deum protectorem,<br />
 et in locum refugii,<br />
@@ -24,7 +24,7 @@ in iustitia tua libera me.
 Möge ich nicht zuschanden werden in Ewigkeit.<br />
 In deiner Gerechtigkeit befreie mich.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 143 - keyTitle = 8208 - prev_keyPiece = 9189 - keyType = 2 - officeYear =  - keyText = 9400 -->
+<!-- - keyPiece = 9189 - keyText = 9400 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Tu es Deus, qui facis mirabilia solus,<br />
 notam fecisti in gentibus virtutem tuam.
@@ -38,7 +38,7 @@ filios Israel et Ioseph.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Befreit hast du mit deinem Arm dein Volk,<br />
 die Kinder von Jakob und Joseph.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 143 - keyTitle = 1176 - prev_keyPiece = 1291 - keyType = 3 - officeYear =  - keyText = 1309 -->
+<!-- - keyPiece = 1291 - keyText = 1309 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Cantate Domino canticum novum :<br />
 quia mirabilia fecit Dominus.
@@ -47,7 +47,7 @@ quia mirabilia fecit Dominus.
 denn Wunderbares hat der Herr getan.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 143 - keyTitle = 1086 - prev_keyPiece = 1179 - keyType = 5 - officeYear =  - keyText = 1201 -->
+<!-- - keyPiece = 1179 - keyText = 1201 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br /><span class="fc">Benedictus es</span>, Domine,<br />
 doce me iustificationes tuas :<br />
@@ -58,7 +58,7 @@ Lehre mich deine Gesetze!<br />
 Mit meinen Lippen verkünde ich alle Urteile deines Mundes.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 143 - keyTitle = 5080 - prev_keyPiece = 5696 - keyType = 6 - officeYear =  - keyText = 5802 -->
+<!-- - keyPiece = 5696 - keyText = 5802 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Manducaverunt, et <span class="fc">saturati sunt</span> nimis,<br />
 et desiderium eorum attulit eis Dominus :<br />

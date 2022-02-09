@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 2 - keyTitle = 165 - prev_keyPiece = 169 - keyType = 1 - officeYear =  - keyText = 189 -->
+<!-- - keyCalendar = 2 - keyPiece = 169 - keyText = 189 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Ad te levavi animam meam :<br />
 Deus meus, in te confido,<br />
@@ -19,7 +19,7 @@ et semitas tuas edoce me.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Seigneur, faites-moi voir vos voies :<br />
 et enseignez-moi vos sentiers.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 2 - keyTitle = 8325 - prev_keyPiece = 9327 - keyType = 2 - officeYear =  - keyText = 9537 -->
+<!-- - keyPiece = 9327 - keyText = 9537 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Universi qui te exspectant,<br />
 non confundentur, Domine.
@@ -32,7 +32,7 @@ et semitas tuas edoce me.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Seigneur, faites-moi connaître vos voies :<br />
 et enseignez-moi vos sentiers.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 2 - keyTitle = 6066 - prev_keyPiece = 6788 - keyType = 3 - officeYear =  - keyText = 6911 -->
+<!-- - keyPiece = 6788 - keyText = 6911 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Ostende nobis, Domine, misericordiam tuam :<br />
 et salutare tuum da nobis.
@@ -41,7 +41,7 @@ et salutare tuum da nobis.
 et donnez-nous votre salut.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 2 - keyTitle = 162 - prev_keyPiece = 165 - keyType = 5 - officeYear =  - keyText = 186 -->
+<!-- - keyPiece = 165 - keyText = 186 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Ad te, Domine, levavi animam meam :<br />
 Deus meus, in te confido,<br />
@@ -57,7 +57,7 @@ non confundentur.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Et que mes ennemis ne se moquent pas de moi :<br />
 car aucun de ceux qui vous attendent<br /> ne sera confondu. </ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!--  - keyCalendar = 2 - keyTitle = 2402 - prev_keyPiece = 2683 - keyType = 6 - officeYear =  - keyText = 2732 -->
+<!-- - keyPiece = 2683 - keyText = 2732 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Dominus dabit benignitatem :<br />
 et terra nostra dabit fructum suum.

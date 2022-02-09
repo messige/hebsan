@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 227 - keyTitle = 1306 - prev_keyPiece = 1431 - keyType = 1 - officeYear =  - keyText = 1460 -->
+<!-- - keyCalendar = 227 - keyPiece = 1431 - keyText = 1460 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Cibavit eos ex adipe frumenti, alleluia :<br />
 et de petra, melle saturavit eos.
@@ -22,7 +22,7 @@ dilata os tuum, et implebo illud.
 qui t’ai fait sortir de la terre d’Égypte :<br />
 ouvre grand la bouche, et je la remplirai.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 227 - keyTitle = 5898 - prev_keyPiece = 6597 - keyType = 2 - officeYear =  - keyText = 6722 -->
+<!-- - keyPiece = 6597 - keyText = 6722 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Oculi omnium in te sperant, Domine :<br />
 et tu das illis escam in tempore opportuno.
@@ -35,7 +35,7 @@ et imples omne animal benedictione.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Vous ouvrez vous-même la main :<br />
 et vous comblez tout vivant de bénédiction.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 227 - keyTitle = 1200 - prev_keyPiece = 1319 - keyType = 3 - officeYear =  - keyText = 1339 -->
+<!-- - keyPiece = 1319 - keyText = 1339 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Caro mea vere est cibus,<br />
 et sanguis meus vere est potus.
@@ -50,7 +50,7 @@ in me manet, et ego in eo.
 et boit mon sang<br />
 demeure en moi, et moi en lui.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 227 - keyTitle = 4837 - prev_keyPiece = 5428 - keyType = 14 - officeYear =  - keyText = 5525 -->
+<!-- - keyPiece = 5428 - keyText = 5525 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Sequentia</rubrique><br /><br />Lauda Sion salvatorem<br />
 lauda ducem et pastorem<br />
@@ -215,7 +215,7 @@ fais de nous, là-haut, tes convives,<br />
 rends-nous cohéritiers<br />
 et compagnons des saints de la cité céleste.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 227 - keyTitle = 6317 - prev_keyPiece = 7070 - keyType = 5 - officeYear =  - keyText = 7191 -->
+<!-- - keyPiece = 7070 - keyText = 7191 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Portas caeli aperuit Dominus :<br />
 et pluit illis manna, ut ederent :<br />
@@ -228,7 +228,7 @@ et il leur a donné le pain du ciel :<br />
 l’homme a mangé le pain des Anges.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 227 - keyTitle = 7315 - prev_keyPiece = 8191 - keyType = 5 - officeYear =  - keyText = 8405 -->
+<!-- - keyPiece = 8191 - keyText = 8405 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Sanctificavit Moyses altare Domino,<br />
 offerens super illud holocausta,<br />
@@ -245,7 +245,7 @@ avec un parfum suave, en l'honneur du Seigneur Dieu,<br />
 en présence les fils d'Israël.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 227 - keyTitle = 6714 - prev_keyPiece = 7525 - keyType = 6 - officeYear = B - keyText = 7672 -->
+<!-- - keyPiece = 7525 - keyText = 7672 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B'">
 <rubrique>Communio</rubrique><br /><br />Qui manducat carnem meam,<br />
 et bibit sanguinem meum,<br />
@@ -258,7 +258,7 @@ demeure en moi, et moi en lui.</ion-text></ion-col></ion-row></ion-grid>
  <!-- textType = C keyText = 2303 --> Dicit Dominus.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Dit le Seigneur.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!--  - keyCalendar = 227 - keyTitle = 3803 - prev_keyPiece = 4261 - keyType = 6 - officeYear = C - keyText = 4378 -->
+<!-- - keyPiece = 4261 - keyText = 4378 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Hoc corpus,<br />
 quod pro vobis tradetur:<br />

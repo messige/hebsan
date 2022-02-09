@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 25 - keyTitle = 1966 - prev_keyPiece = 2174 - keyType = 1 - officeYear =  - keyText = 2211 -->
+<!-- - keyCalendar = 25 - keyPiece = 2174 - keyText = 2211 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Deus in loco sancto suo :<br />
 Deus, qui inhabitare facit unanimes in domo :<br />
@@ -12,7 +12,7 @@ et fugiant, qui oderunt eum a facie eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Que Dieu se lève, et que ses ennemis soient dispersés ;<br />
 et qu’ils fuient devant sa face, ceux qui le haïssent.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 25 - keyTitle = 8313 - prev_keyPiece = 9314 - keyType = 2 - officeYear =  - keyText = 9524 -->
+<!-- - keyPiece = 9314 - keyText = 9524 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Unam petii a Domino,<br />
 hanc requiram :<br />
@@ -28,7 +28,7 @@ et protegar a templo sancto eius.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Pour contempler les délices du Seigneur<br />
 et vivre à l’abri de son temple.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 25 - keyTitle = 3484 - prev_keyPiece = 3899 - keyType = 3 - officeYear =  - keyText = 4063 -->
+<!-- - keyPiece = 3899 - keyText = 4063 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Gaudete iusti in Domino :<br />
 rectos decet collaudatio.
@@ -37,7 +37,7 @@ rectos decet collaudatio.
 aux hommes droits il appartient de le chanter en chœur !</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 25 - keyTitle = 4293 - prev_keyPiece = 4804 - keyType = 5 - officeYear =  - keyText = 4935 -->
+<!-- - keyPiece = 4804 - keyText = 4935 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />In te speravi, Domine:<br />
 dixi: tu es Deus meus,<br />
@@ -48,7 +48,7 @@ j’ai dit : C’est vous qui êtes mon Dieu ;<br />
 mes jours sont entre vos mains.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 25 - keyTitle = 8131 - prev_keyPiece = 9099 - keyType = 6 - officeYear = A - keyText = 9306 -->
+<!-- - keyPiece = 9099 - keyText = 9306 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Tolle puerum et matrem eius,<br />
 et vade in terram Iuda:<br />
@@ -59,7 +59,7 @@ et va en terre de Juda ;<br />
 ils sont morts en effet, ceux qui en voulaient à la vie de l’enfant.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 25 - keyTitle = 3331 - prev_keyPiece = 3727 - keyType = 6 - officeYear = C - keyText = 3889 -->
+<!-- - keyPiece = 3727 - keyText = 3889 -->
  <template v-if=" annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Fili, quid fecisti nobis sic?<br />
 Ego et pater tuus dolentes quaerebamus te.<br />

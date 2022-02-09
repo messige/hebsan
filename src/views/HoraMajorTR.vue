@@ -590,11 +590,11 @@ export default defineComponent({
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntFramea2.vue")
+              () => import("../components/g50Antiphona/AntFrameaSuscitare.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
-                import("../components/g50Antiphona/" + props.language + "/AntFramea2.vue")
+                import("../components/g50Antiphona/" + props.language + "/AntFrameaSuscitare.vue")
             ),
             psalmTR: defineAsyncComponent(
               () => import("../components/g65Psalmodia/" + props.language + "/Ps005.vue")
@@ -638,14 +638,14 @@ export default defineComponent({
           {
             antID: 5,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntLabiaInsurgentibus.vue")
+              () => import("../components/g50Antiphona/AntLabiaInsurgentium.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
                 import(
                   "../components/g50Antiphona/" +
                     props.language +
-                    "/AntLabiaInsurgentibus.vue"
+                    "/AntLabiaInsurgentium.vue"
                 )
             ),
             psalmTR: defineAsyncComponent(
@@ -767,14 +767,14 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntVideDomEtConsidera.vue")
+              () => import("../components/g50Antiphona/AntVideDom.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
                 import(
                   "../components/g50Antiphona/" +
                     props.language +
-                    "/AntVideDomEtConsidera.vue"
+                    "/AntVideDom.vue"
                 )
             ),
             psalmTR: defineAsyncComponent(
@@ -932,14 +932,14 @@ export default defineComponent({
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntPotestatemHabeo2.vue")
+            () => import("../components/g50Antiphona/AntPotestatemHabeo.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
               import(
                 "../components/g50Antiphona/" +
                   props.language +
-                  "/AntPotestatemHabeo2.vue"
+                  "/AntPotestatemHabeo.vue"
               )
           ),
           cantTR: defineAsyncComponent(
@@ -989,14 +989,14 @@ export default defineComponent({
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntIpsiVeroInVanum2.vue")
+              () => import("../components/g50Antiphona/AntIpsiVero.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
                 import(
                   "../components/g50Antiphona/" +
                     props.language +
-                    "/AntIpsiVeroInVanum2.vue"
+                    "/AntIpsiVero.vue"
                 )
             ),
             psalmTR: defineAsyncComponent(
@@ -1721,12 +1721,12 @@ export default defineComponent({
       }, // Ad Vesperas Quadregesimae
       {
         respons: defineAsyncComponent(
-          () => import("../components/g55Responsum/RepSurrexitDomDeSepulchro.vue")
+          () => import("../components/g55Responsum/RepSurrexitDom.vue")
         ), //Resurrectio Domini
         responsTR: defineAsyncComponent(
           () =>
             import(
-              "../components/g55Responsum/" + language + "/RepSurrexitDomDeSepulchro.vue"
+              "../components/g55Responsum/" + language + "/RepSurrexitDom.vue"
             )
         ),
       },

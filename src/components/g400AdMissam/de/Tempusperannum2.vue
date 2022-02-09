@@ -1,5 +1,5 @@
 <template>
-<!-- - keyCalendar = 137 - keyTitle = 5987 - prev_keyPiece = 6693 - keyType = 1 - officeYear =  - keyText = 6823 -->
+<!-- - keyCalendar = 137 - keyPiece = 6693 - keyText = 6823 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Introitus</rubrique><br /><br />Omnis terra adoret te, Deus,<br />
 et psallat tibi;<br />
@@ -16,7 +16,7 @@ date gloriam laudi eius.
 Lobsinget seinem Namen,<br />
 gebt seinem Lob die Ehre!</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 137 - keyTitle = 5283 - prev_keyPiece = 5923 - keyType = 2 - officeYear =  - keyText = 6043 -->
+<!-- - keyPiece = 5923 - keyText = 6043 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Graduale</rubrique><br /><br />Misit Dominus verbum suum, et sanavit eos :<br />
 et eripuit eos de interitu eorum.
@@ -29,7 +29,7 @@ et mirabilia eius filiis hominum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Preisen sollen sie den Herrn für sein Erbarmen,<br />
 und seine Wunder preisen vor den Menschenkindern.</ion-text></ion-col></ion-row></ion-grid>
 </template>
-<!-- - keyCalendar = 137 - keyTitle = 4850 - prev_keyPiece = 5441 - keyType = 3 - officeYear =  - keyText = 5541 -->
+<!-- - keyPiece = 5441 - keyText = 5541 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Laudate Deum omnes angeli eius :<br />
 laudate eum omnes virtutes eius.
@@ -38,7 +38,7 @@ laudate eum omnes virtutes eius.
 lobt ihn, all seine Scharen (Kräfte).</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 137 - keyTitle = 4645 - prev_keyPiece = 5190 - keyType = 5 - officeYear =  - keyText = 5337 -->
+<!-- - keyPiece = 5190 - keyText = 5337 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Offertorium</rubrique><br /><br />Iubilate Deo universa terra :<br />
 psalmum dicite nomini eius :<br />
@@ -53,7 +53,7 @@ Kommt, und hört und ich will euch erzählen<br />
 wie viel der Herr meinem Leben Gutes getan hat!</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 137 - keyTitle = 4784 - prev_keyPiece = 5355 - keyType = 6 - officeYear = A - keyText = 5464 -->
+<!-- - keyPiece = 5355 - keyText = 5464 -->
  <template v-if=" annoABC == 'A'">
 <rubrique>Communio</rubrique><br /><br />Laetabimur in salutari tuo :<br />
 et in nomine Domini Dei nostri magnificabimur.
@@ -62,7 +62,7 @@ et in nomine Domini Dei nostri magnificabimur.
 und im Namen des Herrn, unsres Gottes, wollen wir uns rühmen.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!-- - keyCalendar = 137 - keyTitle = 2036 - prev_keyPiece = 2253 - keyType = 6 - officeYear = B - keyText = 2302 -->
+<!-- - keyPiece = 2253 - keyText = 2302 -->
  <template v-if=" annoABC == 'B'">
 <rubrique>Communio</rubrique><br /><br />Dicit Andreas Simoni fratri suo :<br />
 invenimus Messiam,<br />
@@ -75,7 +75,7 @@ der Christus genannt wird.„<br />
 Und er führte ihn zu Jesus.</ion-text></ion-col></ion-row></ion-grid>
 
 </template>
-<!--  - keyCalendar = 137 - keyTitle = 2038 - prev_keyPiece = 2255 - keyType = 6 - officeYear = C - keyText = 2305 -->
+<!-- - keyPiece = 2255 - keyText = 2305 -->
  <template v-if=" annoABC == 'C'">
 <rubrique>Communio</rubrique><br /><br />Dicit Dominus :<br />
 implete hydrias aqua<br />
