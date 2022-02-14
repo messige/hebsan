@@ -6,19 +6,18 @@
           <ion-icon :icon="home"></ion-icon>
         </ion-button>
         &nbsp; &nbsp;
-        <ion-button shape="round" size="small" strong href="/Sancta">
+        <ion-button shape="round" size="small" strong href="/HebdomadaSancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
         <br />
         <br />
       </ion-toolbar>
     </ion-header>
-    <ion-content id="container">
-      <p>&nbsp;</p>
-      <br />
+    <ion-content>
+      <div id="container">
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }}
-        <br class="smallScreen" />&nbsp;-&nbsp;Ad Competorium
+        {{ feastCurrent.title }} <br />{{ feastCurrent.titleTR }}
+         <br />Ad Competorium
       </h2>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
         <br />
@@ -88,7 +87,7 @@
             ></ion-col> </ion-row
         ></ion-grid>
         <br />
-        <component :is="officeTempusLiturgicus2.ant" />
+        <component :is="officeTempusLiturgicus2.antLA" />
         <ion-grid
           ><ion-row>
             <ion-col>&nbsp;</ion-col>
@@ -101,7 +100,7 @@
       <p><component :is="objTranslations.ps004" /></p>
       <p><component :is="objTranslations.ps090" /></p>
       <p><component :is="objTranslations.ps133" /></p>
-      <component :is="officeTempusLiturgicus2.ant" />
+      <component :is="officeTempusLiturgicus2.antLA" />
       <ion-grid
         ><ion-row>
           <ion-col>&nbsp;</ion-col>
@@ -181,7 +180,8 @@
               <component :is="officeTempusLiturgicus2.AntMariaTR" /> </ion-text
           ></ion-col> </ion-row
       ></ion-grid>
-      <br />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
@@ -200,17 +200,17 @@ import { useRoute } from "vue-router";
 import { defineAsyncComponent } from "vue";
 import { defineComponent } from "vue";
 import { home, arrowBackSharp } from "ionicons/icons";
-import { getFeast } from "../data/feasts";
+import { getFeast } from "../data/feastsTable";
 import Capitulum from "../components/g75Lectio/CapIerCh14V09.vue";
 import NuncDimittisSineGloria from "../components/g65Psalmodia/NuncDimittisR13SineGloria.vue";
 import Oratio from "../components/g80Oratio/OraHabitationemIstam.vue";
 import DominusVobiscum from "../components/g95InOrdineOfficii/DominusVobiscum.vue";
 import PerDominum from "../components/g80Oratio/PerDominum.vue";
 import Pater from "../components/g95InOrdineOfficii/PaterNosterSilentio.vue";
-import Kyrie from "../components/g95InOrdineOfficii/Kyrie.vue";
+import Kyrie from "../components/g95InOrdineOfficii/KyrieEleison.vue";
 
 export default defineComponent({
-  name: "Completorium",
+  name: "CompletoriumTR",
   components: {
     Capitulum,
     NuncDimittisSineGloria,
@@ -258,11 +258,11 @@ export default defineComponent({
     const arrayOrdine = [
       {
         ordine: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Confitebor.vue")
+          () => import("../components/g95InOrdineOfficii/ConfiteborDeo.vue")
         ),
         ordineTR: defineAsyncComponent(
           () =>
-            import("../components/g95InOrdineOfficii/" + lowerLang + "/Confitebor.vue")
+            import("../components/g95InOrdineOfficii/" + lowerLang + "/ConfiteborDeo.vue")
         ),
       },
       {
@@ -365,7 +365,7 @@ export default defineComponent({
         tempus: "triduum",
         inAdiutoriumFin: null,
         inAdiutoriumFinTR: null,
-        ant: null,
+        antLA: null,
         antTR: null,
         hymnus: null,
         AntMaria: null,
@@ -379,7 +379,7 @@ export default defineComponent({
         inAdiutoriumFinTR: defineAsyncComponent(
           () => import("../components/g95InOrdineOfficii/" + lowerLang + "/LausTibi.vue")
         ),
-        ant: defineAsyncComponent(
+        antLA: defineAsyncComponent(
           () => import("../components/g50Antiphona/" + "AntMiserereMihi.vue")
         ),
         antTR: defineAsyncComponent(
@@ -401,10 +401,10 @@ export default defineComponent({
       {
         tempus: "paschali",
         inAdiutoriumFin: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Alleluia.vue")
+          () => import("../components/g95InOrdineOfficii/AlleluiaWord.vue")
         ),
         inAdiutoriumFinTR: null,
-        ant: defineAsyncComponent(
+        antLA: defineAsyncComponent(
           () =>
             import("../components/g50Antiphona/" + lowerLang + "/AntAlleluiaPasqua.vue")
         ),

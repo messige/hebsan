@@ -6,19 +6,18 @@
           <ion-icon :icon="home"></ion-icon>
         </ion-button>
         &nbsp; &nbsp;
-        <ion-button shape="round" size="small" strong href="/Sancta">
+        <ion-button shape="round" size="small" strong href="/HebdomadaSancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
         <br />
         <br />
       </ion-toolbar>
     </ion-header>
-    <ion-content id="container">
-      <p>&nbsp;</p>
-      <br />
+    <ion-content>
+      <div id="container">
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }}
-        <br class="smallScreen" />&nbsp;&nbsp;- {{ officeCurrent.officeName }}
+        {{ feastCurrent.title }} <br />{{ feastCurrent.titleTR }}
+        <br />{{ officeCurrent.officeName }}
       </h2>
       <br />
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
@@ -117,7 +116,8 @@
                 :is="officeTempusLiturgicus1.benedicamusTR"
               /> </ion-text></ion-col></ion-row
       ></ion-grid>
-      <br />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
@@ -133,8 +133,8 @@ import {
   IonIcon,
 } from "@ionic/vue";
 import { defineAsyncComponent } from "vue";
-import { getFeast } from "../data/feasts";
-import { getOffice } from "../data/offices";
+import { getFeast } from "../data/feastsTable";
+import { getOffice } from "../data/officesTable";
 import { home, arrowBackSharp } from "ionicons/icons";
 import { defineComponent } from "vue";
 
@@ -177,13 +177,13 @@ export default defineComponent({
       {
         psID: 0, //if psCantID not found
         antLA: defineAsyncComponent(
-          () => import("../components/g50Antiphona/Empty.vue")
+          () => import("../components/g50Antiphona/EmptyTemplate.vue")
         ),
         antTR: defineAsyncComponent(
-          () => import("../components/g50Antiphona/" + props.language + "/Empty.vue")
+          () => import("../components/g50Antiphona/" + props.language + "/EmptyTemplate.vue")
         ),
         psalm1TR: defineAsyncComponent(
-          () => import("../components/g65Psalmodia/" + props.language + "/Empty.vue")
+          () => import("../components/g65Psalmodia/" + props.language + "/EmptyTemplate.vue")
         ),
         psalm2TR: null,
       },
@@ -500,7 +500,7 @@ export default defineComponent({
       {
         tempus: "paschali",
         inAdiutoriumFin: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Alleluia.vue")
+          () => import("../components/g95InOrdineOfficii/AlleluiaWord.vue")
         ),
         inAdiutoriumFinTR: null,
       },
@@ -725,7 +725,7 @@ export default defineComponent({
     const arrayFinalHora = [
       {
         kyrie: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Kyrie.vue")
+          () => import("../components/g95InOrdineOfficii/KyrieEleison.vue")
         ),
         pater: defineAsyncComponent(
           () => import("../components/g95InOrdineOfficii/PaterNosterSilentio.vue")

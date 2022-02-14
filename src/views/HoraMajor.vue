@@ -6,28 +6,25 @@
           <ion-icon :icon="home"></ion-icon>
         </ion-button>
         &nbsp; &nbsp;
-        <ion-button shape="round" size="small" strong href="/Sancta">
+        <ion-button shape="round" size="small" strong href="/HebdomadaSancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
-        <br />
-        <br />
       </ion-toolbar>
     </ion-header>
-    <ion-content id="container">
-      <p>&nbsp;</p>
-      <br />
+    <ion-content>
+      <div id="container">
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }} <br />
-        - {{ officeCurrent.officeName }}
+        {{ feastCurrent.titleLA }}<br /> {{ feastCurrent.titleTR }} 
+        <br />{{ officeCurrent.officeName }}
       </h2>
       <component :is="officeInAdiutorium" />
       <p>
         <rubrique>Antiphonae</rubrique><br />
         <template v-for="(thisAnt, antID) in officeAnt" :key="antID">
-          <ImageDisplay :imgSource="thisAnt.ant" />
+          <ImageDisplay :imgSource="thisAnt.antLA" />
           <ImageDisplay :imgSource="thisAnt.ton" />
           <component :is="thisAnt.psalm" />
-          <ImageDisplay :imgSource="thisAnt.ant" /><br />
+          <ImageDisplay :imgSource="thisAnt.antLA" /><br />
         </template>
       </p>
       <p><component :is="officeCapitulum" /></p>
@@ -45,10 +42,10 @@
       <p>
         <rubrique>{{ officeCantRubr }}</rubrique
         ><br />
-        <ImageDisplay :imgSource="officeCant.ant" /> <br />
+        <ImageDisplay :imgSource="officeCant.antLA" /> <br />
         <ImageDisplay :imgSource="officeCant.ton" /> <br />
         <component :is="officeCant.cant" />
-        <ImageDisplay :imgSource="officeCant.ant" /> <br />
+        <ImageDisplay :imgSource="officeCant.antLA" /> <br />
       </p>
       <p><ImageDisplay :imgSource="officeKyrie" /></p>
       <p><component :is="officeOraFinal.Pater" /></p>
@@ -63,7 +60,8 @@
       </p>
       <p><component :is="officeOraFinal.DomVobis" /></p>
       <ImageDisplay :imgSource="officeBenedicamusDom" />
-      <br />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
@@ -84,8 +82,8 @@ import { arrowBackSharp } from "ionicons/icons";
 import ImageDisplay from "@/components/ImageDisplay.vue";
 import { home } from "ionicons/icons";
 import { defineComponent } from "vue";
-import { getFeast } from "../data/feasts";
-import { getOffice } from "../data/offices";
+import { getFeast } from "../data/feastsTable";
+import { getOffice } from "../data/officesTable";
 import { feastOffices } from "../data/horaMajorAnts";
 export default defineComponent({
   name: "HoraMajor",

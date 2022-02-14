@@ -1,23 +1,23 @@
 import { createRouter, createWebHistory } from "@ionic/vue-router";
 import { RouteRecordRaw } from "vue-router";
-import Home from "../views/Home.vue";
+import HomePage from "../views/HomePage.vue";
 const routes: Array<RouteRecordRaw> = [
-  { path: "/", redirect: "/home" },
-  { path: "/home", name: "Home", component: Home },
+  { path: "/", redirect: "/HomePage" },
+  { path: "/HomePage", name: "HomePage", component: HomePage },
   {
-    path: "/abcFeasts",
+    path: "/ABCFeasts",
     name: "ABCFeasts",
     component: () => import("../views/ABCFeasts.vue"),
   },
   {
-    path: "/sancta",
-    name: "Sancta",
-    component: () => import("../views/Sancta.vue"),
+    path: "/HebdomadaSancta",
+    name: "HebdomadaSancta",
+    component: () => import("../views/HebdomadaSancta.vue"),
   },
   {
-    path: "/about",
-    name: "About",
-    component: () => import("../views/About.vue"),
+    path: "/AboutPage",
+    name: "AboutPage",
+    component: () => import("../views/AboutPage.vue"),
   },
   {
     path: "/OfficeList/HoraMajor/:feast/:office",
@@ -45,9 +45,9 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     // path: "/Completorium/:feast",
-    path: "/Completorium",
-    name: "Completorium",
-    component: () => import("../views/Completorium.vue"),
+    path: "/AdCompletorium",
+    name: "AdCompletorium",
+    component: () => import("../views/AdCompletorium.vue"),
     props: true,
   },
   {
@@ -57,9 +57,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("../views/CompletoriumTR.vue"),
     props: true,
   },
-  { path: "/toni", name: "Toni", component: () => import("../views/Toni.vue") },
+  { path: "/ToniCommunes", 
+    name: "ToniCommunes", 
+    component: () => import("../views/ToniCommunes.vue") 
+  },
   {
-    path: "/officeList",
+    path: "/OfficeList",
     name: "OfficeList",
     component: () => import("../views/OfficeList.vue"),
     props: true,

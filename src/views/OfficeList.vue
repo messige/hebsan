@@ -1,12 +1,13 @@
 <template>
   <ion-page>
-    <ion-content id="container">
+    <ion-content>
+      <div id="container">
       <p>&nbsp;</p>
       <br />
-      <h2>{{ title }} - {{ titleTR }}</h2>
+      <h2>{{ titleLA }} - {{ titleTR }}</h2>
       <ion-list>
         <template v-for="officeItem in OfficeItems" :key="officeItem.id">
-          <template v-if="officeItem.feasts[feastID] == 1">
+          <template v-if="officeItem.arrayFeasts[feastID] == 1">
             <ion-item>
               <router-link
                 :to="{
@@ -37,31 +38,32 @@
         </template>
       </ion-list>
       <ion-list>
-        <routerLink :to="{ name: 'Toni' }">
-          <ion-label class="ion-text-wrap">
-            <h2>
-              Toni Communes - Tons communs <ion-icon :icon="chevronForward"></ion-icon>
-            </h2>
-          </ion-label>
-        </routerLink>
+        <p>
+          <strong>
+            <router-link to="/ToniCommunes"
+              >Toni Communes - {{ useTranslate("tonCom", lang) }}</router-link
+            >
+          </strong>
+        </p>
       </ion-list>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
 
 <script lang="ts">
 import { IonPage, IonContent } from "@ionic/vue";
-import { getOffices } from "../data/offices";
+import { getOffices } from "../data/officesTable";
 import { chevronForward } from "ionicons/icons";
 import { defineComponent } from "vue";
+import useTranslate from "../components/ts/translateService";
 export default defineComponent({
   name: "OfficeList",
   components: { IonPage, IonContent },
   props: {
     feastID: { type: Number, required: true },
-    title: { type: String, required: true },
+    titleLA: { type: String, required: true },
     titleTR: { type: String, required: true },
   },
   setup() {
@@ -71,7 +73,7 @@ export default defineComponent({
       lang = language;
     }
     const langUpper = lang.toUpperCase();
-    return { OfficeItems: getOffices(), chevronForward, lang, langUpper };
+    return { useTranslate, OfficeItems: getOffices(), chevronForward, lang, langUpper };
   },
 });
 </script>

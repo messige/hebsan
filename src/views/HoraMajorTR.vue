@@ -6,19 +6,18 @@
           <ion-icon :icon="home"></ion-icon>
         </ion-button>
         &nbsp; &nbsp;
-        <ion-button shape="round" size="small" strong href="/Sancta">
+        <ion-button shape="round" size="small" strong href="/HebdomadaSancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
         <br />
         <br />
       </ion-toolbar>
     </ion-header>
-    <ion-content id="container">
-      <p>&nbsp;</p>
-      <br />
+    <ion-content>
+      <div id="container">
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }} <br class="smallScreen" />
-        - {{ officeCurrent.officeName }}
+        {{ feastCurrent.title }}<br />{{ feastCurrent.titleTR }} 
+        <br />{{ officeCurrent.officeName }}
       </h2>
       <br />
       <component :is="officeInAdiutorium.inAdiutorium" />
@@ -148,7 +147,8 @@
                 :is="officeBenedicamusDom.benedicamusDomTR"
               /> </ion-text></ion-col></ion-row
       ></ion-grid>
-      <br />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
@@ -167,8 +167,8 @@ import {
   IonText,
 } from "@ionic/vue";
 import { defineAsyncComponent } from "vue";
-import { getFeast } from "../data/feasts";
-import { getOffice } from "../data/offices";
+import { getFeast } from "../data/feastsTable";
+import { getOffice } from "../data/officesTable";
 import { arrowBackSharp, home } from "ionicons/icons";
 import { defineComponent } from "vue";
 
@@ -234,7 +234,7 @@ export default defineComponent({
       },
       {
         inAdiutoriumFin: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Alleluia.vue")
+          () => import("../components/g95InOrdineOfficii/AlleluiaWord.vue")
         ),
         inAdiutoriumFinTR: null,
       },
@@ -268,25 +268,25 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/Empty.vue")
+              () => import("../components/g50Antiphona/EmptyTemplate.vue")
             ),
             antTR: defineAsyncComponent(
-              () => import("../components/g50Antiphona/" + props.language + "/Empty.vue")
+              () => import("../components/g50Antiphona/" + props.language + "/EmptyTemplate.vue")
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Empty.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/EmptyTemplate.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/Empty.vue")
+            () => import("../components/g50Antiphona/EmptyTemplate.vue")
           ),
           antTR: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + props.language + "/Empty.vue")
+            () => import("../components/g50Antiphona/" + props.language + "/EmptyTemplate.vue")
           ),
           cantTR: defineAsyncComponent(
-            () => import("../components/g65Psalmodia/" + props.language + "/Empty.vue")
+            () => import("../components/g65Psalmodia/" + props.language + "/EmptyTemplate.vue")
           ),
         },
       },
@@ -1954,7 +1954,7 @@ export default defineComponent({
       { kyrieAnt: null, kyrieAntTR: null },
       {
         kyrieAnt: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Kyrie.vue")
+          () => import("../components/g95InOrdineOfficii/KyrieEleison.vue")
         ),
         kyrieAntTR: null,
       },

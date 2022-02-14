@@ -6,19 +6,18 @@
           <ion-icon :icon="home"></ion-icon>
         </ion-button>
         &nbsp; &nbsp;
-        <ion-button shape="round" size="small" strong href="/Sancta">
+        <ion-button shape="round" size="small" strong href="/HebdomadaSancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
         <br />
         <br />
       </ion-toolbar>
     </ion-header>
-    <ion-content id="container">
-      <p>&nbsp;</p>
-      <br />
+    <ion-content>
+      <div id="container">
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }}
-        <br class="smallScreen" />&nbsp;-&nbsp;{{ OfficeTitle }}
+        {{ feastCurrent.title }}<br />{{ feastCurrent.titleTR }}
+        <br />{{ OfficeTitle }}
       </h2>
       <br />
       <template v-if="feastNum < 5">
@@ -57,7 +56,8 @@
       </p>
       <p><component :is="officeFinalHora.vobiscum" /></p>
       <p><ImageDisplay :imgSource="officeTemporumLiturgicorum.benedicamus" /></p>
-      <br />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
@@ -78,7 +78,7 @@ import { defineAsyncComponent } from "vue";
 import { home, arrowBackSharp } from "ionicons/icons";
 import ImageDisplay from "../components/ImageDisplay.vue";
 import { defineComponent } from "vue";
-import { getFeast } from "../data/feasts";
+import { getFeast } from "../data/feastsTable";
 
 export default defineComponent({
   name: "HoraMinor",
