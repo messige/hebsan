@@ -3,9 +3,11 @@
     <rubrique>Canticum trium puerorum - Dn 3, 57-88 et 56</rubrique>
 <table id="CantTriumPuerorum">
 <tr><td><rubrique>1&nbsp;</rubrique></td>
-<td>Benedícite, ómnia ópera Dómini, Dómino <greStar /><br class="smallScreen" />laudáte et superexaltáte eum in sǽcula.</td></tr>
+<td>Benedícite, ómnia ópera Dómini, Dómino <greStar /><br />
+laudáte et superexaltáte eum in sǽcula.</td></tr>
 <tr class="trad"><td>&nbsp;</td>
-<td>Ouvrages du Seigneur, bénissez tous le Seigneur<br class="smallScreen" />louez-Le et exaltez-Le dans tous les siècles.</td>
+<td>Ouvrages du Seigneur, bénissez tous le Seigneur<br />
+louez-Le et exaltez-Le dans tous les siècles.</td>
 </tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Benedícite, ángeli Dómini, Dómino <greStar /><br class="smallScreen" />benedícite, cæli Dómino.</td></tr>
@@ -25,34 +27,46 @@ toutes les vertus du Seigneur, bénissez le Seigneur.</td>
 Soleil et lune, bénissez le Seigneur<br class="smallScreen" />étoiles du ciel, bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>5</rubrique></td>
-<td>Benedícite, omnis imber et ros, Dómino <greStar /><br class="smallScreen" />benedícite, omnes spíritus Dei, Dómino.</td></tr>
+<td>Benedícite, omnis imber et ros, Dómino <greStar /><br />
+benedícite, omnes spíritus Dei, Dómino.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Pluies et rosées, bénissez toutes le Seigneur<br class="smallScreen" />tous les souffles de Dieu, bénissez le Seigneur.</td>
+Pluies et rosées, bénissez toutes le Seigneur<br />
+tous les souffles de Dieu, bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>Benedícite, ignis et æstus, Dómino <greStar /><br class="smallScreen" />benedícite, frigus et æstus, Dómino.</td></tr>
+<td>Benedícite, ignis et æstus, Dómino <greStar /><br />
+benedícite, frigus et æstus, Dómino.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Feu et chaleur, bénissez le Seigneur<br class="smallScreen" />froid et chaleur, bénissez le Seigneur.</td>
+Feu et chaleur, bénissez le Seigneur<br />
+froid et chaleur, bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>7</rubrique></td>
-<td>Benedícite, rores et pruína, Dómino <greStar /><br class="smallScreen" />benedícite, gelu et frigus, Dómino.</td></tr>
+<td>Benedícite, rores et pruína, Dómino <greStar /><br />
+benedícite, gelu et frigus, Dómino.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Rosées et bruine, bénissez le Seigneur<br class="smallScreen" />gelée et froid, bénissez le Seigneur.</td>
+Rosées et bruine, bénissez le Seigneur<br />
+gelée et froid, bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>8</rubrique></td>
-<td>Benedícite, glácies et nives, Dómino <greStar /><br class="smallScreen" />benedícite, noctes et dies, Dómino.</td></tr>
+<td>Benedícite, glácies et nives, Dómino <greStar /><br />
+benedícite, noctes et dies, Dómino.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Glaces et neiges, bénissez le Seigneur ; nuits et jours, bénissez le Seigneur.</td>
+Glaces et neiges, bénissez le Seigneur ;<br />
+nuits et jours, bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>9</rubrique></td>
-<td>Benedícite, lux et ténebræ, Dómino <greStar /><br class="smallScreen" />benedícite, fúlgura et nubes, Dómino.</td></tr>
+<td>Benedícite, lux et ténebræ, Dómino <greStar /><br />
+benedícite, fúlgura et nubes, Dómino.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Lumière et ténèbres, bénissez le Seigneur<br class="smallScreen" />éclairs et nuages, bénissez le Seigneur.</td>
+Lumière et ténèbres, bénissez le Seigneur<br />
+éclairs et nuages, bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>10&nbsp;</rubrique></td>
-<td>Benedícat terra Dóminum <greStar /><br class="smallScreen" />laudet et superexáltet eum in sǽcula.</td></tr>
+<td>Benedícat terra Dóminum <greStar /><br class="smallScreen" />
+laudet et superexáltet eum in sǽcula.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Que la terre bénisse le Seigneur<br class="smallScreen" />qu'elle Le loue et qu'elle L'exalte dans tous les siècles.</td>
+Que la terre bénisse le Seigneur<br />
+qu'elle Le loue et qu'elle L'exalte dans tous les siècles.</td>
 </tr>
 <tr><td><rubrique>11</rubrique></td>
 <td>Benedícite, montes et colles, Dómino <greStar /><br />
@@ -70,34 +84,44 @@ Fontaines, bénissez le Seigneur<br class="smallScreen" />mers et fleuves, béni
 <td>Benedícite, cete et ómnia quæ movéntur in aquis, Dómino <greStar /><br />
 benedícite omnes vólucres cæli Dómino.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Grands poissons et tout ce qui se meut dans les eaux, bénissez le Seigneur<br />
+Grands poissons et tout ce qui se meut dans les eaux,<br />
+bénissez le Seigneur<br />
 tous les oiseaux du ciel, bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>14</rubrique></td>
-<td>Benedícite, omnes béstiæ et pécora, Dómino <greStar /><br class="smallScreen" />benedícite, fílii hóminum, Dómino.</td></tr>
+<td>Benedícite, omnes béstiæ et pécora, Dómino <greStar /><br />
+benedícite, fílii hóminum, Dómino.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Bêtes et troupeaux sauvages, bénissez tous le Seigneur<br class="smallScreen" />enfants des hommes bénissez le Seigneur.</td>
+Bêtes et troupeaux sauvages, bénissez tous le Seigneur<br />
+enfants des hommes bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>15</rubrique></td>
-<td>Benedícat Israel Dóminum <greStar /><br class="smallScreen" />laudet et superexáltet eum in sǽcula.</td></tr>
+<td>Benedícat Israel Dóminum <greStar /><br class="smallScreen" />
+laudet et superexáltet eum in sǽcula.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Qu'Israël bénisse le Seigneur<br class="smallScreen" />qu'il Le loue et L'exalte dans tous les siècles.</td>
+Qu'Israël bénisse le Seigneur<br />
+qu'il Le loue et L'exalte dans tous les siècles.</td>
 </tr>
 <tr><td><rubrique>16</rubrique></td>
-<td>Benedícite, sacerdótes Dómini, Dómino <greStar /><br class="smallScreen" />benedícite, servi Dómini, Dómino.</td></tr>
+<td>Benedícite, sacerdótes Dómini, Dómino <greStar /><br />
+benedícite, servi Dómini, Dómino.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Prêtres du Seigneur, bénissez le Seigneur<br class="smallScreen" />serviteurs du Seigneur, bénissez le Seigneur.</td>
+Prêtres du Seigneur, bénissez le Seigneur<br />
+serviteurs du Seigneur, bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>17</rubrique></td>
-<td>Benedícite, spíritus et ánimæ iustórum, Dómino <greStar /><br />benedícite, sancti et húmiles corde, Dómino.</td></tr>
+<td>Benedícite, spíritus et ánimæ iustórum, Dómino <greStar /><br />
+benedícite, sancti et húmiles corde, Dómino.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
 Esprits et âmes des justes, bénissez le Seigneur<br />
 saints et humbles de cœur, bénissez le Seigneur.</td>
 </tr>
 <tr><td><rubrique>18</rubrique></td>
-<td>Benedícite, Ananía, Azaría, Mísael, Dómino <greStar /><br class="smallScreen" />laudáte et superexaltáte eum in sǽcula.</td></tr>
+<td>Benedícite, Ananía, Azaría, Mísael, Dómino <greStar /><br />
+laudáte et superexaltáte eum in sǽcula.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Ananias, Azarias et Misaël, bénissez le Seigneur<br class="smallScreen" />louez-Le et exaltez-Le dans tous les siècles.</td>
+Ananias, Azarias et Misaël, bénissez le Seigneur<br />
+louez-Le et exaltez-Le dans tous les siècles.</td>
 </tr>
 <tr><td><rubrique>19</rubrique></td>
 <td>Benedicámus Patrem et Fílium cum Sancto Spíritu <greStar /><br />

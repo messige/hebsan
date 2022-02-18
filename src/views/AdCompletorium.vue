@@ -99,15 +99,15 @@ import {
 import { defineComponent } from "vue";
 import { defineAsyncComponent } from "vue";
 import { useRoute } from "vue-router";
-import ImageDisplay from "../components/ImageDisplay.vue";
+import ImageDisplay from "../components/vue/ImageDisplay.vue";
 import { home, arrowBackSharp } from "ionicons/icons";
 import { getFeast } from "../data/feastsTable";
-import Confitebor from "../components/g95InOrdineOfficii/ConfiteborDeo.vue";
-import Capitulum from "../components/g75Lectio/CapIerCh14V09.vue";
-import NuncDimittisSineGloria from "../components/g65Psalmodia/NuncDimittisR13SineGloria.vue";
-import Oratio from "../components/g80Oratio/OraHabitationemIstam.vue";
-import DominusVobiscum from "../components/g95InOrdineOfficii/DominusVobiscum.vue";
-import OratioConclusio from "../components/g80Oratio/PerDominum.vue";
+import Confitebor from "../components/g95InOrdineOfficii/la/ConfiteborDeo.vue";
+import Capitulum from "../components/g75Lectio/la/CapIerCh14V09.vue";
+import NuncDimittisSineGloria from "../components/g65Psalmodia/la/NuncDimittisR13SineGloria.vue";
+import Oratio from "../components/g80Oratio/la/OraHabitationemIstam.vue";
+import DominusVobiscum from "../components/g95InOrdineOfficii/la/DominusVobiscum.vue";
+import OratioConclusio from "../components/g80Oratio/la/PerDominum.vue";
 
 export default defineComponent({
   name: "AdCompletorium",
@@ -140,13 +140,13 @@ export default defineComponent({
         fratres: null,
         ton: require("../assets/g70Tonus/Tonus13Fc.jpg"), // tonus in directum
         ps004: defineAsyncComponent(
-          () => import("../components/g65Psalmodia/Ps004R13SineGloria.vue")
+          () => import("../components/g65Psalmodia/la/Ps004R13SineGloria.vue")
         ),
         ps090: defineAsyncComponent(
-          () => import("../components/g65Psalmodia/Ps090R13SineGloria.vue")
+          () => import("../components/g65Psalmodia/la/Ps090R13SineGloria.vue")
         ),
         ps133: defineAsyncComponent(
-          () => import("../components/g65Psalmodia/Ps133R13SineGloria.vue")
+          () => import("../components/g65Psalmodia/la/Ps133R13SineGloria.vue")
         ),
         aveRegina: null,
         benedicamus: null,
@@ -157,13 +157,13 @@ export default defineComponent({
         fratres: require("../assets/g75Lectio/FratresSobrii.jpg"),
         ton: require("../assets/g70Tonus/Tonus08Fg.jpg"),
         ps004: defineAsyncComponent(
-          () => import("../components/g65Psalmodia/Ps004R03.vue")
+          () => import("../components/g65Psalmodia/la/Ps004R03.vue")
         ),
         ps090: defineAsyncComponent(
-          () => import("../components/g65Psalmodia/Ps090R03.vue")
+          () => import("../components/g65Psalmodia/la/Ps090R03.vue")
         ),
         ps133: defineAsyncComponent(
-          () => import("../components/g65Psalmodia/Ps133R03.vue")
+          () => import("../components/g65Psalmodia/la/Ps133R03.vue")
         ),
         aveRegina: require("../assets/g50Antiphona/AntAveReginaSimplex.jpg"),
         benedicamus: require("../assets/g95InOrdineOfficii/BenedicamusDomSimplex.jpg"),

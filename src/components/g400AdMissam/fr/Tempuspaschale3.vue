@@ -40,9 +40,10 @@ et ressuscitât d’entre les morts.</ion-text></ion-col></ion-row></ion-grid>
 laudabo Dominum in vita mea :<br />
 psallam Deo meo, quamdiu ero.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Loue, mon âme, le Seigneur ;<br />
-je louerai le Seigneur durant ma vie :<br />
-je psalmodierai pour mon Dieu aussi longtemps que je serai.</ion-text></ion-col></ion-row></ion-grid>
+<ion-text color="tertiary">Loue le Seigneur, ô mon âme ;<br />
+je louerai le Seigneur durant ma vie,<br />
+je chanterai pour mon Dieu tant que je vi- 
+vrai. </ion-text></ion-col></ion-row></ion-grid>
 
 </template>
 <!-- - keyPiece = 8891 - keyText = 9103 -->

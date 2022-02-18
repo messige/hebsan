@@ -26,8 +26,9 @@ par son Esprit qui habite en nous.</ion-text></ion-col></ion-row></ion-grid>
 
  <!-- textType = P keyText = 1106 -->Ps. Benedic anima mea Domino :<br />
 et omnia quae intra me sunt, nomini santo eius.
-<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Bénis, mon âme, le Seigneur :<br />
-et tout ce qui est en moi, son saint nom.</ion-text></ion-col></ion-row></ion-grid>
+<ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Bénis le Seigneur, ô mon âme,<br /> 
+et que tout ce qui est au-dedans 
+de moi bénisse son saint nom.</ion-text></ion-col></ion-row></ion-grid>
 </template>
 <!-- - keyPiece = 1176 - keyText = 1204 -->
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">

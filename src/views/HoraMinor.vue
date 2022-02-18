@@ -16,7 +16,7 @@
     <ion-content>
       <div id="container">
       <h2>
-        {{ feastCurrent.title }}<br />{{ feastCurrent.titleTR }}
+        {{ feastCurrent.titleLA }}<br />{{ feastCurrent.titleTR }}
         <br />{{ OfficeTitle }}
       </h2>
       <br />
@@ -76,7 +76,7 @@ import {
 import { useRoute } from "vue-router";
 import { defineAsyncComponent } from "vue";
 import { home, arrowBackSharp } from "ionicons/icons";
-import ImageDisplay from "../components/ImageDisplay.vue";
+import ImageDisplay from "../components/vue/ImageDisplay.vue";
 import { defineComponent } from "vue";
 import { getFeast } from "../data/feastsTable";
 
@@ -106,7 +106,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntPueriVestimenta.jpg"),
             tonus: require("../assets/g70Tonus/Tonus01Ff.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D01-04R18.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D01-04R18.vue")
             ),
           },
           {
@@ -114,7 +114,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntTibiRevelavi.jpg"),
             tonus: require("../assets/g70Tonus/Tonus10Fb.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D05-08R10.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D05-08R10.vue")
             ),
           },
           {
@@ -122,7 +122,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntInvocaboNomen.jpg"),
             tonus: require("../assets/g70Tonus/Tonus10Fb.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D09-12R10.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D09-12R10.vue")
             ),
           },
         ],
@@ -134,7 +134,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntFrameaSuscitare.jpg"),
             tonus: require("../assets/g70Tonus/Tonus02Fd.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D13-16R01.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D13-16R01.vue")
             ),
           },
           {
@@ -142,7 +142,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntAppenderuntMercedem.jpg"),
             tonus: require("../assets/g70Tonus/Tonus41Fe.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D17-19R08.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D17-19R08.vue")
             ),
           },
           {
@@ -150,7 +150,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntLabiaInsurgentium.jpg"),
             tonus: require("../assets/g70Tonus/Tonus08Fg.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D20-22R03.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D20-22R03.vue")
             ),
           },
         ],
@@ -162,7 +162,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntAnteDiem.jpg"),
             tonus: require("../assets/g70Tonus/Tonus01Ff.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D13-16R01.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D13-16R01.vue")
             ),
           },
           {
@@ -170,7 +170,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntPotestatemHabeo.jpg"),
             tonus: require("../assets/g70Tonus/Tonus09Fb.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D17-19R08.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D17-19R08.vue")
             ),
           },
           {
@@ -178,7 +178,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntPotestatemHabeo.jpg"),
             tonus: require("../assets/g70Tonus/Tonus09Fb.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D20-22R03.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D20-22R03.vue")
             ),
           },
         ],
@@ -190,7 +190,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntIpsiVero.jpg"),
             tonus: require("../assets/g70Tonus/Tonus02Fd.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D13-16R01.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D13-16R01.vue")
             ),
           },
           {
@@ -198,7 +198,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/AntAppenderuntMercedem.jpg"),
             tonus: require("../assets/g70Tonus/Tonus41Fe.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D17-19R08.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D17-19R08.vue")
             ),
           },
           {
@@ -206,7 +206,7 @@ export default defineComponent({
             antiphona: require("../assets/g50Antiphona/ANTLiberaMeDeSanguinibus.jpg"),
             tonus: require("../assets/g70Tonus/Tonus08Fg.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D20-22R03.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D20-22R03.vue")
             ),
           },
         ],
@@ -218,7 +218,7 @@ export default defineComponent({
             antiphona: null,
             tonus: require("../assets/g70Tonus/Tonus13Fc.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D01-08R13.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D01-08R13.vue")
             ),
           },
           {
@@ -226,7 +226,7 @@ export default defineComponent({
             antiphona: null,
             tonus: require("../assets/g70Tonus/Tonus13Fc.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D09-16R13.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D09-16R13.vue")
             ),
           },
           {
@@ -234,7 +234,7 @@ export default defineComponent({
             antiphona: null,
             tonus: require("../assets/g70Tonus/Tonus13Fc.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D17-22R13.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D17-22R13.vue")
             ),
           },
         ],
@@ -246,7 +246,7 @@ export default defineComponent({
             antiphona: null,
             tonus: require("../assets/g70Tonus/Tonus13Fc.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D13-16R01.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D13-16R01.vue")
             ),
           },
           {
@@ -254,7 +254,7 @@ export default defineComponent({
             antiphona: null,
             tonus: require("../assets/g70Tonus/Tonus13Fc.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D17-19R08.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D17-19R08.vue")
             ),
           },
           {
@@ -262,7 +262,7 @@ export default defineComponent({
             antiphona: null,
             tonus: require("../assets/g70Tonus/Tonus13Fc.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D20-22R03.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D20-22R03.vue")
             ),
           },
         ],
@@ -274,7 +274,7 @@ export default defineComponent({
             antiphona: null,
             tonus: require("../assets/g70Tonus/Tonus13Fc.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D13-16R01.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D13-16R01.vue")
             ),
           },
           {
@@ -282,7 +282,7 @@ export default defineComponent({
             antiphona: null,
             tonus: require("../assets/g70Tonus/Tonus13Fc.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D17-19R08.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D17-19R08.vue")
             ),
           },
           {
@@ -290,7 +290,7 @@ export default defineComponent({
             antiphona: null,
             tonus: require("../assets/g70Tonus/Tonus13Fc.jpg"),
             psalm: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/Ps118D20-22R03.vue")
+              () => import("../components/g65Psalmodia/la/Ps118D20-22R03.vue")
             ),
           },
         ],
@@ -373,15 +373,15 @@ export default defineComponent({
     }
     const arrayCapitulum = [
       null,
-      defineAsyncComponent(() => import("../components/g75Lectio/CapPhilCh02V05.vue")), // Dom. in Palmis Ad Tertiam
-      defineAsyncComponent(() => import("../components/g75Lectio/CapPhilCh02V08.vue")), // Dom. in Palmis Ad Sextam
-      defineAsyncComponent(() => import("../components/g75Lectio/CapPhilCh02V10.vue")), // Dom. in Palmis Ad Nonam
-      defineAsyncComponent(() => import("../components/g75Lectio/CapIerCh17V13.vue")), // Hebdomada Sancta Ad Tertiam
-      defineAsyncComponent(() => import("../components/g75Lectio/CapIerCh17V18.vue")), // Hebdomada Sancta Ad Sextam
-      defineAsyncComponent(() => import("../components/g75Lectio/CapIerCh18V20.vue")),
-      defineAsyncComponent(() => import("../components/g75Lectio/XFactusEstFeria5.vue")), // Feria V
-      defineAsyncComponent(() => import("../components/g75Lectio/XFactusEstFeria6.vue")), // Feria VI
-      defineAsyncComponent(() => import("../components/g75Lectio/XFactusEstFeria7.vue")),
+      defineAsyncComponent(() => import("../components/g75Lectio/la/CapPhilCh02V05.vue")), // Dom. in Palmis Ad Tertiam
+      defineAsyncComponent(() => import("../components/g75Lectio/la/CapPhilCh02V08.vue")), // Dom. in Palmis Ad Sextam
+      defineAsyncComponent(() => import("../components/g75Lectio/la/CapIerCh18V20.vue")), // Dom. in Palmis Ad Nonam
+      defineAsyncComponent(() => import("../components/g75Lectio/la/CapIerCh17V13.vue")), // Hebdomada Sancta Ad Tertiam
+      defineAsyncComponent(() => import("../components/g75Lectio/la/CapIerCh17V18.vue")), // Hebdomada Sancta Ad Sextam
+      defineAsyncComponent(() => import("../components/g75Lectio/la/CapIerCh18V20.vue")),
+      defineAsyncComponent(() => import("../components/g75Lectio/la/XFactusEstFeria5.vue")), // Feria V
+      defineAsyncComponent(() => import("../components/g75Lectio/la/XFactusEstFeria6.vue")), // Feria VI
+      defineAsyncComponent(() => import("../components/g75Lectio/la/XFactusEstFeria7.vue")),
     ]; // Feria VII      // Dom. in Palmis Ad Nonam
     i = 0;
     if (feastNum == 1) {
@@ -395,36 +395,36 @@ export default defineComponent({
 
     const arrayOratioConclusio = [
       null,
-      defineAsyncComponent(() => import("@/components/g80Oratio/PerEundemDominum.vue")),
-      defineAsyncComponent(() => import("@/components/g80Oratio/PerDominum.vue")),
-      defineAsyncComponent(() => import("@/components/g80Oratio/QuiTecum.vue")),
+      defineAsyncComponent(() => import("@/components/g80Oratio/la/PerEundemDominum.vue")),
+      defineAsyncComponent(() => import("@/components/g80Oratio/la/PerDominum.vue")),
+      defineAsyncComponent(() => import("@/components/g80Oratio/la/QuiTecum.vue")),
     ];
     const arrayOratio = [
       { corpus: null, conclusio: 0 },
       {
         corpus: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraQuiHumanoGeneri.vue")  // Dom. in Palmis
+          () => import("../components/g80Oratio/la/OraQuiHumanoGeneri.vue")  // Dom. in Palmis
         ), // Dom. in Palmis
         conclusio: 1,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraUtQuiInTot.vue")), // Feria II
+          () => import("../components/g80Oratio/la/OraUtQuiInTot.vue")), // Feria II
         conclusio: 3,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraDaNobisIta.vue")), // Feria III
+          () => import("../components/g80Oratio/la/OraDaNobisIta.vue")), // Feria III
         conclusio: 1,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraUtQuiNostri.vue")), // Feria IV
+          () => import("../components/g80Oratio/la/OraUtQuiNostri.vue")), // Feria IV
         conclusio: 3,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraSuperHancFamiliamTriduo.vue")), // Feriae V, VI, VII
+          () => import("../components/g80Oratio/la/OraSuperHancFamiliamTriduo.vue")), // Feriae V, VI, VII
         conclusio: 3,
       },
     ];
@@ -443,13 +443,13 @@ export default defineComponent({
           () => import("../components/g95InOrdineOfficii/img/PaterNosterSilentio.vue")
         ),
         vobiscum: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/DominusVobiscum.vue")
+          () => import("../components/g95InOrdineOfficii/la/DominusVobiscum.vue")
         ),
       },
       {
         kyrie: null,
         pater: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/PaterNosterTriduum.vue")
+          () => import("../components/g95InOrdineOfficii/la/PaterNosterTriduum.vue")
         ),
         vobiscum: null,
       },

@@ -41,7 +41,7 @@
 <script setup lang="ts">
 import { home } from "ionicons/icons";
 import getYear from "date-fns/getYear";
-import CalendariumFeast from "@/components/CalendariumFeast.vue";
+import CalendariumFeast from "@/components/vue/CalendariumFeast.vue";
 
 const today = new Date(); //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
 const civilYearPlus1 = getYear(today) + 1;
