@@ -16,6 +16,3 @@ export default defineComponent({
   }
 });
 </script>
-<style>
-  @import './components/css/officii.css';
-</style>
