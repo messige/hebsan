@@ -65,12 +65,10 @@
   import { reactive } from "vue";
   import useTranslate from "../components/ts/translateService";
   import { chevronForward } from "ionicons/icons";
-const language = reactive({
-    abbrev: "fr",
-  });
-
+  const language = reactive({
+      abbrev: "fr",
+    });
   //localStorage.removeItem("lang") ;
-
   function setLang(target: string): void {
     localStorage.setItem("lang", target);
     language.abbrev = target;
