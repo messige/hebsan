@@ -262,7 +262,7 @@ export default defineComponent({
         ),
         ordineTr: defineAsyncComponent(
           () =>
-            import("../components/g95InOrdineOfficii/la/" + lowerLang + "/ConfiteborDeo.vue")
+            import("../components/g95InOrdineOfficii/" + lowerLang + "/ConfiteborDeo.vue")
         ),
       },
       {
@@ -271,7 +271,7 @@ export default defineComponent({
         ),
         ordineTr: defineAsyncComponent(
           () =>
-            import("../components/g95InOrdineOfficii/la/" + lowerLang + "/MisereaturNostri.vue")
+            import("../components/g95InOrdineOfficii/" + lowerLang + "/MisereaturNostri.vue")
         ),
       },
       {
@@ -281,7 +281,7 @@ export default defineComponent({
         ordineTr: defineAsyncComponent(
           () =>
             import(
-              "../components/g95InOrdineOfficii/la/" + lowerLang + "/AdiutoriumNostrum.vue"
+              "../components/g95InOrdineOfficii/" + lowerLang + "/AdiutoriumNostrum.vue"
             )
         ),
       },
@@ -291,7 +291,7 @@ export default defineComponent({
         ),
         ordineTr: defineAsyncComponent(
           () =>
-            import("../components/g95InOrdineOfficii/la/" + lowerLang + "/ConverteNos.vue")
+            import("../components/g95InOrdineOfficii/" + lowerLang + "/ConverteNos.vue")
         ),
       },
     ];
@@ -317,7 +317,7 @@ export default defineComponent({
           () => import("../components/g95InOrdineOfficii/la/" + "IubeDomne.vue")
         ),
         iubeTr: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/la/" + lowerLang + "/IubeDomne.vue")
+          () => import("../components/g95InOrdineOfficii/" + lowerLang + "/IubeDomne.vue")
         ),
         fratres: defineAsyncComponent(
           () => import("../components/g75Lectio/la/" + "Petr1Ch05V08.vue")
@@ -330,7 +330,7 @@ export default defineComponent({
         ),
         inAdiutoriumTr: defineAsyncComponent(
           () =>
-            import("../components/g95InOrdineOfficii/la/" + lowerLang + "/InAdiutorium.vue")
+            import("../components/g95InOrdineOfficii/" + lowerLang + "/InAdiutorium.vue")
         ),
         responsum: defineAsyncComponent(
           () => import("../components/g55Responsum/" + "RepInManusTuas.vue")
@@ -350,7 +350,7 @@ export default defineComponent({
         benedicamusTr: defineAsyncComponent(
           () =>
             import(
-              "../components/g95InOrdineOfficii/la/" + lowerLang + "/BenedicamusDom.vue"
+              "../components/g95InOrdineOfficii/" + lowerLang + "/BenedicamusDom.vue"
             )
         ),
       },
@@ -377,7 +377,7 @@ export default defineComponent({
           () => import("../components/g95InOrdineOfficii/la/" + "LausTibi.vue")
         ),
         inAdiutoriumFinTr: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/la/" + lowerLang + "/LausTibi.vue")
+          () => import("../components/g95InOrdineOfficii/" + lowerLang + "/LausTibi.vue")
         ),
         antLA: defineAsyncComponent(
           () => import("../components/g50Antiphona/la/" + "AntMiserereMihi.vue")

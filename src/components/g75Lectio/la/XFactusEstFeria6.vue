@@ -1,6 +1,8 @@
 ﻿<template>
     <p>
         <rubrique>Flexis génibus</rubrique><br />
-        Christus factus est pro nobis obédiens usque ad mortem, mortem autem crucis.
+        Christus factus est pro nobis<br />
+        obédiens usque ad mortem,<br />
+        mortem autem crucis.
     </p>
 </template>

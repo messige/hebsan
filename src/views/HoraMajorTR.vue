@@ -213,7 +213,7 @@ export default defineComponent({
         ),
         inAdiutoriumTR: defineAsyncComponent(
           () =>
-            import("../components/g95InOrdineOfficii/la/" + language + "/InAdiutorium.vue")
+            import("../components/g95InOrdineOfficii/" + language + "/InAdiutorium.vue")
         ),
       },
     ];
@@ -229,7 +229,7 @@ export default defineComponent({
           () => import("../components/g95InOrdineOfficii/la/LausTibi.vue")
         ),
         inAdiutoriumFinTR: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/la/" + language + "/LausTibi.vue")
+          () => import("../components/g95InOrdineOfficii/" + language + "/LausTibi.vue")
         ),
       },
       {
@@ -2033,7 +2033,7 @@ export default defineComponent({
         ),
         benedicamusDomTR: defineAsyncComponent(
           () =>
-            import("../components/g95InOrdineOfficii/la/" + language + "/BenedicamusDom.vue")
+            import("../components/g95InOrdineOfficii/" + language + "/BenedicamusDom.vue")
         ),
       },
     ];

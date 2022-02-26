@@ -462,7 +462,7 @@ export default defineComponent({
         inAdiutoriumTR: defineAsyncComponent(
           () =>
             import(
-              "../components/g95InOrdineOfficii/la/" + props.language + "/InAdiutorium.vue"
+              "../components/g95InOrdineOfficii/" + props.language + "/InAdiutorium.vue"
             )
         ),
         benedicamus: defineAsyncComponent(
@@ -471,7 +471,7 @@ export default defineComponent({
         benedicamusTR: defineAsyncComponent(
           () =>
             import(
-              "../components/g95InOrdineOfficii/la/" + props.language + "/BenedicamusDom.vue"
+              "../components/g95InOrdineOfficii/" + props.language + "/BenedicamusDom.vue"
             )
         ),
       },
@@ -495,7 +495,7 @@ export default defineComponent({
         ),
         inAdiutoriumFinTR: defineAsyncComponent(
           () =>
-            import("../components/g95InOrdineOfficii/la/" + props.language + "/LausTibi.vue")
+            import("../components/g95InOrdineOfficii/" + props.language + "/LausTibi.vue")
         ),
       },
       {
