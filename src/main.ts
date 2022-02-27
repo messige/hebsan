@@ -21,7 +21,7 @@ import "@ionic/vue/css/flex-utils.css";
 import "@ionic/vue/css/display.css";
 
 /*My CSS */
-import "./components/css/hebsanStyleSheet.css";
+import "./components/css/officii.css";
 
 /* Theme variables */
 import "./theme/variables.css";
