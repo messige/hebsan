@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[88506],{88506:function(e,n,r){function t(e,n){return" Dein Reich, Herr, ist ein Reich aller Zeiten. "}r.r(n),r.d(n,{default:function(){return s}});var i=r(83744);const u={},c=(0,i.Z)(u,[["render",t]]);var s=c}}]);
+//# sourceMappingURL=88506.90599336.js.map

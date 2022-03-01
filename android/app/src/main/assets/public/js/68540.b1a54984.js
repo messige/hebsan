@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[68540],{68540:function(e,n,u){u.r(n),u.d(n,{default:function(){return k}});var i=u(66252);const l=(0,i.Uk)(" Sein Anblick leuchtete wie ein Blitz,"),r=(0,i._)("br",null,null,-1),t=(0,i.Uk)(" und seine Kleider wie Schnee. ");function c(e,n){return(0,i.wg)(),(0,i.iD)(i.HY,null,[l,r,t],64)}var s=u(83744);const a={},h=(0,s.Z)(a,[["render",c]]);var k=h}}]);
+//# sourceMappingURL=68540.b1a54984.js.map

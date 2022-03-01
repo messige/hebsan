@@ -1,6 +1,7 @@
 <template>
   <ion-page>
-    <ion-content id="container">
+    <ion-content>
+      <div id="container">
       <p>&nbsp;</p>
       <br />
       <h2>
@@ -9,6 +10,8 @@
       </h2>
       <br />
       <component :is="feastTextTR" :annoABC="feastAnnoABC" />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+    </div>
     </ion-content>
   </ion-page>
 </template>
@@ -26,7 +29,7 @@ import {
 import { defineComponent } from "vue";
 import { defineAsyncComponent } from "vue";
 import { useRoute } from "vue-router";
-import useTranslate from "../components/ts/translate";
+import useTranslate from "../components/ts/translateService";
 export default defineComponent({
   name: "PiecesForAFeast",
   components: {
@@ -57,7 +60,15 @@ export default defineComponent({
         () => import("@/components/g400AdMissam/de/" + feastIndex + ".vue")
       );
     }
-    return { feastTextTR, feast, feastDate, feastAnnoABC, useTranslate, lang, feastIndex };
+    return {
+      feastTextTR,
+      feast,
+      feastDate,
+      feastAnnoABC,
+      useTranslate,
+      lang,
+      feastIndex,
+    };
   },
 });
 </script>

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[48640],{48640:function(n,r,s){function t(n,r){return" Le Christ s’est fait pour nous obéissant jusqu’à la mort, la mort sur la croix. "}s.r(r),s.d(r,{default:function(){return o}});var u=s(83744);const e={},a=(0,u.Z)(e,[["render",t]]);var o=a}}]);
+//# sourceMappingURL=48640.b45f59ec.js.map

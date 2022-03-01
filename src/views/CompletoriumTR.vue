@@ -6,19 +6,18 @@
           <ion-icon :icon="home"></ion-icon>
         </ion-button>
         &nbsp; &nbsp;
-        <ion-button shape="round" size="small" strong href="/Sancta">
+        <ion-button shape="round" size="small" strong href="/HebdomadaSancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
         <br />
         <br />
       </ion-toolbar>
     </ion-header>
-    <ion-content id="container">
-      <p>&nbsp;</p>
-      <br />
+    <ion-content>
+      <div id="container">
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }}
-        <br class="smallScreen" />&nbsp;-&nbsp;Ad Competorium
+        {{ feastCurrent.title }} <br />{{ feastCurrent.titleTr }}
+         <br />Ad Competorium
       </h2>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
         <br />
@@ -28,7 +27,7 @@
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="officeTempusLiturgicus1.iubeTR" /> </ion-text
+                <component :is="officeTempusLiturgicus1.iubeTr" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
         <component :is="officeTempusLiturgicus1.fratres" />
@@ -37,7 +36,7 @@
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="officeTempusLiturgicus1.fratresTR" /> </ion-text
+                <component :is="officeTempusLiturgicus1.fratresTr" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
         <component :is="arrayOrdine[0].ordine" />
@@ -46,7 +45,7 @@
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="arrayOrdine[0].ordineTR" /> </ion-text
+                <component :is="arrayOrdine[0].ordineTr" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
       </template>
@@ -56,7 +55,7 @@
           <ion-col>&nbsp;</ion-col>
           <ion-col size="11"
             ><ion-text color="tertiary">
-              <component :is="arrayOrdine[1].ordineTR" /> </ion-text
+              <component :is="arrayOrdine[1].ordineTr" /> </ion-text
           ></ion-col> </ion-row
       ></ion-grid>
       <component :is="arrayOrdine[2].ordine" />
@@ -65,7 +64,7 @@
           <ion-col>&nbsp;</ion-col>
           <ion-col size="11"
             ><ion-text color="tertiary">
-              <component :is="arrayOrdine[2].ordineTR" /> </ion-text
+              <component :is="arrayOrdine[2].ordineTr" /> </ion-text
           ></ion-col> </ion-row
       ></ion-grid>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
@@ -75,7 +74,7 @@
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="officeTempusLiturgicus1.inAdiutoriumTR" /> </ion-text
+                <component :is="officeTempusLiturgicus1.inAdiutoriumTr" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
         <component :is="officeTempusLiturgicus2.inAdiutoriumFin" />
@@ -84,30 +83,30 @@
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="officeTempusLiturgicus2.inAdiutoriumFinTR" /> </ion-text
+                <component :is="officeTempusLiturgicus2.inAdiutoriumFinTr" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
         <br />
-        <component :is="officeTempusLiturgicus2.ant" />
+        <component :is="officeTempusLiturgicus2.antLA" />
         <ion-grid
           ><ion-row>
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="officeTempusLiturgicus2.antTR" /> </ion-text
+                <component :is="officeTempusLiturgicus2.antTr" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
       </template>
-      <p><component :is="objTranslations.ps004" /></p>
-      <p><component :is="objTranslations.ps090" /></p>
-      <p><component :is="objTranslations.ps133" /></p>
-      <component :is="officeTempusLiturgicus2.ant" />
+      <p><component :is="objTranslations.PsTr004" /></p>
+      <p><component :is="objTranslations.PsTr090" /></p>
+      <p><component :is="objTranslations.PsTr133" /></p>
+      <component :is="officeTempusLiturgicus2.antLA" />
       <ion-grid
         ><ion-row>
           <ion-col>&nbsp;</ion-col>
           <ion-col size="11"
             ><ion-text color="tertiary">
-              <component :is="officeTempusLiturgicus2.antTR" /> </ion-text
+              <component :is="officeTempusLiturgicus2.antTr" /> </ion-text
           ></ion-col> </ion-row
       ></ion-grid>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
@@ -129,7 +128,7 @@
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="officeTempusLiturgicus1.responsumTR" /> </ion-text
+                <component :is="officeTempusLiturgicus1.responsumTr" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
         <p><rubrique>Versus</rubrique></p>
@@ -139,7 +138,7 @@
             <ion-col>&nbsp;</ion-col>
             <ion-col size="11"
               ><ion-text color="tertiary">
-                <component :is="officeTempusLiturgicus1.versusTR" /> </ion-text
+                <component :is="officeTempusLiturgicus1.versusTr" /> </ion-text
             ></ion-col> </ion-row
         ></ion-grid>
       </template>
@@ -178,10 +177,11 @@
           <ion-col>&nbsp;</ion-col>
           <ion-col size="11"
             ><ion-text color="tertiary">
-              <component :is="officeTempusLiturgicus2.AntMariaTR" /> </ion-text
+              <component :is="officeTempusLiturgicus2.AntMariaTr" /> </ion-text
           ></ion-col> </ion-row
       ></ion-grid>
-      <br />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
@@ -200,17 +200,17 @@ import { useRoute } from "vue-router";
 import { defineAsyncComponent } from "vue";
 import { defineComponent } from "vue";
 import { home, arrowBackSharp } from "ionicons/icons";
-import { getFeast } from "../data/feasts";
-import Capitulum from "../components/g75Lectio/CapIerCh14V09.vue";
-import NuncDimittisSineGloria from "../components/g65Psalmodia/NuncDimittisR13SineGloria.vue";
-import Oratio from "../components/g80Oratio/OraHabitationemIstam.vue";
-import DominusVobiscum from "../components/g95InOrdineOfficii/DominusVobiscum.vue";
-import PerDominum from "../components/g80Oratio/PerDominum.vue";
-import Pater from "../components/g95InOrdineOfficii/PaterNosterSilentio.vue";
-import Kyrie from "../components/g95InOrdineOfficii/Kyrie.vue";
+import { getFeast } from "../data/feastsTable";
+import Capitulum from "../components/g75Lectio/la/CapIerCh14V09.vue";
+import NuncDimittisSineGloria from "../components/g65Psalmodia/la/NuncDimittisR13SineGloria.vue";
+import Oratio from "../components/g80Oratio/la/OraHabitationemIstam.vue";
+import DominusVobiscum from "../components/g95InOrdineOfficii/la/DominusVobiscum.vue";
+import PerDominum from "../components/g80Oratio/la/PerDominum.vue";
+import Pater from "../components/g95InOrdineOfficii/la/PaterNosterSilentio.vue";
+import Kyrie from "../components/g95InOrdineOfficii/la/KyrieEleison.vue";
 
 export default defineComponent({
-  name: "Completorium",
+  name: "CompletoriumTr",
   components: {
     Capitulum,
     NuncDimittisSineGloria,
@@ -236,14 +236,14 @@ export default defineComponent({
     let i = 0;
     const feastCurrent = getFeast(feastNum);
     const objTranslations = {
-      ps004: defineAsyncComponent(
-        () => import("../components/g65Psalmodia/" + lowerLang + "/Ps004.vue")
+      PsTr004: defineAsyncComponent(
+        () => import("../components/g65Psalmodia/" + lowerLang + "/PsTr004.vue")
       ),
-      ps090: defineAsyncComponent(
-        () => import("../components/g65Psalmodia/" + lowerLang + "/Ps090.vue")
+      PsTr090: defineAsyncComponent(
+        () => import("../components/g65Psalmodia/" + lowerLang + "/PsTr090.vue")
       ),
-      ps133: defineAsyncComponent(
-        () => import("../components/g65Psalmodia/" + lowerLang + "/Ps133.vue")
+      PsTr133: defineAsyncComponent(
+        () => import("../components/g65Psalmodia/" + lowerLang + "/PsTr133.vue")
       ),
       capitulum: defineAsyncComponent(
         () => import("../components/g75Lectio/" + lowerLang + "/CapIerCh14V09.vue")
@@ -258,27 +258,27 @@ export default defineComponent({
     const arrayOrdine = [
       {
         ordine: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Confitebor.vue")
+          () => import("../components/g95InOrdineOfficii/la/ConfiteborDeo.vue")
         ),
-        ordineTR: defineAsyncComponent(
+        ordineTr: defineAsyncComponent(
           () =>
-            import("../components/g95InOrdineOfficii/" + lowerLang + "/Confitebor.vue")
+            import("../components/g95InOrdineOfficii/" + lowerLang + "/ConfiteborDeo.vue")
         ),
       },
       {
         ordine: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/MisereaturNostri.vue")
+          () => import("../components/g95InOrdineOfficii/la/MisereaturNostri.vue")
         ),
-        ordineTR: defineAsyncComponent(
+        ordineTr: defineAsyncComponent(
           () =>
             import("../components/g95InOrdineOfficii/" + lowerLang + "/MisereaturNostri.vue")
         ),
       },
       {
         ordine: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/AdiutoriumNostrum.vue")
+          () => import("../components/g95InOrdineOfficii/la/AdiutoriumNostrum.vue")
         ),
-        ordineTR: defineAsyncComponent(
+        ordineTr: defineAsyncComponent(
           () =>
             import(
               "../components/g95InOrdineOfficii/" + lowerLang + "/AdiutoriumNostrum.vue"
@@ -287,9 +287,9 @@ export default defineComponent({
       },
       {
         ordine: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/ConverteNos.vue")
+          () => import("../components/g95InOrdineOfficii/la/ConverteNos.vue")
         ),
-        ordineTR: defineAsyncComponent(
+        ordineTr: defineAsyncComponent(
           () =>
             import("../components/g95InOrdineOfficii/" + lowerLang + "/ConverteNos.vue")
         ),
@@ -299,55 +299,55 @@ export default defineComponent({
       {
         tempus: "triduum",
         iube: null,
-        iubeTR: null,
+        iubeTr: null,
         fratres: null,
-        fratresTR: null,
+        fratresTr: null,
         inAdiutorium: null,
-        inAdiutoriumTR: null,
+        inAdiutoriumTr: null,
         responsum: null,
-        responsumTR: null,
+        responsumTr: null,
         versus: null,
-        versusTR: null,
+        versusTr: null,
         benedicamus: null,
-        benedicamusTR: null,
+        benedicamusTr: null,
       },
       {
         tempus: "non est triduum",
         iube: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/" + "IubeDomne.vue")
+          () => import("../components/g95InOrdineOfficii/la/" + "IubeDomne.vue")
         ),
-        iubeTR: defineAsyncComponent(
+        iubeTr: defineAsyncComponent(
           () => import("../components/g95InOrdineOfficii/" + lowerLang + "/IubeDomne.vue")
         ),
         fratres: defineAsyncComponent(
-          () => import("../components/g75Lectio/" + "Petr1Ch05V08.vue")
+          () => import("../components/g75Lectio/la/" + "Petr1Ch05V08.vue")
         ),
-        fratresTR: defineAsyncComponent(
+        fratresTr: defineAsyncComponent(
           () => import("../components/g75Lectio/" + lowerLang + "/Petr1Ch05V08.vue")
         ),
         inAdiutorium: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/" + "InAdiutorium.vue")
+          () => import("../components/g95InOrdineOfficii/la/" + "InAdiutorium.vue")
         ),
-        inAdiutoriumTR: defineAsyncComponent(
+        inAdiutoriumTr: defineAsyncComponent(
           () =>
             import("../components/g95InOrdineOfficii/" + lowerLang + "/InAdiutorium.vue")
         ),
         responsum: defineAsyncComponent(
           () => import("../components/g55Responsum/" + "RepInManusTuas.vue")
         ),
-        responsumTR: defineAsyncComponent(
+        responsumTr: defineAsyncComponent(
           () => import("../components/g55Responsum/" + lowerLang + "/RepInManusTuas.vue")
         ),
         versus: defineAsyncComponent(
-          () => import("../components/g85Versus/" + "VerCustodiNos.vue")
+          () => import("../components/g85Versus/la/" + "VersCustodiNos.vue")
         ),
-        versusTR: defineAsyncComponent(
+        versusTr: defineAsyncComponent(
           () => import("../components/g85Versus/" + lowerLang + "/VerCustodiNos.vue")
         ),
         benedicamus: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/" + "BenedicamusDom.vue")
+          () => import("../components/g95InOrdineOfficii/la/" + "BenedicamusDom.vue")
         ),
-        benedicamusTR: defineAsyncComponent(
+        benedicamusTr: defineAsyncComponent(
           () =>
             import(
               "../components/g95InOrdineOfficii/" + lowerLang + "/BenedicamusDom.vue"
@@ -364,34 +364,34 @@ export default defineComponent({
       {
         tempus: "triduum",
         inAdiutoriumFin: null,
-        inAdiutoriumFinTR: null,
-        ant: null,
-        antTR: null,
+        inAdiutoriumFinTr: null,
+        antLA: null,
+        antTr: null,
         hymnus: null,
         AntMaria: null,
-        AntMariaTR: null,
+        AntMariaTr: null,
       },
       {
         tempus: "quadragesimae",
         inAdiutoriumFin: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/" + "LausTibi.vue")
+          () => import("../components/g95InOrdineOfficii/la/" + "LausTibi.vue")
         ),
-        inAdiutoriumFinTR: defineAsyncComponent(
+        inAdiutoriumFinTr: defineAsyncComponent(
           () => import("../components/g95InOrdineOfficii/" + lowerLang + "/LausTibi.vue")
         ),
-        ant: defineAsyncComponent(
-          () => import("../components/g50Antiphona/" + "AntMiserereMihi.vue")
+        antLA: defineAsyncComponent(
+          () => import("../components/g50Antiphona/la/" + "AntMiserereMihi.vue")
         ),
-        antTR: defineAsyncComponent(
+        antTr: defineAsyncComponent(
           () => import("../components/g50Antiphona/" + lowerLang + "/AntMiserereMihi.vue")
         ),
         hymnus: defineAsyncComponent(
           () => import("../components/g60Hymnus/" + "/HymTeLucisAnte.vue")
         ),
         AntMaria: defineAsyncComponent(
-          () => import("../components/g50Antiphona/" + "AntAveReginaCaelorum.vue")
+          () => import("../components/g50Antiphona/la/" + "AntAveReginaCaelorum.vue")
         ),
-        AntMariaTR: defineAsyncComponent(
+        AntMariaTr: defineAsyncComponent(
           () =>
             import(
               "../components/g50Antiphona/" + lowerLang + "/AntAveReginaCaelorum.vue"
@@ -401,22 +401,22 @@ export default defineComponent({
       {
         tempus: "paschali",
         inAdiutoriumFin: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Alleluia.vue")
+          () => import("../components/g95InOrdineOfficii/la/AlleluiaWord.vue")
         ),
-        inAdiutoriumFinTR: null,
-        ant: defineAsyncComponent(
+        inAdiutoriumFinTr: null,
+        antLA: defineAsyncComponent(
           () =>
             import("../components/g50Antiphona/" + lowerLang + "/AntAlleluiaPasqua.vue")
         ),
 
-        antTR: null,
+        antTr: null,
         hymnus: defineAsyncComponent(
           () => import("../components/g60Hymnus/" + "/HymTeLucisAnte.vue")
         ),
         AntMaria: defineAsyncComponent(
-          () => import("../components/g50Antiphona/" + "AntReginaCaeli.vue")
+          () => import("../components/g50Antiphona/la/" + "AntReginaCaeli.vue")
         ),
-        AntMariaTR: defineAsyncComponent(
+        AntMariaTr: defineAsyncComponent(
           () => import("../components/g50Antiphona/" + lowerLang + "/AntReginaCaeli.vue")
         ),
       },

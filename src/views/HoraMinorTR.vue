@@ -6,19 +6,18 @@
           <ion-icon :icon="home"></ion-icon>
         </ion-button>
         &nbsp; &nbsp;
-        <ion-button shape="round" size="small" strong href="/Sancta">
+        <ion-button shape="round" size="small" strong href="/HebdomadaSancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
         <br />
         <br />
       </ion-toolbar>
     </ion-header>
-    <ion-content id="container">
-      <p>&nbsp;</p>
-      <br />
+    <ion-content>
+      <div id="container">
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }}
-        <br class="smallScreen" />&nbsp;&nbsp;- {{ officeCurrent.officeName }}
+        {{ feastCurrent.title }} <br />{{ feastCurrent.titleTR }}
+        <br />{{ officeCurrent.officeName }}
       </h2>
       <br />
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
@@ -89,7 +88,8 @@
               <ion-col>&nbsp;</ion-col>
               <ion-col size="11"
                 ><ion-text color="tertiary">
-                  <component :is="typeOffice.versusTR" /> </ion-text></ion-col></ion-row
+                  <component :is="typeOffice.versusTR" /> 
+                </ion-text></ion-col></ion-row
           ></ion-grid>
         </template>
         <p><component :is="officeFinalHora.kyrie" /></p>
@@ -117,7 +117,8 @@
                 :is="officeTempusLiturgicus1.benedicamusTR"
               /> </ion-text></ion-col></ion-row
       ></ion-grid>
-      <br />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
@@ -133,8 +134,8 @@ import {
   IonIcon,
 } from "@ionic/vue";
 import { defineAsyncComponent } from "vue";
-import { getFeast } from "../data/feasts";
-import { getOffice } from "../data/offices";
+import { getFeast } from "../data/feastsTable";
+import { getOffice } from "../data/officesTable";
 import { home, arrowBackSharp } from "ionicons/icons";
 import { defineComponent } from "vue";
 
@@ -177,20 +178,20 @@ export default defineComponent({
       {
         psID: 0, //if psCantID not found
         antLA: defineAsyncComponent(
-          () => import("../components/g50Antiphona/Empty.vue")
+          () => import("../components/g50Antiphona/EmptyTemplate.vue")
         ),
         antTR: defineAsyncComponent(
-          () => import("../components/g50Antiphona/" + props.language + "/Empty.vue")
+          () => import("../components/g50Antiphona/" + props.language + "/EmptyTemplate.vue")
         ),
         psalm1TR: defineAsyncComponent(
-          () => import("../components/g65Psalmodia/" + props.language + "/Empty.vue")
+          () => import("../components/g65Psalmodia/" + props.language + "/EmptyTemplate.vue")
         ),
         psalm2TR: null,
       },
       {
         psID: 13, // Domenica in Palmis Ad tertiam feastID: 1 officeID = 3,
         antLA: defineAsyncComponent(
-          () => import("../components/g50Antiphona/" + "AntPueriVestimenta2.vue")
+          () => import("../components/g50Antiphona/la/" + "AntPueriVestimenta2.vue")
         ),
         antTR: defineAsyncComponent(
           () =>
@@ -202,14 +203,14 @@ export default defineComponent({
         ),
         psalm1TR: defineAsyncComponent(
           () =>
-            import("../components/g65Psalmodia/" + props.language + "/Ps118D01-04.vue")
+            import("../components/g65Psalmodia/" + props.language + "/PsTr118D01-04.vue")
         ),
         psalm2TR: null,
       },
       {
         psID: 16, // Domenica in Palmis Ad Sexam feastID: 1 officeID = 6,
         antLA: defineAsyncComponent(
-          () => import("../components/g50Antiphona/" + "AntTibiRevelavi.vue")
+          () => import("../components/g50Antiphona/la/" + "AntTibiRevelavi.vue")
         ),
         antTR: defineAsyncComponent(
           () =>
@@ -219,14 +220,14 @@ export default defineComponent({
         ),
         psalm1TR: defineAsyncComponent(
           () =>
-            import("../components/g65Psalmodia/" + props.language + "/Ps118D05-08.vue")
+            import("../components/g65Psalmodia/" + props.language + "/PsTr118D05-08.vue")
         ),
         psalm2TR: null,
       },
       {
         psID: 19, // Domenica in Palmis Ad Nonam feastID: 1 officeID = 9,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntInvocaboNomen.vue")
+            () => import("../components/g50Antiphona/la/" + "AntInvocaboNomen.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -234,14 +235,14 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D09-12.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D09-12.vue")
           ),
           psalm2TR: null,
         },
       {
         psID: 23, // Feraia II Ad tertiam feastID: 2 officeID = 3
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntFrameaSuscitare.vue")
+            () => import("../components/g50Antiphona/la/" + "AntFrameaSuscitare.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -249,14 +250,14 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D13-16.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D13-16.vue")
           ),
           psalm2TR: null,
         },
       {
         psID: 26, // Feria II Ad Sexam feastID: 2 officeID = 6,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntAppenderunt.vue")
+            () => import("../components/g50Antiphona/la/" + "AntAppenderunt.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -266,14 +267,14 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D17-19.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D17-19.vue")
           ),
           psalm2TR: null,
         },
       {
         psID: 29, //Feria II Ad Nonam feastID: 2 officeID = 9,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntLabiaInsurgentium.vue")
+            () => import("../components/g50Antiphona/la/" + "AntLabiaInsurgentium.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -285,14 +286,14 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D20-22.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D20-22.vue")
           ),
           psalm2TR: null,
         },
       {
         psID: 33, // Feria III Ad tertiam feastID: 3 officeID = 3
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntAnteDiemPaschae.vue")
+            () => import("../components/g50Antiphona/la/" + "AntAnteDiemPaschae.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -302,14 +303,14 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D13-16.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D13-16.vue")
           ),
           psalm2TR: null,
         },
       {
         psID: 36, // Feria III Ad Sexam feastID: 3 officeID = 6,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntPotestatemHabeo.vue")
+            () => import("../components/g50Antiphona/la/" + "AntPotestatemHabeo.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -321,14 +322,14 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D17-19.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D17-19.vue")
           ),
           psalm2TR: null,
         },
       {
         psID: 39, //Feria III Ad Nonam feastID: 3 officeID = 9,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntPotestatemHabeo.vue")
+            () => import("../components/g50Antiphona/la/" + "AntPotestatemHabeo.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -340,14 +341,14 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D20-22.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D20-22.vue")
           ),
           psalm2TR: null,
         },
       {
         psID: 43, // Feria IV Ad tertiam feastID: 4 officeID = 3
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntIpsiVero.vue")
+            () => import("../components/g50Antiphona/la/" + "AntIpsiVero.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -359,14 +360,14 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D13-16.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D13-16.vue")
           ),
           psalm2TR: null,
         },
       {
         psID: 46, // Feria IV Ad Sexam feastID: 4 officeID = 6,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntAppenderunt.vue")
+            () => import("../components/g50Antiphona/la/" + "AntAppenderunt.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -376,14 +377,14 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D17-19.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D17-19.vue")
           ),
           psalm2TR: null,
         },
       {
         psID: 49, //Feria IV Ad Nonam feastID: 4 officeID = 9,
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + "AntLiberaMe.vue")
+            () => import("../components/g50Antiphona/la/" + "AntLiberaMe.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -391,7 +392,7 @@ export default defineComponent({
           ),
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D20-22.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D20-22.vue")
           ),
           psalm2TR: null,
         },
@@ -401,11 +402,11 @@ export default defineComponent({
           antTR: null,
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D01-04.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D01-04.vue")
           ),
           psalm2TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D05-08.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D05-08.vue")
           ),
         },
       {
@@ -414,11 +415,11 @@ export default defineComponent({
           antTR: null,
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D09-12.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D09-12.vue")
           ),
           psalm2TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D13-16.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D13-16.vue")
           ),
         },
       {
@@ -427,11 +428,11 @@ export default defineComponent({
           antTR: null,
           psalm1TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D17-19.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D17-19.vue")
           ),
           psalm2TR: defineAsyncComponent(
             () =>
-              import("../components/g65Psalmodia/" + props.language + "/Ps118D20-22.vue")
+              import("../components/g65Psalmodia/" + props.language + "/PsTr118D20-22.vue")
           ),
         },       
     ];
@@ -456,7 +457,7 @@ export default defineComponent({
       {
         tempus: "non est triduum",
         inAdiutorium: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/" + "InAdiutorium.vue")
+          () => import("../components/g95InOrdineOfficii/la/" + "InAdiutorium.vue")
         ),
         inAdiutoriumTR: defineAsyncComponent(
           () =>
@@ -465,7 +466,7 @@ export default defineComponent({
             )
         ),
         benedicamus: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/" + "BenedicamusDom.vue")
+          () => import("../components/g95InOrdineOfficii/la/" + "BenedicamusDom.vue")
         ),
         benedicamusTR: defineAsyncComponent(
           () =>
@@ -490,7 +491,7 @@ export default defineComponent({
       {
         tempus: "quadragesimae",
         inAdiutoriumFin: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/" + "LausTibi.vue")
+          () => import("../components/g95InOrdineOfficii/la/" + "LausTibi.vue")
         ),
         inAdiutoriumFinTR: defineAsyncComponent(
           () =>
@@ -500,7 +501,7 @@ export default defineComponent({
       {
         tempus: "paschali",
         inAdiutoriumFin: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Alleluia.vue")
+          () => import("../components/g95InOrdineOfficii/la/AlleluiaWord.vue")
         ),
         inAdiutoriumFinTR: null,
       },
@@ -563,7 +564,7 @@ export default defineComponent({
           () => import("../components/g00Text/" + props.language + "/NePerdas.vue")
         ),
         versus: defineAsyncComponent(
-          () => import("../components/g85Versus/" + "VersEripeMeHomine.vue")
+          () => import("../components/g85Versus/la/" + "VersEripeMeHomine.vue")
         ),
         versusTR: defineAsyncComponent(
           () =>
@@ -579,7 +580,7 @@ export default defineComponent({
       { capitulum: null, capitulumTR: null },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapPhilCh02V05.vue")
+          () => import("../components/g75Lectio/la/CapPhilCh02V05.vue")
         ), // Dom. in Palmis Ad Tertiam
         capitulumTR: defineAsyncComponent(
           () =>
@@ -588,7 +589,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapPhilCh02V08.vue")
+          () => import("../components/g75Lectio/la/CapPhilCh02V08.vue")
         ), // Dom. in Palmis Ad Sextam
         capitulumTR: defineAsyncComponent(
           () =>
@@ -597,7 +598,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapPhilCh02V10.vue")
+          () => import("../components/g75Lectio/la/CapPhilCh02V10.vue")
         ), // Dom. in Palmis Ad Nonam
         capitulumTR: defineAsyncComponent(
           () =>
@@ -606,7 +607,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapIerCh17V13.vue")
+          () => import("../components/g75Lectio/la/CapIerCh17V13.vue")
         ), // Hebdomada Sancta Ad Tertiam
         capitulumTR: defineAsyncComponent(
           () => import("../components/g75Lectio/" + props.language + "/CapIerCh17V13.vue")
@@ -614,7 +615,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapIerCh17V18.vue")
+          () => import("../components/g75Lectio/la/CapIerCh17V18.vue")
         ), // Hebdomada Sancta Ad Sextam
         capitulumTR: defineAsyncComponent(
           () => import("../components/g75Lectio/" + props.language + "/CapIerCh17V18.vue")
@@ -622,7 +623,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapIerCh18V20.vue")
+          () => import("../components/g75Lectio/la/CapIerCh18V20.vue")
         ), // Hebdomada Sancta Ad Nonam
         capitulumTR: defineAsyncComponent(
           () => import("../components/g75Lectio/" + props.language + "/CapIerCh18V20.vue")
@@ -630,7 +631,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/XFactusEstFeria5.vue")
+          () => import("../components/g75Lectio/la/XFactusEstFeria5.vue")
         ), // Feria V
         capitulumTR: defineAsyncComponent(
           () =>
@@ -639,7 +640,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/XFactusEstFeria6.vue")
+          () => import("../components/g75Lectio/la/XFactusEstFeria6.vue")
         ), // Feria VI
         capitulumTR: defineAsyncComponent(
           () =>
@@ -648,7 +649,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/XFactusEstFeria7.vue")
+          () => import("../components/g75Lectio/la/XFactusEstFeria7.vue")
         ), // Feria VII
         capitulumTR: defineAsyncComponent(
           () =>
@@ -669,7 +670,7 @@ export default defineComponent({
       { oratio: null, oratioTR: null },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraQuiHumanoGeneri.vue")
+          () => import("../components/g80Oratio/la/OraQuiHumanoGeneri.vue")
         ), // Dom. in Palmis
         oratioTR: defineAsyncComponent(
           () =>
@@ -680,7 +681,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraUtQuiInTot.vue")
+          () => import("../components/g80Oratio/la/OraUtQuiInTot.vue")
         ), // Feria II
         oratioTR: defineAsyncComponent(
           () => import("../components/g80Oratio/" + props.language + "/OraUtQuiInTot.vue")
@@ -688,7 +689,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraDaNobisIta.vue")
+          () => import("../components/g80Oratio/la/OraDaNobisIta.vue")
         ), // Feria III
         oratioTR: defineAsyncComponent(
           () => import("../components/g80Oratio/" + props.language + "/OraDaNobisIta.vue")
@@ -696,7 +697,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraUtQuiNostri.vue")
+          () => import("../components/g80Oratio/la/OraUtQuiNostri.vue")
         ), // Feria IV
         oratioTR: defineAsyncComponent(
           () =>
@@ -705,7 +706,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraSuperHancFamiliamTriduo.vue")
+          () => import("../components/g80Oratio/la/OraSuperHancFamiliamTriduo.vue")
         ), // Feria V, VI, VII
         oratioTR: defineAsyncComponent(
           () =>
@@ -725,19 +726,19 @@ export default defineComponent({
     const arrayFinalHora = [
       {
         kyrie: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Kyrie.vue")
+          () => import("../components/g95InOrdineOfficii/la/KyrieEleison.vue")
         ),
         pater: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/PaterNosterSilentio.vue")
+          () => import("../components/g95InOrdineOfficii/la/PaterNosterSilentio.vue")
         ),
         vobiscum: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/DominusVobiscum.vue")
+          () => import("../components/g95InOrdineOfficii/la/DominusVobiscum.vue")
         ),
       },
       {
         kyrie: null,
         pater: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/PaterNosterTriduum.vue")
+          () => import("../components/g95InOrdineOfficii/la/PaterNosterTriduum.vue")
         ),
         vobiscum: null,
       },

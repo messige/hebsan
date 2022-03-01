@@ -5,7 +5,7 @@ import getDay from "date-fns/getDay";
 import addWeeks from "date-fns/addWeeks";
 import nextSunday from "date-fns/nextSunday";
 import compareDesc from "date-fns/compareDesc";
-import useTranslate from "./translate";
+import useTranslate from "./translateService";
 
 export default function (thisDay: Date) {
   let lang = "fr";
@@ -100,6 +100,7 @@ export default function (thisDay: Date) {
     const existSpace = myString.includes(" "); 
     // The includes() method determines whether a string contains the specified characters.
     // Returns true if the string contains the characters, and false if not.
+    myString = capitalizeWords(myString);
     if (existSpace) {
       // the string has space(s)
       return removeSpaces(myString.replace(" ", "")); // function invokes itself
@@ -107,6 +108,10 @@ export default function (thisDay: Date) {
       return myString;
     }
   };
+ const capitalizeWords= function (myText: string): string {
+    return (myText.replace(/(?:^|\s)\S/g,(res)=>{ return res.toUpperCase();}))
+ };
+
   // Easter: source: http://www.irt.org/articles/js052/
   const century = Math.floor(civilYear / 100);
   const N = civilYear - 19 * Math.floor(civilYear / 19);

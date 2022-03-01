@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[39671],{39671:function(u,n,e){e.r(n),e.d(n,{default:function(){return b}});var r=e(66252);const s=(0,r.Uk)(" Posuerunt super caput eius"),a=(0,r._)("br",null,null,-1),l=(0,r.Uk)(" causam ipsius scriptam :"),t=(0,r._)("br",null,null,-1),c=(0,r.Uk)(" Iesus Nazarenus, rex Iudaeorum. ");function i(u,n){return(0,r.wg)(),(0,r.iD)(r.HY,null,[s,a,l,t,c],64)}var k=e(83744);const o={},p=(0,k.Z)(o,[["render",i]]);var b=p}}]);
+//# sourceMappingURL=39671.b9ca80e4.js.map

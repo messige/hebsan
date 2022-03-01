@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[35577],{35577:function(n,e,r){r.r(e),r.d(e,{default:function(){return b}});var u=r(66252);const l=(0,u.Uk)(" Ein Engel des Herrn kam vom Himmel herab;"),t=(0,u._)("br",null,null,-1),a=(0,u.Uk)(" und er trat heran und wälzte den Stein weg"),s=(0,u._)("br",null,null,-1),c=(0,u.Uk)(" und er setzte sich darauf. ");function d(n,e){return(0,u.wg)(),(0,u.iD)(u.HY,null,[l,t,a,s,c],64)}var i=r(83744);const h={},k=(0,i.Z)(h,[["render",d]]);var b=k}}]);
+//# sourceMappingURL=35577.aa34afd4.js.map

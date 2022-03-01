@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[87227],{87227:function(e,n,u){u.r(n),u.d(n,{default:function(){return k}});var l=u(66252);const t=(0,l.Uk)(" Angelus autem Domini descendit de caelo,"),r=(0,l._)("br",null,null,-1),s=(0,l.Uk)(" et accedens revolvit lapidem,"),a=(0,l._)("br",null,null,-1),c=(0,l.Uk)(" et sedebat super eum. ");function i(e,n){return(0,l.wg)(),(0,l.iD)(l.HY,null,[t,r,s,a,c],64)}var d=u(83744);const o={},b=(0,d.Z)(o,[["render",i]]);var k=b}}]);
+//# sourceMappingURL=87227.028f40e8.js.map

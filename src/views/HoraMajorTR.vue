@@ -6,19 +6,18 @@
           <ion-icon :icon="home"></ion-icon>
         </ion-button>
         &nbsp; &nbsp;
-        <ion-button shape="round" size="small" strong href="/Sancta">
+        <ion-button shape="round" size="small" strong href="/HebdomadaSancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
         <br />
         <br />
       </ion-toolbar>
     </ion-header>
-    <ion-content id="container">
-      <p>&nbsp;</p>
-      <br />
+    <ion-content>
+      <div id="container">
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }} <br class="smallScreen" />
-        - {{ officeCurrent.officeName }}
+        {{ feastCurrent.titleLA }}<br />{{ feastCurrent.titleTR }} 
+        <br />{{ officeCurrent.officeName }}
       </h2>
       <br />
       <component :is="officeInAdiutorium.inAdiutorium" />
@@ -148,7 +147,8 @@
                 :is="officeBenedicamusDom.benedicamusDomTR"
               /> </ion-text></ion-col></ion-row
       ></ion-grid>
-      <br />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
@@ -167,8 +167,8 @@ import {
   IonText,
 } from "@ionic/vue";
 import { defineAsyncComponent } from "vue";
-import { getFeast } from "../data/feasts";
-import { getOffice } from "../data/offices";
+import { getFeast } from "../data/feastsTable";
+import { getOffice } from "../data/officesTable";
 import { arrowBackSharp, home } from "ionicons/icons";
 import { defineComponent } from "vue";
 
@@ -209,7 +209,7 @@ export default defineComponent({
       { inAdiutorium: null, inAdiutoriumTR: null },
       {
         inAdiutorium: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/InAdiutorium.vue")
+          () => import("../components/g95InOrdineOfficii/la/InAdiutorium.vue")
         ),
         inAdiutoriumTR: defineAsyncComponent(
           () =>
@@ -226,7 +226,7 @@ export default defineComponent({
       { inAdiutoriumFin: null, inAdiutoriumFinTR: null },
       {
         inAdiutoriumFin: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/LausTibi.vue")
+          () => import("../components/g95InOrdineOfficii/la/LausTibi.vue")
         ),
         inAdiutoriumFinTR: defineAsyncComponent(
           () => import("../components/g95InOrdineOfficii/" + language + "/LausTibi.vue")
@@ -234,7 +234,7 @@ export default defineComponent({
       },
       {
         inAdiutoriumFin: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Alleluia.vue")
+          () => import("../components/g95InOrdineOfficii/la/AlleluiaWord.vue")
         ),
         inAdiutoriumFinTR: null,
       },
@@ -268,25 +268,25 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/Empty.vue")
+              () => import("../components/g50Antiphona/EmptyTemplate.vue")
             ),
             antTR: defineAsyncComponent(
-              () => import("../components/g50Antiphona/" + props.language + "/Empty.vue")
+              () => import("../components/g50Antiphona/" + props.language + "/EmptyTemplate.vue")
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Empty.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/EmptyTemplate.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/Empty.vue")
+            () => import("../components/g50Antiphona/EmptyTemplate.vue")
           ),
           antTR: defineAsyncComponent(
-            () => import("../components/g50Antiphona/" + props.language + "/Empty.vue")
+            () => import("../components/g50Antiphona/" + props.language + "/EmptyTemplate.vue")
           ),
           cantTR: defineAsyncComponent(
-            () => import("../components/g65Psalmodia/" + props.language + "/Empty.vue")
+            () => import("../components/g65Psalmodia/" + props.language + "/EmptyTemplate.vue")
           ),
         },
       },
@@ -296,7 +296,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntRegnumTuum.vue")
+              () => import("../components/g50Antiphona/la/AntRegnumTuum.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -305,13 +305,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps144.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr144.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntLaudaboDeum.vue")
+              () => import("../components/g50Antiphona/la/AntLaudaboDeum.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -320,13 +320,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps145.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr145.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDeoNostro.vue")
+              () => import("../components/g50Antiphona/la/AntDeoNostro.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -335,13 +335,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps146.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr146.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntLaudaIerusalem.vue")
+              () => import("../components/g50Antiphona/la/AntLaudaIerusalem.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -352,13 +352,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps147.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr147.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntPaterIuste.vue")
+            () => import("../components/g50Antiphona/la/AntPaterIuste.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -380,7 +380,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDomDeusAuxiliator.vue")
+              () => import("../components/g50Antiphona/la/AntDomDeusAuxiliator.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -391,13 +391,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr050.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntCircumdantesCircumdederunt.vue")
+              () => import("../components/g50Antiphona/la/AntCircumdantesCircumdederunt.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -408,13 +408,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps117.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr117.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntIudicaCausam.vue")
+              () => import("../components/g50Antiphona/la/AntIudicaCausam.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -423,13 +423,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps062.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr062.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntCumAngelisEtPueris.vue")
+              () => import("../components/g50Antiphona/la/AntCumAngelisEtPueris.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -459,19 +459,19 @@ export default defineComponent({
                 )
             ),
             antTR: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntConfundanturQuiMe.vue")
+              () => import("../components/g50Antiphona/la/AntConfundanturQuiMe.vue")
             ),
             psalmTR: defineAsyncComponent(
               () =>
                 import(
-                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                  "../components/g65Psalmodia/" + props.language + "/PsTr148149150.vue"
                 )
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntTurbaMulta.vue")
+            () => import("../components/g50Antiphona/la/AntTurbaMulta.vue")
           ), // ant. Ad Benedictus Ad Laudes
           antTR: defineAsyncComponent(
             () =>
@@ -493,7 +493,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDixitDomDom.vue")
+              () => import("../components/g50Antiphona/la/AntDixitDomDom.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -502,13 +502,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps109.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr109.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntMagnaOperaDom.vue")
+              () => import("../components/g50Antiphona/la/AntMagnaOperaDom.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -517,13 +517,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps110.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr110.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntQuiTimetDom.vue")
+              () => import("../components/g50Antiphona/la/AntQuiTimetDom.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -532,13 +532,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps111.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr111.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntSitNomenDom.vue")
+              () => import("../components/g50Antiphona/la/AntSitNomenDom.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -547,13 +547,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps112.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr112.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntScriptumEstEnim.vue")
+            () => import("../components/g50Antiphona/la/AntScriptumEstEnim.vue")
           ), // ant. Ad Magnificat Ad Vesperas
           antTR: defineAsyncComponent(
             () =>
@@ -575,7 +575,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntFaciemMeam.vue")
+              () => import("../components/g50Antiphona/la/AntFaciemMeam.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -584,26 +584,26 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr050.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntFrameaSuscitare.vue")
+              () => import("../components/g50Antiphona/la/AntFrameaSuscitare.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
                 import("../components/g50Antiphona/" + props.language + "/AntFrameaSuscitare.vue")
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps005.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr005.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntAppenderunt.vue")
+              () => import("../components/g50Antiphona/la/AntAppenderunt.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -612,13 +612,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps035.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr035.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntInundaveruntAquae.vue")
+              () => import("../components/g50Antiphona/la/AntInundaveruntAquae.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -638,7 +638,7 @@ export default defineComponent({
           {
             antID: 5,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntLabiaInsurgentium.vue")
+              () => import("../components/g50Antiphona/la/AntLabiaInsurgentium.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -651,14 +651,14 @@ export default defineComponent({
             psalmTR: defineAsyncComponent(
               () =>
                 import(
-                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                  "../components/g65Psalmodia/" + props.language + "/PsTr148149150.vue"
                 )
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntClarificaMe.vue")
+            () => import("../components/g50Antiphona/la/AntClarificaMe.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -680,7 +680,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntNosQuiVivimus.vue")
+              () => import("../components/g50Antiphona/la/AntNosQuiVivimus.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -689,13 +689,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps113.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr113.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntInclinavitDom.vue")
+              () => import("../components/g50Antiphona/la/AntInclinavitDom.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -704,13 +704,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps114.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr114.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntCredidiPropter.vue")
+              () => import("../components/g50Antiphona/la/AntCredidiPropter.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -722,13 +722,13 @@ export default defineComponent({
             ),
             psalmTR: defineAsyncComponent(
               () =>
-                import("../components/g65Psalmodia/" + props.language + "/Ps115-116.vue")
+                import("../components/g65Psalmodia/" + props.language + "/PsTr115-116.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntSaepeExpungaverunt.vue")
+              () => import("../components/g50Antiphona/la/AntSaepeExpungaverunt.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -739,13 +739,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps128.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr128.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntNonHaberes.vue")
+            () => import("../components/g50Antiphona/la/AntNonHaberes.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -767,7 +767,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntVideDom.vue")
+              () => import("../components/g50Antiphona/la/AntVideDom.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -778,13 +778,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr050.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDiscerneCausam.vue")
+              () => import("../components/g50Antiphona/la/AntDiscerneCausam.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -795,13 +795,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps042.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr042.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDumTribularer.vue")
+              () => import("../components/g50Antiphona/la/AntDumTribularer.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -810,13 +810,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps056.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr056.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDomVim.vue")
+              () => import("../components/g50Antiphona/la/AntDomVim.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -834,7 +834,7 @@ export default defineComponent({
           {
             antID: 5,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDixeruntImpii.vue")
+              () => import("../components/g50Antiphona/la/AntDixeruntImpii.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -845,14 +845,14 @@ export default defineComponent({
             psalmTR: defineAsyncComponent(
               () =>
                 import(
-                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                  "../components/g65Psalmodia/" + props.language + "/PsTr148149150.vue"
                 )
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntAnteDiemPaschae.vue")
+            () => import("../components/g50Antiphona/la/AntAnteDiemPaschae.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -874,7 +874,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDeProfundis.vue")
+              () => import("../components/g50Antiphona/la/AntDeProfundis.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -883,13 +883,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps129.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr129.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntSperetIsrael.vue")
+              () => import("../components/g50Antiphona/la/AntSperetIsrael.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -898,26 +898,26 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps130.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr130.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntEtOmnis.vue")
+              () => import("../components/g50Antiphona/la/AntEtOmnis.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
                 import("../components/g50Antiphona/" + props.language + "/AntEtOmnis.vue")
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps131.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr131.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntEcceQuam.vue")
+              () => import("../components/g50Antiphona/la/AntEcceQuam.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -926,13 +926,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps132.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr132.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntPotestatemHabeo.vue")
+            () => import("../components/g50Antiphona/la/AntPotestatemHabeo.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -957,7 +957,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntLiberaMe.vue")
+              () => import("../components/g50Antiphona/la/AntLiberaMe.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -966,13 +966,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr050.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntContumeliasEtTerrores.vue")
+              () => import("../components/g50Antiphona/la/AntContumeliasEtTerrores.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -983,13 +983,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps063.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr063.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntIpsiVero.vue")
+              () => import("../components/g50Antiphona/la/AntIpsiVero.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1000,13 +1000,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps064.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr064.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntOmnesInimici.vue")
+              () => import("../components/g50Antiphona/la/AntOmnesInimici.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1022,7 +1022,7 @@ export default defineComponent({
           {
             antID: 5,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntAlligaDom.vue")
+              () => import("../components/g50Antiphona/la/AntAlligaDom.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1033,14 +1033,14 @@ export default defineComponent({
             psalmTR: defineAsyncComponent(
               () =>
                 import(
-                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                  "../components/g65Psalmodia/" + props.language + "/PsTr148149150.vue"
                 )
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntSimonDormis.vue")
+            () => import("../components/g50Antiphona/la/AntSimonDormis.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -1062,7 +1062,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntOmniaQuaecumque.vue")
+              () => import("../components/g50Antiphona/la/AntOmniaQuaecumque.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1073,13 +1073,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps134.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr134.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntQuoniamInAeternum.vue")
+              () => import("../components/g50Antiphona/la/AntQuoniamInAeternum.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1090,13 +1090,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps135.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr135.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntHymnumCantate.vue")
+              () => import("../components/g50Antiphona/la/AntHymnumCantate.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1105,13 +1105,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps136.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr136.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntInConspectuAngelorum.vue")
+              () => import("../components/g50Antiphona/la/AntInConspectuAngelorum.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1122,13 +1122,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps137.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr137.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntAncillaDixit.vue")
+            () => import("../components/g50Antiphona/la/AntAncillaDixit.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -1150,7 +1150,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntIustificerisDom.vue")
+              () => import("../components/g50Antiphona/la/AntIustificerisDom.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1161,13 +1161,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr050.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDomTamquam.vue")
+              () => import("../components/g50Antiphona/la/AntDomTamquam.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1176,13 +1176,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps089.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr089.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntContritumEst.vue")
+              () => import("../components/g50Antiphona/la/AntContritumEst.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1191,13 +1191,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps035.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr035.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntExhortatusEs.vue")
+              () => import("../components/g50Antiphona/la/AntExhortatusEs.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1213,7 +1213,7 @@ export default defineComponent({
           {
             antID: 5,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntOblatusEst.vue")
+              () => import("../components/g50Antiphona/la/AntOblatusEst.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1222,13 +1222,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps146.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr146.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntTraditorAutem.vue")
+            () => import("../components/g50Antiphona/la/AntTraditorAutem.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -1251,7 +1251,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntProprioFilio.vue")
+              () => import("../components/g50Antiphona/la/AntProprioFilio.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1260,13 +1260,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr050.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntAnxiatusEst.vue")
+              () => import("../components/g50Antiphona/la/AntAnxiatusEst.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1275,13 +1275,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps142.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr142.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntAitLatro.vue")
+              () => import("../components/g50Antiphona/la/AntAitLatro.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1290,13 +1290,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps084.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr084.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntDumConturbata.vue")
+              () => import("../components/g50Antiphona/la/AntDumConturbata.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1312,7 +1312,7 @@ export default defineComponent({
           {
             antID: 5,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntMementoMei.vue")
+              () => import("../components/g50Antiphona/la/AntMementoMei.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1321,13 +1321,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps147.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr147.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntPosueruntSuper.vue")
+            () => import("../components/g50Antiphona/la/AntPosueruntSuper.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -1350,20 +1350,20 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntOMors.vue")
+              () => import("../components/g50Antiphona/la/AntOMors.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
                 import("../components/g50Antiphona/" + props.language + "/AntOMors.vue")
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps050.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr050.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntPlangentEum.vue")
+              () => import("../components/g50Antiphona/la/AntPlangentEum.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1372,13 +1372,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps091.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr091.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntAttenditeUniversi.vue")
+              () => import("../components/g50Antiphona/la/AntAttenditeUniversi.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1389,13 +1389,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps063.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr063.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntAPortaInferi.vue")
+              () => import("../components/g50Antiphona/la/AntAPortaInferi.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1413,7 +1413,7 @@ export default defineComponent({
           {
             antID: 5,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntOVosOmnes.vue")
+              () => import("../components/g50Antiphona/la/AntOVosOmnes.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1422,13 +1422,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps150.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr150.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntMulieresSedentes.vue")
+            () => import("../components/g50Antiphona/la/AntMulieresSedentes.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -1453,7 +1453,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntAngelusAutem.vue")
+              () => import("../components/g50Antiphona/la/AntAngelusAutem.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1462,13 +1462,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps092.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr092.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntEtEcceTerraemotus.vue")
+              () => import("../components/g50Antiphona/la/AntEtEcceTerraemotus.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1479,13 +1479,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps099.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr099.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntEratAutem.vue")
+              () => import("../components/g50Antiphona/la/AntEratAutem.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1494,13 +1494,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps062.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr062.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntPraeTimore.vue")
+              () => import("../components/g50Antiphona/la/AntPraeTimore.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1520,7 +1520,7 @@ export default defineComponent({
           {
             antID: 5,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntRespondensAutem.vue")
+              () => import("../components/g50Antiphona/la/AntRespondensAutem.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1533,14 +1533,14 @@ export default defineComponent({
             psalmTR: defineAsyncComponent(
               () =>
                 import(
-                  "../components/g65Psalmodia/" + props.language + "/Ps148149150.vue"
+                  "../components/g65Psalmodia/" + props.language + "/PsTr148149150.vue"
                 )
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntEtValdeMane.vue")
+            () => import("../components/g50Antiphona/la/AntEtValdeMane.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -1562,7 +1562,7 @@ export default defineComponent({
           {
             antID: 1,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntAngelusAutem.vue")
+              () => import("../components/g50Antiphona/la/AntAngelusAutem.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1571,13 +1571,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps109.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr109.vue")
             ),
           },
           {
             antID: 2,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntEtEcceTerraemotus.vue")
+              () => import("../components/g50Antiphona/la/AntEtEcceTerraemotus.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1588,13 +1588,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps110.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr110.vue")
             ),
           },
           {
             antID: 3,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntEratAutem.vue")
+              () => import("../components/g50Antiphona/la/AntEratAutem.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1603,13 +1603,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps111.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr111.vue")
             ),
           },
           {
             antID: 4,
             antLA: defineAsyncComponent(
-              () => import("../components/g50Antiphona/AntRespondensAutem.vue")
+              () => import("../components/g50Antiphona/la/AntRespondensAutem.vue")
             ),
             antTR: defineAsyncComponent(
               () =>
@@ -1620,13 +1620,13 @@ export default defineComponent({
                 )
             ),
             psalmTR: defineAsyncComponent(
-              () => import("../components/g65Psalmodia/" + props.language + "/Ps112.vue")
+              () => import("../components/g65Psalmodia/" + props.language + "/PsTr112.vue")
             ),
           },
         ],
         cant: {
           antLA: defineAsyncComponent(
-            () => import("../components/g50Antiphona/AntEtRespicientes.vue")
+            () => import("../components/g50Antiphona/la/AntEtRespicientes.vue")
           ),
           antTR: defineAsyncComponent(
             () =>
@@ -1657,7 +1657,7 @@ export default defineComponent({
       { capitulum: null, capitulumTR: null },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapPhilCh02V05.vue")
+          () => import("../components/g75Lectio/la/CapPhilCh02V05.vue")
         ), // Dom. in Palmis
         capitulumTR: defineAsyncComponent(
           () => import("../components/g75Lectio/" + language + "/CapPhilCh02V05.vue")
@@ -1665,7 +1665,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapIerCh11V19.vue")
+          () => import("../components/g75Lectio/la/CapIerCh11V19.vue")
         ), // Ad Laudes Quadragesimae
         capitulumTR: defineAsyncComponent(
           () => import("../components/g75Lectio/" + language + "/CapIerCh11V19.vue")
@@ -1673,7 +1673,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapIerCh11V20.vue")
+          () => import("../components/g75Lectio/la/CapIerCh11V20.vue")
         ), // Ad Vesperas Quadragesimae
         capitulumTR: defineAsyncComponent(
           () => import("../components/g75Lectio/" + language + "/CapIerCh11V20.vue")
@@ -1681,7 +1681,7 @@ export default defineComponent({
       },
       {
         capitulum: defineAsyncComponent(
-          () => import("../components/g75Lectio/CapCor1Ch05V07.vue")
+          () => import("../components/g75Lectio/la/CapCor1Ch05V07.vue")
         ), // Dom. Resurrectio
         capitulumTR: defineAsyncComponent(
           () => import("../components/g75Lectio/" + language + "/CapCor1Ch05V07.vue")
@@ -1793,7 +1793,7 @@ export default defineComponent({
     const arrayVersus = [
       {
         versus: defineAsyncComponent(
-          () => import("../components/g85Versus/VersEripeMeInimicis.vue")
+          () => import("../components/g85Versus/la/VersEripeMeInimicis.vue")
         ), // Ad Laudes Hebdomada Sancta
         versusTR: defineAsyncComponent(
           () => import("../components/g85Versus/" + language + "/VersEripeMeInimicis.vue")
@@ -1801,7 +1801,7 @@ export default defineComponent({
       },
       {
         versus: defineAsyncComponent(
-          () => import("../components/g85Versus/VersEripeMeHomine.vue")
+          () => import("../components/g85Versus/la/VersEripeMeHomine.vue")
         ), // Ad Vesperas Hebdomada Sancta
         versusTR: defineAsyncComponent(
           () => import("../components/g85Versus/" + language + "/VersEripeMeHomine.vue")
@@ -1809,7 +1809,7 @@ export default defineComponent({
       },
       {
         versus: defineAsyncComponent(
-          () => import("../components/g85Versus/VerHomoPacis.vue")
+          () => import("../components/g85Versus/la/VersHomoPacis.vue")
         ), // Feria V
         versusTR: defineAsyncComponent(
           () => import("../components/g85Versus/" + language + "/VerHomoPacis.vue")
@@ -1817,7 +1817,7 @@ export default defineComponent({
       },
       {
         versus: defineAsyncComponent(
-          () => import("../components/g85Versus/VerCollocavitIn.vue")
+          () => import("../components/g85Versus/la/VersCollocavitIn.vue")
         ), // Feria VI
         versusTR: defineAsyncComponent(
           () => import("../components/g85Versus/" + language + "/VerCollocavitIn.vue")
@@ -1825,7 +1825,7 @@ export default defineComponent({
       },
       {
         versus: defineAsyncComponent(
-          () => import("../components/g85Versus/VerCaroMea.vue")
+          () => import("../components/g85Versus/la/VersCaroMea.vue")
         ), // Feria VII
         versusTR: defineAsyncComponent(
           () => import("../components/g85Versus/" + language + "/VerCaroMea.vue")
@@ -1833,7 +1833,7 @@ export default defineComponent({
       },
       {
         versus: defineAsyncComponent(
-          () => import("../components/g85Versus/VersHaecDies.vue")
+          () => import("../components/g85Versus/la/VersHaecDies.vue")
         ), //  Dom. Resurrectio
         versusTR: defineAsyncComponent(
           () => import("../components/g85Versus/" + language + "/VersHaecDies.vue")
@@ -1859,7 +1859,7 @@ export default defineComponent({
       { oratio: null, oratioTR: null },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraQuiHumanoGeneri.vue")
+          () => import("../components/g80Oratio/la/OraQuiHumanoGeneri.vue")
         ), // Dom. in Palmis
         oratioTR: defineAsyncComponent(
           () => import("../components/g80Oratio/" + language + "/OraQuiHumanoGeneri.vue")
@@ -1867,7 +1867,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraUtQuiInTot.vue")
+          () => import("../components/g80Oratio/la/OraUtQuiInTot.vue")
         ), // Feria II Ad Laudes
         oratioTR: defineAsyncComponent(
           () => import("../components/g80Oratio/" + language + "/OraUtQuiInTot.vue")
@@ -1875,7 +1875,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraDaNobisIta.vue")
+          () => import("../components/g80Oratio/la/OraDaNobisIta.vue")
         ), // Feria III  Ad Laudes
         oratioTR: defineAsyncComponent(
           () => import("../components/g80Oratio/" + language + "/OraDaNobisIta.vue")
@@ -1883,7 +1883,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraQuiProNobisFilium.vue")
+          () => import("../components/g80Oratio/la/OraQuiProNobisFilium.vue")
         ), // Feria IV Ad Laudes
         oratioTR: defineAsyncComponent(
           () =>
@@ -1892,7 +1892,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraAdBeneficiaRecolenda.vue")
+          () => import("../components/g80Oratio/la/OraAdBeneficiaRecolenda.vue")
         ), // Feria II Ad Vesperas
         oratioTR: defineAsyncComponent(
           () =>
@@ -1901,7 +1901,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraTuaNosMisericordia.vue")
+          () => import("../components/g80Oratio/la/OraTuaNosMisericordia.vue")
         ), // Feria III Ad Vesperas
         oratioTR: defineAsyncComponent(
           () =>
@@ -1910,7 +1910,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraSuperHancFamiliam.vue")
+          () => import("../components/g80Oratio/la/OraSuperHancFamiliam.vue")
         ), // Feria IV Ad Vesperas
         oratioTR: defineAsyncComponent(
           () =>
@@ -1919,7 +1919,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraSuperHancFamiliamTriduo.vue")
+          () => import("../components/g80Oratio/la/OraSuperHancFamiliamTriduo.vue")
         ), // Ad Laudes Feria V & Feria VI
         oratioTR: defineAsyncComponent(
           () =>
@@ -1928,7 +1928,7 @@ export default defineComponent({
       },
       {
         oratio: defineAsyncComponent(
-          () => import("../components/g80Oratio/OraQuiHodiernaDie.vue")
+          () => import("../components/g80Oratio/la/OraQuiHodiernaDie.vue")
         ),
         oratioTR: defineAsyncComponent(
           () => import("../components/g80Oratio/" + language + "/OraQuiHodiernaDie.vue")
@@ -1954,13 +1954,13 @@ export default defineComponent({
       { kyrieAnt: null, kyrieAntTR: null },
       {
         kyrieAnt: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/Kyrie.vue")
+          () => import("../components/g95InOrdineOfficii/la/KyrieEleison.vue")
         ),
         kyrieAntTR: null,
       },
       {
         kyrieAnt: defineAsyncComponent(
-          () => import("../components/g50Antiphona/AntChristusFactusEst5.vue")
+          () => import("../components/g50Antiphona/la/AntChristusFactusEst5.vue")
         ),
         kyrieAntTR: defineAsyncComponent(
           () =>
@@ -1971,7 +1971,7 @@ export default defineComponent({
       },
       {
         kyrieAnt: defineAsyncComponent(
-          () => import("../components/g50Antiphona/AntChristusFactusEst6.vue")
+          () => import("../components/g50Antiphona/la/AntChristusFactusEst6.vue")
         ),
         kyrieAntTR: defineAsyncComponent(
           () =>
@@ -1982,7 +1982,7 @@ export default defineComponent({
       },
       {
         kyrieAnt: defineAsyncComponent(
-          () => import("../components/g50Antiphona/AntChristusFactusEst7.vue")
+          () => import("../components/g50Antiphona/la/AntChristusFactusEst7.vue")
         ),
         kyrieAntTR: defineAsyncComponent(
           () =>
@@ -2004,15 +2004,15 @@ export default defineComponent({
       { Pater: null, DomVobis: null },
       {
         Pater: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/PaterNoster.vue")
+          () => import("../components/g95InOrdineOfficii/la/PaterNoster.vue")
         ),
         DomVobis: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/DominusVobiscum.vue")
+          () => import("../components/g95InOrdineOfficii/la/DominusVobiscum.vue")
         ),
       },
       {
         Pater: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/PaterNosterTriduum.vue")
+          () => import("../components/g95InOrdineOfficii/la/PaterNosterTriduum.vue")
         ),
         DomVobis: null,
       },
@@ -2029,7 +2029,7 @@ export default defineComponent({
       { benedicamusDom: null, benedicamusDomTR: null },
       {
         benedicamusDom: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/BenedicamusDom.vue")
+          () => import("../components/g95InOrdineOfficii/la/BenedicamusDom.vue")
         ),
         benedicamusDomTR: defineAsyncComponent(
           () =>
@@ -2047,6 +2047,7 @@ export default defineComponent({
       feastCurrent,
       officeCurrent,
       officeNum,
+      feastOfficeID, 
       officeInAdiutorium,
       officeInAdiutoriumFin,
       officeAnt,

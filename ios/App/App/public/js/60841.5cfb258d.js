@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[60841],{60841:function(n,e,u){u.r(e),u.d(e,{default:function(){return d}});var r=u(66252);const l=(0,r.Uk)(" Et le traître leur donna un signe, disant :"),t=(0,r._)("br",null,null,-1),a=(0,r.Uk)(" Celui à qui je donnerai un baiser,"),s=(0,r._)("br",null,null,-1),i=(0,r.Uk)(" c´est lui, arrêtez-le. ");function c(n,e){return(0,r.wg)(),(0,r.iD)(r.HY,null,[l,t,a,s,i],64)}var b=u(83744);const k={},o=(0,b.Z)(k,[["render",c]]);var d=o}}]);
+//# sourceMappingURL=60841.5cfb258d.js.map

@@ -55,7 +55,7 @@ et il sauvera les humbles d’esprit.</ion-text></ion-col></ion-row></ion-grid>
  <template v-if=" annoABC == 'A' ||  annoABC == 'B' ||  annoABC == 'C'">
 <rubrique>Versus alleluiaticus</rubrique><br /><br />Lauda Ierusalem Dominum.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11">
-<ion-text color="tertiary">Loue, Jérusalem, le Seigneur.</ion-text></ion-col></ion-row></ion-grid>
+<ion-text color="tertiary">Loue le Seigneur, Jérusalem.</ion-text></ion-col></ion-row></ion-grid>
 
  <!-- textType = C keyText = 5523 --> Lauda Deum tuum Sion.
 <ion-grid><ion-row><ion-col>&nbsp;</ion-col><ion-col size="11"><ion-text color="tertiary">Loue ton Dieu, Sion.</ion-text></ion-col></ion-row></ion-grid>

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[46852],{46852:function(n,u,e){e.r(u),e.d(u,{default:function(){return l}});var r=e(66252);const s=(0,r.Uk)(" Credidi, propter quod "),t=(0,r._)("span",{class:"fc"},"locutus sum",-1),c=(0,r.Uk)(". ");function a(n,u){return(0,r.wg)(),(0,r.iD)(r.HY,null,[s,t,c],64)}var o=e(83744);const f={},i=(0,o.Z)(f,[["render",a]]);var l=i}}]);
+//# sourceMappingURL=46852.8e4f7300.js.map

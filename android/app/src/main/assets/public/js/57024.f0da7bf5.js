@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[57024],{57024:function(n,e,r){function t(n,e){return" Laus tibi Dómine Rex ætérnæ glóriæ. "}r.r(e),r.d(e,{default:function(){return i}});var u=r(83744);const s={},a=(0,u.Z)(s,[["render",t]]);var i=a}}]);
+//# sourceMappingURL=57024.f0da7bf5.js.map

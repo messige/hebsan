@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[19528],{19528:function(n,r,e){e.r(r),e.d(r,{default:function(){return f}});var u=e(66252),t=e(50565);const s=(0,u._)("img",{src:t},null,-1),l=(0,u._)("br",null,null,-1);function a(n,r){return(0,u.wg)(),(0,u.iD)(u.HY,null,[s,l],64)}var c=e(83744);const o={},i=(0,c.Z)(o,[["render",a]]);var f=i},50565:function(n,r,e){n.exports=e.p+"img/PaterNosterHorMajor.3e42b179.jpg"}}]);
+//# sourceMappingURL=19528.56c4edf6.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[62465],{62465:function(n,e,r){r.r(e),r.d(e,{default:function(){return f}});var u=r(66252);const t=(0,u.Uk)(" Der Herr wurde wie ein Lamm zur Schlachtbank geführt,"),a=(0,u._)("br",null,null,-1),c=(0,u.Uk)(" und er tat seinen Mund nicht auf. ");function l(n,e){return(0,u.wg)(),(0,u.iD)(u.HY,null,[t,a,c],64)}var s=r(83744);const h={},i=(0,s.Z)(h,[["render",l]]);var f=i}}]);
+//# sourceMappingURL=62465.553d7efa.js.map

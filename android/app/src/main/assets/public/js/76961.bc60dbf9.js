@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[76961],{76961:function(n,u,e){e.r(u),e.d(u,{default:function(){return f}});var r=e(66252);const a=(0,r.Uk)(" Ecce quam bonum et quam iucundum"),t=(0,r._)("br",null,null,-1),c=(0,r.Uk)(" habitare fratres in unum. ");function s(n,u){return(0,r.wg)(),(0,r.iD)(r.HY,null,[a,t,c],64)}var l=e(83744);const i={},b=(0,l.Z)(i,[["render",s]]);var f=b}}]);
+//# sourceMappingURL=76961.bc60dbf9.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[15190],{15190:function(n,e,r){r.r(e),r.d(e,{default:function(){return d}});var t=r(66252);const u=(0,t.Uk)(" Die Gottlosen sprachen:"),s=(0,t._)("br",null,null,-1),l=(0,t.Uk)(" Unterdrücken wir den gerechten Menschen,"),c=(0,t._)("br",null,null,-1),i=(0,t.Uk)(" denn er widersetzt sich unserem Treiben. ");function a(n,e){return(0,t.wg)(),(0,t.iD)(t.HY,null,[u,s,l,c,i],64)}var h=r(83744);const k={},b=(0,h.Z)(k,[["render",a]]);var d=b}}]);
+//# sourceMappingURL=15190.9649db43.js.map

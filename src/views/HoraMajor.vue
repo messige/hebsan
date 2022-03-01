@@ -6,28 +6,25 @@
           <ion-icon :icon="home"></ion-icon>
         </ion-button>
         &nbsp; &nbsp;
-        <ion-button shape="round" size="small" strong href="/Sancta">
+        <ion-button shape="round" size="small" strong href="/HebdomadaSancta">
           <ion-icon :icon="arrowBackSharp" />
         </ion-button>
-        <br />
-        <br />
       </ion-toolbar>
     </ion-header>
-    <ion-content id="container">
-      <p>&nbsp;</p>
-      <br />
+    <ion-content>
+      <div id="container">
       <h2>
-        {{ feastCurrent.title }} - {{ feastCurrent.titleTR }} <br />
-        - {{ officeCurrent.officeName }}
+        {{ feastCurrent.titleLA }}<br /> {{ feastCurrent.titleTR }} 
+        <br />{{ officeCurrent.officeName }}
       </h2>
       <component :is="officeInAdiutorium" />
       <p>
         <rubrique>Antiphonae</rubrique><br />
         <template v-for="(thisAnt, antID) in officeAnt" :key="antID">
-          <ImageDisplay :imgSource="thisAnt.ant" />
-          <ImageDisplay :imgSource="thisAnt.ton" />
-          <component :is="thisAnt.psalm" />
-          <ImageDisplay :imgSource="thisAnt.ant" /><br />
+          <ImageDisplay :imgSource="thisAnt.antLA" />
+          <ImageDisplay :imgSource="thisAnt.tonPs" />
+          <component :is="thisAnt.psalmCant" />
+          <ImageDisplay :imgSource="thisAnt.antLA" /><br />
         </template>
       </p>
       <p><component :is="officeCapitulum" /></p>
@@ -45,10 +42,10 @@
       <p>
         <rubrique>{{ officeCantRubr }}</rubrique
         ><br />
-        <ImageDisplay :imgSource="officeCant.ant" /> <br />
-        <ImageDisplay :imgSource="officeCant.ton" /> <br />
+        <ImageDisplay :imgSource="officeCant.antLA" /> <br />
+        <ImageDisplay :imgSource="officeCant.tonPs" /> <br />
         <component :is="officeCant.cant" />
-        <ImageDisplay :imgSource="officeCant.ant" /> <br />
+        <ImageDisplay :imgSource="officeCant.antLA" /> <br />
       </p>
       <p><ImageDisplay :imgSource="officeKyrie" /></p>
       <p><component :is="officeOraFinal.Pater" /></p>
@@ -63,7 +60,8 @@
       </p>
       <p><component :is="officeOraFinal.DomVobis" /></p>
       <ImageDisplay :imgSource="officeBenedicamusDom" />
-      <br />
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+      </div>
     </ion-content>
   </ion-page>
 </template>
@@ -81,11 +79,11 @@ import {
 } from "@ionic/vue";
 import { defineAsyncComponent } from "vue";
 import { arrowBackSharp } from "ionicons/icons";
-import ImageDisplay from "@/components/ImageDisplay.vue";
+import ImageDisplay from "@/components/vue/ImageDisplay.vue";
 import { home } from "ionicons/icons";
 import { defineComponent } from "vue";
-import { getFeast } from "../data/feasts";
-import { getOffice } from "../data/offices";
+import { getFeast } from "../data/feastsTable";
+import { getOffice } from "../data/officesTable";
 import { feastOffices } from "../data/horaMajorAnts";
 export default defineComponent({
   name: "HoraMajor",
@@ -183,10 +181,10 @@ export default defineComponent({
       const officeCurrent       = arrayOffices [officeNum-1] ;    */
     const arrayCapitulum = [
       null,
-      defineAsyncComponent(() => import("@/components/g75Lectio/CapPhilCh02V05.vue")), // Dom. in Palmis
-      defineAsyncComponent(() => import("@/components/g75Lectio/CapIerCh11V19.vue")), // Ad Laudes Quadragesimae
-      defineAsyncComponent(() => import("@/components/g75Lectio/CapIerCh11V20.vue")), // Ad Vesperas Quadragesimae
-      defineAsyncComponent(() => import("@/components/g75Lectio/CapCor1Ch05V07.vue")),
+      defineAsyncComponent(() => import("@/components/g75Lectio/la/CapPhilCh02V05.vue")), // Dom. in Palmis
+      defineAsyncComponent(() => import("@/components/g75Lectio/la/CapIerCh11V19.vue")), // Ad Laudes Quadragesimae
+      defineAsyncComponent(() => import("@/components/g75Lectio/la/CapIerCh11V20.vue")), // Ad Vesperas Quadragesimae
+      defineAsyncComponent(() => import("@/components/g75Lectio/la/CapCor1Ch05V07.vue")),
     ]; // Dom. Resurrectio
     i = 0;
     if (feastNum == 1 || feastNum == 9) {
@@ -279,57 +277,57 @@ export default defineComponent({
     }
     const arrayOratioConclusio = [
       null,
-      defineAsyncComponent(() => import("@/components/g80Oratio/PerEundemDominum.vue")),
-      defineAsyncComponent(() => import("@/components/g80Oratio/PerDominum.vue")),
-      defineAsyncComponent(() => import("@/components/g80Oratio/QuiTecum.vue")),
+      defineAsyncComponent(() => import("@/components/g80Oratio/la/PerEundemDominum.vue")),
+      defineAsyncComponent(() => import("@/components/g80Oratio/la/PerDominum.vue")),
+      defineAsyncComponent(() => import("@/components/g80Oratio/la/QuiTecum.vue")),
     ];
     const arrayOratio = [
       { corpus: null, conclusio: 0 },
       {
         corpus: defineAsyncComponent(
-          () => import("@/components/g80Oratio/OraQuiHumanoGeneri.vue")
+          () => import("@/components/g80Oratio/la/OraQuiHumanoGeneri.vue")
         ), // Dom. in Palmis
         conclusio: 1,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("@/components/g80Oratio/OraUtQuiInTot.vue")
+          () => import("@/components/g80Oratio/la/OraUtQuiInTot.vue")
         ), // Feria II Ad Laudes
         conclusio: 3,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("@/components/g80Oratio/OraDaNobisIta.vue")
+          () => import("@/components/g80Oratio/la/OraDaNobisIta.vue")
         ), // Feria III  Ad Laudes
         conclusio: 1,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("@/components/g80Oratio/OraUtQuiNostri.vue")
+          () => import("@/components/g80Oratio/la/OraUtQuiNostri.vue")
         ), // Feria IV Ad Laudes
         conclusio: 1,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("@/components/g80Oratio/OraAdBeneficiaRecolenda.vue")
+          () => import("@/components/g80Oratio/la/OraAdBeneficiaRecolenda.vue")
         ), // Feria II Ad Vesperas
         conclusio: 2,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("@/components/g80Oratio/OraTuaNosMisericordia.vue")
+          () => import("@/components/g80Oratio/la/OraTuaNosMisericordia.vue")
         ), // Feria III Ad Vesperas
         conclusio: 2,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("@/components/g80Oratio/OraSuperHancFamiliam.vue")
+          () => import("@/components/g80Oratio/la/OraSuperHancFamiliam.vue")
         ), // Feria IV Ad Vesperas
         conclusio: 3,
       },
       {
         corpus: defineAsyncComponent(
-          () => import("@/components/g80Oratio/OraSuperHancFamiliamTriduo.vue")
+          () => import("@/components/g80Oratio/la/OraSuperHancFamiliamTriduo.vue")
         ), // Ad Laudes Feria V & Feria VI
         conclusio: 3,
       },
@@ -337,7 +335,7 @@ export default defineComponent({
         corpus: defineAsyncComponent(
           () =>
             // Dom. Resurrectio
-            import("@/components/g80Oratio/OraQuiHodiernaDie.vue")
+            import("@/components/g80Oratio/la/OraQuiHodiernaDie.vue")
         ),
         conclusio: 1,
       },
@@ -379,12 +377,12 @@ export default defineComponent({
           () => import("@/components/g95InOrdineOfficii/img/PaterNosterHoraMajor.vue")
         ), // Pater de l'Office
         DomVobis: defineAsyncComponent(
-          () => import("@/components/g95InOrdineOfficii/DominusVobiscum.vue")
+          () => import("@/components/g95InOrdineOfficii/la/DominusVobiscum.vue")
         ),
       },
       {
         Pater: defineAsyncComponent(
-          () => import("@/components/g95InOrdineOfficii/PaterNosterTriduum.vue")
+          () => import("@/components/g95InOrdineOfficii/la/PaterNosterTriduum.vue")
         ),
         DomVobis: null,
       },

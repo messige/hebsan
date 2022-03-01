@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[12511],{12511:function(e,n,r){r.r(n),r.d(n,{default:function(){return k}});var l=r(66252);const u=(0,l.Uk)(" Alles, was er wollte,"),s=(0,l._)("br",null,null,-1),t=(0,l.Uk)(" hat der Herr geschaffen. ");function a(e,n){return(0,l.wg)(),(0,l.iD)(l.HY,null,[u,s,t],64)}var c=r(83744);const f={},h=(0,c.Z)(f,[["render",a]]);var k=h}}]);
+//# sourceMappingURL=12511.67e88eab.js.map

@@ -6,32 +6,33 @@
           ><ion-icon :icon="home"></ion-icon>
         </ion-button>
       </ion-toolbar>
-      <br />
     </ion-header>
     <ion-content>
       <div id="container">
-        <ion-title
-          >Calendarium Romanum <br />
-          ex Decreto Sacrosancti Oecumenici Concilii <br class="smallScreen" />
-          Vaticani II instauratum</ion-title
-        ><br />
-        <Calendarium />
-        <Calendarium
+        <br />
+        <h2>
+          Calendarium Romanum <br />
+          ex Decreto Sacrosancti Oecumenici<br />
+          Concilii Vaticani II instauratum
+        </h2>
+        <br />
+        <CalendariumFeast />
+        <CalendariumFeast
           :startyear="civilYearPlus1"
           :startmonth="firstMonth"
           :startday="firstDay"
         />
-        <Calendarium
+        <CalendariumFeast
           :startyear="civilYearPlus2"
           :startmonth="firstMonth"
           :startday="firstDay"
         />
-        <Calendarium
+        <CalendariumFeast
           :startyear="civilYearPlus3"
           :startmonth="firstMonth"
           :startday="firstDay"
         />                
-        <br />&nbsp;<br />&nbsp;<br /><br />&nbsp;<br />
+        <br />&nbsp;<br />&nbsp;<br />&nbsp;
       </div>
     </ion-content>
   </ion-page>
@@ -40,7 +41,7 @@
 <script setup lang="ts">
 import { home } from "ionicons/icons";
 import getYear from "date-fns/getYear";
-import Calendarium from "@/components/Calendarium.vue";
+import CalendariumFeast from "@/components/vue/CalendariumFeast.vue";
 
 const today = new Date(); //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
 const civilYearPlus1 = getYear(today) + 1;

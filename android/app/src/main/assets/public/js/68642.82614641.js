@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[68642],{68642:function(e,n,u){u.r(n),u.d(n,{default:function(){return k}});var t=u(66252);const r=(0,t.Uk)(" Traditor autem dedit eis signum, dicens:"),s=(0,t._)("br",null,null,-1),l=(0,t.Uk)(" quem osculatus fuero,"),a=(0,t._)("br",null,null,-1),i=(0,t.Uk)(" ipse est, tenete eum. ");function c(e,n){return(0,t.wg)(),(0,t.iD)(t.HY,null,[r,s,l,a,i],64)}var o=u(83744);const d={},f=(0,o.Z)(d,[["render",c]]);var k=f}}]);
+//# sourceMappingURL=68642.82614641.js.map
