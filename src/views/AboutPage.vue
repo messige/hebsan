@@ -13,11 +13,7 @@
     <ion-content>
       <div id="container">
         <p><strong>Dominicae et Hebdomada Sancta</strong></p>
-<<<<<<< HEAD:src/views/AboutPage.vue
         <p>Last update: 1/03/2022</p>
-=======
-        <p>Last update: 27/02/2022</p>
->>>>>>> 658260aec40539cc272dbb8fde473e62494e6f6c:src/views/About.vue
         <p><strong>Description - fr</strong></p>
         <p>
           Les textes des chants du Propre grégorien des dimanches,<br />

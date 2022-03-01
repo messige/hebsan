@@ -57,7 +57,6 @@
               </ion-label>
           </ion-item>
         </ion-list>
-        <br />Last update: 27/02/2022
       </div>
     </ion-content>
   </ion-page>
