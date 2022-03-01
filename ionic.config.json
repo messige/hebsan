@@ -1,8 +1,7 @@
 {
-  "name": "hebsan",
+  "name": "myApp",
   "integrations": {
     "capacitor": {}
   },
-  "type": "vue",
-  "id": "b07a4f37"
+  "type": "vue"
 }

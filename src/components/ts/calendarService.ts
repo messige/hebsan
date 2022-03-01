@@ -173,7 +173,7 @@ export default function (thisDay: Date) {
   do {
     incrementDate = addWeeks(baptism, i - 1);
     calendarObj = new CalendarItem(
-      "Tempus per annum " + i,
+      "Tempus Per Annum " + i,
       incrementDate,
       annoABC
     );
@@ -185,7 +185,7 @@ export default function (thisDay: Date) {
   do {
     incrementDate = addWeeks(beforeAsh, i);
     calendarObj = new CalendarItem(
-      "Tempus quadragesimae " + i,
+      "Tempus Quadragesimae " + i,
       incrementDate,
       annoABC
     );
@@ -193,7 +193,7 @@ export default function (thisDay: Date) {
     i++;
   } while (compareDesc(incrementDate, addWeeks(easter, -2)) > 0);
   calendarObj = new CalendarItem(
-    "Dominica in palmis",
+    "Dominica In Palmis",
     addWeeks(easter, -1),
     annoABC
   );
@@ -209,7 +209,7 @@ export default function (thisDay: Date) {
   for (i = 1; i < 6; i++) {
     incrementDate = addWeeks(easter, i);
     calendarObj = new CalendarItem(
-      "Tempus paschale " + (i + 1),
+      "Tempus Paschale " + (i + 1),
       incrementDate,
       annoABC
     );
@@ -223,10 +223,10 @@ export default function (thisDay: Date) {
   );
   pushItem(calendarObj);
   arrayFeasts = [
-    "Tempus paschale 7",
-    "Pentecostes",
+    "Tempus Paschale 7",
+    "In Festo Pentecostes",
     "Sanctissimae Trinitatis",
-    "Corporis et sanguinis Christi",
+    "Corporis Et Sanguinis Christi",
   ];
   for (i = 0; i < 4; i++) {
     incrementDate = addWeeks(easter, 6 + i);
@@ -237,7 +237,7 @@ export default function (thisDay: Date) {
   do {
     incrementDate = addWeeks(easter, i + 10);
     calendarObj = new CalendarItem(
-      "Tempus per annum " + indexPerAnnum,
+      "Tempus Per Annum " + indexPerAnnum,
       incrementDate,
       annoABC
     );
@@ -250,7 +250,7 @@ export default function (thisDay: Date) {
   for (i = 1; i < 5; i++) {
     incrementDate = addWeeks(xRex, i);
     calendarObj = new CalendarItem(
-      "Tempus adventus " + i,
+      "Tempus Adventus " + i,
       incrementDate,
       annoABCPlus1
     );
@@ -278,7 +278,7 @@ export default function (thisDay: Date) {
         thisItem.calendarFeast = "Beatae Mariae Virginis Assumptio";
       }
       if (compareDesc(thisItem.calendarDate, sanctorum) == 0) {
-        thisItem.calendarFeast = "Omnium sanctorum";
+        thisItem.calendarFeast = "Omnium Sanctorum";
       }
     }
   }
@@ -291,7 +291,7 @@ export default function (thisDay: Date) {
     pushItem(calendarObj);
   }
   if (getDay(sanctorum) > 0) {
-    calendarObj = new CalendarItem("Omnium sanctorum", sanctorum, annoABC);
+    calendarObj = new CalendarItem("Omnium Sanctorum", sanctorum, annoABC);
     pushItem(calendarObj);
   }
   const praesentatio = new Date(civilYear, 1, 2); // fêtes de précepte
@@ -309,10 +309,10 @@ export default function (thisDay: Date) {
         thisItem2.calendarFeast = "Praesentatio Domini";
       }
       if (compareDesc(thisItem2.calendarDate, iosephSponsus) == 0) {
-        thisItem2.calendarFeast = "Ioseph sponsus";
+        thisItem2.calendarFeast = "Ioseph Sponsus";
       }
       if (compareDesc(thisItem2.calendarDate, petriPauli) == 0) {
-        thisItem2.calendarFeast = "Petri et Pauli";
+        thisItem2.calendarFeast = "Petri Et Pauli";
       }
       if (compareDesc(thisItem2.calendarDate, bmConceptio) == 0) {
         thisItem2.calendarFeast = "Beatae Mariae Virginis Conceptio";

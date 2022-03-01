@@ -5,7 +5,8 @@
 <tr><td><rubrique>1&nbsp;</rubrique></td>
 <td>Nunc dimíttis servum tuum, Dómine, <greStar />secúndum verbum tuum in pace.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>
-Maintenant, Seigneur, vous laisserez votre serviteur s'en aller en paix, selon votre parole,</td></tr>
+Maintenant, Seigneur, vous laisserez votre serviteur s'en aller en paix,<br />
+selon votre parole,</td></tr>
 <tr><td><rubrique>2</rubrique></td>
 <td>Quia vidérunt óculi mei <greStar />salutáre tuum.</td></tr>
 <tr class="trad"><td>&nbsp;</td><td>

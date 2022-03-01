@@ -1,3 +1,3 @@
 <template>
-Loue, Jérusalem, le Seigneur.
+Loue le Seigneur, Jérusalem.
 </template>

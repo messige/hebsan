@@ -20,7 +20,7 @@ car voici que, désormais, toutes les générations me diront bienheureuse.</td>
 <td>Quia fecit mihi  magna  qui  potens est <greStar /><br class="smallScreen" />
 et sanctum  nomen  eius.</td></tr>
 <tr  class="trad"><td>&nbsp;</td><td>
-Parce que celui qui est puissant a fait en moi de grandes choses,<br class="smallScreen" />
+Parce que celui qui est puissant a fait en moi de grandes choses,<br />
 et son nom est saint.</td></tr>
 <tr><td><rubrique>5</rubrique></td>
 <td>Et misericórdia eius a progénie  in  progénies <greStar /><br class="smallScreen" />
@@ -29,10 +29,10 @@ timéntibus  eum.</td></tr>
 Et sa miséricorde s’étend d’âge en âge<br class="smallScreen" />
 sur ceux qui le craignent.</td></tr>
 <tr><td><rubrique>6</rubrique></td>
-<td>Fecit poténtiam in  bráchio  suo <greStar /><br class="smallScreen" />
+<td>Fecit poténtiam in  bráchio  suo <greStar /><br />
 dispérsit supérbos mente  cordis  sui.</td></tr>
 <tr  class="trad"><td>&nbsp;</td><td>
-Il a déployé la force de son bras :<br class="smallScreen" />
+Il a déployé la force de son bras :<br />
 Il a dispersé ceux qui sont orgueilleux dans les pensées de leur cœur.</td></tr>
 <tr><td><rubrique>7</rubrique></td>
 <td>Depósuit poténtes  de  sede <greStar /><br class="smallScreen" />

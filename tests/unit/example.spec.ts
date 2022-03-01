@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import Home from '@/views/Home.vue'
+import HomePage from '@/views/HomePage.vue'
 
-describe('Home.vue', () => {
-  it('renders home view', () => {
-    const wrapper = mount(Home)
-    expect(wrapper.text()).toMatch('Inbox')
+describe('HomePage.vue', () => {
+  it('renders home vue', () => {
+    const wrapper = mount(HomePage)
+    expect(wrapper.text()).toMatch('Ready to create an app?')
   })
 })
