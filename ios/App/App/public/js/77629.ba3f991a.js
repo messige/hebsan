@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[77629],{77629:function(n,e,r){r.r(e),r.d(e,{default:function(){return f}});var t=r(66252);const u=(0,t.Uk)(" La servante dit à Pierre :"),a=(0,t._)("br",null,null,-1),s=(0,t.Uk)(" pour sûr, toi tu en es ;"),l=(0,t._)("br",null,null,-1),c=(0,t.Uk)(" car aussi ton accent te trahit. ");function i(n,e){return(0,t.wg)(),(0,t.iD)(t.HY,null,[u,a,s,l,c],64)}var o=r(83744);const k={},b=(0,o.Z)(k,[["render",i]]);var f=b}}]);
-//# sourceMappingURL=77629.ba3f991a.js.map

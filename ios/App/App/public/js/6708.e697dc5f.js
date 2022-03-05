@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[6708],{6708:function(n,e,s){function r(n,e){return" Christus factus est pro nobis. "}s.r(e),s.d(e,{default:function(){return c}});var t=s(83744);const u={},a=(0,t.Z)(u,[["render",r]]);var c=a}}]);
-//# sourceMappingURL=6708.e697dc5f.js.map

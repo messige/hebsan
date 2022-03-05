@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[92784],{92784:function(n,e,r){r.r(e),r.d(e,{default:function(){return k}});var u=r(66252);const a=(0,u.Uk)(" Und sehr früh am ersten Tag der Woche"),l=(0,u._)("br",null,null,-1),s=(0,u.Uk)(" kamen sie zu dem Grab,"),t=(0,u._)("br",null,null,-1),c=(0,u.Uk)(" als eben die Sonne aufging. ");function b(n,e){return(0,u.wg)(),(0,u.iD)(u.HY,null,[a,l,s,t,c],64)}var f=r(83744);const h={},i=(0,f.Z)(h,[["render",b]]);var k=i}}]);
-//# sourceMappingURL=92784.ab2f99a5.js.map

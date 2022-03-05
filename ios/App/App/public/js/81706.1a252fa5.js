@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[81706],{81706:function(e,n,r){r.r(n),r.d(n,{default:function(){return f}});var u=r(66252);const s=(0,u.Uk)(" Der Verräter aber gab ihnen ein Zeichen, er sagte:"),t=(0,u._)("br",null,null,-1),l=(0,u.Uk)(" Den ich küssen werde,"),i=(0,u._)("br",null,null,-1),a=(0,u.Uk)(" er ist es, ergreift ihn. ");function c(e,n){return(0,u.wg)(),(0,u.iD)(u.HY,null,[s,t,l,i,a],64)}var h=r(83744);const b={},k=(0,h.Z)(b,[["render",c]]);var f=k}}]);
-//# sourceMappingURL=81706.1a252fa5.js.map

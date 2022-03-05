@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[5531],{5531:function(n,u,e){function r(n,u){return" Regnum tuum Domine regnum omnium saeculorum "}e.r(u),e.d(u,{default:function(){return c}});var t=e(83744);const s={},a=(0,t.Z)(s,[["render",r]]);var c=a}}]);
-//# sourceMappingURL=5531.219b624f.js.map

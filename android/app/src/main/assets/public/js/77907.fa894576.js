@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[77907],{77907:function(n,e,u){u.r(e),u.d(e,{default:function(){return f}});var r=u(66252);const a=(0,r.Uk)(" Die Magd sagte zu Petrus: Wahrhaftig,"),t=(0,r._)("br",null,null,-1),l=(0,r.Uk)(" du bist auch einer von ihnen;"),c=(0,r._)("br",null,null,-1),h=(0,r.Uk)(" denn auch deine Sprache verrät dich. ");function i(n,e){return(0,r.wg)(),(0,r.iD)(r.HY,null,[a,t,l,c,h],64)}var s=u(83744);const d={},b=(0,s.Z)(d,[["render",i]]);var f=b}}]);
-//# sourceMappingURL=77907.fa894576.js.map

@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[49946],{49946:function(n,e,r){function u(n,e){return" Christus wurde für uns gehorsam bis zum Tod. "}r.r(e),r.d(e,{default:function(){return c}});var s=r(83744);const t={},a=(0,s.Z)(t,[["render",u]]);var c=a}}]);
-//# sourceMappingURL=49946.bc731f4d.js.map

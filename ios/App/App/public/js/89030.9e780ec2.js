@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[89030],{89030:function(e,n,u){u.r(n),u.d(n,{default:function(){return o}});var r=u(66252);const a=(0,r.Uk)(" Le Seigneur, comme une brebis, a été mené au sacrifice,"),t=(0,r._)("br",null,null,-1),c=(0,r.Uk)(" et il n´a pas ouvert la bouche. ");function s(e,n){return(0,r.wg)(),(0,r.iD)(r.HY,null,[a,t,c],64)}var l=u(83744);const i={},b=(0,l.Z)(i,[["render",s]]);var o=b}}]);
-//# sourceMappingURL=89030.9e780ec2.js.map

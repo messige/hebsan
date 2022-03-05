@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[30335],{30335:function(e,n,u){u.r(n),u.d(n,{default:function(){return c}});var r=u(66252);const t=(0,r.Uk)(" Christus wurde für uns gehorsam bis zum Tod, bis zum Tod am Kreuz."),a=(0,r._)("br",null,null,-1),s=(0,r.Uk)(" Darum auch hat Gott ihn erhöht und ihm den Namen gegeben, der über allen Namen steht. ");function h(e,n){return(0,r.wg)(),(0,r.iD)(r.HY,null,[t,a,s],64)}var l=u(83744);const i={},b=(0,l.Z)(i,[["render",h]]);var c=b}}]);
-//# sourceMappingURL=30335.7e63a54f.js.map

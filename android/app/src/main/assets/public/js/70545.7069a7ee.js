@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[70545],{70545:function(n,u,r){r.r(u),r.d(u,{default:function(){return k}});var s=r(66252);const t=(0,s.Uk)(" Le Christ s’est fait pour nous"),l=(0,s._)("br",null,null,-1),e=(0,s.Uk)(" obéissant jusqu’à la mort,"),a=(0,s._)("br",null,null,-1),o=(0,s.Uk)(" et la mort sur la croix. ");function c(n,u){return(0,s.wg)(),(0,s.iD)(s.HY,null,[t,l,e,a,o],64)}var i=r(83744);const b={},f=(0,i.Z)(b,[["render",c]]);var k=f}}]);
-//# sourceMappingURL=70545.7069a7ee.js.map

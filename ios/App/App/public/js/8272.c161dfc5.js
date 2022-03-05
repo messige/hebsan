@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[8272],{8272:function(n,e,r){r.r(e),r.d(e,{default:function(){return f}});var t=r(66252),u=r(77053);const s=(0,t._)("img",{src:u},null,-1),c=[s];function i(n,e){return(0,t.wg)(),(0,t.iD)("p",null,c)}var a=r(83744);const o={},l=(0,a.Z)(o,[["render",i]]);var f=l},77053:function(n,e,r){n.exports=r.p+"img/PaterNosterSilentio.14960c03.jpg"}}]);
-//# sourceMappingURL=8272.c161dfc5.js.map

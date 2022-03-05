@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[77995],{77995:function(n,e,r){function s(n,e){return" Singt uns einen Lobgesang von den Zionsliedern. "}r.r(e),r.d(e,{default:function(){return i}});var u=r(83744);const t={},a=(0,u.Z)(t,[["render",s]]);var i=a}}]);
-//# sourceMappingURL=77995.94a2ca5b.js.map

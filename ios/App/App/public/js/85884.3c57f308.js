@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[85884],{85884:function(e,n,r){r.r(n),r.d(n,{default:function(){return f}});var s=r(66252);const u=(0,s.Uk)(" Alle meine Feinde hörten von meinem Unglück, Herr,"),t=(0,s._)("br",null,null,-1),l=(0,s.Uk)(" sie freuten sich, dass du es getan hast. ");function a(e,n){return(0,s.wg)(),(0,s.iD)(s.HY,null,[u,t,l],64)}var c=r(83744);const i={},h=(0,c.Z)(i,[["render",a]]);var f=h}}]);
-//# sourceMappingURL=85884.3c57f308.js.map

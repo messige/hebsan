@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[92004],{92004:function(n,e,r){r.r(e),r.d(e,{default:function(){return k}});var u=r(66252);const a=(0,u.Uk)(" Die Frauen, die am Grab saßen,"),t=(0,u._)("br",null,null,-1),s=(0,u.Uk)(" wehklagten, sie beweinten den Herrn. ");function l(n,e){return(0,u.wg)(),(0,u.iD)(u.HY,null,[a,t,s],64)}var i=r(83744);const c={},b=(0,i.Z)(c,[["render",l]]);var k=b}}]);
-//# sourceMappingURL=92004.d75bb637.js.map

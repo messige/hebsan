@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[53419],{53419:function(n,e,t){t.r(e),t.d(e,{default:function(){return f}});var s=t(66252);const u=(0,s.Uk)(" Et son aspect était comme un éclair,"),r=(0,s._)("br",null,null,-1),a=(0,s.Uk)(" et ses vêtements comme la neige. ");function c(n,e){return(0,s.wg)(),(0,s.iD)(s.HY,null,[u,r,a],64)}var l=t(83744);const i={},o=(0,l.Z)(i,[["render",c]]);var f=o}}]);
-//# sourceMappingURL=53419.0efb1c33.js.map

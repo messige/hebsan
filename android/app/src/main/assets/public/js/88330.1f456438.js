@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[88330],{88330:function(n,e,u){u.r(e),u.d(e,{default:function(){return k}});var l=u(66252);const r=(0,l.Uk)(" Ils placèrent au-dessus de sa tête"),s=(0,l._)("br",null,null,-1),t=(0,l.Uk)(" un écriteau indiquant le motif le concernant :"),a=(0,l._)("br",null,null,-1),c=(0,l.Uk)(" Jésus de Nazareth, le roi des Juifs. ");function i(n,e){return(0,l.wg)(),(0,l.iD)(l.HY,null,[r,s,t,a,c],64)}var d=u(83744);const f={},o=(0,d.Z)(f,[["render",i]]);var k=o}}]);
-//# sourceMappingURL=88330.1f456438.js.map

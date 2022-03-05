@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[11727],{11727:function(e,n,u){u.r(n),u.d(n,{default:function(){return o}});var l=u(66252);const r=(0,l.Uk)(" Et l´Ange du Seigneur descendit du ciel,"),t=(0,l._)("br",null,null,-1),s=(0,l.Uk)(" et, s´approchant, il fit rouler la pierre,"),i=(0,l._)("br",null,null,-1),a=(0,l.Uk)(" et il était assis dessus. ");function c(e,n){return(0,l.wg)(),(0,l.iD)(l.HY,null,[r,t,s,i,a],64)}var d=u(83744);const f={},k=(0,d.Z)(f,[["render",c]]);var o=k}}]);
-//# sourceMappingURL=11727.04973650.js.map

@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[36146],{36146:function(n,e,u){u.r(e),u.d(e,{default:function(){return o}});var r=u(66252);const s=(0,r.Uk)(" Gedenke, dass ich vor dir stand, "),l=(0,r._)("br",null,null,-1),t=(0,r.Uk)(" um Gutes über sie zu reden "),a=(0,r._)("br",null,null,-1),d=(0,r.Uk)(" und deinen Zorn abzuwenden von ihnen ! ");function i(n,e){return(0,r.wg)(),(0,r.iD)(r.HY,null,[s,l,t,a,d],64)}var c=u(83744);const b={},k=(0,c.Z)(b,[["render",i]]);var o=k}}]);
-//# sourceMappingURL=36146.c9ab8fe6.js.map

@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[36704],{36704:function(n,e,r){r.r(e),r.d(e,{default:function(){return f}});var u=r(66252);const s=(0,u.Uk)(" Sie brachten über seinem Haupt"),l=(0,u._)("br",null,null,-1),t=(0,u.Uk)(" die Inschrift seiner Schuld an:"),i=(0,u._)("br",null,null,-1),a=(0,u.Uk)(" Dies ist Jesus, der König der Juden. ");function c(n,e){return(0,u.wg)(),(0,u.iD)(u.HY,null,[s,l,t,i,a],64)}var b=r(83744);const d={},h=(0,b.Z)(d,[["render",c]]);var f=h}}]);
-//# sourceMappingURL=36704.9129c8e1.js.map

@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[2977],{2977:function(n,e,r){r.r(e),r.d(e,{default:function(){return o}});var t=r(66252);const u=(0,t.Uk)(" Sogar seinen eigenen Sohn hat Gott nicht verschont,"),s=(0,t._)("br",null,null,-1),a=(0,t.Uk)(" sondern ihn für uns alle dahingegeben. ");function h(n,e){return(0,t.wg)(),(0,t.iD)(t.HY,null,[u,s,a],64)}var l=r(83744);const c={},i=(0,l.Z)(c,[["render",h]]);var o=i}}]);
-//# sourceMappingURL=2977.9d96068c.js.map

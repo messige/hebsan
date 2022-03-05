@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[67089],{67089:function(n,u,r){r.r(u),r.d(u,{default:function(){return p}});var e=r(66252),t=r(51090);const l=(0,e._)("img",{src:t},null,-1),c=(0,e._)("br",null,null,-1),s=[l,c];function i(n,u){return(0,e.wg)(),(0,e.iD)("p",null,s)}var a=r(83744);const o={},f=(0,a.Z)(o,[["render",i]]);var p=f},51090:function(n,u,r){n.exports=r.p+"img/InAdiutoriumSolemn.7c25b3a8.jpg"}}]);
-//# sourceMappingURL=67089.7dc0dab6.js.map
