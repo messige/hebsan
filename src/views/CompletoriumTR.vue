@@ -67,6 +67,15 @@
               <component :is="arrayOrdine[2].ordineTr" /> </ion-text
           ></ion-col> </ion-row
       ></ion-grid>
+      <component :is="arrayOrdine[3].ordine" />
+      <ion-grid
+        ><ion-row>
+          <ion-col>&nbsp;</ion-col>
+          <ion-col size="11"
+            ><ion-text color="tertiary">
+              <component :is="arrayOrdine[3].ordineTr" /> </ion-text
+          ></ion-col> </ion-row
+      ></ion-grid>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
         <component :is="officeTempusLiturgicus1.inAdiutorium" />
         <ion-grid
@@ -258,6 +267,17 @@ export default defineComponent({
     const arrayOrdine = [
       {
         ordine: defineAsyncComponent(
+          () => import("../components/g95InOrdineOfficii/la/AdiutoriumNostrum.vue")
+        ),
+        ordineTr: defineAsyncComponent(
+          () =>
+            import(
+              "../components/g95InOrdineOfficii/" + lowerLang + "/AdiutoriumNostrum.vue"
+            )
+        ),
+      },      
+      {
+        ordine: defineAsyncComponent(
           () => import("../components/g95InOrdineOfficii/la/ConfiteborDeo.vue")
         ),
         ordineTr: defineAsyncComponent(
@@ -272,17 +292,6 @@ export default defineComponent({
         ordineTr: defineAsyncComponent(
           () =>
             import("../components/g95InOrdineOfficii/" + lowerLang + "/MisereaturNostri.vue")
-        ),
-      },
-      {
-        ordine: defineAsyncComponent(
-          () => import("../components/g95InOrdineOfficii/la/AdiutoriumNostrum.vue")
-        ),
-        ordineTr: defineAsyncComponent(
-          () =>
-            import(
-              "../components/g95InOrdineOfficii/" + lowerLang + "/AdiutoriumNostrum.vue"
-            )
         ),
       },
       {

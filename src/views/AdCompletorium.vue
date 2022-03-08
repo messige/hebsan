@@ -26,19 +26,20 @@
         <p><img src="../assets/g95InOrdineOfficii/AdiutoriumNostrum.jpg" /></p>
       </template>
       <p><Confitebor /></p>
+      <p><MisereaturNostri /></p>
       <p><img src="../assets/g95InOrdineOfficii/ConverteNos.jpg" /></p>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
         <p>
           <ImageDisplay :imgSource="officeTempusLiturgicus2.inAdiutorium" />
         </p>
-        <p><ImageDisplay :imgSource="officeTempusLiturgicus2.ant" /></p>
+        <p><ImageDisplay :imgSource="officeTempusLiturgicus2.antLA" /></p>
       </template>
       <p><ImageDisplay :imgSource="officeTempusLiturgicus1.ton" /></p>
       <p><component :is="officeTempusLiturgicus1.ps004" /></p>
       <p><component :is="officeTempusLiturgicus1.ps090" /></p>
       <p><component :is="officeTempusLiturgicus1.ps133" /></p>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
-        <p><ImageDisplay :imgSource="officeTempusLiturgicus2.ant" /></p>
+        <p><ImageDisplay :imgSource="officeTempusLiturgicus2.antLA" /></p>
         <p><rubrique>Hymnus</rubrique></p>
         <p><ImageDisplay :imgSource="officeTempusLiturgicus2.hymnus" /></p>
         <p><Capitulum /></p>
@@ -103,6 +104,7 @@ import ImageDisplay from "../components/vue/ImageDisplay.vue";
 import { home, arrowBackSharp } from "ionicons/icons";
 import { getFeast } from "../data/feastsTable";
 import Confitebor from "../components/g95InOrdineOfficii/la/ConfiteborDeo.vue";
+import MisereaturNostri from "../components/g95InOrdineOfficii/la/MisereaturNostri.vue";
 import Capitulum from "../components/g75Lectio/la/CapIerCh14V09.vue";
 import NuncDimittisSineGloria from "../components/g65Psalmodia/la/NuncDimittisR13SineGloria.vue";
 import Oratio from "../components/g80Oratio/la/OraHabitationemIstam.vue";
@@ -113,6 +115,7 @@ export default defineComponent({
   name: "AdCompletorium",
   components: {
     Confitebor,
+    MisereaturNostri,
     Capitulum,
     NuncDimittisSineGloria,
     Oratio,
@@ -177,21 +180,21 @@ export default defineComponent({
       {
         tempus: "triduum",
         inAdiutorium: null,
-       antLA: null,
+        antLA: null,
         hymnus: null,
         responsum: null,
       },
       {
         tempus: "quadragesimae",
         inAdiutorium: require("../assets/g95InOrdineOfficii/InAdiutoriumCompQuad.jpg"),
-       antLA: require("../assets/g50Antiphona/AntMiserereMihi.jpg"),
+        antLA: require("../assets/g50Antiphona/AntMiserereMihi.jpg"),
         hymnus: require("../assets/g60Hymnus/HymTeLlucisHebdoSancta.jpg"),
         responsum: require("../assets/g55Responsum/RepInManusTuas.jpg"),
       },
       {
         tempus: "paschali",
         inAdiutorium: require("../assets/g95InOrdineOfficii/InAdiutoriumCompPascha.jpg"),
-       antLA: require("../assets/g50Antiphona/AntAlleluiaPasqua.jpg"),
+        antLA: require("../assets/g50Antiphona/AntAlleluiaPasqua.jpg"),
         hymnus: require("../assets/g60Hymnus/HymTeLucisTP.jpg"),
         responsum: require("../assets/g55Responsum/RepInManusTuasTP.jpg"),
       },
