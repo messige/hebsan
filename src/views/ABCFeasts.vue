@@ -38,15 +38,23 @@
   </ion-page>
 </template>
 
-<script setup lang="ts">
-import { home } from "ionicons/icons";
-import getYear from "date-fns/getYear";
-import CalendariumFeast from "@/components/vue/CalendariumFeast.vue";
+<script lang="ts">
+  import { home } from "ionicons/icons";
+  import getYear from "date-fns/getYear";
+  import { defineComponent }        from 'vue';
+  import CalendariumFeast from "@/components/vue/CalendariumFeast.vue";
 
-const today = new Date(); //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
-const civilYearPlus1 = getYear(today) + 1;
-const civilYearPlus2 = civilYearPlus1 + 1;
-const civilYearPlus3 = civilYearPlus2 + 1;
-const firstMonth = 0;
-const firstDay = 2;
+  const today = new Date(); //   () is Now ; (2022, 11, 23) is 23/12/2022 !!!!
+  const civilYearPlus1 = getYear(today) + 1;
+  const civilYearPlus2 = civilYearPlus1 + 1;
+  const civilYearPlus3 = civilYearPlus2 + 1;
+  const firstMonth = 0;
+  const firstDay = 2;
+  export default defineComponent ( {
+      name: 'ABCFeasts',
+      components: { CalendariumFeast } ,
+      setup() {
+        return  { home ,  civilYearPlus1 ,  civilYearPlus2 ,  civilYearPlus3 , firstMonth , firstDay }
+    }
+  })
 </script>

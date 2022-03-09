@@ -6,7 +6,9 @@
       <div id="container">
                 <ion-toolbar>
           <ion-title
-            >Hebsan
+            ><ion-button size="small" color="light" disabled fill="solid"
+                >Hebsan</ion-button
+              >
             <template v-if="language.abbrev == 'fr'">
               &nbsp;&nbsp;&nbsp;&nbsp;<ion-button size="small" color="light"
                 >FR</ion-button
@@ -26,49 +28,28 @@
           </ion-title>
         </ion-toolbar>
         <br />
-        <ion-list>
-          <ion-item href="/ABCFeasts">
-              <ion-label>
-                <h2>
-                  {{ useTranslate("calendar", language.abbrev) }}
-                  <ion-icon :icon="chevronForward"></ion-icon>
-                </h2>
-                <ion-note>{{ useTranslate("calendarExpla", language.abbrev) }}</ion-note>
-              </ion-label>
-          </ion-item>
-          <br />
-          <ion-item href="/HebdomadaSancta">
-              <ion-label>
-                <h2>
-                  {{ useTranslate("sancta", language.abbrev) }}
-                  <ion-icon :icon="chevronForward"></ion-icon>
-                </h2>
-                <ion-note>{{ useTranslate("sanctaExpla", language.abbrev) }}</ion-note>
-              </ion-label>
-          </ion-item>
-          <br />
-          <ion-item href="/AboutPage">
-              <ion-label>
-                <h2>
-                  {{ useTranslate("about", language.abbrev) }}
-                  <ion-icon :icon="chevronForward"></ion-icon>
-                </h2>
-                <ion-note>{{ useTranslate("aboutExpla", language.abbrev) }}</ion-note>
-              </ion-label>
-          </ion-item>
-          <ion-item>
-              <ion-label>
-                <h2>
-                  {{ useTranslate("about", language.abbrev) }}
-                  <ion-icon :icon="chevronForward"></ion-icon>
-                </h2>
-                <ion-note>{{ useTranslate("aboutExpla", language.abbrev) }}</ion-note>
-              </ion-label>
-          </ion-item>          
-        </ion-list>
 
-            <router-link to="/ToniCommunes">Toni Communes</router-link><br />
-            <router-link to="/AboutPage">About</router-link><br />
+         <router-link to="/ABCFeasts">
+            {{ useTranslate("calendar", language.abbrev) }}
+            &nbsp;<ion-icon :icon="chevronForward"></ion-icon>
+          </router-link>
+          <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;
+          <ion-note>{{ useTranslate("calendarExpla", language.abbrev) }}</ion-note>
+
+          <br /><br /><br />
+          <router-link to="/HebdomadaSancta">
+            {{ useTranslate("sancta", language.abbrev) }}
+            &nbsp;<ion-icon :icon="chevronForward"></ion-icon>
+          </router-link>
+          <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;
+          <ion-note>{{ useTranslate("sanctaExpla", language.abbrev) }}</ion-note>
+          <br /><br /><br /><br />
+          <router-link to="/AboutPage">
+            {{ useTranslate("about", language.abbrev) }}
+             &nbsp;<ion-icon :icon="chevronForward"></ion-icon>
+          </router-link>
+          <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;
+          <ion-note>{{ useTranslate("aboutExpla", language.abbrev) }}</ion-note>
       </div>
     </ion-content>
   </ion-page>

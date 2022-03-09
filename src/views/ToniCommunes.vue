@@ -1,6 +1,5 @@
 <template>
   <ion-page>
-<ion-router-outlet></ion-router-outlet>    
     <ion-header class="ion-no-border">
       <ion-toolbar>
         <ion-button shape="round" size="small" strong href="/"
@@ -39,7 +38,7 @@
 
 <script lang="ts">
   import { IonPage , IonContent , IonHeader , IonFooter , IonButton , IonBackButton } from '@ionic/vue';
-  import { arrowBackSharp, home }       from 'ionicons/icons';
+  import { arrowBackSharp, home }   from 'ionicons/icons';
   import { defineComponent }        from 'vue';
   
   export default defineComponent ( {
