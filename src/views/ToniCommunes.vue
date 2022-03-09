@@ -1,5 +1,6 @@
 <template>
   <ion-page>
+<ion-router-outlet></ion-router-outlet>    
     <ion-header class="ion-no-border">
       <ion-toolbar>
         <ion-button shape="round" size="small" strong href="/"

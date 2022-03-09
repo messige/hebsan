@@ -1,7 +1,10 @@
 <template>
   <ion-page>
       <ion-header :translucent="true">
-        <ion-toolbar>
+      </ion-header>
+      <ion-content>
+      <div id="container">
+                <ion-toolbar>
           <ion-title
             >Hebsan
             <template v-if="language.abbrev == 'fr'">
@@ -22,9 +25,6 @@
             </template>
           </ion-title>
         </ion-toolbar>
-      </ion-header>
-      <ion-content>
-      <div id="container">
         <br />
         <ion-list>
           <ion-item href="/ABCFeasts">
@@ -67,7 +67,7 @@
           </ion-item>          
         </ion-list>
 
-            <ion-router-link to="/ToniCommunes">Toni Communes</ion-router-link><br />
+            <router-link to="/ToniCommunes">Toni Communes</router-link><br />
             <router-link to="/AboutPage">About</router-link><br />
       </div>
     </ion-content>
