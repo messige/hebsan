@@ -56,7 +56,19 @@
                 <ion-note>{{ useTranslate("aboutExpla", language.abbrev) }}</ion-note>
               </ion-label>
           </ion-item>
+          <ion-item>
+              <ion-label>
+                <h2>
+                  {{ useTranslate("about", language.abbrev) }}
+                  <ion-icon :icon="chevronForward"></ion-icon>
+                </h2>
+                <ion-note>{{ useTranslate("aboutExpla", language.abbrev) }}</ion-note>
+              </ion-label>
+          </ion-item>          
         </ion-list>
+
+            <ion-router-link to="/ToniCommunes">Toni Communes</ion-router-link><br />
+            <router-link to="/AboutPage">About</router-link><br />
       </div>
     </ion-content>
   </ion-page>

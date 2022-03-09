@@ -2,14 +2,13 @@
   <ion-page>
     <ion-header class="ion-no-border">
       <ion-toolbar>
-        <ion-button shape="round" size="small" strong href="/"
-          ><ion-icon :icon="home"></ion-icon>
+        <ion-button shape="round" size="small" strong href="/">
+          <ion-icon :icon="home"></ion-icon>
         </ion-button>
-        <br /><br />
-        <ion-title>About</ion-title>
+        <br />
+        <br />
       </ion-toolbar>
     </ion-header>
-
     <ion-content>
       <div id="container">
         <p><strong>Dominicae et Hebdomada Sancta</strong></p>
@@ -190,6 +189,16 @@ hebsan@gregorien.be
   </ion-page>
 </template>
 
-<script setup lang="ts">
-import { home } from "ionicons/icons";
+<script lang="ts">
+  import { IonPage , IonContent , IonHeader , IonButton } from '@ionic/vue';
+  import { home }       from 'ionicons/icons';
+  import { defineComponent }        from 'vue';
+  
+  export default defineComponent ( {
+      name: 'ToniCommunes',
+      components: { IonPage , IonContent , IonHeader , IonButton } ,
+      setup() {
+        return  { home }
+    }
+  })
 </script>
