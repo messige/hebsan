@@ -1,9 +1,15 @@
 <template>
   <ion-page>
+    <ion-header class="ion-no-border">
+      <ion-toolbar>
+        <ion-button shape="round" size="small" strong href="/"
+          ><ion-icon :icon="home"></ion-icon>
+        </ion-button>
+      </ion-toolbar>
+    </ion-header>
     <ion-content>
       <div id="container">
-      <p>&nbsp;</p>
-      <br />
+        <br />
       <h2>
         {{ useTranslate("massOf", lang) }} {{ feastDate }}<br class="smallScreen" />
         {{ feast }} - Anno {{ feastAnnoABC }}
@@ -26,6 +32,7 @@ import {
   IonIcon,
   IonBackButton,
 } from "@ionic/vue";
+import { home } from "ionicons/icons";
 import { defineComponent } from "vue";
 import { defineAsyncComponent } from "vue";
 import { useRoute } from "vue-router";
@@ -67,7 +74,7 @@ export default defineComponent({
       feastAnnoABC,
       useTranslate,
       lang,
-      feastIndex,
+      home
     };
   },
 });

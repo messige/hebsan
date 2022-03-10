@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkhebsan"]=self["webpackChunkhebsan"]||[]).push([[76955],{76955:function(n,e,r){function u(n,e){return" Benedicámus Dómino. Deo Grátias. "}r.r(e),r.d(e,{default:function(){return c}});var s=r(83744);const t={},a=(0,s.Z)(t,[["render",u]]);var c=a}}]);
-//# sourceMappingURL=76955.582e4398.js.map

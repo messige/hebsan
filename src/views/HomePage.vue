@@ -54,24 +54,33 @@
     </ion-content>
   </ion-page>
 </template>
-<script setup lang="ts">
-  import { reactive } from "vue";
-  import useTranslate from "../components/ts/translateService";
-  import { chevronForward } from "ionicons/icons";
-const language = reactive({
-    abbrev: "fr",
-  });
+<script lang="ts">
+import { IonPage, IonContent } from "@ionic/vue";
+import { chevronForward } from "ionicons/icons";
+import { defineComponent } from "vue";
+import useTranslate from "../components/ts/translateService";
+import { reactive } from "vue";
+export default defineComponent({
+  name: "HomePage",
+  components: { IonPage, IonContent } ,
+  setup() {
+    const language = reactive({
+        abbrev: "fr",
+      });
 
-  //localStorage.removeItem("lang") ;
+    //localStorage.removeItem("lang") ;
 
-  function setLang(target: string): void {
-    localStorage.setItem("lang", target);
-    language.abbrev = target;
+    function setLang(target: string): void {
+      localStorage.setItem("lang", target);
+      language.abbrev = target;
+    }
+    const getLanguage = localStorage.getItem("lang");
+    if (getLanguage) {
+      language.abbrev = getLanguage;
+    } else {
+      localStorage.setItem("lang", "fr");
+    }
+    return { useTranslate, chevronForward, setLang, language };
   }
-  const getLanguage = localStorage.getItem("lang");
-  if (getLanguage) {
-    language.abbrev = getLanguage;
-  } else {
-    localStorage.setItem("lang", "fr");
-  }
+});
 </script>

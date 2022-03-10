@@ -1,9 +1,15 @@
 <template>
   <ion-page>
+    <ion-header class="ion-no-border">
+      <ion-toolbar>
+        <ion-button shape="round" size="small" strong href="/"
+          ><ion-icon :icon="home"></ion-icon>
+        </ion-button>
+      </ion-toolbar>
+    </ion-header>
     <ion-content>
       <div id="container">
-      <p>&nbsp;</p>
-      <br />
+        <br />
       <h2>{{ titleLA }} - {{ titleTR }}</h2>
       <ion-list>
         <template v-for="officeItem in OfficeItems" :key="officeItem.id">
@@ -16,10 +22,9 @@
                 }"
               >
                 <ion-label class="ion-text-wrap">
-                  <h2>
                     {{ officeItem.officeName }}
                     <ion-icon :icon="chevronForward"></ion-icon>
-                  </h2>
+
                 </ion-label>
               </router-link>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,7 +35,7 @@
                 }"
               >
                 <ion-label>
-                  <h2>{{ langUpper }} <ion-icon :icon="chevronForward"></ion-icon></h2>
+                    {{ langUpper }} <ion-icon :icon="chevronForward"></ion-icon>
                 </ion-label>
               </router-link>  
             </ion-item>
@@ -55,7 +60,7 @@
 <script lang="ts">
 import { IonPage, IonContent } from "@ionic/vue";
 import { getOffices } from "../data/officesTable";
-import { chevronForward } from "ionicons/icons";
+import { chevronForward , home } from "ionicons/icons";
 import { defineComponent } from "vue";
 import useTranslate from "../components/ts/translateService";
 export default defineComponent({
@@ -73,7 +78,7 @@ export default defineComponent({
       lang = language;
     }
     const langUpper = lang.toUpperCase();
-    return { useTranslate, OfficeItems: getOffices(), chevronForward, lang, langUpper };
+    return { useTranslate, OfficeItems: getOffices(), chevronForward, home,lang, langUpper };
   },
 });
 </script>
