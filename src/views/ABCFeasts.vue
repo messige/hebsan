@@ -39,6 +39,10 @@
 </template>
 
 <script lang="ts">
+import {
+  IonButton,
+  IonIcon
+} from "@ionic/vue";
   import { home } from "ionicons/icons";
   import getYear from "date-fns/getYear";
   import { defineComponent }        from 'vue';
@@ -52,7 +56,7 @@
   const firstDay = 2;
   export default defineComponent ( {
       name: 'ABCFeasts',
-      components: { CalendariumFeast } ,
+      components: { CalendariumFeast,  IonButton,  IonIcon  } ,
       setup() {
         return  { home ,  civilYearPlus1 ,  civilYearPlus2 ,  civilYearPlus3 , firstMonth , firstDay }
     }

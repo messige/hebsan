@@ -4,7 +4,7 @@
       </ion-header>
       <ion-content>
       <div id="container">
-                <ion-toolbar>
+        <ion-toolbar>
           <ion-title
             ><ion-button size="small" color="light" disabled fill="solid"
                 >Hebsan</ion-button
@@ -28,7 +28,6 @@
           </ion-title>
         </ion-toolbar>
         <br />
-
          <router-link to="/ABCFeasts">
             {{ useTranslate("calendar", language.abbrev) }}
             &nbsp;<ion-icon :icon="chevronForward"></ion-icon>
@@ -66,7 +65,7 @@ export default defineComponent({
   setup() {
     const language = reactive({
         abbrev: "fr",
-      });
+    });
 
     //localStorage.removeItem("lang") ;
 

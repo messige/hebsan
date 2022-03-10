@@ -22,28 +22,20 @@
       <br />
       <strong>III. Tonus Orationis Simplex:<br />Ad Horas Minores et Completorium</strong><br /><br />
       <p><img src="@/assets/g80Oratio/TonusOraSimplex.jpg" /></p>
-      <br />
-      <ion-footer class="ion-no-border">
-        <ion-toolbar>
-          <ion-button shape="round" size="small">
-              <ion-back-button text="Back" default-href="/HomePage"></ion-back-button>
-          </ion-button>
-        </ion-toolbar>
-        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>      
-      </ion-footer> 
+      <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p> 
       </div>       
     </ion-content>
   </ion-page>
 </template>
 
 <script lang="ts">
-  import { IonPage , IonContent , IonHeader , IonFooter , IonButton , IonBackButton } from '@ionic/vue';
+  import { IonPage , IonContent , IonHeader , IonButton, IonIcon } from '@ionic/vue';
   import { arrowBackSharp, home }   from 'ionicons/icons';
   import { defineComponent }        from 'vue';
   
   export default defineComponent ( {
       name: 'ToniCommunes',
-      components: { IonPage , IonContent , IonHeader , IonFooter , IonButton , IonBackButton } ,
+      components: { IonPage , IonContent , IonHeader , IonButton, IonIcon } ,
       setup() {
         return  { arrowBackSharp, home }
     }

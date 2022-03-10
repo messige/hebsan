@@ -37,7 +37,7 @@
                 <ion-label>
                     {{ langUpper }} <ion-icon :icon="chevronForward"></ion-icon>
                 </ion-label>
-              </router-link>  
+              </router-link>
             </ion-item>
           </template>
         </template>
@@ -58,14 +58,14 @@
 </template>
 
 <script lang="ts">
-import { IonPage, IonContent } from "@ionic/vue";
+import { IonPage, IonContent, IonList, IonIcon } from "@ionic/vue";
 import { getOffices } from "../data/officesTable";
 import { chevronForward , home } from "ionicons/icons";
 import { defineComponent } from "vue";
 import useTranslate from "../components/ts/translateService";
 export default defineComponent({
   name: "OfficeList",
-  components: { IonPage, IonContent },
+  components: { IonPage, IonContent, IonList, IonIcon },
   props: {
     feastID: { type: Number, required: true },
     titleLA: { type: String, required: true },

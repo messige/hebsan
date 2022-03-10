@@ -41,14 +41,23 @@
   </ion-page>
 </template>
 
-<script setup lang="ts">
-import { home } from "ionicons/icons";
-import { getFeasts } from "../data/feastsTable";
-import useTranslate from "../components/ts/translateService";
-let lang = "fr";
-const language = localStorage.getItem("lang");
-if (language) {
-  lang = language;
-}
-const arrayFeasts = getFeasts();
+<script lang="ts">
+  import { home } from "ionicons/icons";
+  import { defineComponent }        from 'vue';
+  import { IonIcon } from "@ionic/vue";
+  import { getFeasts } from "../data/feastsTable";
+  import useTranslate from "../components/ts/translateService";
+  let lang = "fr";
+  const language = localStorage.getItem("lang");
+  if (language) {
+    lang = language;
+  }
+  const arrayFeasts = getFeasts();
+    export default defineComponent ( {
+        name: 'ABCFeasts',
+        components: { IonIcon } ,
+        setup() {
+          return  { home ,  lang, useTranslate, arrayFeasts }
+      }
+    })
 </script>
