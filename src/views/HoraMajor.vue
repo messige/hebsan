@@ -78,9 +78,8 @@ import {
   IonBackButton,
 } from "@ionic/vue";
 import { defineAsyncComponent } from "vue";
-import { arrowBackSharp } from "ionicons/icons";
+import { arrowBackSharp, home } from "ionicons/icons";
 import ImageDisplay from "@/components/vue/ImageDisplay.vue";
-import { home } from "ionicons/icons";
 import { defineComponent } from "vue";
 import { getFeast } from "../data/feastsTable";
 import { getOffice } from "../data/officesTable";

@@ -190,13 +190,13 @@ hebsan@gregorien.be
 </template>
 
 <script lang="ts">
-  import { IonPage , IonContent , IonHeader , IonButton, IonIcon } from '@ionic/vue';
+  import { IonPage , IonContent , IonHeader , IonToolbar, IonButton, IonIcon } from '@ionic/vue';
   import { home }       from 'ionicons/icons';
   import { defineComponent }        from 'vue';
   
   export default defineComponent ( {
       name: 'ToniCommunes',
-      components: { IonPage , IonContent , IonHeader , IonButton, IonIcon } ,
+      components: { IonPage , IonContent , IonHeader, IonToolbar , IonButton, IonIcon } ,
       setup() {
         return  { home }
     }

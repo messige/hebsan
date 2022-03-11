@@ -44,7 +44,7 @@
 <script lang="ts">
   import { home } from "ionicons/icons";
   import { defineComponent }        from 'vue';
-  import { IonIcon } from "@ionic/vue";
+  import { IonPage, IonHeader, IonToolbar, IonButton, IonContent, IonIcon } from "@ionic/vue";
   import { getFeasts } from "../data/feastsTable";
   import useTranslate from "../components/ts/translateService";
   let lang = "fr";
@@ -55,7 +55,7 @@
   const arrayFeasts = getFeasts();
     export default defineComponent ( {
         name: 'ABCFeasts',
-        components: { IonIcon } ,
+        components: { IonPage, IonHeader, IonToolbar, IonButton, IonContent, IonIcon } ,
         setup() {
           return  { home ,  lang, useTranslate, arrayFeasts }
       }

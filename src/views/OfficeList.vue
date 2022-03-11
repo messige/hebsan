@@ -58,14 +58,14 @@
 </template>
 
 <script lang="ts">
-import { IonPage, IonContent, IonList, IonIcon } from "@ionic/vue";
+import { IonPage, IonHeader, IonToolbar, IonButton, IonContent, IonList, IonItem, IonLabel, IonIcon } from "@ionic/vue";
 import { getOffices } from "../data/officesTable";
 import { chevronForward , home } from "ionicons/icons";
 import { defineComponent } from "vue";
 import useTranslate from "../components/ts/translateService";
 export default defineComponent({
   name: "OfficeList",
-  components: { IonPage, IonContent, IonList, IonIcon },
+  components: { IonPage, IonHeader, IonToolbar, IonButton, IonContent, IonList, IonItem, IonLabel, IonIcon },
   props: {
     feastID: { type: Number, required: true },
     titleLA: { type: String, required: true },

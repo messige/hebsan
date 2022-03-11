@@ -54,14 +54,14 @@
   </ion-page>
 </template>
 <script lang="ts">
-import { IonPage, IonContent } from "@ionic/vue";
+import { IonPage, IonHeader, IonTitle, IonToolbar, IonButton, IonContent,IonNote } from "@ionic/vue";
 import { chevronForward } from "ionicons/icons";
 import { defineComponent } from "vue";
 import useTranslate from "../components/ts/translateService";
 import { reactive } from "vue";
 export default defineComponent({
   name: "HomePage",
-  components: { IonPage, IonContent } ,
+  components: { IonPage, IonHeader, IonTitle, IonToolbar, IonButton, IonContent, IonNote } ,
   setup() {
     const language = reactive({
         abbrev: "fr",

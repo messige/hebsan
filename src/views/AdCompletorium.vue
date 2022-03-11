@@ -16,7 +16,7 @@
     <ion-content>
       <div id="container">
       <h2>
-        {{ feastCurrent.title }}<br />{{ feastCurrent.titleTR }}
+        {{ feastCurrent.titleLA }}<br />{{ feastCurrent.titleTR }}
          <br />Ad Competorium
       </h2>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
@@ -91,11 +91,10 @@
 import {
   IonPage,
   IonContent,
-  IonHeader,
-  IonFooter,
+  IonHeader, 
+  IonToolbar,
   IonButton,
-  IonIcon,
-  IonBackButton,
+  IonIcon
 } from "@ionic/vue";
 import { defineComponent } from "vue";
 import { defineAsyncComponent } from "vue";
@@ -125,10 +124,9 @@ export default defineComponent({
     IonPage,
     IonContent,
     IonHeader,
-    IonFooter,
+    IonToolbar,
     IonButton,
-    IonIcon,
-    IonBackButton,
+    IonIcon
   },
   setup() {
     const route = useRoute();

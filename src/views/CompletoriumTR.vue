@@ -16,7 +16,7 @@
     <ion-content>
       <div id="container">
       <h2>
-        {{ feastCurrent.title }} <br />{{ feastCurrent.titleTr }}
+        {{ feastCurrent.titleLA }} <br />{{ feastCurrent.titleTR }}
          <br />Ad Competorium
       </h2>
       <template v-if="officeTempusLiturgicus1.tempus != 'triduum'">
