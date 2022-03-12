@@ -240,7 +240,7 @@ export default defineComponent({
       },
     ];
     i = 0;
-    if (feastNum < 5 || feastNum == 9) {
+    if (feastNum < 5 ) {
       i = 1;
     } /* Aux Laudes et aux Vêpres de la Seamine Sainte */ else if (feastNum == 8) {
       i = 2;
@@ -1732,8 +1732,8 @@ export default defineComponent({
       },
     ];
     i = 0;
-    if (feastNum < 5 || feastNum == 9) {
-      /* Aux Laudes et aux Vêpres de la Seamine Sainte */
+    if (feastNum < 5 ) {
+      /* Aux Laudes et aux Vêpres de la Semaine Sainte */
       if (officeNum == 1) {
         i = 1;
       } else if (officeNum == 2) {
@@ -1841,7 +1841,7 @@ export default defineComponent({
       },
     ];
     i = 0;
-    if (feastNum < 5 || feastNum == 9) {
+    if (feastNum < 5 ) {
       if (officeNum == 2) {
         i = 1;
       }

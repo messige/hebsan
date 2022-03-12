@@ -405,7 +405,7 @@ export default defineComponent({
     i = 0;
     if (feastNum == 2 || feastNum == 3 || feastNum == 4) {
       i = 1;
-    } /* Aux Laudes et aux Vêpres de la féérie  */ else if (feastNum == 9) {
+    } /* Aux Laudes et aux Vêpres de la féérie  */ else if (feastNum == 0) {
       i = 2;
     } /* La veille des Rameaux  aux Vêpres  */ else if (feastNum == 1) {
       if (officeNum == 1) {
