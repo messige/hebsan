@@ -4,6 +4,7 @@
       </ion-header>
       <ion-content>
       <div id="container">
+        <br />&nbsp;<br />
         <ion-toolbar>
           <ion-title
             ><ion-button size="small" color="light" disabled fill="solid"
@@ -34,7 +35,6 @@
           </router-link>
           <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;
           <ion-note>{{ useTranslate("calendarExpla", language.abbrev) }}</ion-note>
-
           <br /><br /><br />
           <router-link to="/HebdomadaSancta">
             {{ useTranslate("sancta", language.abbrev) }}
@@ -49,19 +49,38 @@
           </router-link>
           <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;
           <ion-note>{{ useTranslate("aboutExpla", language.abbrev) }}</ion-note>
+          <br />&nbsp;<br />
       </div>
     </ion-content>
+    <ion-footer>
+            <template v-if="language.abbrev == 'fr'">
+              &nbsp;&nbsp;&nbsp;&nbsp;<ion-button size="small" color="light"
+                >FR</ion-button
+              >
+              &nbsp;&nbsp;&nbsp;&nbsp;<ion-button size="small" @click="setLang('de')"
+                >DE</ion-button
+              >
+            </template>
+            <template v-else>
+              &nbsp;&nbsp;&nbsp;&nbsp;<ion-button size="small" color="light"
+                >DE</ion-button
+              >
+              &nbsp;&nbsp;&nbsp;&nbsp;<ion-button size="small" @click="setLang('fr')"
+                >FR</ion-button
+              >
+            </template>
+    </ion-footer>
   </ion-page>
 </template>
 <script lang="ts">
-import { IonPage, IonHeader, IonTitle, IonToolbar, IonButton, IonContent,IonNote } from "@ionic/vue";
+import { IonPage, IonHeader, IonTitle, IonToolbar, IonButton, IonContent,IonNote, IonFooter } from "@ionic/vue";
 import { chevronForward } from "ionicons/icons";
 import { defineComponent } from "vue";
 import useTranslate from "../components/ts/translateService";
 import { reactive } from "vue";
 export default defineComponent({
   name: "HomePage",
-  components: { IonPage, IonHeader, IonTitle, IonToolbar, IonButton, IonContent, IonNote } ,
+  components: { IonPage, IonHeader, IonTitle, IonToolbar, IonButton, IonContent, IonNote, IonFooter } ,
   setup() {
     const language = reactive({
         abbrev: "fr",
