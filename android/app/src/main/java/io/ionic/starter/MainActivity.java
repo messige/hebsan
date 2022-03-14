@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package hebsan.gregorien.be;
 
 import com.getcapacitor.BridgeActivity;
 
